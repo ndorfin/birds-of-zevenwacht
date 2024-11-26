@@ -38,68 +38,73 @@
 </header>
 	<article>
 		
-
-<dl>
-	<div>
-		<dt>Date and time</dt>
-		<dd><time datetime="2024-11-25T15:09:00.000Z">
+<ul>
+	
+		<li>
+			<dl>
+				<div>
+					<dt>Date and time</dt>
+					<dd><time datetime="2024-11-25T15:09:00.000Z">
 			2024/11/25 15:09:00
 		</time></dd>
-	</div>
-	<div>
-		<dt>Description</dt>
-		<dd>
-			<p>The Sparrowhawks had apparently been nesting in the Stone Pines on the Village's south-eastern boundary, so we went to investigate.
+				</div>
+				<div>
+					<dt>Description</dt>
+					<dd>
+						<p>The Sparrowhawks had apparently been nesting in the Stone Pines on the Village's south-eastern boundary, so we went to investigate.
 As we approached the trees, one of the sparrowhawks took flight, followed by another shortly afterwards.
 We couldn't see a nest, but there was evidence of predation, and many predator droppings on the ground below the Stone Pines.</p>
 
-		</dd>
-	</div>
-	<div>
-		<dt>Bird species</dt>
-		<dd>
-			<ul>
+					</dd>
+				</div>
+				<div>
+					<dt>Birds</dt>
+					<dd>
+						2 ⨉ Rufous-chested Sparrowhawk
+					</dd>
+				</div>
 				
-					<li>2 ⨉ Rufous-chested Sparrowhawk</li>
+				<div>
+					<dt>Associated photos</dt><dt>
+					</dt><dd>
+						<ul>
+							
+								
+								<li><img src="/birds-of-zevenwacht/assets/photos/0E67A085-D7E7-4771-8BA0-CD227EF46E8A.jpeg" alt="A Rufous-chest Sparrowhawk in flight, wings fully-extended"></li>
+							
+						</ul>
+					</dd>
+				</div>
 				
-			</ul>
-		</dd>
-	</div>
-	<div>
-		<dt>Associated photo</dt><dt>
-		</dt><dd>
-			
-				
-				<img src="/birds-of-zevenwacht/assets/photos/0E67A085-D7E7-4771-8BA0-CD227EF46E8A.jpeg" alt="A Rufous-chest Sparrowhawk in flight, wings fully-extended">
-			
-		</dd>
-	</div>
-	<div>
-		<dt>Observers</dt>
-		<dd>
-			<ul>
-			
-				<li>Shaun</li>
-			
-				<li>Ingunn</li>
-			
-			</ul>
-		</dd>
-	</div>
-	<div>
-		<dt>Location</dt>
-		<dd>
-			Zevenwacht Village
-			
-			<br>
-			<a href="http://maps.google.com/maps?z=12&t=m&q=loc:-33.934346+18.708862">
-				-33.934346, 18.708862
-			</a>
-			
-		</dd><dd>
-	</dd></div>
-
-	</dl></article>
+				<div>
+					<dt>Observers</dt>
+					<dd>
+						<ul>
+						
+							<li>Shaun</li>
+						
+							<li>Ingunn</li>
+						
+						</ul>
+					</dd>
+				</div>
+				<div>
+					<dt>Location</dt>
+					<dd>
+						Zevenwacht Village
+						
+						<br>
+						<a href="http://maps.google.com/maps?z=12&t=m&q=loc:-33.934346+18.708862">
+							-33.934346, 18.708862
+						</a>
+						
+					</dd><dd>
+				</dd></div>
+			</dl>
+		</li>
+	
+</ul>
+	</article>
 </main>
 <footer>
 	
@@ -113,62 +118,67 @@ page: {
   filePathStem: '/sightings/index',
   outputFileExtension: 'html',
   templateSyntax: 'njk',
-  date: 2024-11-26T13:05:51.657Z,
+  date: 2024-11-26T13:25:52.866Z,
   rawInput: '\n' +
-    '{% for sightingId, sighting in sightings %}\n' +
-    '<dl>\n' +
-    '\t<div>\n' +
-    '\t\t<dt>Date and time</dt>\n' +
-    '\t\t<dd>{% datetime sighting.datetime %}</dd>\n' +
-    '\t</div>\n' +
-    '\t<div>\n' +
-    '\t\t<dt>Description</dt>\n' +
-    '\t\t<dd>\n' +
-    '\t\t\t{{ sighting.description | markdown | safe }}\n' +
-    '\t\t</dd>\n' +
-    '\t</div>\n' +
-    '\t<div>\n' +
-    '\t\t<dt>Bird species</dt>\n' +
-    '\t\t<dd>\n' +
-    '\t\t\t<ul>\n' +
-    '\t\t\t\t{% for species in sighting.birds %}\n' +
-    '\t\t\t\t\t<li>{{ species.quantity }} ⨉ {{ birds[species.id].name }}</li>\n' +
-    '\t\t\t\t{% endfor %}\n' +
-    '\t\t\t</ul>\n' +
-    '\t\t</dd>\n' +
-    '\t</div>\n' +
-    '\t<div>\n' +
-    '\t\t<dt>Associated photo<dt>\n' +
-    '\t\t<dd>\n' +
-    '\t\t\t{% if sighting.photo %}\n' +
-    '\t\t\t\t{% set associatedPhoto = photos[sighting.photo] %}\n' +
-    '\t\t\t\t<img src="/assets/photos/{{ associatedPhoto.file }}" alt="{{ associatedPhoto.description }}">\n' +
-    '\t\t\t{% endif %}\n' +
-    '\t\t</dd>\n' +
-    '\t</div>\n' +
-    '\t<div>\n' +
-    '\t\t<dt>Observers</dt>\n' +
-    '\t\t<dd>\n' +
-    '\t\t\t<ul>\n' +
-    '\t\t\t{% for observerId in sighting.observers %}\n' +
-    '\t\t\t\t<li>{{ people[observerId].name }}</li>\n' +
-    '\t\t\t{% endfor %}\n' +
-    '\t\t\t</ul>\n' +
-    '\t\t</dd>\n' +
-    '\t</div>\n' +
-    '\t<div>\n' +
-    '\t\t<dt>Location</dt>\n' +
-    '\t\t<dd>\n' +
-    '\t\t\t{{ areas[sighting.location.area].name }}\n' +
-    '\t\t\t{% if sighting.location.latitude %}\n' +
-    '\t\t\t<br>\n' +
-    '\t\t\t<a href="http://maps.google.com/maps?z=12&t=m&q=loc:{{ sighting.location.latitude }}+{{ sighting.location.longitude }}">\n' +
-    '\t\t\t\t{{ sighting.location.latitude }}, {{ sighting.location.longitude }}\n' +
-    '\t\t\t</a>\n' +
-    '\t\t\t{% endif %}\n' +
-    '\t\t<dd>\n' +
-    '\t</div>\n' +
-    '{% endfor %}',
+    '<ul>\n' +
+    '\t{% for sightingId, sighting in sightings %}\n' +
+    '\t\t<li>\n' +
+    '\t\t\t<dl>\n' +
+    '\t\t\t\t<div>\n' +
+    '\t\t\t\t\t<dt>Date and time</dt>\n' +
+    '\t\t\t\t\t<dd>{% datetime sighting.datetime %}</dd>\n' +
+    '\t\t\t\t</div>\n' +
+    '\t\t\t\t<div>\n' +
+    '\t\t\t\t\t<dt>Description</dt>\n' +
+    '\t\t\t\t\t<dd>\n' +
+    '\t\t\t\t\t\t{{ sighting.description | markdown | safe }}\n' +
+    '\t\t\t\t\t</dd>\n' +
+    '\t\t\t\t</div>\n' +
+    '\t\t\t\t<div>\n' +
+    '\t\t\t\t\t<dt>Birds</dt>\n' +
+    '\t\t\t\t\t<dd>\n' +
+    '\t\t\t\t\t\t{{ sighting.bird.quantity }} ⨉ {{ birds[sighting.bird.id].name }}\n' +
+    '\t\t\t\t\t</dd>\n' +
+    '\t\t\t\t</div>\n' +
+    '\t\t\t\t{% if sighting.photos %}\n' +
+    '\t\t\t\t<div>\n' +
+    '\t\t\t\t\t<dt>Associated photos<dt>\n' +
+    '\t\t\t\t\t<dd>\n' +
+    '\t\t\t\t\t\t<ul>\n' +
+    '\t\t\t\t\t\t\t{% for photoId in sighting.photos %}\n' +
+    '\t\t\t\t\t\t\t\t{% set associatedPhoto = photos[photoId] %}\n' +
+    '\t\t\t\t\t\t\t\t<li><img src="/assets/photos/{{ associatedPhoto.file }}" alt="{{ associatedPhoto.description }}"></li>\n' +
+    '\t\t\t\t\t\t\t{% endfor %}\n' +
+    '\t\t\t\t\t\t</ul>\n' +
+    '\t\t\t\t\t</dd>\n' +
+    '\t\t\t\t</div>\n' +
+    '\t\t\t\t{% endif %}\n' +
+    '\t\t\t\t<div>\n' +
+    '\t\t\t\t\t<dt>Observers</dt>\n' +
+    '\t\t\t\t\t<dd>\n' +
+    '\t\t\t\t\t\t<ul>\n' +
+    '\t\t\t\t\t\t{% for observerId in sighting.observers %}\n' +
+    '\t\t\t\t\t\t\t<li>{{ people[observerId].name }}</li>\n' +
+    '\t\t\t\t\t\t{% endfor %}\n' +
+    '\t\t\t\t\t\t</ul>\n' +
+    '\t\t\t\t\t</dd>\n' +
+    '\t\t\t\t</div>\n' +
+    '\t\t\t\t<div>\n' +
+    '\t\t\t\t\t<dt>Location</dt>\n' +
+    '\t\t\t\t\t<dd>\n' +
+    '\t\t\t\t\t\t{{ areas[sighting.location.area].name }}\n' +
+    '\t\t\t\t\t\t{% if sighting.location.latitude %}\n' +
+    '\t\t\t\t\t\t<br>\n' +
+    '\t\t\t\t\t\t<a href="http://maps.google.com/maps?z=12&t=m&q=loc:{{ sighting.location.latitude }}+{{ sighting.location.longitude }}">\n' +
+    '\t\t\t\t\t\t\t{{ sighting.location.latitude }}, {{ sighting.location.longitude }}\n' +
+    '\t\t\t\t\t\t</a>\n' +
+    '\t\t\t\t\t\t{% endif %}\n' +
+    '\t\t\t\t\t<dd>\n' +
+    '\t\t\t\t</div>\n' +
+    '\t\t\t</dl>\n' +
+    '\t\t</li>\n' +
+    '\t{% endfor %}\n' +
+    '</ul>',
   url: '/sightings/',
   outputPath: './dist/sightings/index.html'
 }
