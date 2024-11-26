@@ -7,13 +7,6 @@ const markdownIt = require('markdown-it');
 
 const md = new markdownIt({html: true});
 
-function dateWithTimeZoneOffset(date) {
-	let newDate = new Date(date);
-	const timeZoneOffset = newDate.getTimezoneOffset();
-	newDate.setMinutes(timeZoneOffset);
-	return newDate;
-}
-
 export default async function(config) {	
 	/* Add build:prod pathprefix capabilities for builds against gh-pages */
 	config.addPlugin(EleventyHtmlBasePlugin);
@@ -46,8 +39,9 @@ export default async function(config) {
 
 	/* Shortcodes */
 	config.addShortcode('datetime', function(date) {
-		return `<time datetime="${ dateWithTimeZoneOffset(date).toISOString() }">
-			${ dateWithTimeZoneOffset(date).toUTCString() }
+		const newDate = new Date(date);
+		return `<time datetime="${ newDate.toISOString() }">
+			${ newDate.toLocaleString('za') }
 		</time>`;
 	});
 

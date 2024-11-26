@@ -1,8 +1,62 @@
 ---
 title: Sightings
-heading: 
-summary: 
-description: 
+heading: Sightings
+summary: Recorded sightings of birds
+description: Recorded sightings of birds
 eleventyExcludeFromCollections: true
 ---
 
+{% for sightingId, sighting in sightings %}
+<dl>
+	<div>
+		<dt>Date and time</dt>
+		<dd>{% datetime sighting.datetime %}</dd>
+	</div>
+	<div>
+		<dt>Description</dt>
+		<dd>
+			{{ sighting.description | markdown | safe }}
+		</dd>
+	</div>
+	<div>
+		<dt>Bird species</dt>
+		<dd>
+			<ul>
+				{% for species in sighting.birds %}
+					<li>{{ species.quantity }} ⨉ {{ birds[species.id].name }}</li>
+				{% endfor %}
+			</ul>
+		</dd>
+	</div>
+	<div>
+		<dt>Associated photo<dt>
+		<dd>
+			{% if sighting.photo %}
+				{% set associatedPhoto = photos[sighting.photo] %}
+				<img src="/assets/photos/{{ associatedPhoto.file }}" alt="{{ associatedPhoto.description }}">
+			{% endif %}
+		</dd>
+	</div>
+	<div>
+		<dt>Observers</dt>
+		<dd>
+			<ul>
+			{% for observerId in sighting.observers %}
+				<li>{{ people[observerId].name }}</li>
+			{% endfor %}
+			</ul>
+		</dd>
+	</div>
+	<div>
+		<dt>Location</dt>
+		<dd>
+			{{ areas[sighting.location.area].name }}
+			{% if sighting.location.latitude %}
+			<br>
+			<a href="http://maps.google.com/maps?z=12&t=m&q=loc:{{ sighting.location.latitude }}+{{ sighting.location.longitude }}">
+				{{ sighting.location.latitude }}, {{ sighting.location.longitude }}
+			</a>
+			{% endif %}
+		<dd>
+	</div>
+{% endfor %}
