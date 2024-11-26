@@ -6,7 +6,7 @@ file: 0E67A085-D7E7-4771-8BA0-CD227EF46E8A.jpeg
 # Link this Photo to a Sighting, by providing the Sighting ID:
 sighting: 2024-11-25-sparrowhawk
 # Describe this image, as if you were explaining it over the phone
-description: A Rufous-chest Sparrowhawk in flight, wings fully-extended
+description: A Rufous-chested Sparrowhawk in flight, wings fully-extended
 # List each of the bird IDs present in this photo
 birds:
   - sparrowhawk-rufous-chested
@@ -15,12 +15,13 @@ camera:
   # Supply the Camera ID (matching a file in the _data/cameras folder)
   id: sony-ilce-7m3
   # What lens was used with this camera?
-  lens: FE 100-400mm F4.5-5.6 GM OSS
-  # What was the teleconverter magnification, if any?
+  lens: Sony FE 100-400mm F4.5-5.6 GM OSS
+  # Was a teleconverter attached?
+  # If so, what is the teleconverter magnification?
   # If none was present, set this to: 1
   converter: 1.4
 parameters:
-  # This reading is independent of any present Teleconverter
+  # This reading includes teleconverter aperture narrowing
   f-stop: 6.3
   # This reading includes teleconverter magnification
   focal-length: 140mm
