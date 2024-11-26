@@ -1,0 +1,5 @@
+{% if page_meta.title %}
+	{% set title = page_meta.title %}
+{% endif %}
+<title>{{ title }} — {{ site.title.suffix }}</title>
+<meta property="og:title" content="{{ title }}">

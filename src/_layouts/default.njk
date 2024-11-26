@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="/assets/css/index.css">
+{% include "title.njk" %}
+{% include "site_meta.njk" %}
+{% include "site_header.njk" %}
+{% include "site_navigation.njk" %}
+<main>
+	{% include "page_header.njk" %}
+	<article>
+		{{ content | safe }}
+	</article>
+</main>
+{% include "site_footer.njk" %}
+{% include "debug.njk" %}

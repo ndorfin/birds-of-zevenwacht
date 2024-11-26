@@ -1,0 +1,12 @@
+{% if page_meta.heading %}
+{% set heading = page_meta.heading %}
+{% endif %}
+{% if page_meta.description %}
+{% set description = page_meta.description %}
+{% endif %}
+<header>
+	<h2>{{ heading | safe }}</h2>
+	{% if description %}
+		{{ description | markdown | safe }}
+	{% endif %}
+</header>

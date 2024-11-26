@@ -1,0 +1,12 @@
+{% if site.enable_debug === true %}
+<!--
+============================
+page: {{ page | debug | safe }}
+page_meta: {{ page_meta | debug | safe }}
+title: {{ title | debug | safe }}
+heading: {{ heading | debug | safe }}
+summary: {{ summary | debug | safe }}
+description: {{ description | debug | safe }}
+============================
+-->
+{% endif %}
