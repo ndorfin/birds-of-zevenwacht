@@ -33,3 +33,7 @@ parameters:
   iso: 125
 # Link this photo to a photographer (matching a file in the _data/people folder)
 photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.934460
+  longitude: 18.709044
