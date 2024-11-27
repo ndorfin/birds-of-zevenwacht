@@ -8,9 +8,9 @@
 <meta property="og:title" content="Birds">
 
 <meta name="generator" content="Eleventy (11ty.dev)">
-<meta name="description" content="">
+<meta name="description" content="All birds sighted in Zevenwacht">
 <meta property="og:site_name" content="Birds of Zevenwacht">
-<meta property="og:description" content="">
+<meta property="og:description" content="All birds sighted in Zevenwacht">
 <header>
 	<h1>
 		<a href="/birds-of-zevenwacht/">Birds of Zevenwacht</a>
@@ -30,12 +30,49 @@
 	
 
 <header>
-	<h2></h2>
+	<h2>Birds</h2>
+	
+		<p>All birds sighted in Zevenwacht</p>
+
 	
 </header>
 	<article>
 		
-
+<ul>
+	
+		<li>
+			<details>
+				<summary>Rufous-chested Sparrowhawk</summary>
+				<p>Sightings</p>
+				<ul>
+				
+					
+					<li>
+						<a href="/birds-of-zevenwacht/sightings/#sighting_2024-11-25-sparrowhawk">
+							2024-11-25T17:09+02:00
+						</a>
+					</li>
+					
+				
+				</ul>
+				<p>Photos</p>
+				<ul>
+				
+					
+						
+						<li>
+							<a href="/birds-of-zevenwacht/photos/#photo_2024-11-25-sparrowhawk">
+								2024-11-25T17:09+02:00
+							</a>
+						</li>
+						
+					
+				
+				</ul>
+			</details>
+		</li>
+	
+</ul>
 	</article>
 </main>
 <footer>
@@ -50,16 +87,51 @@ page: {
   filePathStem: '/birds/index',
   outputFileExtension: 'html',
   templateSyntax: 'njk',
-  date: 2024-11-27T18:00:53.356Z,
-  rawInput: '\n',
+  date: 2024-11-27T18:35:46.811Z,
+  rawInput: '\n' +
+    '<ul>\n' +
+    '\t{% for birdId, bird in birds %}\n' +
+    '\t\t<li>\n' +
+    '\t\t\t<details>\n' +
+    '\t\t\t\t<summary>{{ bird.name }}</summary>\n' +
+    '\t\t\t\t<p>Sightings</p>\n' +
+    '\t\t\t\t<ul>\n' +
+    '\t\t\t\t{% for sightingId, sighting in sightings %}\n' +
+    '\t\t\t\t\t{% if birdId == sighting.bird.id %}\n' +
+    '\t\t\t\t\t<li>\n' +
+    '\t\t\t\t\t\t<a href="{{ url.sightings }}#sighting_{{ sightingId }}">\n' +
+    '\t\t\t\t\t\t\t{{ sighting.datetime }}\n' +
+    '\t\t\t\t\t\t</a>\n' +
+    '\t\t\t\t\t</li>\n' +
+    '\t\t\t\t\t{% endif %}\n' +
+    '\t\t\t\t{% endfor %}\n' +
+    '\t\t\t\t</ul>\n' +
+    '\t\t\t\t<p>Photos</p>\n' +
+    '\t\t\t\t<ul>\n' +
+    '\t\t\t\t{% for photoId, photo in photos %}\n' +
+    '\t\t\t\t\t{% for photodBirdId in photo.birds %}\n' +
+    '\t\t\t\t\t\t{% if birdId == photodBirdId %}\n' +
+    '\t\t\t\t\t\t<li>\n' +
+    '\t\t\t\t\t\t\t<a href="{{ url.photos }}#photo_{{ photoId }}">\n' +
+    '\t\t\t\t\t\t\t\t{{ photo.datetime }}\n' +
+    '\t\t\t\t\t\t\t</a>\n' +
+    '\t\t\t\t\t\t</li>\n' +
+    '\t\t\t\t\t\t{% endif %}\n' +
+    '\t\t\t\t\t{% endfor %}\n' +
+    '\t\t\t\t{% endfor %}\n' +
+    '\t\t\t\t</ul>\n' +
+    '\t\t\t</details>\n' +
+    '\t\t</li>\n' +
+    '\t{% endfor %}\n' +
+    '</ul>',
   url: '/birds/',
   outputPath: './dist/birds/index.html'
 }
 page_meta: undefined
 title: 'Birds'
-heading: null
-summary: null
-description: null
+heading: 'Birds'
+summary: 'All birds sighted in Zevenwacht'
+description: 'All birds sighted in Zevenwacht'
 ============================
 -->
 
