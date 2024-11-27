@@ -69,6 +69,30 @@ export default async function(config) {
 
 		return Image.generateHTML(metadata, imageAttributes);
 	});
+	config.addShortcode('photoThumbnail', async function (src, alt) {
+		let metadata = await Image(src, {
+			urlPath: '/assets/photos/',
+			outputDir: 'src/assets/photos/',
+			widths: [640],
+			filenameFormat: function (id, src, width, format, options) {
+				const extension = path.extname(src);
+				const name = path.basename(src, extension);
+				// id: hash of the original image
+				// src: original image path
+				// width: current width in px
+				// format: current file format
+				// options: set of options passed to the Image call
+				return `${name}-${width}.${format}`;
+			},
+			formats: ['avif', 'webp', 'jpeg'],
+		});
+		let imageAttributes = {
+			alt,
+			loading: 'lazy'
+		};
+
+		return Image.generateHTML(metadata, imageAttributes);
+	});
 
 	return {
 		templateFormats: ['html', 'md', 'njk'],
