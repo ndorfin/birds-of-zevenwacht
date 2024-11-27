@@ -1,8 +1,83 @@
 ---
 title: Photos
-heading: 
-summary: 
-description: 
+heading: Photos
+summary: Recent photos of birds in Zevenwacht
+description: Recent photos of birds in Zevenwacht
 eleventyExcludeFromCollections: true
 ---
 
+<ul>
+	{% for photoId, photo in photos %}
+		<li id="photo_{{ photoId }}">
+			<dl>
+				<div>
+					<dt>Date and time</dt>
+					<dd>{% datetime photo.datetime %}</dd>
+				</div>
+				<div>
+					<dt>Description</dt>
+					<dd>{{ photo.description }}</dd>
+				</div>
+				<div>
+					<dt>Photo</dt>
+					<dd>
+						<img src="{{ url.photo_images }}{{ photo.file }}" alt="{{ photo.description }}">
+					</dd>
+				</div>
+				<div>
+					<dt>Photographer</dt>
+					<dd>
+						{{ people[photo.photographer].name }}
+					</dd>
+				</div>
+				<div>
+					<dt>Associated sighting</dt>
+					<dd>
+						<a href="{{ url.sightings }}#sighting_{{ photo.sighting }}">{{ photo.datetime }}</a>
+					</dd>
+				</div>
+				<div>
+					<dt>Image information</dt>
+					<dd>
+						<dl>
+							<div>
+								<dt>Camera</dt>
+								{% set camera = cameras[photo.camera.id] %}
+								<dd>{{ camera.make }} {{ camera.model }}</dd>
+							</div>
+							<div>
+								<dt>Lens</dt>
+								<dd>
+									{{ photo.camera.lens }}
+									{% if photo.camera.converter > 1 %}
+									<br>with {{ photo.camera.converter }}⨉ Teleconverter
+									{% endif %}
+								</dd>
+							</div>
+							<div>
+								<dt>F-stop</dt>
+								<dd>{{ photo.parameters['f-stop'] }}</dd>
+							</div>
+							<div>
+								<dt>Focal length</dt>
+								<dd>{{ photo.parameters['focal-length'] }}</dd>
+							</div>
+							<div>
+								<dt>Shutter speed</dt>
+								<dd>{{ photo.parameters['shutter'] }}</dd>
+							</div>
+							<div>
+								<dt>Exposure compensation</dt>
+								<dd>{{ photo.parameters['exposure-compensation'] }}ev</dd>
+							</div>
+							<div>
+								<dt>ISO</dt>
+								<dd>{{ photo.parameters['iso'] }}</dd>
+							</div>
+						</dl>
+					</dd>
+				</div>
+			</dl>
+		</li>
+	{% endfor %}
+</ul>

@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
 
 <ul>
 	{% for sightingId, sighting in sightings %}
-		<li>
+		<li id="sighting_{{ sightingId }}">
 			<dl>
 				<div>
 					<dt>Date and time</dt>
@@ -33,7 +33,7 @@ eleventyExcludeFromCollections: true
 						<ul>
 							{% for photoId in sighting.photos %}
 								{% set associatedPhoto = photos[photoId] %}
-								<li><img src="/assets/photos/{{ associatedPhoto.file }}" alt="{{ associatedPhoto.description }}"></li>
+								<li><img src="{{ url.photo_images }}{{ associatedPhoto.file }}" alt="{{ associatedPhoto.description }}"></li>
 							{% endfor %}
 						</ul>
 					</dd>
