@@ -1,8 +1,43 @@
 ---
 title: Birds
-heading: 
-summary: 
-description: 
+heading: Birds
+summary: All birds sighted in Zevenwacht
+description: All birds sighted in Zevenwacht
 eleventyExcludeFromCollections: true
 ---
 
+<ul>
+	{% for birdId, bird in birds %}
+		<li>
+			<details>
+				<summary>{{ bird.name }}</summary>
+				<p>Sightings</p>
+				<ul>
+				{% for sightingId, sighting in sightings %}
+					{% if birdId == sighting.bird.id %}
+					<li>
+						<a href="{{ url.sightings }}#sighting_{{ sightingId }}">
+							{{ sighting.datetime }}
+						</a>
+					</li>
+					{% endif %}
+				{% endfor %}
+				</ul>
+				<p>Photos</p>
+				<ul>
+				{% for photoId, photo in photos %}
+					{% for photodBirdId in photo.birds %}
+						{% if birdId == photodBirdId %}
+						<li>
+							<a href="{{ url.photos }}#photo_{{ photoId }}">
+								{{ photo.datetime }}
+							</a>
+						</li>
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+				</ul>
+			</details>
+		</li>
+	{% endfor %}
+</ul>
