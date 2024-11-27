@@ -1,6 +1,8 @@
 import yaml from 'js-yaml';
 import { createRequire } from 'module';
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
+import Image from "@11ty/eleventy-img";
+import path from "node:path";
 const require = createRequire(import.meta.url);
 const inspect = require('util').inspect;
 const markdownIt = require('markdown-it');
@@ -43,6 +45,29 @@ export default async function(config) {
 		return `<time datetime="${ newDate.toISOString() }">
 			${ newDate.toLocaleString('za') }
 		</time>`;
+	});
+	config.addShortcode('photoImage', async function (src, alt) {
+		let metadata = await Image(src, {
+			urlPath: '/assets/photos/',
+			outputDir: 'src/assets/photos/',
+			filenameFormat: function (id, src, width, format, options) {
+				const extension = path.extname(src);
+				const name = path.basename(src, extension);
+				// id: hash of the original image
+				// src: original image path
+				// width: current width in px
+				// format: current file format
+				// options: set of options passed to the Image call
+				return `${name}-${width}.${format}`;
+			},
+			formats: ['avif', 'webp', 'jpeg'],
+		});
+		let imageAttributes = {
+			alt,
+			loading: 'lazy'
+		};
+
+		return Image.generateHTML(metadata, imageAttributes);
 	});
 
 	return {

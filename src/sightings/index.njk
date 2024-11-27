@@ -33,7 +33,10 @@ eleventyExcludeFromCollections: true
 						<ul>
 							{% for photoId in sighting.photos %}
 								{% set associatedPhoto = photos[photoId] %}
-								<li><img src="{{ url.photo_images }}{{ associatedPhoto.file }}" alt="{{ associatedPhoto.description }}"></li>
+								<li>
+									{% set imageSrc = 'src' + url.photo_images + associatedPhoto.file %}
+									{% photoImage imageSrc, associatedPhoto.description %}
+								</li>
 							{% endfor %}
 						</ul>
 					</dd>

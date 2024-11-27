@@ -21,7 +21,8 @@ eleventyExcludeFromCollections: true
 				<div>
 					<dt>Photo</dt>
 					<dd>
-						<img src="{{ url.photo_images }}{{ photo.file }}" alt="{{ photo.description }}">
+						{% set imageSrc = 'src' + url.photo_images + photo.file %}
+						{% photoImage imageSrc, photo.description %}
 					</dd>
 				</div>
 				<div>
