@@ -71,6 +71,19 @@
 					</dd>
 				</div>
 				<div>
+					<dt>Location</dt>
+					<dd>
+						Zevenwacht Village
+						
+							<br>
+							
+							<a href="http://maps.google.com/maps?z=12&t=m&q=loc:-33.93446+18.709044">
+	-33.93446, 18.709044
+</a>
+						
+					</dd><dd>
+				</dd></div>
+				<div>
 					<dt>Image information</dt>
 					<dd>
 						<dl>
@@ -129,7 +142,7 @@ page: {
   filePathStem: '/photos/index',
   outputFileExtension: 'html',
   templateSyntax: 'njk',
-  date: 2024-11-27T18:35:46.811Z,
+  date: 2024-11-27T19:02:58.651Z,
   rawInput: '\n' +
     '<ul>\n' +
     '\t{% for photoId, photo in photos %}\n' +
@@ -160,6 +173,17 @@ page: {
     '\t\t\t\t\t<dd>\n' +
     '\t\t\t\t\t\t<a href="{{ url.sightings }}#sighting_{{ photo.sighting }}">{{ photo.datetime }}</a>\n' +
     '\t\t\t\t\t</dd>\n' +
+    '\t\t\t\t</div>\n' +
+    '\t\t\t\t<div>\n' +
+    '\t\t\t\t\t<dt>Location</dt>\n' +
+    '\t\t\t\t\t<dd>\n' +
+    '\t\t\t\t\t\t{{ areas[photo.location.area].name }}\n' +
+    '\t\t\t\t\t\t{% if photo.location.latitude %}\n' +
+    '\t\t\t\t\t\t\t<br>\n' +
+    '\t\t\t\t\t\t\t{% set location = photo.location %}\n' +
+    '\t\t\t\t\t\t\t{% include "link_google_maps.njk" %}\n' +
+    '\t\t\t\t\t\t{% endif %}\n' +
+    '\t\t\t\t\t<dd>\n' +
     '\t\t\t\t</div>\n' +
     '\t\t\t\t<div>\n' +
     '\t\t\t\t\t<dt>Image information</dt>\n' +

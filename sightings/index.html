@@ -93,10 +93,11 @@ We couldn't see a nest, but there was evidence of predation, and many predator d
 					<dd>
 						Zevenwacht Village
 						
-						<br>
-						<a href="http://maps.google.com/maps?z=12&t=m&q=loc:-33.934346+18.708862">
-							-33.934346, 18.708862
-						</a>
+							<br>
+							
+							<a href="http://maps.google.com/maps?z=12&t=m&q=loc:-33.934346+18.708862">
+	-33.934346, 18.708862
+</a>
 						
 					</dd><dd>
 				</dd></div>
@@ -118,7 +119,7 @@ page: {
   filePathStem: '/sightings/index',
   outputFileExtension: 'html',
   templateSyntax: 'njk',
-  date: 2024-11-27T18:35:46.811Z,
+  date: 2024-11-27T19:02:58.651Z,
   rawInput: '\n' +
     '<ul>\n' +
     '\t{% for sightingId, sighting in sightings %}\n' +
@@ -168,10 +169,9 @@ page: {
     '\t\t\t\t\t<dd>\n' +
     '\t\t\t\t\t\t{{ areas[sighting.location.area].name }}\n' +
     '\t\t\t\t\t\t{% if sighting.location.latitude %}\n' +
-    '\t\t\t\t\t\t<br>\n' +
-    '\t\t\t\t\t\t<a href="http://maps.google.com/maps?z=12&t=m&q=loc:{{ sighting.location.latitude }}+{{ sighting.location.longitude }}">\n' +
-    '\t\t\t\t\t\t\t{{ sighting.location.latitude }}, {{ sighting.location.longitude }}\n' +
-    '\t\t\t\t\t\t</a>\n' +
+    '\t\t\t\t\t\t\t<br>\n' +
+    '\t\t\t\t\t\t\t{% set location = sighting.location %}\n' +
+    '\t\t\t\t\t\t\t{% include "link_google_maps.njk" %}\n' +
     '\t\t\t\t\t\t{% endif %}\n' +
     '\t\t\t\t\t<dd>\n' +
     '\t\t\t\t</div>\n' +
