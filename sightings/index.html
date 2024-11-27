@@ -23,7 +23,7 @@
 	<ul>
 		<li><a href="/birds-of-zevenwacht/birds/">Birds</a></li>
 		<li><a href="/birds-of-zevenwacht/sightings/">Sightings</a></li>
-		<li><a href="/birds-of-zevenwacht/photos/">Gallery</a></li>
+		<li><a href="/birds-of-zevenwacht/photos/">Photos</a></li>
 	</ul>
 </nav>
 <main>
@@ -40,7 +40,7 @@
 		
 <ul>
 	
-		<li>
+		<li id="sighting_2024-11-25-sparrowhawk">
 			<dl>
 				<div>
 					<dt>Date and time</dt>
@@ -118,11 +118,11 @@ page: {
   filePathStem: '/sightings/index',
   outputFileExtension: 'html',
   templateSyntax: 'njk',
-  date: 2024-11-26T14:12:24.980Z,
+  date: 2024-11-27T18:00:53.360Z,
   rawInput: '\n' +
     '<ul>\n' +
     '\t{% for sightingId, sighting in sightings %}\n' +
-    '\t\t<li>\n' +
+    '\t\t<li id="sighting_{{ sightingId }}">\n' +
     '\t\t\t<dl>\n' +
     '\t\t\t\t<div>\n' +
     '\t\t\t\t\t<dt>Date and time</dt>\n' +
@@ -147,7 +147,7 @@ page: {
     '\t\t\t\t\t\t<ul>\n' +
     '\t\t\t\t\t\t\t{% for photoId in sighting.photos %}\n' +
     '\t\t\t\t\t\t\t\t{% set associatedPhoto = photos[photoId] %}\n' +
-    '\t\t\t\t\t\t\t\t<li><img src="/assets/photos/{{ associatedPhoto.file }}" alt="{{ associatedPhoto.description }}"></li>\n' +
+    '\t\t\t\t\t\t\t\t<li><img src="{{ url.photo_images }}{{ associatedPhoto.file }}" alt="{{ associatedPhoto.description }}"></li>\n' +
     '\t\t\t\t\t\t\t{% endfor %}\n' +
     '\t\t\t\t\t\t</ul>\n' +
     '\t\t\t\t\t</dd>\n' +

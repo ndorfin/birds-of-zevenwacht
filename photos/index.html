@@ -8,9 +8,9 @@
 <meta property="og:title" content="Photos">
 
 <meta name="generator" content="Eleventy (11ty.dev)">
-<meta name="description" content="">
+<meta name="description" content="Recent photos of birds in Zevenwacht">
 <meta property="og:site_name" content="Birds of Zevenwacht">
-<meta property="og:description" content="">
+<meta property="og:description" content="Recent photos of birds in Zevenwacht">
 <header>
 	<h1>
 		<a href="/birds-of-zevenwacht/">Birds of Zevenwacht</a>
@@ -23,19 +23,98 @@
 	<ul>
 		<li><a href="/birds-of-zevenwacht/birds/">Birds</a></li>
 		<li><a href="/birds-of-zevenwacht/sightings/">Sightings</a></li>
-		<li><a href="/birds-of-zevenwacht/photos/">Gallery</a></li>
+		<li><a href="/birds-of-zevenwacht/photos/">Photos</a></li>
 	</ul>
 </nav>
 <main>
 	
 
 <header>
-	<h2></h2>
+	<h2>Photos</h2>
+	
+		<p>Recent photos of birds in Zevenwacht</p>
+
 	
 </header>
 	<article>
 		
-
+<ul>
+	
+		<li id="photo_2024-11-25-sparrowhawk">
+			<dl>
+				<div>
+					<dt>Date and time</dt>
+					<dd><time datetime="2024-11-25T15:09:00.000Z">
+			2024/11/25 15:09:00
+		</time></dd>
+				</div>
+				<div>
+					<dt>Description</dt>
+					<dd>A Rufous-chested Sparrowhawk in flight, wings fully-extended</dd>
+				</div>
+				<div>
+					<dt>Photo</dt>
+					<dd>
+						<img src="/birds-of-zevenwacht/assets/photos/0E67A085-D7E7-4771-8BA0-CD227EF46E8A.jpeg" alt="A Rufous-chested Sparrowhawk in flight, wings fully-extended">
+					</dd>
+				</div>
+				<div>
+					<dt>Photographer</dt>
+					<dd>
+						Shaun
+					</dd>
+				</div>
+				<div>
+					<dt>Associated sighting</dt>
+					<dd>
+						<a href="/birds-of-zevenwacht/sightings/#sighting_2024-11-25-sparrowhawk">2024-11-25T17:09+02:00</a>
+					</dd>
+				</div>
+				<div>
+					<dt>Image information</dt>
+					<dd>
+						<dl>
+							<div>
+								<dt>Camera</dt>
+								
+								<dd>Sony Alpha A7III</dd>
+							</div>
+							<div>
+								<dt>Lens</dt>
+								<dd>
+									Sony FE 100-400mm F4.5-5.6 GM OSS
+									
+									<br>with 1.4⨉ Teleconverter
+									
+								</dd>
+							</div>
+							<div>
+								<dt>F-stop</dt>
+								<dd>6.3</dd>
+							</div>
+							<div>
+								<dt>Focal length</dt>
+								<dd>140mm</dd>
+							</div>
+							<div>
+								<dt>Shutter speed</dt>
+								<dd>1/200s</dd>
+							</div>
+							<div>
+								<dt>Exposure compensation</dt>
+								<dd>2ev</dd>
+							</div>
+							<div>
+								<dt>ISO</dt>
+								<dd>125</dd>
+							</div>
+						</dl>
+					</dd>
+				</div>
+			</dl>
+		</li>
+	
+</ul>
 	</article>
 </main>
 <footer>
@@ -50,16 +129,91 @@ page: {
   filePathStem: '/photos/index',
   outputFileExtension: 'html',
   templateSyntax: 'njk',
-  date: 2024-11-26T14:12:24.980Z,
-  rawInput: '\n',
+  date: 2024-11-27T18:00:53.360Z,
+  rawInput: '\n' +
+    '<ul>\n' +
+    '\t{% for photoId, photo in photos %}\n' +
+    '\t\t<li id="photo_{{ photoId }}">\n' +
+    '\t\t\t<dl>\n' +
+    '\t\t\t\t<div>\n' +
+    '\t\t\t\t\t<dt>Date and time</dt>\n' +
+    '\t\t\t\t\t<dd>{% datetime photo.datetime %}</dd>\n' +
+    '\t\t\t\t</div>\n' +
+    '\t\t\t\t<div>\n' +
+    '\t\t\t\t\t<dt>Description</dt>\n' +
+    '\t\t\t\t\t<dd>{{ photo.description }}</dd>\n' +
+    '\t\t\t\t</div>\n' +
+    '\t\t\t\t<div>\n' +
+    '\t\t\t\t\t<dt>Photo</dt>\n' +
+    '\t\t\t\t\t<dd>\n' +
+    '\t\t\t\t\t\t<img src="{{ url.photo_images }}{{ photo.file }}" alt="{{ photo.description }}">\n' +
+    '\t\t\t\t\t</dd>\n' +
+    '\t\t\t\t</div>\n' +
+    '\t\t\t\t<div>\n' +
+    '\t\t\t\t\t<dt>Photographer</dt>\n' +
+    '\t\t\t\t\t<dd>\n' +
+    '\t\t\t\t\t\t{{ people[photo.photographer].name }}\n' +
+    '\t\t\t\t\t</dd>\n' +
+    '\t\t\t\t</div>\n' +
+    '\t\t\t\t<div>\n' +
+    '\t\t\t\t\t<dt>Associated sighting</dt>\n' +
+    '\t\t\t\t\t<dd>\n' +
+    '\t\t\t\t\t\t<a href="{{ url.sightings }}#sighting_{{ photo.sighting }}">{{ photo.datetime }}</a>\n' +
+    '\t\t\t\t\t</dd>\n' +
+    '\t\t\t\t</div>\n' +
+    '\t\t\t\t<div>\n' +
+    '\t\t\t\t\t<dt>Image information</dt>\n' +
+    '\t\t\t\t\t<dd>\n' +
+    '\t\t\t\t\t\t<dl>\n' +
+    '\t\t\t\t\t\t\t<div>\n' +
+    '\t\t\t\t\t\t\t\t<dt>Camera</dt>\n' +
+    '\t\t\t\t\t\t\t\t{% set camera = cameras[photo.camera.id] %}\n' +
+    '\t\t\t\t\t\t\t\t<dd>{{ camera.make }} {{ camera.model }}</dd>\n' +
+    '\t\t\t\t\t\t\t</div>\n' +
+    '\t\t\t\t\t\t\t<div>\n' +
+    '\t\t\t\t\t\t\t\t<dt>Lens</dt>\n' +
+    '\t\t\t\t\t\t\t\t<dd>\n' +
+    '\t\t\t\t\t\t\t\t\t{{ photo.camera.lens }}\n' +
+    '\t\t\t\t\t\t\t\t\t{% if photo.camera.converter > 1 %}\n' +
+    '\t\t\t\t\t\t\t\t\t<br>with {{ photo.camera.converter }}⨉ Teleconverter\n' +
+    '\t\t\t\t\t\t\t\t\t{% endif %}\n' +
+    '\t\t\t\t\t\t\t\t</dd>\n' +
+    '\t\t\t\t\t\t\t</div>\n' +
+    '\t\t\t\t\t\t\t<div>\n' +
+    '\t\t\t\t\t\t\t\t<dt>F-stop</dt>\n' +
+    "\t\t\t\t\t\t\t\t<dd>{{ photo.parameters['f-stop'] }}</dd>\n" +
+    '\t\t\t\t\t\t\t</div>\n' +
+    '\t\t\t\t\t\t\t<div>\n' +
+    '\t\t\t\t\t\t\t\t<dt>Focal length</dt>\n' +
+    "\t\t\t\t\t\t\t\t<dd>{{ photo.parameters['focal-length'] }}</dd>\n" +
+    '\t\t\t\t\t\t\t</div>\n' +
+    '\t\t\t\t\t\t\t<div>\n' +
+    '\t\t\t\t\t\t\t\t<dt>Shutter speed</dt>\n' +
+    "\t\t\t\t\t\t\t\t<dd>{{ photo.parameters['shutter'] }}</dd>\n" +
+    '\t\t\t\t\t\t\t</div>\n' +
+    '\t\t\t\t\t\t\t<div>\n' +
+    '\t\t\t\t\t\t\t\t<dt>Exposure compensation</dt>\n' +
+    "\t\t\t\t\t\t\t\t<dd>{{ photo.parameters['exposure-compensation'] }}ev</dd>\n" +
+    '\t\t\t\t\t\t\t</div>\n' +
+    '\t\t\t\t\t\t\t<div>\n' +
+    '\t\t\t\t\t\t\t\t<dt>ISO</dt>\n' +
+    "\t\t\t\t\t\t\t\t<dd>{{ photo.parameters['iso'] }}</dd>\n" +
+    '\t\t\t\t\t\t\t</div>\n' +
+    '\t\t\t\t\t\t</dl>\n' +
+    '\t\t\t\t\t</dd>\n' +
+    '\t\t\t\t</div>\n' +
+    '\t\t\t</dl>\n' +
+    '\t\t</li>\n' +
+    '\t{% endfor %}\n' +
+    '</ul>',
   url: '/photos/',
   outputPath: './dist/photos/index.html'
 }
 page_meta: undefined
 title: 'Photos'
-heading: null
-summary: null
-description: null
+heading: 'Photos'
+summary: 'Recent photos of birds in Zevenwacht'
+description: 'Recent photos of birds in Zevenwacht'
 ============================
 -->
 
