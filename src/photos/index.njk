@@ -37,6 +37,17 @@ eleventyExcludeFromCollections: true
 					</dd>
 				</div>
 				<div>
+					<dt>Location</dt>
+					<dd>
+						{{ areas[photo.location.area].name }}
+						{% if photo.location.latitude %}
+							<br>
+							{% set location = photo.location %}
+							{% include "link_google_maps.njk" %}
+						{% endif %}
+					<dd>
+				</div>
+				<div>
 					<dt>Image information</dt>
 					<dd>
 						<dl>

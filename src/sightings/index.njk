@@ -54,10 +54,9 @@ eleventyExcludeFromCollections: true
 					<dd>
 						{{ areas[sighting.location.area].name }}
 						{% if sighting.location.latitude %}
-						<br>
-						<a href="http://maps.google.com/maps?z=12&t=m&q=loc:{{ sighting.location.latitude }}+{{ sighting.location.longitude }}">
-							{{ sighting.location.latitude }}, {{ sighting.location.longitude }}
-						</a>
+							<br>
+							{% set location = sighting.location %}
+							{% include "link_google_maps.njk" %}
 						{% endif %}
 					<dd>
 				</div>
