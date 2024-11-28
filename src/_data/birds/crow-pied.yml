@@ -1,0 +1,9 @@
+name: Pied Crow
+family-name: Crow
+scientific-name: Corvus Albus
+size:
+  min: 460
+  max: 500
+weight:
+  min: 410
+  max: 610
