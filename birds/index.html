@@ -46,33 +46,41 @@
 				<p>Sightings</p>
 				<ul>
 				
-					
 				
 					
-					<li>
-						<a href="/birds-of-zevenwacht/sightings/#sighting_2024-11-28-crow">
-							2024-11-28T19:21+02:00
-						</a>
-					</li>
-					
 				
-				</ul>
-				<p>Photos</p>
-				<ul>
-				
-					
-						
 					
 				
 					
 						
 						<li>
-							<a href="/birds-of-zevenwacht/photos/#photo_2024-11-28-crow">
+							<a href="/birds-of-zevenwacht/sightings/#sighting_2024-11-28-crow">
 								2024-11-28T19:21+02:00
 							</a>
 						</li>
+					
+				
+				
+				</ul>
+				<p>Photos</p>
+				<ul>
+				
+				
+					
 						
 					
+				
+					
+						
+							
+							<li>
+								<a href="/birds-of-zevenwacht/photos/#photo_2024-11-28-crow">
+									2024-11-28T19:21+02:00
+								</a>
+							</li>
+						
+					
+				
 				
 				</ul>
 			</details>
@@ -84,33 +92,82 @@
 				<p>Sightings</p>
 				<ul>
 				
-					
-					<li>
-						<a href="/birds-of-zevenwacht/sightings/#sighting_2024-11-25-sparrowhawk">
-							2024-11-25T17:09+02:00
-						</a>
-					</li>
+				
 					
 				
 					
+						
+						<li>
+							<a href="/birds-of-zevenwacht/sightings/#sighting_2024-11-25-sparrowhawk">
+								2024-11-25T17:09+02:00
+							</a>
+						</li>
+					
+				
+					
+				
 				
 				</ul>
 				<p>Photos</p>
 				<ul>
 				
+				
 					
 						
-						<li>
-							<a href="/birds-of-zevenwacht/photos/#photo_2024-11-25-sparrowhawk">
-								2024-11-25T17:09+02:00
-							</a>
-						</li>
+							
+							<li>
+								<a href="/birds-of-zevenwacht/photos/#photo_2024-11-25-sparrowhawk">
+									2024-11-25T17:09+02:00
+								</a>
+							</li>
 						
 					
 				
 					
 						
 					
+				
+				
+				</ul>
+			</details>
+		</li>
+	
+		<li>
+			<details>
+				<summary>Common Waxbill</summary>
+				<p>Sightings</p>
+				<ul>
+				
+				
+					
+						
+						<li>
+							<a href="/birds-of-zevenwacht/sightings/#sighting_2024-11-21-waxbill">
+								2024-11-18T17:00+02:00
+							</a>
+						</li>
+					
+				
+					
+				
+					
+				
+				
+				</ul>
+				<p>Photos</p>
+				<ul>
+				
+				
+					
+						
+					
+				
+					
+						
+					
+				
+				
+					<li>None</li>
 				
 				</ul>
 			</details>
@@ -131,7 +188,7 @@ page: {
   filePathStem: '/birds/index',
   outputFileExtension: 'html',
   templateSyntax: 'njk',
-  date: 2024-11-28T18:48:23.767Z,
+  date: 2024-11-28T19:19:52.620Z,
   rawInput: '\n' +
     '<ul>\n' +
     '\t{% for birdId, bird in birds %}\n' +
@@ -140,29 +197,39 @@ page: {
     '\t\t\t\t<summary>{{ bird.name }}</summary>\n' +
     '\t\t\t\t<p>Sightings</p>\n' +
     '\t\t\t\t<ul>\n' +
+    '\t\t\t\t{% set matchingSightings = false %}\n' +
     '\t\t\t\t{% for sightingId, sighting in sightings %}\n' +
     '\t\t\t\t\t{% if birdId == sighting.bird.id %}\n' +
-    '\t\t\t\t\t<li>\n' +
-    '\t\t\t\t\t\t<a href="{{ url.sightings }}#sighting_{{ sightingId }}">\n' +
-    '\t\t\t\t\t\t\t{{ sighting.datetime }}\n' +
-    '\t\t\t\t\t\t</a>\n' +
-    '\t\t\t\t\t</li>\n' +
+    '\t\t\t\t\t\t{% set matchingSightings = true %}\n' +
+    '\t\t\t\t\t\t<li>\n' +
+    '\t\t\t\t\t\t\t<a href="{{ url.sightings }}#sighting_{{ sightingId }}">\n' +
+    '\t\t\t\t\t\t\t\t{{ sighting.datetime }}\n' +
+    '\t\t\t\t\t\t\t</a>\n' +
+    '\t\t\t\t\t\t</li>\n' +
     '\t\t\t\t\t{% endif %}\n' +
     '\t\t\t\t{% endfor %}\n' +
+    '\t\t\t\t{% if matchingSightings == false %}\n' +
+    '\t\t\t\t\t<li>None</li>\n' +
+    '\t\t\t\t{% endif %}\n' +
     '\t\t\t\t</ul>\n' +
     '\t\t\t\t<p>Photos</p>\n' +
     '\t\t\t\t<ul>\n' +
+    '\t\t\t\t{% set matchingPhotos = false %}\n' +
     '\t\t\t\t{% for photoId, photo in photos %}\n' +
     '\t\t\t\t\t{% for photodBirdId in photo.birds %}\n' +
     '\t\t\t\t\t\t{% if birdId == photodBirdId %}\n' +
-    '\t\t\t\t\t\t<li>\n' +
-    '\t\t\t\t\t\t\t<a href="{{ url.photos }}#photo_{{ photoId }}">\n' +
-    '\t\t\t\t\t\t\t\t{{ photo.datetime }}\n' +
-    '\t\t\t\t\t\t\t</a>\n' +
-    '\t\t\t\t\t\t</li>\n' +
+    '\t\t\t\t\t\t\t{% set matchingPhotos = true %}\n' +
+    '\t\t\t\t\t\t\t<li>\n' +
+    '\t\t\t\t\t\t\t\t<a href="{{ url.photos }}#photo_{{ photoId }}">\n' +
+    '\t\t\t\t\t\t\t\t\t{{ photo.datetime }}\n' +
+    '\t\t\t\t\t\t\t\t</a>\n' +
+    '\t\t\t\t\t\t\t</li>\n' +
     '\t\t\t\t\t\t{% endif %}\n' +
     '\t\t\t\t\t{% endfor %}\n' +
     '\t\t\t\t{% endfor %}\n' +
+    '\t\t\t\t{% if matchingPhotos == false %}\n' +
+    '\t\t\t\t\t<li>None</li>\n' +
+    '\t\t\t\t{% endif %}\n' +
     '\t\t\t\t</ul>\n' +
     '\t\t\t</details>\n' +
     '\t\t</li>\n' +
