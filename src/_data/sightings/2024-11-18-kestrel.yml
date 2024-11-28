@@ -1,0 +1,13 @@
+datetime: 2024-11-18T17:30+02:00
+description: |-
+  As we ascended the steepest part of our walk, we saw a Rock Kestrel hovering about the vineyard, looking for prey in the grass and vines below.
+bird:
+  id: kestrel-rock
+  quantity: 1
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.934535
+  longitude: 18.740641

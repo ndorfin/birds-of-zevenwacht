@@ -1,0 +1,9 @@
+name: Rock Kestrel
+family-name: Kestrel
+scientific-name: Falco Rupicolus
+size:
+  min: 300
+  max: 340
+weight:
+  min: 185
+  max: 275
