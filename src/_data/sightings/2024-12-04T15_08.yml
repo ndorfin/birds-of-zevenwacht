@@ -1,0 +1,12 @@
+datetime: 2024-12-04T17:05+02:00
+description: |-
+  Two flew into the reeds opposite ZCE
+bird:
+  id: mousebird-white-backed
+  quantity: 2
+observers:
+  - shaun
+location:
+  area: zevenwacht-country-estate
+  latitude: -33.93586664075842
+  longitude: 18.715744537611457
