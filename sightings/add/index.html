@@ -8,9 +8,9 @@
 <meta property="og:title" content="Add a sighting">
 
 <meta name="generator" content="Eleventy (11ty.dev)">
-<meta name="description" content="Record a bird sighting to the site">
+<meta name="description" content="Record a bird sighting within Zevenwacht">
 <meta property="og:site_name" content="Birds of Zevenwacht">
-<meta property="og:description" content="Record a bird sighting to the site">
+<meta property="og:description" content="Record a bird sighting within Zevenwacht">
 <header>
 	<h1>
 		<a href="/birds-of-zevenwacht/">Birds of Zevenwacht</a>
@@ -32,28 +32,18 @@
 <header>
 	<h2>Add a sighting</h2>
 	
-		<p>Record a bird sighting to the site</p>
+		<p>Record a bird sighting within Zevenwacht</p>
 
 	
 </header>
 	<article>
-		
+		<p>
+	If you've stumbled across this page,
+	you'll need a Personal Access Token with rights to write to this repo,
+	before you can contribute to the sightings.
+</p>
 <form action="." method="GET">
-	<fieldset>
-		<legend>Sighting details</legend>
-		<div class="form_row">
-			<label for="datetime-local_datetime">Date & time:</label>
-			<div class="form_field">
-				<input type="datetime-local" name="datetime" id="datetime-local_datetime" required="">
-			</div>
-		</div>
-		<div class="form_row">
-			<label for="text_description">Description of sighting:</label>
-			<div class="form_field">
-				<textarea name="description" id="text_description" rows="4" cols="40" required=""></textarea>
-			</div>
-		</div>
-	</fieldset>
+
 	<fieldset>
 		<legend>Bird details</legend>
 		<div class="form_row">
@@ -80,6 +70,23 @@
 			</div>
 		</div>
 	</fieldset>
+
+	<fieldset>
+		<legend>Sighting details</legend>
+		<div class="form_row">
+			<label for="datetime-local_datetime">Date & time:</label>
+			<div class="form_field">
+				<input type="datetime-local" name="datetime" id="datetime-local_datetime" required="">
+			</div>
+		</div>
+		<div class="form_row">
+			<label for="text_description">Description of sighting:</label>
+			<div class="form_field">
+				<textarea name="description" id="text_description" rows="4" cols="40" required=""></textarea>
+			</div>
+		</div>
+	</fieldset>
+
 	<fieldset>
 		<legend>Location details</legend>
 		<div class="form_row">
@@ -117,12 +124,16 @@
 			</div>
 		</location-lookup>
 	</fieldset>
+
 	<div class="form_row form_actions">
 		<button type="submit">Submit</button>
 		<button type="reset">Reset</button>
 	</div>
+
 </form>
 <script type="module" src="/birds-of-zevenwacht/assets/mjs/wc/location-lookup.mjs"></script>
+<script type="module" src="/birds-of-zevenwacht/assets/mjs/create-sighting.mjs"></script>
+
 	</article>
 </main>
 <footer>
@@ -137,24 +148,14 @@ page: {
   filePathStem: '/sightings/add/index',
   outputFileExtension: 'html',
   templateSyntax: 'njk',
-  date: 2024-11-29T19:50:09.276Z,
-  rawInput: '\n' +
+  date: 2024-12-04T13:18:20.526Z,
+  rawInput: '<p>\n' +
+    "\tIf you've stumbled across this page,\n" +
+    "\tyou'll need a Personal Access Token with rights to write to this repo,\n" +
+    '\tbefore you can contribute to the sightings.\n' +
+    '</p>\n' +
     '<form action="." method="GET">\n' +
-    '\t<fieldset>\n' +
-    '\t\t<legend>Sighting details</legend>\n' +
-    '\t\t<div class="form_row">\n' +
-    '\t\t\t<label for="datetime-local_datetime">Date & time:</label>\n' +
-    '\t\t\t<div class="form_field">\n' +
-    '\t\t\t\t<input type="datetime-local" name="datetime" id="datetime-local_datetime" required>\n' +
-    '\t\t\t</div>\n' +
-    '\t\t</div>\n' +
-    '\t\t<div class="form_row">\n' +
-    '\t\t\t<label for="text_description">Description of sighting:</label>\n' +
-    '\t\t\t<div class="form_field">\n' +
-    '\t\t\t\t<textarea name="description" id="text_description" rows="4" cols="40" required></textarea>\n' +
-    '\t\t\t</div>\n' +
-    '\t\t</div>\n' +
-    '\t</fieldset>\n' +
+    '\n' +
     '\t<fieldset>\n' +
     '\t\t<legend>Bird details</legend>\n' +
     '\t\t<div class="form_row">\n' +
@@ -175,6 +176,23 @@ page: {
     '\t\t\t</div>\n' +
     '\t\t</div>\n' +
     '\t</fieldset>\n' +
+    '\n' +
+    '\t<fieldset>\n' +
+    '\t\t<legend>Sighting details</legend>\n' +
+    '\t\t<div class="form_row">\n' +
+    '\t\t\t<label for="datetime-local_datetime">Date & time:</label>\n' +
+    '\t\t\t<div class="form_field">\n' +
+    '\t\t\t\t<input type="datetime-local" name="datetime" id="datetime-local_datetime" required>\n' +
+    '\t\t\t</div>\n' +
+    '\t\t</div>\n' +
+    '\t\t<div class="form_row">\n' +
+    '\t\t\t<label for="text_description">Description of sighting:</label>\n' +
+    '\t\t\t<div class="form_field">\n' +
+    '\t\t\t\t<textarea name="description" id="text_description" rows="4" cols="40" required></textarea>\n' +
+    '\t\t\t</div>\n' +
+    '\t\t</div>\n' +
+    '\t</fieldset>\n' +
+    '\n' +
     '\t<fieldset>\n' +
     '\t\t<legend>Location details</legend>\n' +
     '\t\t<div class="form_row">\n' +
@@ -210,20 +228,23 @@ page: {
     '\t\t\t</div>\n' +
     '\t\t</location-lookup>\n' +
     '\t</fieldset>\n' +
+    '\n' +
     '\t<div class="form_row form_actions">\n' +
     '\t\t<button type="submit">Submit</button>\n' +
     '\t\t<button type="reset">Reset</button>\n' +
     '\t</div>\n' +
+    '\n' +
     '</form>\n' +
-    '<script type="module" src="/assets/mjs/wc/location-lookup.mjs"></script>',
+    '<script type="module" src="/assets/mjs/wc/location-lookup.mjs"></script>\n' +
+    '<script type="module" src="/assets/mjs/create-sighting.mjs"></script>\n',
   url: '/sightings/add/',
   outputPath: './dist/sightings/add/index.html'
 }
 page_meta: undefined
 title: 'Add a sighting'
 heading: 'Add a sighting'
-summary: 'Record a bird sighting to the site'
-description: 'Record a bird sighting to the site'
+summary: 'Record a bird sighting within Zevenwacht'
+description: 'Record a bird sighting within Zevenwacht'
 ============================
 -->
 
