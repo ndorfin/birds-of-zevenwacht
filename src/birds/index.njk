@@ -6,48 +6,10 @@ description: All birds sighted in Zevenwacht
 eleventyExcludeFromCollections: true
 ---
 
-<ul>
+<ol>
 	{% for birdId, bird in birds %}
 		<li>
-			<details>
-				<summary>{{ bird.name }}</summary>
-				<p>Sightings</p>
-				<ul>
-				{% set matchingSightings = false %}
-				{% for sightingId, sighting in sightings %}
-					{% if birdId == sighting.bird.id %}
-						{% set matchingSightings = true %}
-						<li>
-							<a href="{{ url.sightings }}#sighting_{{ sightingId }}">
-								{{ sighting.datetime }}
-							</a>
-						</li>
-					{% endif %}
-				{% endfor %}
-				{% if matchingSightings == false %}
-					<li>None</li>
-				{% endif %}
-				</ul>
-				<p>Photos</p>
-				<ul>
-				{% set matchingPhotos = false %}
-				{% for photoId, photo in photos %}
-					{% for photodBirdId in photo.birds %}
-						{% if birdId == photodBirdId %}
-							{% set matchingPhotos = true %}
-							<li>
-								<a href="{{ url.photos }}#photo_{{ photoId }}">
-									{{ photo.datetime }}
-								</a>
-							</li>
-						{% endif %}
-					{% endfor %}
-				{% endfor %}
-				{% if matchingPhotos == false %}
-					<li>None</li>
-				{% endif %}
-				</ul>
-			</details>
+			<a href="{{ url.birds }}{{ bird.name | slugify }}/">{{ bird.name }}</a>
 		</li>
 	{% endfor %}
-</ul>
+</ol>

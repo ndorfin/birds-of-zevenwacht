@@ -1,0 +1,57 @@
+---
+pagination:
+  data: birds
+  size: 1
+  alias: birdId
+permalink: "{{ url.birds }}{{ birds[birdId].name | slugify }}/index.html"
+layout: "bird_detail.njk"
+---
+{% set bird = birds[birdId] %}
+{% if bird['scientific-name'] %}
+<p>{{ bird['scientific-name'] }}</p>
+{% endif %}
+
+{% if bird.ebird %}
+<p><a href="{{ bird.ebird }}">{{ bird.name }} on eBird</a></p>
+{% endif %}
+
+<details>
+	<summary>Sightings</summary>
+	<ul>
+		{% set matchingSightings = false %}
+		{% for sightingId, sighting in sightings %}
+			{% if birdId == sighting.bird.id %}
+				{% set matchingSightings = true %}
+				<li>
+					<a href="{{ url.sightings }}#sighting_{{ sightingId }}">
+						{{ sighting.datetime }}
+					</a>
+				</li>
+			{% endif %}
+		{% endfor %}
+		{% if matchingSightings == false %}
+			<li>None</li>
+		{% endif %}
+	</ul>
+</details>
+<details>
+	<summary>Photos</summary>
+	<ul>
+		{% set matchingPhotos = false %}
+		{% for photoId, photo in photos %}
+			{% for photodBirdId in photo.birds %}
+				{% if birdId == photodBirdId %}
+					{% set matchingPhotos = true %}
+					<li>
+						<a href="{{ url.photos }}#photo_{{ photoId }}">
+							{{ photo.datetime }}
+						</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+		{% if matchingPhotos == false %}
+			<li>None</li>
+		{% endif %}
+	</ul>
+</details>

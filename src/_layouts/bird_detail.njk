@@ -1,0 +1,6 @@
+{% set bird = birds[birdId] %}
+{% set page_meta = {
+	title: bird.name,
+	heading: bird.name
+} %}
+{% extends "./default.njk" %}
