@@ -20,16 +20,32 @@ async function makeCommit(blob) {
 	});
 }
 
+const toggleButtonStates = (nodeList) => {
+	for (let button of nodeList) {
+		button.disabled = !!button.disabled;
+	}
+}
 
 const handleSubmit = (event) => {
 	event.preventDefault();
-	let formData = new FormData(event.target);
+	const formElem = event.target.closest('form');
+	const formButtons = formElem.querySelectorAll('button');
+	const formData = new FormData(formElem);
+	
+	toggleButtonStates(formButtons);
+	
 	let base64Blob = createSightingBlob(formData);
 	if (base64Blob) {
-		makeCommit(base64Blob);
+		makeCommit(base64Blob).then(() => {
+			formElem.reset();
+			window.alert('Sighting submitted, thanks!');
+			toggleButtonStates(formButtons);
+		});
 	} else {
-		window.alert('File creation failed')
+		window.alert('File creation failed');
+		toggleButtonStates(formButtons);
 	}
+	
 }
 
 document.addEventListener('submit', handleSubmit);
