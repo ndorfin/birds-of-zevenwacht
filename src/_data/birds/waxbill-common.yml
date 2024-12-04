@@ -1,6 +1,7 @@
 name: Common Waxbill
 family-name: Waxbill
-scientific-name: Estrilda Astrild
+scientific-name: Estrilda astrild
+ebird: 
 size:
   min: 110
   max: 110
