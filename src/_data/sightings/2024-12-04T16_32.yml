@@ -1,0 +1,12 @@
+datetime: 2024-12-04T18:32+02:00
+description: |-
+  On the roof 
+bird:
+  id: pigeon-speckled
+  quantity: 1
+observers:
+  - shaun
+location:
+  area: Lifestyle village
+  latitude: -33.93122729627841
+  longitude: 18.715224516262868
