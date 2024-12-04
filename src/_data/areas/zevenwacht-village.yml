@@ -2,3 +2,6 @@ name: Zevenwacht Village
 address:
   street: 151 Langverwacht Road
   suburb: Kuils River
+location:
+  latitude: -33.934301
+  longitude: 18.713467

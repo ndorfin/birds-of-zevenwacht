@@ -2,3 +2,6 @@ name: Zevenwacht Country Estate
 address:
   street: 150 Rhine Boulevard
   suburb: Kuils River
+location:
+  latitude: -33.936501
+  longitude: 18.715073
