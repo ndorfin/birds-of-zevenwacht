@@ -1,27 +1,13 @@
 ---
 title: Add a sighting
 heading: Add a sighting
-summary: Record a bird sighting to the site
-description: Record a bird sighting to the site
+summary: Record a bird sighting within Zevenwacht
+description: Record a bird sighting within Zevenwacht
 eleventyExcludeFromCollections: true
 ---
 
 <form action="." method="GET">
-	<fieldset>
-		<legend>Sighting details</legend>
-		<div class="form_row">
-			<label for="datetime-local_datetime">Date & time:</label>
-			<div class="form_field">
-				<input type="datetime-local" name="datetime" id="datetime-local_datetime" required>
-			</div>
-		</div>
-		<div class="form_row">
-			<label for="text_description">Description of sighting:</label>
-			<div class="form_field">
-				<textarea name="description" id="text_description" rows="4" cols="40" required></textarea>
-			</div>
-		</div>
-	</fieldset>
+
 	<fieldset>
 		<legend>Bird details</legend>
 		<div class="form_row">
@@ -42,6 +28,23 @@ eleventyExcludeFromCollections: true
 			</div>
 		</div>
 	</fieldset>
+
+	<fieldset>
+		<legend>Sighting details</legend>
+		<div class="form_row">
+			<label for="datetime-local_datetime">Date & time:</label>
+			<div class="form_field">
+				<input type="datetime-local" name="datetime" id="datetime-local_datetime" required>
+			</div>
+		</div>
+		<div class="form_row">
+			<label for="text_description">Description of sighting:</label>
+			<div class="form_field">
+				<textarea name="description" id="text_description" rows="4" cols="40" required></textarea>
+			</div>
+		</div>
+	</fieldset>
+
 	<fieldset>
 		<legend>Location details</legend>
 		<div class="form_row">
@@ -77,9 +80,12 @@ eleventyExcludeFromCollections: true
 			</div>
 		</location-lookup>
 	</fieldset>
+
 	<div class="form_row form_actions">
 		<button type="submit">Submit</button>
 		<button type="reset">Reset</button>
 	</div>
+
 </form>
 <script type="module" src="/assets/mjs/wc/location-lookup.mjs"></script>
+<script type="module" src="/assets/mjs/create-sighting.mjs"></script>
