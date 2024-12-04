@@ -7,6 +7,6 @@ bird:
 observers:
   - shaun
 location:
-  area: Langverwacht
+  area: langverwacht-farm
   latitude: -33.93515899233373
   longitude: 18.71782187072548

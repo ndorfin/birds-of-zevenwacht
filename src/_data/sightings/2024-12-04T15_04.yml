@@ -1,12 +1,12 @@
 datetime: 2024-12-04T17:04+02:00
 description: |-
-  4 males in the reeds opposite Country Estate
+  In the reeds opposite Country Estate, between the dam and the road.
 bird:
   id: bishop-red
-  quantity: 5
+  quantity: 12
 observers:
   - shaun
 location:
-  area: zevenwacht-country-estate
+  area: zevenwacht-lifestyle-estate
   latitude: -33.93604719945717
   longitude: 18.715171707297667

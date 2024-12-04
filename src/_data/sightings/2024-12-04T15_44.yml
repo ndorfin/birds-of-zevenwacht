@@ -1,12 +1,12 @@
 datetime: 2024-12-04T17:43+02:00
 description: |-
-  Red nose, yellow beak, black body with white streaks
+  In McKenzie dam, on the northerly edge of the central island
 bird:
-  id: Moorhen
+  id: moorhen-common
   quantity: 1
 observers:
   - shaun
 location:
-  area: Langverwacht
+  area: langverwacht-farm
   latitude: -33.93329948563542
   longitude: 18.719495685039274
