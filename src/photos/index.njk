@@ -34,7 +34,8 @@ eleventyExcludeFromCollections: true
 				<div>
 					<dt>Associated sighting</dt>
 					<dd>
-						<a href="{{ url.sightings }}#sighting_{{ photo.sighting }}">{{ photo.datetime }}</a>
+						{% set sighting = sightings[photo.sighting] %}
+						<a href="{{ url.sightings }}{{ photo.sighting | slugify }}-{{ sighting.bird.id | slugify }}/">{{ photo.datetime }}</a>
 					</dd>
 				</div>
 				<div>

@@ -4,7 +4,7 @@ datetime: 2024-11-28T19:21+02:00
 # What is the filename of this photo (in the /assets/photos folder)
 file: crow-pied/8E67DCD6-418C-4626-BB0E-446BA2DEE7E4.jpeg
 # Link this Photo to a Sighting, by providing the Sighting ID:
-sighting: 2024-11-28-crow
+sighting: 2024-11-28T19_21
 # Describe this image, as if you were explaining it over the phone
 description: A Pied Crow in flight, wings fully-extended
 # List each of the bird IDs present in this photo

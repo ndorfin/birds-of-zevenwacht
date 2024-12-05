@@ -4,7 +4,7 @@ datetime: 2024-11-25T17:09+02:00
 # What is the filename of this photo (in the /assets/photos folder)
 file: sparrowhawk-rufous-chested/0E67A085-D7E7-4771-8BA0-CD227EF46E8A.jpeg
 # Link this Photo to a Sighting, by providing the Sighting ID:
-sighting: 2024-11-25-sparrowhawk
+sighting: 2024-11-25T17_09
 # Describe this image, as if you were explaining it over the phone
 description: A Rufous-chested Sparrowhawk in flight, wings fully-extended
 # List each of the bird IDs present in this photo
