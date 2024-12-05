@@ -1,0 +1,66 @@
+---
+pagination:
+  data: sightings
+  size: 1
+  alias: sightingId
+permalink: "{{ url.sightings }}{{ sightingId | slugify }}-{{ sightings[sightingId].bird.id }}/index.html"
+layout: "sighting_detail.njk"
+---
+{% set sighting = sightings[sightingId] %}
+<dl>
+	<div>
+		<dt>Date and time</dt>
+		<dd>{% datetime sighting.datetime %}</dd>
+	</div>
+	<div>
+		<dt>Description</dt>
+		<dd>
+			{{ sighting.description | markdown | safe }}
+		</dd>
+	</div>
+	<div>
+		<dt>Birds</dt>
+		<dd>
+			{{ sighting.bird.quantity }} ⨉ {{ birds[sighting.bird.id].name }}
+		</dd>
+	</div>
+	{% if sighting.photos %}
+	<div>
+		<dt>Associated photos<dt>
+		<dd>
+			<ul>
+				{% for photoId in sighting.photos %}
+					{% set associatedPhoto = photos[photoId] %}
+					<li>
+						<a href="{{ url.photos }}#photo_{{ photoId }}">
+							{% set imageSrc = 'src' + url.photo_images + associatedPhoto.file %}
+							{% photoThumbnail imageSrc, associatedPhoto.description %}
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</dd>
+	</div>
+	{% endif %}
+	<div>
+		<dt>Observers</dt>
+		<dd>
+			<ul>
+			{% for observerId in sighting.observers %}
+				<li>{{ people[observerId].name }}</li>
+			{% endfor %}
+			</ul>
+		</dd>
+	</div>
+	<div>
+		<dt>Location</dt>
+		<dd>
+			{{ areas[sighting.location.area].name }}
+			{% if sighting.location.latitude %}
+				<br>
+				{% set location = sighting.location %}
+				{% include "link_google_maps.njk" %}
+			{% endif %}
+		<dd>
+	</div>
+</dl>

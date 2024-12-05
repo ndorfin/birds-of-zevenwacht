@@ -1,0 +1,6 @@
+{% set sighting = sightings[sightingId] %}
+{% set page_meta = {
+	title: sighting.datetime,
+	heading: sighting.datetime
+} %}
+{% extends "./default.njk" %}
