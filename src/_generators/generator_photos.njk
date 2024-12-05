@@ -1,0 +1,97 @@
+---
+pagination:
+  data: photos
+  size: 1
+  alias: photoId
+permalink: "{{ url.photos }}{{ photoId | slugify }}/index.html"
+layout: "photo_detail.njk"
+---
+{% set photo = photos[photoId] %}
+<dl>
+	<div>
+		<dt>Date and time</dt>
+		<dd>{% datetime photo.datetime %}</dd>
+	</div>
+	<div>
+		<dt>Birds</dt>
+		{% for birdId in photo.birds %}
+		<dd><a href="{{ url.birds }}{{ birds[birdId].name | slugify }}/">{{ birds[birdId].name }}</a></dd>
+		{% endfor %}
+	</div>
+	<div>
+		<dt>Description</dt>
+		<dd>{{ photo.description }}</dd>
+	</div>
+	<div>
+		<dt>Photo</dt>
+		<dd>
+			{% set imageSrc = 'src' + url.photo_images + photo.file %}
+			{% photoImage imageSrc, photo.description %}
+		</dd>
+	</div>
+	<div>
+		<dt>Photographer</dt>
+		<dd>
+			{{ people[photo.photographer].name }}
+		</dd>
+	</div>
+	<div>
+		<dt>Associated sighting</dt>
+		<dd>
+			{% set sighting = sightings[photo.sighting] %}
+			<a href="{{ url.sightings }}{{ photo.sighting | slugify }}-{{ sighting.bird.id | slugify }}/">{{ photo.datetime }}</a>
+		</dd>
+	</div>
+	<div>
+		<dt>Location</dt>
+		<dd>
+			{{ areas[photo.location.area].name }}
+			{% if photo.location.latitude %}
+				<br>
+				{% set location = photo.location %}
+				{% include "link_google_maps.njk" %}
+			{% endif %}
+		<dd>
+	</div>
+	<div>
+		<dt>Image information</dt>
+		<dd>
+			<dl>
+				<div>
+					<dt>Camera</dt>
+					{% set camera = cameras[photo.camera.id] %}
+					<dd>{{ camera.make }} {{ camera.model }}</dd>
+				</div>
+				<div>
+					<dt>Lens</dt>
+					<dd>
+						{{ photo.camera.lens }}
+						{% if photo.camera.converter > 1 %}
+						<br>with {{ photo.camera.converter }}⨉ Teleconverter
+						{% endif %}
+					</dd>
+				</div>
+				<div>
+					<dt>F-stop</dt>
+					<dd>{{ photo.parameters['f-stop'] }}</dd>
+				</div>
+				<div>
+					<dt>Focal length</dt>
+					<dd>{{ photo.parameters['focal-length'] }}</dd>
+				</div>
+				<div>
+					<dt>Shutter speed</dt>
+					<dd>{{ photo.parameters['shutter'] }}</dd>
+				</div>
+				<div>
+					<dt>Exposure compensation</dt>
+					<dd>{{ photo.parameters['exposure-compensation'] }}ev</dd>
+				</div>
+				<div>
+					<dt>ISO</dt>
+					<dd>{{ photo.parameters['iso'] }}</dd>
+				</div>
+			</dl>
+		</dd>
+	</div>
+</dl>

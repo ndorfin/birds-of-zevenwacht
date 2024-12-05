@@ -34,6 +34,6 @@ parameters:
 # Link this photo to a photographer (matching a file in the _data/people folder)
 photographer: shaun
 location:
-  area: zevenwacht-wine-farm
+  area: zevenwacht-wine-estate
   latitude: -33.928717 
   longitude: 18.726036
