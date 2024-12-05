@@ -68,7 +68,8 @@
 				<div>
 					<dt>Associated sighting</dt>
 					<dd>
-						<a href="/birds-of-zevenwacht/sightings/#sighting_2024-11-25-sparrowhawk">2024-11-25T17:09+02:00</a>
+						
+						<a href="/birds-of-zevenwacht/sightings/2024-11-25t17-09-sparrowhawk-rufous-chested/">2024-11-25T17:09+02:00</a>
 					</dd>
 				</div>
 				<div>
@@ -156,7 +157,8 @@
 				<div>
 					<dt>Associated sighting</dt>
 					<dd>
-						<a href="/birds-of-zevenwacht/sightings/#sighting_2024-11-28-crow">2024-11-28T19:21+02:00</a>
+						
+						<a href="/birds-of-zevenwacht/sightings/2024-11-28t19-21-crow-pied/">2024-11-28T19:21+02:00</a>
 					</dd>
 				</div>
 				<div>
@@ -231,7 +233,7 @@ page: {
   filePathStem: '/photos/index',
   outputFileExtension: 'html',
   templateSyntax: 'njk',
-  date: 2024-12-05T07:16:08.428Z,
+  date: 2024-12-05T08:36:17.701Z,
   rawInput: '\n' +
     '<ul>\n' +
     '\t{% for photoId, photo in photos %}\n' +
@@ -261,7 +263,8 @@ page: {
     '\t\t\t\t<div>\n' +
     '\t\t\t\t\t<dt>Associated sighting</dt>\n' +
     '\t\t\t\t\t<dd>\n' +
-    '\t\t\t\t\t\t<a href="{{ url.sightings }}#sighting_{{ photo.sighting }}">{{ photo.datetime }}</a>\n' +
+    '\t\t\t\t\t\t{% set sighting = sightings[photo.sighting] %}\n' +
+    '\t\t\t\t\t\t<a href="{{ url.sightings }}{{ photo.sighting | slugify }}-{{ sighting.bird.id | slugify }}/">{{ photo.datetime }}</a>\n' +
     '\t\t\t\t\t</dd>\n' +
     '\t\t\t\t</div>\n' +
     '\t\t\t\t<div>\n' +
