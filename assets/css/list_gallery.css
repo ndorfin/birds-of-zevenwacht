@@ -1,0 +1,27 @@
+.list_gallery {
+	list-style: "";
+	margin-inline: 0;
+	padding: 0;
+}
+
+@media (min-width: 688px) {
+	.list_gallery {
+		--list_gallery_num_columns: 2;
+
+		display: grid;
+		gap: 1rem;
+		grid-template-columns: repeat(var(--list_gallery_num_columns), 320px);
+	}
+}
+
+@media (min-width: 1024px) {
+	.list_gallery {
+		--list_gallery_num_columns: 3;
+	}
+}
+
+@media (min-width: 1360px) {
+	.list_gallery {
+		--list_gallery_num_columns: 4;
+	}
+}
