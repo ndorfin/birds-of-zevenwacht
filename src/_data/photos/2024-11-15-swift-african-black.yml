@@ -1,0 +1,37 @@
+# Add a date and time using an ISO8601 formatted date:
+# e.g. 2024-11-25T25T17:09+02:00
+datetime: 2024-11-15T18:54+02:00
+# What is the filename of this photo (in the /assets/photos folder)
+file: swift-african-black/2D912D5D-131F-4294-94E3-654D6F20AB5C.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+sighting: 2024-11-15T16_54
+# Describe this image, as if you were explaining it over the phone
+description: 
+# List each of the bird IDs present in this photo
+birds:
+  - swift-african-black
+# Give details about the camera used
+camera:
+  # Supply the Camera ID (matching a file in the _data/cameras folder)
+  id: sony-ilce-7m3
+  # What lens was used with this camera?
+  lens: Sony FE 100-400mm F4.5-5.6 GM OSS
+  # Was a teleconverter attached?
+  # If so, what is the teleconverter magnification?
+  # If none was present, set this to: 1
+  converter: 1.4
+parameters:
+  # This reading includes teleconverter aperture narrowing
+  f-stop: 8
+  # This reading includes teleconverter magnification
+  focal-length: 560mm
+  # What shutter speed was used?
+  shutter: 1/1000s
+  # What exposure compensation was used?
+  exposure-compensation: 1.7
+  # What ISO setting did the camera use for this photograph?
+  iso: 2000
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
