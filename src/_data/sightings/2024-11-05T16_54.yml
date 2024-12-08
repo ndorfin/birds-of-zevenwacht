@@ -1,0 +1,15 @@
+datetime: 2024-11-05T16:54+02:00
+description: |-
+  We saw a few silohuettes in the nearby Stone Pines. Upon closer inspection, we saw an adult and two juvenile Eagle Owls!
+bird:
+  id: owl-cape-eagle
+  quantity: 3
+photos: 
+  - 2024-11-05-owl-cape-eagle
+observers:
+  - shaun
+  - ingunn
+location:
+  area: langverwacht-farm
+  latitude: -33.932971
+  longitude: 18.718697
