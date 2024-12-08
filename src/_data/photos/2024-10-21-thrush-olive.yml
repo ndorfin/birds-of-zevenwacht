@@ -1,0 +1,37 @@
+# Add a date and time using an ISO8601 formatted date:
+# e.g. 2024-11-25T25T17:09+02:00
+datetime: 2024-10-21T09:12+02:00
+# What is the filename of this photo (in the /assets/photos folder)
+file: thrush-olive/0F9E5FC4-FC21-4D5D-99B8-2DD0F1D52363.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+sighting: 2024-10-21T09_12
+# Describe this image, as if you were explaining it over the phone
+description: An adult Olive Thrush hunting for grubs through the manicured lawn
+# List each of the bird IDs present in this photo
+birds:
+  - thrush-olive
+# Give details about the camera used
+camera:
+  # Supply the Camera ID (matching a file in the _data/cameras folder)
+  id: sony-ilce-7m3
+  # What lens was used with this camera?
+  lens: Sony FE 100-400mm F4.5-5.6 GM OSS
+  # Was a teleconverter attached?
+  # If so, what is the teleconverter magnification?
+  # If none was present, set this to: 1
+  converter: 1
+parameters:
+  # This reading includes teleconverter aperture narrowing
+  f-stop: 5.6
+  # This reading includes teleconverter magnification
+  focal-length: 400mm
+  # What shutter speed was used?
+  shutter: 1/500s
+  # What exposure compensation was used?
+  exposure-compensation: 0
+  # What ISO setting did the camera use for this photograph?
+  iso: 1250
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
