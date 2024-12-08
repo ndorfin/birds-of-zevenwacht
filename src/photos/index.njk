@@ -6,10 +6,10 @@ description: Recent photos of birds in Zevenwacht
 eleventyExcludeFromCollections: true
 ---
 
-<ul>
+<ul class="list_gallery">
 	{% for photoId, photo in photos %}
 		<li id="photo_{{ photoId }}">
-			<a href="{{ url.photos }}{{ photoId | slugify }}/">
+			<a class="link_thumbnail" href="{{ url.photos }}{{ photoId | slugify }}/">
 				{% set imageSrc = 'src' + url.photo_images + photo.file %}
 				{% photoThumbnail imageSrc, photo.description %}
 			</a>

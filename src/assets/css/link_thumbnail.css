@@ -1,0 +1,13 @@
+.link_thumbnail {
+	display: flex;
+	place-items: center;
+	aspect-ratio: 1;
+	max-block-size: 320px;
+	max-inline-size: 320px;
+	background-color: hsla(0 0% 0% / 1);
+
+	& picture {
+		display: flex;
+		place-items: center;
+	}
+}
