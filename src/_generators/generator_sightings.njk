@@ -28,7 +28,7 @@ layout: "sighting_detail.njk"
 	<div>
 		<dt>Associated photos<dt>
 		<dd>
-			<ul>
+			<ul class="list_gallery">
 				{% for photoId in sighting.photos %}
 					{% set associatedPhoto = photos[photoId] %}
 					<li>
