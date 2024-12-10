@@ -1,13 +1,51 @@
 .link_thumbnail {
-	display: flex;
-	place-items: center;
-	aspect-ratio: 1;
-	max-block-size: 320px;
-	max-inline-size: 320px;
-	background-color: hsla(0 0% 0% / 1);
+	--link_thumbnail_color_foreground: hsla(220 0% 0% / 1);
+	--link_thumbnail_color_background: hsla(220 0% 95% / 1);
+	--link_thumbnail_color_background_hover: hsla(220 100% 95% / 1);
+	display: block;
+	max-inline-size: 100%;
+	text-decoration: none;
+	background-color: var(--link_thumbnail_color_background);
+	color: var(--link_thumbnail_color_foreground);
+	border-radius: 0.25rem;
+	transition-property: background-color;
+	transition-duration: 0.2s;
+	overflow: hidden;
+
+	&:hover {
+		background-color: var(--link_thumbnail_color_background_hover);
+		background-color: color-mix(
+			in srgb,
+			var(--link_thumbnail_color_background) 50%,
+			var(--color-link-default) 10%
+		);
+	}
 
 	& picture {
 		display: flex;
-		place-items: center;
+		flex-direction: column;
+		place-content: center;
+		aspect-ratio: 1;
+		max-block-size: 320px;
+		max-inline-size: 320px;
+	}
+
+	& figure {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		margin: 0;
+	}
+
+	& figcaption {
+		padding: 0.5rem;
+	}
+
+	& ul {
+		list-style: "";
+		padding: 0;
+		margin: 0;
+		font-size: 0.75rem;
 	}
 }
