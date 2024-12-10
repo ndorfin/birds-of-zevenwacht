@@ -1,0 +1,18 @@
+.list_photo_details {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 0.5rem;
+	margin-block: 0;
+	margin-inline: -0.5rem;
+
+	& > div {
+		display: table-row;
+	}
+	& > div > dt {
+		display: table-cell;
+		padding-inline-end: 1rem;
+	}
+	& > div > dd {
+		display: table-cell;
+	}
+}
