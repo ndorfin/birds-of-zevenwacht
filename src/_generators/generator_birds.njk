@@ -42,9 +42,16 @@ layout: "bird_detail.njk"
 			{% for photodBirdId in photo.birds %}
 				{% if birdId == photodBirdId %}
 					{% set matchingPhotos = true %}
+					{% set sourcePhotoId = photo.file.replace('.jpeg', '') %}
+					{% set exif = source_photos[sourcePhotoId].exif %}
+					{% if exif %}
+						{% set datetime = exif.DateTimeOriginal %}
+					{% else %}
+						{% set datetime = photo.datetime %}
+					{% endif %}
 					<li>
 						<a href="{{ url.photos }}{{ photoId | slugify }}/">
-							{{ photo.datetime }}
+							{% datetime datetime %}
 						</a>
 					</li>
 				{% endif %}
