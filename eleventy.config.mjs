@@ -59,10 +59,9 @@ export default async function(config) {
 		</time>`;
 	});
 	config.addShortcode('photoImage', async function (src, alt) {
-		const species = path.dirname(src).split('src/assets/photos/')[1];
 		let metadata = await Image(src, {
-			urlPath: `/assets/photos/${ species }`,
-			outputDir: `src/assets/photos/${species}/`,
+			urlPath: `/assets/photos/`,
+			outputDir: `src/assets/photos/`,
 			filenameFormat: function (id, src, width, format, options) {
 				const extension = path.extname(src);
 				const name = path.basename(src, extension);
@@ -83,10 +82,9 @@ export default async function(config) {
 		return Image.generateHTML(metadata, imageAttributes);
 	});
 	config.addShortcode('photoThumbnail', async function (src, alt) {
-		const species = path.dirname(src).split('src/assets/photos/')[1];
 		let metadata = await Image(src, {
-			urlPath: `/assets/photos/${ species }`,
-			outputDir: `src/assets/photos/${species}/`,
+			urlPath: `/assets/photos/`,
+			outputDir: `src/assets/photos/`,
 			widths: [640],
 			filenameFormat: function (id, src, width, format, options) {
 				const extension = path.extname(src);

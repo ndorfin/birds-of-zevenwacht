@@ -10,7 +10,7 @@ layout: "photo_detail.njk"
 <dl>
 	<div>
 		<dt>Date and time</dt>
-		<dd>{% datetime photo.datetime %}</dd>
+		<dd>{#% datetime photo.exifdatetime %#}</dd>
 	</div>
 	<div>
 		<dt>Birds</dt>
@@ -25,7 +25,7 @@ layout: "photo_detail.njk"
 	<div>
 		<dt>Photo</dt>
 		<dd>
-			{% set imageSrc = 'src' + url.photo_images + photo.file %}
+			{% set imageSrc = url.source_photos + photo.file %}
 			{% photoImage imageSrc, photo.description %}
 		</dd>
 	</div>

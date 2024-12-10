@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
 		<li id="photo_{{ photoId }}">
 			<a class="link_thumbnail" href="{{ url.photos }}{{ photoId | slugify }}/">
 				<figure>
-					{% set imageSrc = 'src' + url.photo_images + photo.file %}
+					{% set imageSrc = url.source_photos + photo.file %}
 					{% photoThumbnail imageSrc, photo.description %}
 					<figcaption>
 						<ul>
