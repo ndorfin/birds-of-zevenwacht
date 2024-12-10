@@ -1,8 +1,5 @@
-# Add a date and time using an ISO8601 formatted date:
-# e.g. 2024-11-25T25T17:09+02:00
-datetime: 2024-09-04T14:23+02:00
 # What is the filename of this photo (in the /assets/photos folder)
-file: waxbill-swee/C1124F52-7404-4150-818B-9CFC0F5961AA.jpeg
+file: C1124F52-7404-4150-818B-9CFC0F5961AA.jpeg
 # Link this Photo to a Sighting, by providing the Sighting ID:
 sighting: 2024-09-04T14_23
 # Describe this image, as if you were explaining it over the phone
@@ -10,27 +7,6 @@ description: 3 or so Swee Waxbills foraging for seeds amongst the grass
 # List each of the bird IDs present in this photo
 birds:
   - waxbill-swee
-# Give details about the camera used
-camera:
-  # Supply the Camera ID (matching a file in the _data/cameras folder)
-  id: sony-ilce-7m3
-  # What lens was used with this camera?
-  lens: Sony FE 100-400mm F4.5-5.6 GM OSS
-  # Was a teleconverter attached?
-  # If so, what is the teleconverter magnification?
-  # If none was present, set this to: 1
-  converter: 1
-parameters:
-  # This reading includes teleconverter aperture narrowing
-  f-stop: 5.6
-  # This reading includes teleconverter magnification
-  focal-length: 400mm
-  # What shutter speed was used?
-  shutter: 1/500s
-  # What exposure compensation was used?
-  exposure-compensation: 0
-  # What ISO setting did the camera use for this photograph?
-  iso: 320
 # Link this photo to a photographer (matching a file in the _data/people folder)
 photographer: shaun
 location:

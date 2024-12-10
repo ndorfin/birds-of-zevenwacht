@@ -1,8 +1,9 @@
 import yaml from 'js-yaml';
 import { createRequire } from 'module';
-import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
-import Image from "@11ty/eleventy-img";
-import path from "node:path";
+import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
+import Image from '@11ty/eleventy-img';
+import path from 'node:path';
+import exifr from 'exifr';
 const require = createRequire(import.meta.url);
 const inspect = require('util').inspect;
 const markdownIt = require('markdown-it');
@@ -12,9 +13,20 @@ const md = new markdownIt({html: true});
 export default async function(config) {	
 	/* Add build:prod pathprefix capabilities for builds against gh-pages */
 	config.addPlugin(EleventyHtmlBasePlugin);
+	
 	/* Add YAML support */
 	config.addDataExtension('yml,yaml', contents => yaml.load(contents));
-
+	config.addDataExtension('jpeg', {
+		parser: async (file) => {
+			let exif = await exifr.parse(file);
+			return {
+				exif,
+			};
+		},
+		// Using `read: false` changes the parser argument to
+		// a file path instead of file contents.
+		read: false,
+	});
 	/* Copy assets straight through to the `public` folder */
 	config.addPassthroughCopy({'src/_root': '.'});
 	config.addPassthroughCopy({'src/assets': 'assets'});
