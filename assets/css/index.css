@@ -1,5 +1,6 @@
 @import './list_gallery.css';
 @import './link_thumbnail.css';
+@import './figure_full.css';
 
 html {
 	--dimensions-window-margin: 1rem;
