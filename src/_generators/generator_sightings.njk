@@ -33,8 +33,7 @@ layout: "sighting_detail.njk"
 					{% set associatedPhoto = photos[photoId] %}
 					<li>
 						<a class="link_thumbnail" href="{{ url.photos }}{{ photoId | slugify }}/">
-							{% set imageSrc = url.source_photos + associatedPhoto.file %}
-							{% photoThumbnail imageSrc, associatedPhoto.description %}
+							{% photoThumbnail url.source_photos + associatedPhoto.file, associatedPhoto.description %}
 						</a>
 					</li>
 				{% endfor %}

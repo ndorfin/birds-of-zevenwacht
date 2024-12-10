@@ -7,10 +7,18 @@ permalink: "{{ url.photos }}{{ photoId | slugify }}/index.html"
 layout: "photo_detail.njk"
 ---
 {% set photo = photos[photoId] %}
+{% set sourcePhotoId = photo.file.replace('.jpeg', '') %}
+
+{% set exif = source_photos[sourcePhotoId].exif %}
+{% if exif %}
+	{% set datetime = exif.DateTimeOriginal %}
+{% else %}
+	{% set datetime = photo.datetime %}
+{% endif %}
 <dl>
 	<div>
 		<dt>Date and time</dt>
-		<dd>{#% datetime photo.exifdatetime %#}</dd>
+		<dd>{% datetime datetime %}</dd>
 	</div>
 	<div>
 		<dt>Birds</dt>
@@ -25,8 +33,7 @@ layout: "photo_detail.njk"
 	<div>
 		<dt>Photo</dt>
 		<dd>
-			{% set imageSrc = url.source_photos + photo.file %}
-			{% photoImage imageSrc, photo.description %}
+			{% photoImage url.source_photos + photo.file, photo.description %}
 		</dd>
 	</div>
 	<div>
@@ -39,7 +46,7 @@ layout: "photo_detail.njk"
 		<dt>Associated sighting</dt>
 		<dd>
 			{% set sighting = sightings[photo.sighting] %}
-			<a href="{{ url.sightings }}{{ photo.sighting | slugify }}-{{ sighting.bird.id | slugify }}/">{{ photo.datetime }}</a>
+			<a href="{{ url.sightings }}{{ photo.sighting | slugify }}-{{ sighting.bird.id | slugify }}/">{% datetime datetime %}</a>
 		</dd>
 	</div>
 	<div>
@@ -53,45 +60,44 @@ layout: "photo_detail.njk"
 			{% endif %}
 		<dd>
 	</div>
+	{% if exif %}
 	<div>
 		<dt>Image information</dt>
 		<dd>
 			<dl>
 				<div>
 					<dt>Camera</dt>
-					{% set camera = cameras[photo.camera.id] %}
+					{% set camera = cameras[exif.Make + '-' + exif.Model] %}
 					<dd>{{ camera.make }} {{ camera.model }}</dd>
 				</div>
 				<div>
 					<dt>Lens</dt>
 					<dd>
-						{{ photo.camera.lens }}
-						{% if photo.camera.converter > 1 %}
-						<br>with {{ photo.camera.converter }}⨉ Teleconverter
-						{% endif %}
+						{{ exif.LensModel }}
 					</dd>
 				</div>
 				<div>
 					<dt>F-stop</dt>
-					<dd>{{ photo.parameters['f-stop'] }}</dd>
+					<dd>{{ exif.FNumber }}</dd>
 				</div>
 				<div>
 					<dt>Focal length</dt>
-					<dd>{{ photo.parameters['focal-length'] }}</dd>
+					<dd>{{ exif.FocalLengthIn35mmFormat }}</dd>
 				</div>
 				<div>
 					<dt>Shutter speed</dt>
-					<dd>{{ photo.parameters['shutter'] }}</dd>
+					<dd>{{ exif.ExposureTime }}</dd>
 				</div>
 				<div>
 					<dt>Exposure compensation</dt>
-					<dd>{{ photo.parameters['exposure-compensation'] }}ev</dd>
+					<dd>{{ exif.ExposureCompensation }}ev</dd>
 				</div>
 				<div>
 					<dt>ISO</dt>
-					<dd>{{ photo.parameters['iso'] }}</dd>
+					<dd>{{ exif.ISO }}</dd>
 				</div>
 			</dl>
 		</dd>
 	</div>
+	{% endif %}
 </dl>
