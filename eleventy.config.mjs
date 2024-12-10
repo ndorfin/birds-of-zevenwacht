@@ -13,7 +13,7 @@ export default async function(config) {
 	/* Add build:prod pathprefix capabilities for builds against gh-pages */
 	config.addPlugin(EleventyHtmlBasePlugin);
 	/* Add YAML support */
-	config.addDataExtension('yml', contents => yaml.load(contents));
+	config.addDataExtension('yml,yaml', contents => yaml.load(contents));
 
 	/* Copy assets straight through to the `public` folder */
 	config.addPassthroughCopy({'src/_root': '.'});
