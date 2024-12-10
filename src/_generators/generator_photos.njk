@@ -21,19 +21,25 @@ layout: "photo_detail.njk"
 		<p><small>© Copyright {{ people[photo.photographer]['full-name'] }}</small></p>
 	</figcaption>
 </figure>
-<dl>
+<dl class="list_photo_details">
 	<div>
-		<dt>Date and time</dt>
+		<dt>Date & time</dt>
 		<dd>{% datetime datetime %}</dd>
 	</div>
 	<div>
 		<dt>Birds</dt>
-		{% for birdId in photo.birds %}
-		<dd><a href="{{ url.birds }}{{ birds[birdId].name | slugify }}/">{{ birds[birdId].name }}</a></dd>
-		{% endfor %}
+		<dd>
+			<ul class="list_stripped">
+				{% for birdId in photo.birds %}
+					<li>
+						<a href="{{ url.birds }}{{ birds[birdId].name | slugify }}/">{{ birds[birdId].name }}</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</dd>
 	</div>
 	<div>
-		<dt>Associated sighting</dt>
+		<dt>Sighting</dt>
 		<dd>
 			{% set sighting = sightings[photo.sighting] %}
 			<a href="{{ url.sightings }}{{ photo.sighting | slugify }}-{{ sighting.bird.id | slugify }}/">{% datetime datetime %}</a>
@@ -52,9 +58,9 @@ layout: "photo_detail.njk"
 	</div>
 	{% if exif %}
 	<div>
-		<dt>Image information</dt>
+		<dt><abbr title="Exchangeable Image File Format">EXIF</abbr> data</dt>
 		<dd>
-			<dl>
+			<dl class="list_photo_details">
 				<div>
 					<dt>Camera</dt>
 					{% set camera = cameras[exif.Make + '-' + exif.Model] %}
@@ -67,26 +73,26 @@ layout: "photo_detail.njk"
 					</dd>
 				</div>
 				<div>
-					<dt>F-stop</dt>
-					<dd>{{ exif.FNumber }}</dd>
+					<dt>F-number</dt>
+					<dd>𝑓{{ exif.FNumber }}</dd>
 				</div>
 				<div>
 					<dt>Focal length</dt>
-					<dd>{{ exif.FocalLengthIn35mmFormat }}</dd>
+					<dd>{{ exif.FocalLengthIn35mmFormat }}<abbr title="Millimeters">mm</abbr></dd>
 				</div>
 				<div>
 					<dt>Shutter speed</dt>
 					<dd>
-						{% if exif.ExposureTime > 1 %}
-							{{ exif.ExposureTime }}s
+						{%- if exif.ExposureTime > 1 -%}
+						{{ exif.ExposureTime }}
 						{% else %}
-							1/{{ (1 / exif.ExposureTime) | int }}s
-						{% endif %}
+						1/{{ (1 / exif.ExposureTime) | int }}
+						{%- endif -%}<abbr title="Seconds">s</abbr>
 					</dd>
 				</div>
 				<div>
-					<dt>Exposure compensation</dt>
-					<dd>{{ exif.ExposureCompensation }}ev</dd>
+					<dt>Exposure</dt>
+					<dd>{{ exif.ExposureCompensation }}<abbr title="Exposure compensation">EV</abbr></dd>
 				</div>
 				<div>
 					<dt>ISO</dt>

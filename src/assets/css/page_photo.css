@@ -1,0 +1,7 @@
+[data-page-path^="photos-"] {
+	
+}
+
+.figure_full + .list_photo_details {
+	margin-block-start: 2rem;
+}

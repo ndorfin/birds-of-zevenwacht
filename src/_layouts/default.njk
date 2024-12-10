@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="/assets/css/index.css">
 {% include "title.njk" %}
 {% include "site_meta.njk" %}
+<body data-page-path="{{ page.url | slugify }}">
 {% include "site_header.njk" %}
 {% include "site_navigation.njk" %}
 <main>
