@@ -10,8 +10,17 @@ eleventyExcludeFromCollections: true
 	{% for photoId, photo in photos %}
 		<li id="photo_{{ photoId }}">
 			<a class="link_thumbnail" href="{{ url.photos }}{{ photoId | slugify }}/">
-				{% set imageSrc = 'src' + url.photo_images + photo.file %}
-				{% photoThumbnail imageSrc, photo.description %}
+				<figure>
+					{% set imageSrc = 'src' + url.photo_images + photo.file %}
+					{% photoThumbnail imageSrc, photo.description %}
+					<figcaption>
+						<ul>
+							{% for birdId in photo.birds %}
+								<li>{{ birds[birdId].name }}{% if loop.length > 1 and not loop.last %},{% endif %}</li>
+							{% endfor %}
+						</ul>
+					</figcaption>
+				</figure>
 			</a>
 		</li>
 	{% endfor %}

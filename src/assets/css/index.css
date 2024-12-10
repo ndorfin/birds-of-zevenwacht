@@ -2,13 +2,24 @@
 @import './link_thumbnail.css';
 
 html {
+	--dimensions-window-margin: 1rem;
+	--color-link-default: hsla(220 85% 50% / 1);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 100%;
-	margin: 1rem;
+	margin: var(--dimensions-window-margin);
 }
 
 img {
 	block-size: auto;
 	max-inline-size: 100%;
 	vertical-align: middle;
+}
+
+a {
+	color: var(--color-link-default);
+}
+
+*:focus-visible {
+	outline: var(--color-link-default) solid 2px;
+	outline-offset: 2px;
 }
