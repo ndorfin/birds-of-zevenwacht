@@ -5,6 +5,7 @@ pagination:
   alias: photoId
 permalink: "{{ url.photos }}{{ photoId | slugify }}/index.html"
 layout: "photo_detail.njk"
+eleventyExcludeFromCollections: true
 ---
 {% set photo = photos[photoId] %}
 {% set sourcePhotoId = photo.file.replace('.jpeg', '') %}

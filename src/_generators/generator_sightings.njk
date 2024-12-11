@@ -5,6 +5,7 @@ pagination:
   alias: sightingId
 permalink: "{{ url.sightings }}{{ sightingId | slugify }}-{{ sightings[sightingId].bird.id }}/index.html"
 layout: "sighting_detail.njk"
+eleventyExcludeFromCollections: true
 ---
 {% set sighting = sightings[sightingId] %}
 <dl>

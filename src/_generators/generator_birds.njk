@@ -5,6 +5,7 @@ pagination:
   alias: birdId
 permalink: "{{ url.birds }}{{ birds[birdId].name | slugify }}/index.html"
 layout: "bird_detail.njk"
+eleventyExcludeFromCollections: true
 ---
 {% set bird = birds[birdId] %}
 {% if bird['scientific-name'] %}
