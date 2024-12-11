@@ -1,0 +1,40 @@
+body > header > nav {
+	& ul {
+		display: flex;
+		flex-direction: row;
+		gap: 2rem;
+		margin: 0;
+		padding: 0;
+		list-style: "";
+	}
+
+	& a {
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		color: hsla(220 0 0 / 1);
+		line-height: 1;
+	}
+
+	& a::before {
+		content: "";
+		display: block;
+		block-size: 4rem;
+		inline-size: 4rem;
+		margin-block-end: 0.5rem;
+		background-image: var(--site_nav_anchor_image);
+		background-position: 50% 50%;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	& a[href*="/birds"] {
+		--site_nav_anchor_image: url(../img/icon_bird.svg);
+	}
+	& a[href*="/sightings"] {
+		--site_nav_anchor_image: url(../img/icon_sighting.svg);
+	}
+	& a[href*="/photos"] {
+		--site_nav_anchor_image: url(../img/icon_photo.svg);
+	}
+}

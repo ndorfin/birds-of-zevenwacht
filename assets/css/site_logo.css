@@ -1,0 +1,21 @@
+body > header > h1 {
+	margin: 0;
+
+	& a {
+		display: block;
+		max-inline-size: 13rem;
+		text-decoration: none;
+		color: hsla(220 0 0 / 1);
+		line-height: 1;
+
+		&::first-line {
+			font-size: 0.75em;
+		}
+	}
+}
+
+@media (min-width: 720px) {
+	body > header > h1 {
+		margin-block-end: -0.125rem;
+	}
+}

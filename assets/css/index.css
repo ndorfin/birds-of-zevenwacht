@@ -1,3 +1,9 @@
+@import './defaults.css';
+@import './site_header.css';
+@import './site_logo.css';
+@import './site_nav.css';
+@import './main.css';
+@import './site_footer.css';
 @import './list_gallery.css';
 @import './link_thumbnail.css';
 @import './figure_full.css';
@@ -5,25 +11,12 @@
 @import './list_stripped.css';
 @import './page_photo.css';
 
-html {
-	--dimensions-window-margin: 1rem;
-	--color-link-default: hsla(220 85% 50% / 1);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 100%;
-	margin: var(--dimensions-window-margin);
-}
-
-img {
-	block-size: auto;
-	max-inline-size: 100%;
-	vertical-align: middle;
-}
-
-a {
-	color: var(--color-link-default);
-}
-
-*:focus-visible {
-	outline: var(--color-link-default) solid 2px;
-	outline-offset: 2px;
+screenreader-only {
+	clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
 }
