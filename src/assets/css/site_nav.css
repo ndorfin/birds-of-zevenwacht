@@ -9,7 +9,9 @@ body > header > nav {
 	}
 
 	& a {
-		display: block;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		text-decoration: none;
 		text-align: center;
 		color: hsla(220 0 0 / 1);
@@ -19,12 +21,11 @@ body > header > nav {
 	& a::before {
 		content: "";
 		display: block;
-		block-size: 4rem;
-		inline-size: 4rem;
-		margin-block-end: 0.5rem;
+		block-size: 3rem;
+		inline-size: 3rem;
 		background-image: var(--site_nav_anchor_image);
 		background-position: 50% 50%;
-		background-size: cover;
+		background-size: contain;
 		background-repeat: no-repeat;
 	}
 
@@ -33,8 +34,19 @@ body > header > nav {
 	}
 	& a[href*="/sightings"] {
 		--site_nav_anchor_image: url(../img/icon_sighting.svg);
+
+		&::before {
+			inline-size: 4rem;
+		}
 	}
 	& a[href*="/photos"] {
 		--site_nav_anchor_image: url(../img/icon_photo.svg);
 	}
+}
+
+[data-page-path^="birds"] > header > nav a[href*="/birds"],
+[data-page-path^="sightings"] > header > nav a[href*="/sightings"],
+[data-page-path^="photos"] > header > nav a[href*="/photos"] {
+	padding-block-end: 0.25rem;
+	border-block-end: 2px solid black;
 }
