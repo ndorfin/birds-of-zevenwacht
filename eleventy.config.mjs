@@ -4,11 +4,21 @@ import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
 import Image from '@11ty/eleventy-img';
 import path from 'node:path';
 import exifr from 'exifr';
+
 const require = createRequire(import.meta.url);
 const inspect = require('util').inspect;
 const markdownIt = require('markdown-it');
-
 const md = new markdownIt({html: true});
+const imageFilenameFormatter = function (id, src, width, format, options) {
+	const extension = path.extname(src);
+	const name = path.basename(src, extension);
+	// id: hash of the original image
+	// src: original image path
+	// width: current width in px
+	// format: current file format
+	// options: set of options passed to the Image call
+	return `${name}-${width}.${format}`;
+};
 
 export default async function(config) {	
 	/* Add build:prod pathprefix capabilities for builds against gh-pages */
@@ -62,23 +72,13 @@ export default async function(config) {
 		let metadata = await Image(src, {
 			urlPath: `/assets/photos/`,
 			outputDir: `src/assets/photos/`,
-			filenameFormat: function (id, src, width, format, options) {
-				const extension = path.extname(src);
-				const name = path.basename(src, extension);
-				// id: hash of the original image
-				// src: original image path
-				// width: current width in px
-				// format: current file format
-				// options: set of options passed to the Image call
-				return `${name}-${width}.${format}`;
-			},
+			filenameFormat: imageFilenameFormatter,
 			formats: ['avif', 'webp', 'jpeg'],
 		});
 		let imageAttributes = {
 			alt,
 			loading: 'lazy'
 		};
-
 		return Image.generateHTML(metadata, imageAttributes);
 	});
 	config.addShortcode('photoThumbnail', async function (src, alt) {
@@ -86,23 +86,13 @@ export default async function(config) {
 			urlPath: `/assets/photos/`,
 			outputDir: `src/assets/photos/`,
 			widths: [640],
-			filenameFormat: function (id, src, width, format, options) {
-				const extension = path.extname(src);
-				const name = path.basename(src, extension);
-				// id: hash of the original image
-				// src: original image path
-				// width: current width in px
-				// format: current file format
-				// options: set of options passed to the Image call
-				return `${name}-${width}.${format}`;
-			},
+			filenameFormat: imageFilenameFormatter,
 			formats: ['avif', 'webp', 'jpeg'],
 		});
 		let imageAttributes = {
 			alt,
 			loading: 'lazy'
 		};
-
 		return Image.generateHTML(metadata, imageAttributes);
 	});
 
