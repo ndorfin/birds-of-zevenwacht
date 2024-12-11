@@ -1,0 +1,21 @@
+main {
+	padding-block-start: 0;
+	padding-block-end: 3rem;
+	padding-inline: var(--dimensions-window-margin);
+	background-color: hsla(220 0 100% / 1);
+
+	& > header {
+		/* margin-block-start: calc(var(--dimensions-window-margin) * -1); */
+		margin-inline: calc(var(--dimensions-window-margin) * -1);
+		padding-inline: var(--dimensions-window-margin);
+		padding-block: calc(var(--dimensions-window-margin) * 2);
+
+		& > h2 {
+			margin: 0;
+		}
+		& > p {
+			margin: 0;
+		}
+	}
+}
+
