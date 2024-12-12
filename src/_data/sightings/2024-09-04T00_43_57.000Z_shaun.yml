@@ -3,12 +3,12 @@
 datetime: 2024-09-04T00:43:57.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  
+  A male adult Indian Peafowl (Peacock) on the manicured lawns in front of the manor house
 bird:
   # Supply a matching Bird ID
-  id: 
+  id: peafowl-indian
   # How many individuals did you spot?
-  quantity: 
+  quantity: 1
 # Link this Sighting to a Photo, by its ID
 photos: 
   - 2024-09-04T00_43_57.000Z_shaun
@@ -16,4 +16,6 @@ photos:
 observers:
   - shaun
 location:
-  area: 
+  area: zevenwacht-wine-estate
+  latitude: -33.930228
+  longitude: 18.727315

@@ -3,17 +3,20 @@
 datetime: 2024-09-04T00:49:03.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  
+  A pair of adult Cape Eagle-Owls were perched high up in the branches of an Ivy-covered tree, and a nearby Palm tree above the Boma
 bird:
   # Supply a matching Bird ID
-  id: 
+  id: owl-cape-eagle
   # How many individuals did you spot?
-  quantity: 
+  quantity: 2
 # Link this Sighting to a Photo, by its ID
 photos: 
   - 2024-09-04T00_49_03.000Z_shaun
 # Include all the people that spotted this bird.
 observers:
   - shaun
+  - ingunn
 location:
-  area: 
+  area: zevenwacht-wine-estate
+  latitude: -33.930391
+  longitude: 18.727594
