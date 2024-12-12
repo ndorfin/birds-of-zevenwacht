@@ -37,8 +37,7 @@
 
 	
 </header>
-	<article>
-		<p><a href="add/">Add a Sighting</a></p>
+	<p><a href="add/">Add a Sighting</a></p>
 <ul>
 	
 		<li id="sighting_2024-09-04T14_23">
@@ -234,42 +233,9 @@
 		</li>
 	
 </ul>
-	</article>
 </main>
 <footer>
 	<p><small>© Photographs: Copyright by their respective owners</small></p>
 </footer>
-
-<!--
-============================
-page: {
-  inputPath: './src/sightings/index.njk',
-  fileSlug: 'sightings',
-  filePathStem: '/sightings/index',
-  outputFileExtension: 'html',
-  templateSyntax: 'njk',
-  date: 2024-12-12T08:23:19.114Z,
-  rawInput: '<p><a href="./add/">Add a Sighting</a></p>\n' +
-    '<ul>\n' +
-    '\t{% for sightingId, sighting in sightings %}\n' +
-    '\t\t<li id="sighting_{{ sightingId }}">\n' +
-    '\t\t\t<a href="{{ url.sightings }}{{ sightingId | slugify }}-{{ sighting.bird.id }}/">\n' +
-    '\t\t\t\t{{ sighting.bird.quantity }} ⨉ {{ birds[sighting.bird.id].name }}\n' +
-    '\t\t\t</a>\n' +
-    '\t\t</li>\n' +
-    '\t{% endfor %}\n' +
-    '</ul>',
-  url: '/sightings/',
-  outputPath: './dist/sightings/index.html'
-}
-page_meta: undefined
-title: 'Sightings'
-heading: 'Sightings'
-summary: 'Recorded sightings of birds'
-description: 'Recorded sightings of birds'
-============================
-bird: undefined
-============================
--->
 
 </body></html>

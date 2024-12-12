@@ -37,8 +37,7 @@
 
 	
 </header>
-	<article>
-		
+	
 <ul class="list_gallery">
 	
 		<li id="photo_2024-09-04-waxbill-swee">
@@ -207,51 +206,9 @@
 		</li>
 	
 </ul>
-	</article>
 </main>
 <footer>
 	<p><small>© Photographs: Copyright by their respective owners</small></p>
 </footer>
-
-<!--
-============================
-page: {
-  inputPath: './src/photos/index.njk',
-  fileSlug: 'photos',
-  filePathStem: '/photos/index',
-  outputFileExtension: 'html',
-  templateSyntax: 'njk',
-  date: 2024-12-12T08:23:19.114Z,
-  rawInput: '\n' +
-    '<ul class="list_gallery">\n' +
-    '\t{% for photoId, photo in photos %}\n' +
-    '\t\t<li id="photo_{{ photoId }}">\n' +
-    '\t\t\t<a class="link_thumbnail" href="{{ url.photos }}{{ photoId | slugify }}/">\n' +
-    '\t\t\t\t<figure>\n' +
-    '\t\t\t\t\t{% photoThumbnail url.source_photos + photo.file, photo.description %}\n' +
-    '\t\t\t\t\t<figcaption>\n' +
-    '\t\t\t\t\t\t<ul>\n' +
-    '\t\t\t\t\t\t\t{% for birdId in photo.birds %}\n' +
-    '\t\t\t\t\t\t\t\t<li>{{ birds[birdId].name }}{% if loop.length > 1 and not loop.last %},{% endif %}</li>\n' +
-    '\t\t\t\t\t\t\t{% endfor %}\n' +
-    '\t\t\t\t\t\t</ul>\n' +
-    '\t\t\t\t\t</figcaption>\n' +
-    '\t\t\t\t</figure>\n' +
-    '\t\t\t</a>\n' +
-    '\t\t</li>\n' +
-    '\t{% endfor %}\n' +
-    '</ul>',
-  url: '/photos/',
-  outputPath: './dist/photos/index.html'
-}
-page_meta: undefined
-title: 'Photos'
-heading: 'Photos'
-summary: 'Recent photos of birds in Zevenwacht'
-description: 'Recent photos of birds in Zevenwacht'
-============================
-bird: undefined
-============================
--->
 
 </body></html>

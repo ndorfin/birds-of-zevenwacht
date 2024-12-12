@@ -37,8 +37,7 @@
 
 	
 </header>
-	<article>
-		<p>
+	<p>
 	If you've stumbled across this page,
 	you'll need a Personal Access Token with rights to write to this repo,
 	before you can contribute to the sightings.
@@ -293,120 +292,9 @@
 <script type="module" src="/birds-of-zevenwacht/assets/mjs/wc/location-lookup.mjs"></script>
 <script type="module" src="/birds-of-zevenwacht/assets/mjs/create-sighting.mjs"></script>
 
-	</article>
 </main>
 <footer>
 	<p><small>© Photographs: Copyright by their respective owners</small></p>
 </footer>
-
-<!--
-============================
-page: {
-  inputPath: './src/sightings/add/index.njk',
-  fileSlug: 'add',
-  filePathStem: '/sightings/add/index',
-  outputFileExtension: 'html',
-  templateSyntax: 'njk',
-  date: 2024-12-12T08:23:19.114Z,
-  rawInput: '<p>\n' +
-    "\tIf you've stumbled across this page,\n" +
-    "\tyou'll need a Personal Access Token with rights to write to this repo,\n" +
-    '\tbefore you can contribute to the sightings.\n' +
-    '</p>\n' +
-    '<form action="." method="GET">\n' +
-    '\n' +
-    '\t<fieldset>\n' +
-    '\t\t<legend>Bird details</legend>\n' +
-    '\t\t<div class="form_row">\n' +
-    '\t\t\t<label for="text_species">Bird species:</label>\n' +
-    '\t\t\t<div class="form_field">\n' +
-    '\t\t\t\t<input type="text" name="species" id="text_species" list="datalist_birds" required>\n' +
-    '\t\t\t\t<datalist id="datalist_birds">\n' +
-    '\t\t\t\t\t{% for birdId, bird in birds %}\n' +
-    '\t\t\t\t\t<option value="{{ birdId }}" label="{{ bird.name }}">\n' +
-    '\t\t\t\t\t{% endfor %}\n' +
-    '\t\t\t\t</datalist>\n' +
-    '\t\t\t</div>\n' +
-    '\t\t</div>\n' +
-    '\t\t<div class="form_row">\n' +
-    '\t\t\t<label for="number_quantity">Quantity:</label>\n' +
-    '\t\t\t<div class="form_field">\n' +
-    '\t\t\t\t<input type="number" name="quantity" id="number_quantity" min="1" max="1000" step="1" required>\n' +
-    '\t\t\t</div>\n' +
-    '\t\t</div>\n' +
-    '\t</fieldset>\n' +
-    '\n' +
-    '\t<fieldset>\n' +
-    '\t\t<legend>Sighting details</legend>\n' +
-    '\t\t<div class="form_row">\n' +
-    '\t\t\t<label for="datetime-local_datetime">Date & time:</label>\n' +
-    '\t\t\t<div class="form_field">\n' +
-    '\t\t\t\t<input type="datetime-local" name="datetime" id="datetime-local_datetime" required>\n' +
-    '\t\t\t</div>\n' +
-    '\t\t</div>\n' +
-    '\t\t<div class="form_row">\n' +
-    '\t\t\t<label for="text_description">Description of sighting:</label>\n' +
-    '\t\t\t<div class="form_field">\n' +
-    '\t\t\t\t<textarea name="description" id="text_description" rows="4" cols="40" required></textarea>\n' +
-    '\t\t\t</div>\n' +
-    '\t\t</div>\n' +
-    '\t</fieldset>\n' +
-    '\n' +
-    '\t<fieldset>\n' +
-    '\t\t<legend>Location details</legend>\n' +
-    '\t\t<div class="form_row">\n' +
-    '\t\t\t<label for="text_area">Area:</label>\n' +
-    '\t\t\t<div class="form_field">\n' +
-    '\t\t\t\t<input type="text" name="area" id="text_area" list="datalist_areas" required>\n' +
-    '\t\t\t\t<datalist id="datalist_areas">\n' +
-    '\t\t\t\t\t{% for areaId, area in areas %}\n' +
-    '\t\t\t\t\t<option value="{{ areaId }}" label="{{ area.name }}">\n' +
-    '\t\t\t\t\t{% endfor %}\n' +
-    '\t\t\t\t</datalist>\n' +
-    '\t\t\t</div>\n' +
-    '\t\t</div>\n' +
-    '\t\t<location-lookup>\n' +
-    '\t\t\t<template>\n' +
-    '\t\t\t\t<div class="form_row">\n' +
-    '\t\t\t\t\t<div class="form_field">\n' +
-    '\t\t\t\t\t\t<button type="button">Look up my location</button>\n' +
-    '\t\t\t\t\t</div>\n' +
-    '\t\t\t\t</div>\n' +
-    '\t\t\t</template>\n' +
-    '\t\t\t<div class="form_row">\n' +
-    '\t\t\t\t<label for="text_latitude">Latitude:</label>\n' +
-    '\t\t\t\t<div class="form_field">\n' +
-    '\t\t\t\t\t<input type="text" inputmode="numeric" name="latitude" id="text_latitude">\n' +
-    '\t\t\t\t</div>\n' +
-    '\t\t\t</div>\n' +
-    '\t\t\t<div class="form_row">\n' +
-    '\t\t\t\t<label for="text_longitude">Longitude:</label>\n' +
-    '\t\t\t\t<div class="form_field">\n' +
-    '\t\t\t\t\t<input type="text" inputmode="numeric" name="longitude" id="text_longitude">\n' +
-    '\t\t\t\t</div>\n' +
-    '\t\t\t</div>\n' +
-    '\t\t</location-lookup>\n' +
-    '\t</fieldset>\n' +
-    '\n' +
-    '\t<div class="form_row form_actions">\n' +
-    '\t\t<button type="submit">Submit</button>\n' +
-    '\t\t<button type="reset">Reset</button>\n' +
-    '\t</div>\n' +
-    '\n' +
-    '</form>\n' +
-    '<script type="module" src="/assets/mjs/wc/location-lookup.mjs"></script>\n' +
-    '<script type="module" src="/assets/mjs/create-sighting.mjs"></script>\n',
-  url: '/sightings/add/',
-  outputPath: './dist/sightings/add/index.html'
-}
-page_meta: undefined
-title: 'Add a sighting'
-heading: 'Add a sighting'
-summary: 'Record a bird sighting within Zevenwacht'
-description: 'Record a bird sighting within Zevenwacht'
-============================
-bird: undefined
-============================
--->
 
 </body></html>
