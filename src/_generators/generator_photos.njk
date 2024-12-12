@@ -26,7 +26,7 @@ eleventyExcludeFromCollections: true
 <dl class="list_photo_details">
 	<div>
 		<dt>Date & time</dt>
-		<dd>{% datetime datetime %}</dd>
+		<dd>{#% datetime datetime, photoId %#}</dd>
 	</div>
 	<div>
 		<dt>Birds</dt>
@@ -44,7 +44,7 @@ eleventyExcludeFromCollections: true
 		<dt>Sighting</dt>
 		<dd>
 			{% set sighting = sightings[photo.sighting] %}
-			<a href="{{ url.sightings }}{{ photo.sighting | slugify }}-{{ sighting.bird.id | slugify }}/">{% datetime datetime %}</a>
+			<a href="{{ url.sightings }}{{ photo.sighting | slugify }}-{{ sighting.bird.id | slugify }}/">{#% datetime datetime, photoId %#}</a>
 		</dd>
 	</div>
 	<div>
