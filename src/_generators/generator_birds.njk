@@ -49,7 +49,7 @@ eleventyExcludeFromCollections: true
 				{% if birdId == photodBirdId %}
 					{% set matchingPhotos = true %}
 					{% set sourcePhotoId = photo.file.replace('.jpeg', '') %}
-					{% set exif = source_photos[sourcePhotoId].exif %}
+					{% set exif = source_photos[photo.photographer][sourcePhotoId].exif %}
 					{% if exif %}
 						{% set datetime = exif.DateTimeOriginal %}
 					{% else %}
@@ -58,7 +58,7 @@ eleventyExcludeFromCollections: true
 					<li>
 						<a class="link_thumbnail" href="{{ url.photos }}{{ photoId | slugify }}/">
 							<figure>
-								{% photoThumbnail url.source_photos + photo.file, photo.description %}
+								{% photoThumbnail url.source_photos + photo.photographer + '/' + photo.file, photo.description %}
 								<figcpation>
 									{% datetime datetime %}
 								</figcpation>

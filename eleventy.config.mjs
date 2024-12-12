@@ -65,9 +65,10 @@ export default async function(config) {
 		</time>`;
 	});
 	config.addShortcode('photoImage', async function (src, alt) {
+		const authorId = src.split('src/_data/source_photos/')[1].split('/')[0];
 		let metadata = await Image(src, {
-			urlPath: `/assets/photos/`,
-			outputDir: `src/assets/photos/`,
+			urlPath: `/assets/photos/${authorId}/`,
+			outputDir: `src/assets/photos/${authorId}/`,
 			filenameFormat: imageFilenameFormatter,
 			formats: ['avif', 'webp', 'jpeg'],
 		});
@@ -78,9 +79,10 @@ export default async function(config) {
 		return Image.generateHTML(metadata, imageAttributes);
 	});
 	config.addShortcode('photoThumbnail', async function (src, alt) {
+		const authorId = src.split('src/_data/source_photos/')[1].split('/')[0];
 		let metadata = await Image(src, {
-			urlPath: `/assets/photos/`,
-			outputDir: `src/assets/photos/`,
+			urlPath: `/assets/photos/${authorId}/`,
+			outputDir: `src/assets/photos/${authorId}/`,
 			widths: [640],
 			filenameFormat: imageFilenameFormatter,
 			formats: ['avif', 'webp', 'jpeg'],

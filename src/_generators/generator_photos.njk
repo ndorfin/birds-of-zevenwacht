@@ -9,14 +9,15 @@ eleventyExcludeFromCollections: true
 ---
 {% set photo = photos[photoId] %}
 {% set sourcePhotoId = photo.file.replace('.jpeg', '') %}
-{% set exif = source_photos[sourcePhotoId].exif %}
+{% set exif = source_photos[photo.photographer][sourcePhotoId].exif %}
 {% if exif %}
 	{% set datetime = exif.DateTimeOriginal %}
 {% else %}
 	{% set datetime = photo.datetime %}
 {% endif %}
 <figure class="figure_full">
-	{% photoImage url.source_photos + photo.file, photo.description %}
+	{% set photoPath = url.source_photos + photo.photographer + '/' + photo.file %}
+	{% photoImage photoPath, photo.description %}
 	<figcaption>
 		<p>{{ photo.description }}</p>
 		<p><small>© Copyright {{ people[photo.photographer]['full-name'] }}</small></p>

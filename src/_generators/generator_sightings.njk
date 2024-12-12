@@ -31,10 +31,11 @@ eleventyExcludeFromCollections: true
 		<dd>
 			<ul class="list_gallery">
 				{% for photoId in sighting.photos %}
-					{% set associatedPhoto = photos[photoId] %}
+					{% set photo = photos[photoId] %}
 					<li>
 						<a class="link_thumbnail" href="{{ url.photos }}{{ photoId | slugify }}/">
-							{% photoThumbnail url.source_photos + associatedPhoto.file, associatedPhoto.description %}
+							{% set photoPath = url.source_photos + photo.photographer + '/' + photo.file %}
+							{% photoThumbnail photoPath, photo.description %}
 						</a>
 					</li>
 				{% endfor %}
