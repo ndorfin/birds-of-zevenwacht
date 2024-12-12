@@ -16,8 +16,10 @@ eleventyExcludeFromCollections: true
 <p><a href="{{ bird.ebird }}">{{ bird.name }} on eBird</a></p>
 {% endif %}
 
-<details>
-	<summary>Sightings</summary>
+<article aria-labelledby="heading_bird_sightings">
+	<header>
+		<h3 id="heading_bird_sightings">Sightings</h3>
+	</header>
 	<ul>
 		{% set matchingSightings = false %}
 		{% for sightingId, sighting in sightings %}
@@ -34,10 +36,13 @@ eleventyExcludeFromCollections: true
 			<li>None</li>
 		{% endif %}
 	</ul>
-</details>
-<details>
-	<summary>Photos</summary>
-	<ul>
+</article>
+
+<article aria-labelledby="heading_bird_photos">
+	<header>
+		<h3 id="heading_bird_photos">Photos</h3>
+	</header>
+	<ul class="list_gallery">
 		{% set matchingPhotos = false %}
 		{% for photoId, photo in photos %}
 			{% for photodBirdId in photo.birds %}
@@ -51,8 +56,13 @@ eleventyExcludeFromCollections: true
 						{% set datetime = photo.datetime %}
 					{% endif %}
 					<li>
-						<a href="{{ url.photos }}{{ photoId | slugify }}/">
-							{% datetime datetime %}
+						<a class="link_thumbnail" href="{{ url.photos }}{{ photoId | slugify }}/">
+							<figure>
+								{% photoThumbnail url.source_photos + photo.file, photo.description %}
+								<figcpation>
+								{% datetime datetime %}
+								</figcpation>
+							</figure>
 						</a>
 					</li>
 				{% endif %}
@@ -62,4 +72,4 @@ eleventyExcludeFromCollections: true
 			<li>None</li>
 		{% endif %}
 	</ul>
-</details>
+</article>
