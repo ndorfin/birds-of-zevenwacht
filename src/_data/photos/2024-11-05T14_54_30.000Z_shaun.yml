@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 25296C93-21F9-4916-8864-B2B02B20828F.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-11-05T14_54_30.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Cape Eagle-Owl, with it's back facing the camera, and head turned 180 degrees towards the photographer.
+# List each of the bird IDs present in this photo
+birds:
+  - owl-cape-eagle
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: langverwacht-farm
+  latitude: -33.932971
+  longitude: 18.718697

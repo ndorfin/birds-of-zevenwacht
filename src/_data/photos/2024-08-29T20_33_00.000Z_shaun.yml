@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 9B97E53A-F5A1-4EE3-9BE2-BE8A841DA954.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-08-29T20_33_00.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult Fork-tailed Drongo perched in a Frangipani bush
+# List each of the bird IDs present in this photo
+birds:
+  - drongo-fork-tailed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

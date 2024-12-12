@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: white-eye-cape_IMG_1075.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2021-07-18T08_34_44.000Z_tony
+# Describe this image, as if you were explaining it over the phone
+description: A Cape White-eye hanging underneath a branch of brilliant red berries
+# List each of the bird IDs present in this photo
+birds:
+  - white-eye-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: tony
+location:
+  area: zevenwacht-village

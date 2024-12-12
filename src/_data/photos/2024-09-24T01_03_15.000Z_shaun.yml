@@ -1,0 +1,17 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 3595ABEB-817B-4F28-97D1-2F43A6C19AD6.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-09-24T01_03_15.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult Jackal Buzzard perched atop a pine tree
+# List each of the bird IDs present in this photo
+birds:
+  - buzzard-jackal
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.932131
+  longitude: 18.720448
+

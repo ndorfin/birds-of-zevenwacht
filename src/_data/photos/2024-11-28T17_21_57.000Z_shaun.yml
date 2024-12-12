@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 8E67DCD6-418C-4626-BB0E-446BA2DEE7E4.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-11-28T17_21_57.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Pied Crow in flight, wings fully-extended
+# List each of the bird IDs present in this photo
+birds:
+  - crow-pied
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.931450
+  longitude: 18.713485

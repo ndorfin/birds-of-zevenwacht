@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: A11A244E-420A-4B01-BCB9-15F24D3F4BFF.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-09-04T00_43_57.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A male adult Indian Peafowl (Peacock) on the manicured lawns in front of the manor house
+# List each of the bird IDs present in this photo
+birds:
+  - peafowl-indian
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.930228
+  longitude: 18.727315

@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 66CAEF51-2940-4784-883A-7E88BC570B08.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-09-04T00_25_28.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A male Yellow Bishop perched on a leafless bush in a meadow
+# List each of the bird IDs present in this photo
+birds:
+  - bishop-yellow
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.931042
+  longitude: 18.719412

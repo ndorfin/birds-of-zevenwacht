@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: kingfisher-malachite_Juvenile_Malachite_Kingfisher_1.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-11-27T05_42_47.000Z_tony
+# Describe this image, as if you were explaining it over the phone
+description: A juvenile Malachite Kingfisher perched on a pond-side tree
+# List each of the bird IDs present in this photo
+birds:
+  - kingfisher-malachite
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: tony
+location:
+  area: zevenwacht-village

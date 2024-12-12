@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: D9E66A1A-2611-4053-895A-BD74E4F2D896.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-11-07T15_53_10.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult African Black Duck swimming on a lily-covered pond
+# List each of the bird IDs present in this photo
+birds:
+  - duck-african-black
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: F79AF39E-64ED-49A9-A265-9AD5AC4A02EB.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-08-28T20_18_48.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: 5 adult White-backed Mousebirds huddled around a hanging bird-feeder
+# List each of the bird IDs present in this photo
+birds:
+  - mousebird-white-backed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

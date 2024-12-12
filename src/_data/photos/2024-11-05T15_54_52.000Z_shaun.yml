@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 992A9E48-2504-4DF5-9DFB-5CDF767F61C8.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-11-05T15_54_52.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult Karoo Prinia perched on a thin vine
+# List each of the bird IDs present in this photo
+birds:
+  - prinia-karoo
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.931976
+  longitude: 18.727524

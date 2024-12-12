@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 21969029-592D-45BA-AEB1-264913549EAC.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-11-05T14_59_40.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult Blue Crane flying high above the photographer
+# List each of the bird IDs present in this photo
+birds:
+  - crane-blue
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: langverwacht-farm
+  latitude: -33.933671
+  longitude: 18.719874

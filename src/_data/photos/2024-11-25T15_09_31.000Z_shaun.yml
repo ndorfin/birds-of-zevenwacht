@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 0E67A085-D7E7-4771-8BA0-CD227EF46E8A.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-11-25T15_09_31.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Rufous-breasted Sparrowhawk in flight, wings fully-extended
+# List each of the bird IDs present in this photo
+birds:
+  - sparrowhawk-rufous-breasted
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.934460
+  longitude: 18.709044

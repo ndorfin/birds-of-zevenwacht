@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: D7D22BCA-7438-4112-BBD5-310E7CFA757F.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-09-24T01_27_49.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A male Cape Canary perched atop a bushel of flowers
+# List each of the bird IDs present in this photo
+birds:
+  - canary-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.929021
+  longitude: 18.729345

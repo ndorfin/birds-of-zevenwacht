@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 68047840-3C91-4A0F-AE13-D2FEC6F24A88.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-10-18T19_50_21.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult male Southern Masked Weaver perched on the edge of a bird-bowl
+# List each of the bird IDs present in this photo
+birds:
+  - weaver-southern-masked
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

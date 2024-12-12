@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: FEF6336D-BF3F-4CB8-82AF-682EF069E707.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-11-19T12_45_11.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult male Malachite Sunbird perched atop a plastic rain gauge
+# List each of the bird IDs present in this photo
+birds:
+  - sunbird-malachite
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

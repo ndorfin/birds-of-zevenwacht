@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: ibis-hadeda_IMG_5272.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-10-16T06_13_51.000Z_tony
+# Describe this image, as if you were explaining it over the phone
+description: An adult Hadeda Ibis perched atop a sawn-off tree trunk
+# List each of the bird IDs present in this photo
+birds:
+  - ibis-hadeda
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: tony
+location:
+  area: zevenwacht-village

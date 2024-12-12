@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 273FFA74-B3B6-486B-8A41-7EFA8312ADD6.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-09-20T23_50_26.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult African Hoopoe foraging through the lawn
+# List each of the bird IDs present in this photo
+birds:
+  - hoopoe-african
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

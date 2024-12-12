@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: duck-yellow-billed_IMG_2649.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2022-08-08T09_22_32.000Z_tony
+# Describe this image, as if you were explaining it over the phone
+description: A couple of adult Yellow-billed Ducks wading through a lily-covered pond
+# List each of the bird IDs present in this photo
+birds:
+  - duck-yellow-billed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: tony
+location:
+  area: zevenwacht-village

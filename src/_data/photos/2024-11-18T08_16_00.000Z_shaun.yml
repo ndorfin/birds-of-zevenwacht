@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 238DAE66-2177-40BF-A9B3-538B252F324C.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-11-18T08_16_00.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult Black-headed Heron patrolling the grass for prey
+# List each of the bird IDs present in this photo
+birds:
+  - heron-black-headed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.931516
+  longitude: 18.713439
