@@ -1,14 +1,21 @@
-{% if site.enable_debug === true %}
+{% if site.enable_debug === true and environment.name === 'development'  %}
 <!--
 ============================
-page: {{ page | debug | safe }}
-page_meta: {{ page_meta | debug | safe }}
-title: {{ title | debug | safe }}
-heading: {{ heading | debug | safe }}
-summary: {{ summary | debug | safe }}
-description: {{ description | debug | safe }}
+page: {{ page | dump | safe }}
+page_meta: {{ page_meta | dump | safe }}
+title: {{ title | dump | safe }}
+heading: {{ heading | dump | safe }}
+summary: {{ summary | dump | safe }}
+description: {{ description | dump | safe }}
 ============================
-bird: {{ bird | debug | safe }}
+birdId: {{ birdId | dump | safe }}
+bird: {{ bird | dump | safe }}
+============================
+sightingId: {{ sightingId | dump | safe }}
+sighting: {{ sighting | dump | safe }}
+============================
+photoId: {{ photoId | dump | safe }}
+photo: {{ photo | dump | safe }}
 ============================
 -->
 {% endif %}

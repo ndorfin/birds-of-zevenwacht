@@ -9,9 +9,7 @@
 {% include "site_header.njk" %}
 <main>
 	{% include "page_header.njk" %}
-	<article>
-		{{ content | safe }}
-	</article>
+	{{ content | safe }}
 </main>
 {% include "site_footer.njk" %}
 {% include "debug.njk" %}

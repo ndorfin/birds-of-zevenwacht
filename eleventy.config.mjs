@@ -6,7 +6,6 @@ import path from 'node:path';
 import exifr from 'exifr';
 
 const require = createRequire(import.meta.url);
-const inspect = require('util').inspect;
 const markdownIt = require('markdown-it');
 const md = new markdownIt({html: true});
 const imageFilenameFormatter = function (id, src, width, format, options) {
@@ -53,9 +52,6 @@ export default async function(config) {
 		// This filter is useful for turning that object into an array,
 		// by ignoring the filename (key), and extracting the values.
 		return Object.values(data);
-	});
-	config.addFilter('debug', content => {
-		return inspect(content);
 	});
 	config.addFilter('stringify', data => {
 		return JSON.stringify(data, null, '\t');

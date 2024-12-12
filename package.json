@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "A collection of photos and sightings of various birds in Zevenwacht, Cape Town, South Africa",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy",
-    "build:prod": "npx @11ty/eleventy --pathprefix=birds-of-zevenwacht/"
+    "start": "cross-env ENVIRONMENT=development npx @11ty/eleventy --serve",
+    "build": "cross-env ENVIRONMENT=development npx @11ty/eleventy",
+    "build:prod": "cross-env ENVIRONMENT=production npx @11ty/eleventy --pathprefix=birds-of-zevenwacht/"
   },
   "keywords": [],
   "author": "Shaun O'Connell <ndorfin@gmail.com>",
@@ -13,6 +13,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^5.0.0",
+    "cross-env": "^7.0.3",
     "exifr": "^7.1.3"
   }
 }
