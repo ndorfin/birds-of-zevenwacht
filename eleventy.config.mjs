@@ -29,7 +29,6 @@ export default async function(config) {
 		
 		parser: async (file) => {
 			let attributes = [
-				'42036',
 				'DateTimeOriginal',
 				'Make',
 				'Model',
