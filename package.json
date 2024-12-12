@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"description": "A collection of photos and sightings of various birds in Zevenwacht, Cape Town, South Africa",
 	"scripts": {
+		"add_photos": "node ./scripts/generate_photo_yaml.mjs",
 		"build:css": "node ./scripts/postcss.js",
 		"build": "npm run build:css && cross-env ENVIRONMENT=development npx @11ty/eleventy",
 		"build:prod": "npm run build:css && cross-env ENVIRONMENT=production npx @11ty/eleventy --pathprefix=birds-of-zevenwacht/",
