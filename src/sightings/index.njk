@@ -6,7 +6,6 @@ description: Most recent recorded sightings of birds
 eleventyExcludeFromCollections: true
 ---
 <p><a href="./add/">Add a Sighting</a></p>
-<p>
 <ul>
 	{% for sightingId, sighting in sightings | sortByDatetimeRecent %}
 		<li id="sighting_{{ sightingId }}">
