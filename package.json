@@ -1,19 +1,23 @@
 {
-  "name": "birds-of-zevenwacht",
-  "version": "1.0.0",
-  "description": "A collection of photos and sightings of various birds in Zevenwacht, Cape Town, South Africa",
-  "scripts": {
-    "start": "cross-env ENVIRONMENT=development npx @11ty/eleventy --serve",
-    "build": "cross-env ENVIRONMENT=development npx @11ty/eleventy",
-    "build:prod": "cross-env ENVIRONMENT=production npx @11ty/eleventy --pathprefix=birds-of-zevenwacht/"
-  },
-  "keywords": [],
-  "author": "Shaun O'Connell <ndorfin@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-img": "^5.0.0",
-    "cross-env": "^7.0.3",
-    "exifr": "^7.1.3"
-  }
+	"name": "birds-of-zevenwacht",
+	"version": "1.0.0",
+	"description": "A collection of photos and sightings of various birds in Zevenwacht, Cape Town, South Africa",
+	"scripts": {
+		"build:css": "node ./scripts/postcss.js",
+		"build": "npm run build:css && cross-env ENVIRONMENT=development npx @11ty/eleventy",
+		"build:prod": "npm run build:css && cross-env ENVIRONMENT=production npx @11ty/eleventy --pathprefix=birds-of-zevenwacht/",
+		"start": "cross-env ENVIRONMENT=development npx @11ty/eleventy --serve"
+	},
+	"keywords": [],
+	"author": "Shaun O'Connell <ndorfin@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@11ty/eleventy": "^3.0.0",
+		"@11ty/eleventy-img": "^5.0.0",
+		"cross-env": "^7.0.3",
+		"exifr": "^7.1.3",
+		"cssnano": "^7.0.6",
+		"postcss-import": "^16.1.0",
+		"postcss-url": "^10.1.3"
+	}
 }

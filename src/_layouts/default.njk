@@ -2,7 +2,11 @@
 <html lang="{{ site.lang }}">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="/assets/css/index.css">
+{% if environment.name == 'production' %}
+	<link rel="stylesheet" href="/assets/css/all.css?timestamp={{ environment.timestamp }}">
+{% else %}
+	<link rel="stylesheet" href="/assets/css/index.css">
+{% endif %}
 {% include "title.njk" %}
 {% include "site_meta.njk" %}
 <body data-page-path="{{ page.url | slugify }}">
