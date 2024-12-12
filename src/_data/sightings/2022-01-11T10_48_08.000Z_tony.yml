@@ -3,17 +3,18 @@
 datetime: 2022-01-11T10:48:08.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  
+  A Booted Eagle at the site of a feathery murder scene
 bird:
   # Supply a matching Bird ID
-  id: 
+  id: eagle-booted
   # How many individuals did you spot?
-  quantity: 
+  quantity: 1
 # Link this Sighting to a Photo, by its ID
 photos: 
   - 2022-01-11T10_48_08.000Z_tony
+  - 2022-01-11T10_48_20.000Z_tony
 # Include all the people that spotted this bird.
 observers:
   - tony
 location:
-  area: 
+  area: zevenwacht-village

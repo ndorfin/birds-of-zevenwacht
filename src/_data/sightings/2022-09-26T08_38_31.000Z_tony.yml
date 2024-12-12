@@ -3,12 +3,12 @@
 datetime: 2022-09-26T08:38:31.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  
+  An African Harrier-hawk hanging from a weaver's nest by its two claws
 bird:
   # Supply a matching Bird ID
-  id: 
+  id: harrier-hawk-african
   # How many individuals did you spot?
-  quantity: 
+  quantity: 1
 # Link this Sighting to a Photo, by its ID
 photos: 
   - 2022-09-26T08_38_31.000Z_tony
@@ -16,4 +16,4 @@ photos:
 observers:
   - tony
 location:
-  area: 
+  area: zevenwacht-village

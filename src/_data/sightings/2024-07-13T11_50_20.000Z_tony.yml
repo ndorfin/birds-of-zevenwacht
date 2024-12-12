@@ -3,12 +3,12 @@
 datetime: 2024-07-13T11:50:20.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  
+  An adult Giant Kingfisher perched atop a sawn-off branch
 bird:
   # Supply a matching Bird ID
-  id: 
+  id: kingfisher-giant
   # How many individuals did you spot?
-  quantity: 
+  quantity: 1
 # Link this Sighting to a Photo, by its ID
 photos: 
   - 2024-07-13T11_50_20.000Z_tony
@@ -16,4 +16,4 @@ photos:
 observers:
   - tony
 location:
-  area: 
+  area: zevenwacht-village

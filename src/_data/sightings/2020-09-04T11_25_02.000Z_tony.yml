@@ -3,12 +3,12 @@
 datetime: 2020-09-04T11:25:02.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  
+  Six young Egyptian Goslings entering the pond's waters
 bird:
   # Supply a matching Bird ID
-  id: 
+  id: goose-egyptian
   # How many individuals did you spot?
-  quantity: 
+  quantity: 6
 # Link this Sighting to a Photo, by its ID
 photos: 
   - 2020-09-04T11_25_02.000Z_tony
@@ -16,4 +16,4 @@ photos:
 observers:
   - tony
 location:
-  area: 
+  area: zevenwacht-village
