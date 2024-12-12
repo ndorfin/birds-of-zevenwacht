@@ -46,9 +46,9 @@ body > header > nav {
 }
 
 
-[data-page-path^="birds"]     > header > nav a[href="/birds/"],
-[data-page-path^="sightings"] > header > nav a[href="/sightings/"],
-[data-page-path^="photos"]    > header > nav a[href="/photos/"] {
+[data-page-path^="birds"]     > header > nav a[href*="/birds/"],
+[data-page-path^="sightings"] > header > nav a[href*="/sightings/"],
+[data-page-path^="photos"]    > header > nav a[href*="/photos/"] {
 	&::after {
 		content: "";
 		display: block;
