@@ -25,9 +25,22 @@ export default async function(config) {
 	
 	/* Add YAML support */
 	config.addDataExtension('yml,yaml', contents => yaml.load(contents));
-	config.addDataExtension('jpeg', {
+	config.addDataExtension('jpeg,jpg,JPG,JPEG', {
+		
 		parser: async (file) => {
-			let exif = await exifr.parse(file);
+			let attributes = [
+				'42036',
+				'DateTimeOriginal',
+				'Make',
+				'Model',
+				'LensModel',
+				'FNumber',
+				'FocalLengthIn35mmFormat',
+				'ExposureTime',
+				'ExposureCompensation',
+				'ISO'
+			];
+			let exif = await exifr.parse(file, attributes);
 			return {
 				exif,
 			};

@@ -8,7 +8,7 @@ layout: "photo_detail.njk"
 eleventyExcludeFromCollections: true
 ---
 {% set photo = photos[photoId] %}
-{% set sourcePhotoId = photo.file.replace('.jpeg', '') %}
+{% set sourcePhotoId = photo.file.split('.')[0] %}
 {% set exif = source_photos[photo.photographer][sourcePhotoId].exif %}
 {% if exif %}
 	{% set datetime = exif.DateTimeOriginal %}
@@ -26,7 +26,7 @@ eleventyExcludeFromCollections: true
 <dl class="list_photo_details">
 	<div>
 		<dt>Date & time</dt>
-		<dd>{#% datetime datetime, photoId %#}</dd>
+		<dd>{% datetime datetime %}</dd>
 	</div>
 	<div>
 		<dt>Birds</dt>
@@ -40,13 +40,15 @@ eleventyExcludeFromCollections: true
 			</ul>
 		</dd>
 	</div>
+	{#
 	<div>
 		<dt>Sighting</dt>
 		<dd>
 			{% set sighting = sightings[photo.sighting] %}
-			<a href="{{ url.sightings }}{{ photo.sighting | slugify }}-{{ sighting.bird.id | slugify }}/">{#% datetime datetime, photoId %#}</a>
+			<a href="{{ url.sightings }}{{ photo.sighting | slugify }}-{{ sighting.bird.id | slugify }}/">{% datetime datetime %}</a>
 		</dd>
 	</div>
+	#}
 	<div>
 		<dt>Location</dt>
 		<dd>
@@ -76,7 +78,7 @@ eleventyExcludeFromCollections: true
 				</div>
 				<div>
 					<dt>F-number</dt>
-					<dd>𝑓{{ exif.FNumber }}</dd>
+					<dd>𝑓{{ exif.FNumber.toFixed(1) }}</dd>
 				</div>
 				<div>
 					<dt>Focal length</dt>
@@ -94,7 +96,7 @@ eleventyExcludeFromCollections: true
 				</div>
 				<div>
 					<dt>Exposure</dt>
-					<dd>{{ exif.ExposureCompensation }}<abbr title="Exposure compensation">EV</abbr></dd>
+					<dd>{{ exif.ExposureCompensation.toFixed(1) }}<abbr title="Exposure compensation">EV</abbr></dd>
 				</div>
 				<div>
 					<dt>ISO</dt>
