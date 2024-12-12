@@ -2,8 +2,47 @@ import path from 'node:path';
 import fs from 'node:fs';
 import exifr from 'exifr';
 
-const sourcePhotoFolder = path.resolve('src/_data/source_photos');
-const targetPhotoFolder = path.resolve('src/_data/photos');
+const sourcePhotosFolder = path.resolve('src/_data/source_photos');
+const targetPhotosFolder = path.resolve('src/_data/photos');
+const targetSightingsFolder = path.resolve('src/_data/sightings');
+
+function createSightingYML(sightingEntryObj) {
+	let fileString = '';
+
+	fileString += `\
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: ${ new Date(sightingEntryObj.createdDate).toISOString() }
+`;
+
+	fileString += `\
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  
+bird:
+  # Supply a matching Bird ID
+  id: 
+  # How many individuals did you spot?
+  quantity: 
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - ${ sightingEntryObj.photoFileId }
+# Include all the people that spotted this bird.
+observers:
+  - ${ sightingEntryObj.photographer }
+location:
+  area: 
+`;
+
+	if (sightingEntryObj.exif && sightingEntryObj.exif.GPSLatitude ) {
+		fileString += `\
+  latitude: ${ sightingEntryObj.exif.GPSLatitude }
+  longitude: ${ sightingEntryObj.exif.GPSLongitude }
+`;
+	}
+
+	return fileString;
+}
 
 function createPhotoYML(photoEntryObj) {
 	let fileString = '';
@@ -43,29 +82,40 @@ location:
 	return fileString;
 }
 
-fs.readdir(sourcePhotoFolder, (errAuthor, entries) => {
+fs.readdir(sourcePhotosFolder, (errAuthor, entries) => {
 	const authorNames = entries.filter(entry => {
-		return fs.statSync(`${ sourcePhotoFolder }/${ entry }`).isDirectory();
+		return fs.statSync(`${ sourcePhotosFolder }/${ entry }`).isDirectory();
 	});
 	authorNames.forEach(photographer => {
-		fs.readdir(`${ sourcePhotoFolder }/${ photographer }`, (errPhotos, filenames) => {
+		fs.readdir(`${ sourcePhotosFolder }/${ photographer }`, (errPhotos, filenames) => {
 			filenames.forEach(filename => {
-				let photoPath = `${ sourcePhotoFolder }/${ photographer }/${ filename }`;
+				let photoPath = `${ sourcePhotosFolder }/${ photographer }/${ filename }`;
 				fs.readFile(photoPath, (errFile, data) => {
 					const { ctime } = fs.statSync(photoPath);
 					exifr.parse(data).then(exif => {
 						const createdDate = exif ? exif.DateTimeOriginal : new Date(ctime);
 						const createdDateString = createdDate.toISOString().replace(/:/g, '_');
-						const targetFile = `${ targetPhotoFolder }/${ createdDateString }_${ photographer }.yml`;
-						let photoEntryObj = {
-							filename,
-							photographer,
-							exif,
-							createdDate,
+						const targetPhotoFile = `${ targetPhotosFolder }/${ createdDateString }_${ photographer }.yml`;
+						const targetSightingFile = `${ targetSightingsFolder }/${ createdDateString }_${ photographer }.yml`;
+
+						if (!fs.existsSync(targetPhotoFile)) {
+							let photoEntryObj = {
+								filename,
+								photographer,
+								exif,
+								createdDate,
+							}
+							fs.writeFileSync(targetPhotoFile, createPhotoYML(photoEntryObj));
 						}
 
-						if (!fs.existsSync(targetFile)) {
-							fs.writeFileSync(targetFile, createPhotoYML(photoEntryObj));
+						if (!fs.existsSync(targetSightingFile)) {
+							let sightingEntryObj = {
+								photographer,
+								exif,
+								createdDate,
+								photoFileId: `${ createdDateString }_${ photographer }`,
+							}
+							fs.writeFileSync(targetSightingFile, createSightingYML(sightingEntryObj));
 						}
 						
 					});
