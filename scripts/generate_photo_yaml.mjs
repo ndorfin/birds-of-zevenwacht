@@ -60,7 +60,7 @@ datetime: ${ new Date(photoEntryObj.createdDate).toISOString() }
 file: ${ photoEntryObj.filename }
 # Link this Photo to a Sighting, by providing the Sighting ID:
 # 2024-09-04T14_23
-sighting: 
+sighting: ${ photoEntryObj.sightingFileId }
 # Describe this image, as if you were explaining it over the phone
 description: 
 # List each of the bird IDs present in this photo
@@ -95,8 +95,9 @@ fs.readdir(sourcePhotosFolder, (errAuthor, entries) => {
 					exifr.parse(data).then(exif => {
 						const createdDate = exif ? exif.DateTimeOriginal : new Date(ctime);
 						const createdDateString = createdDate.toISOString().replace(/:/g, '_');
-						const targetPhotoFile = `${ targetPhotosFolder }/${ createdDateString }_${ photographer }.yml`;
-						const targetSightingFile = `${ targetSightingsFolder }/${ createdDateString }_${ photographer }.yml`;
+						const filenamePattern = `${ createdDateString }_${ photographer }`;
+						const targetPhotoFile = `${ targetPhotosFolder }/${ filenamePattern }.yml`;
+						const targetSightingFile = `${ targetSightingsFolder }/${ filenamePattern }.yml`;
 
 						if (!fs.existsSync(targetPhotoFile)) {
 							let photoEntryObj = {
@@ -104,6 +105,7 @@ fs.readdir(sourcePhotosFolder, (errAuthor, entries) => {
 								photographer,
 								exif,
 								createdDate,
+								sightingFileId: filenamePattern,
 							}
 							fs.writeFileSync(targetPhotoFile, createPhotoYML(photoEntryObj));
 						}
@@ -113,7 +115,7 @@ fs.readdir(sourcePhotosFolder, (errAuthor, entries) => {
 								photographer,
 								exif,
 								createdDate,
-								photoFileId: `${ createdDateString }_${ photographer }`,
+								photoFileId: filenamePattern,
 							}
 							fs.writeFileSync(targetSightingFile, createSightingYML(sightingEntryObj));
 						}
