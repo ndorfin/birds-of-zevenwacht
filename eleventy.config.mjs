@@ -26,7 +26,6 @@ export default async function(config) {
 	/* Add YAML support */
 	config.addDataExtension('yml,yaml', contents => yaml.load(contents));
 	config.addDataExtension('jpeg,jpg,JPG,JPEG', {
-		
 		parser: async (file) => {
 			let attributes = [
 				'DateTimeOriginal',
@@ -68,6 +67,15 @@ export default async function(config) {
 	config.addFilter('stringify', data => {
 		return JSON.stringify(data, null, '\t');
 	});
+	config.addFilter('sortByDatetimeRecent', (obj) => {
+    const sorted = {};
+    Object.keys(obj)
+      .sort((a, b) => {
+        return obj[a].datetime < obj[b].datetime ? 1 : -1;
+      })
+      .forEach((name) => (sorted[name] = obj[name]));
+    return sorted;
+  });
 
 	/* Shortcodes */
 	config.addShortcode('datetime', function(date) {

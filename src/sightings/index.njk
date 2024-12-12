@@ -1,13 +1,14 @@
 ---
 title: Sightings
 heading: Sightings
-summary: Recorded sightings of birds
-description: Recorded sightings of birds
+summary: Most recent recorded sightings of birds
+description: Most recent recorded sightings of birds
 eleventyExcludeFromCollections: true
 ---
 <p><a href="./add/">Add a Sighting</a></p>
+<p>
 <ul>
-	{% for sightingId, sighting in sightings %}
+	{% for sightingId, sighting in sightings | sortByDatetimeRecent %}
 		<li id="sighting_{{ sightingId }}">
 			<a href="{{ url.sightings }}{{ sightingId | slugify }}-{{ sighting.bird.id }}/">
 				{{ sighting.bird.quantity }} ⨉ {{ birds[sighting.bird.id].name }}
