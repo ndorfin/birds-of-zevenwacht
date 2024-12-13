@@ -1,0 +1,12 @@
+datetime: 2024-12-04T15:11:00.000Z
+description: |-
+  Dogfighting and calling
+bird:
+  id: swallow-greater-striped
+  quantity: 8
+observers:
+  - shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.93515148651057
+  longitude: 18.717900048016578

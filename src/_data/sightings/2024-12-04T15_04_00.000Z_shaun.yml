@@ -1,0 +1,12 @@
+datetime: 2024-12-04T15:04:00.000Z
+description: |-
+  In the reeds opposite Country Estate, between the dam and the road.
+bird:
+  id: bishop-southern-red
+  quantity: 12
+observers:
+  - shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.93604719945717
+  longitude: 18.715171707297667
