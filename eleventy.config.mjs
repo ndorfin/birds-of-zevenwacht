@@ -89,6 +89,7 @@ export default async function(config) {
 		let metadata = await Image(src, {
 			urlPath: `/assets/photos/${authorId}/`,
 			outputDir: `src/assets/photos/${authorId}/`,
+			widths: [2400],
 			filenameFormat: imageFilenameFormatter,
 			formats: ['avif', 'webp', 'jpeg'],
 		});
