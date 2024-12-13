@@ -17,5 +17,9 @@ main {
 			margin: 0;
 		}
 	}
+
+	& > p {
+		max-inline-size: 80ch;
+	}
 }
 
