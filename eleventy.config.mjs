@@ -7,7 +7,7 @@ import exifr from 'exifr';
 
 const require = createRequire(import.meta.url);
 const markdownIt = require('markdown-it');
-const md = new markdownIt({html: true});
+const md = new markdownIt({ html: true });
 const imageFilenameFormatter = function (id, src, width, format, options) {
 	const extension = path.extname(src);
 	const name = path.basename(src, extension);
@@ -19,10 +19,10 @@ const imageFilenameFormatter = function (id, src, width, format, options) {
 	return `${name}-${width}.${format}`;
 };
 
-export default async function(config) {	
+export default async function (config) {
 	/* Add build:prod pathprefix capabilities for builds against gh-pages */
 	config.addPlugin(EleventyHtmlBasePlugin);
-	
+
 	/* Add YAML support */
 	config.addDataExtension('yml,yaml', contents => yaml.load(contents));
 	config.addDataExtension('jpeg,jpg,JPG,JPEG', {
@@ -48,8 +48,8 @@ export default async function(config) {
 		read: false,
 	});
 	/* Copy assets straight through to the `public` folder */
-	config.addPassthroughCopy({'src/_root': '.'});
-	config.addPassthroughCopy({'src/assets': 'assets'});
+	config.addPassthroughCopy({ 'src/_root': '.' });
+	config.addPassthroughCopy({ 'src/assets': 'assets' });
 
 	/* Filters */
 	config.addFilter('markdown', content => {
@@ -68,20 +68,38 @@ export default async function(config) {
 		return JSON.stringify(data, null, '\t');
 	});
 	config.addFilter('sortByDatetimeRecent', (obj) => {
-    const sorted = {};
-    Object.keys(obj)
-      .sort((a, b) => {
-        return obj[a].datetime < obj[b].datetime ? 1 : -1;
-      })
-      .forEach((name) => (sorted[name] = obj[name]));
-    return sorted;
-  });
+		const sorted = {};
+		Object.keys(obj)
+			.sort((a, b) => {
+				return obj[a].datetime < obj[b].datetime ? 1 : -1;
+			})
+			.forEach((name) => (sorted[name] = obj[name]));
+		return sorted;
+	});
+	config.addFilter('photographer', (obj, personId) => {
+		const filtered = {};
+		Object.keys(obj)
+			.filter((item) => {
+				return obj[item].photographer === personId;
+			})
+			.forEach((name) => (filtered[name] = obj[name]));
+		return filtered;
+	});
+	config.addFilter('observer', (obj, personId) => {
+		const filtered = {};
+		Object.keys(obj)
+			.filter((item) => {
+				return obj[item].observers.indexOf(personId) > -1;
+			})
+			.forEach((name) => (filtered[name] = obj[name]));
+		return filtered;
+	});
 
 	/* Shortcodes */
-	config.addShortcode('datetime', function(date) {
+	config.addShortcode('datetime', function (date) {
 		const newDate = new Date(date);
-		return `<time datetime="${ newDate.toISOString() }">
-			${ newDate.toLocaleString('za') }
+		return `<time datetime="${newDate.toISOString()}">
+			${newDate.toLocaleString('za')}
 		</time>`;
 	});
 	config.addShortcode('photoImage', async function (src, alt) {

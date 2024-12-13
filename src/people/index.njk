@@ -1,0 +1,17 @@
+---
+title: People
+heading: People
+summary: The people who have contributed sightings and photos
+description: The people who have contributed sightings and photos
+eleventyExcludeFromCollections: true
+---
+
+<ol>
+	{% for personId, person in people %}
+		{% if not person.hidden %}
+			<li>
+				<a href="{{ url.people }}{{ person.name | slugify }}/">{{ person['full-name'] }}</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ol>

@@ -1,0 +1,6 @@
+{% set person = people[personId] %}
+{% set page_meta = {
+	title: person['full-name'],
+	heading: person['full-name']
+} %}
+{% extends "./default.njk" %}

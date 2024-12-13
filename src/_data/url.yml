@@ -2,6 +2,7 @@ root: /
 home: /
 about: /about/
 birds: /birds/
+people: /people/
 photos: /photos/
 sightings: /sightings/
 source_photos: src/_data/source_photos/
