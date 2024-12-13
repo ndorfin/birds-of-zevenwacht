@@ -3,17 +3,19 @@
 datetime: 2024-10-12T17:30:36.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  
+  An adult Cape Turtle Dove walking across paving
 bird:
   # Supply a matching Bird ID
-  id: 
+  id: dove-cape-turtle
   # How many individuals did you spot?
-  quantity: 
+  quantity: 1
 # Link this Sighting to a Photo, by its ID
 photos: 
   - 2024-10-12T17_30_36.000Z_shaun
 # Include all the people that spotted this bird.
 observers:
   - shaun
+  - ingunn
+  - mike
 location:
-  area: 
+  area: zevenwacht-village

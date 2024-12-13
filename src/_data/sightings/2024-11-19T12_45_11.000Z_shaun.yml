@@ -3,17 +3,19 @@
 datetime: 2024-11-19T12:45:11.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  
+  An adult male Malachite Sunbird perched atop a plastic rain gauge
 bird:
   # Supply a matching Bird ID
-  id: 
+  id: sunbird-malachite
   # How many individuals did you spot?
-  quantity: 
+  quantity: 1
 # Link this Sighting to a Photo, by its ID
 photos: 
   - 2024-11-19T12_45_11.000Z_shaun
 # Include all the people that spotted this bird.
 observers:
   - shaun
+  - ingunn
+  - mike
 location:
-  area: 
+  area: zevenwacht-village

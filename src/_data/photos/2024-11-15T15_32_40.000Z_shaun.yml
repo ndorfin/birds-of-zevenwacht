@@ -1,14 +1,15 @@
 # What is the filename of this photo (in the /assets/photos folder)
-file: duck-african-black_IMG_5416.JPG
+file: 6334556D-02A2-490D-B42E-1A778364B4E1_1_201_a.jpeg
 # Link this Photo to a Sighting, by providing the Sighting ID:
 # 2024-09-04T14_23
-sighting: 2024-11-19T15_33_04.000Z_tony
+sighting: 2024-11-15T15_38_36.000Z_shaun
 # Describe this image, as if you were explaining it over the phone
-description: Five African Black Ducks paddling in a lily-covered pond
+description: A mating pair of Amethyst Sunbird showering in garden sprinklers, perched in a spekboom.
 # List each of the bird IDs present in this photo
 birds:
-  - duck-african-black
+  - sunbird-amethyst
 # Link this photo to a photographer (matching a file in the _data/people folder)
-photographer: tony
+photographer: shaun
 location:
   area: zevenwacht-village
+

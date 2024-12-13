@@ -3,17 +3,20 @@
 datetime: 2024-11-15T15:38:36.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  
+  A mating pair of Amethyst Sunbirds showering in garden sprinklers, perched in a spekboom.
 bird:
   # Supply a matching Bird ID
-  id: 
+  id: sunbird-amethyst
   # How many individuals did you spot?
-  quantity: 
+  quantity: 2
 # Link this Sighting to a Photo, by its ID
 photos: 
+  - 2024-11-15T15_32_40.000Z_shaun
   - 2024-11-15T15_38_36.000Z_shaun
 # Include all the people that spotted this bird.
 observers:
   - shaun
+  - ingunn
+  - mike
 location:
-  area: 
+  area: zevenwacht-village

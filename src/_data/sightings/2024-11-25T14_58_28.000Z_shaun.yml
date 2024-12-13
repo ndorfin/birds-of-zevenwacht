@@ -3,12 +3,12 @@
 datetime: 2024-11-25T14:58:28.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  
+  An adult Greater-striped Swallow darting through the air high above the viewer
 bird:
   # Supply a matching Bird ID
-  id: 
+  id: swallow-greater-striped
   # How many individuals did you spot?
-  quantity: 
+  quantity: 5
 # Link this Sighting to a Photo, by its ID
 photos: 
   - 2024-11-25T14_58_28.000Z_shaun
@@ -16,4 +16,4 @@ photos:
 observers:
   - shaun
 location:
-  area: 
+  area: zevenwacht-village

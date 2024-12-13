@@ -3,17 +3,20 @@
 datetime: 2024-11-07T15:53:10.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  
+  An adult African Black Duck swimming on a lily-covered pond
 bird:
   # Supply a matching Bird ID
-  id: 
+  id: duck-african-black
   # How many individuals did you spot?
-  quantity: 
+  quantity: 1
 # Link this Sighting to a Photo, by its ID
 photos: 
   - 2024-11-07T15_53_10.000Z_shaun
 # Include all the people that spotted this bird.
 observers:
   - shaun
+  - ingunn
+  - tony
+  - nikki
 location:
-  area: 
+  area: zevenwacht-village

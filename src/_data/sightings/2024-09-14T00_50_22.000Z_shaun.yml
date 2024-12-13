@@ -15,5 +15,7 @@ photos:
 # Include all the people that spotted this bird.
 observers:
   - shaun
+  - ingunn
+  - mike
 location:
   area: zevenwacht-village
