@@ -48,8 +48,7 @@ eleventyExcludeFromCollections: true
 			{% for photodBirdId in photo.birds %}
 				{% if birdId == photodBirdId %}
 					{% set matchingPhotos = true %}
-					{% set sourcePhotoId = photo.file.split('.')[0] %}
-					{% set exif = source_photos[photo.photographer][sourcePhotoId].exif %}
+					{% set exif = exifs[photo.photographer][photo.file] %}
 					{% if exif %}
 						{% set datetime = exif.DateTimeOriginal %}
 					{% else %}

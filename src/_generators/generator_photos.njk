@@ -8,8 +8,7 @@ layout: "photo_detail.njk"
 eleventyExcludeFromCollections: true
 ---
 {% set photo = photos[photoId] %}
-{% set sourcePhotoId = photo.file.split('.')[0] %}
-{% set exif = source_photos[photo.photographer][sourcePhotoId].exif %}
+{% set exif = exifs[photo.photographer][photo.file] %}
 {% if exif %}
 	{% set datetime = exif.DateTimeOriginal %}
 {% else %}

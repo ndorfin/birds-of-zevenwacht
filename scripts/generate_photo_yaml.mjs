@@ -5,7 +5,7 @@ import exifr from 'exifr';
 const sourcePhotosFolder = path.resolve('src/_data/source_photos');
 const targetPhotosFolder = path.resolve('src/_data/photos');
 const targetSightingsFolder = path.resolve('src/_data/sightings');
-const targetEXIFFolder = path.resolve('src/_data/exif');
+const targetEXIFFolder = path.resolve('src/_data/exifs');
 
 function createEXIFYML(exifEntryObj) {
 	let fileString = '';
