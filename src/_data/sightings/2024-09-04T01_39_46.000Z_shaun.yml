@@ -8,7 +8,7 @@ bird:
   # Supply a matching Bird ID
   id: guineafowl-helmeted
   # How many individuals did you spot?
-  quantity: 3
+  quantity: 4
 # Link this Sighting to a Photo, by its ID
 photos: 
   - 2024-09-04T01_39_46.000Z_shaun
