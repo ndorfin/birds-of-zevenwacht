@@ -1,0 +1,23 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2024-09-23T12:38:31.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  This was an extraordinary sighting for me, as I initially thought the smaller bird mobbing the Buzzard was a Lapwing.
+  So imagine my surprise when zooming into the image, and seeing it was a Black-winged Kite instead of a Lapwing!
+bird:
+  # Supply a matching Bird ID
+  id: kite-black-winged
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2024-09-24T00_38_31.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: langverwacht-farm
+  latitude: -33.933637
+  longitude: 18.718884

@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2024-09-23T13:03:15.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  An adult Jackal Buzzard perched atop a pine tree, just off the Wine Estate's driveway.
+bird:
+  # Supply a matching Bird ID
+  id: buzzard-jackal
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2024-09-24T01_03_15.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.932131
+  longitude: 18.720448

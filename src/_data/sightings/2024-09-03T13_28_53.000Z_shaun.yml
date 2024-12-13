@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2024-09-03T13:28:53.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  An African Dusky Flycatcher perched in a newly-budding tree
+bird:
+  # Supply a matching Bird ID
+  id: flycatcher-african-dusky
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2024-09-04T01_28_53.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.932345
+  longitude: 18.718941

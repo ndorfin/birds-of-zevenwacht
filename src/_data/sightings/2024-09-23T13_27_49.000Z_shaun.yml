@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2024-09-23T13:27:49.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A group of Cape Canaries feeding from the flowering plants, and also flying between the jeep track and back.
+bird:
+  # Supply a matching Bird ID
+  id: canary-cape
+  # How many individuals did you spot?
+  quantity: 3-5
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2024-09-24T01_27_49.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.929021
+  longitude: 18.729345
