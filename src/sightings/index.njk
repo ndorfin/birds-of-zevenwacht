@@ -5,7 +5,16 @@ summary: Most recent recorded sightings of birds
 description: Most recent recorded sightings of birds
 eleventyExcludeFromCollections: true
 ---
-<p><a href="./add/">Add a Sighting</a></p>
+<template id="tmpl_add_sighting">
+	<p><a href="./add/">Add a Sighting</a></p>
+</template>
+<script>
+	if (window.localStorage.getItem('PAT')) {
+		let template = document.querySelector('#tmpl_add_sighting');
+		let templateContents = template.content.children[0].cloneNode(true);
+		template.parentNode.insertBefore(templateContents, template);
+	}
+</script>
 <ul>
 	{% for sightingId, sighting in sightings | sortByDatetimeRecent %}
 		<li id="sighting_{{ sightingId }}">
