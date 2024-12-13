@@ -3,7 +3,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<link rel="stylesheet" href="/birds-of-zevenwacht/assets/css/all.css?timestamp=1734115390910">
+	<link rel="stylesheet" href="/birds-of-zevenwacht/assets/css/all.css?timestamp=1734116125026">
 
 
 <title>Sightings — Birds of Zevenwacht</title>
@@ -39,7 +39,16 @@
 
 	
 </header>
+	<template id="tmpl_add_sighting">
 	<p><a href="add/">Add a Sighting</a></p>
+</template>
+<script>
+	if (window.localStorage.getItem('PAT')) {
+		let template = document.querySelector('#tmpl_add_sighting');
+		let templateContents = template.content.children[0].cloneNode(true);
+		template.parentNode.insertBefore(templateContents, template);
+	}
+</script>
 <ul>
 	
 		<li id="sighting_2024-12-09T16_39_53.000Z_shaun">
@@ -757,6 +766,7 @@
 		</li>
 	
 </ul>
+
 </main>
 <footer>
 	<nav aria-labelledby="heading_footer_nav">
