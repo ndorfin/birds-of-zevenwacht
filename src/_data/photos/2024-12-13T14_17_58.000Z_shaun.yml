@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: ED2CD598-4E06-454E-9F93-50D75914253B_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-12-13T14_17_58.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult Cape Spurfowl peeks through the thick succulent vegitation
+# List each of the bird IDs present in this photo
+birds:
+  - spurfowl-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
