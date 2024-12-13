@@ -5,6 +5,25 @@ import exifr from 'exifr';
 const sourcePhotosFolder = path.resolve('src/_data/source_photos');
 const targetPhotosFolder = path.resolve('src/_data/photos');
 const targetSightingsFolder = path.resolve('src/_data/sightings');
+const targetEXIFFolder = path.resolve('src/_data/exif');
+
+function createEXIFYML(exifEntryObj) {
+	let fileString = '';
+
+	fileString += `\
+DateTimeOriginal: ${ new Date(exifEntryObj.DateTimeOriginal).toISOString() }
+Make: ${ exifEntryObj.Make }
+Model: ${ exifEntryObj.Model }
+LensModel: ${ exifEntryObj.LensModel ? exifEntryObj.LensModel : exifEntryObj['42036'] }
+FNumber: ${ exifEntryObj.FNumber }
+FocalLengthIn35mmFormat: ${ exifEntryObj.FocalLengthIn35mmFormat ? exifEntryObj.FocalLengthIn35mmFormat : exifEntryObj.FocalLength }
+ExposureTime: ${ exifEntryObj.ExposureTime }
+ExposureCompensation: ${ exifEntryObj.ExposureCompensation }
+ISO: ${ exifEntryObj.ISO }
+`;
+
+	return fileString;
+}
 
 function createSightingYML(sightingEntryObj) {
 	let fileString = '';
@@ -98,26 +117,31 @@ fs.readdir(sourcePhotosFolder, (errAuthor, entries) => {
 						const filenamePattern = `${ createdDateString }_${ photographer }`;
 						const targetPhotoFile = `${ targetPhotosFolder }/${ filenamePattern }.yml`;
 						const targetSightingFile = `${ targetSightingsFolder }/${ filenamePattern }.yml`;
+						const targetEXIFFile = `${ targetEXIFFolder }/${ photographer }/${ filename }.yml`;
 
-						if (!fs.existsSync(targetPhotoFile)) {
-							let photoEntryObj = {
-								filename,
-								photographer,
-								exif,
-								createdDate,
-								sightingFileId: filenamePattern,
-							}
-							fs.writeFileSync(targetPhotoFile, createPhotoYML(photoEntryObj));
-						}
+						// if (!fs.existsSync(targetPhotoFile)) {
+						// 	let photoEntryObj = {
+						// 		filename,
+						// 		photographer,
+						// 		exif,
+						// 		createdDate,
+						// 		sightingFileId: filenamePattern,
+						// 	}
+						// 	fs.writeFileSync(targetPhotoFile, createPhotoYML(photoEntryObj));
+						// }
 
-						if (!fs.existsSync(targetSightingFile)) {
-							let sightingEntryObj = {
-								photographer,
-								exif,
-								createdDate,
-								photoFileId: filenamePattern,
-							}
-							fs.writeFileSync(targetSightingFile, createSightingYML(sightingEntryObj));
+						// if (!fs.existsSync(targetSightingFile)) {
+						// 	let sightingEntryObj = {
+						// 		photographer,
+						// 		exif,
+						// 		createdDate,
+						// 		photoFileId: filenamePattern,
+						// 	}
+						// 	fs.writeFileSync(targetSightingFile, createSightingYML(sightingEntryObj));
+						// }
+
+						if (!fs.existsSync(targetEXIFFile)) {
+							fs.writeFileSync(targetEXIFFile, createEXIFYML(exif));
 						}
 						
 					});
