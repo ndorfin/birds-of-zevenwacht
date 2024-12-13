@@ -8,13 +8,21 @@ layout: "bird_detail.njk"
 eleventyExcludeFromCollections: true
 ---
 {% set bird = birds[birdId] %}
-{% if bird['scientific-name'] %}
-<p>{{ bird['scientific-name'] }}</p>
-{% endif %}
 
-{% if bird.ebird %}
-<p><a href="{{ bird.ebird }}">{{ bird.name }} on eBird</a></p>
-{% endif %}
+<dl class="list_details">
+	{% if bird['scientific-name'] %}
+		<div>
+			<dt>Scientific name</dt>
+			<dd>{{ bird['scientific-name'] }}</dd>
+		</div>
+	{% endif %}
+	{% if bird.ebird %}
+		<div>
+			<dt>Reference</dt>
+			<dd><a href="{{ bird.ebird }}">{{ bird.name }} on eBird</a></dd>
+		</div>
+	{% endif %}
+</dl>
 
 <article aria-labelledby="heading_bird_sightings">
 	<header>

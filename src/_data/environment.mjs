@@ -1,6 +1,6 @@
 export default function () {
 	return {
 		name: process.env.ENVIRONMENT || 'development',
-		timestamp: new Date().valueOf(),
+		timestamp: 1734120110281,
 	};
 }

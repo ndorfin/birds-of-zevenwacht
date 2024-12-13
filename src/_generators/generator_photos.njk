@@ -22,7 +22,7 @@ eleventyExcludeFromCollections: true
 		<p><small>© Copyright {{ people[photo.photographer]['full-name'] }}</small></p>
 	</figcaption>
 </figure>
-<dl class="list_photo_details">
+<dl class="list_details">
 	<div>
 		<dt>Date & time</dt>
 		<dd>{% datetime datetime %}</dd>
@@ -61,7 +61,7 @@ eleventyExcludeFromCollections: true
 	<div>
 		<dt><abbr title="Exchangeable Image File Format">EXIF</abbr> data</dt>
 		<dd>
-			<dl class="list_photo_details">
+			<dl class="list_details">
 				<div>
 					<dt>Camera</dt>
 					{% set camera = cameras[exif.Make + '-' + exif.Model] %}
