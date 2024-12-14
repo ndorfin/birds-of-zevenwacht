@@ -43,7 +43,7 @@ eleventyExcludeFromCollections: true
 		<dt>Sighting</dt>
 		<dd>
 			{% set sighting = sightings[photo.sighting] %}
-			<a href="{{ url.sightings }}{{ photo.sighting | slugify }}-{{ sighting.bird.id | slugify }}/">{% datetime datetime %}</a>
+			<a href="{{ url.sightings }}{{ photo.sighting }}-{{ sighting.bird.id }}/">{% datetime datetime %}</a>
 		</dd>
 	</div>
 	<div>

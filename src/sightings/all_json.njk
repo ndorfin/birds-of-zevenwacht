@@ -10,6 +10,7 @@ permalink: "{{ url.sightings }}/all.json"
 		{
 			"id": "{{ sightingId }}",
 			"datetime": {{ sighting.datetime | stringify | safe }},
+			"birdId": {{ sighting.bird.id | stringify | safe }},
 			"bird": {{ bird | stringify | safe }},
 			"quantity": {{ sighting.bird.quantity | stringify | safe }},
 			"location": {

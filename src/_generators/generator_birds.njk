@@ -34,7 +34,7 @@ eleventyExcludeFromCollections: true
 			{% if birdId == sighting.bird.id %}
 				{% set matchingSightings = true %}
 				<li>
-					<a href="{{ url.sightings }}{{ sightingId | slugify }}-{{ birdId | slugify }}/">
+					<a href="{{ url.sightings }}{{ sightingId }}-{{ birdId }}/">
 						{{ sighting.datetime }}
 					</a>
 				</li>

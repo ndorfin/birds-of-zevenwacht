@@ -3,7 +3,7 @@ pagination:
   data: sightings
   size: 1
   alias: sightingId
-permalink: "{{ url.sightings }}{{ sightingId | slugify }}-{{ sightings[sightingId].bird.id }}/index.html"
+permalink: "{{ url.sightings }}{{ sightingId }}-{{ sightings[sightingId].bird.id }}/index.html"
 layout: "sighting_detail.njk"
 eleventyExcludeFromCollections: true
 ---

@@ -59,16 +59,22 @@ class MapEmbed extends HTMLElement {
 					}
 				};
 				markerArray.push(markerObj);
-				L.marker([markerObj.location.latitude, markerObj.location.longitude]).addTo(this.#map);
+				let popupHTML = `
+					<b>Sighting</b> on ${ new Date(item.datetime).toISOString().substring(0, 10) }<br>
+					<a href="./${ id }-${ item.birdId }/">${ item.quantity } ⨉ ${ item.bird.name }</a>
+				`;
+				L.marker([markerObj.location.latitude, markerObj.location.longitude])
+					.addTo(this.#map)
+					.bindPopup(popupHTML);
 			});
 			this.#markers = markerArray;
 		});
 	}
 
 	#invokeLeaflet() {
-		this.#map = window.L.map(this.getAttribute('id')).setView([-33.931888, 18.716808], 14);
+		this.#map = window.L.map(this.getAttribute('id'), { scrollWheelZoom: false }).setView([-33.9319, 18.718], 15);
 		this.#tiles = window.L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-			maxZoom: 19,
+			maxZoom: 20,
 			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 		}).addTo(this.#map);
 

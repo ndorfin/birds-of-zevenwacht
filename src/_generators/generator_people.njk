@@ -19,7 +19,7 @@ eleventyExcludeFromCollections: true
 	<ul>
 		{% for sightingId, sighting in filtered_sightings %}
 			<li id="sighting_{{ sightingId }}">
-				<a href="{{ url.sightings }}{{ sightingId | slugify }}-{{ sighting.bird.id }}/">
+				<a href="{{ url.sightings }}{{ sightingId }}-{{ sighting.bird.id }}/">
 					{{ sighting.bird.quantity }} ⨉ {{ birds[sighting.bird.id].name }}
 				</a>
 			</li>
