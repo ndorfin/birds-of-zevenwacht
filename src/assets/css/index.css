@@ -9,6 +9,7 @@
 @import './figure_full.css';
 @import './list_details.css';
 @import './list_stripped.css';
+@import './wc/map-embed.css';
 @import './page_photo.css';
 
 screenreader-only {

@@ -15,6 +15,8 @@ eleventyExcludeFromCollections: true
 		template.parentNode.insertBefore(templateContents, template);
 	}
 </script>
+<map-embed id="map-all-sightings" json="{{ url.sightings }}/all.json"></map-embed>
+<script defer type="module" src="/assets/mjs/wc/map-embed.mjs"></script>
 <ul>
 	{% for sightingId, sighting in sightings | sortByDatetimeRecent %}
 		<li id="sighting_{{ sightingId }}">
@@ -24,3 +26,4 @@ eleventyExcludeFromCollections: true
 		</li>
 	{% endfor %}
 </ul>
+

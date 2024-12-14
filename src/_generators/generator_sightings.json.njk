@@ -1,0 +1,37 @@
+---
+pagination:
+  data: sightings
+  size: 1
+  alias: sightingId
+permalink: "{{ url.sightings }}{{ sightingId | slugify }}-{{ sightings[sightingId].bird.id }}.json"
+layout: null
+eleventyExcludeFromCollections: true
+---
+{% set sighting = sightings[sightingId] %}
+{% set bird = birds[sighting.bird.id] %}
+{
+	"datetime": {{ sighting.datetime | stringify | safe }},
+	"bird": {{ bird | stringify | safe }},
+	"quantity": {{ sighting.bird.quantity | stringify | safe }},
+	"location": {
+		"area": {{ areas[sighting.location.area] | stringify | safe }},
+		"latitude": 
+		{% if sighting.location.latitude %}
+			{{ sighting.location.latitude | stringify | safe }},
+		{% else %}
+			null,
+		{% endif %}
+		"longitude":
+		{% if sighting.location.longitude %}
+			{{ sighting.location.longitude | stringify | safe }}
+		{% else %}
+			null
+		{% endif %}
+	},
+	"observers": [
+		{% for observerId in sighting.observers %}
+			{% if loop.index > 1 and loop.revindex >= 1 %},{% endif%}
+			{{ people[observerId] | stringify | safe }}
+		{% endfor %}
+	]
+}
