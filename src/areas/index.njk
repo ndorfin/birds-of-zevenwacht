@@ -1,0 +1,17 @@
+---
+title: Areas
+heading: Areas
+summary: The various farms and gated communites of Zevenwacht
+description: The various farms and gated communites of Zevenwacht
+eleventyExcludeFromCollections: true
+---
+
+<ul>
+	{% for areaId, area in areas %}
+		{% if not area.hidden %}
+			<li>
+				<a href="{{ url.areas }}{{ areaId }}/">{{ area['name'] }}</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>

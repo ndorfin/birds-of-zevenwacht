@@ -94,6 +94,15 @@ export default async function (config) {
 			.forEach((name) => (filtered[name] = obj[name]));
 		return filtered;
 	});
+	config.addFilter('area', (obj, areaId) => {
+		const filtered = {};
+		Object.keys(obj)
+			.filter((item) => {
+				return obj[item].location.area == areaId;
+			})
+			.forEach((name) => (filtered[name] = obj[name]));
+		return filtered;
+	});
 
 	/* Shortcodes */
 	config.addShortcode('datetime', function (date) {

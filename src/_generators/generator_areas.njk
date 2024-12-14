@@ -1,0 +1,71 @@
+---
+pagination:
+  data: areas
+  size: 1
+  alias: areaId
+permalink: "{{ url.areas }}{{ areaId }}/index.html"
+layout: "area_detail.njk"
+eleventyExcludeFromCollections: true
+---
+{% set area = areas[areaId] %}
+<dl class="list_details">
+	<div>
+		<dt>Address</dt>
+		<dd>
+			{{ area.address.street }},<br>
+			{{ area.address.suburb }}
+		<dd>
+	</div>
+	<div>
+		<dt>Entrance</dt>
+		<dd>
+			{% set location = area.location %}
+			{% include "link_google_maps.njk" %}
+		<dd>
+	</div>
+</dl>
+
+{% set filtered_sightings = sightings | area(areaId) | sortByDatetimeRecent %}
+{% set filtered_sightings_array = filtered_sightings | objToArray %}
+{% set filtered_photos = photos | area(areaId) | sortByDatetimeRecent %}
+{% set filtered_photos_array = filtered_photos | objToArray %}
+
+<article aria-labelledby="heading_bird_sightings">
+	<header>
+		<h3 id="heading_bird_sightings">{{ filtered_sightings_array.length }} sightings contributed</h3>
+	</header>
+	<ul>
+		{% for sightingId, sighting in filtered_sightings %}
+			<li id="sighting_{{ sightingId }}">
+				<a href="{{ url.sightings }}{{ sightingId }}-{{ sighting.bird.id }}/">
+					{{ sighting.bird.quantity }} ⨉ {{ birds[sighting.bird.id].name }}
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+</article>
+
+<article aria-labelledby="heading_bird_photos">
+	<header>
+		<h3 id="heading_bird_photos">{{ filtered_photos_array.length }} photos contributed</h3>
+	</header>
+	<ul class="list_gallery">
+		{% for photoId, photo in filtered_photos %}
+			<li id="photo_{{ photoId }}">
+				<a class="link_thumbnail" href="{{ url.photos }}{{ photoId | slugify }}/">
+					<figure>
+						{% set photoPath = url.source_photos + photo.photographer + '/' + photo.file %}
+						{% photoThumbnail photoPath, photo.description %}
+						<figcaption>
+							<ul>
+								{% for birdId in photo.birds %}
+									<li>{{ birds[birdId].name }}{% if loop.length > 1 and not loop.last %},{% endif %}</li>
+								{% endfor %}
+							</ul>
+						</figcaption>
+					</figure>
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+</article>
