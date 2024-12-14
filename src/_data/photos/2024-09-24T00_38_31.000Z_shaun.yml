@@ -12,6 +12,6 @@ birds:
 # Link this photo to a photographer (matching a file in the _data/people folder)
 photographer: shaun
 location:
-  area: langverwacht-farm
+  area: langverwacht-estate
   latitude: -33.933637
   longitude: 18.718884
