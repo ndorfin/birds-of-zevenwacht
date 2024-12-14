@@ -23,6 +23,12 @@ eleventyExcludeFromCollections: true
 			{% include "link_google_maps.njk" %}
 		<dd>
 	</div>
+	<div>
+		<dt>Website</dt>
+		<dd>
+			<a href="{{ area.website }}">{{ area.website }}</a>
+		<dd>
+	</div>
 </dl>
 
 {% set filtered_sightings = sightings | area(areaId) | sortByDatetimeRecent %}
