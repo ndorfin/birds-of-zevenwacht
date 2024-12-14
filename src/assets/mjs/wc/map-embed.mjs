@@ -43,29 +43,44 @@ class MapEmbed extends HTMLElement {
 		}
 	}
 
+	#createIcon(type) {
+		let iconObj = {
+			className: `icon_${ type }`,
+			iconAnchor: [0, 24],
+			labelAnchor: [-6, 0],
+			popupAnchor: [0, -36],
+			html: `<span></span>`
+		}
+		return window.L.divIcon(iconObj);
+	}
+
+	#addMarkerToMap(type, markerObj) {
+		function getHTMLByType(type) {
+			if (type === 'sighting') return `
+				<b>Sighting</b> on ${ new Date(markerObj.item.datetime).toISOString().substring(0, 10) }<br>
+				<a href="./${ markerObj.id }-${ markerObj.item.birdId }/">${ markerObj.item.quantity } ⨉ ${ markerObj.item.bird.name }</a>
+			`;
+			if (type === 'sightings') return `
+				<b>Grouped Sightings</b><br>
+				<a href="../areas/${ markerObj.id }/">${ markerObj.area.name }</a>
+			`;
+		}
+		window.L.marker(
+			[markerObj.location.latitude, markerObj.location.longitude],
+			{icon: this.#createIcon(type)}
+		).addTo(this.#map).bindPopup(getHTMLByType(type));
+	}
+
 	#addMapPointsFromJSON() {
-		const JSON = this.getAttribute('json');
-		fetch(JSON).then(response => response.json()).then(data => {
-			let markerArray = [];
+		const urlJSON = this.getAttribute('json');
+		const markerType = this.getAttribute('type');
+		fetch(urlJSON).then(response => response.json()).then(data => {
 			let groupedMarkerObject = {};
-			let sightingIcon = L.divIcon({
-				className: 'icon_sighting',
-				iconAnchor: [0, 24],
-				labelAnchor: [-6, 0],
-				popupAnchor: [0, -36],
-				html: `<span></span>`
-			});
-			let areaIcon = L.divIcon({
-				className: 'icon_area',
-				iconAnchor: [0, 24],
-				labelAnchor: [-6, 0],
-				popupAnchor: [0, -36],
-				html: `<span></span>`
-			});
 			data.forEach(item => {
 				if (!item.location.latitude) {
 					if (!groupedMarkerObject[item.location.areaId]) {
 						groupedMarkerObject[item.location.areaId] = {
+							id: item.location.areaId,
 							area: item.location.area,
 							location: {
 								latitude: item.location.area.location.latitude,
@@ -78,29 +93,13 @@ class MapEmbed extends HTMLElement {
 				let id = item.id;
 				let markerObj = {
 					id,
-					location: {
-						latitude: item.location.latitude,
-						longitude: item.location.longitude,
-					}
+					location: item.location,
+					item,
 				};
-				markerArray.push(markerObj);
-				let popupHTML = `
-					<b>Sighting</b> on ${ new Date(item.datetime).toISOString().substring(0, 10) }<br>
-					<a href="./${ id }-${ item.birdId }/">${ item.quantity } ⨉ ${ item.bird.name }</a>
-				`;
-				L.marker([markerObj.location.latitude, markerObj.location.longitude], {icon: sightingIcon})
-					.addTo(this.#map)
-					.bindPopup(popupHTML);
+				this.#addMarkerToMap(markerType, markerObj);
 			});
 			Object.keys(groupedMarkerObject).forEach(areaId => {
-				let areaObj = groupedMarkerObject[areaId];
-				let popupHTML = `
-					<b>Grouped Sightings</b><br>
-					<a href="../areas/${ areaId }/">${ areaObj.area.name }</a>
-				`;
-				L.marker([areaObj.location.latitude, areaObj.location.longitude], {icon: areaIcon})
-					.addTo(this.#map)
-					.bindPopup(popupHTML);
+				this.#addMarkerToMap(`${ markerType }s`, groupedMarkerObject[areaId]);
 			});
 		});
 	}
@@ -110,7 +109,7 @@ class MapEmbed extends HTMLElement {
 			scrollWheelZoom: false,
 		}).setView([-33.929, 18.72], 15);
 
-		L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+		window.L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
 			attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
 		}).addTo(this.#map);
 
