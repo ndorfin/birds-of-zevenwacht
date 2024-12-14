@@ -1,6 +1,6 @@
 datetime: 2024-12-04T15:13:00.000Z
 description: |-
-  A pair on beach patrol at the McKenzie Dam
+  An adult pair of Blacksmith Lapwings on beach patrol at the McKenzie Dam
 bird:
   id: lapwing-blacksmith
   quantity: 2
@@ -8,5 +8,5 @@ observers:
   - shaun
 location:
   area: langverwacht-farm
-  latitude: -33.93515899233373
-  longitude: 18.71782187072548
+  latitude: -33.934971
+  longitude: 18.718458
