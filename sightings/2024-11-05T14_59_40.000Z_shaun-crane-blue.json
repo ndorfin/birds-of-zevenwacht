@@ -10,9 +10,9 @@
 },
 	"quantity": 2,
 	"location": {
-		"areaId": "langverwacht-farm",
+		"areaId": "langverwacht-estate",
 		"area": {
-	"name": "Langverwacht Farm",
+	"name": "Langverwacht Estate",
 	"address": {
 		"street": "Langverwacht Road",
 		"suburb": "Kuils River"
@@ -118,7 +118,8 @@
 			-33.93277900947939,
 			18.717130880421536
 		]
-	]
+	],
+	"website": "https://www.langverwacht.co.za/"
 },
 		"latitude": 
 		
