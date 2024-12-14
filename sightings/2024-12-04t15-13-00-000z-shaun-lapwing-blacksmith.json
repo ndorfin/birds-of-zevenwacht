@@ -10,6 +10,7 @@
 },
 	"quantity": 2,
 	"location": {
+		"areaId": "langverwacht-farm",
 		"area": {
 	"name": "Langverwacht Farm",
 	"address": {

@@ -1,8 +1,6 @@
 class MapEmbed extends HTMLElement {
 
 	#map;
-	#tiles;
-	#markers;
 
 	#checkSourceElementExists(elemId) {
 		if (document.getElementById(elemId)) return true;
@@ -49,13 +47,40 @@ class MapEmbed extends HTMLElement {
 		const JSON = this.getAttribute('json');
 		fetch(JSON).then(response => response.json()).then(data => {
 			let markerArray = [];
+			let groupedMarkerObject = {};
+			let sightingIcon = L.divIcon({
+				className: 'icon_sighting',
+				iconAnchor: [0, 24],
+				labelAnchor: [-6, 0],
+				popupAnchor: [0, -36],
+				html: `<span></span>`
+			});
+			let areaIcon = L.divIcon({
+				className: 'icon_area',
+				iconAnchor: [0, 24],
+				labelAnchor: [-6, 0],
+				popupAnchor: [0, -36],
+				html: `<span></span>`
+			});
 			data.forEach(item => {
+				if (!item.location.latitude) {
+					if (!groupedMarkerObject[item.location.areaId]) {
+						groupedMarkerObject[item.location.areaId] = {
+							area: item.location.area,
+							location: {
+								latitude: item.location.area.location.latitude,
+								longitude: item.location.area.location.longitude,
+							}
+						};
+					}
+					return;
+				}
 				let id = item.id;
 				let markerObj = {
 					id,
 					location: {
-						latitude: item.location.latitude || item.location.area.location.latitude,
-						longitude: item.location.longitude || item.location.area.location.longitude,
+						latitude: item.location.latitude,
+						longitude: item.location.longitude,
 					}
 				};
 				markerArray.push(markerObj);
@@ -63,19 +88,30 @@ class MapEmbed extends HTMLElement {
 					<b>Sighting</b> on ${ new Date(item.datetime).toISOString().substring(0, 10) }<br>
 					<a href="./${ id }-${ item.birdId }/">${ item.quantity } ⨉ ${ item.bird.name }</a>
 				`;
-				L.marker([markerObj.location.latitude, markerObj.location.longitude])
+				L.marker([markerObj.location.latitude, markerObj.location.longitude], {icon: sightingIcon})
 					.addTo(this.#map)
 					.bindPopup(popupHTML);
 			});
-			this.#markers = markerArray;
+			Object.keys(groupedMarkerObject).forEach(areaId => {
+				let areaObj = groupedMarkerObject[areaId];
+				let popupHTML = `
+					<b>Grouped Sightings</b><br>
+					${ areaObj.area.name }
+				`;
+				L.marker([areaObj.location.latitude, areaObj.location.longitude], {icon: areaIcon})
+					.addTo(this.#map)
+					.bindPopup(popupHTML);
+			});
 		});
 	}
 
 	#invokeLeaflet() {
-		this.#map = window.L.map(this.getAttribute('id'), { scrollWheelZoom: false }).setView([-33.9319, 18.718], 15);
-		this.#tiles = window.L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-			maxZoom: 20,
-			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+		this.#map = window.L.map(this.getAttribute('id'), {
+			scrollWheelZoom: false,
+		}).setView([-33.929, 18.72], 15);
+
+		L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+			attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
 		}).addTo(this.#map);
 
 		if (this.getAttribute('json')) {

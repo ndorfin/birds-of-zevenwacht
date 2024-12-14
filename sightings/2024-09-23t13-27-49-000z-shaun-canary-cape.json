@@ -10,6 +10,7 @@
 },
 	"quantity": "3-5",
 	"location": {
+		"areaId": "zevenwacht-wine-estate",
 		"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {

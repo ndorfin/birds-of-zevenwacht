@@ -10,6 +10,7 @@
 },
 	"quantity": 5,
 	"location": {
+		"areaId": "zevenwacht-village",
 		"area": {
 	"name": "Zevenwacht Village",
 	"address": {

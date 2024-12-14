@@ -18,6 +18,7 @@
 },
 	"quantity": "6-9",
 	"location": {
+		"areaId": "zevenwacht-country-estate",
 		"area": {
 	"name": "Zevenwacht Country Estate",
 	"address": {
