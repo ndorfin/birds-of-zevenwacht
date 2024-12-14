@@ -48,7 +48,7 @@ eleventyExcludeFromCollections: true
 		<dd>
 			<ul>
 			{% for observerId in sighting.observers %}
-				<li>{{ people[observerId].name }}</li>
+				<li><a href="{{ url.people }}{{ observerId }}/">{{ people[observerId].name }}</a></li>
 			{% endfor %}
 			</ul>
 		</dd>
@@ -56,7 +56,7 @@ eleventyExcludeFromCollections: true
 	<div>
 		<dt>Location</dt>
 		<dd>
-			{{ areas[sighting.location.area].name }}
+			<a href="{{ url.areas }}{{ sighting.location.area }}/">{{ areas[sighting.location.area].name }}</a>
 			{% if sighting.location.latitude %}
 				<br>
 				{% set location = sighting.location %}

@@ -49,13 +49,17 @@ eleventyExcludeFromCollections: true
 	<div>
 		<dt>Location</dt>
 		<dd>
-			{{ areas[photo.location.area].name }}
+			<a href="{{ url.areas }}{{ photo.location.area }}/">{{ areas[photo.location.area].name }}</a>
 			{% if photo.location.latitude %}
 				<br>
 				{% set location = photo.location %}
 				{% include "link_google_maps.njk" %}
 			{% endif %}
 		<dd>
+	</div>
+	<div>
+		<dt>Photographer</dt>
+		<dd><a href="{{ url.people }}{{ photo.photographer }}">{{ people[photo.photographer]['full-name'] }}</a></dd>
 	</div>
 	{% if exif %}
 	<div>
