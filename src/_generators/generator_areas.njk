@@ -33,6 +33,15 @@ eleventyExcludeFromCollections: true
 	{% endif %}
 </dl>
 
+<map-embed
+	id="area_boundaries"
+	json="./geofence.json"
+	type="boundaries"
+	latitude="-33.929"
+	longitude="18.72"
+	zoom="15"
+></map-embed>
+
 {% set filtered_sightings = sightings | area(areaId) | sortByDatetimeRecent %}
 {% set filtered_sightings_array = filtered_sightings | objToArray %}
 {% set filtered_photos = photos | area(areaId) | sortByDatetimeRecent %}

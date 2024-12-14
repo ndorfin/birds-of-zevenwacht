@@ -7,6 +7,7 @@
 {% else %}
 	<link rel="stylesheet" href="/assets/css/index.css">
 {% endif %}
+{% include "scripts.njk" %}
 {% include "title.njk" %}
 {% include "site_meta.njk" %}
 <body data-page-path="{{ page.url | slugify }}">

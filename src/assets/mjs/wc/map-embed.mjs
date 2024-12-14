@@ -64,6 +64,14 @@ class MapEmbed extends HTMLElement {
 				<b>Grouped Sightings</b><br>
 				<a href="../areas/${ markerObj.id }/">${ markerObj.area.name }</a>
 			`;
+			if (type === 'photo') return `
+				<b>Photo</b> on ${ new Date(markerObj.item.datetime).toISOString().substring(0, 10) }<br>
+				<a href="./${ markerObj.id }-${ markerObj.item.photographer }/">${ markerObj.item.birds[0].name }</a>
+			`;
+			if (type === 'photos') return `
+				<b>Grouped Photos</b><br>
+				<a href="../areas/${ markerObj.id }/">${ markerObj.area.name }</a>
+			`;
 		}
 		window.L.marker(
 			[markerObj.location.latitude, markerObj.location.longitude],
@@ -71,50 +79,63 @@ class MapEmbed extends HTMLElement {
 		).addTo(this.#map).bindPopup(getHTMLByType(type));
 	}
 
-	#addMapPointsFromJSON() {
-		const urlJSON = this.getAttribute('json');
-		const markerType = this.getAttribute('type');
-		fetch(urlJSON).then(response => response.json()).then(data => {
-			let groupedMarkerObject = {};
-			data.forEach(item => {
-				if (!item.location.latitude) {
-					if (!groupedMarkerObject[item.location.areaId]) {
-						groupedMarkerObject[item.location.areaId] = {
-							id: item.location.areaId,
-							area: item.location.area,
-							location: {
-								latitude: item.location.area.location.latitude,
-								longitude: item.location.area.location.longitude,
-							}
-						};
-					}
-					return;
+	#addPointMarkers(markerType, data) {
+		let groupedMarkerObject = {};
+		data.forEach(item => {
+			if (!item.location.latitude) {
+				if (!groupedMarkerObject[item.location.areaId]) {
+					groupedMarkerObject[item.location.areaId] = {
+						id: item.location.areaId,
+						area: item.location.area,
+						location: {
+							latitude: item.location.area.location.latitude,
+							longitude: item.location.area.location.longitude,
+						}
+					};
 				}
-				let id = item.id;
-				let markerObj = {
-					id,
-					location: item.location,
-					item,
-				};
-				this.#addMarkerToMap(markerType, markerObj);
-			});
-			Object.keys(groupedMarkerObject).forEach(areaId => {
-				this.#addMarkerToMap(`${ markerType }s`, groupedMarkerObject[areaId]);
-			});
+				return;
+			}
+			let id = item.id;
+			let markerObj = {
+				id,
+				location: item.location,
+				item,
+			};
+			this.#addMarkerToMap(markerType, markerObj);
+		});
+		Object.keys(groupedMarkerObject).forEach(areaId => {
+			this.#addMarkerToMap(`${ markerType }s`, groupedMarkerObject[areaId]);
 		});
 	}
 
+	#addBoundaries(data) {
+		let polygon = window.L.polygon(data, {color: 'hsla(220 50% 50% / 0.80)'}).addTo(this.#map);
+		this.#map.fitBounds(polygon.getBounds());
+	}
+
 	#invokeLeaflet() {
+		console.log(parseFloat(this.getAttribute('latitude')), parseFloat(this.getAttribute('longitude')), parseInt(this.getAttribute('zoom')));
 		this.#map = window.L.map(this.getAttribute('id'), {
 			scrollWheelZoom: false,
-		}).setView([-33.929, 18.72], 15);
+		}).setView(
+			[parseFloat(this.getAttribute('latitude')),parseFloat(this.getAttribute('longitude')),],
+			parseInt(this.getAttribute('zoom'))
+		);
 
 		window.L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
 			attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
 		}).addTo(this.#map);
 
-		if (this.getAttribute('json')) {
-			this.#addMapPointsFromJSON();
+		if (this.hasAttribute('json')) {
+			const urlJSON = this.getAttribute('json');
+			const type = this.getAttribute('type');
+			fetch(urlJSON).then(response => response.json()).then(data => {
+				if (type === 'photo' || type === 'sighting') {
+					this.#addPointMarkers(type, data);
+				} else if (type === 'boundaries') {
+					this.#addBoundaries(data);
+				}
+			});
 		}
 	}
 
