@@ -1,5 +1,7 @@
-.icon_area span,
-.icon_sighting span {
+:is(
+	.icon_sightings,
+	.icon_sighting
+) span {
 	display: block;
 	block-size: 1rem;
 	inline-size: 1rem;
@@ -10,10 +12,18 @@
 	background-color: var(--icon-color);
 }
 
-.icon_area {
+.icon_sightings {
 	--icon-color: hsla(260 65% 65% / 1);
 }
 
 .icon_sighting {
 	--icon-color: hsla(220 65% 65% / 1);
+}
+
+.icon_photos {
+	--icon-color: hsla(180 65% 65% / 1);
+}
+
+.icon_photo {
+	--icon-color: hsla(140 65% 65% / 1);
 }
