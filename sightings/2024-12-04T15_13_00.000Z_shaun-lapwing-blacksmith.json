@@ -1,14 +1,14 @@
 
 
 {
-	"datetime": "2024-12-04T15:28:00.000Z",
+	"datetime": "2024-12-04T15:13:00.000Z",
 	"bird": {
-	"name": "Reed Cormorant",
-	"family-name": "Cormorant",
-	"scientific-name": "Microcarbo africanus",
-	"ebird": "https://ebird.org/species/lotcor1/ZA"
+	"name": "Blacksmith Lapwing",
+	"family-name": "Lapwing",
+	"scientific-name": "Vanellus armatus",
+	"ebird": "https://ebird.org/species/blaplo1/ZA"
 },
-	"quantity": 1,
+	"quantity": 2,
 	"location": {
 		"areaId": "langverwacht-farm",
 		"area": {
@@ -122,11 +122,11 @@
 },
 		"latitude": 
 		
-			-33.93384938202166,
+			-33.934971,
 		
 		"longitude":
 		
-			18.7174385698819
+			18.718458
 		
 	},
 	"observers": [

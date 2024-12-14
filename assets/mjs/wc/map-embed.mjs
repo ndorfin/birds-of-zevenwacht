@@ -96,7 +96,7 @@ class MapEmbed extends HTMLElement {
 				let areaObj = groupedMarkerObject[areaId];
 				let popupHTML = `
 					<b>Grouped Sightings</b><br>
-					${ areaObj.area.name }
+					<a href="../areas/${ areaId }/">${ areaObj.area.name }</a>
 				`;
 				L.marker([areaObj.location.latitude, areaObj.location.longitude], {icon: areaIcon})
 					.addTo(this.#map)

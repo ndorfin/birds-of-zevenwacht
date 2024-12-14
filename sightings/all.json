@@ -14,6 +14,7 @@
 },
 			"quantity": 4,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -151,6 +152,7 @@
 },
 			"quantity": 3,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -289,6 +291,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -513,6 +516,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -729,6 +733,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -853,6 +858,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -977,6 +983,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -1101,6 +1108,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -1225,6 +1233,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -1349,6 +1358,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -1473,6 +1483,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
 				"area": {
 	"name": "Zevenwacht Lifestyle Estate",
 	"address": {
@@ -1593,6 +1604,7 @@
 },
 			"quantity": 3,
 			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
 				"area": {
 	"name": "Zevenwacht Lifestyle Estate",
 	"address": {
@@ -1713,6 +1725,7 @@
 },
 			"quantity": 5,
 			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
 				"area": {
 	"name": "Zevenwacht Lifestyle Estate",
 	"address": {
@@ -1833,6 +1846,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "langverwacht-farm",
 				"area": {
 	"name": "Langverwacht Farm",
 	"address": {
@@ -1977,6 +1991,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "langverwacht-farm",
 				"area": {
 	"name": "Langverwacht Farm",
 	"address": {
@@ -2121,6 +2136,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "langverwacht-farm",
 				"area": {
 	"name": "Langverwacht Farm",
 	"address": {
@@ -2265,6 +2281,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "langverwacht-farm",
 				"area": {
 	"name": "Langverwacht Farm",
 	"address": {
@@ -2409,6 +2426,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "langverwacht-farm",
 				"area": {
 	"name": "Langverwacht Farm",
 	"address": {
@@ -2553,6 +2571,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "langverwacht-farm",
 				"area": {
 	"name": "Langverwacht Farm",
 	"address": {
@@ -2664,11 +2683,11 @@
 },
 				"latitude": 
 				
-					-33.93384938202166,
+					-33.934108,
 				
 				"longitude":
 				
-					18.7174385698819
+					18.719649
 				
 			},
 			"observers": [
@@ -2697,6 +2716,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "langverwacht-farm",
 				"area": {
 	"name": "Langverwacht Farm",
 	"address": {
@@ -2841,6 +2861,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "langverwacht-farm",
 				"area": {
 	"name": "Langverwacht Farm",
 	"address": {
@@ -2952,11 +2973,11 @@
 },
 				"latitude": 
 				
-					-33.933912735880504,
+					-33.934109,
 				
 				"longitude":
 				
-					18.717217122679028
+					18.71917
 				
 			},
 			"observers": [
@@ -2985,6 +3006,7 @@
 },
 			"quantity": 3,
 			"location": {
+				"areaId": "langverwacht-farm",
 				"area": {
 	"name": "Langverwacht Farm",
 	"address": {
@@ -3096,11 +3118,11 @@
 },
 				"latitude": 
 				
-					-33.933899112681615,
+					-33.934024,
 				
 				"longitude":
 				
-					18.717263178314166
+					18.718207
 				
 			},
 			"observers": [
@@ -3129,6 +3151,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "langverwacht-farm",
 				"area": {
 	"name": "Langverwacht Farm",
 	"address": {
@@ -3240,11 +3263,11 @@
 },
 				"latitude": 
 				
-					-33.93515899233373,
+					-33.934971,
 				
 				"longitude":
 				
-					18.71782187072548
+					18.718458
 				
 			},
 			"observers": [
@@ -3273,6 +3296,7 @@
 },
 			"quantity": 8,
 			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
 				"area": {
 	"name": "Zevenwacht Lifestyle Estate",
 	"address": {
@@ -3393,6 +3417,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
 				"area": {
 	"name": "Zevenwacht Lifestyle Estate",
 	"address": {
@@ -3513,6 +3538,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
 				"area": {
 	"name": "Zevenwacht Lifestyle Estate",
 	"address": {
@@ -3633,6 +3659,7 @@
 },
 			"quantity": 12,
 			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
 				"area": {
 	"name": "Zevenwacht Lifestyle Estate",
 	"address": {
@@ -3753,6 +3780,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
 				"area": {
 	"name": "Zevenwacht Lifestyle Estate",
 	"address": {
@@ -3873,6 +3901,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -3997,6 +4026,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -4129,6 +4159,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -4260,6 +4291,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -4384,6 +4416,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -4516,6 +4549,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -4640,6 +4674,7 @@
 },
 			"quantity": 5,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -4764,6 +4799,7 @@
 },
 			"quantity": 5,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -4888,6 +4924,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -5034,6 +5071,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -5265,6 +5303,7 @@
 },
 			"quantity": "6-9",
 			"location": {
+				"areaId": "zevenwacht-country-estate",
 				"area": {
 	"name": "Zevenwacht Country Estate",
 	"address": {
@@ -5368,6 +5407,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -5499,6 +5539,7 @@
 },
 			"quantity": 3,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -5630,6 +5671,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -5768,6 +5810,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -5912,6 +5955,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -6056,6 +6100,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -6272,6 +6317,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -6488,6 +6534,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -6704,6 +6751,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "langverwacht-farm",
 				"area": {
 	"name": "Langverwacht Farm",
 	"address": {
@@ -6855,6 +6903,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "langverwacht-farm",
 				"area": {
 	"name": "Langverwacht Farm",
 	"address": {
@@ -6999,6 +7048,7 @@
 },
 			"quantity": 3,
 			"location": {
+				"areaId": "langverwacht-farm",
 				"area": {
 	"name": "Langverwacht Farm",
 	"address": {
@@ -7150,6 +7200,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -7274,6 +7325,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -7413,6 +7465,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -7537,6 +7590,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -7676,6 +7730,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -7800,6 +7855,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -7938,6 +7994,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -8076,6 +8133,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -8200,6 +8258,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -8338,6 +8397,7 @@
 },
 			"quantity": 3,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -8561,6 +8621,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -8784,6 +8845,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -9007,6 +9069,7 @@
 },
 			"quantity": "3-5",
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -9230,6 +9293,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -9453,6 +9517,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -9676,6 +9741,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "langverwacht-farm",
 				"area": {
 	"name": "Langverwacht Farm",
 	"address": {
@@ -9827,6 +9893,7 @@
 },
 			"quantity": "10-15",
 			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
 				"area": {
 	"name": "Zevenwacht Lifestyle Estate",
 	"address": {
@@ -9954,6 +10021,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -10078,6 +10146,7 @@
 },
 			"quantity": 3,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -10216,6 +10285,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -10354,6 +10424,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -10478,6 +10549,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -10616,6 +10688,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -10754,6 +10827,7 @@
 },
 			"quantity": 4,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -10885,6 +10959,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -11108,6 +11183,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -11324,6 +11400,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -11547,6 +11624,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -11763,6 +11841,7 @@
 },
 			"quantity": 3,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -11979,6 +12058,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -12195,6 +12275,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -12418,6 +12499,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -12641,6 +12723,7 @@
 },
 			"quantity": 9,
 			"location": {
+				"areaId": "zevenwacht-wine-estate",
 				"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
@@ -12864,6 +12947,7 @@
 },
 			"quantity": 3,
 			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
 				"area": {
 	"name": "Zevenwacht Lifestyle Estate",
 	"address": {
@@ -12991,6 +13075,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -13115,6 +13200,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -13239,6 +13325,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -13363,6 +13450,7 @@
 },
 			"quantity": 5,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -13487,6 +13575,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -13611,6 +13700,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -13735,6 +13825,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -13859,6 +13950,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -13983,6 +14075,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -14107,6 +14200,7 @@
 },
 			"quantity": 9,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -14239,6 +14333,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -14363,6 +14458,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -14488,6 +14584,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -14612,6 +14709,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -14736,6 +14834,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -14868,6 +14967,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -15000,6 +15100,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -15124,6 +15225,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -15248,6 +15350,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -15372,6 +15475,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -15496,6 +15600,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -15620,6 +15725,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -15744,6 +15850,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -15868,6 +15975,7 @@
 },
 			"quantity": 13,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -15992,6 +16100,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -16116,6 +16225,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -16240,6 +16350,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -16364,6 +16475,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -16488,6 +16600,7 @@
 },
 			"quantity": 4,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -16612,6 +16725,7 @@
 },
 			"quantity": 6,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -16736,6 +16850,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -16860,6 +16975,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -16984,6 +17100,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -17108,6 +17225,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -17232,6 +17350,7 @@
 },
 			"quantity": 2,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -17356,6 +17475,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {
@@ -17480,6 +17600,7 @@
 },
 			"quantity": 1,
 			"location": {
+				"areaId": "zevenwacht-village",
 				"area": {
 	"name": "Zevenwacht Village",
 	"address": {

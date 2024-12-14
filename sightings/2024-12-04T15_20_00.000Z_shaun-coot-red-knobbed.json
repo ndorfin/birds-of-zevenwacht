@@ -1,14 +1,14 @@
 
 
 {
-	"datetime": "2024-12-04T15:13:00.000Z",
+	"datetime": "2024-12-04T15:16:00.000Z",
 	"bird": {
-	"name": "Blacksmith Lapwing",
-	"family-name": "Lapwing",
-	"scientific-name": "Vanellus armatus",
-	"ebird": "https://ebird.org/species/blaplo1/ZA"
+	"name": "Red-knobbed Coot",
+	"family-name": "Coot",
+	"scientific-name": "Fulica cristata",
+	"ebird": "https://ebird.org/species/rekcoo1/ZA"
 },
-	"quantity": 2,
+	"quantity": 3,
 	"location": {
 		"areaId": "langverwacht-farm",
 		"area": {
@@ -122,11 +122,11 @@
 },
 		"latitude": 
 		
-			-33.93515899233373,
+			-33.934024,
 		
 		"longitude":
 		
-			18.71782187072548
+			18.718207
 		
 	},
 	"observers": [

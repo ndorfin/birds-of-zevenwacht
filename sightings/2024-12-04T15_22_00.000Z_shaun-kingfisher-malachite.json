@@ -1,14 +1,14 @@
 
 
 {
-	"datetime": "2024-12-04T15:16:00.000Z",
+	"datetime": "2024-12-04T15:21:00.000Z",
 	"bird": {
-	"name": "Red-knobbed Coot",
-	"family-name": "Coot",
-	"scientific-name": "Fulica cristata",
-	"ebird": "https://ebird.org/species/rekcoo1/ZA"
+	"name": "Malachite Kingfisher",
+	"family-name": "Kingfisher",
+	"scientific-name": "Corythornis cristatus",
+	"ebird": "https://ebird.org/species/malkin1/ZA"
 },
-	"quantity": 3,
+	"quantity": 1,
 	"location": {
 		"areaId": "langverwacht-farm",
 		"area": {
@@ -122,11 +122,11 @@
 },
 		"latitude": 
 		
-			-33.933899112681615,
+			-33.934109,
 		
 		"longitude":
 		
-			18.717263178314166
+			18.71917
 		
 	},
 	"observers": [
