@@ -5,6 +5,7 @@
 		{
 			"id": "2024-12-14T13_21_19.000Z_shaun",
 			"datetime": "2024-12-14T13:21:19.000Z",
+			"birdId": "swift-african-black",
 			"bird": {
 	"name": "African Black Swift",
 	"family-name": "Swift",
@@ -141,6 +142,7 @@
 		{
 			"id": "2024-12-13T14_17_58.000Z_shaun",
 			"datetime": "2024-12-13T14:17:58.000Z",
+			"birdId": "spurfowl-cape",
 			"bird": {
 	"name": "Cape Spurfowl",
 	"family-name": "Spurfowl",
@@ -278,6 +280,7 @@
 		{
 			"id": "2024-12-09T16_39_53.000Z_shaun",
 			"datetime": "2024-12-09T16:39:53.000Z",
+			"birdId": "fiscal-southern",
 			"bird": {
 	"name": "Southern Fiscal",
 	"family-name": "Shrike",
@@ -493,6 +496,7 @@
 		{
 			"id": "2024-12-09T16_12_02.000Z_shaun",
 			"datetime": "2024-12-09T16:12:02.000Z",
+			"birdId": "kestrel-rock",
 			"bird": {
 	"name": "Rock Kestrel",
 	"family-name": "Kestrel",
@@ -716,6 +720,7 @@
 		{
 			"id": "2024-12-09T06_14_37.000Z_tony",
 			"datetime": "2024-12-09T06:14:37.000Z",
+			"birdId": "kingfisher-malachite",
 			"bird": {
 	"name": "Malachite Kingfisher",
 	"family-name": "Kingfisher",
@@ -839,6 +844,7 @@
 		{
 			"id": "2024-12-08T11_08_00.000Z_tony",
 			"datetime": "2024-12-08T11:08:00.000Z",
+			"birdId": "sunbird-malachite",
 			"bird": {
 	"name": "Malachite Sunbird",
 	"family-name": "Sunbird",
@@ -962,6 +968,7 @@
 		{
 			"id": "2024-12-05T16_37_16.000Z_tony",
 			"datetime": "2024-12-05T16:37:16.000Z",
+			"birdId": "flycatcher-fiscal",
 			"bird": {
 	"name": "Fiscal Flycatcher",
 	"family-name": "Flycatcher",
@@ -1085,6 +1092,7 @@
 		{
 			"id": "2024-12-05T09_33_08.000Z_tony",
 			"datetime": "2024-12-05T09:33:08.000Z",
+			"birdId": "kingfisher-malachite",
 			"bird": {
 	"name": "Malachite Kingfisher",
 	"family-name": "Kingfisher",
@@ -1208,6 +1216,7 @@
 		{
 			"id": "2024-12-05T08_57_12.000Z_tony",
 			"datetime": "2024-12-05T08:57:12.000Z",
+			"birdId": "kingfisher-malachite",
 			"bird": {
 	"name": "Malachite Kingfisher",
 	"family-name": "Kingfisher",
@@ -1331,6 +1340,7 @@
 		{
 			"id": "2024-12-04T16_40_00.000Z_shaun",
 			"datetime": "2024-12-04T16:40:00.000Z",
+			"birdId": "kite-yellow-billed",
 			"bird": {
 	"name": "Yellow-billed Kite",
 	"family-name": "Kite",
@@ -1454,6 +1464,7 @@
 		{
 			"id": "2024-12-04T16_32_00.000Z_shaun",
 			"datetime": "2024-12-04T16:32:00.000Z",
+			"birdId": "pigeon-speckled",
 			"bird": {
 	"name": "Speckled Pigeon",
 	"family-name": "Pigeon",
@@ -1573,6 +1584,7 @@
 		{
 			"id": "2024-12-04T16_21_00.000Z_shaun",
 			"datetime": "2024-12-04T16:21:00.000Z",
+			"birdId": "swan-black",
 			"bird": {
 	"name": "Black Swan",
 	"family-name": "Swan",
@@ -1692,6 +1704,7 @@
 		{
 			"id": "2024-12-04T16_20_00.000Z_shaun",
 			"datetime": "2024-12-04T16:20:00.000Z",
+			"birdId": "cormorant-reed",
 			"bird": {
 	"name": "Reed Cormorant",
 	"family-name": "Cormorant",
@@ -1811,6 +1824,7 @@
 		{
 			"id": "2024-12-04T15_51_00.000Z_shaun",
 			"datetime": "2024-12-04T15:51:00.000Z",
+			"birdId": "flycatcher-african-paradise",
 			"bird": {
 	"name": "African Paradise Flycatcher",
 	"family-name": "Flycatcher",
@@ -1954,6 +1968,7 @@
 		{
 			"id": "2024-12-04T15_45_00.000Z_shaun",
 			"datetime": "2024-12-04T15:45:00.000Z",
+			"birdId": "owl-cape-eagle",
 			"bird": {
 	"name": "Cape Eagle-Owl",
 	"family-name": "Owl",
@@ -2097,6 +2112,7 @@
 		{
 			"id": "2024-12-04T15_44_00.000Z_shaun",
 			"datetime": "2024-12-04T15:43:00.000Z",
+			"birdId": "moorhen-common",
 			"bird": {
 	"name": "Common Moorhen",
 	"family-name": "Moorhen",
@@ -2240,6 +2256,7 @@
 		{
 			"id": "2024-12-04T15_41_00.000Z_shaun",
 			"datetime": "2024-12-04T15:41:00.000Z",
+			"birdId": "kingfisher-giant",
 			"bird": {
 	"name": "Giant Kingfisher",
 	"family-name": "Kingfisher",
@@ -2383,6 +2400,7 @@
 		{
 			"id": "2024-12-04T15_38_00.000Z_shaun",
 			"datetime": "2024-12-04T15:38:00.000Z",
+			"birdId": "duck-yellow-billed",
 			"bird": {
 	"name": "Yellow-billed Duck",
 	"family-name": "Duck",
@@ -2526,6 +2544,7 @@
 		{
 			"id": "2024-12-04T15_29_00.000Z_shaun",
 			"datetime": "2024-12-04T15:28:00.000Z",
+			"birdId": "cormorant-reed",
 			"bird": {
 	"name": "Reed Cormorant",
 	"family-name": "Cormorant",
@@ -2669,6 +2688,7 @@
 		{
 			"id": "2024-12-04T15_25_00.000Z_shaun",
 			"datetime": "2024-12-04T15:24:00.000Z",
+			"birdId": "swift-african-black",
 			"bird": {
 	"name": "African Black Swift",
 	"family-name": "Swift",
@@ -2812,6 +2832,7 @@
 		{
 			"id": "2024-12-04T15_22_00.000Z_shaun",
 			"datetime": "2024-12-04T15:21:00.000Z",
+			"birdId": "kingfisher-malachite",
 			"bird": {
 	"name": "Malachite Kingfisher",
 	"family-name": "Kingfisher",
@@ -2955,6 +2976,7 @@
 		{
 			"id": "2024-12-04T15_20_00.000Z_shaun",
 			"datetime": "2024-12-04T15:16:00.000Z",
+			"birdId": "coot-red-knobbed",
 			"bird": {
 	"name": "Red-knobbed Coot",
 	"family-name": "Coot",
@@ -3098,6 +3120,7 @@
 		{
 			"id": "2024-12-04T15_13_00.000Z_shaun",
 			"datetime": "2024-12-04T15:13:00.000Z",
+			"birdId": "lapwing-blacksmith",
 			"bird": {
 	"name": "Blacksmith Lapwing",
 	"family-name": "Lapwing",
@@ -3241,6 +3264,7 @@
 		{
 			"id": "2024-12-04T15_11_00.000Z_shaun",
 			"datetime": "2024-12-04T15:11:00.000Z",
+			"birdId": "swallow-greater-striped",
 			"bird": {
 	"name": "Greater Striped Swallow",
 	"family-name": "Swallow",
@@ -3360,6 +3384,7 @@
 		{
 			"id": "2024-12-04T15_07_00.000Z_shaun",
 			"datetime": "2024-12-04T15:07:00.000Z",
+			"birdId": "coot-red-knobbed",
 			"bird": {
 	"name": "Red-knobbed Coot",
 	"family-name": "Coot",
@@ -3479,6 +3504,7 @@
 		{
 			"id": "2024-12-04T15_08_00.000Z_shaun",
 			"datetime": "2024-12-04T15:05:00.000Z",
+			"birdId": "mousebird-white-backed",
 			"bird": {
 	"name": "White-backed Mousebird",
 	"family-name": "Mousebird",
@@ -3598,6 +3624,7 @@
 		{
 			"id": "2024-12-04T15_04_00.000Z_shaun",
 			"datetime": "2024-12-04T15:04:00.000Z",
+			"birdId": "bishop-southern-red",
 			"bird": {
 	"name": "Southern Red Bishop",
 	"family-name": "Bishop",
@@ -3717,6 +3744,7 @@
 		{
 			"id": "2024-12-04T15_03_00.000Z_shaun",
 			"datetime": "2024-12-04T15:03:00.000Z",
+			"birdId": "flycatcher-fiscal",
 			"bird": {
 	"name": "Fiscal Flycatcher",
 	"family-name": "Flycatcher",
@@ -3836,6 +3864,7 @@
 		{
 			"id": "2024-12-01T15_40_12.000Z_tony",
 			"datetime": "2024-12-01T15:40:12.000Z",
+			"birdId": "kingfisher-malachite",
 			"bird": {
 	"name": "Malachite Kingfisher",
 	"family-name": "Kingfisher",
@@ -3959,6 +3988,7 @@
 		{
 			"id": "2024-12-01T08_35_52.000Z_tony",
 			"datetime": "2024-12-01T08:35:52.000Z",
+			"birdId": "kingfisher-malachite",
 			"bird": {
 	"name": "Malachite Kingfisher",
 	"family-name": "Kingfisher",
@@ -4082,6 +4112,7 @@
 		{
 			"id": "2024-11-28T17_21_57.000Z_shaun",
 			"datetime": "2024-11-28T17:21:57.000Z",
+			"birdId": "crow-pied",
 			"bird": {
 	"name": "Pied Crow",
 	"family-name": "Crow",
@@ -4220,6 +4251,7 @@
 		{
 			"id": "2024-11-28T14_35_58.000Z_shaun",
 			"datetime": "2024-11-28T14:35:58.000Z",
+			"birdId": "canary-brimstone",
 			"bird": {
 	"name": "Brimstone Canary",
 	"family-name": "Canary",
@@ -4343,6 +4375,7 @@
 		{
 			"id": "2024-11-27T05_42_47.000Z_tony",
 			"datetime": "2024-11-27T05:42:47.000Z",
+			"birdId": "kingfisher-malachite",
 			"bird": {
 	"name": "Malachite Kingfisher",
 	"family-name": "Kingfisher",
@@ -4466,6 +4499,7 @@
 		{
 			"id": "2024-11-25T15_09_31.000Z_shaun",
 			"datetime": "2024-11-25T15:09:31.000Z",
+			"birdId": "sparrowhawk-rufous-breasted",
 			"bird": {
 	"name": "Rufous-breasted Sparrowhawk",
 	"family-name": "Sparrowhawk",
@@ -4597,6 +4631,7 @@
 		{
 			"id": "2024-11-25T14_58_28.000Z_shaun",
 			"datetime": "2024-11-25T14:58:28.000Z",
+			"birdId": "swallow-greater-striped",
 			"bird": {
 	"name": "Greater Striped Swallow",
 	"family-name": "Swallow",
@@ -4720,6 +4755,7 @@
 		{
 			"id": "2024-11-19T15_33_04.000Z_tony",
 			"datetime": "2024-11-19T15:33:04.000Z",
+			"birdId": "duck-african-black",
 			"bird": {
 	"name": "African Black Duck",
 	"family-name": "Duck",
@@ -4843,6 +4879,7 @@
 		{
 			"id": "2024-11-19T12_45_11.000Z_shaun",
 			"datetime": "2024-11-19T12:45:11.000Z",
+			"birdId": "sunbird-malachite",
 			"bird": {
 	"name": "Malachite Sunbird",
 	"family-name": "Sunbird",
@@ -4980,6 +5017,7 @@
 		{
 			"id": "2024-11-18T17_30_00.000Z_shaun",
 			"datetime": "2024-11-18T15:30:00.000Z",
+			"birdId": "kestrel-rock",
 			"bird": {
 	"name": "Rock Kestrel",
 	"family-name": "Kestrel",
@@ -5210,6 +5248,7 @@
 		{
 			"id": "2024-11-18T15_00_00.000Z_shaun",
 			"datetime": "2024-11-18T15:00:00.000Z",
+			"birdId": "waxbill-common",
 			"bird": {
 	"name": "Common Waxbill",
 	"family-name": "Waxbill",
@@ -5320,6 +5359,7 @@
 		{
 			"id": "2024-11-18T08_16_00.000Z_shaun",
 			"datetime": "2024-11-18T08:16:00.000Z",
+			"birdId": "heron-black-headed",
 			"bird": {
 	"name": "Black-headed Heron",
 	"family-name": "Heron",
@@ -5450,6 +5490,7 @@
 		{
 			"id": "2024-11-15T16_54_08.000Z_shaun",
 			"datetime": "2024-11-15T16:54:08.000Z",
+			"birdId": "swift-african-black",
 			"bird": {
 	"name": "African Black Swift",
 	"family-name": "Swift",
@@ -5580,6 +5621,7 @@
 		{
 			"id": "2024-11-15T15_38_36.000Z_shaun",
 			"datetime": "2024-11-15T15:38:36.000Z",
+			"birdId": "sunbird-amethyst",
 			"bird": {
 	"name": "Amethyst Sunbird",
 	"family-name": "Sunbird",
@@ -5717,6 +5759,7 @@
 		{
 			"id": "2024-11-07T16_07_20.000Z_shaun",
 			"datetime": "2024-11-07T16:07:20.000Z",
+			"birdId": "flycatcher-fiscal",
 			"bird": {
 	"name": "Fiscal Flycatcher",
 	"family-name": "Flycatcher",
@@ -5860,6 +5903,7 @@
 		{
 			"id": "2024-11-07T15_53_10.000Z_shaun",
 			"datetime": "2024-11-07T15:53:10.000Z",
+			"birdId": "duck-african-black",
 			"bird": {
 	"name": "African Black Duck",
 	"family-name": "Duck",
@@ -6003,6 +6047,7 @@
 		{
 			"id": "2024-11-05T16_19_40.000Z_shaun",
 			"datetime": "2024-11-05T16:19:40.000Z",
+			"birdId": "starling-common",
 			"bird": {
 	"name": "Common Starling",
 	"family-name": "Starling",
@@ -6218,6 +6263,7 @@
 		{
 			"id": "2024-11-05T15_54_52.000Z_shaun",
 			"datetime": "2024-11-05T15:54:52.000Z",
+			"birdId": "prinia-karoo",
 			"bird": {
 	"name": "Karoo Prinia",
 	"family-name": "Prinia",
@@ -6433,6 +6479,7 @@
 		{
 			"id": "2024-11-05T15_41_27.000Z_shaun",
 			"datetime": "2024-11-05T15:41:27.000Z",
+			"birdId": "cuckoo-klaass",
 			"bird": {
 	"name": "Klaas's Cuckoo",
 	"family-name": "Cuckoo",
@@ -6648,6 +6695,7 @@
 		{
 			"id": "2024-11-05T15_09_40.000Z_shaun",
 			"datetime": "2024-11-05T15:09:40.000Z",
+			"birdId": "duck-yellow-billed",
 			"bird": {
 	"name": "Yellow-billed Duck",
 	"family-name": "Duck",
@@ -6798,6 +6846,7 @@
 		{
 			"id": "2024-11-05T14_59_40.000Z_shaun",
 			"datetime": "2024-11-05T14:59:40.000Z",
+			"birdId": "crane-blue",
 			"bird": {
 	"name": "Blue Crane",
 	"family-name": "Crane",
@@ -6941,6 +6990,7 @@
 		{
 			"id": "2024-11-05T14_54_30.000Z_shaun",
 			"datetime": "2024-11-05T14:54:30.000Z",
+			"birdId": "owl-cape-eagle",
 			"bird": {
 	"name": "Cape Eagle-Owl",
 	"family-name": "Owl",
@@ -7091,6 +7141,7 @@
 		{
 			"id": "2024-10-27T08_06_33.000Z_tony",
 			"datetime": "2024-10-27T08:06:33.000Z",
+			"birdId": "hamerkop",
 			"bird": {
 	"name": "Hamerkop",
 	"family-name": "Ibis",
@@ -7214,6 +7265,7 @@
 		{
 			"id": "2024-10-21T07_12_23.000Z_shaun",
 			"datetime": "2024-10-21T07:12:23.000Z",
+			"birdId": "thrush-olive",
 			"bird": {
 	"name": "Olive Thursh",
 	"family-name": "Thrush",
@@ -7351,6 +7403,7 @@
 		{
 			"id": "2024-10-18T10_46_35.000Z_tony",
 			"datetime": "2024-10-18T10:46:35.000Z",
+			"birdId": "sparrowhawk-black",
 			"bird": {
 	"name": "Black Sparrowhawk",
 	"family-name": "Sparrowhawk",
@@ -7475,6 +7528,7 @@
 		{
 			"id": "2024-10-18T08_06_43.000Z_shaun",
 			"datetime": "2024-10-18T08:06:43.000Z",
+			"birdId": "bulbul-cape",
 			"bird": {
 	"name": "Cape Bulbul",
 	"family-name": "Bulbul",
@@ -7612,6 +7666,7 @@
 		{
 			"id": "2024-10-18T08_01_28.000Z_tony",
 			"datetime": "2024-10-18T08:01:28.000Z",
+			"birdId": "sparrowhawk-black",
 			"bird": {
 	"name": "Black Sparrowhawk",
 	"family-name": "Sparrowhawk",
@@ -7736,6 +7791,7 @@
 		{
 			"id": "2024-10-18T07_50_21.000Z_shaun",
 			"datetime": "2024-10-18T07:50:21.000Z",
+			"birdId": "weaver-southern-masked",
 			"bird": {
 	"name": "Southern Masked Weaver",
 	"family-name": "Weaver",
@@ -7873,6 +7929,7 @@
 		{
 			"id": "2024-10-18T07_48_35.000Z_shaun",
 			"datetime": "2024-10-18T07:48:35.000Z",
+			"birdId": "white-eye-cape",
 			"bird": {
 	"name": "Cape White-eye",
 	"family-name": "White-eye",
@@ -8010,6 +8067,7 @@
 		{
 			"id": "2024-10-16T06_13_51.000Z_tony",
 			"datetime": "2024-10-16T06:13:51.000Z",
+			"birdId": "ibis-hadeda",
 			"bird": {
 	"name": "Hadeda Ibis",
 	"family-name": "Ibis",
@@ -8133,6 +8191,7 @@
 		{
 			"id": "2024-10-12T17_30_36.000Z_shaun",
 			"datetime": "2024-10-12T17:30:36.000Z",
+			"birdId": "dove-cape-turtle",
 			"bird": {
 	"name": "Cape Turtle Dove",
 	"family-name": "Dove",
@@ -8270,6 +8329,7 @@
 		{
 			"id": "2024-09-23T13_58_34.000Z_shaun",
 			"datetime": "2024-09-23T13:58:34.000Z",
+			"birdId": "coot-red-knobbed",
 			"bird": {
 	"name": "Red-knobbed Coot",
 	"family-name": "Coot",
@@ -8492,6 +8552,7 @@
 		{
 			"id": "2024-09-23T13_57_28.000Z_shaun",
 			"datetime": "2024-09-23T13:57:28.000Z",
+			"birdId": "lapwing-blacksmith",
 			"bird": {
 	"name": "Blacksmith Lapwing",
 	"family-name": "Lapwing",
@@ -8714,6 +8775,7 @@
 		{
 			"id": "2024-09-23T13_56_06.000Z_shaun",
 			"datetime": "2024-09-23T13:56:06.000Z",
+			"birdId": "kite-yellow-billed",
 			"bird": {
 	"name": "Yellow-billed Kite",
 	"family-name": "Kite",
@@ -8936,6 +8998,7 @@
 		{
 			"id": "2024-09-23T13_27_49.000Z_shaun",
 			"datetime": "2024-09-23T13:27:49.000Z",
+			"birdId": "canary-cape",
 			"bird": {
 	"name": "Cape Canary",
 	"family-name": "Canary",
@@ -9158,6 +9221,7 @@
 		{
 			"id": "2024-09-23T13_05_42.000Z_shaun",
 			"datetime": "2024-09-23T13:05:42.000Z",
+			"birdId": "robin-chat-cape",
 			"bird": {
 	"name": "Cape Robin-Chat",
 	"family-name": "Robin-Chat",
@@ -9380,6 +9444,7 @@
 		{
 			"id": "2024-09-23T13_03_15.000Z_shaun",
 			"datetime": "2024-09-23T13:03:15.000Z",
+			"birdId": "buzzard-jackal",
 			"bird": {
 	"name": "Jackal Buzzard",
 	"family-name": "Buzzard",
@@ -9602,6 +9667,7 @@
 		{
 			"id": "2024-09-23T12_38_31.000Z_shaun",
 			"datetime": "2024-09-23T12:38:31.000Z",
+			"birdId": "kite-black-winged",
 			"bird": {
 	"name": "Black-winged Kite",
 	"family-name": "Kite",
@@ -9752,6 +9818,7 @@
 		{
 			"id": "2024-09-23T12_27_28.000Z_shaun",
 			"datetime": "2024-09-23T12:27:28.000Z",
+			"birdId": "bishop-southern-red",
 			"bird": {
 	"name": "Southern Red Bishop",
 	"family-name": "Bishop",
@@ -9878,6 +9945,7 @@
 		{
 			"id": "2024-09-20T11_50_26.000Z_shaun",
 			"datetime": "2024-09-20T11:50:26.000Z",
+			"birdId": "hoopoe-african",
 			"bird": {
 	"name": "African Hoopoe",
 	"family-name": "Hoopoe",
@@ -10001,6 +10069,7 @@
 		{
 			"id": "2024-09-13T12_50_22.000Z_shaun",
 			"datetime": "2024-09-13T12:50:22.000Z",
+			"birdId": "thick-knee-spotted",
 			"bird": {
 	"name": "Spotted Thick-knee",
 	"family-name": "Thick-knee",
@@ -10138,6 +10207,7 @@
 		{
 			"id": "2024-09-13T12_49_26.000Z_shaun",
 			"datetime": "2024-09-13T12:49:26.000Z",
+			"birdId": "dove-laughing",
 			"bird": {
 	"name": "Laughing Dove",
 	"family-name": "Dove",
@@ -10275,6 +10345,7 @@
 		{
 			"id": "2024-09-12T13_46_37.000Z_shaun",
 			"datetime": "2024-09-12T13:46:37.000Z",
+			"birdId": "ibis-hadeda",
 			"bird": {
 	"name": "Hadeda Ibis",
 	"family-name": "Ibis",
@@ -10398,6 +10469,7 @@
 		{
 			"id": "2024-09-12T13_43_47.000Z_shaun",
 			"datetime": "2024-09-12T13:43:47.000Z",
+			"birdId": "barbet-acacia-pied",
 			"bird": {
 	"name": "Acacia Pied Barbet",
 	"family-name": "Barbet",
@@ -10535,6 +10607,7 @@
 		{
 			"id": "2024-09-08T12_19_06.000Z_shaun",
 			"datetime": "2024-09-08T12:19:06.000Z",
+			"birdId": "goose-egyptian",
 			"bird": {
 	"name": "Egyptian Goose",
 	"family-name": "Goose",
@@ -10672,6 +10745,7 @@
 		{
 			"id": "2024-09-03T13_39_46.000Z_shaun",
 			"datetime": "2024-09-03T13:39:46.000Z",
+			"birdId": "guineafowl-helmeted",
 			"bird": {
 	"name": "Helmeted Guineafowl",
 	"family-name": "Guineafowl",
@@ -10802,6 +10876,7 @@
 		{
 			"id": "2024-09-03T13_28_53.000Z_shaun",
 			"datetime": "2024-09-03T13:28:53.000Z",
+			"birdId": "flycatcher-african-dusky",
 			"bird": {
 	"name": "African Dusky Flycatcher",
 	"family-name": "Flycatcher",
@@ -11024,6 +11099,7 @@
 		{
 			"id": "2024-09-03T13_06_19.000Z_shaun",
 			"datetime": "2024-09-03T13:06:19.000Z",
+			"birdId": "boubou-southern",
 			"bird": {
 	"name": "Southern Boubou",
 	"family-name": "Bush-shrike",
@@ -11239,6 +11315,7 @@
 		{
 			"id": "2024-09-03T12_49_03.000Z_shaun",
 			"datetime": "2024-09-03T12:49:03.000Z",
+			"birdId": "owl-cape-eagle",
 			"bird": {
 	"name": "Cape Eagle-Owl",
 	"family-name": "Owl",
@@ -11461,6 +11538,7 @@
 		{
 			"id": "2024-09-03T12_43_57.000Z_shaun",
 			"datetime": "2024-09-03T12:43:57.000Z",
+			"birdId": "peafowl-indian",
 			"bird": {
 	"name": "Indian Peafowl",
 	"family-name": "Peafowl",
@@ -11676,6 +11754,7 @@
 		{
 			"id": "2024-09-03T12_35_19.000Z_shaun",
 			"datetime": "2024-09-03T12:35:19.000Z",
+			"birdId": "waxbill-swee",
 			"bird": {
 	"name": "Swee Waxbill",
 	"family-name": "Waxbill",
@@ -11891,6 +11970,7 @@
 		{
 			"id": "2024-09-03T12_26_05.000Z_shaun",
 			"datetime": "2024-09-03T12:26:05.000Z",
+			"birdId": "ibis-african-sacred",
 			"bird": {
 	"name": "African Sacred Ibis",
 	"family-name": "Ibis",
@@ -12106,6 +12186,7 @@
 		{
 			"id": "2024-09-03T12_25_28.000Z_shaun",
 			"datetime": "2024-09-03T12:25:28.000Z",
+			"birdId": "bishop-yellow",
 			"bird": {
 	"name": "Yellow Bishop",
 	"family-name": "Bishop",
@@ -12328,6 +12409,7 @@
 		{
 			"id": "2024-09-03T12_23_45.000Z_shaun",
 			"datetime": "2024-09-03T12:23:45.000Z",
+			"birdId": "cormorant-reed",
 			"bird": {
 	"name": "Reed Cormorant",
 	"family-name": "Cormorant",
@@ -12550,6 +12632,7 @@
 		{
 			"id": "2024-09-03T12_16_23.000Z_shaun",
 			"datetime": "2024-09-03T12:16:23.000Z",
+			"birdId": "weaver-cape",
 			"bird": {
 	"name": "Cape Weaver",
 	"family-name": "Weaver",
@@ -12772,6 +12855,7 @@
 		{
 			"id": "2024-09-03T12_02_17.000Z_shaun",
 			"datetime": "2024-09-03T12:02:17.000Z",
+			"birdId": "swan-black",
 			"bird": {
 	"name": "Black Swan",
 	"family-name": "Swan",
@@ -12898,6 +12982,7 @@
 		{
 			"id": "2024-09-03T07_29_47.000Z_shaun",
 			"datetime": "2024-09-03T07:29:47.000Z",
+			"birdId": "sunbird-southern-double-collared",
 			"bird": {
 	"name": "Southern Double-collared Sunbird",
 	"family-name": "Sunbird",
@@ -13021,6 +13106,7 @@
 		{
 			"id": "2024-08-29T08_33_00.000Z_shaun",
 			"datetime": "2024-08-29T08:33:00.000Z",
+			"birdId": "drongo-fork-tailed",
 			"bird": {
 	"name": "Fork-tailed Drongo",
 	"family-name": "Drongo",
@@ -13144,6 +13230,7 @@
 		{
 			"id": "2024-08-29T08_19_50.000Z_shaun",
 			"datetime": "2024-08-29T08:19:50.000Z",
+			"birdId": "sparrow-cape",
 			"bird": {
 	"name": "Cape Sparrow",
 	"family-name": "Sparrow",
@@ -13267,6 +13354,7 @@
 		{
 			"id": "2024-08-28T08_18_48.000Z_shaun",
 			"datetime": "2024-08-28T08:18:48.000Z",
+			"birdId": "mousebird-white-backed",
 			"bird": {
 	"name": "White-backed Mousebird",
 	"family-name": "Mousebird",
@@ -13390,6 +13478,7 @@
 		{
 			"id": "2024-07-19T07_31_41.000Z_tony",
 			"datetime": "2024-07-19T07:31:41.000Z",
+			"birdId": "duck-african-black",
 			"bird": {
 	"name": "African Black Duck",
 	"family-name": "Duck",
@@ -13513,6 +13602,7 @@
 		{
 			"id": "2024-07-13T11_50_20.000Z_tony",
 			"datetime": "2024-07-13T11:50:20.000Z",
+			"birdId": "kingfisher-giant",
 			"bird": {
 	"name": "Giant Kingfisher",
 	"family-name": "Kingfisher",
@@ -13636,6 +13726,7 @@
 		{
 			"id": "2023-10-12T08_28_00.000Z_tony",
 			"datetime": "2023-10-12T08:28:00.000Z",
+			"birdId": "cormorant-reed",
 			"bird": {
 	"name": "Reed Cormorant",
 	"family-name": "Cormorant",
@@ -13759,6 +13850,7 @@
 		{
 			"id": "2023-10-05T15_57_03.000Z_tony",
 			"datetime": "2023-10-05T15:57:03.000Z",
+			"birdId": "owl-cape-eagle",
 			"bird": {
 	"name": "Cape Eagle-Owl",
 	"family-name": "Owl",
@@ -13882,6 +13974,7 @@
 		{
 			"id": "2023-10-05T15_55_00.000Z_tony",
 			"datetime": "2023-10-05T15:55:00.000Z",
+			"birdId": "goose-egyptian",
 			"bird": {
 	"name": "Egyptian Goose",
 	"family-name": "Goose",
@@ -14005,6 +14098,7 @@
 		{
 			"id": "2023-10-05T15_54_31.000Z_tony",
 			"datetime": "2023-10-05T15:54:31.000Z",
+			"birdId": "goose-egyptian",
 			"bird": {
 	"name": "Egyptian Goose",
 	"family-name": "Goose",
@@ -14128,6 +14222,7 @@
 		{
 			"id": "2023-08-26T08_15_26.000Z_tony",
 			"datetime": "2023-08-26T08:15:26.000Z",
+			"birdId": "harrier-hawk-african",
 			"bird": {
 	"name": "African Harrier-hawk",
 	"family-name": "Harrier-hawk",
@@ -14259,6 +14354,7 @@
 		{
 			"id": "2023-03-03T10_24_12.000Z_tony",
 			"datetime": "2023-03-03T10:24:12.000Z",
+			"birdId": "owl-cape-eagle",
 			"bird": {
 	"name": "Cape Eagle-Owl",
 	"family-name": "Owl",
@@ -14382,6 +14478,7 @@
 		{
 			"id": "2022-11-23T16_36_27.000Z_tony",
 			"datetime": "2022-11-23T16:36:27.000Z",
+			"birdId": "sparrowhawk-black",
 			"bird": {
 	"name": "Black Sparrowhawk",
 	"family-name": "Sparrowhawk",
@@ -14506,6 +14603,7 @@
 		{
 			"id": "2022-11-19T07_41_21.000Z_tony",
 			"datetime": "2022-11-19T07:41:21.000Z",
+			"birdId": "flycatcher-african-paradise",
 			"bird": {
 	"name": "African Paradise Flycatcher",
 	"family-name": "Flycatcher",
@@ -14629,6 +14727,7 @@
 		{
 			"id": "2022-11-16T08_18_04.000Z_tony",
 			"datetime": "2022-11-16T08:18:04.000Z",
+			"birdId": "flycatcher-african-paradise",
 			"bird": {
 	"name": "African Paradise Flycatcher",
 	"family-name": "Flycatcher",
@@ -14752,6 +14851,7 @@
 		{
 			"id": "2022-09-26T08_38_31.000Z_tony",
 			"datetime": "2022-09-26T08:38:31.000Z",
+			"birdId": "harrier-hawk-african",
 			"bird": {
 	"name": "African Harrier-hawk",
 	"family-name": "Harrier-hawk",
@@ -14883,6 +14983,7 @@
 		{
 			"id": "2022-09-25T14_51_37.000Z_tony",
 			"datetime": "2022-09-25T14:51:37.000Z",
+			"birdId": "harrier-hawk-african",
 			"bird": {
 	"name": "African Harrier-hawk",
 	"family-name": "Harrier-hawk",
@@ -15014,6 +15115,7 @@
 		{
 			"id": "2022-09-24T12_09_34.000Z_tony",
 			"datetime": "2022-09-24T12:09:34.000Z",
+			"birdId": "ibis-hadeda",
 			"bird": {
 	"name": "Hadeda Ibis",
 	"family-name": "Ibis",
@@ -15137,6 +15239,7 @@
 		{
 			"id": "2022-08-08T09_22_36.000Z_tony",
 			"datetime": "2022-08-08T09:22:36.000Z",
+			"birdId": "duck-yellow-billed",
 			"bird": {
 	"name": "Yellow-billed Duck",
 	"family-name": "Duck",
@@ -15260,6 +15363,7 @@
 		{
 			"id": "2022-07-11T12_59_22.000Z_tony",
 			"datetime": "2022-07-11T12:59:22.000Z",
+			"birdId": "kingfisher-malachite",
 			"bird": {
 	"name": "Malachite Kingfisher",
 	"family-name": "Kingfisher",
@@ -15383,6 +15487,7 @@
 		{
 			"id": "2022-04-03T11_10_54.000Z_tony",
 			"datetime": "2022-04-03T11:10:54.000Z",
+			"birdId": "robin-chat-cape",
 			"bird": {
 	"name": "Cape Robin-Chat",
 	"family-name": "Robin-Chat",
@@ -15506,6 +15611,7 @@
 		{
 			"id": "2022-01-11T10_48_08.000Z_tony",
 			"datetime": "2022-01-11T10:48:08.000Z",
+			"birdId": "eagle-booted",
 			"bird": {
 	"name": "Booted Eagle",
 	"family-name": "Eagle",
@@ -15629,6 +15735,7 @@
 		{
 			"id": "2021-10-23T14_49_24.000Z_tony",
 			"datetime": "2021-10-23T14:49:24.000Z",
+			"birdId": "owl-cape-eagle",
 			"bird": {
 	"name": "Cape Eagle-Owl",
 	"family-name": "Owl",
@@ -15752,6 +15859,7 @@
 		{
 			"id": "2021-08-29T14_39_17.000Z_tony",
 			"datetime": "2021-08-29T14:39:17.000Z",
+			"birdId": "goose-egyptian",
 			"bird": {
 	"name": "Egyptian Goose",
 	"family-name": "Goose",
@@ -15875,6 +15983,7 @@
 		{
 			"id": "2021-07-19T08_45_40.000Z_tony",
 			"datetime": "2021-07-19T08:45:40.000Z",
+			"birdId": "thrush-olive",
 			"bird": {
 	"name": "Olive Thursh",
 	"family-name": "Thrush",
@@ -15998,6 +16107,7 @@
 		{
 			"id": "2021-07-18T08_34_44.000Z_tony",
 			"datetime": "2021-07-18T08:34:44.000Z",
+			"birdId": "white-eye-cape",
 			"bird": {
 	"name": "Cape White-eye",
 	"family-name": "White-eye",
@@ -16121,6 +16231,7 @@
 		{
 			"id": "2021-03-02T16_59_00.000Z_tony",
 			"datetime": "2021-03-02T16:59:00.000Z",
+			"birdId": "owl-cape-eagle",
 			"bird": {
 	"name": "Cape Eagle-Owl",
 	"family-name": "Owl",
@@ -16244,6 +16355,7 @@
 		{
 			"id": "2020-12-14T14_43_25.000Z_tony",
 			"datetime": "2020-12-14T14:43:25.000Z",
+			"birdId": "owl-cape-eagle",
 			"bird": {
 	"name": "Cape Eagle-Owl",
 	"family-name": "Owl",
@@ -16367,6 +16479,7 @@
 		{
 			"id": "2020-09-04T11_28_29.000Z_tony",
 			"datetime": "2020-09-04T11:28:29.000Z",
+			"birdId": "goose-egyptian",
 			"bird": {
 	"name": "Egyptian Goose",
 	"family-name": "Goose",
@@ -16490,6 +16603,7 @@
 		{
 			"id": "2020-09-04T11_25_02.000Z_tony",
 			"datetime": "2020-09-04T11:25:02.000Z",
+			"birdId": "goose-egyptian",
 			"bird": {
 	"name": "Egyptian Goose",
 	"family-name": "Goose",
@@ -16613,6 +16727,7 @@
 		{
 			"id": "2020-09-03T12_48_45.000Z_tony",
 			"datetime": "2020-09-03T12:48:45.000Z",
+			"birdId": "goshawk-african",
 			"bird": {
 	"name": "African Goshwawk",
 	"family-name": "Goshawk",
@@ -16736,6 +16851,7 @@
 		{
 			"id": "2020-08-29T06_13_17.000Z_tony",
 			"datetime": "2020-08-29T06:13:17.000Z",
+			"birdId": "cormorant-reed",
 			"bird": {
 	"name": "Reed Cormorant",
 	"family-name": "Cormorant",
@@ -16859,6 +16975,7 @@
 		{
 			"id": "2020-08-21T11_43_13.000Z_tony",
 			"datetime": "2020-08-21T11:43:13.000Z",
+			"birdId": "mousebird-white-backed",
 			"bird": {
 	"name": "White-backed Mousebird",
 	"family-name": "Mousebird",
@@ -16982,6 +17099,7 @@
 		{
 			"id": "2020-06-17T14_46_10.000Z_tony",
 			"datetime": "2020-06-17T14:46:10.000Z",
+			"birdId": "ibis-hadeda",
 			"bird": {
 	"name": "Hadeda Ibis",
 	"family-name": "Ibis",
@@ -17105,6 +17223,7 @@
 		{
 			"id": "2020-05-26T15_03_56.000Z_tony",
 			"datetime": "2020-05-26T15:03:56.000Z",
+			"birdId": "owl-cape-eagle",
 			"bird": {
 	"name": "Cape Eagle-Owl",
 	"family-name": "Owl",
@@ -17228,6 +17347,7 @@
 		{
 			"id": "2020-05-13T14_40_31.000Z_tony",
 			"datetime": "2020-05-13T14:40:31.000Z",
+			"birdId": "sunbird-malachite",
 			"bird": {
 	"name": "Malachite Sunbird",
 	"family-name": "Sunbird",
@@ -17351,6 +17471,7 @@
 		{
 			"id": "2020-01-02T07_25_30.000Z_tony",
 			"datetime": "2020-01-02T07:25:30.000Z",
+			"birdId": "owl-cape-eagle",
 			"bird": {
 	"name": "Cape Eagle-Owl",
 	"family-name": "Owl",
