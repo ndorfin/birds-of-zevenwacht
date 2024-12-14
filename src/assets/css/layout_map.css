@@ -1,0 +1,35 @@
+.layout_map {
+	display: flex;
+	flex-direction: column;
+	margin-inline: calc(var(--dimensions-window-margin) * -1);
+}
+
+.layout_item_list {
+	padding: var(--dimensions-window-margin);
+	max-inline-size: 320px;
+
+	& ul {
+		list-style: "";
+		margin: 0;
+		padding: 0;
+	}
+}
+
+@media (min-width: 720px) {
+	.layout_map {
+		flex-direction: row;
+		block-size: 100dvh;
+	}
+
+	.layout_item_map {
+		flex-grow: 1;
+
+		& map-embed {
+			aspect-ratio: auto;
+		}
+	}
+	.layout_item_list {
+		overflow-y: auto;
+		background-color: hsla(0 0 95% / 1);
+	}
+}

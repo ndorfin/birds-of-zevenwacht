@@ -4,12 +4,14 @@
 @import './site_nav.css';
 @import './main.css';
 @import './site_footer.css';
+@import './layout_map.css';
 @import './list_gallery.css';
 @import './link_thumbnail.css';
 @import './figure_full.css';
 @import './list_details.css';
 @import './list_stripped.css';
 @import './wc/map-embed.css';
+@import './icons.css';
 @import './page_photo.css';
 
 screenreader-only {

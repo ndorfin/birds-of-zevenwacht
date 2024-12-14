@@ -14,6 +14,7 @@ eleventyExcludeFromCollections: true
 	"bird": {{ bird | stringify | safe }},
 	"quantity": {{ sighting.bird.quantity | stringify | safe }},
 	"location": {
+		"areaId": {{ sighting.location.area | stringify | safe  }},
 		"area": {{ areas[sighting.location.area] | stringify | safe }},
 		"latitude": 
 		{% if sighting.location.latitude %}
