@@ -1,0 +1,19 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2024-11-30T15:30:01.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A pair of Hoopoes foraging for food across the lawn
+bird:
+  # Supply a matching Bird ID
+  id: hoopoe-african
+  # How many individuals did you spot?
+  quantity: 2
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2024-11-30T15_30_01.000Z_mike
+# Include all the people that spotted this bird.
+observers:
+  - mike
+location:
+  area: zevenwacht-village
