@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 59BB7587-DA43-4514-9039-8515C10B6815_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-12-15T15:32:52.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An African Darter sits on a submerged tree, above the lillies and reeds of the McKenzie Dam.
+# List each of the bird IDs present in this photo
+birds:
+  - darter-african
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: langverwacht-estate
+  latitude: -33.934013
+  longitude: 18.718737
