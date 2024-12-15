@@ -1,16 +1,16 @@
 # What is the filename of this photo (in the /assets/photos folder)
-file: 0F2E510F-EF8C-4209-9FEE-0257447F58FE_1_201_a.jpeg
+file: 1D1EB992-E89F-4198-828F-A90A4EBCFC84_1_201_a.jpeg
 # Link this Photo to a Sighting, by providing the Sighting ID:
 # 2024-09-04T14_23
-sighting: 2024-12-15T16_30_29.000Z_shaun
+sighting: 2024-12-15T16_42_53.000Z_shaun
 # Describe this image, as if you were explaining it over the phone
-description: A Black-winged Kite flares its wings after just having landed at the top of a dead tree
+description: A Forest Buzzard perched atop a Port Jackson tree
 # List each of the bird IDs present in this photo
 birds:
-  - kite-black-winged
+  - buzzard-forest
 # Link this photo to a photographer (matching a file in the _data/people folder)
 photographer: shaun
 location:
-  area: zevenwacht-wine-estate
-  latitude: -33.921308
-  longitude: 18.713349
+  area: kuils-river
+  latitude: -33.924239
+  longitude: 18.712570

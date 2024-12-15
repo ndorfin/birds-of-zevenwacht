@@ -1,0 +1,6 @@
+least-concern:
+  title: Least concern
+  severity: 2
+near-threatened:
+  title: Near threatened
+  severity: 3
