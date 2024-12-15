@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 230172C7-F68F-4BA1-B79D-A6678E5AA4AA_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-12-15T16_52_15.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult Barn Swallow with breeding tail plumage, mid-flight.
+# List each of the bird IDs present in this photo
+birds:
+  - swallow-barn
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.930416
+  longitude: 18.714040

@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2024-12-15T16:52:15.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  We saw many Barn Swallows today, all feeding, and many with breeding plumage in their tails.
+bird:
+  # Supply a matching Bird ID
+  id: swallow-barn
+  # How many individuals did you spot?
+  quantity: 7-10
+# Link this Sighting to a Photo, by its ID
+photos:
+  - 2024-12-15T16_52_15.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.930416
+  longitude: 18.714040
