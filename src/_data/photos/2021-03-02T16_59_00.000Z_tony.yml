@@ -4,10 +4,10 @@ file: owl-cape-eagle_2A9A1894.JPG
 # 2024-09-04T14_23
 sighting: 2021-03-02T16_59_00.000Z_tony
 # Describe this image, as if you were explaining it over the phone
-description: An adult Cape Eagle Owl perched on a sawn-off tree trunk
+description: An adult Spotted Eagle Owl perched on a sawn-off tree trunk
 # List each of the bird IDs present in this photo
 birds:
-  - owl-cape-eagle
+  - owl-spotted-eagle
 # Link this photo to a photographer (matching a file in the _data/people folder)
 photographer: tony
 location:
