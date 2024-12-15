@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2020-09-12T16:46:41.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  This Rock Kestrel took its time eating some freshly-caught prey, perched above a street lamp.
+bird:
+  # Supply a matching Bird ID
+  id: kestrel-rock
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2020-09-12T16_39_39.000Z_mike
+  - 2020-09-12T16_46_41.000Z_mike
+# Include all the people that spotted this bird.
+observers:
+  - mike
+location:
+  area: zevenwacht-country-estate
+  latitude: -33.937300
+  longitude: 18.717076
