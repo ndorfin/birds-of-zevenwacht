@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: E2ABDBF7-19E7-49FB-B4E0-1052D98C7A3D_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2023-02-18T05_54_46.000Z_mike
+# Describe this image, as if you were explaining it over the phone
+description: A European Bee-eater flying high above the photographer
+# List each of the bird IDs present in this photo
+birds:
+  - bee-eater-european
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: mike
+location:
+  area: zevenwacht-village
