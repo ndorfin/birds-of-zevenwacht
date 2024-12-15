@@ -1,0 +1,20 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2022-07-30T16:25:53.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  An adult Spotted Eagle-Owl perched in a tree
+bird:
+  # Supply a matching Bird ID
+  id: owl-spotted-eagle
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos:
+  - 2022-07-30T16_25_53.000Z_mike
+# Include all the people that spotted this bird.
+observers:
+  - mike
+  - ingunn
+location:
+  area: zevenwacht-village
