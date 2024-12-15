@@ -67,6 +67,9 @@ export default async function (config) {
 	config.addFilter('stringify', data => {
 		return JSON.stringify(data, null, '\t');
 	});
+	config.addFilter('CCYYMMDD', date => {
+		return new Date(date).toISOString().substring(0, 10);
+	});
 	config.addFilter('sortByDatetimeRecent', (obj) => {
 		const sorted = {};
 		Object.keys(obj)
