@@ -1,14 +1,14 @@
 
 
 {
-	"datetime": "2021-10-23T14:49:24.000Z",
+	"datetime": "2023-10-05T15:57:03.000Z",
 	"bird": {
-	"name": "Cape Eagle-Owl",
+	"name": "Spotted Eagle-Owl",
 	"family-name": "Owl",
-	"scientific-name": "Bubo capensis",
-	"ebird": "https://ebird.org/species/caeowl1/ZA"
+	"scientific-name": "Bubo africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA"
 },
-	"quantity": 2,
+	"quantity": 1,
 	"location": {
 		"areaId": "zevenwacht-village",
 		"area": {

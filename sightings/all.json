@@ -2213,12 +2213,12 @@
 		{
 			"id": "2024-12-04T15_45_00.000Z_shaun",
 			"datetime": "2024-12-04T15:45:00.000Z",
-			"birdId": "owl-cape-eagle",
+			"birdId": "owl-spotted-eagle",
 			"bird": {
-	"name": "Cape Eagle-Owl",
+	"name": "Spotted Eagle-Owl",
 	"family-name": "Owl",
-	"scientific-name": "Bubo capensis",
-	"ebird": "https://ebird.org/species/caeowl1/ZA"
+	"scientific-name": "Bubo africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA"
 },
 			"quantity": 1,
 			"location": {
@@ -7416,12 +7416,12 @@
 		{
 			"id": "2024-11-05T14_54_30.000Z_shaun",
 			"datetime": "2024-11-05T14:54:30.000Z",
-			"birdId": "owl-cape-eagle",
+			"birdId": "owl-spotted-eagle",
 			"bird": {
-	"name": "Cape Eagle-Owl",
+	"name": "Spotted Eagle-Owl",
 	"family-name": "Owl",
-	"scientific-name": "Bubo capensis",
-	"ebird": "https://ebird.org/species/caeowl1/ZA"
+	"scientific-name": "Bubo africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA"
 },
 			"quantity": 3,
 			"location": {
@@ -11779,12 +11779,12 @@
 		{
 			"id": "2024-09-03T12_49_03.000Z_shaun",
 			"datetime": "2024-09-03T12:49:03.000Z",
-			"birdId": "owl-cape-eagle",
+			"birdId": "owl-spotted-eagle",
 			"bird": {
-	"name": "Cape Eagle-Owl",
+	"name": "Spotted Eagle-Owl",
 	"family-name": "Owl",
-	"scientific-name": "Bubo capensis",
-	"ebird": "https://ebird.org/species/caeowl1/ZA"
+	"scientific-name": "Bubo africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA"
 },
 			"quantity": 2,
 			"location": {
@@ -14337,12 +14337,12 @@
 		{
 			"id": "2023-10-05T15_57_03.000Z_tony",
 			"datetime": "2023-10-05T15:57:03.000Z",
-			"birdId": "owl-cape-eagle",
+			"birdId": "owl-spotted-eagle",
 			"bird": {
-	"name": "Cape Eagle-Owl",
+	"name": "Spotted Eagle-Owl",
 	"family-name": "Owl",
-	"scientific-name": "Bubo capensis",
-	"ebird": "https://ebird.org/species/caeowl1/ZA"
+	"scientific-name": "Bubo africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA"
 },
 			"quantity": 1,
 			"location": {
@@ -14845,12 +14845,12 @@
 		{
 			"id": "2023-03-03T10_24_12.000Z_tony",
 			"datetime": "2023-03-03T10:24:12.000Z",
-			"birdId": "owl-cape-eagle",
+			"birdId": "owl-spotted-eagle",
 			"bird": {
-	"name": "Cape Eagle-Owl",
+	"name": "Spotted Eagle-Owl",
 	"family-name": "Owl",
-	"scientific-name": "Bubo capensis",
-	"ebird": "https://ebird.org/species/caeowl1/ZA"
+	"scientific-name": "Bubo africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA"
 },
 			"quantity": 1,
 			"location": {
@@ -16871,12 +16871,12 @@
 		{
 			"id": "2021-10-23T14_49_24.000Z_tony",
 			"datetime": "2021-10-23T14:49:24.000Z",
-			"birdId": "owl-cape-eagle",
+			"birdId": "owl-spotted-eagle",
 			"bird": {
-	"name": "Cape Eagle-Owl",
+	"name": "Spotted Eagle-Owl",
 	"family-name": "Owl",
-	"scientific-name": "Bubo capensis",
-	"ebird": "https://ebird.org/species/caeowl1/ZA"
+	"scientific-name": "Bubo africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA"
 },
 			"quantity": 2,
 			"location": {
@@ -17496,12 +17496,12 @@
 		{
 			"id": "2020-12-14T14_43_25.000Z_tony",
 			"datetime": "2020-12-14T14:43:25.000Z",
-			"birdId": "owl-cape-eagle",
+			"birdId": "owl-spotted-eagle",
 			"bird": {
-	"name": "Cape Eagle-Owl",
+	"name": "Spotted Eagle-Owl",
 	"family-name": "Owl",
-	"scientific-name": "Bubo capensis",
-	"ebird": "https://ebird.org/species/caeowl1/ZA"
+	"scientific-name": "Bubo africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA"
 },
 			"quantity": 2,
 			"location": {
@@ -18477,12 +18477,12 @@
 		{
 			"id": "2020-05-26T15_03_56.000Z_tony",
 			"datetime": "2020-05-26T15:03:56.000Z",
-			"birdId": "owl-cape-eagle",
+			"birdId": "owl-spotted-eagle",
 			"bird": {
-	"name": "Cape Eagle-Owl",
+	"name": "Spotted Eagle-Owl",
 	"family-name": "Owl",
-	"scientific-name": "Bubo capensis",
-	"ebird": "https://ebird.org/species/caeowl1/ZA"
+	"scientific-name": "Bubo africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA"
 },
 			"quantity": 2,
 			"location": {
@@ -18727,12 +18727,12 @@
 		{
 			"id": "2020-01-02T07_25_30.000Z_tony",
 			"datetime": "2020-01-02T07:25:30.000Z",
-			"birdId": "owl-cape-eagle",
+			"birdId": "owl-spotted-eagle",
 			"bird": {
-	"name": "Cape Eagle-Owl",
+	"name": "Spotted Eagle-Owl",
 	"family-name": "Owl",
-	"scientific-name": "Bubo capensis",
-	"ebird": "https://ebird.org/species/caeowl1/ZA"
+	"scientific-name": "Bubo africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA"
 },
 			"quantity": 1,
 			"location": {
