@@ -4,10 +4,10 @@ file: owl-cape-eagle_IMG_3802.JPG
 # 2024-09-04T14_23
 sighting: 2023-03-03T10_24_12.000Z_tony
 # Describe this image, as if you were explaining it over the phone
-description: An adult Cape Eagle Owl winking at the photographer
+description: An adult Spotted Eagle Owl winking at the photographer
 # List each of the bird IDs present in this photo
 birds:
-  - owl-cape-eagle
+  - owl-spotted-eagle
 # Link this photo to a photographer (matching a file in the _data/people folder)
 photographer: tony
 location:

@@ -1,8 +1,8 @@
 datetime: 2024-12-04T15:45:00.000Z
 description: |-
-  Perched in the Stone Pines north-east of McKenzie Dam
+  An adult Spotted Eagle-Owl perched in the Stone Pines north-east of McKenzie Dam
 bird:
-  id: owl-cape-eagle
+  id: owl-spotted-eagle
   quantity: 1
 observers:
   - shaun

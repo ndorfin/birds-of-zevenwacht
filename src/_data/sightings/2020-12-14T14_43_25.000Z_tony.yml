@@ -3,10 +3,10 @@
 datetime: 2020-12-14T14:43:25.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  Two Adult Cape Eagle Owls both asleep on a lateral branch. They're both perched on one foot each.
+  Two adult Spotted Eagle Owls both asleep on a lateral branch. They're both perched on one foot each.
 bird:
   # Supply a matching Bird ID
-  id: owl-cape-eagle
+  id: owl-spotted-eagle
   # How many individuals did you spot?
   quantity: 2
 # Link this Sighting to a Photo, by its ID

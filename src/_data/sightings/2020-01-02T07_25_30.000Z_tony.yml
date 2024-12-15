@@ -3,10 +3,10 @@
 datetime: 2020-01-02T07:25:30.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  An adult Cape Eagle-Owl perched in a nearby tree in broad daylight
+  An adult Spotted Eagle-Owl perched in a nearby tree in broad daylight
 bird:
   # Supply a matching Bird ID
-  id: owl-cape-eagle
+  id: owl-spotted-eagle
   # How many individuals did you spot?
   quantity: 1
 # Link this Sighting to a Photo, by its ID

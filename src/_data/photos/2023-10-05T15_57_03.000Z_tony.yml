@@ -4,10 +4,10 @@ file: owl-cape-eagle_Baby_Owl_2.JPG
 # 2024-09-04T14_23
 sighting: 2023-10-05T15_57_03.000Z_tony
 # Describe this image, as if you were explaining it over the phone
-description: A juvnile Cape Eagle Owl in its nest
+description: A juvnile Spotted Eagle Owl in its nest
 # List each of the bird IDs present in this photo
 birds:
-  - owl-cape-eagle
+  - owl-spotted-eagle
 # Link this photo to a photographer (matching a file in the _data/people folder)
 photographer: tony
 location:

@@ -3,10 +3,10 @@
 datetime: 2020-05-26T15:03:56.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  An adult pair of Cape Eagle-Owls in the boughs of a tree
+  An adult pair of Spotted Eagle-Owls in the boughs of a tree
 bird:
   # Supply a matching Bird ID
-  id: owl-cape-eagle
+  id: owl-spotted-eagle
   # How many individuals did you spot?
   quantity: 2
 # Link this Sighting to a Photo, by its ID
