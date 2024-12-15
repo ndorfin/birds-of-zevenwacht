@@ -1,0 +1,24 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2024-12-15T16:30:29.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A Black-winged Kite flared its wings after just having landed at the top of a dead tree.
+  
+  Another Kite arrived shortly afterwards, trying to mob the one that had landed previously.
+bird:
+  # Supply a matching Bird ID
+  id: kite-black-winged
+  # How many individuals did you spot?
+  quantity: 2
+# Link this Sighting to a Photo, by its ID
+photos:
+  - 2024-12-15T16_30_29.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.921308
+  longitude: 18.713349
