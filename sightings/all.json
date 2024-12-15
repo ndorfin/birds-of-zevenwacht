@@ -16744,12 +16744,12 @@
 		{
 			"id": "2021-03-02T16_59_00.000Z_tony",
 			"datetime": "2021-03-02T16:59:00.000Z",
-			"birdId": "owl-cape-eagle",
+			"birdId": "owl-spotted-eagle",
 			"bird": {
-	"name": "Cape Eagle-Owl",
+	"name": "Spotted Eagle-Owl",
 	"family-name": "Owl",
-	"scientific-name": "Bubo capensis",
-	"ebird": "https://ebird.org/species/caeowl1/ZA"
+	"scientific-name": "Bubo africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA"
 },
 			"quantity": 1,
 			"location": {

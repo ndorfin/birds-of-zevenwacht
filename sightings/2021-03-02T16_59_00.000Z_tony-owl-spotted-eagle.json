@@ -3,10 +3,10 @@
 {
 	"datetime": "2021-03-02T16:59:00.000Z",
 	"bird": {
-	"name": "Cape Eagle-Owl",
+	"name": "Spotted Eagle-Owl",
 	"family-name": "Owl",
-	"scientific-name": "Bubo capensis",
-	"ebird": "https://ebird.org/species/caeowl1/ZA"
+	"scientific-name": "Bubo africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA"
 },
 	"quantity": 1,
 	"location": {
