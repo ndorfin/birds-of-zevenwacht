@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: A0E47C10-51D5-449C-94D0-CC6FBD5AD743_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-12-15T15:55:17.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: One of the larger groups of Guineafowl walking along the jeep track besides the vines, with several juveniles in tow.
+# List each of the bird IDs present in this photo
+birds:
+  - guineafowl-helmeted
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.927155
+  longitude: 18.719967
