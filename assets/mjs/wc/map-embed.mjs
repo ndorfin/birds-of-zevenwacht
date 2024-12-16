@@ -126,15 +126,24 @@ class MapEmbed extends HTMLElement {
 			attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
 		}).addTo(this.#map);
 
-		if (this.hasAttribute('json')) {
-			const urlJSON = this.getAttribute('json');
-			const type = this.getAttribute('type');
+		if (this.hasAttribute('sightings')) {
+			const urlJSON = this.getAttribute('sightings');
 			fetch(urlJSON).then(response => response.json()).then(data => {
-				if (type === 'photo' || type === 'sighting') {
-					this.#addPointMarkers(type, data);
-				} else if (type === 'boundaries') {
-					this.#addBoundaries(data);
-				}
+				this.#addPointMarkers('sighting', data);
+			});
+		}
+
+		if (this.hasAttribute('photos')) {
+			const urlJSON = this.getAttribute('photos');
+			fetch(urlJSON).then(response => response.json()).then(data => {
+				this.#addPointMarkers('photo', data);
+			});
+		}
+
+		if (this.hasAttribute('boundaries')) {
+			const urlJSON = this.getAttribute('boundaries');
+			fetch(urlJSON).then(response => response.json()).then(data => {
+				this.#addBoundaries(data);
 			});
 		}
 	}
