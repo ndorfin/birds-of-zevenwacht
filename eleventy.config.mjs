@@ -134,7 +134,7 @@ export default async function (config) {
 			outputDir: `src/assets/photos/${authorId}/`,
 			widths,
 			filenameFormat: imageFilenameFormatter,
-			formats: ['avif', 'webp', 'jpeg'],
+			formats: ['avif', 'jpeg'],
 		});
 		let imageAttributes = {
 			alt,
@@ -152,7 +152,7 @@ export default async function (config) {
 			outputDir: `src/assets/photos/${authorId}/`,
 			widths: [640],
 			filenameFormat: imageFilenameFormatter,
-			formats: ['avif', 'webp', 'jpeg'],
+			formats: ['avif', 'jpeg'],
 		});
 		let imageAttributes = {
 			alt,
