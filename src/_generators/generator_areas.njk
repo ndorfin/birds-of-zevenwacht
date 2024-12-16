@@ -7,6 +7,10 @@ permalink: "{{ url.areas }}{{ areaId }}/index.html"
 layout: "area_detail.njk"
 eleventyExcludeFromCollections: true
 ---
+{% set filtered_sightings = sightings | byArea(areaId) | sortByDatetimeRecent %}
+{% set filtered_sightings_array = filtered_sightings | objToArray %}
+{% set filtered_photos = photos | byArea(areaId) | sortByDatetimeRecent %}
+{% set filtered_photos_array = filtered_photos | objToArray %}
 {% set area = areas[areaId] %}
 <dl class="list_details">
 	<div>
@@ -33,34 +37,36 @@ eleventyExcludeFromCollections: true
 	{% endif %}
 </dl>
 
-<map-embed
-	id="area_boundaries"
-	sightings="./sightings.json"
-	boundaries="./geofence.json"
-	latitude="-33.929"
-	longitude="18.72"
-	zoom="15"
-></map-embed>
-
-{% set filtered_sightings = sightings | byArea(areaId) | sortByDatetimeRecent %}
-{% set filtered_sightings_array = filtered_sightings | objToArray %}
-{% set filtered_photos = photos | byArea(areaId) | sortByDatetimeRecent %}
-{% set filtered_photos_array = filtered_photos | objToArray %}
-
 <article aria-labelledby="heading_bird_sightings">
 	<header>
 		<h3 id="heading_bird_sightings">{{ filtered_sightings_array.length }} sightings in this area</h3>
 	</header>
-	<ul>
-		{% for sightingId, sighting in filtered_sightings %}
-			<li id="sighting_{{ sightingId }}">
-				<a href="{{ url.sightings }}{{ sightingId }}-{{ sighting.bird.id }}/">
-					{{ sighting.bird.quantity }} × {{ birds[sighting.bird.id].name }}
-				</a>
-			</li>
-		{% endfor %}
-	</ul>
+	<div class="layout_map">
+		<div class="layout_item_map">
+			<map-embed
+				id="area_boundaries"
+				sightings="./sightings.json"
+				boundaries="./geofence.json"
+				latitude="-33.929"
+				longitude="18.72"
+				zoom="15"
+			></map-embed>
+		</div>
+		<div class="layout_item_list">
+			<ul>
+				{% for sightingId, sighting in filtered_sightings %}
+					<li id="sighting_{{ sightingId }}">
+						<a href="{{ url.sightings }}{{ sightingId }}-{{ sighting.bird.id }}/">
+							{{ sighting.bird.quantity }} × {{ birds[sighting.bird.id].name }}
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
 </article>
+
+
 
 <article aria-labelledby="heading_bird_photos">
 	<header>
