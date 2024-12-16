@@ -8,6 +8,10 @@ layout: "bird_detail.njk"
 eleventyExcludeFromCollections: true
 ---
 {% set bird = birds[birdId] %}
+{% set filtered_sightings = sightings | byBird(birdId) | sortByDatetimeRecent %}
+{% set filtered_sightings_array = filtered_sightings | objToArray %}
+{% set filtered_photos = photos | byBird(birdId) | sortByDatetimeRecent %}
+{% set filtered_photos_array = filtered_photos | objToArray %}
 
 <dl class="list_details">
 	{% if bird['scientific-name'] %}
@@ -24,13 +28,11 @@ eleventyExcludeFromCollections: true
 	{% endif %}
 </dl>
 
-{% set birdSightings = sightings | byBird(birdId) %}
-{% set birdSightingsArray = birdSightings | objToArray %}
 <article aria-labelledby="heading_bird_sightings">
 	<header>
-		<h3 id="heading_bird_sightings">{{ birdSightingsArray.length }} sightings</h3>
+		<h3 id="heading_bird_sightings">{{ filtered_sightings_array.length }} sightings</h3>
 	</header>
-	{% if birdSightingsArray.length %}
+	{% if filtered_sightings_array.length %}
 		<div class="layout_map">
 			<div class="layout_item_map">
 				<map-embed
@@ -43,7 +45,7 @@ eleventyExcludeFromCollections: true
 			</div>
 			<div class="layout_item_list">	
 				<ul>
-					{% for sightingId, sighting in birdSightings %}
+					{% for sightingId, sighting in filtered_sightings %}
 						<li>
 							<a href="{{ url.sightings }}{{ sightingId }}-{{ birdId }}/">
 								{{ sighting.bird.quantity }} × {{ bird.name}} on {{ sighting.datetime | CCYYMMDD }}
@@ -60,13 +62,11 @@ eleventyExcludeFromCollections: true
 
 <article aria-labelledby="heading_bird_photos">
 	<header>
-		{% set birdPhotos = photos | byBird(birdId) | sortByDatetimeRecent %}
-		{% set photosArray = birdPhotos | objToArray %}
-		<h3 id="heading_bird_photos">{{ photosArray.length }} Photos</h3>
+		<h3 id="heading_bird_photos">{{ filtered_photos_array.length }} Photos</h3>
 	</header>
-	{% if photosArray.length > 1 %}
+	{% if filtered_photos_array.length %}
 		<ul class="list_gallery">
-			{% for photoId, photo in birdPhotos %}
+			{% for photoId, photo in filtered_photos %}
 				{% set exif = exifs[photo.photographer][photo.file] %}
 				{% if exif %}
 					{% set datetime = exif.DateTimeOriginal %}
