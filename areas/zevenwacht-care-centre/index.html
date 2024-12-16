@@ -3,7 +3,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<link rel="stylesheet" href="/birds-of-zevenwacht/assets/css/all.css?timestamp=1734359146231">
+	<link rel="stylesheet" href="/birds-of-zevenwacht/assets/css/all.css?timestamp=1734360274612">
 
 <script defer="" type="module" src="/birds-of-zevenwacht/assets/mjs/wc/map-embed.mjs"></script>
 
@@ -46,6 +46,10 @@
 	
 </header>
 	
+
+
+
+
 <dl class="list_details">
 	<div>
 		<dt>Address</dt>
@@ -66,21 +70,23 @@
 	
 </dl>
 
-<map-embed id="area_boundaries" sightings="./sightings.json" boundaries="./geofence.json" latitude="-33.929" longitude="18.72" zoom="15"></map-embed>
-
-
-
-
-
-
 <article aria-labelledby="heading_bird_sightings">
 	<header>
 		<h3 id="heading_bird_sightings">0 sightings in this area</h3>
 	</header>
-	<ul>
-		
-	</ul>
+	<div class="layout_map">
+		<div class="layout_item_map">
+			<map-embed id="area_boundaries" sightings="./sightings.json" boundaries="./geofence.json" latitude="-33.929" longitude="18.72" zoom="15"></map-embed>
+		</div>
+		<div class="layout_item_list">
+			<ul>
+				
+			</ul>
+		</div>
+	</div>
 </article>
+
+
 
 <article aria-labelledby="heading_bird_photos">
 	<header>
