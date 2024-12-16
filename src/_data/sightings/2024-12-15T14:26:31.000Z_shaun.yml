@@ -1,0 +1,24 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2024-12-15T14:26:31.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  It was encouraging to see five Coots in this northerly dam, as just a few months prior we saw chicks.
+
+  A short walk to the bigger dam to the north-west, and we saw another 2 adults and 2 juveniles.
+bird:
+  # Supply a matching Bird ID
+  id: coot-red-knobbed
+  # How many individuals did you spot?
+  quantity: 9
+# Link this Sighting to a Photo, by its ID
+# photos:
+#   - 
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.921506
+  longitude: 18.713417
