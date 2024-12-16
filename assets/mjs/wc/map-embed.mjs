@@ -114,7 +114,6 @@ class MapEmbed extends HTMLElement {
 	}
 
 	#invokeLeaflet() {
-		console.log(parseFloat(this.getAttribute('latitude')), parseFloat(this.getAttribute('longitude')), parseInt(this.getAttribute('zoom')));
 		this.#map = window.L.map(this.getAttribute('id'), {
 			scrollWheelZoom: false,
 		}).setView(
