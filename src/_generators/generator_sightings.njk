@@ -14,12 +14,6 @@ eleventyExcludeFromCollections: true
 		<dd>{% datetime sighting.datetime %}</dd>
 	</div>
 	<div>
-		<dt>Description</dt>
-		<dd>
-			{{ sighting.description | markdown | safe }}
-		</dd>
-	</div>
-	<div>
 		<dt>Birds</dt>
 		<dd>
 			{{ sighting.bird.quantity }} × <a href="{{ url.birds }}{{ birds[sighting.bird.id].name | slugify }}/">{{ birds[sighting.bird.id].name }}</a>

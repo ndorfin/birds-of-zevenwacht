@@ -8,6 +8,8 @@
 {% set heading = 'Photo of ' + birdName + ' on ' + formattedDate %}
 {% set page_meta = {
 	title: heading,
-	heading: heading
+	heading: heading,
+	summary: photo.description,
+	description: photo.description | striptags(true)
 } %}
 {% extends "./default.njk" %}

@@ -4,6 +4,8 @@
 {% set heading = 'Sighting of ' + sighting.bird.quantity + ' × ' + bird.name + ' on ' + formattedDate %}
 {% set page_meta = {
 	title: heading,
-	heading: heading
+	heading: heading,
+	summary: sighting.description,
+	description: sighting.description | markdown | striptags(true)
 } %}
 {% extends "./default.njk" %}

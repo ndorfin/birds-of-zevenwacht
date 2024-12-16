@@ -18,7 +18,6 @@ eleventyExcludeFromCollections: true
 	{% set photoPath = url.source_photos + photo.photographer + '/' + photo.file %}
 	{% photoImage photoPath, photo.description %}
 	<figcaption>
-		<p>{{ photo.description }}</p>
 		<p><small>© Copyright {{ people[photo.photographer]['full-name'] }}</small></p>
 	</figcaption>
 </figure>

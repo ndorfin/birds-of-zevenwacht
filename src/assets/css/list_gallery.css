@@ -12,6 +12,10 @@
 	list-style: "";
 }
 
+.list_details .list_gallery {
+	margin-block: 0;
+}
+
 /*
 --dimensions-window-margin: 2 * 1rem = 2rem
 --list_gallery_item_gap: 1rem
