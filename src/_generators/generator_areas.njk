@@ -67,6 +67,13 @@ eleventyExcludeFromCollections: true
 		</div>
 	{% else %}
 		<p>No sightings yet</p>
+		<map-embed
+			id="area_boundaries"
+			boundaries="./geofence.json"
+			latitude="-33.929"
+			longitude="18.72"
+			zoom="15"
+		></map-embed>
 	{% endif %}
 </article>
 
