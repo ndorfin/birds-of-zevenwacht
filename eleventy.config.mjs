@@ -139,7 +139,11 @@ export default async function (config) {
 		let imageAttributes = {
 			alt,
 			loading: 'eager',
-			sizes,
+			sizes: `
+				(max-width: 320px) 640w,
+				(max-width: 600px) 1200w,
+				2400w
+			`,
 			style: `view-transition-name: image_${ imageId };`
 		};
 		return Image.generateHTML(metadata, imageAttributes);
