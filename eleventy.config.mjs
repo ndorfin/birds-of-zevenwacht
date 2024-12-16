@@ -128,6 +128,7 @@ export default async function (config) {
 	});
 	config.addShortcode('photoImage', async function (src, alt) {
 		const authorId = src.split('src/_data/source_photos/')[1].split('/')[0];
+		const imageId = src.split(`src/_data/source_photos/${authorId}/`)[1].replace('.','_');
 		let metadata = await Image(src, {
 			urlPath: `/assets/photos/${authorId}/`,
 			outputDir: `src/assets/photos/${authorId}/`,
@@ -137,12 +138,15 @@ export default async function (config) {
 		});
 		let imageAttributes = {
 			alt,
-			loading: 'lazy'
+			loading: 'lazy',
+			id: `image_${ imageId }`,
+			style: `view-transition-name: image_${ imageId };`
 		};
 		return Image.generateHTML(metadata, imageAttributes);
 	});
 	config.addShortcode('photoThumbnail', async function (src, alt) {
 		const authorId = src.split('src/_data/source_photos/')[1].split('/')[0];
+		const imageId = src.split(`src/_data/source_photos/${authorId}/`)[1].replace('.','_');
 		let metadata = await Image(src, {
 			urlPath: `/assets/photos/${authorId}/`,
 			outputDir: `src/assets/photos/${authorId}/`,
@@ -152,7 +156,9 @@ export default async function (config) {
 		});
 		let imageAttributes = {
 			alt,
-			loading: 'lazy'
+			loading: 'lazy',
+			id: `image_${ imageId }`,
+			style: `view-transition-name: image_${ imageId };`
 		};
 		return Image.generateHTML(metadata, imageAttributes);
 	});
