@@ -1,3 +1,11 @@
+function getBaseURI() {
+	if (window.location.href.indexOf('/birds-of-zevenwacht/') > -1) {
+		return '/birds-of-zevenwacht/';
+	} else {
+		return '/'
+	}
+}
+
 class MapEmbed extends HTMLElement {
 
 	#map;
@@ -58,19 +66,19 @@ class MapEmbed extends HTMLElement {
 		function getHTMLByType(type) {
 			if (type === 'sighting') return `
 				<b>Sighting</b> on ${ new Date(markerObj.item.datetime).toISOString().substring(0, 10) }<br>
-				<a href="./${ markerObj.id }-${ markerObj.item.birdId }/">${ markerObj.item.quantity } × ${ markerObj.item.bird.name }</a>
+				<a href="${ getBaseURI() }sightings/${ markerObj.id }-${ markerObj.item.birdId }/">${ markerObj.item.quantity } × ${ markerObj.item.bird.name }</a>
 			`;
 			if (type === 'sightings') return `
 				<b>Grouped Sightings</b><br>
-				<a href="../areas/${ markerObj.id }/">${ markerObj.area.name }</a>
+				<a href="${ getBaseURI() }areas/${ markerObj.id }/">${ markerObj.area.name }</a>
 			`;
 			if (type === 'photo') return `
 				<b>Photo</b> on ${ new Date(markerObj.item.datetime).toISOString().substring(0, 10) }<br>
-				<a href="./${ markerObj.id }-${ markerObj.item.photographer }/">${ markerObj.item.birds[0].name }</a>
+				<a href="${ getBaseURI() }photos/${ markerObj.id }-${ markerObj.item.photographer }/">${ markerObj.item.birds[0].name }</a>
 			`;
 			if (type === 'photos') return `
 				<b>Grouped Photos</b><br>
-				<a href="../areas/${ markerObj.id }/">${ markerObj.area.name }</a>
+				<a href="${ getBaseURI() }areas/${ markerObj.id }/">${ markerObj.area.name }</a>
 			`;
 		}
 		window.L.marker(
@@ -122,7 +130,7 @@ class MapEmbed extends HTMLElement {
 		);
 
 		window.L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-			attribution: '<a href="/attribution/">Attribution</a>'
+			attribution: `<a href="${ getBaseURI() }attribution/">Attribution</a>`
 		}).addTo(this.#map);
 
 		if (this.hasAttribute('sightings')) {
