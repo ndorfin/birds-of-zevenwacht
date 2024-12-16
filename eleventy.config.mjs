@@ -139,7 +139,6 @@ export default async function (config) {
 		let imageAttributes = {
 			alt,
 			loading: 'lazy',
-			id: `image_${ imageId }`,
 			style: `view-transition-name: image_${ imageId };`
 		};
 		return Image.generateHTML(metadata, imageAttributes);
@@ -157,7 +156,6 @@ export default async function (config) {
 		let imageAttributes = {
 			alt,
 			loading: 'lazy',
-			id: `image_${ imageId }`,
 			style: `view-transition-name: image_${ imageId };`
 		};
 		return Image.generateHTML(metadata, imageAttributes);
