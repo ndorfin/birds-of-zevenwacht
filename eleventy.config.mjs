@@ -114,6 +114,10 @@ export default async function (config) {
 			.forEach((name) => (filtered[name] = obj[name]));
 		return filtered;
 	});
+	config.addFilter('ogImage', (filename, photographerId) => {
+		let thumbnailPhoto = filename.replace(/\.jpeg$/, '-640.jpeg').replace(/\.JPG$/, '-640.JPG');
+		return `/assets/photos/${ photographerId }/${ thumbnailPhoto }`;
+	});
 
 	/* Shortcodes */
 	config.addShortcode('datetime', function (date) {

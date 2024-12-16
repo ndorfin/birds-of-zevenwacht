@@ -6,9 +6,9 @@
 		"get_exif": "node ./scripts/get_exif_data.mjs",
 		"add_photos": "node ./scripts/generate_photo_yaml.mjs",
 		"build:css": "node ./scripts/postcss.js",
-		"build": "npm run build:css && cross-env ENVIRONMENT=development npx @11ty/eleventy",
-		"build:prod": "npm run build:css && cross-env ENVIRONMENT=production npx @11ty/eleventy --pathprefix=birds-of-zevenwacht/",
-		"start": "cross-env ENVIRONMENT=development npx @11ty/eleventy --serve"
+		"build": "npm run build:css && cross-env ENVIRONMENT=development BASE_URL=http://localhost:8080 npx @11ty/eleventy",
+		"build:prod": "npm run build:css && cross-env ENVIRONMENT=production BASE_URL=https://ndorfin.github.io/birds-of-zevenwacht npx @11ty/eleventy --pathprefix=birds-of-zevenwacht/",
+		"start": "cross-env ENVIRONMENT=development BASE_URL=http://localhost:8080 npx @11ty/eleventy --serve"
 	},
 	"keywords": [],
 	"author": "Shaun O'Connell <ndorfin@gmail.com>",

@@ -6,10 +6,12 @@
 	{% set birdName = 'Multiple species' %}
 {% endif %}
 {% set heading = 'Photo of ' + birdName + ' on ' + formattedDate %}
+{% set opengraphImage = photo.file | ogImage(photo.photographer) %}
 {% set page_meta = {
 	title: heading,
 	heading: heading,
 	summary: photo.description,
-	description: photo.description | striptags(true)
+	description: photo.description | striptags(true),
+	image: opengraphImage
 } %}
 {% extends "./default.njk" %}
