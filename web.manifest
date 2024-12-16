@@ -1,0 +1,13 @@
+{
+	"name": "Birds of Zevenwacht",
+	"short_name": "BofZ",
+	"icons": [
+		{
+			"src": "https://ndorfin.github.io/birds-of-zevenwacht/icon_pwa.svg",
+			"sizes": "any",
+			"type": "image/svg+xml"
+		}
+	],
+	"start_url": "https://ndorfin.github.io/birds-of-zevenwacht/",
+	"display": "browser"
+}
