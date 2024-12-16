@@ -126,19 +126,20 @@ export default async function (config) {
 			${newDate.toLocaleString('za')}
 		</time>`;
 	});
-	config.addShortcode('photoImage', async function (src, alt) {
+	config.addShortcode('photoImage', async function (src, alt, widths = [640, 1200, 2400], sizes = "100vh") {
 		const authorId = src.split('src/_data/source_photos/')[1].split('/')[0];
 		const imageId = src.split(`src/_data/source_photos/${authorId}/`)[1].replace('.','_');
 		let metadata = await Image(src, {
 			urlPath: `/assets/photos/${authorId}/`,
 			outputDir: `src/assets/photos/${authorId}/`,
-			widths: [2400],
+			widths,
 			filenameFormat: imageFilenameFormatter,
 			formats: ['avif', 'webp', 'jpeg'],
 		});
 		let imageAttributes = {
 			alt,
-			loading: 'lazy',
+			loading: 'eager',
+			sizes,
 			style: `view-transition-name: image_${ imageId };`
 		};
 		return Image.generateHTML(metadata, imageAttributes);
