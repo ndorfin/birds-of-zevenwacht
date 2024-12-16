@@ -1,0 +1,17 @@
+---
+permalink: "/web.manifest"
+layout: null
+---
+{
+	"name": "Birds of Zevenwacht",
+	"short_name": "BofZ",
+	"icons": [
+		{
+			"src": "{{ environment.baseURL }}/icon_pwa.svg",
+			"sizes": "any",
+			"type": "image/svg+xml"
+		}
+	],
+	"start_url": "{{ environment.baseURL }}/",
+	"display": "browser"
+}
