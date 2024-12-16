@@ -42,9 +42,9 @@ eleventyExcludeFromCollections: true
 	zoom="15"
 ></map-embed>
 
-{% set filtered_sightings = sightings | area(areaId) | sortByDatetimeRecent %}
+{% set filtered_sightings = sightings | byArea(areaId) | sortByDatetimeRecent %}
 {% set filtered_sightings_array = filtered_sightings | objToArray %}
-{% set filtered_photos = photos | area(areaId) | sortByDatetimeRecent %}
+{% set filtered_photos = photos | byArea(areaId) | sortByDatetimeRecent %}
 {% set filtered_photos_array = filtered_photos | objToArray %}
 
 <article aria-labelledby="heading_bird_sightings">
@@ -55,7 +55,7 @@ eleventyExcludeFromCollections: true
 		{% for sightingId, sighting in filtered_sightings %}
 			<li id="sighting_{{ sightingId }}">
 				<a href="{{ url.sightings }}{{ sightingId }}-{{ sighting.bird.id }}/">
-					{{ sighting.bird.quantity }} ⨉ {{ birds[sighting.bird.id].name }}
+					{{ sighting.bird.quantity }} × {{ birds[sighting.bird.id].name }}
 				</a>
 			</li>
 		{% endfor %}

@@ -31,7 +31,7 @@ eleventyExcludeFromCollections: true
 			{% for sightingId, sighting in sightings | sortByDatetimeRecent %}
 				<li id="sighting_{{ sightingId }}">
 					<a href="{{ url.sightings }}{{ sightingId }}-{{ sighting.bird.id }}/">
-						{{ sighting.bird.quantity }} ⨉ {{ birds[sighting.bird.id].name }}
+						{{ sighting.bird.quantity }} × {{ birds[sighting.bird.id].name }}
 					</a>
 				</li>
 			{% endfor %}

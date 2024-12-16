@@ -58,7 +58,7 @@ class MapEmbed extends HTMLElement {
 		function getHTMLByType(type) {
 			if (type === 'sighting') return `
 				<b>Sighting</b> on ${ new Date(markerObj.item.datetime).toISOString().substring(0, 10) }<br>
-				<a href="./${ markerObj.id }-${ markerObj.item.birdId }/">${ markerObj.item.quantity } ⨉ ${ markerObj.item.bird.name }</a>
+				<a href="./${ markerObj.id }-${ markerObj.item.birdId }/">${ markerObj.item.quantity } × ${ markerObj.item.bird.name }</a>
 			`;
 			if (type === 'sightings') return `
 				<b>Grouped Sightings</b><br>

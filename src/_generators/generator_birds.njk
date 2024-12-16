@@ -28,22 +28,21 @@ eleventyExcludeFromCollections: true
 	<header>
 		<h3 id="heading_bird_sightings">Sightings</h3>
 	</header>
-	<ul>
-		{% set matchingSightings = false %}
-		{% for sightingId, sighting in sightings %}
-			{% if birdId == sighting.bird.id %}
-				{% set matchingSightings = true %}
+	{% set birdSightings = sightings | byBird(birdId) %}
+	{% set birdSightingsArray = birdSightings | objToArray %}
+	{% if birdSightingsArray.length %}
+		<ul>
+			{% for sightingId, sighting in birdSightings %}
 				<li>
 					<a href="{{ url.sightings }}{{ sightingId }}-{{ birdId }}/">
-						{{ sighting.datetime }}
+						{{ sighting.bird.quantity }} × {{ bird.name}} on {{ sighting.datetime | CCYYMMDD }}
 					</a>
 				</li>
-			{% endif %}
-		{% endfor %}
-		{% if matchingSightings == false %}
-			<li>None</li>
-		{% endif %}
-	</ul>
+			{% endfor %}
+		</ul>
+	{% else %}
+		<p>No sightings yet</p>
+	{% endif %}
 </article>
 
 <article aria-labelledby="heading_bird_photos">

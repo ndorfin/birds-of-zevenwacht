@@ -79,29 +79,37 @@ export default async function (config) {
 			.forEach((name) => (sorted[name] = obj[name]));
 		return sorted;
 	});
-	config.addFilter('photographer', (obj, personId) => {
+	config.addFilter('byPerson', (obj, personId) => {
 		const filtered = {};
 		Object.keys(obj)
 			.filter((item) => {
-				return obj[item].photographer === personId;
+				if (obj[item].observers) {
+					return obj[item].observers.indexOf(personId) > -1;
+				} else {
+					return obj[item].photographer === personId;
+				}
 			})
 			.forEach((name) => (filtered[name] = obj[name]));
 		return filtered;
 	});
-	config.addFilter('observer', (obj, personId) => {
-		const filtered = {};
-		Object.keys(obj)
-			.filter((item) => {
-				return obj[item].observers.indexOf(personId) > -1;
-			})
-			.forEach((name) => (filtered[name] = obj[name]));
-		return filtered;
-	});
-	config.addFilter('area', (obj, areaId) => {
+	config.addFilter('byArea', (obj, areaId) => {
 		const filtered = {};
 		Object.keys(obj)
 			.filter((item) => {
 				return obj[item].location.area == areaId;
+			})
+			.forEach((name) => (filtered[name] = obj[name]));
+		return filtered;
+	});
+	config.addFilter('byBird', (obj, birdId) => {
+		const filtered = {};
+		Object.keys(obj)
+			.filter((item) => {
+				if (obj[item].bird) {
+					return obj[item].bird.id == birdId;
+				} else {
+					return obj[item].birds.indexOf(birdId) > -1;
+				}
 			})
 			.forEach((name) => (filtered[name] = obj[name]));
 		return filtered;

@@ -8,7 +8,7 @@ layout: "sighting_detail.njk"
 eleventyExcludeFromCollections: true
 ---
 {% set sighting = sightings[sightingId] %}
-<dl>
+<dl class="list_details">
 	<div>
 		<dt>Date and time</dt>
 		<dd>{% datetime sighting.datetime %}</dd>
@@ -22,12 +22,12 @@ eleventyExcludeFromCollections: true
 	<div>
 		<dt>Birds</dt>
 		<dd>
-			{{ sighting.bird.quantity }} ⨉ <a href="{{ url.birds }}{{ birds[sighting.bird.id].name | slugify }}/">{{ birds[sighting.bird.id].name }}</a>
+			{{ sighting.bird.quantity }} × <a href="{{ url.birds }}{{ birds[sighting.bird.id].name | slugify }}/">{{ birds[sighting.bird.id].name }}</a>
 		</dd>
 	</div>
 	{% if sighting.photos %}
 	<div>
-		<dt>Associated photos<dt>
+		<dt>Associated photos</dt>
 		<dd>
 			<ul class="list_gallery">
 				{% for photoId in sighting.photos %}
