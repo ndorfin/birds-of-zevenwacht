@@ -3,7 +3,7 @@
 datetime: 2019-07-13T11:07:14.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  A flock of 29 Great White Pelicans
+  A flock of 29 Great White Pelicans flying roughly north west
 bird:
   # Supply a matching Bird ID
   id: pelican-great-white
@@ -16,4 +16,6 @@ photos:
 observers:
   - mike
 location:
-  area: zevenwacht-country-estate
+  area: zevendal-residential-estate
+  latitude: -33.936504
+  longitude: 18.711134

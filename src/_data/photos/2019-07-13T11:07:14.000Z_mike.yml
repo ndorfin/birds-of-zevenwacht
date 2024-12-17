@@ -11,4 +11,6 @@ birds:
 # Link this photo to a photographer (matching a file in the _data/people folder)
 photographer: mike
 location:
-  area: zevenwacht-country-estate
+  area: zevendal-residential-estate
+  latitude: -33.936504
+  longitude: 18.711134
