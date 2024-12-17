@@ -1,0 +1,15 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: IMG_8863.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2018-11-27T14:31:27.000Z_mike
+# Describe this image, as if you were explaining it over the phone
+description: A host mother Malachite Sunbird feeds her Klaas's Cuckoo brood parasite
+# List each of the bird IDs present in this photo
+birds:
+  - cuckoo-klaass
+  - sunbird-malachite
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: mike
+location:
+  area: zevenwacht-country-estate
