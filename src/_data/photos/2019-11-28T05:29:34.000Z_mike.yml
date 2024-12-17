@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: RedBishopIMG_1656.jpg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2019-11-28T05:29:34.000Z_mike
+# Describe this image, as if you were explaining it over the phone
+description: A male Southern Red Bishop perched in an Olive tree
+# List each of the bird IDs present in this photo
+birds:
+  - bishop-southern-red
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: mike
+location:
+  area: zevenwacht-country-estate
