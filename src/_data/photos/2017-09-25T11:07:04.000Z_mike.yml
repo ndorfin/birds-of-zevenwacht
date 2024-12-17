@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: IMG_5351.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2017-09-25T11:07:04.000Z_mike
+# Describe this image, as if you were explaining it over the phone
+description: An Acacia Pied Barbet eating oranges from a bird feeder
+# List each of the bird IDs present in this photo
+birds:
+  - barbet-acacia-pied
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: mike
+location:
+  area: zevenwacht-country-estate
+  latitude: -33.937638
+  longitude: 18.717482
