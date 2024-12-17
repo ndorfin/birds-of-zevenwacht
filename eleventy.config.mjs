@@ -115,7 +115,7 @@ export default async function (config) {
 		return filtered;
 	});
 	config.addFilter('ogImage', (filename, photographerId) => {
-		let thumbnailPhoto = filename.replace(/\.jpeg$/, '-640.jpeg').replace(/\.JPG$/, '-640.JPG');
+		let thumbnailPhoto = filename.replace(/\.JPEG$/,'-640.JPEG').replace(/\.jpeg$/,'-640.jpeg').replace(/\.JPG$/,'-640.JPG').replace(/\.jpg$/,'-640.jpg');
 		return `/assets/photos/${ photographerId }/${ thumbnailPhoto }`;
 	});
 
