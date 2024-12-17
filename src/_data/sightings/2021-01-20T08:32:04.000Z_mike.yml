@@ -1,0 +1,21 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2021-01-20T08:32:04.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A Karoo Prinia hiding inside a shrub
+bird:
+  # Supply a matching Bird ID
+  id: prinia-karoo
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2021-01-20T08:32:04.000Z_mike
+# Include all the people that spotted this bird.
+observers:
+  - mike
+location:
+  area: zevenwacht-country-estate
+  latitude: -33.937532
+  longitude: 18.717222
