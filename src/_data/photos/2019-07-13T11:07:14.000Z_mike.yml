@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: IMG_1164pelicans.jpg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2019-07-13T11:07:14.000Z_mike
+# Describe this image, as if you were explaining it over the phone
+description: A flock of 29 Great White Pelicans
+# List each of the bird IDs present in this photo
+birds:
+  - pelican-great-white
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: mike
+location:
+  area: zevenwacht-country-estate
