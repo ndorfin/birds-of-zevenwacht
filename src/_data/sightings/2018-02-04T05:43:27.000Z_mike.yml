@@ -1,0 +1,19 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2018-02-04T05:43:27.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  Two adult Blue Cranes in mid-flight at just above eye-level
+bird:
+  # Supply a matching Bird ID
+  id: crane-blue
+  # How many individuals did you spot?
+  quantity: 2
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2018-02-04T05:43:27.000Z_mike
+# Include all the people that spotted this bird.
+observers:
+  - mike
+location:
+  area: zevenwacht-country-estate

@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: BlueCranes05.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2018-02-04T05:43:27.000Z_mike
+# Describe this image, as if you were explaining it over the phone
+description: Two adult Blue Cranes in mid-flight at just above eye-level
+# List each of the bird IDs present in this photo
+birds:
+  - crane-blue
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: mike
+location:
+  area: zevenwacht-country-estate
