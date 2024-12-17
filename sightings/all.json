@@ -21693,6 +21693,104 @@
 		
 		,
 		{
+			"id": "2021-01-20T08:32:04.000Z_mike",
+			"datetime": "2021-01-20T08:32:04.000Z",
+			"birdId": "prinia-karoo",
+			"bird": {
+	"name": "Karoo Prinia",
+	"family-name": "Prinia",
+	"scientific-name": "Prinia maculosa",
+	"ebird": "https://ebird.org/species/karpri1/ZA"
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-country-estate",
+				"area": {
+	"name": "Zevenwacht Country Estate",
+	"address": {
+		"street": "150 Rhine Boulevard",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.936501,
+		"longitude": 18.715073
+	},
+	"geofence": [
+		[
+			-33.94041597857159,
+			18.717273309443726
+		],
+		[
+			-33.9390775304488,
+			18.719028364533727
+		],
+		[
+			-33.93529379228963,
+			18.717831923274815
+		],
+		[
+			-33.935349131522784,
+			18.71737335781191
+		],
+		[
+			-33.93608929508791,
+			18.715051350871533
+		],
+		[
+			-33.936244935134354,
+			18.715076363532887
+		],
+		[
+			-33.93644207878417,
+			18.71520142684068
+		],
+		[
+			-33.93656659032731,
+			18.71497631288642
+		],
+		[
+			-33.93643862012778,
+			18.714851249578658
+		],
+		[
+			-33.93641095086969,
+			18.714563603969424
+		],
+		[
+			-33.938567195483856,
+			18.716006788201184
+		],
+		[
+			-33.94041597857159,
+			18.717273309443726
+		]
+	],
+	"website": "https://zevenwachtcountryestate.co.za/"
+},
+				"latitude": 
+				
+					-33.937532,
+				
+				"longitude":
+				
+					18.717222
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike Tyszowiecki",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
 			"id": "2020-12-19T00_00_00.000Z_rolf",
 			"datetime": "2020-12-19T00:00:00.000Z",
 			"birdId": "sparrow-house",
@@ -30762,11 +30860,11 @@
 },
 				"latitude": 
 				
-					null,
+					-33.937508,
 				
 				"longitude":
 				
-					null
+					18.717267
 				
 			},
 			"observers": [
@@ -30909,6 +31007,104 @@
 		
 		,
 		{
+			"id": "2019-12-23T15:58:38.000Z_mike",
+			"datetime": "2019-12-23T15:58:38.000Z",
+			"birdId": "eagle-booted",
+			"bird": {
+	"name": "Booted Eagle",
+	"family-name": "Eagle",
+	"scientific-name": "Hieraaetus pennatus",
+	"ebird": "https://ebird.org/species/booeag1/ZA"
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-country-estate",
+				"area": {
+	"name": "Zevenwacht Country Estate",
+	"address": {
+		"street": "150 Rhine Boulevard",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.936501,
+		"longitude": 18.715073
+	},
+	"geofence": [
+		[
+			-33.94041597857159,
+			18.717273309443726
+		],
+		[
+			-33.9390775304488,
+			18.719028364533727
+		],
+		[
+			-33.93529379228963,
+			18.717831923274815
+		],
+		[
+			-33.935349131522784,
+			18.71737335781191
+		],
+		[
+			-33.93608929508791,
+			18.715051350871533
+		],
+		[
+			-33.936244935134354,
+			18.715076363532887
+		],
+		[
+			-33.93644207878417,
+			18.71520142684068
+		],
+		[
+			-33.93656659032731,
+			18.71497631288642
+		],
+		[
+			-33.93643862012778,
+			18.714851249578658
+		],
+		[
+			-33.93641095086969,
+			18.714563603969424
+		],
+		[
+			-33.938567195483856,
+			18.716006788201184
+		],
+		[
+			-33.94041597857159,
+			18.717273309443726
+		]
+	],
+	"website": "https://zevenwachtcountryestate.co.za/"
+},
+				"latitude": 
+				
+					-33.937066,
+				
+				"longitude":
+				
+					18.717271
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike Tyszowiecki",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
 			"id": "2019-11-28T05:29:34.000Z_mike",
 			"datetime": "2019-11-28T05:29:34.000Z",
 			"birdId": "bishop-southern-red",
@@ -30985,11 +31181,948 @@
 },
 				"latitude": 
 				
-					null,
+					-33.93756,
 				
 				"longitude":
 				
-					null
+					18.71725
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike Tyszowiecki",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2019-10-24T15:11:54.000Z_mike",
+			"datetime": "2019-10-24T15:11:54.000Z",
+			"birdId": "sparrowhawk-black",
+			"bird": {
+	"name": "Black Sparrowhawk",
+	"family-name": "Sparrowhawk",
+	"scientific-name": "Astur melanoleucus",
+	"ebird": "https://ebird.org/species/blagos1/ZA",
+	"hidden": true
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-country-estate",
+				"area": {
+	"name": "Zevenwacht Country Estate",
+	"address": {
+		"street": "150 Rhine Boulevard",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.936501,
+		"longitude": 18.715073
+	},
+	"geofence": [
+		[
+			-33.94041597857159,
+			18.717273309443726
+		],
+		[
+			-33.9390775304488,
+			18.719028364533727
+		],
+		[
+			-33.93529379228963,
+			18.717831923274815
+		],
+		[
+			-33.935349131522784,
+			18.71737335781191
+		],
+		[
+			-33.93608929508791,
+			18.715051350871533
+		],
+		[
+			-33.936244935134354,
+			18.715076363532887
+		],
+		[
+			-33.93644207878417,
+			18.71520142684068
+		],
+		[
+			-33.93656659032731,
+			18.71497631288642
+		],
+		[
+			-33.93643862012778,
+			18.714851249578658
+		],
+		[
+			-33.93641095086969,
+			18.714563603969424
+		],
+		[
+			-33.938567195483856,
+			18.716006788201184
+		],
+		[
+			-33.94041597857159,
+			18.717273309443726
+		]
+	],
+	"website": "https://zevenwachtcountryestate.co.za/"
+},
+				"latitude": 
+				
+					-33.937529,
+				
+				"longitude":
+				
+					18.716928
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike Tyszowiecki",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2019-09-16T07:19:26.000Z_mike",
+			"datetime": "2019-09-16T07:19:26.000Z",
+			"birdId": "duck-wood",
+			"bird": {
+	"name": "Wood Duck",
+	"family-name": "Duck",
+	"scientific-name": "Aix sponsa",
+	"ebird": "https://ebird.org/species/wooduc/ZA",
+	"red-list": "least-concern"
+},
+			"quantity": 2,
+			"location": {
+				"areaId": "zevenwacht-country-estate",
+				"area": {
+	"name": "Zevenwacht Country Estate",
+	"address": {
+		"street": "150 Rhine Boulevard",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.936501,
+		"longitude": 18.715073
+	},
+	"geofence": [
+		[
+			-33.94041597857159,
+			18.717273309443726
+		],
+		[
+			-33.9390775304488,
+			18.719028364533727
+		],
+		[
+			-33.93529379228963,
+			18.717831923274815
+		],
+		[
+			-33.935349131522784,
+			18.71737335781191
+		],
+		[
+			-33.93608929508791,
+			18.715051350871533
+		],
+		[
+			-33.936244935134354,
+			18.715076363532887
+		],
+		[
+			-33.93644207878417,
+			18.71520142684068
+		],
+		[
+			-33.93656659032731,
+			18.71497631288642
+		],
+		[
+			-33.93643862012778,
+			18.714851249578658
+		],
+		[
+			-33.93641095086969,
+			18.714563603969424
+		],
+		[
+			-33.938567195483856,
+			18.716006788201184
+		],
+		[
+			-33.94041597857159,
+			18.717273309443726
+		]
+	],
+	"website": "https://zevenwachtcountryestate.co.za/"
+},
+				"latitude": 
+				
+					-33.937493,
+				
+				"longitude":
+				
+					18.716874
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike Tyszowiecki",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2019-09-01T09:39:27.000Z_mike",
+			"datetime": "2019-09-01T09:39:27.000Z",
+			"birdId": "spurfowl-cape",
+			"bird": {
+	"name": "Cape Spurfowl",
+	"family-name": "Spurfowl",
+	"scientific-name": "Pternistis capensis",
+	"ebird": "https://ebird.org/species/capfra2/ZA"
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-country-estate",
+				"area": {
+	"name": "Zevenwacht Country Estate",
+	"address": {
+		"street": "150 Rhine Boulevard",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.936501,
+		"longitude": 18.715073
+	},
+	"geofence": [
+		[
+			-33.94041597857159,
+			18.717273309443726
+		],
+		[
+			-33.9390775304488,
+			18.719028364533727
+		],
+		[
+			-33.93529379228963,
+			18.717831923274815
+		],
+		[
+			-33.935349131522784,
+			18.71737335781191
+		],
+		[
+			-33.93608929508791,
+			18.715051350871533
+		],
+		[
+			-33.936244935134354,
+			18.715076363532887
+		],
+		[
+			-33.93644207878417,
+			18.71520142684068
+		],
+		[
+			-33.93656659032731,
+			18.71497631288642
+		],
+		[
+			-33.93643862012778,
+			18.714851249578658
+		],
+		[
+			-33.93641095086969,
+			18.714563603969424
+		],
+		[
+			-33.938567195483856,
+			18.716006788201184
+		],
+		[
+			-33.94041597857159,
+			18.717273309443726
+		]
+	],
+	"website": "https://zevenwachtcountryestate.co.za/"
+},
+				"latitude": 
+				
+					-33.937699,
+				
+				"longitude":
+				
+					18.717075
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike Tyszowiecki",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2019-07-13T11:07:14.000Z_mike",
+			"datetime": "2019-07-13T11:07:14.000Z",
+			"birdId": "pelican-great-white",
+			"bird": {
+	"name": "Great White Pelican",
+	"family-name": "Pelican",
+	"scientific-name": "Pelecanus onocrotalus",
+	"ebird": "https://ebird.org/species/grwpel1/ZA",
+	"red-list": "least-concern"
+},
+			"quantity": 29,
+			"location": {
+				"areaId": "zevendal-residential-estate",
+				"area": {
+	"name": "Zevendal Residential Estate",
+	"address": {
+		"street": "Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.936845,
+		"longitude": 18.714198
+	},
+	"geofence": [
+		[
+			-33.94040129138751,
+			18.717252034415054
+		],
+		[
+			-33.93632542813003,
+			18.714496237477732
+		],
+		[
+			-33.93641167296189,
+			18.714187965263534
+		],
+		[
+			-33.93679233876266,
+			18.714338516810187
+		],
+		[
+			-33.93672096405469,
+			18.714155704217774
+		],
+		[
+			-33.93635516773703,
+			18.713958553382668
+		],
+		[
+			-33.936105354714414,
+			18.713571420835194
+		],
+		[
+			-33.93620052166672,
+			18.71337427000003
+		],
+		[
+			-33.93627784473663,
+			18.712994306573478
+		],
+		[
+			-33.93628676608845,
+			18.71236700722011
+		],
+		[
+			-33.93620944302594,
+			18.711797062079285
+		],
+		[
+			-33.93592691367242,
+			18.71082922925217
+		],
+		[
+			-33.93581687652072,
+			18.710341729006018
+		],
+		[
+			-33.93576037090119,
+			18.709947427336715
+		],
+		[
+			-33.935745500995075,
+			18.70913731663461
+		],
+		[
+			-33.935855538239046,
+			18.709115809270145
+		],
+		[
+			-33.93976191334253,
+			18.711971971715712
+		],
+		[
+			-33.94075220048523,
+			18.713068849425838
+		],
+		[
+			-33.94040129138751,
+			18.717252034415054
+		]
+	],
+	"website": "https://zevendal.co.za/"
+},
+				"latitude": 
+				
+					-33.936504,
+				
+				"longitude":
+				
+					18.711134
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike Tyszowiecki",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2018-12-19T10:01:23.000Z_mike",
+			"datetime": "2018-12-19T10:01:23.000Z",
+			"birdId": "harrier-hawk-african",
+			"bird": {
+	"name": "African Harrier-hawk",
+	"family-name": "Harrier-hawk",
+	"scientific-name": "Polyboroides typus",
+	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"size": {
+		"min": 600,
+		"max": 660
+	},
+	"weight": {
+		"min": 630,
+		"max": 950
+	}
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-country-estate",
+				"area": {
+	"name": "Zevenwacht Country Estate",
+	"address": {
+		"street": "150 Rhine Boulevard",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.936501,
+		"longitude": 18.715073
+	},
+	"geofence": [
+		[
+			-33.94041597857159,
+			18.717273309443726
+		],
+		[
+			-33.9390775304488,
+			18.719028364533727
+		],
+		[
+			-33.93529379228963,
+			18.717831923274815
+		],
+		[
+			-33.935349131522784,
+			18.71737335781191
+		],
+		[
+			-33.93608929508791,
+			18.715051350871533
+		],
+		[
+			-33.936244935134354,
+			18.715076363532887
+		],
+		[
+			-33.93644207878417,
+			18.71520142684068
+		],
+		[
+			-33.93656659032731,
+			18.71497631288642
+		],
+		[
+			-33.93643862012778,
+			18.714851249578658
+		],
+		[
+			-33.93641095086969,
+			18.714563603969424
+		],
+		[
+			-33.938567195483856,
+			18.716006788201184
+		],
+		[
+			-33.94041597857159,
+			18.717273309443726
+		]
+	],
+	"website": "https://zevenwachtcountryestate.co.za/"
+},
+				"latitude": 
+				
+					-33.937432,
+				
+				"longitude":
+				
+					18.717037
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike Tyszowiecki",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2018-12-05T05:48:01.000Z_mike",
+			"datetime": "2018-12-05T05:48:01.000Z",
+			"birdId": "harrier-hawk-african",
+			"bird": {
+	"name": "African Harrier-hawk",
+	"family-name": "Harrier-hawk",
+	"scientific-name": "Polyboroides typus",
+	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"size": {
+		"min": 600,
+		"max": 660
+	},
+	"weight": {
+		"min": 630,
+		"max": 950
+	}
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-country-estate",
+				"area": {
+	"name": "Zevenwacht Country Estate",
+	"address": {
+		"street": "150 Rhine Boulevard",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.936501,
+		"longitude": 18.715073
+	},
+	"geofence": [
+		[
+			-33.94041597857159,
+			18.717273309443726
+		],
+		[
+			-33.9390775304488,
+			18.719028364533727
+		],
+		[
+			-33.93529379228963,
+			18.717831923274815
+		],
+		[
+			-33.935349131522784,
+			18.71737335781191
+		],
+		[
+			-33.93608929508791,
+			18.715051350871533
+		],
+		[
+			-33.936244935134354,
+			18.715076363532887
+		],
+		[
+			-33.93644207878417,
+			18.71520142684068
+		],
+		[
+			-33.93656659032731,
+			18.71497631288642
+		],
+		[
+			-33.93643862012778,
+			18.714851249578658
+		],
+		[
+			-33.93641095086969,
+			18.714563603969424
+		],
+		[
+			-33.938567195483856,
+			18.716006788201184
+		],
+		[
+			-33.94041597857159,
+			18.717273309443726
+		]
+	],
+	"website": "https://zevenwachtcountryestate.co.za/"
+},
+				"latitude": 
+				
+					-33.937749,
+				
+				"longitude":
+				
+					18.716867
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike Tyszowiecki",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2018-11-27T14:31:27.000Z_mike",
+			"datetime": "2018-11-27T14:31:27.000Z",
+			"birdId": "cuckoo-klaass",
+			"bird": {
+	"name": "Klaas's Cuckoo",
+	"family-name": "Cuckoo",
+	"scientific-name": "Chrysococcyx klaas",
+	"ebird": "https://ebird.org/species/klacuc1/ZA"
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-country-estate",
+				"area": {
+	"name": "Zevenwacht Country Estate",
+	"address": {
+		"street": "150 Rhine Boulevard",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.936501,
+		"longitude": 18.715073
+	},
+	"geofence": [
+		[
+			-33.94041597857159,
+			18.717273309443726
+		],
+		[
+			-33.9390775304488,
+			18.719028364533727
+		],
+		[
+			-33.93529379228963,
+			18.717831923274815
+		],
+		[
+			-33.935349131522784,
+			18.71737335781191
+		],
+		[
+			-33.93608929508791,
+			18.715051350871533
+		],
+		[
+			-33.936244935134354,
+			18.715076363532887
+		],
+		[
+			-33.93644207878417,
+			18.71520142684068
+		],
+		[
+			-33.93656659032731,
+			18.71497631288642
+		],
+		[
+			-33.93643862012778,
+			18.714851249578658
+		],
+		[
+			-33.93641095086969,
+			18.714563603969424
+		],
+		[
+			-33.938567195483856,
+			18.716006788201184
+		],
+		[
+			-33.94041597857159,
+			18.717273309443726
+		]
+	],
+	"website": "https://zevenwachtcountryestate.co.za/"
+},
+				"latitude": 
+				
+					-33.937583,
+				
+				"longitude":
+				
+					18.717574
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike Tyszowiecki",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2018-11-02T06:09:27.000Z_mike",
+			"datetime": "2018-11-02T06:09:27.000Z",
+			"birdId": "harrier-hawk-african",
+			"bird": {
+	"name": "African Harrier-hawk",
+	"family-name": "Harrier-hawk",
+	"scientific-name": "Polyboroides typus",
+	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"size": {
+		"min": 600,
+		"max": 660
+	},
+	"weight": {
+		"min": 630,
+		"max": 950
+	}
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-country-estate",
+				"area": {
+	"name": "Zevenwacht Country Estate",
+	"address": {
+		"street": "150 Rhine Boulevard",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.936501,
+		"longitude": 18.715073
+	},
+	"geofence": [
+		[
+			-33.94041597857159,
+			18.717273309443726
+		],
+		[
+			-33.9390775304488,
+			18.719028364533727
+		],
+		[
+			-33.93529379228963,
+			18.717831923274815
+		],
+		[
+			-33.935349131522784,
+			18.71737335781191
+		],
+		[
+			-33.93608929508791,
+			18.715051350871533
+		],
+		[
+			-33.936244935134354,
+			18.715076363532887
+		],
+		[
+			-33.93644207878417,
+			18.71520142684068
+		],
+		[
+			-33.93656659032731,
+			18.71497631288642
+		],
+		[
+			-33.93643862012778,
+			18.714851249578658
+		],
+		[
+			-33.93641095086969,
+			18.714563603969424
+		],
+		[
+			-33.938567195483856,
+			18.716006788201184
+		],
+		[
+			-33.94041597857159,
+			18.717273309443726
+		]
+	],
+	"website": "https://zevenwachtcountryestate.co.za/"
+},
+				"latitude": 
+				
+					-33.937625,
+				
+				"longitude":
+				
+					18.716995
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike Tyszowiecki",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2018-09-24T11:20:39.000Z_mike",
+			"datetime": "2018-09-24T11:20:39.000Z",
+			"birdId": "eagle-african-fish",
+			"bird": {
+	"name": "African Fish Eagle",
+	"family-name": "Eagle",
+	"scientific-name": "Icthyophaga vocifer",
+	"ebird": "https://ebird.org/species/affeag1/ZA"
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-country-estate",
+				"area": {
+	"name": "Zevenwacht Country Estate",
+	"address": {
+		"street": "150 Rhine Boulevard",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.936501,
+		"longitude": 18.715073
+	},
+	"geofence": [
+		[
+			-33.94041597857159,
+			18.717273309443726
+		],
+		[
+			-33.9390775304488,
+			18.719028364533727
+		],
+		[
+			-33.93529379228963,
+			18.717831923274815
+		],
+		[
+			-33.935349131522784,
+			18.71737335781191
+		],
+		[
+			-33.93608929508791,
+			18.715051350871533
+		],
+		[
+			-33.936244935134354,
+			18.715076363532887
+		],
+		[
+			-33.93644207878417,
+			18.71520142684068
+		],
+		[
+			-33.93656659032731,
+			18.71497631288642
+		],
+		[
+			-33.93643862012778,
+			18.714851249578658
+		],
+		[
+			-33.93641095086969,
+			18.714563603969424
+		],
+		[
+			-33.938567195483856,
+			18.716006788201184
+		],
+		[
+			-33.94041597857159,
+			18.717273309443726
+		]
+	],
+	"website": "https://zevenwachtcountryestate.co.za/"
+},
+				"latitude": 
+				
+					-33.937189,
+				
+				"longitude":
+				
+					18.717269
 				
 			},
 			"observers": [
@@ -31091,11 +32224,109 @@
 },
 				"latitude": 
 				
-					null,
+					-33.937502,
 				
 				"longitude":
 				
-					null
+					18.717175
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike Tyszowiecki",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2018-05-27T10:26:52.000Z_mike",
+			"datetime": "2018-05-27T10:26:52.000Z",
+			"birdId": "eagle-african-fish",
+			"bird": {
+	"name": "African Fish Eagle",
+	"family-name": "Eagle",
+	"scientific-name": "Icthyophaga vocifer",
+	"ebird": "https://ebird.org/species/affeag1/ZA"
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-country-estate",
+				"area": {
+	"name": "Zevenwacht Country Estate",
+	"address": {
+		"street": "150 Rhine Boulevard",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.936501,
+		"longitude": 18.715073
+	},
+	"geofence": [
+		[
+			-33.94041597857159,
+			18.717273309443726
+		],
+		[
+			-33.9390775304488,
+			18.719028364533727
+		],
+		[
+			-33.93529379228963,
+			18.717831923274815
+		],
+		[
+			-33.935349131522784,
+			18.71737335781191
+		],
+		[
+			-33.93608929508791,
+			18.715051350871533
+		],
+		[
+			-33.936244935134354,
+			18.715076363532887
+		],
+		[
+			-33.93644207878417,
+			18.71520142684068
+		],
+		[
+			-33.93656659032731,
+			18.71497631288642
+		],
+		[
+			-33.93643862012778,
+			18.714851249578658
+		],
+		[
+			-33.93641095086969,
+			18.714563603969424
+		],
+		[
+			-33.938567195483856,
+			18.716006788201184
+		],
+		[
+			-33.94041597857159,
+			18.717273309443726
+		]
+	],
+	"website": "https://zevenwachtcountryestate.co.za/"
+},
+				"latitude": 
+				
+					-33.937268,
+				
+				"longitude":
+				
+					18.717483
 				
 			},
 			"observers": [
@@ -31190,11 +32421,11 @@
 },
 				"latitude": 
 				
-					null,
+					-33.937706,
 				
 				"longitude":
 				
-					null
+					18.717115
 				
 			},
 			"observers": [
@@ -31288,11 +32519,109 @@
 },
 				"latitude": 
 				
-					null,
+					-33.937848,
 				
 				"longitude":
 				
-					null
+					18.716762
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike Tyszowiecki",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2017-09-25T11:07:04.000Z_mike",
+			"datetime": "2017-09-25T11:07:04.000Z",
+			"birdId": "barbet-acacia-pied",
+			"bird": {
+	"name": "Acacia Pied Barbet",
+	"family-name": "Barbet",
+	"scientific-name": "Tricholaema leucomelas",
+	"ebird": "https://ebird.org/species/piebar1/ZA"
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-country-estate",
+				"area": {
+	"name": "Zevenwacht Country Estate",
+	"address": {
+		"street": "150 Rhine Boulevard",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.936501,
+		"longitude": 18.715073
+	},
+	"geofence": [
+		[
+			-33.94041597857159,
+			18.717273309443726
+		],
+		[
+			-33.9390775304488,
+			18.719028364533727
+		],
+		[
+			-33.93529379228963,
+			18.717831923274815
+		],
+		[
+			-33.935349131522784,
+			18.71737335781191
+		],
+		[
+			-33.93608929508791,
+			18.715051350871533
+		],
+		[
+			-33.936244935134354,
+			18.715076363532887
+		],
+		[
+			-33.93644207878417,
+			18.71520142684068
+		],
+		[
+			-33.93656659032731,
+			18.71497631288642
+		],
+		[
+			-33.93643862012778,
+			18.714851249578658
+		],
+		[
+			-33.93641095086969,
+			18.714563603969424
+		],
+		[
+			-33.938567195483856,
+			18.716006788201184
+		],
+		[
+			-33.94041597857159,
+			18.717273309443726
+		]
+	],
+	"website": "https://zevenwachtcountryestate.co.za/"
+},
+				"latitude": 
+				
+					-33.937638,
+				
+				"longitude":
+				
+					18.717482
 				
 			},
 			"observers": [

@@ -344,4 +344,102 @@
 			]
 		}
 	
+		
+		,
+		{
+			"id": "2018-11-27T14:31:27.000Z_mike",
+			"datetime": "2018-11-27T14:31:27.000Z",
+			"birdId": "cuckoo-klaass",
+			"bird": {
+	"name": "Klaas's Cuckoo",
+	"family-name": "Cuckoo",
+	"scientific-name": "Chrysococcyx klaas",
+	"ebird": "https://ebird.org/species/klacuc1/ZA"
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-country-estate",
+				"area": {
+	"name": "Zevenwacht Country Estate",
+	"address": {
+		"street": "150 Rhine Boulevard",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.936501,
+		"longitude": 18.715073
+	},
+	"geofence": [
+		[
+			-33.94041597857159,
+			18.717273309443726
+		],
+		[
+			-33.9390775304488,
+			18.719028364533727
+		],
+		[
+			-33.93529379228963,
+			18.717831923274815
+		],
+		[
+			-33.935349131522784,
+			18.71737335781191
+		],
+		[
+			-33.93608929508791,
+			18.715051350871533
+		],
+		[
+			-33.936244935134354,
+			18.715076363532887
+		],
+		[
+			-33.93644207878417,
+			18.71520142684068
+		],
+		[
+			-33.93656659032731,
+			18.71497631288642
+		],
+		[
+			-33.93643862012778,
+			18.714851249578658
+		],
+		[
+			-33.93641095086969,
+			18.714563603969424
+		],
+		[
+			-33.938567195483856,
+			18.716006788201184
+		],
+		[
+			-33.94041597857159,
+			18.717273309443726
+		]
+	],
+	"website": "https://zevenwachtcountryestate.co.za/"
+},
+				"latitude": 
+				
+					-33.937583,
+				
+				"longitude":
+				
+					18.717574
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike Tyszowiecki",
+	"email": null
+}
+				
+			]
+		}
+	
 ]
