@@ -1,6 +1,8 @@
 .list_details {
 	display: table;
+	table-layout: fixed;
 	border-collapse: separate;
+	inline-size: calc(100% + 1rem);
 	border-spacing: 0.5rem;
 	margin-block: 0;
 	margin-inline: -0.5rem;
@@ -10,6 +12,7 @@
 	}
 	& > div > dt {
 		display: table-cell;
+		inline-size: 10ch;
 		padding-inline-end: 1rem;
 	}
 	& > div > dd {

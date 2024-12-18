@@ -1,3 +1,7 @@
 @view-transition {
   navigation: auto;
 }
+
+map-embed {
+	view-transition-name: map;
+}

@@ -9,6 +9,7 @@ eleventyExcludeFromCollections: true
 ---
 {% set sighting = sightings[sightingId] %}
 {% set bird = birds[sighting.bird.id] %}
+[
 {
 	"datetime": {{ sighting.datetime | stringify | safe }},
 	"bird": {{ bird | stringify | safe }},
@@ -36,3 +37,4 @@ eleventyExcludeFromCollections: true
 		{% endfor %}
 	]
 }
+]

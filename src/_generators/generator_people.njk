@@ -73,4 +73,6 @@ eleventyExcludeFromCollections: true
 	{% endif %}
 </article>
 
-<script defer type="module" src="/assets/mjs/wc/map-embed.mjs"></script>
+{% if filtered_sightings_array.length %}
+	<script defer type="module" src="/assets/mjs/wc/map-embed.mjs"></script>
+{% endif %}

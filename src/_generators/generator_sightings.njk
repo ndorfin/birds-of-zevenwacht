@@ -42,7 +42,9 @@ eleventyExcludeFromCollections: true
 		<dd>
 			<ul>
 			{% for observerId in sighting.observers %}
-				<li><a href="{{ url.people }}{{ observerId }}/">{{ people[observerId].name }}</a></li>
+				<li>
+					<a href="{{ url.people }}{{ observerId }}/">{{ people[observerId].name }}</a>
+				</li>
 			{% endfor %}
 			</ul>
 		</dd>
@@ -52,10 +54,31 @@ eleventyExcludeFromCollections: true
 		<dd>
 			<a href="{{ url.areas }}{{ sighting.location.area }}/">{{ areas[sighting.location.area].name }}</a>
 			{% if sighting.location.latitude %}
-				<br>
-				{% set location = sighting.location %}
-				{% include "link_google_maps.njk" %}
+				<p>
+					{% set location = sighting.location %}
+					{% include "link_google_maps.njk" %}
+				</p>
+				<map-embed
+					id="map_sighting_detail"
+					type="sighting"
+					marker-latitude="{{ sighting.location.latitude }}"
+					marker-longitude="{{ sighting.location.longitude }}"
+					latitude="-33.929"
+					longitude="18.72"
+					zoom="15"
+				></map-embed>
+			{% else %}
+				<map-embed
+					id="map_sighting_area"
+					boundaries="{{ url.areas }}{{ sighting.location.area }}/geofence.json"
+					latitude="-33.929"
+					longitude="18.72"
+					zoom="15"
+				></map-embed>
 			{% endif %}
-		<dd>
+		</dd>
 	</div>
 </dl>
+
+
+<script defer type="module" src="/assets/mjs/wc/map-embed.mjs"></script>

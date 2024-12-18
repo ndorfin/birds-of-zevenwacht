@@ -46,19 +46,10 @@ eleventyExcludeFromCollections: true
 		</dd>
 	</div>
 	<div>
-		<dt>Location</dt>
-		<dd>
-			<a href="{{ url.areas }}{{ photo.location.area }}/">{{ areas[photo.location.area].name }}</a>
-			{% if photo.location.latitude %}
-				<br>
-				{% set location = photo.location %}
-				{% include "link_google_maps.njk" %}
-			{% endif %}
-		<dd>
-	</div>
-	<div>
 		<dt>Photographer</dt>
-		<dd><a href="{{ url.people }}{{ photo.photographer }}">{{ people[photo.photographer]['full-name'] }}</a></dd>
+		<dd>
+			<a href="{{ url.people }}{{ photo.photographer }}">{{ people[photo.photographer]['full-name'] }}</a>
+		</dd>
 	</div>
 	{% if exif %}
 	<div>
@@ -106,4 +97,35 @@ eleventyExcludeFromCollections: true
 		</dd>
 	</div>
 	{% endif %}
+	<div>
+		<dt>Location</dt>
+		<dd>
+			<a href="{{ url.areas }}{{ photo.location.area }}/">{{ areas[photo.location.area].name }}</a>
+			{% if photo.location.latitude %}
+				<p>
+					{% set location = photo.location %}
+					{% include "link_google_maps.njk" %}
+				</p>
+				<map-embed
+					id="map_photo_detail"
+					type="photo"
+					marker-latitude="{{ photo.location.latitude }}"
+					marker-longitude="{{ photo.location.longitude }}"
+					latitude="-33.929"
+					longitude="18.72"
+					zoom="15"
+				></map-embed>
+			{% else %}
+				<map-embed
+					id="map_photo_area"
+					boundaries="{{ url.areas }}{{ photo.location.area }}/geofence.json"
+					latitude="-33.929"
+					longitude="18.72"
+					zoom="15"
+				></map-embed>
+			{% endif %}
+		</dd>
+	</div>
 </dl>
+
+<script defer type="module" src="/assets/mjs/wc/map-embed.mjs"></script>
