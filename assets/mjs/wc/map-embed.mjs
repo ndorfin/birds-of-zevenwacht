@@ -64,6 +64,7 @@ class MapEmbed extends HTMLElement {
 
 	#addMarkerToMap(type, markerObj) {
 		function getHTMLByType(type) {
+			if (type === 'location') return null;
 			if (type === 'sighting') return `
 				<b>Sighting</b> on ${ new Date(markerObj.item.datetime).toISOString().substring(0, 10) }<br>
 				<a href="${ getBaseURI() }sightings/${ markerObj.id }-${ markerObj.item.birdId }/">${ markerObj.item.quantity } × ${ markerObj.item.bird.name }</a>
@@ -85,6 +86,14 @@ class MapEmbed extends HTMLElement {
 			[markerObj.location.latitude, markerObj.location.longitude],
 			{icon: this.#createIcon(type)}
 		).addTo(this.#map).bindPopup(getHTMLByType(type));
+	}
+
+	#addSinglePointMarker(locationObj, type) {
+		let singleMarker = window.L.marker(
+			[locationObj.latitude, locationObj.longitude],
+			{icon: this.#createIcon(type)}
+		).addTo(this.#map);
+		this.#map.flyTo({lat: locationObj.latitude, lng: locationObj.longitude});
 	}
 
 	#addPointMarkers(markerType, data) {
@@ -132,6 +141,14 @@ class MapEmbed extends HTMLElement {
 		window.L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
 			attribution: `<a href="${ getBaseURI() }attribution/">Attribution</a>`
 		}).addTo(this.#map);
+
+		if (this.hasAttribute('marker-latitude')) {
+			let locationObj = {
+				latitude: parseFloat(this.getAttribute('marker-latitude')),
+				longitude: parseFloat(this.getAttribute('marker-longitude')),
+			}
+			this.#addSinglePointMarker(locationObj, this.getAttribute('type'));
+		}
 
 		if (this.hasAttribute('sightings')) {
 			const urlJSON = this.getAttribute('sightings');

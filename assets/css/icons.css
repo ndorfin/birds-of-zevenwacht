@@ -1,6 +1,8 @@
 :is(
 	.icon_sightings,
-	.icon_sighting
+	.icon_sighting,
+	.icon_photos,
+	.icon_photo
 ) span {
 	display: block;
 	block-size: 1rem;
