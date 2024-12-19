@@ -1,5 +1,6 @@
 name: Red-chested Cuckoo
 family-name: Cuckoo
-scientific-name: Cuculus solitarius
+genus: Cuculus
+species: solitarius
 ebird: https://ebird.org/species/reccuc1/ZA
-hidden: true
+uncomfirmed: true

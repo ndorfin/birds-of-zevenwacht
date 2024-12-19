@@ -1,6 +1,7 @@
 name: Rock Kestrel
 family-name: Kestrel
-scientific-name: Falco rupicolus
+genus: Falco
+species: rupicolus
 ebird: https://ebird.org/species/eurkes1/ZA
 size:
   min: 300

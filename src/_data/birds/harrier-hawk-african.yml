@@ -1,6 +1,7 @@
 name: African Harrier-hawk
 family-name: Harrier-hawk
-scientific-name: Polyboroides typus
+genus: Polyboroides
+species: typus
 ebird: https://ebird.org/species/afhhaw1/ZA
 size:
   min: 600

@@ -5,13 +5,23 @@ summary: All birds sighted in Zevenwacht
 description: All birds sighted in Zevenwacht
 eleventyExcludeFromCollections: true
 ---
-
+<p>Birds we have sightings or photos of:</p>
 <ol>
 	{% for birdId, bird in birds %}
-		{% if not bird.hidden %}
-		<li>
-			<a href="{{ url.birds }}{{ bird.name | slugify }}/">{{ bird.name }}</a>
-		</li>
+		{% if not bird.uncomfirmed %}
+			<li>
+				<a href="{{ url.birds }}{{ bird.name | slugify }}/">{{ bird.name }}</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ol>
+<p>Unconfirmed sightings, or birds we haven't logged sightings or photos for yet:</p>
+<ol>
+	{% for birdId, bird in birds %}
+		{% if bird.uncomfirmed %}
+			<li>
+				<a href="{{ url.birds }}{{ bird.name | slugify }}/">{{ bird.name }}</a>
+			</li>
 		{% endif %}
 	{% endfor %}
 </ol>

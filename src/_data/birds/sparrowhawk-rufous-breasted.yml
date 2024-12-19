@@ -1,6 +1,7 @@
 name: Rufous-breasted Sparrowhawk
 family-name: Sparrowhawk
-scientific-name: Accipiter rufiventris
+genus: Accipiter
+species: rufiventris
 ebird: https://ebird.org/species/rucspa2/ZA
 size:
   min: 300

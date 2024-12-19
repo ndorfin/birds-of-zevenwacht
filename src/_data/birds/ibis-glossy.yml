@@ -1,5 +1,6 @@
 name: Glossy Ibis
 family-name: Ibis
-scientific-name: Plegadis falcinellus
+genus: Plegadis
+species: falcinellus
 ebird: https://ebird.org/species/gloibi/ZA
-hidden: true
+uncomfirmed: true

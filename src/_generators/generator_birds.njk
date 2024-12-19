@@ -14,10 +14,35 @@ eleventyExcludeFromCollections: true
 {% set filtered_photos_array = filtered_photos | objToArray %}
 
 <dl class="list_details">
-	{% if bird['scientific-name'] %}
+	{% if bird.genus %}
 		<div>
 			<dt>Scientific name</dt>
-			<dd>{{ bird['scientific-name'] }}</dd>
+			<dd>{{ bird.genus }} {{ bird.species }}</dd>
+		</div>
+	{% endif %}
+	{% if bird['german-name'] or bird['afrikaans-name'] %}
+		<div>
+			<dt>Other names</dt>
+			<dd>
+				<dl class="list_details">
+					{% if bird['german-name'] %}
+						<div>
+							<dt>German</dt>
+							<dd lang="de">
+								{{ bird['german-name'] }}
+							</dd>
+						</div>
+					{% endif %}
+					{% if bird['afrikaans-name'] %}
+						<div>
+							<dt>Afrikaans</dt>
+							<dd lang="af">
+								{{ bird['afrikaans-name'] }}
+							</dd>
+						</div>
+					{% endif %}
+				</dl>
+			</dd>
 		</div>
 	{% endif %}
 	{% if bird.ebird %}

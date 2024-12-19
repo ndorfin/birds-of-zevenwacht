@@ -1,6 +1,7 @@
 name: Pied Crow
 family-name: Crow
-scientific-name: Corvus Albus
+genus: Corvus
+species: Albus
 ebird: https://ebird.org/species/piecro1/ZA
 size:
   min: 460
