@@ -4,6 +4,7 @@ import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
 import Image from '@11ty/eleventy-img';
 import path from 'node:path';
 import exifr from 'exifr';
+import { parse } from 'csv-parse/sync';
 
 const require = createRequire(import.meta.url);
 const markdownIt = require('markdown-it');
@@ -47,6 +48,16 @@ export default async function (config) {
 		// a file path instead of file contents.
 		read: false,
 	});
+	config.addDataExtension('csv', (contents) => {
+    const records = parse(contents, {
+      columns: true,
+      skip_empty_lines: true,
+      relax_column_count: true,
+      delimiter: ',',
+      trim: true,
+    });
+    return records;
+  });
 	/* Copy assets straight through to the `public` folder */
 	config.addPassthroughCopy({ 'src/_root': '.' });
 	config.addPassthroughCopy({ 'src/assets': 'assets' });
