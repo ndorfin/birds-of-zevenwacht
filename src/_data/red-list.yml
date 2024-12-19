@@ -4,3 +4,9 @@ least-concern:
 near-threatened:
   title: Near threatened
   severity: 3
+vulnerable:
+  title: Vulnerable
+  severity: 4
+endangered:
+  title: Endangered
+  severity: 5
