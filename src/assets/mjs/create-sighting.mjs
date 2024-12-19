@@ -1,6 +1,7 @@
-import { Octokit } from 'https://esm.sh/@octokit/core';
 import getPAT from './lib/get-pat.mjs';
 import createSightingBlob from './lib/create-sighting-blob.mjs';
+
+let Octokit;
 
 async function makeCommit(blob) {
 	const octokit = new Octokit({ 
@@ -48,4 +49,8 @@ const handleSubmit = (event) => {
 	
 }
 
-document.addEventListener('submit', handleSubmit);
+if (document.querySelector('#form_sighting_add')) {
+	Octokit = await import('https://esm.sh/@octokit/core');
+
+	document.addEventListener('submit', handleSubmit);
+}

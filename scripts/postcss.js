@@ -28,11 +28,13 @@ postcss([cssnano({ preset: require('cssnano-preset-default') })])
 				console.log('/src/assets/css/all.css created');
 			}
 		});
-  });
+  })
+	.then(() => {
+		// Update timestamp
+		const environmentFilePath = './src/_data/environment.mjs';
+		let environmentFileContent = fs.readFileSync(environmentFilePath, 'utf8');
+		let newContent = environmentFileContent.replace(/timestampCSSBuild: [\d]+/g, `timestampCSSBuild: ${ new Date().valueOf() }`);
+		fs.writeFileSync(environmentFilePath, newContent);
+		console.log(environmentFilePath + ' updated');
+	});
 
-// Update timestamp
-const environmentFilePath = './src/_data/environment.mjs';
-let environmentFileContent = fs.readFileSync(environmentFilePath, 'utf8');
-let newContent = environmentFileContent.replace(/\d+/g, new Date().valueOf());
-fs.writeFileSync(environmentFilePath, newContent);
-console.log(environmentFilePath + ' updated');
