@@ -8,14 +8,14 @@ async function makeCommit(blob) {
 		auth: getPAT(),
 	});
 	const commitDate = new Date();
-	const commitDateISOFormatted = commitDate.toISOString().substring(0,16).replace(':', '_');	
+	const commitDateISOFormatted = commitDate.toISOString();	
 
 	await octokit.request('PUT /repos/ndorfin/birds-of-zevenwacht/contents/{path}', {
 		headers: {
 			'X-GitHub-Api-Version': '2022-11-28'
 		},
 		branch: 'online-sightings',
-		path: `src/_data/sightings/${ commitDateISOFormatted }.yml`,
+		path: `src/_data/sightings/${ commitDateISOFormatted }_shaun.yml`,
 		message: `Sighting added: ${ commitDateISOFormatted }`,
 		content: `${ blob }`,
 	});

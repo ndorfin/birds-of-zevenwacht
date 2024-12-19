@@ -1,10 +1,4 @@
-function getBaseURI() {
-	if (location.href.indexOf('/birds-of-zevenwacht/') > -1) {
-		return '/birds-of-zevenwacht/';
-	} else {
-		return '/'
-	}
-}
+import getBaseURI from '../lib/get-base-uri.mjs';
 
 class MapEmbed extends HTMLElement {
 
@@ -34,12 +28,11 @@ class MapEmbed extends HTMLElement {
 			popupAnchor: [0, -36],
 			html: `<span></span>`
 		}
-		return L.divIcon(iconObj);
+		return window.L.divIcon(iconObj);
 	}
 
 	#addMarkerToMap(type, markerObj) {
 		function getHTMLByType(type) {
-			if (type === 'location') return null;
 			if (type === 'sighting') return `
 				<b>Sighting</b> on ${ new Date(markerObj.item.datetime).toISOString().substring(0, 10) }<br>
 				<a href="${ getBaseURI() }sightings/${ markerObj.id }-${ markerObj.item.birdId }/">${ markerObj.item.quantity } × ${ markerObj.item.bird.name }</a>
@@ -57,14 +50,14 @@ class MapEmbed extends HTMLElement {
 				<a href="${ getBaseURI() }areas/${ markerObj.id }/">${ markerObj.area.name }</a>
 			`;
 		}
-		L.marker(
+		window.L.marker(
 			[markerObj.location.latitude, markerObj.location.longitude],
 			{icon: this.#createIcon(type)}
 		).addTo(this.#map).bindPopup(getHTMLByType(type));
 	}
 
 	#addSinglePointMarker(locationObj, type) {
-		L.marker(
+		window.L.marker(
 			[locationObj.latitude, locationObj.longitude],
 			{icon: this.#createIcon(type)}
 		).addTo(this.#map);
@@ -101,47 +94,45 @@ class MapEmbed extends HTMLElement {
 	}
 
 	#addBoundaries(data) {
-		let polygon = L.polygon(data, {color: 'hsla(220 50% 50% / 0.80)'}).addTo(this.#map);
+		let polygon = window.L.polygon(data, {color: 'hsla(220 50% 50% / 0.80)'}).addTo(this.#map);
 		this.#map.fitBounds(polygon.getBounds());
 	}
 
 	#invokeLeaflet() {
-		this.#map = L.map(this.getAttribute('id'), {
+		this.#map = window.L.map(this.id, {
 			scrollWheelZoom: false,
 		}).setView(
-			[parseFloat(this.getAttribute('latitude')),parseFloat(this.getAttribute('longitude')),],
-			parseInt(this.getAttribute('zoom'))
+			[this.latitude, this.longitude],
+			this.zoom
 		);
 
-		L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+		window.L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
 			attribution: `<a href="${ getBaseURI() }attribution/">Attribution</a>`
 		}).addTo(this.#map);
 
-		if (this.hasAttribute('marker-latitude')) {
+		if (this.markerLatitude) {
 			let locationObj = {
-				latitude: parseFloat(this.getAttribute('marker-latitude')),
-				longitude: parseFloat(this.getAttribute('marker-longitude')),
+				latitude: parseFloat(this.markerLatitude),
+				longitude: parseFloat(this.markerLongitude),
 			}
-			this.#addSinglePointMarker(locationObj, this.getAttribute('type'));
+			this.#addSinglePointMarker(locationObj, this.type);
 		}
 
-		if (this.hasAttribute('sightings')) {
-			const urlJSON = this.getAttribute('sightings');
-			fetch(urlJSON).then(response => response.json()).then(data => {
+
+		if (this.sightings) {
+			fetch(this.sightings).then(response => response.json()).then(data => {
 				this.#addPointMarkers('sighting', data);
 			});
 		}
 
-		if (this.hasAttribute('photos')) {
-			const urlJSON = this.getAttribute('photos');
-			fetch(urlJSON).then(response => response.json()).then(data => {
+		if (this.photos) {
+			fetch(this.photos).then(response => response.json()).then(data => {
 				this.#addPointMarkers('photo', data);
 			});
 		}
 
-		if (this.hasAttribute('boundaries')) {
-			const urlJSON = this.getAttribute('boundaries');
-			fetch(urlJSON).then(response => response.json()).then(data => {
+		if (this.boundaries) {
+			fetch(this.boundaries).then(response => response.json()).then(data => {
 				this.#addBoundaries(data);
 			});
 		}
@@ -149,6 +140,46 @@ class MapEmbed extends HTMLElement {
 
 	connectedCallback() {
 		this.#addScript();
+	}
+
+	get boundaries() {
+		return this.getAttribute('boundaries');
+	}
+
+	get latitude() {
+		return parseFloat(this.getAttribute('latitude'));
+	}
+
+	get longitude() {
+		return parseFloat(this.getAttribute('longitude'));
+	}
+
+	get location() {
+		return this.getAttribute('location');
+	}
+
+	get markerLatitude() {
+		return parseFloat(this.getAttribute('marker-latitude'));
+	}
+
+	get markerLongitude() {
+		return parseFloat(this.getAttribute('marker-longitude'));
+	}
+	
+	get photos() {
+		return this.getAttribute('photos');
+	}
+	
+	get sightings() {
+		return this.getAttribute('sightings');
+	}
+
+	get type() {
+		return this.getAttribute('type');
+	}
+
+	get zoom() {
+		return parseInt(this.getAttribute('zoom'));
 	}
 }
 
