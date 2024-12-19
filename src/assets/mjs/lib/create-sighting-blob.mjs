@@ -1,8 +1,8 @@
 const renderTemplate = (formData) => {
 	let description = formData.get('description').replace('\n\n', '\n').replace('\n', '\n  ');
-	let formattedDate = `${ formData.get('datetime') }+02:00`;
+	let dateValue = new Date(formData.get('datetime')).toISOString();
 	let content = `\
-datetime: ${ formattedDate }
+datetime: ${ dateValue }
 description: |-
   ${ description }
 bird:
