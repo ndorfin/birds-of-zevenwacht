@@ -14,6 +14,7 @@
 @import './icons.css';
 @import './page_photo.css';
 @import './view-transitions.css';
+@import './lib/leaflet.1.9.4.css';
 
 screenreader-only {
 	clip: rect(0 0 0 0); 
