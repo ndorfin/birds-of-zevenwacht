@@ -28,7 +28,7 @@ eleventyExcludeFromCollections: true
 	<div class="layout_item_list">
 		<ul>
 			{% for sightingId, sighting in sightings | sortByDatetimeRecent %}
-				<li id="sighting_{{ sightingId }}">
+				<li>
 					<a href="{{ url.sightings }}{{ sightingId }}-{{ sighting.bird.id }}/">
 						{{ sighting.bird.quantity }} × {{ birds[sighting.bird.id].name }}
 					</a>
