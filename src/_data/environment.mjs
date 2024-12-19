@@ -2,7 +2,7 @@ export default function () {
 	return {
 		name: process.env.ENVIRONMENT || 'development',
 		baseURL: process.env.BASE_URL || 'https://ndorfin.github.io/birds-of-zevenwacht/',
-		timestampCSSBuild: 1734615575046,
+		timestampCSSBuild: 1734620295300,
 		timestampMJSBuild: 1734619420205,
 	};
 }

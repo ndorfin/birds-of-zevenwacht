@@ -11,10 +11,10 @@ const css = fs.readFileSync('./src/assets/css/index.css', 'utf8');
 // process css
 postcss([cssnano({ preset: require('cssnano-preset-default') })])
   .use(atImport())
-	.use(url([
-    // using custom function to build url
-    { filter: '**/img/*.svg', url: (asset) => asset.originUrl.replace('../../img', '../img') }
-	]))
+	// .use(url([
+  //   // using custom function to build url
+  //   { filter: '**/img/*.svg', url: (asset) => asset.originUrl.replace('../../img', '../img') }
+	// ]))
   .process(css, {
     // `from` option is needed here
     from: './src/assets/css/index.css',
