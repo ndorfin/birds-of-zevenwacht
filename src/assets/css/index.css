@@ -1,27 +1,29 @@
-@import './defaults.css';
-@import './site_header.css';
-@import './site_logo.css';
-@import './site_nav.css';
-@import './main.css';
-@import './site_footer.css';
-@import './layout_map.css';
-@import './list_gallery.css';
-@import './link_thumbnail.css';
-@import './figure_full.css';
-@import './list_details.css';
-@import './list_stripped.css';
-@import './wc/map-embed.css';
-@import './icons.css';
-@import './page_photo.css';
-@import './view-transitions.css';
-@import './lib/leaflet.1.9.4.css';
+@import './defaults.css'          layer(foundation);
+@import './site_header.css'       layer(framework);
+@import './site_logo.css'         layer(framework);
+@import './site_nav.css'          layer(framework);
+@import './main.css'              layer(framework);
+@import './site_footer.css'       layer(framework);
+@import './layout_map.css'        layer(content.layout);
+@import './list_gallery.css'      layer(content.components);
+@import './link_thumbnail.css'    layer(content.components);
+@import './figure_full.css'       layer(content.components);
+@import './list_details.css'      layer(content.components);
+@import './list_stripped.css'     layer(content.components);
+@import './wc/map-embed.css'      layer(content.components.map);
+@import './icons.css'             layer(content.components.map);
+@import './lib/leaflet.1.9.4.css' layer(content.components.map);
+@import './page_photo.css'        layer(page);
+@import './view-transitions.css'  layer(animations);
 
-screenreader-only {
-	clip: rect(0 0 0 0); 
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap; 
-  width: 1px;
+@layer utilities {
+	screenreader-only {
+		clip: rect(0 0 0 0); 
+		clip-path: inset(50%);
+		height: 1px;
+		overflow: hidden;
+		position: absolute;
+		white-space: nowrap; 
+		width: 1px;
+	}
 }
