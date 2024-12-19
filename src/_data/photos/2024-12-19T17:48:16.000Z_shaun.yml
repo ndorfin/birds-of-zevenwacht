@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 9E116D0D-CC44-4C71-9EF4-F39550C43EB2_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-12-19T17:48:16.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Guineafowl on high alert, standing in the middle of a paved road
+# List each of the bird IDs present in this photo
+birds:
+  - guineafowl-helmeted
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.933627
+  longitude: 18.7103527

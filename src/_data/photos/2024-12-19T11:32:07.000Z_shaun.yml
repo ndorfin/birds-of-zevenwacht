@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: D66B56C7-77E5-4B99-A070-CB13B8DBBBE8_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-12-19T11:32:07.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An Acacia Pied Barbet sitting in the boughs of a groomed Acacia tree
+# List each of the bird IDs present in this photo
+birds:
+  - barbet-acacia-pied
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

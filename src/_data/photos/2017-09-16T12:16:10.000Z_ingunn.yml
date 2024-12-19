@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: IMG_0571.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2017-09-16T12:16:10.000Z_ingunn
+# Describe this image, as if you were explaining it over the phone
+description: A Cape Wagtail chick in its nest
+# List each of the bird IDs present in this photo
+birds:
+  - wagtail-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: ingunn
+location:
+  area: zevenwacht-country-estate
+  latitude: -33.937486
+  longitude: 18.717367

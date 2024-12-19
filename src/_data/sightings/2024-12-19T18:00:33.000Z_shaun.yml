@@ -1,0 +1,24 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2024-12-19T18:00:33.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  We first heard these three Sparrowhawks on our evening walk, and saw then circling trees near the lower dam.
+
+  Eventually they settled near their nesting site on the South-Eastern boundary fence of the village, and it looked like one of them was eating something.
+bird:
+  # Supply a matching Bird ID
+  id: sparrowhawk-black
+  # How many individuals did you spot?
+  quantity: 3
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2024-12-19T18:00:33.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-village
+  latitude: -33.934472
+  longitude: 18.7090305
