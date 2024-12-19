@@ -9,9 +9,13 @@
 			"birdId": "buzzard-jackal",
 			"bird": {
 	"name": "Jackal Buzzard",
-	"family-name": "Buzzard",
-	"scientific-name": "Buteo rufofuscus",
-	"ebird": "https://ebird.org/species/jacbuz1/ZA"
+	"family_name": "Buzzard",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Buteo",
+	"species": "rufofuscus",
+	"ebird": "https://ebird.org/species/jacbuz1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -234,9 +238,13 @@
 			"birdId": "buzzard-jackal",
 			"bird": {
 	"name": "Jackal Buzzard",
-	"family-name": "Buzzard",
-	"scientific-name": "Buteo rufofuscus",
-	"ebird": "https://ebird.org/species/jacbuz1/ZA"
+	"family_name": "Buzzard",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Buteo",
+	"species": "rufofuscus",
+	"ebird": "https://ebird.org/species/jacbuz1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

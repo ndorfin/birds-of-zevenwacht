@@ -5,9 +5,13 @@
 	"datetime": "2023-10-12T08:28:00.000Z",
 	"bird": {
 	"name": "Reed Cormorant",
-	"family-name": "Cormorant",
-	"scientific-name": "Microcarbo africanus",
-	"ebird": "https://ebird.org/species/lotcor1/ZA"
+	"family_name": "Cormorant",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Microcarbo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/lotcor1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

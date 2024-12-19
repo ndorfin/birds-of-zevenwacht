@@ -9,9 +9,13 @@
 			"birdId": "kite-black-winged",
 			"bird": {
 	"name": "Black-winged Kite",
-	"family-name": "Kite",
-	"scientific-name": "Elanus caeruleus",
-	"ebird": "https://ebird.org/species/bkskit1/ZA"
+	"family_name": "Kite",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Elanus",
+	"species": "caeruleus",
+	"ebird": "https://ebird.org/species/bkskit1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -138,9 +142,13 @@
 			"birdId": "kite-black-winged",
 			"bird": {
 	"name": "Black-winged Kite",
-	"family-name": "Kite",
-	"scientific-name": "Elanus caeruleus",
-	"ebird": "https://ebird.org/species/bkskit1/ZA"
+	"family_name": "Kite",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Elanus",
+	"species": "caeruleus",
+	"ebird": "https://ebird.org/species/bkskit1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -291,9 +299,13 @@
 			"birdId": "kite-black-winged",
 			"bird": {
 	"name": "Black-winged Kite",
-	"family-name": "Kite",
-	"scientific-name": "Elanus caeruleus",
-	"ebird": "https://ebird.org/species/bkskit1/ZA"
+	"family_name": "Kite",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Elanus",
+	"species": "caeruleus",
+	"ebird": "https://ebird.org/species/bkskit1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -389,9 +401,13 @@
 			"birdId": "kite-black-winged",
 			"bird": {
 	"name": "Black-winged Kite",
-	"family-name": "Kite",
-	"scientific-name": "Elanus caeruleus",
-	"ebird": "https://ebird.org/species/bkskit1/ZA"
+	"family_name": "Kite",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Elanus",
+	"species": "caeruleus",
+	"ebird": "https://ebird.org/species/bkskit1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

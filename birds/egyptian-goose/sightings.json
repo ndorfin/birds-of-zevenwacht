@@ -9,9 +9,13 @@
 			"birdId": "goose-egyptian",
 			"bird": {
 	"name": "Egyptian Goose",
-	"family-name": "Goose",
-	"scientific-name": "Alopochen aegyptiaca",
-	"ebird": "https://ebird.org/species/egygoo/ZA"
+	"family_name": "Goose",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Alopochen",
+	"species": "aegyptiaca",
+	"ebird": "https://ebird.org/species/egygoo/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -148,9 +152,13 @@
 			"birdId": "goose-egyptian",
 			"bird": {
 	"name": "Egyptian Goose",
-	"family-name": "Goose",
-	"scientific-name": "Alopochen aegyptiaca",
-	"ebird": "https://ebird.org/species/egygoo/ZA"
+	"family_name": "Goose",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Alopochen",
+	"species": "aegyptiaca",
+	"ebird": "https://ebird.org/species/egygoo/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -273,9 +281,13 @@
 			"birdId": "goose-egyptian",
 			"bird": {
 	"name": "Egyptian Goose",
-	"family-name": "Goose",
-	"scientific-name": "Alopochen aegyptiaca",
-	"ebird": "https://ebird.org/species/egygoo/ZA"
+	"family_name": "Goose",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Alopochen",
+	"species": "aegyptiaca",
+	"ebird": "https://ebird.org/species/egygoo/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 9,
 			"location": {
@@ -398,9 +410,13 @@
 			"birdId": "goose-egyptian",
 			"bird": {
 	"name": "Egyptian Goose",
-	"family-name": "Goose",
-	"scientific-name": "Alopochen aegyptiaca",
-	"ebird": "https://ebird.org/species/egygoo/ZA"
+	"family_name": "Goose",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Alopochen",
+	"species": "aegyptiaca",
+	"ebird": "https://ebird.org/species/egygoo/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 13,
 			"location": {
@@ -523,9 +539,13 @@
 			"birdId": "goose-egyptian",
 			"bird": {
 	"name": "Egyptian Goose",
-	"family-name": "Goose",
-	"scientific-name": "Alopochen aegyptiaca",
-	"ebird": "https://ebird.org/species/egygoo/ZA"
+	"family_name": "Goose",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Alopochen",
+	"species": "aegyptiaca",
+	"ebird": "https://ebird.org/species/egygoo/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 4,
 			"location": {
@@ -648,9 +668,13 @@
 			"birdId": "goose-egyptian",
 			"bird": {
 	"name": "Egyptian Goose",
-	"family-name": "Goose",
-	"scientific-name": "Alopochen aegyptiaca",
-	"ebird": "https://ebird.org/species/egygoo/ZA"
+	"family_name": "Goose",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Alopochen",
+	"species": "aegyptiaca",
+	"ebird": "https://ebird.org/species/egygoo/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 6,
 			"location": {
@@ -773,9 +797,13 @@
 			"birdId": "goose-egyptian",
 			"bird": {
 	"name": "Egyptian Goose",
-	"family-name": "Goose",
-	"scientific-name": "Alopochen aegyptiaca",
-	"ebird": "https://ebird.org/species/egygoo/ZA"
+	"family_name": "Goose",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Alopochen",
+	"species": "aegyptiaca",
+	"ebird": "https://ebird.org/species/egygoo/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

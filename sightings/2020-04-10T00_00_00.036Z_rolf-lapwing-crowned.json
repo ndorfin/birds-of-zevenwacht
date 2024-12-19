@@ -5,9 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.036Z",
 	"bird": {
 	"name": "Crowned Lapwing",
-	"family-name": "Lapwing",
-	"scientific-name": "Vanellus coronatus",
-	"ebird": "https://ebird.org/species/crolap1/ZA"
+	"family_name": "Lapwing",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Vanellus",
+	"species": "coronatus",
+	"ebird": "https://ebird.org/species/crolap1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

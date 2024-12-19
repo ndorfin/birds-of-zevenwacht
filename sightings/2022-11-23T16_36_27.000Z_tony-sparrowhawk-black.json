@@ -5,10 +5,13 @@
 	"datetime": "2022-11-23T16:36:27.000Z",
 	"bird": {
 	"name": "Black Sparrowhawk",
-	"family-name": "Sparrowhawk",
-	"scientific-name": "Astur melanoleucus",
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Astur",
+	"species": "melanoleucus",
 	"ebird": "https://ebird.org/species/blagos1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

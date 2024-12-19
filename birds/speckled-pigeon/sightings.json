@@ -9,9 +9,13 @@
 			"birdId": "pigeon-speckled",
 			"bird": {
 	"name": "Speckled Pigeon",
-	"family-name": "Pigeon",
-	"scientific-name": "Columba Guinea",
-	"ebird": "https://ebird.org/species/spepig1/ZA"
+	"family_name": "Pigeon",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Columba",
+	"species": "Guinea",
+	"ebird": "https://ebird.org/species/spepig1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

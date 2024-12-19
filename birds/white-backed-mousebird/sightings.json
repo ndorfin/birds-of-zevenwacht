@@ -9,9 +9,13 @@
 			"birdId": "mousebird-white-backed",
 			"bird": {
 	"name": "White-backed Mousebird",
-	"family-name": "Mousebird",
-	"scientific-name": "Colius colius",
-	"ebird": "https://ebird.org/species/whbmou1/ZA"
+	"family_name": "Mousebird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Colius",
+	"species": "colius",
+	"ebird": "https://ebird.org/species/whbmou1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -131,9 +135,13 @@
 			"birdId": "mousebird-white-backed",
 			"bird": {
 	"name": "White-backed Mousebird",
-	"family-name": "Mousebird",
-	"scientific-name": "Colius colius",
-	"ebird": "https://ebird.org/species/whbmou1/ZA"
+	"family_name": "Mousebird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Colius",
+	"species": "colius",
+	"ebird": "https://ebird.org/species/whbmou1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 5,
 			"location": {
@@ -256,9 +264,13 @@
 			"birdId": "mousebird-white-backed",
 			"bird": {
 	"name": "White-backed Mousebird",
-	"family-name": "Mousebird",
-	"scientific-name": "Colius colius",
-	"ebird": "https://ebird.org/species/whbmou1/ZA"
+	"family_name": "Mousebird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Colius",
+	"species": "colius",
+	"ebird": "https://ebird.org/species/whbmou1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -381,9 +393,13 @@
 			"birdId": "mousebird-white-backed",
 			"bird": {
 	"name": "White-backed Mousebird",
-	"family-name": "Mousebird",
-	"scientific-name": "Colius colius",
-	"ebird": "https://ebird.org/species/whbmou1/ZA"
+	"family_name": "Mousebird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Colius",
+	"species": "colius",
+	"ebird": "https://ebird.org/species/whbmou1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

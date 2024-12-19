@@ -9,9 +9,13 @@
 			"birdId": "sparrow-cape",
 			"bird": {
 	"name": "Cape Sparrow",
-	"family-name": "Sparrow",
-	"scientific-name": "Passer melanurus",
-	"ebird": "https://ebird.org/species/capspa1/ZA"
+	"family_name": "Sparrow",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Passer",
+	"species": "melanurus",
+	"ebird": "https://ebird.org/species/capspa1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -134,9 +138,13 @@
 			"birdId": "sparrow-cape",
 			"bird": {
 	"name": "Cape Sparrow",
-	"family-name": "Sparrow",
-	"scientific-name": "Passer melanurus",
-	"ebird": "https://ebird.org/species/capspa1/ZA"
+	"family_name": "Sparrow",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Passer",
+	"species": "melanurus",
+	"ebird": "https://ebird.org/species/capspa1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

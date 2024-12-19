@@ -9,9 +9,13 @@
 			"birdId": "guineafowl-helmeted",
 			"bird": {
 	"name": "Helmeted Guineafowl",
-	"family-name": "Guineafowl",
-	"scientific-name": "Numida meleagris",
-	"ebird": "https://ebird.org/species/helgui/ZA"
+	"family_name": "Guineafowl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Numida",
+	"species": "meleagris",
+	"ebird": "https://ebird.org/species/helgui/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": "30-40",
 			"location": {
@@ -234,9 +238,13 @@
 			"birdId": "guineafowl-helmeted",
 			"bird": {
 	"name": "Helmeted Guineafowl",
-	"family-name": "Guineafowl",
-	"scientific-name": "Numida meleagris",
-	"ebird": "https://ebird.org/species/helgui/ZA"
+	"family_name": "Guineafowl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Numida",
+	"species": "meleagris",
+	"ebird": "https://ebird.org/species/helgui/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 4,
 			"location": {
@@ -366,9 +374,13 @@
 			"birdId": "guineafowl-helmeted",
 			"bird": {
 	"name": "Helmeted Guineafowl",
-	"family-name": "Guineafowl",
-	"scientific-name": "Numida meleagris",
-	"ebird": "https://ebird.org/species/helgui/ZA"
+	"family_name": "Guineafowl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Numida",
+	"species": "meleagris",
+	"ebird": "https://ebird.org/species/helgui/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

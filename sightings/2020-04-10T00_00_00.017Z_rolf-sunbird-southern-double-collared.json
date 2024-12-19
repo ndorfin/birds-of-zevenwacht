@@ -5,9 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.017Z",
 	"bird": {
 	"name": "Southern Double-collared Sunbird",
-	"family-name": "Sunbird",
-	"scientific-name": "Cinnyris chalybeus",
-	"ebird": "https://ebird.org/species/sdcsun3/ZA"
+	"family_name": "Sunbird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Cinnyris",
+	"species": "chalybeus",
+	"ebird": "https://ebird.org/species/sdcsun3/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

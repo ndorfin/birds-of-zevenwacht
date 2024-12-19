@@ -5,9 +5,13 @@
 	"datetime": "2024-11-19T15:33:04.000Z",
 	"bird": {
 	"name": "African Black Duck",
-	"family-name": "Duck",
-	"scientific-name": "Anas sparsa",
-	"ebird": "https://ebird.org/species/afbduc1/ZA"
+	"family_name": "Duck",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anas",
+	"species": "sparsa",
+	"ebird": "https://ebird.org/species/afbduc1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 5,
 	"location": {

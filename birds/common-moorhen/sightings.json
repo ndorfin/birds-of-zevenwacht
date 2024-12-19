@@ -9,9 +9,13 @@
 			"birdId": "moorhen-common",
 			"bird": {
 	"name": "Common Moorhen",
-	"family-name": "Moorhen",
-	"scientific-name": "Gallinula chloropus",
-	"ebird": "https://ebird.org/species/commoo3/ZA"
+	"family_name": "Moorhen",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Gallinula",
+	"species": "chloropus",
+	"ebird": "https://ebird.org/species/commoo3/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -162,9 +166,13 @@
 			"birdId": "moorhen-common",
 			"bird": {
 	"name": "Common Moorhen",
-	"family-name": "Moorhen",
-	"scientific-name": "Gallinula chloropus",
-	"ebird": "https://ebird.org/species/commoo3/ZA"
+	"family_name": "Moorhen",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Gallinula",
+	"species": "chloropus",
+	"ebird": "https://ebird.org/species/commoo3/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

@@ -9,9 +9,13 @@
 			"birdId": "swan-black",
 			"bird": {
 	"name": "Black Swan",
-	"family-name": "Swan",
-	"scientific-name": "Cygnus atratus",
-	"ebird": "https://ebird.org/species/blkswa/ZA"
+	"family_name": "Swan",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Cygnus",
+	"species": "atratus",
+	"ebird": "https://ebird.org/species/blkswa/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {
@@ -131,9 +135,13 @@
 			"birdId": "swan-black",
 			"bird": {
 	"name": "Black Swan",
-	"family-name": "Swan",
-	"scientific-name": "Cygnus atratus",
-	"ebird": "https://ebird.org/species/blkswa/ZA"
+	"family_name": "Swan",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Cygnus",
+	"species": "atratus",
+	"ebird": "https://ebird.org/species/blkswa/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {

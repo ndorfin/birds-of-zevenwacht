@@ -5,9 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.014Z",
 	"bird": {
 	"name": "Cape Sugarbird",
-	"family-name": "Sugarbird",
-	"scientific-name": "Promerops cafer",
-	"ebird": "https://ebird.org/species/capsug1/ZA"
+	"family_name": "Sugarbird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Promerops",
+	"species": "cafer",
+	"ebird": "https://ebird.org/species/capsug1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

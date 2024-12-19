@@ -9,9 +9,13 @@
 			"birdId": "harrier-hawk-african",
 			"bird": {
 	"name": "African Harrier-hawk",
-	"family-name": "Harrier-hawk",
-	"scientific-name": "Polyboroides typus",
+	"family_name": "Harrier-hawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Polyboroides",
+	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"red-list": "least-concern",
 	"size": {
 		"min": 600,
 		"max": 660
@@ -150,9 +154,13 @@
 		"max": 950
 	},
 	"name": "African Harrier-hawk",
-	"family-name": "Harrier-hawk",
-	"scientific-name": "Polyboroides typus",
-	"ebird": "https://ebird.org/species/afhhaw1/ZA"
+	"family_name": "Harrier-hawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Polyboroides",
+	"species": "typus",
+	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -283,9 +291,13 @@
 		"max": 950
 	},
 	"name": "African Harrier-hawk",
-	"family-name": "Harrier-hawk",
-	"scientific-name": "Polyboroides typus",
-	"ebird": "https://ebird.org/species/afhhaw1/ZA"
+	"family_name": "Harrier-hawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Polyboroides",
+	"species": "typus",
+	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -416,9 +428,13 @@
 		"max": 950
 	},
 	"name": "African Harrier-hawk",
-	"family-name": "Harrier-hawk",
-	"scientific-name": "Polyboroides typus",
-	"ebird": "https://ebird.org/species/afhhaw1/ZA"
+	"family_name": "Harrier-hawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Polyboroides",
+	"species": "typus",
+	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -549,9 +565,13 @@
 		"max": 950
 	},
 	"name": "African Harrier-hawk",
-	"family-name": "Harrier-hawk",
-	"scientific-name": "Polyboroides typus",
-	"ebird": "https://ebird.org/species/afhhaw1/ZA"
+	"family_name": "Harrier-hawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Polyboroides",
+	"species": "typus",
+	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -655,9 +675,13 @@
 		"max": 950
 	},
 	"name": "African Harrier-hawk",
-	"family-name": "Harrier-hawk",
-	"scientific-name": "Polyboroides typus",
-	"ebird": "https://ebird.org/species/afhhaw1/ZA"
+	"family_name": "Harrier-hawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Polyboroides",
+	"species": "typus",
+	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -761,9 +785,13 @@
 		"max": 950
 	},
 	"name": "African Harrier-hawk",
-	"family-name": "Harrier-hawk",
-	"scientific-name": "Polyboroides typus",
-	"ebird": "https://ebird.org/species/afhhaw1/ZA"
+	"family_name": "Harrier-hawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Polyboroides",
+	"species": "typus",
+	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

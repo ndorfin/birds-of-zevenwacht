@@ -5,9 +5,13 @@
 	"datetime": "2022-09-25T14:51:37.000Z",
 	"bird": {
 	"name": "African Harrier-hawk",
-	"family-name": "Harrier-hawk",
-	"scientific-name": "Polyboroides typus",
+	"family_name": "Harrier-hawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Polyboroides",
+	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"red-list": "least-concern",
 	"size": {
 		"min": 600,
 		"max": 660

@@ -5,9 +5,13 @@
 	"datetime": "2024-09-03T12:25:28.000Z",
 	"bird": {
 	"name": "Yellow Bishop",
-	"family-name": "Bishop",
-	"scientific-name": "Euplectes capensis",
-	"ebird": "https://ebird.org/species/yelbis1/ZA"
+	"family_name": "Bishop",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Euplectes",
+	"species": "capensis",
+	"ebird": "https://ebird.org/species/yelbis1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

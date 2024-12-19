@@ -5,9 +5,13 @@
 	"datetime": "2024-08-28T08:18:48.000Z",
 	"bird": {
 	"name": "White-backed Mousebird",
-	"family-name": "Mousebird",
-	"scientific-name": "Colius colius",
-	"ebird": "https://ebird.org/species/whbmou1/ZA"
+	"family_name": "Mousebird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Colius",
+	"species": "colius",
+	"ebird": "https://ebird.org/species/whbmou1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 5,
 	"location": {

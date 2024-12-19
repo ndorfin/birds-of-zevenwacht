@@ -5,9 +5,13 @@
 	"datetime": "2024-12-04T15:41:00.000Z",
 	"bird": {
 	"name": "Giant Kingfisher",
-	"family-name": "Kingfisher",
-	"scientific-name": "Megaceryle maxima",
-	"ebird": "https://ebird.org/species/giakin3/ZA"
+	"family_name": "Kingfisher",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Megaceryle",
+	"species": "maxima",
+	"ebird": "https://ebird.org/species/giakin3/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

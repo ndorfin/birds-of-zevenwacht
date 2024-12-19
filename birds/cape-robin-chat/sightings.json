@@ -9,9 +9,13 @@
 			"birdId": "robin-chat-cape",
 			"bird": {
 	"name": "Cape Robin-Chat",
-	"family-name": "Robin-Chat",
-	"scientific-name": "Dessonornis caffer",
-	"ebird": "https://ebird.org/species/carcha1/ZA"
+	"family_name": "Robin-Chat",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Dessonornis",
+	"species": "caffer",
+	"ebird": "https://ebird.org/species/carcha1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -234,9 +238,13 @@
 			"birdId": "robin-chat-cape",
 			"bird": {
 	"name": "Cape Robin-Chat",
-	"family-name": "Robin-Chat",
-	"scientific-name": "Dessonornis caffer",
-	"ebird": "https://ebird.org/species/carcha1/ZA"
+	"family_name": "Robin-Chat",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Dessonornis",
+	"species": "caffer",
+	"ebird": "https://ebird.org/species/carcha1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -359,9 +367,13 @@
 			"birdId": "robin-chat-cape",
 			"bird": {
 	"name": "Cape Robin-Chat",
-	"family-name": "Robin-Chat",
-	"scientific-name": "Dessonornis caffer",
-	"ebird": "https://ebird.org/species/carcha1/ZA"
+	"family_name": "Robin-Chat",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Dessonornis",
+	"species": "caffer",
+	"ebird": "https://ebird.org/species/carcha1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

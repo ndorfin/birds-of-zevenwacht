@@ -9,9 +9,13 @@
 			"birdId": "waxbill-common",
 			"bird": {
 	"name": "Common Waxbill",
-	"family-name": "Waxbill",
-	"scientific-name": "Estrilda astrild",
+	"family_name": "Waxbill",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Estrilda",
+	"species": "astrild",
 	"ebird": "https://ebird.org/species/comwax/ZA",
+	"red-list": "least-concern",
 	"size": {
 		"min": 110,
 		"max": 110
@@ -122,9 +126,13 @@
 			"birdId": "prinia-karoo",
 			"bird": {
 	"name": "Karoo Prinia",
-	"family-name": "Prinia",
-	"scientific-name": "Prinia maculosa",
-	"ebird": "https://ebird.org/species/karpri1/ZA"
+	"family_name": "Prinia",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Prinia",
+	"species": "maculosa",
+	"ebird": "https://ebird.org/species/karpri1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -220,9 +228,13 @@
 			"birdId": "kite-black-winged",
 			"bird": {
 	"name": "Black-winged Kite",
-	"family-name": "Kite",
-	"scientific-name": "Elanus caeruleus",
-	"ebird": "https://ebird.org/species/bkskit1/ZA"
+	"family_name": "Kite",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Elanus",
+	"species": "caeruleus",
+	"ebird": "https://ebird.org/species/bkskit1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -318,9 +330,13 @@
 			"birdId": "kestrel-rock",
 			"bird": {
 	"name": "Rock Kestrel",
-	"family-name": "Kestrel",
-	"scientific-name": "Falco rupicolus",
+	"family_name": "Kestrel",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Falco",
+	"species": "rupicolus",
 	"ebird": "https://ebird.org/species/eurkes1/ZA",
+	"red-list": "least-concern",
 	"size": {
 		"min": 300,
 		"max": 340
@@ -424,10 +440,13 @@
 			"birdId": "bee-eater-european",
 			"bird": {
 	"name": "European Bee-eater",
-	"family-name": "Bee-eater",
-	"scientific-name": "Merops apiaster",
+	"family_name": "Bee-eater",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Merops",
+	"species": "apiaster",
 	"ebird": "https://ebird.org/species/eubeat1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -523,9 +542,13 @@
 			"birdId": "eagle-booted",
 			"bird": {
 	"name": "Booted Eagle",
-	"family-name": "Eagle",
-	"scientific-name": "Hieraaetus pennatus",
-	"ebird": "https://ebird.org/species/booeag1/ZA"
+	"family_name": "Eagle",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Hieraaetus",
+	"species": "pennatus",
+	"ebird": "https://ebird.org/species/booeag1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -621,9 +644,13 @@
 			"birdId": "bishop-southern-red",
 			"bird": {
 	"name": "Southern Red Bishop",
-	"family-name": "Bishop",
-	"scientific-name": "Euplectes orix",
-	"ebird": "https://ebird.org/species/redbis/ZA"
+	"family_name": "Bishop",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Euplectes",
+	"species": "orix",
+	"ebird": "https://ebird.org/species/redbis/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -719,10 +746,13 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"name": "Black Sparrowhawk",
-	"family-name": "Sparrowhawk",
-	"scientific-name": "Astur melanoleucus",
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Astur",
+	"species": "melanoleucus",
 	"ebird": "https://ebird.org/species/blagos1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -818,8 +848,11 @@
 			"birdId": "duck-wood",
 			"bird": {
 	"name": "Wood Duck",
-	"family-name": "Duck",
-	"scientific-name": "Aix sponsa",
+	"family_name": "Duck",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Aix",
+	"species": "sponsa",
 	"ebird": "https://ebird.org/species/wooduc/ZA",
 	"red-list": "least-concern"
 },
@@ -917,9 +950,13 @@
 			"birdId": "spurfowl-cape",
 			"bird": {
 	"name": "Cape Spurfowl",
-	"family-name": "Spurfowl",
-	"scientific-name": "Pternistis capensis",
-	"ebird": "https://ebird.org/species/capfra2/ZA"
+	"family_name": "Spurfowl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Pternistis",
+	"species": "capensis",
+	"ebird": "https://ebird.org/species/capfra2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1015,9 +1052,13 @@
 			"birdId": "harrier-hawk-african",
 			"bird": {
 	"name": "African Harrier-hawk",
-	"family-name": "Harrier-hawk",
-	"scientific-name": "Polyboroides typus",
+	"family_name": "Harrier-hawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Polyboroides",
+	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"red-list": "least-concern",
 	"size": {
 		"min": 600,
 		"max": 660
@@ -1129,9 +1170,13 @@
 		"max": 950
 	},
 	"name": "African Harrier-hawk",
-	"family-name": "Harrier-hawk",
-	"scientific-name": "Polyboroides typus",
-	"ebird": "https://ebird.org/species/afhhaw1/ZA"
+	"family_name": "Harrier-hawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Polyboroides",
+	"species": "typus",
+	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1227,9 +1272,13 @@
 			"birdId": "cuckoo-klaass",
 			"bird": {
 	"name": "Klaas's Cuckoo",
-	"family-name": "Cuckoo",
-	"scientific-name": "Chrysococcyx klaas",
-	"ebird": "https://ebird.org/species/klacuc1/ZA"
+	"family_name": "Cuckoo",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Chrysococcyx",
+	"species": "klaas",
+	"ebird": "https://ebird.org/species/klacuc1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1333,9 +1382,13 @@
 		"max": 950
 	},
 	"name": "African Harrier-hawk",
-	"family-name": "Harrier-hawk",
-	"scientific-name": "Polyboroides typus",
-	"ebird": "https://ebird.org/species/afhhaw1/ZA"
+	"family_name": "Harrier-hawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Polyboroides",
+	"species": "typus",
+	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1431,9 +1484,13 @@
 			"birdId": "eagle-african-fish",
 			"bird": {
 	"name": "African Fish Eagle",
-	"family-name": "Eagle",
-	"scientific-name": "Icthyophaga vocifer",
-	"ebird": "https://ebird.org/species/affeag1/ZA"
+	"family_name": "Eagle",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Icthyophaga",
+	"species": "vocifer",
+	"ebird": "https://ebird.org/species/affeag1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1537,9 +1594,13 @@
 		"max": 275
 	},
 	"name": "Rock Kestrel",
-	"family-name": "Kestrel",
-	"scientific-name": "Falco rupicolus",
-	"ebird": "https://ebird.org/species/eurkes1/ZA"
+	"family_name": "Kestrel",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Falco",
+	"species": "rupicolus",
+	"ebird": "https://ebird.org/species/eurkes1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1635,9 +1696,13 @@
 			"birdId": "eagle-african-fish",
 			"bird": {
 	"name": "African Fish Eagle",
-	"family-name": "Eagle",
-	"scientific-name": "Icthyophaga vocifer",
-	"ebird": "https://ebird.org/species/affeag1/ZA"
+	"family_name": "Eagle",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Icthyophaga",
+	"species": "vocifer",
+	"ebird": "https://ebird.org/species/affeag1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1733,10 +1798,13 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"name": "Black Sparrowhawk",
-	"family-name": "Sparrowhawk",
-	"scientific-name": "Astur melanoleucus",
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Astur",
+	"species": "melanoleucus",
 	"ebird": "https://ebird.org/species/blagos1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1832,9 +1900,13 @@
 			"birdId": "crane-blue",
 			"bird": {
 	"name": "Blue Crane",
-	"family-name": "Crane",
-	"scientific-name": "Anthropoides paradiseus",
-	"ebird": "https://ebird.org/species/blucra2/ZA"
+	"family_name": "Crane",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anthropoides",
+	"species": "paradiseus",
+	"ebird": "https://ebird.org/species/blucra2/ZA",
+	"red-list": "vulnerable"
 },
 			"quantity": 2,
 			"location": {
@@ -1930,9 +2002,13 @@
 			"birdId": "barbet-acacia-pied",
 			"bird": {
 	"name": "Acacia Pied Barbet",
-	"family-name": "Barbet",
-	"scientific-name": "Tricholaema leucomelas",
-	"ebird": "https://ebird.org/species/piebar1/ZA"
+	"family_name": "Barbet",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Tricholaema",
+	"species": "leucomelas",
+	"ebird": "https://ebird.org/species/piebar1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

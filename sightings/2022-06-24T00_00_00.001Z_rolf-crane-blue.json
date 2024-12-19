@@ -5,9 +5,13 @@
 	"datetime": "2022-06-24T00:00:00.001Z",
 	"bird": {
 	"name": "Blue Crane",
-	"family-name": "Crane",
-	"scientific-name": "Anthropoides paradiseus",
-	"ebird": "https://ebird.org/species/blucra2/ZA"
+	"family_name": "Crane",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anthropoides",
+	"species": "paradiseus",
+	"ebird": "https://ebird.org/species/blucra2/ZA",
+	"red-list": "vulnerable"
 },
 	"quantity": 1,
 	"location": {

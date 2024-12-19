@@ -5,9 +5,13 @@
 	"datetime": "2024-11-18T08:16:00.000Z",
 	"bird": {
 	"name": "Black-headed Heron",
-	"family-name": "Heron",
-	"scientific-name": "Ardea melanocephala",
-	"ebird": "https://ebird.org/species/blhher1/ZA"
+	"family_name": "Heron",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Ardea",
+	"species": "melanocephala",
+	"ebird": "https://ebird.org/species/blhher1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

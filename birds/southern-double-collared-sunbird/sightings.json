@@ -9,9 +9,13 @@
 			"birdId": "sunbird-southern-double-collared",
 			"bird": {
 	"name": "Southern Double-collared Sunbird",
-	"family-name": "Sunbird",
-	"scientific-name": "Cinnyris chalybeus",
-	"ebird": "https://ebird.org/species/sdcsun3/ZA"
+	"family_name": "Sunbird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Cinnyris",
+	"species": "chalybeus",
+	"ebird": "https://ebird.org/species/sdcsun3/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -134,9 +138,13 @@
 			"birdId": "sunbird-southern-double-collared",
 			"bird": {
 	"name": "Southern Double-collared Sunbird",
-	"family-name": "Sunbird",
-	"scientific-name": "Cinnyris chalybeus",
-	"ebird": "https://ebird.org/species/sdcsun3/ZA"
+	"family_name": "Sunbird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Cinnyris",
+	"species": "chalybeus",
+	"ebird": "https://ebird.org/species/sdcsun3/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

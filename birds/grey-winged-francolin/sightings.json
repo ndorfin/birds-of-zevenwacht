@@ -9,9 +9,13 @@
 			"birdId": "francolin-grey-winged",
 			"bird": {
 	"name": "Grey-winged Francolin",
-	"family-name": "Francolin",
-	"scientific-name": "Scleroptila afra",
-	"ebird": "https://ebird.org/species/gywfra1/ZA"
+	"family_name": "Francolin",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Scleroptila",
+	"species": "afra",
+	"ebird": "https://ebird.org/species/gywfra1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

@@ -9,9 +9,13 @@
 			"birdId": "eagle-booted",
 			"bird": {
 	"name": "Booted Eagle",
-	"family-name": "Eagle",
-	"scientific-name": "Hieraaetus pennatus",
-	"ebird": "https://ebird.org/species/booeag1/ZA"
+	"family_name": "Eagle",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Hieraaetus",
+	"species": "pennatus",
+	"ebird": "https://ebird.org/species/booeag1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -134,9 +138,13 @@
 			"birdId": "eagle-booted",
 			"bird": {
 	"name": "Booted Eagle",
-	"family-name": "Eagle",
-	"scientific-name": "Hieraaetus pennatus",
-	"ebird": "https://ebird.org/species/booeag1/ZA"
+	"family_name": "Eagle",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Hieraaetus",
+	"species": "pennatus",
+	"ebird": "https://ebird.org/species/booeag1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -259,9 +267,13 @@
 			"birdId": "eagle-booted",
 			"bird": {
 	"name": "Booted Eagle",
-	"family-name": "Eagle",
-	"scientific-name": "Hieraaetus pennatus",
-	"ebird": "https://ebird.org/species/booeag1/ZA"
+	"family_name": "Eagle",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Hieraaetus",
+	"species": "pennatus",
+	"ebird": "https://ebird.org/species/booeag1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

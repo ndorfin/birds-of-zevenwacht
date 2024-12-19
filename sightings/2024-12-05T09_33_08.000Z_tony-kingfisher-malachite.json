@@ -5,9 +5,13 @@
 	"datetime": "2024-12-05T09:33:08.000Z",
 	"bird": {
 	"name": "Malachite Kingfisher",
-	"family-name": "Kingfisher",
-	"scientific-name": "Corythornis cristatus",
-	"ebird": "https://ebird.org/species/malkin1/ZA"
+	"family_name": "Kingfisher",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Corythornis",
+	"species": "cristatus",
+	"ebird": "https://ebird.org/species/malkin1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 2,
 	"location": {

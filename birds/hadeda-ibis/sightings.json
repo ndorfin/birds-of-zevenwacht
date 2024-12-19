@@ -9,9 +9,13 @@
 			"birdId": "ibis-hadeda",
 			"bird": {
 	"name": "Hadeda Ibis",
-	"family-name": "Ibis",
-	"scientific-name": "Bostrychia hagedash",
-	"ebird": "https://ebird.org/species/hadibi1/ZA"
+	"family_name": "Ibis",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bostrychia",
+	"species": "hagedash",
+	"ebird": "https://ebird.org/species/hadibi1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -134,9 +138,13 @@
 			"birdId": "ibis-hadeda",
 			"bird": {
 	"name": "Hadeda Ibis",
-	"family-name": "Ibis",
-	"scientific-name": "Bostrychia hagedash",
-	"ebird": "https://ebird.org/species/hadibi1/ZA"
+	"family_name": "Ibis",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bostrychia",
+	"species": "hagedash",
+	"ebird": "https://ebird.org/species/hadibi1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -259,9 +267,13 @@
 			"birdId": "ibis-hadeda",
 			"bird": {
 	"name": "Hadeda Ibis",
-	"family-name": "Ibis",
-	"scientific-name": "Bostrychia hagedash",
-	"ebird": "https://ebird.org/species/hadibi1/ZA"
+	"family_name": "Ibis",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bostrychia",
+	"species": "hagedash",
+	"ebird": "https://ebird.org/species/hadibi1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -384,9 +396,13 @@
 			"birdId": "ibis-hadeda",
 			"bird": {
 	"name": "Hadeda Ibis",
-	"family-name": "Ibis",
-	"scientific-name": "Bostrychia hagedash",
-	"ebird": "https://ebird.org/species/hadibi1/ZA"
+	"family_name": "Ibis",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bostrychia",
+	"species": "hagedash",
+	"ebird": "https://ebird.org/species/hadibi1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -509,9 +525,13 @@
 			"birdId": "ibis-hadeda",
 			"bird": {
 	"name": "Hadeda Ibis",
-	"family-name": "Ibis",
-	"scientific-name": "Bostrychia hagedash",
-	"ebird": "https://ebird.org/species/hadibi1/ZA"
+	"family_name": "Ibis",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bostrychia",
+	"species": "hagedash",
+	"ebird": "https://ebird.org/species/hadibi1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

@@ -5,9 +5,13 @@
 	"datetime": "2022-11-16T08:18:04.000Z",
 	"bird": {
 	"name": "African Paradise Flycatcher",
-	"family-name": "Flycatcher",
-	"scientific-name": "Terpsiphone viridis",
-	"ebird": "https://ebird.org/species/afpfly1/ZA"
+	"family_name": "Flycatcher",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Terpsiphone",
+	"species": "viridis",
+	"ebird": "https://ebird.org/species/afpfly1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

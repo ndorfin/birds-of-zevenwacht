@@ -9,9 +9,13 @@
 			"birdId": "sunbird-malachite",
 			"bird": {
 	"name": "Malachite Sunbird",
-	"family-name": "Sunbird",
-	"scientific-name": "Nectarinia famosa",
-	"ebird": "https://ebird.org/species/malsun1/ZA"
+	"family_name": "Sunbird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Nectarinia",
+	"species": "famosa",
+	"ebird": "https://ebird.org/species/malsun1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -134,9 +138,13 @@
 			"birdId": "sunbird-malachite",
 			"bird": {
 	"name": "Malachite Sunbird",
-	"family-name": "Sunbird",
-	"scientific-name": "Nectarinia famosa",
-	"ebird": "https://ebird.org/species/malsun1/ZA"
+	"family_name": "Sunbird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Nectarinia",
+	"species": "famosa",
+	"ebird": "https://ebird.org/species/malsun1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -273,9 +281,13 @@
 			"birdId": "sunbird-malachite",
 			"bird": {
 	"name": "Malachite Sunbird",
-	"family-name": "Sunbird",
-	"scientific-name": "Nectarinia famosa",
-	"ebird": "https://ebird.org/species/malsun1/ZA"
+	"family_name": "Sunbird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Nectarinia",
+	"species": "famosa",
+	"ebird": "https://ebird.org/species/malsun1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -398,9 +410,13 @@
 			"birdId": "sunbird-malachite",
 			"bird": {
 	"name": "Malachite Sunbird",
-	"family-name": "Sunbird",
-	"scientific-name": "Nectarinia famosa",
-	"ebird": "https://ebird.org/species/malsun1/ZA"
+	"family_name": "Sunbird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Nectarinia",
+	"species": "famosa",
+	"ebird": "https://ebird.org/species/malsun1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

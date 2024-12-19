@@ -9,9 +9,13 @@
 			"birdId": "white-eye-cape",
 			"bird": {
 	"name": "Cape White-eye",
-	"family-name": "White-eye",
-	"scientific-name": "Zosterops virens",
-	"ebird": "https://ebird.org/species/capwhe2/ZA"
+	"family_name": "White-eye",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Zosterops",
+	"species": "virens",
+	"ebird": "https://ebird.org/species/capwhe2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -148,9 +152,13 @@
 			"birdId": "white-eye-cape",
 			"bird": {
 	"name": "Cape White-eye",
-	"family-name": "White-eye",
-	"scientific-name": "Zosterops virens",
-	"ebird": "https://ebird.org/species/capwhe2/ZA"
+	"family_name": "White-eye",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Zosterops",
+	"species": "virens",
+	"ebird": "https://ebird.org/species/capwhe2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -273,9 +281,13 @@
 			"birdId": "white-eye-cape",
 			"bird": {
 	"name": "Cape White-eye",
-	"family-name": "White-eye",
-	"scientific-name": "Zosterops virens",
-	"ebird": "https://ebird.org/species/capwhe2/ZA"
+	"family_name": "White-eye",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Zosterops",
+	"species": "virens",
+	"ebird": "https://ebird.org/species/capwhe2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

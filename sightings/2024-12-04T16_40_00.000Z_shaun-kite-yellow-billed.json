@@ -5,8 +5,11 @@
 	"datetime": "2024-12-04T16:40:00.000Z",
 	"bird": {
 	"name": "Yellow-billed Kite",
-	"family-name": "Kite",
-	"scientific-name": "Milvus aegyptius",
+	"family_name": "Kite",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Milvus",
+	"species": "aegyptius",
 	"ebird": null
 },
 	"quantity": 1,

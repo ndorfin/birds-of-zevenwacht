@@ -5,9 +5,13 @@
 	"datetime": "2024-09-23T13:57:28.000Z",
 	"bird": {
 	"name": "Blacksmith Lapwing",
-	"family-name": "Lapwing",
-	"scientific-name": "Vanellus armatus",
-	"ebird": "https://ebird.org/species/blaplo1/ZA"
+	"family_name": "Lapwing",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Vanellus",
+	"species": "armatus",
+	"ebird": "https://ebird.org/species/blaplo1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

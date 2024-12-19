@@ -9,9 +9,13 @@
 			"birdId": "boubou-southern",
 			"bird": {
 	"name": "Southern Boubou",
-	"family-name": "Bush-shrike",
-	"scientific-name": "Laniarius ferrugineus",
-	"ebird": "https://ebird.org/species/soubou1/ZA"
+	"family_name": "Bush-shrike",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Laniarius",
+	"species": "ferrugineus",
+	"ebird": "https://ebird.org/species/soubou1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -227,9 +231,13 @@
 			"birdId": "boubou-southern",
 			"bird": {
 	"name": "Southern Boubou",
-	"family-name": "Bush-shrike",
-	"scientific-name": "Laniarius ferrugineus",
-	"ebird": "https://ebird.org/species/soubou1/ZA"
+	"family_name": "Bush-shrike",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Laniarius",
+	"species": "ferrugineus",
+	"ebird": "https://ebird.org/species/soubou1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

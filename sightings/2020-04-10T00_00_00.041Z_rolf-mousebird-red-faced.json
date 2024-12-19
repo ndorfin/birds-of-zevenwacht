@@ -5,9 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.041Z",
 	"bird": {
 	"name": "Red-faced Mousebird",
-	"family-name": "Mousebird",
-	"scientific-name": "Urocolius indicus",
-	"ebird": "https://ebird.org/species/refmou1/ZA"
+	"family_name": "Mousebird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Urocolius",
+	"species": "indicus",
+	"ebird": "https://ebird.org/species/refmou1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

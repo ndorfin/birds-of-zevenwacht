@@ -5,10 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.054Z",
 	"bird": {
 	"name": "Cardinal Woodpecker",
-	"family-name": "Woodpecker",
-	"scientific-name": "Dendropicos fuscescens",
+	"family_name": "Woodpecker",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Dendropicos",
+	"species": "fuscescens",
 	"ebird": "https://ebird.org/species/carwoo1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

@@ -9,10 +9,13 @@
 			"birdId": "woodpecker-olive",
 			"bird": {
 	"name": "Olive Woodpecker",
-	"family-name": "Woodpecker",
-	"scientific-name": "Dendropicos griseocephalus",
+	"family_name": "Woodpecker",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Dendropicos",
+	"species": "griseocephalus",
 	"ebird": "https://ebird.org/species/oliwoo2/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

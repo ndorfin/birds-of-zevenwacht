@@ -9,9 +9,13 @@
 			"birdId": "sparrow-house",
 			"bird": {
 	"name": "House Sparrow",
-	"family-name": "Sparrow",
-	"scientific-name": "Passer domesticus",
-	"ebird": "https://ebird.org/species/houspa/ZA"
+	"family_name": "Sparrow",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Passer",
+	"species": "domesticus",
+	"ebird": "https://ebird.org/species/houspa/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

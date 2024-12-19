@@ -9,9 +9,13 @@
 			"birdId": "prinia-karoo",
 			"bird": {
 	"name": "Karoo Prinia",
-	"family-name": "Prinia",
-	"scientific-name": "Prinia maculosa",
-	"ebird": "https://ebird.org/species/karpri1/ZA"
+	"family_name": "Prinia",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Prinia",
+	"species": "maculosa",
+	"ebird": "https://ebird.org/species/karpri1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -227,9 +231,13 @@
 			"birdId": "prinia-karoo",
 			"bird": {
 	"name": "Karoo Prinia",
-	"family-name": "Prinia",
-	"scientific-name": "Prinia maculosa",
-	"ebird": "https://ebird.org/species/karpri1/ZA"
+	"family_name": "Prinia",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Prinia",
+	"species": "maculosa",
+	"ebird": "https://ebird.org/species/karpri1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -325,9 +333,13 @@
 			"birdId": "prinia-karoo",
 			"bird": {
 	"name": "Karoo Prinia",
-	"family-name": "Prinia",
-	"scientific-name": "Prinia maculosa",
-	"ebird": "https://ebird.org/species/karpri1/ZA"
+	"family_name": "Prinia",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Prinia",
+	"species": "maculosa",
+	"ebird": "https://ebird.org/species/karpri1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

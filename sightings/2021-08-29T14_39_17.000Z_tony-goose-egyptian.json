@@ -5,9 +5,13 @@
 	"datetime": "2021-08-29T14:39:17.000Z",
 	"bird": {
 	"name": "Egyptian Goose",
-	"family-name": "Goose",
-	"scientific-name": "Alopochen aegyptiaca",
-	"ebird": "https://ebird.org/species/egygoo/ZA"
+	"family_name": "Goose",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Alopochen",
+	"species": "aegyptiaca",
+	"ebird": "https://ebird.org/species/egygoo/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 13,
 	"location": {

@@ -9,9 +9,13 @@
 			"birdId": "duck-yellow-billed",
 			"bird": {
 	"name": "Yellow-billed Duck",
-	"family-name": "Duck",
-	"scientific-name": "Anas undulata",
-	"ebird": "https://ebird.org/species/yebduc1/ZA"
+	"family_name": "Duck",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anas",
+	"species": "undulata",
+	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 4,
 			"location": {
@@ -162,9 +166,13 @@
 			"birdId": "duck-yellow-billed",
 			"bird": {
 	"name": "Yellow-billed Duck",
-	"family-name": "Duck",
-	"scientific-name": "Anas undulata",
-	"ebird": "https://ebird.org/species/yebduc1/ZA"
+	"family_name": "Duck",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anas",
+	"species": "undulata",
+	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -308,9 +316,13 @@
 			"birdId": "duck-yellow-billed",
 			"bird": {
 	"name": "Yellow-billed Duck",
-	"family-name": "Duck",
-	"scientific-name": "Anas undulata",
-	"ebird": "https://ebird.org/species/yebduc1/ZA"
+	"family_name": "Duck",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anas",
+	"species": "undulata",
+	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -461,9 +473,13 @@
 			"birdId": "duck-yellow-billed",
 			"bird": {
 	"name": "Yellow-billed Duck",
-	"family-name": "Duck",
-	"scientific-name": "Anas undulata",
-	"ebird": "https://ebird.org/species/yebduc1/ZA"
+	"family_name": "Duck",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anas",
+	"species": "undulata",
+	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -586,9 +602,13 @@
 			"birdId": "duck-yellow-billed",
 			"bird": {
 	"name": "Yellow-billed Duck",
-	"family-name": "Duck",
-	"scientific-name": "Anas undulata",
-	"ebird": "https://ebird.org/species/yebduc1/ZA"
+	"family_name": "Duck",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anas",
+	"species": "undulata",
+	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

@@ -9,9 +9,13 @@
 			"birdId": "kestrel-rock",
 			"bird": {
 	"name": "Rock Kestrel",
-	"family-name": "Kestrel",
-	"scientific-name": "Falco rupicolus",
+	"family_name": "Kestrel",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Falco",
+	"species": "rupicolus",
 	"ebird": "https://ebird.org/species/eurkes1/ZA",
+	"red-list": "least-concern",
 	"size": {
 		"min": 300,
 		"max": 340
@@ -243,9 +247,13 @@
 		"max": 275
 	},
 	"name": "Rock Kestrel",
-	"family-name": "Kestrel",
-	"scientific-name": "Falco rupicolus",
-	"ebird": "https://ebird.org/species/eurkes1/ZA"
+	"family_name": "Kestrel",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Falco",
+	"species": "rupicolus",
+	"ebird": "https://ebird.org/species/eurkes1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -476,9 +484,13 @@
 		"max": 275
 	},
 	"name": "Rock Kestrel",
-	"family-name": "Kestrel",
-	"scientific-name": "Falco rupicolus",
-	"ebird": "https://ebird.org/species/eurkes1/ZA"
+	"family_name": "Kestrel",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Falco",
+	"species": "rupicolus",
+	"ebird": "https://ebird.org/species/eurkes1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -582,9 +594,13 @@
 		"max": 275
 	},
 	"name": "Rock Kestrel",
-	"family-name": "Kestrel",
-	"scientific-name": "Falco rupicolus",
-	"ebird": "https://ebird.org/species/eurkes1/ZA"
+	"family_name": "Kestrel",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Falco",
+	"species": "rupicolus",
+	"ebird": "https://ebird.org/species/eurkes1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

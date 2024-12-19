@@ -5,9 +5,13 @@
 	"datetime": "2024-09-03T13:28:53.000Z",
 	"bird": {
 	"name": "African Dusky Flycatcher",
-	"family-name": "Flycatcher",
-	"scientific-name": "Muscicapa adusta",
-	"ebird": "https://ebird.org/species/afdfly1/ZA"
+	"family_name": "Flycatcher",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Muscicapa",
+	"species": "adusta",
+	"ebird": "https://ebird.org/species/afdfly1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

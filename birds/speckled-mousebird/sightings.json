@@ -9,9 +9,13 @@
 			"birdId": "mousebird-speckled",
 			"bird": {
 	"name": "Speckled Mousebird",
-	"family-name": "Mousebird",
-	"scientific-name": "Colius striatus",
-	"ebird": "https://ebird.org/species/spemou2/ZA"
+	"family_name": "Mousebird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Colius",
+	"species": "striatus",
+	"ebird": "https://ebird.org/species/spemou2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

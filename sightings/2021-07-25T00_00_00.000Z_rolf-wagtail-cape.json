@@ -5,10 +5,13 @@
 	"datetime": "2021-07-25T00:00:00.000Z",
 	"bird": {
 	"name": "Cape Wagtail",
-	"family-name": "Wagtail",
-	"scientific-name": "Motacilla capensis",
+	"family_name": "Wagtail",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Motacilla",
+	"species": "capensis",
 	"ebird": "https://ebird.org/species/capwag1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

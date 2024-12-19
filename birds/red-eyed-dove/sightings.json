@@ -9,9 +9,13 @@
 			"birdId": "dove-red-eyed",
 			"bird": {
 	"name": "Red-eyed Dove",
-	"family-name": "Dove",
-	"scientific-name": "Streptopelia semitorquata",
-	"ebird": "https://ebird.org/species/reedov1/ZA"
+	"family_name": "Dove",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Streptopelia",
+	"species": "semitorquata",
+	"ebird": "https://ebird.org/species/reedov1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

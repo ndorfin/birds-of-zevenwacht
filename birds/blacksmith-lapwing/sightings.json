@@ -9,9 +9,13 @@
 			"birdId": "lapwing-blacksmith",
 			"bird": {
 	"name": "Blacksmith Lapwing",
-	"family-name": "Lapwing",
-	"scientific-name": "Vanellus armatus",
-	"ebird": "https://ebird.org/species/blaplo1/ZA"
+	"family_name": "Lapwing",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Vanellus",
+	"species": "armatus",
+	"ebird": "https://ebird.org/species/blaplo1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -155,9 +159,13 @@
 			"birdId": "lapwing-blacksmith",
 			"bird": {
 	"name": "Blacksmith Lapwing",
-	"family-name": "Lapwing",
-	"scientific-name": "Vanellus armatus",
-	"ebird": "https://ebird.org/species/blaplo1/ZA"
+	"family_name": "Lapwing",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Vanellus",
+	"species": "armatus",
+	"ebird": "https://ebird.org/species/blaplo1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -380,9 +388,13 @@
 			"birdId": "lapwing-blacksmith",
 			"bird": {
 	"name": "Blacksmith Lapwing",
-	"family-name": "Lapwing",
-	"scientific-name": "Vanellus armatus",
-	"ebird": "https://ebird.org/species/blaplo1/ZA"
+	"family_name": "Lapwing",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Vanellus",
+	"species": "armatus",
+	"ebird": "https://ebird.org/species/blaplo1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

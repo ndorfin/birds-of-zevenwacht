@@ -5,9 +5,13 @@
 	"datetime": "2022-09-24T12:09:34.000Z",
 	"bird": {
 	"name": "Hadeda Ibis",
-	"family-name": "Ibis",
-	"scientific-name": "Bostrychia hagedash",
-	"ebird": "https://ebird.org/species/hadibi1/ZA"
+	"family_name": "Ibis",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bostrychia",
+	"species": "hagedash",
+	"ebird": "https://ebird.org/species/hadibi1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

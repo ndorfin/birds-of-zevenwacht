@@ -5,9 +5,13 @@
 	"datetime": "2024-11-18T15:30:00.000Z",
 	"bird": {
 	"name": "Rock Kestrel",
-	"family-name": "Kestrel",
-	"scientific-name": "Falco rupicolus",
+	"family_name": "Kestrel",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Falco",
+	"species": "rupicolus",
 	"ebird": "https://ebird.org/species/eurkes1/ZA",
+	"red-list": "least-concern",
 	"size": {
 		"min": 300,
 		"max": 340

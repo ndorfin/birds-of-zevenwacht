@@ -9,8 +9,11 @@
 			"birdId": "duck-wood",
 			"bird": {
 	"name": "Wood Duck",
-	"family-name": "Duck",
-	"scientific-name": "Aix sponsa",
+	"family_name": "Duck",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Aix",
+	"species": "sponsa",
 	"ebird": "https://ebird.org/species/wooduc/ZA",
 	"red-list": "least-concern"
 },

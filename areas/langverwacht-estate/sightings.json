@@ -9,9 +9,13 @@
 			"birdId": "duck-yellow-billed",
 			"bird": {
 	"name": "Yellow-billed Duck",
-	"family-name": "Duck",
-	"scientific-name": "Anas undulata",
-	"ebird": "https://ebird.org/species/yebduc1/ZA"
+	"family_name": "Duck",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anas",
+	"species": "undulata",
+	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 4,
 			"location": {
@@ -162,8 +166,11 @@
 			"birdId": "darter-african",
 			"bird": {
 	"name": "African Darter",
-	"family-name": "Darter",
-	"scientific-name": "Anhinga rufa",
+	"family_name": "Darter",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anhinga",
+	"species": "rufa",
 	"ebird": "https://ebird.org/species/darter3/ZA",
 	"red-list": "least-concern"
 },
@@ -316,9 +323,13 @@
 			"birdId": "crow-pied",
 			"bird": {
 	"name": "Pied Crow",
-	"family-name": "Crow",
-	"scientific-name": "Corvus Albus",
+	"family_name": "Crow",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Corvus",
+	"species": "Albus",
 	"ebird": "https://ebird.org/species/piecro1/ZA",
+	"red-list": "least-concern",
 	"size": {
 		"min": 460,
 		"max": 500
@@ -477,9 +488,13 @@
 			"birdId": "moorhen-common",
 			"bird": {
 	"name": "Common Moorhen",
-	"family-name": "Moorhen",
-	"scientific-name": "Gallinula chloropus",
-	"ebird": "https://ebird.org/species/commoo3/ZA"
+	"family_name": "Moorhen",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Gallinula",
+	"species": "chloropus",
+	"ebird": "https://ebird.org/species/commoo3/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -630,9 +645,13 @@
 			"birdId": "flycatcher-african-paradise",
 			"bird": {
 	"name": "African Paradise Flycatcher",
-	"family-name": "Flycatcher",
-	"scientific-name": "Terpsiphone viridis",
-	"ebird": "https://ebird.org/species/afpfly1/ZA"
+	"family_name": "Flycatcher",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Terpsiphone",
+	"species": "viridis",
+	"ebird": "https://ebird.org/species/afpfly1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -776,9 +795,13 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"name": "Spotted Eagle-Owl",
-	"family-name": "Owl",
-	"scientific-name": "Bubo africanus",
-	"ebird": "https://ebird.org/species/spoeao2/ZA"
+	"family_name": "Owl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bubo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -922,9 +945,13 @@
 			"birdId": "moorhen-common",
 			"bird": {
 	"name": "Common Moorhen",
-	"family-name": "Moorhen",
-	"scientific-name": "Gallinula chloropus",
-	"ebird": "https://ebird.org/species/commoo3/ZA"
+	"family_name": "Moorhen",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Gallinula",
+	"species": "chloropus",
+	"ebird": "https://ebird.org/species/commoo3/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1068,9 +1095,13 @@
 			"birdId": "kingfisher-giant",
 			"bird": {
 	"name": "Giant Kingfisher",
-	"family-name": "Kingfisher",
-	"scientific-name": "Megaceryle maxima",
-	"ebird": "https://ebird.org/species/giakin3/ZA"
+	"family_name": "Kingfisher",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Megaceryle",
+	"species": "maxima",
+	"ebird": "https://ebird.org/species/giakin3/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1214,9 +1245,13 @@
 			"birdId": "duck-yellow-billed",
 			"bird": {
 	"name": "Yellow-billed Duck",
-	"family-name": "Duck",
-	"scientific-name": "Anas undulata",
-	"ebird": "https://ebird.org/species/yebduc1/ZA"
+	"family_name": "Duck",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anas",
+	"species": "undulata",
+	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1360,9 +1395,13 @@
 			"birdId": "cormorant-reed",
 			"bird": {
 	"name": "Reed Cormorant",
-	"family-name": "Cormorant",
-	"scientific-name": "Microcarbo africanus",
-	"ebird": "https://ebird.org/species/lotcor1/ZA"
+	"family_name": "Cormorant",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Microcarbo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/lotcor1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1506,9 +1545,13 @@
 			"birdId": "swift-african-black",
 			"bird": {
 	"name": "African Black Swift",
-	"family-name": "Swift",
-	"scientific-name": "Apus barbatus",
-	"ebird": "https://ebird.org/species/afrswi1/ZA"
+	"family_name": "Swift",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Apus",
+	"species": "barbatus",
+	"ebird": "https://ebird.org/species/afrswi1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1652,9 +1695,13 @@
 			"birdId": "kingfisher-malachite",
 			"bird": {
 	"name": "Malachite Kingfisher",
-	"family-name": "Kingfisher",
-	"scientific-name": "Corythornis cristatus",
-	"ebird": "https://ebird.org/species/malkin1/ZA"
+	"family_name": "Kingfisher",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Corythornis",
+	"species": "cristatus",
+	"ebird": "https://ebird.org/species/malkin1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1798,9 +1845,13 @@
 			"birdId": "coot-red-knobbed",
 			"bird": {
 	"name": "Red-knobbed Coot",
-	"family-name": "Coot",
-	"scientific-name": "Fulica cristata",
-	"ebird": "https://ebird.org/species/rekcoo1/ZA"
+	"family_name": "Coot",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Fulica",
+	"species": "cristata",
+	"ebird": "https://ebird.org/species/rekcoo1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {
@@ -1944,9 +1995,13 @@
 			"birdId": "lapwing-blacksmith",
 			"bird": {
 	"name": "Blacksmith Lapwing",
-	"family-name": "Lapwing",
-	"scientific-name": "Vanellus armatus",
-	"ebird": "https://ebird.org/species/blaplo1/ZA"
+	"family_name": "Lapwing",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Vanellus",
+	"species": "armatus",
+	"ebird": "https://ebird.org/species/blaplo1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -2090,9 +2145,13 @@
 			"birdId": "duck-yellow-billed",
 			"bird": {
 	"name": "Yellow-billed Duck",
-	"family-name": "Duck",
-	"scientific-name": "Anas undulata",
-	"ebird": "https://ebird.org/species/yebduc1/ZA"
+	"family_name": "Duck",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anas",
+	"species": "undulata",
+	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -2243,9 +2302,13 @@
 			"birdId": "crane-blue",
 			"bird": {
 	"name": "Blue Crane",
-	"family-name": "Crane",
-	"scientific-name": "Anthropoides paradiseus",
-	"ebird": "https://ebird.org/species/blucra2/ZA"
+	"family_name": "Crane",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anthropoides",
+	"species": "paradiseus",
+	"ebird": "https://ebird.org/species/blucra2/ZA",
+	"red-list": "vulnerable"
 },
 			"quantity": 2,
 			"location": {
@@ -2389,9 +2452,13 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"name": "Spotted Eagle-Owl",
-	"family-name": "Owl",
-	"scientific-name": "Bubo africanus",
-	"ebird": "https://ebird.org/species/spoeao2/ZA"
+	"family_name": "Owl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bubo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {
@@ -2542,9 +2609,13 @@
 			"birdId": "kite-black-winged",
 			"bird": {
 	"name": "Black-winged Kite",
-	"family-name": "Kite",
-	"scientific-name": "Elanus caeruleus",
-	"ebird": "https://ebird.org/species/bkskit1/ZA"
+	"family_name": "Kite",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Elanus",
+	"species": "caeruleus",
+	"ebird": "https://ebird.org/species/bkskit1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

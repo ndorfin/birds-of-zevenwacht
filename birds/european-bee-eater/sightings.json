@@ -9,10 +9,13 @@
 			"birdId": "bee-eater-european",
 			"bird": {
 	"name": "European Bee-eater",
-	"family-name": "Bee-eater",
-	"scientific-name": "Merops apiaster",
+	"family_name": "Bee-eater",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Merops",
+	"species": "apiaster",
 	"ebird": "https://ebird.org/species/eubeat1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -135,10 +138,13 @@
 			"birdId": "bee-eater-european",
 			"bird": {
 	"name": "European Bee-eater",
-	"family-name": "Bee-eater",
-	"scientific-name": "Merops apiaster",
+	"family_name": "Bee-eater",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Merops",
+	"species": "apiaster",
 	"ebird": "https://ebird.org/species/eubeat1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -261,10 +267,13 @@
 			"birdId": "bee-eater-european",
 			"bird": {
 	"name": "European Bee-eater",
-	"family-name": "Bee-eater",
-	"scientific-name": "Merops apiaster",
+	"family_name": "Bee-eater",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Merops",
+	"species": "apiaster",
 	"ebird": "https://ebird.org/species/eubeat1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

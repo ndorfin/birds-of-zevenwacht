@@ -5,10 +5,13 @@
 	"datetime": "2021-10-09T00:00:00.000Z",
 	"bird": {
 	"name": "Grey Heron",
-	"family-name": "Heron",
-	"scientific-name": "Ardea cinerea",
+	"family_name": "Heron",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Ardea",
+	"species": "cinerea",
 	"ebird": "https://ebird.org/species/graher1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

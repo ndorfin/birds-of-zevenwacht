@@ -9,8 +9,11 @@
 			"birdId": "pelican-great-white",
 			"bird": {
 	"name": "Great White Pelican",
-	"family-name": "Pelican",
-	"scientific-name": "Pelecanus onocrotalus",
+	"family_name": "Pelican",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Pelecanus",
+	"species": "onocrotalus",
 	"ebird": "https://ebird.org/species/grwpel1/ZA",
 	"red-list": "least-concern"
 },

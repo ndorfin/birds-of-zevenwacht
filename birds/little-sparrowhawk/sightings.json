@@ -9,9 +9,13 @@
 			"birdId": "sparrowhawk-little",
 			"bird": {
 	"name": "Little Sparrowhawk",
-	"family-name": "Sparrowhawk",
-	"scientific-name": "Tachyspiza minulla",
-	"ebird": "https://ebird.org/species/litspa1/ZA"
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Tachyspiza",
+	"species": "minulla",
+	"ebird": "https://ebird.org/species/litspa1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

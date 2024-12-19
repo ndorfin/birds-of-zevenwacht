@@ -5,9 +5,13 @@
 	"datetime": "2024-11-15T16:54:08.000Z",
 	"bird": {
 	"name": "African Black Swift",
-	"family-name": "Swift",
-	"scientific-name": "Apus barbatus",
-	"ebird": "https://ebird.org/species/afrswi1/ZA"
+	"family_name": "Swift",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Apus",
+	"species": "barbatus",
+	"ebird": "https://ebird.org/species/afrswi1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 3,
 	"location": {

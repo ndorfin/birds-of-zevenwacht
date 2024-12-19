@@ -5,9 +5,13 @@
 	"datetime": "2020-09-03T12:48:45.000Z",
 	"bird": {
 	"name": "African Goshwawk",
-	"family-name": "Goshawk",
-	"scientific-name": "Aerospiza tachiro",
-	"ebird": "https://ebird.org/species/afrgos1/ZA"
+	"family_name": "Goshawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Aerospiza",
+	"species": "tachiro",
+	"ebird": "https://ebird.org/species/afrgos1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

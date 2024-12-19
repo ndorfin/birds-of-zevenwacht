@@ -9,9 +9,13 @@
 			"birdId": "ibis-african-sacred",
 			"bird": {
 	"name": "African Sacred Ibis",
-	"family-name": "Ibis",
-	"scientific-name": "Threskiornis aethiopicus",
-	"ebird": "https://ebird.org/species/sacibi2/ZA"
+	"family_name": "Ibis",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Threskiornis",
+	"species": "aethiopicus",
+	"ebird": "https://ebird.org/species/sacibi2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 14,
 			"location": {
@@ -234,9 +238,13 @@
 			"birdId": "ibis-african-sacred",
 			"bird": {
 	"name": "African Sacred Ibis",
-	"family-name": "Ibis",
-	"scientific-name": "Threskiornis aethiopicus",
-	"ebird": "https://ebird.org/species/sacibi2/ZA"
+	"family_name": "Ibis",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Threskiornis",
+	"species": "aethiopicus",
+	"ebird": "https://ebird.org/species/sacibi2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -452,9 +460,13 @@
 			"birdId": "ibis-african-sacred",
 			"bird": {
 	"name": "African Sacred Ibis",
-	"family-name": "Ibis",
-	"scientific-name": "Threskiornis aethiopicus",
-	"ebird": "https://ebird.org/species/sacibi2/ZA"
+	"family_name": "Ibis",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Threskiornis",
+	"species": "aethiopicus",
+	"ebird": "https://ebird.org/species/sacibi2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -577,9 +589,13 @@
 			"birdId": "ibis-african-sacred",
 			"bird": {
 	"name": "African Sacred Ibis",
-	"family-name": "Ibis",
-	"scientific-name": "Threskiornis aethiopicus",
-	"ebird": "https://ebird.org/species/sacibi2/ZA"
+	"family_name": "Ibis",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Threskiornis",
+	"species": "aethiopicus",
+	"ebird": "https://ebird.org/species/sacibi2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

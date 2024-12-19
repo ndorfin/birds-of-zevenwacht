@@ -5,9 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.028Z",
 	"bird": {
 	"name": "Amethyst Sunbird",
-	"family-name": "Sunbird",
-	"scientific-name": "Chalcomitra amethystina",
-	"ebird": "https://ebird.org/species/amesun2/ZA"
+	"family_name": "Sunbird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Chalcomitra",
+	"species": "amethystina",
+	"ebird": "https://ebird.org/species/amesun2/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

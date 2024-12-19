@@ -5,9 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.035Z",
 	"bird": {
 	"name": "Bokmakierie",
-	"family-name": "Bush-shrike",
-	"scientific-name": "Telophorus zeylonus",
-	"ebird": "https://ebird.org/species/bokmak1/ZA"
+	"family_name": "Bush-shrike",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Telophorus",
+	"species": "zeylonus",
+	"ebird": "https://ebird.org/species/bokmak1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

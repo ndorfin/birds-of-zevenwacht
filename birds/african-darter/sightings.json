@@ -9,8 +9,11 @@
 			"birdId": "darter-african",
 			"bird": {
 	"name": "African Darter",
-	"family-name": "Darter",
-	"scientific-name": "Anhinga rufa",
+	"family_name": "Darter",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anhinga",
+	"species": "rufa",
 	"ebird": "https://ebird.org/species/darter3/ZA",
 	"red-list": "least-concern"
 },

@@ -5,9 +5,13 @@
 	"datetime": "2024-11-28T17:21:57.000Z",
 	"bird": {
 	"name": "Pied Crow",
-	"family-name": "Crow",
-	"scientific-name": "Corvus Albus",
+	"family_name": "Crow",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Corvus",
+	"species": "Albus",
 	"ebird": "https://ebird.org/species/piecro1/ZA",
+	"red-list": "least-concern",
 	"size": {
 		"min": 460,
 		"max": 500

@@ -5,9 +5,13 @@
 	"datetime": "2024-08-29T08:33:00.000Z",
 	"bird": {
 	"name": "Fork-tailed Drongo",
-	"family-name": "Drongo",
-	"scientific-name": "Dicrurus adsimilis",
-	"ebird": "https://ebird.org/species/fotdro5/ZA"
+	"family_name": "Drongo",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Dicrurus",
+	"species": "adsimilis",
+	"ebird": "https://ebird.org/species/fotdro5/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

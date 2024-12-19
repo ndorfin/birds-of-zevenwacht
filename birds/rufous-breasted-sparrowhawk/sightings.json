@@ -9,9 +9,13 @@
 			"birdId": "sparrowhawk-rufous-breasted",
 			"bird": {
 	"name": "Rufous-breasted Sparrowhawk",
-	"family-name": "Sparrowhawk",
-	"scientific-name": "Accipiter rufiventris",
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Accipiter",
+	"species": "rufiventris",
 	"ebird": "https://ebird.org/species/rucspa2/ZA",
+	"red-list": "least-concern",
 	"size": {
 		"min": 300,
 		"max": 380
@@ -150,9 +154,13 @@
 		"max": 210
 	},
 	"name": "Rufous-breasted Sparrowhawk",
-	"family-name": "Sparrowhawk",
-	"scientific-name": "Accipiter rufiventris",
-	"ebird": "https://ebird.org/species/rucspa2/ZA"
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Accipiter",
+	"species": "rufiventris",
+	"ebird": "https://ebird.org/species/rucspa2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

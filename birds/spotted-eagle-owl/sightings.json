@@ -9,9 +9,13 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"name": "Spotted Eagle-Owl",
-	"family-name": "Owl",
-	"scientific-name": "Bubo africanus",
-	"ebird": "https://ebird.org/species/spoeao2/ZA"
+	"family_name": "Owl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bubo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -155,9 +159,13 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"name": "Spotted Eagle-Owl",
-	"family-name": "Owl",
-	"scientific-name": "Bubo africanus",
-	"ebird": "https://ebird.org/species/spoeao2/ZA"
+	"family_name": "Owl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bubo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {
@@ -308,9 +316,13 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"name": "Spotted Eagle-Owl",
-	"family-name": "Owl",
-	"scientific-name": "Bubo africanus",
-	"ebird": "https://ebird.org/species/spoeao2/ZA"
+	"family_name": "Owl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bubo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -533,9 +545,13 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"name": "Spotted Eagle-Owl",
-	"family-name": "Owl",
-	"scientific-name": "Bubo africanus",
-	"ebird": "https://ebird.org/species/spoeao2/ZA"
+	"family_name": "Owl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bubo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -658,9 +674,13 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"name": "Spotted Eagle-Owl",
-	"family-name": "Owl",
-	"scientific-name": "Bubo africanus",
-	"ebird": "https://ebird.org/species/spoeao2/ZA"
+	"family_name": "Owl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bubo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -783,9 +803,13 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"name": "Spotted Eagle-Owl",
-	"family-name": "Owl",
-	"scientific-name": "Bubo africanus",
-	"ebird": "https://ebird.org/species/spoeao2/ZA"
+	"family_name": "Owl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bubo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -915,9 +939,13 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"name": "Spotted Eagle-Owl",
-	"family-name": "Owl",
-	"scientific-name": "Bubo africanus",
-	"ebird": "https://ebird.org/species/spoeao2/ZA"
+	"family_name": "Owl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bubo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -1040,9 +1068,13 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"name": "Spotted Eagle-Owl",
-	"family-name": "Owl",
-	"scientific-name": "Bubo africanus",
-	"ebird": "https://ebird.org/species/spoeao2/ZA"
+	"family_name": "Owl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bubo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1165,9 +1197,13 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"name": "Spotted Eagle-Owl",
-	"family-name": "Owl",
-	"scientific-name": "Bubo africanus",
-	"ebird": "https://ebird.org/species/spoeao2/ZA"
+	"family_name": "Owl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bubo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -1290,9 +1326,13 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"name": "Spotted Eagle-Owl",
-	"family-name": "Owl",
-	"scientific-name": "Bubo africanus",
-	"ebird": "https://ebird.org/species/spoeao2/ZA"
+	"family_name": "Owl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bubo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -1415,9 +1455,13 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"name": "Spotted Eagle-Owl",
-	"family-name": "Owl",
-	"scientific-name": "Bubo africanus",
-	"ebird": "https://ebird.org/species/spoeao2/ZA"
+	"family_name": "Owl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bubo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -1540,9 +1584,13 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"name": "Spotted Eagle-Owl",
-	"family-name": "Owl",
-	"scientific-name": "Bubo africanus",
-	"ebird": "https://ebird.org/species/spoeao2/ZA"
+	"family_name": "Owl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Bubo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

@@ -5,9 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.022Z",
 	"bird": {
 	"name": "Common Waxbill",
-	"family-name": "Waxbill",
-	"scientific-name": "Estrilda astrild",
+	"family_name": "Waxbill",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Estrilda",
+	"species": "astrild",
 	"ebird": "https://ebird.org/species/comwax/ZA",
+	"red-list": "least-concern",
 	"size": {
 		"min": 110,
 		"max": 110

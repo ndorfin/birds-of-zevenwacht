@@ -9,9 +9,13 @@
 			"birdId": "dove-laughing",
 			"bird": {
 	"name": "Laughing Dove",
-	"family-name": "Dove",
-	"scientific-name": "Spilopelia senegalensis",
-	"ebird": "https://ebird.org/species/laudov1/ZA"
+	"family_name": "Dove",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Spilopelia",
+	"species": "senegalensis",
+	"ebird": "https://ebird.org/species/laudov1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -148,9 +152,13 @@
 			"birdId": "dove-laughing",
 			"bird": {
 	"name": "Laughing Dove",
-	"family-name": "Dove",
-	"scientific-name": "Spilopelia senegalensis",
-	"ebird": "https://ebird.org/species/laudov1/ZA"
+	"family_name": "Dove",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Spilopelia",
+	"species": "senegalensis",
+	"ebird": "https://ebird.org/species/laudov1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

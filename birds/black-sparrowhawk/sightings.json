@@ -9,10 +9,13 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"name": "Black Sparrowhawk",
-	"family-name": "Sparrowhawk",
-	"scientific-name": "Astur melanoleucus",
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Astur",
+	"species": "melanoleucus",
 	"ebird": "https://ebird.org/species/blagos1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -135,10 +138,13 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"name": "Black Sparrowhawk",
-	"family-name": "Sparrowhawk",
-	"scientific-name": "Astur melanoleucus",
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Astur",
+	"species": "melanoleucus",
 	"ebird": "https://ebird.org/species/blagos1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -261,10 +267,13 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"name": "Black Sparrowhawk",
-	"family-name": "Sparrowhawk",
-	"scientific-name": "Astur melanoleucus",
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Astur",
+	"species": "melanoleucus",
 	"ebird": "https://ebird.org/species/blagos1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -387,10 +396,13 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"name": "Black Sparrowhawk",
-	"family-name": "Sparrowhawk",
-	"scientific-name": "Astur melanoleucus",
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Astur",
+	"species": "melanoleucus",
 	"ebird": "https://ebird.org/species/blagos1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -513,10 +525,13 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"name": "Black Sparrowhawk",
-	"family-name": "Sparrowhawk",
-	"scientific-name": "Astur melanoleucus",
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Astur",
+	"species": "melanoleucus",
 	"ebird": "https://ebird.org/species/blagos1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -639,10 +654,13 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"name": "Black Sparrowhawk",
-	"family-name": "Sparrowhawk",
-	"scientific-name": "Astur melanoleucus",
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Astur",
+	"species": "melanoleucus",
 	"ebird": "https://ebird.org/species/blagos1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -738,10 +756,13 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"name": "Black Sparrowhawk",
-	"family-name": "Sparrowhawk",
-	"scientific-name": "Astur melanoleucus",
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Astur",
+	"species": "melanoleucus",
 	"ebird": "https://ebird.org/species/blagos1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

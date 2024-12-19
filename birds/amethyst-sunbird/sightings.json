@@ -9,9 +9,13 @@
 			"birdId": "sunbird-amethyst",
 			"bird": {
 	"name": "Amethyst Sunbird",
-	"family-name": "Sunbird",
-	"scientific-name": "Chalcomitra amethystina",
-	"ebird": "https://ebird.org/species/amesun2/ZA"
+	"family_name": "Sunbird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Chalcomitra",
+	"species": "amethystina",
+	"ebird": "https://ebird.org/species/amesun2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -148,9 +152,13 @@
 			"birdId": "sunbird-amethyst",
 			"bird": {
 	"name": "Amethyst Sunbird",
-	"family-name": "Sunbird",
-	"scientific-name": "Chalcomitra amethystina",
-	"ebird": "https://ebird.org/species/amesun2/ZA"
+	"family_name": "Sunbird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Chalcomitra",
+	"species": "amethystina",
+	"ebird": "https://ebird.org/species/amesun2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

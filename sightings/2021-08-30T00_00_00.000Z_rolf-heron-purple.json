@@ -5,9 +5,13 @@
 	"datetime": "2021-08-30T00:00:00.000Z",
 	"bird": {
 	"name": "Purple Heron",
-	"family-name": "Heron",
-	"scientific-name": "Ardea purpurea",
-	"ebird": "https://ebird.org/species/purher1/ZA"
+	"family_name": "Heron",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Ardea",
+	"species": "purpurea",
+	"ebird": "https://ebird.org/species/purher1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

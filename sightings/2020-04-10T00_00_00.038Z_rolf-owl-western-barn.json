@@ -5,10 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.038Z",
 	"bird": {
 	"name": "Western Barn Owl",
-	"family-name": "Owl",
-	"scientific-name": "Tyto alba",
+	"family_name": "Owl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Tyto",
+	"species": "alba",
 	"ebird": "https://ebird.org/species/webowl1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

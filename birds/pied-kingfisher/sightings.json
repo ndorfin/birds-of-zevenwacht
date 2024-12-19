@@ -9,10 +9,13 @@
 			"birdId": "kingfisher-pied",
 			"bird": {
 	"name": "Pied Kingfisher",
-	"family-name": "Kingfisher",
-	"scientific-name": "Ceryle rudis",
+	"family_name": "Kingfisher",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Ceryle",
+	"species": "rudis",
 	"ebird": "https://ebird.org/species/piekin1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

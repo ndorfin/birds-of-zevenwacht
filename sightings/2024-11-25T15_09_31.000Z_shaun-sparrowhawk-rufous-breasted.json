@@ -5,9 +5,13 @@
 	"datetime": "2024-11-25T15:09:31.000Z",
 	"bird": {
 	"name": "Rufous-breasted Sparrowhawk",
-	"family-name": "Sparrowhawk",
-	"scientific-name": "Accipiter rufiventris",
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Accipiter",
+	"species": "rufiventris",
 	"ebird": "https://ebird.org/species/rucspa2/ZA",
+	"red-list": "least-concern",
 	"size": {
 		"min": 300,
 		"max": 380

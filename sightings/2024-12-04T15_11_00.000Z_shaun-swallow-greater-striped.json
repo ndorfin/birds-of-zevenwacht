@@ -5,9 +5,13 @@
 	"datetime": "2024-12-04T15:11:00.000Z",
 	"bird": {
 	"name": "Greater Striped Swallow",
-	"family-name": "Swallow",
-	"scientific-name": "Cecropis cucullata",
-	"ebird": "https://ebird.org/species/grests1/ZA"
+	"family_name": "Swallow",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Cecropis",
+	"species": "cucullata",
+	"ebird": "https://ebird.org/species/grests1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 8,
 	"location": {

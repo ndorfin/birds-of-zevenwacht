@@ -9,9 +9,13 @@
 			"birdId": "weaver-cape",
 			"bird": {
 	"name": "Cape Weaver",
-	"family-name": "Weaver",
-	"scientific-name": "Ploceus capensis",
-	"ebird": "https://ebird.org/species/capwea1/ZA"
+	"family_name": "Weaver",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Ploceus",
+	"species": "capensis",
+	"ebird": "https://ebird.org/species/capwea1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 9,
 			"location": {
@@ -234,9 +238,13 @@
 			"birdId": "weaver-cape",
 			"bird": {
 	"name": "Cape Weaver",
-	"family-name": "Weaver",
-	"scientific-name": "Ploceus capensis",
-	"ebird": "https://ebird.org/species/capwea1/ZA"
+	"family_name": "Weaver",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Ploceus",
+	"species": "capensis",
+	"ebird": "https://ebird.org/species/capwea1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

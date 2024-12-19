@@ -9,9 +9,13 @@
 			"birdId": "batis-cape",
 			"bird": {
 	"name": "Cape Batis",
-	"family-name": "Batis",
-	"scientific-name": "Batis capensis",
-	"ebird": "https://ebird.org/species/capbat10/ZA"
+	"family_name": "Batis",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Batis",
+	"species": "capensis",
+	"ebird": "https://ebird.org/species/capbat10/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

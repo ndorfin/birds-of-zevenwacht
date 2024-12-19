@@ -9,9 +9,13 @@
 			"birdId": "waxbill-swee",
 			"bird": {
 	"name": "Swee Waxbill",
-	"family-name": "Waxbill",
-	"scientific-name": "Coccopygia melanotis",
-	"ebird": "https://ebird.org/species/swewax3/ZA"
+	"family_name": "Waxbill",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Coccopygia",
+	"species": "melanotis",
+	"ebird": "https://ebird.org/species/swewax3/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {

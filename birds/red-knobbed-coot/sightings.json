@@ -9,9 +9,13 @@
 			"birdId": "coot-red-knobbed",
 			"bird": {
 	"name": "Red-knobbed Coot",
-	"family-name": "Coot",
-	"scientific-name": "Fulica cristata",
-	"ebird": "https://ebird.org/species/rekcoo1/ZA"
+	"family_name": "Coot",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Fulica",
+	"species": "cristata",
+	"ebird": "https://ebird.org/species/rekcoo1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 9,
 			"location": {
@@ -234,9 +238,13 @@
 			"birdId": "coot-red-knobbed",
 			"bird": {
 	"name": "Red-knobbed Coot",
-	"family-name": "Coot",
-	"scientific-name": "Fulica cristata",
-	"ebird": "https://ebird.org/species/rekcoo1/ZA"
+	"family_name": "Coot",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Fulica",
+	"species": "cristata",
+	"ebird": "https://ebird.org/species/rekcoo1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {
@@ -380,9 +388,13 @@
 			"birdId": "coot-red-knobbed",
 			"bird": {
 	"name": "Red-knobbed Coot",
-	"family-name": "Coot",
-	"scientific-name": "Fulica cristata",
-	"ebird": "https://ebird.org/species/rekcoo1/ZA"
+	"family_name": "Coot",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Fulica",
+	"species": "cristata",
+	"ebird": "https://ebird.org/species/rekcoo1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -502,9 +514,13 @@
 			"birdId": "coot-red-knobbed",
 			"bird": {
 	"name": "Red-knobbed Coot",
-	"family-name": "Coot",
-	"scientific-name": "Fulica cristata",
-	"ebird": "https://ebird.org/species/rekcoo1/ZA"
+	"family_name": "Coot",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Fulica",
+	"species": "cristata",
+	"ebird": "https://ebird.org/species/rekcoo1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {

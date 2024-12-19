@@ -9,9 +9,13 @@
 			"birdId": "bishop-southern-red",
 			"bird": {
 	"name": "Southern Red Bishop",
-	"family-name": "Bishop",
-	"scientific-name": "Euplectes orix",
-	"ebird": "https://ebird.org/species/redbis/ZA"
+	"family_name": "Bishop",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Euplectes",
+	"species": "orix",
+	"ebird": "https://ebird.org/species/redbis/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 12,
 			"location": {
@@ -131,9 +135,13 @@
 			"birdId": "bishop-southern-red",
 			"bird": {
 	"name": "Southern Red Bishop",
-	"family-name": "Bishop",
-	"scientific-name": "Euplectes orix",
-	"ebird": "https://ebird.org/species/redbis/ZA"
+	"family_name": "Bishop",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Euplectes",
+	"species": "orix",
+	"ebird": "https://ebird.org/species/redbis/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": "10-15",
 			"location": {
@@ -260,9 +268,13 @@
 			"birdId": "bishop-southern-red",
 			"bird": {
 	"name": "Southern Red Bishop",
-	"family-name": "Bishop",
-	"scientific-name": "Euplectes orix",
-	"ebird": "https://ebird.org/species/redbis/ZA"
+	"family_name": "Bishop",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Euplectes",
+	"species": "orix",
+	"ebird": "https://ebird.org/species/redbis/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -385,9 +397,13 @@
 			"birdId": "bishop-southern-red",
 			"bird": {
 	"name": "Southern Red Bishop",
-	"family-name": "Bishop",
-	"scientific-name": "Euplectes orix",
-	"ebird": "https://ebird.org/species/redbis/ZA"
+	"family_name": "Bishop",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Euplectes",
+	"species": "orix",
+	"ebird": "https://ebird.org/species/redbis/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

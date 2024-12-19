@@ -9,9 +9,13 @@
 			"birdId": "swallow-barn",
 			"bird": {
 	"name": "Barn Swallow",
-	"family-name": "Swallow",
-	"scientific-name": "Hirundo rustica",
-	"ebird": "https://ebird.org/species/barswa/ZA"
+	"family_name": "Swallow",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Hirundo",
+	"species": "rustica",
+	"ebird": "https://ebird.org/species/barswa/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": "7-10",
 			"location": {

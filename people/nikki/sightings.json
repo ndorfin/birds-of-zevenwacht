@@ -9,9 +9,13 @@
 			"birdId": "flycatcher-fiscal",
 			"bird": {
 	"name": "Fiscal Flycatcher",
-	"family-name": "Flycatcher",
-	"scientific-name": "Sigelus silens",
-	"ebird": "https://ebird.org/species/fisfly1/ZA"
+	"family_name": "Flycatcher",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Sigelus",
+	"species": "silens",
+	"ebird": "https://ebird.org/species/fisfly1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -155,9 +159,13 @@
 			"birdId": "duck-african-black",
 			"bird": {
 	"name": "African Black Duck",
-	"family-name": "Duck",
-	"scientific-name": "Anas sparsa",
-	"ebird": "https://ebird.org/species/afbduc1/ZA"
+	"family_name": "Duck",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anas",
+	"species": "sparsa",
+	"ebird": "https://ebird.org/species/afbduc1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

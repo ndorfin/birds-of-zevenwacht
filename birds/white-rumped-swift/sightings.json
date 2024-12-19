@@ -9,8 +9,11 @@
 			"birdId": "swift-white-rumped",
 			"bird": {
 	"name": "White-rumped Swift",
-	"family-name": "Swift",
-	"scientific-name": "Apus caffer",
+	"family_name": "Swift",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Apus",
+	"species": "caffer",
 	"ebird": "https://ebird.org/species/whrswi1/ZA",
 	"red-list": "least-concern"
 },

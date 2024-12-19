@@ -5,9 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.045Z",
 	"bird": {
 	"name": "Southern Grey-headed Sparrow",
-	"family-name": "Sparrow",
-	"scientific-name": "Passer diffusus",
-	"ebird": "https://ebird.org/species/sghspa2/ZA"
+	"family_name": "Sparrow",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Passer",
+	"species": "diffusus",
+	"ebird": "https://ebird.org/species/sghspa2/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

@@ -5,9 +5,13 @@
 	"datetime": "2024-09-23T13:27:49.000Z",
 	"bird": {
 	"name": "Cape Canary",
-	"family-name": "Canary",
-	"scientific-name": "Serinus canicollis",
-	"ebird": "https://ebird.org/species/capcan1/ZA"
+	"family_name": "Canary",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Serinus",
+	"species": "canicollis",
+	"ebird": "https://ebird.org/species/capcan1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": "3-5",
 	"location": {

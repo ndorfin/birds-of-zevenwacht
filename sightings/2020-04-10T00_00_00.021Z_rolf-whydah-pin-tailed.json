@@ -5,10 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.021Z",
 	"bird": {
 	"name": "Pin-tailed Whydah",
-	"family-name": "Whydah",
-	"scientific-name": "Vidua macroura",
+	"family_name": "Whydah",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Vidua",
+	"species": "macroura",
 	"ebird": "https://ebird.org/species/pitwhy/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

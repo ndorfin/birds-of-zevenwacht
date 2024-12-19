@@ -5,9 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.008Z",
 	"bird": {
 	"name": "Cape Bulbul",
-	"family-name": "Bulbul",
-	"scientific-name": "Pycnonotus capensis",
-	"ebird": "https://ebird.org/species/capbul1/ZA"
+	"family_name": "Bulbul",
+	"german_name": "Kapbülbül",
+	"afrikaans_name": "Kaapse Tiptol",
+	"genus": "Pycnonotus",
+	"species": "capensis",
+	"ebird": "https://ebird.org/species/capbul1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

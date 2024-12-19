@@ -5,9 +5,13 @@
 	"datetime": "2024-11-30T15:30:01.000Z",
 	"bird": {
 	"name": "African Hoopoe",
-	"family-name": "Hoopoe",
-	"scientific-name": "Upupa epops",
-	"ebird": "https://ebird.org/species/hoopoe/ZA"
+	"family_name": "Hoopoe",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Upupa",
+	"species": "epops",
+	"ebird": "https://ebird.org/species/hoopoe/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 2,
 	"location": {

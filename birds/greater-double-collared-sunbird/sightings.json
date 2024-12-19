@@ -9,9 +9,13 @@
 			"birdId": "sunbird-greater-double-collared",
 			"bird": {
 	"name": "Greater Double-collared Sunbird",
-	"family-name": "Sunbird",
-	"scientific-name": "Cinnyris afer",
-	"ebird": "https://ebird.org/species/gdcsun2/ZA"
+	"family_name": "Sunbird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Cinnyris",
+	"species": "afer",
+	"ebird": "https://ebird.org/species/gdcsun2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

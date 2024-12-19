@@ -9,8 +9,11 @@
 			"birdId": "heron-black-crowned-night",
 			"bird": {
 	"name": "Black-crowned Night Heron",
-	"family-name": "Heron",
-	"scientific-name": "Nycticorax nycticorax",
+	"family_name": "Heron",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Nycticorax",
+	"species": "nycticorax",
 	"ebird": "https://ebird.org/species/bcnher/ZA",
 	"red-list": "least-concern"
 },

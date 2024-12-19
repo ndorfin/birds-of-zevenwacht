@@ -9,9 +9,13 @@
 			"birdId": "thick-knee-spotted",
 			"bird": {
 	"name": "Spotted Thick-knee",
-	"family-name": "Thick-knee",
-	"scientific-name": "Burhinus capensis",
-	"ebird": "https://ebird.org/species/sptkne1/ZA"
+	"family_name": "Thick-knee",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Burhinus",
+	"species": "capensis",
+	"ebird": "https://ebird.org/species/sptkne1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {
@@ -148,9 +152,13 @@
 			"birdId": "thick-knee-spotted",
 			"bird": {
 	"name": "Spotted Thick-knee",
-	"family-name": "Thick-knee",
-	"scientific-name": "Burhinus capensis",
-	"ebird": "https://ebird.org/species/sptkne1/ZA"
+	"family_name": "Thick-knee",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Burhinus",
+	"species": "capensis",
+	"ebird": "https://ebird.org/species/sptkne1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

@@ -9,9 +9,13 @@
 			"birdId": "goshawk-african",
 			"bird": {
 	"name": "African Goshwawk",
-	"family-name": "Goshawk",
-	"scientific-name": "Aerospiza tachiro",
-	"ebird": "https://ebird.org/species/afrgos1/ZA"
+	"family_name": "Goshawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Aerospiza",
+	"species": "tachiro",
+	"ebird": "https://ebird.org/species/afrgos1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -134,9 +138,13 @@
 			"birdId": "goshawk-african",
 			"bird": {
 	"name": "African Goshwawk",
-	"family-name": "Goshawk",
-	"scientific-name": "Aerospiza tachiro",
-	"ebird": "https://ebird.org/species/afrgos1/ZA"
+	"family_name": "Goshawk",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Aerospiza",
+	"species": "tachiro",
+	"ebird": "https://ebird.org/species/afrgos1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

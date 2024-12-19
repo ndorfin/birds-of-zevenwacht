@@ -5,9 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.006Z",
 	"bird": {
 	"name": "Acacia Pied Barbet",
-	"family-name": "Barbet",
-	"scientific-name": "Tricholaema leucomelas",
-	"ebird": "https://ebird.org/species/piebar1/ZA"
+	"family_name": "Barbet",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Tricholaema",
+	"species": "leucomelas",
+	"ebird": "https://ebird.org/species/piebar1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

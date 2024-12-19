@@ -5,9 +5,13 @@
 	"datetime": "2024-10-12T17:30:36.000Z",
 	"bird": {
 	"name": "Cape Turtle Dove",
-	"family-name": "Dove",
-	"scientific-name": "Streptopelia capicola",
-	"ebird": "https://ebird.org/species/rindov/ZA"
+	"family_name": "Dove",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Streptopelia",
+	"species": "capicola",
+	"ebird": "https://ebird.org/species/rindov/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

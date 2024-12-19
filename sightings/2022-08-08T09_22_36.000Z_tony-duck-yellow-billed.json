@@ -5,9 +5,13 @@
 	"datetime": "2022-08-08T09:22:36.000Z",
 	"bird": {
 	"name": "Yellow-billed Duck",
-	"family-name": "Duck",
-	"scientific-name": "Anas undulata",
-	"ebird": "https://ebird.org/species/yebduc1/ZA"
+	"family_name": "Duck",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Anas",
+	"species": "undulata",
+	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 2,
 	"location": {

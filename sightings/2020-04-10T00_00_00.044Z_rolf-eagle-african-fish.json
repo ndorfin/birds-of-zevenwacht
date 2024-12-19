@@ -5,9 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.044Z",
 	"bird": {
 	"name": "African Fish Eagle",
-	"family-name": "Eagle",
-	"scientific-name": "Icthyophaga vocifer",
-	"ebird": "https://ebird.org/species/affeag1/ZA"
+	"family_name": "Eagle",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Icthyophaga",
+	"species": "vocifer",
+	"ebird": "https://ebird.org/species/affeag1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

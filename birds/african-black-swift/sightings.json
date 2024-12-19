@@ -9,9 +9,13 @@
 			"birdId": "swift-african-black",
 			"bird": {
 	"name": "African Black Swift",
-	"family-name": "Swift",
-	"scientific-name": "Apus barbatus",
-	"ebird": "https://ebird.org/species/afrswi1/ZA"
+	"family_name": "Swift",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Apus",
+	"species": "barbatus",
+	"ebird": "https://ebird.org/species/afrswi1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 4,
 			"location": {
@@ -148,9 +152,13 @@
 			"birdId": "swift-african-black",
 			"bird": {
 	"name": "African Black Swift",
-	"family-name": "Swift",
-	"scientific-name": "Apus barbatus",
-	"ebird": "https://ebird.org/species/afrswi1/ZA"
+	"family_name": "Swift",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Apus",
+	"species": "barbatus",
+	"ebird": "https://ebird.org/species/afrswi1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -294,9 +302,13 @@
 			"birdId": "swift-african-black",
 			"bird": {
 	"name": "African Black Swift",
-	"family-name": "Swift",
-	"scientific-name": "Apus barbatus",
-	"ebird": "https://ebird.org/species/afrswi1/ZA"
+	"family_name": "Swift",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Apus",
+	"species": "barbatus",
+	"ebird": "https://ebird.org/species/afrswi1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {

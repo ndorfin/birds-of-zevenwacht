@@ -9,9 +9,13 @@
 			"birdId": "starling-common",
 			"bird": {
 	"name": "Common Starling",
-	"family-name": "Starling",
-	"scientific-name": "Sturnus Vulgaris",
-	"ebird": "https://ebird.org/species/eursta/ZA"
+	"family_name": "Starling",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Sturnus",
+	"species": "Vulgaris",
+	"ebird": "https://ebird.org/species/eursta/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -227,9 +231,13 @@
 			"birdId": "starling-common",
 			"bird": {
 	"name": "Common Starling",
-	"family-name": "Starling",
-	"scientific-name": "Sturnus Vulgaris",
-	"ebird": "https://ebird.org/species/eursta/ZA"
+	"family_name": "Starling",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Sturnus",
+	"species": "Vulgaris",
+	"ebird": "https://ebird.org/species/eursta/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

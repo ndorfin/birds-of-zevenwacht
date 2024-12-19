@@ -5,8 +5,11 @@
 	"datetime": "2024-12-15T16:42:53.000Z",
 	"bird": {
 	"name": "Forest Buzzard",
-	"family-name": "Buzzard",
-	"scientific-name": "Buteo trizonatus",
+	"family_name": "Buzzard",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Buteo",
+	"species": "trizonatus",
 	"ebird": "https://ebird.org/species/moubuz3/ZA",
 	"red-list": "near-threatened"
 },

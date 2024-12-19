@@ -5,9 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.042Z",
 	"bird": {
 	"name": "Brimstone Canary",
-	"family-name": "Canary",
-	"scientific-name": "Crithagra sulphurata",
-	"ebird": "https://ebird.org/species/brican1/ZA"
+	"family_name": "Canary",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Crithagra",
+	"species": "sulphurata",
+	"ebird": "https://ebird.org/species/brican1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

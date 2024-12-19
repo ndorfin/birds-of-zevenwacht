@@ -5,9 +5,13 @@
 	"datetime": "2024-09-03T12:43:57.000Z",
 	"bird": {
 	"name": "Indian Peafowl",
-	"family-name": "Peafowl",
-	"scientific-name": "Pavo cristatus",
-	"ebird": "https://ebird.org/species/compea/ZA"
+	"family_name": "Peafowl",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Pavo",
+	"species": "cristatus",
+	"ebird": "https://ebird.org/species/compea/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

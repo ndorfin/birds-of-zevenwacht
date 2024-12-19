@@ -5,9 +5,13 @@
 	"datetime": "2020-04-10T00:00:00.011Z",
 	"bird": {
 	"name": "Fiscal Flycatcher",
-	"family-name": "Flycatcher",
-	"scientific-name": "Sigelus silens",
-	"ebird": "https://ebird.org/species/fisfly1/ZA"
+	"family_name": "Flycatcher",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Sigelus",
+	"species": "silens",
+	"ebird": "https://ebird.org/species/fisfly1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {

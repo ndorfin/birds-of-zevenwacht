@@ -9,9 +9,13 @@
 			"birdId": "canary-brimstone",
 			"bird": {
 	"name": "Brimstone Canary",
-	"family-name": "Canary",
-	"scientific-name": "Crithagra sulphurata",
-	"ebird": "https://ebird.org/species/brican1/ZA"
+	"family_name": "Canary",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Crithagra",
+	"species": "sulphurata",
+	"ebird": "https://ebird.org/species/brican1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -134,9 +138,13 @@
 			"birdId": "canary-brimstone",
 			"bird": {
 	"name": "Brimstone Canary",
-	"family-name": "Canary",
-	"scientific-name": "Crithagra sulphurata",
-	"ebird": "https://ebird.org/species/brican1/ZA"
+	"family_name": "Canary",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Crithagra",
+	"species": "sulphurata",
+	"ebird": "https://ebird.org/species/brican1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

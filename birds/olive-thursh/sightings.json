@@ -9,9 +9,13 @@
 			"birdId": "thrush-olive",
 			"bird": {
 	"name": "Olive Thursh",
-	"family-name": "Thrush",
-	"scientific-name": "Turdus olivaceus",
-	"ebird": "https://ebird.org/species/olithr2/ZA"
+	"family_name": "Thrush",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Turdus",
+	"species": "olivaceus",
+	"ebird": "https://ebird.org/species/olithr2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -148,9 +152,13 @@
 			"birdId": "thrush-olive",
 			"bird": {
 	"name": "Olive Thursh",
-	"family-name": "Thrush",
-	"scientific-name": "Turdus olivaceus",
-	"ebird": "https://ebird.org/species/olithr2/ZA"
+	"family_name": "Thrush",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Turdus",
+	"species": "olivaceus",
+	"ebird": "https://ebird.org/species/olithr2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -273,9 +281,13 @@
 			"birdId": "thrush-olive",
 			"bird": {
 	"name": "Olive Thursh",
-	"family-name": "Thrush",
-	"scientific-name": "Turdus olivaceus",
-	"ebird": "https://ebird.org/species/olithr2/ZA"
+	"family_name": "Thrush",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Turdus",
+	"species": "olivaceus",
+	"ebird": "https://ebird.org/species/olithr2/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

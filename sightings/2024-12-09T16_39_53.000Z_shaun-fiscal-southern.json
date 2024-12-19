@@ -5,9 +5,13 @@
 	"datetime": "2024-12-09T16:39:53.000Z",
 	"bird": {
 	"name": "Southern Fiscal",
-	"family-name": "Shrike",
-	"scientific-name": "Lanius collaris",
-	"ebird": "https://ebird.org/species/soufis1/ZA"
+	"family_name": "Shrike",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Lanius",
+	"species": "collaris",
+	"ebird": "https://ebird.org/species/soufis1/ZA",
+	"red-list": "least-concern"
 },
 	"quantity": 2,
 	"location": {

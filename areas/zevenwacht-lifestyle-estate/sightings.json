@@ -9,9 +9,13 @@
 			"birdId": "kite-black-winged",
 			"bird": {
 	"name": "Black-winged Kite",
-	"family-name": "Kite",
-	"scientific-name": "Elanus caeruleus",
-	"ebird": "https://ebird.org/species/bkskit1/ZA"
+	"family_name": "Kite",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Elanus",
+	"species": "caeruleus",
+	"ebird": "https://ebird.org/species/bkskit1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -138,9 +142,13 @@
 			"birdId": "cisticola-levaillants",
 			"bird": {
 	"name": "Levaillant's Cisticola",
-	"family-name": "Cisticola",
-	"scientific-name": "Cisticola tinniens",
-	"ebird": "https://ebird.org/species/tincis1/ZA"
+	"family_name": "Cisticola",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Cisticola",
+	"species": "tinniens",
+	"ebird": "https://ebird.org/species/tincis1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 4,
 			"location": {
@@ -267,9 +275,13 @@
 			"birdId": "pigeon-speckled",
 			"bird": {
 	"name": "Speckled Pigeon",
-	"family-name": "Pigeon",
-	"scientific-name": "Columba Guinea",
-	"ebird": "https://ebird.org/species/spepig1/ZA"
+	"family_name": "Pigeon",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Columba",
+	"species": "Guinea",
+	"ebird": "https://ebird.org/species/spepig1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -389,9 +401,13 @@
 			"birdId": "swan-black",
 			"bird": {
 	"name": "Black Swan",
-	"family-name": "Swan",
-	"scientific-name": "Cygnus atratus",
-	"ebird": "https://ebird.org/species/blkswa/ZA"
+	"family_name": "Swan",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Cygnus",
+	"species": "atratus",
+	"ebird": "https://ebird.org/species/blkswa/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {
@@ -511,9 +527,13 @@
 			"birdId": "cormorant-reed",
 			"bird": {
 	"name": "Reed Cormorant",
-	"family-name": "Cormorant",
-	"scientific-name": "Microcarbo africanus",
-	"ebird": "https://ebird.org/species/lotcor1/ZA"
+	"family_name": "Cormorant",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Microcarbo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/lotcor1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 5,
 			"location": {
@@ -633,9 +653,13 @@
 			"birdId": "swallow-greater-striped",
 			"bird": {
 	"name": "Greater Striped Swallow",
-	"family-name": "Swallow",
-	"scientific-name": "Cecropis cucullata",
-	"ebird": "https://ebird.org/species/grests1/ZA"
+	"family_name": "Swallow",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Cecropis",
+	"species": "cucullata",
+	"ebird": "https://ebird.org/species/grests1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 8,
 			"location": {
@@ -755,9 +779,13 @@
 			"birdId": "coot-red-knobbed",
 			"bird": {
 	"name": "Red-knobbed Coot",
-	"family-name": "Coot",
-	"scientific-name": "Fulica cristata",
-	"ebird": "https://ebird.org/species/rekcoo1/ZA"
+	"family_name": "Coot",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Fulica",
+	"species": "cristata",
+	"ebird": "https://ebird.org/species/rekcoo1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -877,9 +905,13 @@
 			"birdId": "mousebird-white-backed",
 			"bird": {
 	"name": "White-backed Mousebird",
-	"family-name": "Mousebird",
-	"scientific-name": "Colius colius",
-	"ebird": "https://ebird.org/species/whbmou1/ZA"
+	"family_name": "Mousebird",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Colius",
+	"species": "colius",
+	"ebird": "https://ebird.org/species/whbmou1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -999,9 +1031,13 @@
 			"birdId": "bishop-southern-red",
 			"bird": {
 	"name": "Southern Red Bishop",
-	"family-name": "Bishop",
-	"scientific-name": "Euplectes orix",
-	"ebird": "https://ebird.org/species/redbis/ZA"
+	"family_name": "Bishop",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Euplectes",
+	"species": "orix",
+	"ebird": "https://ebird.org/species/redbis/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 12,
 			"location": {
@@ -1121,9 +1157,13 @@
 			"birdId": "flycatcher-fiscal",
 			"bird": {
 	"name": "Fiscal Flycatcher",
-	"family-name": "Flycatcher",
-	"scientific-name": "Sigelus silens",
-	"ebird": "https://ebird.org/species/fisfly1/ZA"
+	"family_name": "Flycatcher",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Sigelus",
+	"species": "silens",
+	"ebird": "https://ebird.org/species/fisfly1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -1243,9 +1283,13 @@
 			"birdId": "bishop-southern-red",
 			"bird": {
 	"name": "Southern Red Bishop",
-	"family-name": "Bishop",
-	"scientific-name": "Euplectes orix",
-	"ebird": "https://ebird.org/species/redbis/ZA"
+	"family_name": "Bishop",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Euplectes",
+	"species": "orix",
+	"ebird": "https://ebird.org/species/redbis/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": "10-15",
 			"location": {
@@ -1372,9 +1416,13 @@
 			"birdId": "swan-black",
 			"bird": {
 	"name": "Black Swan",
-	"family-name": "Swan",
-	"scientific-name": "Cygnus atratus",
-	"ebird": "https://ebird.org/species/blkswa/ZA"
+	"family_name": "Swan",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Cygnus",
+	"species": "atratus",
+	"ebird": "https://ebird.org/species/blkswa/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {

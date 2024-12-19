@@ -5,10 +5,13 @@
 	"datetime": "2022-07-03T00:00:00.000Z",
 	"bird": {
 	"name": "Diederik Cuckoo",
-	"family-name": "Cuckoo",
-	"scientific-name": "Chrysococcyx caprius",
+	"family_name": "Cuckoo",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Chrysococcyx",
+	"species": "caprius",
 	"ebird": "https://ebird.org/species/didcuc1/ZA",
-	"hidden": true
+	"red-list": "least-concern"
 },
 	"quantity": 1,
 	"location": {
