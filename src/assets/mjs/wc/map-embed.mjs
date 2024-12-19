@@ -16,14 +16,11 @@ class MapEmbed extends HTMLElement {
 	}
 
 	#addScript() {
-		const attributes = {
-			id: 'script-leaflet',
-			url: '/assets/mjs/lib/leaflet.1.9.4.js',
-		}
-		if (!this.#checkSourceElementExists(attributes.id)) {
+		const scriptElemId = 'script-leaflet';
+		if (!this.#checkSourceElementExists(scriptElemId)) {
 			let scriptElem = document.createElement('script');
-			scriptElem.id = attributes.id;
-			scriptElem.src = attributes.url;
+			scriptElem.id = scriptElemId;
+			scriptElem.src = `${ getBaseURI() }assets/mjs/lib/leaflet.1.9.4.js`;
 			scriptElem.onload = this.#invokeLeaflet.bind(this);
 			document.head.append(scriptElem);
 		}
