@@ -1,9 +1,8 @@
 name: Cape Bulbul
 family_name: Bulbul
-german-name: Kapbülbül
-afrikaans-name: Kaapse Tiptol
-german_name: 
-afrikaans_name: 
+german_name: Kapbülbül
+afrikaans_name: Kaapse Tiptol
 genus: Pycnonotus
 species: capensis
 ebird: https://ebird.org/species/capbul1/ZA
+red-list: least-concern

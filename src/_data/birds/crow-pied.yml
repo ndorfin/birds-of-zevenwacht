@@ -5,6 +5,7 @@ afrikaans_name:
 genus: Corvus
 species: Albus
 ebird: https://ebird.org/species/piecro1/ZA
+red-list: least-concern
 size:
   min: 460
   max: 500

@@ -5,6 +5,7 @@ afrikaans_name:
 genus: Estrilda
 species: astrild
 ebird: https://ebird.org/species/comwax/ZA
+red-list: least-concern
 size:
   min: 110
   max: 110

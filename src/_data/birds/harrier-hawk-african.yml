@@ -5,6 +5,7 @@ afrikaans_name:
 genus: Polyboroides
 species: typus
 ebird: https://ebird.org/species/afhhaw1/ZA
+red-list: least-concern
 size:
   min: 600
   max: 660

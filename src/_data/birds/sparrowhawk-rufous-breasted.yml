@@ -5,6 +5,7 @@ afrikaans_name:
 genus: Accipiter
 species: rufiventris
 ebird: https://ebird.org/species/rucspa2/ZA
+red-list: least-concern
 size:
   min: 300
   max: 380

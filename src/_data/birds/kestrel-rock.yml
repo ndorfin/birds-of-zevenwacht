@@ -5,6 +5,7 @@ afrikaans_name:
 genus: Falco
 species: rupicolus
 ebird: https://ebird.org/species/eurkes1/ZA
+red-list: least-concern
 size:
   min: 300
   max: 340
