@@ -20,24 +20,24 @@ eleventyExcludeFromCollections: true
 			<dd>{{ bird.genus }} {{ bird.species }}</dd>
 		</div>
 	{% endif %}
-	{% if bird['german-name'] or bird['afrikaans-name'] %}
+	{% if bird.german_name or bird.afrikaans_name %}
 		<div>
 			<dt>Other names</dt>
 			<dd>
 				<dl class="list_details">
-					{% if bird['german-name'] %}
+					{% if bird.german_name %}
 						<div>
 							<dt>German</dt>
 							<dd lang="de">
-								{{ bird['german-name'] }}
+								{{ bird.german_name }}
 							</dd>
 						</div>
 					{% endif %}
-					{% if bird['afrikaans-name'] %}
+					{% if bird.afrikaans_name %}
 						<div>
 							<dt>Afrikaans</dt>
 							<dd lang="af">
-								{{ bird['afrikaans-name'] }}
+								{{ bird.afrikaans_name }}
 							</dd>
 						</div>
 					{% endif %}

@@ -1,5 +1,7 @@
 name: European Bee-eater
-family-name: Bee-eater
+family_name: Bee-eater
+german_name: 
+afrikaans_name: 
 genus: Merops
 species: apiaster
 ebird: https://ebird.org/species/eubeat1/ZA
