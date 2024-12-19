@@ -30,15 +30,7 @@ body > header > nav {
 		background-repeat: no-repeat;
 	}
 
-	& a[href*="/birds"] {
-		--site_nav_anchor_image: url(/assets/img/icon_bird.svg);
-	}
-	& a[href*="/photos"] {
-		--site_nav_anchor_image: url(/assets/img/icon_photo.svg);
-	}
 	& a[href*="/sightings"] {
-		--site_nav_anchor_image: url(/assets/img/icon_sighting.svg);
-
 		&::before {
 			inline-size: 4rem;
 		}

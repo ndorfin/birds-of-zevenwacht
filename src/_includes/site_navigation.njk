@@ -3,8 +3,14 @@
 		<h2 id="heading_site_structure">Site structure</h2>
 	</screenreader-only>
 	<ul>
-		<li><a href="{{ url.birds }}">Birds</a></li>
-		<li><a href="{{ url.sightings }}">Sightings</a></li>
-		<li><a href="{{ url.photos }}">Photos</a></li>
+		<li>
+			<a style="--site_nav_anchor_image: url({{ '/assets/img/icon_bird.svg' | htmlBaseUrl }})" href="{{ url.birds }}">Birds</a>
+		</li>
+		<li>
+			<a style="--site_nav_anchor_image: url({{ '/assets/img/icon_sighting.svg' | htmlBaseUrl }})" href="{{ url.sightings }}">Sightings</a>
+		</li>
+		<li>
+			<a style="--site_nav_anchor_image: url({{ '/assets/img/icon_photo.svg' | htmlBaseUrl }})" href="{{ url.photos }}">Photos</a>
+		</li>
 	</ul>
 </nav>
