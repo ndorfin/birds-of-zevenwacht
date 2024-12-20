@@ -3,7 +3,7 @@ pagination:
   data: sightings
   size: 1
   alias: sightingId
-permalink: "{{ url.sightings }}{{ sightingId }}-{{ sightings[sightingId].bird.id }}.json"
+permalink: "{{ url.sightings }}{{ sightingId }}.json"
 layout: null
 eleventyExcludeFromCollections: true
 ---
@@ -30,6 +30,15 @@ eleventyExcludeFromCollections: true
 			null
 		{% endif %}
 	},
+	{% if sighting.photos and sighting.photos.length > 0 %}
+	"photos": {
+		{% for photoId in sighting.photos %}
+			{% if loop.index > 1 and loop.revindex >= 1 %},{% endif%}
+			{{ photoId | stringify | safe }}:
+			{{ photos[photoId] | stringify | safe }}
+		{% endfor %}
+	},
+	{% endif %}
 	"observers": [
 		{% for observerId in sighting.observers %}
 			{% if loop.index > 1 and loop.revindex >= 1 %},{% endif%}

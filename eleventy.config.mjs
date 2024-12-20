@@ -6,6 +6,7 @@ import path from 'node:path';
 import exifr from 'exifr';
 import { parse } from 'csv-parse/sync';
 import htmlmin from 'html-minifier-terser';
+import dirOutputPlugin from '@11ty/eleventy-plugin-directory-output';
 
 const require = createRequire(import.meta.url);
 const markdownIt = require('markdown-it');
@@ -23,7 +24,18 @@ const imageFilenameFormatter = function (id, src, width, format, options) {
 
 export default async function (config) {
 	/* Add build:prod pathprefix capabilities for builds against gh-pages */
+	config.setQuietMode(true);
 	config.addPlugin(EleventyHtmlBasePlugin);
+	config.addPlugin(dirOutputPlugin, {
+		// Customize columns
+		columns: {
+			filesize: true, // Use `false` to disable
+			benchmark: true, // Use `false` to disable
+		},
+
+		// Will show in yellow if greater than this number of bytes
+		warningFileSize: 400 * 1000,
+	});
 
 	/* Add YAML support */
 	config.addDataExtension('yml,yaml', contents => yaml.load(contents));

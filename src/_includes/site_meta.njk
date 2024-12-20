@@ -4,7 +4,7 @@
 {% if page_meta.image %}
 	{% set image = page_meta.image %}
 {% endif %}
-<meta name="generator" content="Eleventy (11ty.dev)">
+<meta name="generator" content="{{ eleventy.generator }}">
 <meta name="description" content="{{ summary }}">
 <meta property="og:site_name" content="{{ site.title.default }}">
 <meta property="og:description" content="{{ summary }}">

@@ -3,7 +3,7 @@ pagination:
   data: photos
   size: 1
   alias: photoId
-permalink: "{{ url.photos }}{{ photoId | slugify }}/index.html"
+permalink: "{{ url.photos }}{{ photoId }}/index.html"
 layout: "photo_detail.njk"
 eleventyExcludeFromCollections: true
 ---
