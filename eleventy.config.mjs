@@ -5,6 +5,7 @@ import Image from '@11ty/eleventy-img';
 import path from 'node:path';
 import exifr from 'exifr';
 import { parse } from 'csv-parse/sync';
+import htmlmin from 'html-minifier-terser';
 
 const require = createRequire(import.meta.url);
 const markdownIt = require('markdown-it');
@@ -175,6 +176,21 @@ export default async function (config) {
 			style: `view-transition-name: image_${ imageId };`
 		};
 		return Image.generateHTML(metadata, imageAttributes);
+	});
+
+	config.addTransform("htmlmin", function (content) {
+		if ((this.page.outputPath || "").endsWith(".html")) {
+			let minified = htmlmin.minify(content, {
+				useShortDoctype: true,
+				removeComments: false,
+				collapseWhitespace: true,
+			});
+
+			return minified;
+		}
+
+		// If not an HTML output, return content as-is
+		return content;
 	});
 
 	return {
