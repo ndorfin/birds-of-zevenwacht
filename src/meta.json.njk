@@ -4,17 +4,17 @@ permalink: "/meta.json"
 eleventyExcludeFromCollections: true
 ---
 {
-	css: {
-		matches: /.css$/,
-		version: 1,
-		urls: [
+	"css": {
+		"matches": "/.css$/",
+		"version": {{ environment.timestamps.css }},
+		"urls": [
 			"{{ "/all.css" | url }}"
 		],
 	},
-	html: {
-		matches: /(\/|.html)$/,
-		version: 1,
-		urls: [
+	"html": {
+		"matches": "/(\/|.html)$/",
+		"version": {{ environment.timestamps.html }},
+		"urls": [
 			"{{ url.about | url }}",
 			"{{ url.areas | url }}",
 		{%- for areaId, area in areas %}
@@ -40,34 +40,40 @@ eleventyExcludeFromCollections: true
 			"{{ "/" | url }}"
 		],
 	},
-	static: {
-		matches: /.(ico|manifest|svg)$/,
-		version: 1,
-		urls: [
+	"json": {
+		"matches": "/.json$/",
+		"version": {{ environment.timestamps.json }},
+		"urls": [
+		{%- for sightingId, sighting in sightings %}
+			"{{ url.sightings | url }}/{{ sightingId }}.json",
+		{%- endfor %}
+			"{{ url.sightings | url }}/all.json"
+		],
+	},
+	"libJS": {
+		"matches": "/.js$/",
+		"version": {{ environment.timestamps.libJS }},
+		"urls": [
+			"{{ "/assets/mjs/lib/leaflet.1.9.4.js" | url }}"
+		],
+	},
+	"mjs": {
+		"matches": "/.mjs$/",
+		"version": {{ environment.timestamps.mjs }},
+		"urls": [
+			"{{ "/assets/mjs/bundle.mjs" | url }}"
+		],
+	},
+	"static": {
+		"matches": "/.(ico|manifest|svg)$/",
+		"version": {{ environment.timestamps.static }},
+		"urls": [
 			"{{ "/favicon.ico" | url }}",
 			"{{ "/icon_pwa.svg" | url }}",
 			"{{ "/web.manifest" | url }}",
 			"{{ "/assets/img/icon_bird.svg" | url }}",
 			"{{ "/assets/img/icon_photo.svg" | url }}",
 			"{{ "/assets/img/icon_sighting.svg" | url }}"
-		],
-	},
-	js: {
-		matches: /.(js|mjs)$/,
-		version: 1,
-		urls: [
-			"{{ "/assets/mjs/bundle.mjs" | url }}",
-			"{{ "/assets/mjs/lib/leaflet.1.9.4.js" | url }}"
-		],
-	},
-	json: {
-		matches: /.json$/,
-		version: 1,
-		urls: [
-		{%- for sightingId, sighting in sightings %}
-			"{{ url.sightings | url }}/{{ sightingId }}.json",
-		{%- endfor %}
-			"{{ url.sightings | url }}/all.json"
 		],
 	}
 }

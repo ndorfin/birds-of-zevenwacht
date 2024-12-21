@@ -1,5 +1,5 @@
 export default function getBaseURI() {
-	if (window.location.href.indexOf('/birds-of-zevenwacht/') > -1) {
+	if (window.location.href.includes('/birds-of-zevenwacht/')) {
 		return '/birds-of-zevenwacht/';
 	} else {
 		return '/'

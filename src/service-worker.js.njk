@@ -12,15 +12,15 @@ function getCacheName(type) {
 let cacheGroups = {
 	css: {
 		matches: /.css$/,
-		name: getCacheName('css'),
+		name: `cache_css-v{{ environment.timestamps.css }}`,
 		urls: [
 			"{{ "/all.css" | url }}"
 		],
-		version: {{ environment.timestamp.css }},
+		version: {{ environment.timestamps.css }},
 	},
 	html: {
 		matches: /(\/|.html)$/,
-		name: getCacheName('html'),
+		name: `cache_html-v{{ environment.timestamps.html }}`,
 		urls: [
 			"{{ url.about | url }}",
 			"{{ url.areas | url }}",
@@ -50,18 +50,18 @@ let cacheGroups = {
 	},
 	json: {
 		matches: /.json$/,
-		name: getCacheName('json'),
+		name: `cache_json-v{{ environment.timestamps.json }}`,
 		urls: [
 		{%- for sightingId, sighting in sightings %}
-			"{{ url.sightings | url }}/{{ sightingId }}.json",
+			"{{ url.sightings | url }}{{ sightingId }}.json",
 		{%- endfor %}
-			"{{ url.sightings | url }}/all.json"
+			"{{ url.sightings | url }}all.json"
 		],
 		version: {{ environment.timestamps.json }},
 	},
 	libJS: {
 		matches: /.js$/,
-		name: getCacheName('libJS'),
+		name: `cache_libJS-v{{ environment.timestamps.libJS }}`,
 		urls: [
 			"{{ "/assets/mjs/lib/leaflet.1.9.4.js" | url }}"
 		],
@@ -69,7 +69,7 @@ let cacheGroups = {
 	},
 	mjs: {
 		matches: /.mjs$/,
-		name: getCacheName('mjs'),
+		name: `cache_mjs-v{{ environment.timestamps.mjs }}`,
 		urls: [
 			"{{ "/assets/mjs/bundle.mjs" | url }}"
 		],
@@ -77,7 +77,7 @@ let cacheGroups = {
 	},
 	static: {
 		matches: /.(ico|manifest|svg)$/,
-		name: getCacheName('static'),
+		name: `cache_static-v{{ environment.timestamps.static }}`,
 		urls: [
 			"{{ "/favicon.ico" | url }}",
 			"{{ "/icon_pwa.svg" | url }}",
@@ -90,24 +90,41 @@ let cacheGroups = {
 	},
 }
 
-addEventListener('install', event => {
+self.addEventListener('install', event => {
 	event.waitUntil(
-		Object.keys(cacheGroups).forEach(key => {
+		Promise.all(Object.keys(cacheGroups).map(key => {
 			let cacheGroup = cacheGroups[key];
-			caches
+			console.log('name', cacheGroup.name);
+			return caches
 				.open(cacheGroup.name)
-				.then(cache => cache.addAll(cacheGroup.urls))
-		})
+				.then(cache => {
+					console.log('cache', cache);
+					console.log('urls', cacheGroup.urls.length);
+					return cache.addAll(cacheGroup.urls);
+				});
+		}))
 	);
 });
 
-addEventListener('activate', event => {
-	event.waitUntil(
+const deleteCache = async (key) => {
+  await caches.delete(key);
+};
 
+const deleteOldCaches = async () => {
+  const cacheKeepList = Object.entries(cacheGroups).map(item => item.name);
+  const keyList = await caches.keys();
+  const cachesToDelete = keyList.filter((key) => !cacheKeepList.includes(key));
+  await Promise.all(cachesToDelete.map(deleteCache));
+};
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+		clients.claim(),
+		deleteOldCaches(),
 	);
 });
 
-addEventListener('fetch', event => {
+self.addEventListener('fetch', event => {
 	const request = event.request;
 	console.log('Request', request.url);
 
@@ -118,7 +135,7 @@ addEventListener('fetch', event => {
 
 	Object.keys(cacheGroups).forEach(type => {
 		const cacheType = cacheGroups[type];
-		if (request.url.matches(cacheType.matches)) {
+		if (request.url.match(cacheType.matches)) {
 			console.log('CACHE HIT');
 			event.respondWith(
 				caches
