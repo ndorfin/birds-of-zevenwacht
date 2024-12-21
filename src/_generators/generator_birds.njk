@@ -3,7 +3,7 @@ pagination:
   data: birds
   size: 1
   alias: birdId
-permalink: "{{ url.birds }}{{ birds[birdId].name | slugify }}/index.html"
+permalink: "{{ url.birds }}{{ birdId | slugify }}/index.html"
 layout: "bird_detail.njk"
 eleventyExcludeFromCollections: true
 ---
@@ -72,7 +72,7 @@ eleventyExcludeFromCollections: true
 				<ul>
 					{% for sightingId, sighting in filtered_sightings %}
 						<li>
-							<a href="{{ url.sightings }}{{ sightingId }}-{{ birdId }}/">
+							<a href="{{ url.sightings }}{{ sightingId }}/">
 								{{ sighting.bird.quantity }} × {{ bird.name}} on {{ sighting.datetime | CCYYMMDD }}
 							</a>
 						</li>
@@ -99,7 +99,7 @@ eleventyExcludeFromCollections: true
 					{% set datetime = photo.datetime %}
 				{% endif %}
 				<li>
-					<a class="link_thumbnail" href="{{ url.photos }}{{ photoId | slugify }}/">
+					<a class="link_thumbnail" href="{{ url.photos }}{{ photoId }}/">
 						<figure>
 							{% photoThumbnail url.source_photos + photo.photographer + '/' + photo.file, photo.description %}
 							<figcpation>

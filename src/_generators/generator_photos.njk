@@ -32,7 +32,7 @@ eleventyExcludeFromCollections: true
 			<ul class="list_stripped">
 				{% for birdId in photo.birds %}
 					<li>
-						<a href="{{ url.birds }}{{ birds[birdId].name | slugify }}/">{{ birds[birdId].name }}</a>
+						<a href="{{ url.birds }}{{ birdId }}/">{{ birds[birdId].name }}</a>
 					</li>
 				{% endfor %}
 			</ul>
@@ -42,7 +42,7 @@ eleventyExcludeFromCollections: true
 		<dt>Sighting</dt>
 		<dd>
 			{% set sighting = sightings[photo.sighting] %}
-			<a href="{{ url.sightings }}{{ photo.sighting }}-{{ sighting.bird.id }}/">{% datetime datetime %}</a>
+			<a href="{{ url.sightings }}{{ photo.sighting }}/">{% datetime datetime %}</a>
 		</dd>
 	</div>
 	<div>
