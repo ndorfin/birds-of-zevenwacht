@@ -88,7 +88,7 @@ eleventyExcludeFromCollections: true
 		<ul class="list_gallery">
 			{% for photoId, photo in filtered_photos %}
 				<li id="photo_{{ photoId }}">
-					<a class="link_thumbnail" href="{{ url.photos }}{{ photoId | slugify }}/">
+					<a class="link_thumbnail" href="{{ url.photos }}{{ photoId }}/">
 						<figure>
 							{% set photoPath = url.source_photos + photo.photographer + '/' + photo.file %}
 							{% photoThumbnail photoPath, photo.description %}

@@ -27,7 +27,7 @@ eleventyExcludeFromCollections: true
 				{% for photoId in sighting.photos %}
 					{% set photo = photos[photoId] %}
 					<li>
-						<a class="link_thumbnail" href="{{ url.photos }}{{ photoId | slugify }}/">
+						<a class="link_thumbnail" href="{{ url.photos }}{{ photoId }}/">
 							{% set photoPath = url.source_photos + photo.photographer + '/' + photo.file %}
 							{% photoThumbnail photoPath, photo.description %}
 						</a>
