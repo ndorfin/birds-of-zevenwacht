@@ -1,0 +1,151 @@
+
+
+[
+{
+	"datetime": "2019-07-13T11:07:14.000Z",
+	"bird": {
+	"name": "Great White Pelican",
+	"family_name": "Pelican",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Pelecanus",
+	"species": "onocrotalus",
+	"ebird": "https://ebird.org/species/grwpel1/ZA",
+	"red-list": "least-concern"
+},
+	"quantity": 29,
+	"location": {
+		"areaId": "zevendal-residential-estate",
+		"area": {
+	"name": "Zevendal Residential Estate",
+	"address": {
+		"street": "Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.936845,
+		"longitude": 18.714198
+	},
+	"geofence": [
+		[
+			-33.94040129138751,
+			18.717252034415054
+		],
+		[
+			-33.93632542813003,
+			18.714496237477732
+		],
+		[
+			-33.93641167296189,
+			18.714187965263534
+		],
+		[
+			-33.93679233876266,
+			18.714338516810187
+		],
+		[
+			-33.93672096405469,
+			18.714155704217774
+		],
+		[
+			-33.93635516773703,
+			18.713958553382668
+		],
+		[
+			-33.936105354714414,
+			18.713571420835194
+		],
+		[
+			-33.93620052166672,
+			18.71337427000003
+		],
+		[
+			-33.93627784473663,
+			18.712994306573478
+		],
+		[
+			-33.93628676608845,
+			18.71236700722011
+		],
+		[
+			-33.93620944302594,
+			18.711797062079285
+		],
+		[
+			-33.93592691367242,
+			18.71082922925217
+		],
+		[
+			-33.93581687652072,
+			18.710341729006018
+		],
+		[
+			-33.93576037090119,
+			18.709947427336715
+		],
+		[
+			-33.935745500995075,
+			18.70913731663461
+		],
+		[
+			-33.935855538239046,
+			18.709115809270145
+		],
+		[
+			-33.93976191334253,
+			18.711971971715712
+		],
+		[
+			-33.94075220048523,
+			18.713068849425838
+		],
+		[
+			-33.94040129138751,
+			18.717252034415054
+		]
+	],
+	"website": "https://zevendal.co.za/"
+},
+		"latitude": 
+		
+			-33.936504,
+		
+		"longitude":
+		
+			18.711134
+		
+	},
+	
+	"photos": {
+		
+			
+			"2019-07-13T11:07:14.000Z_mike":
+			{
+	"file": "IMG_1164pelicans.jpg",
+	"sighting": "2019-07-13T11:07:14.000Z_mike",
+	"description": "A flock of 29 Great White Pelicans",
+	"birds": [
+		"pelican-great-white"
+	],
+	"photographer": "mike",
+	"location": {
+		"area": "zevendal-residential-estate",
+		"latitude": -33.936504,
+		"longitude": 18.711134
+	}
+}
+		
+	},
+	
+	"observers": [
+		
+			
+			{
+	"name": "Mike",
+	"full-name": "Mike Tyszowiecki",
+	"email": null
+}
+		
+	]
+}
+]

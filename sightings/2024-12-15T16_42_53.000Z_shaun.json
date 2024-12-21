@@ -1,0 +1,157 @@
+
+
+[
+{
+	"datetime": "2024-12-15T16:42:53.000Z",
+	"bird": {
+	"name": "Forest Buzzard",
+	"family_name": "Buzzard",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Buteo",
+	"species": "trizonatus",
+	"ebird": "https://ebird.org/species/moubuz3/ZA",
+	"red-list": "near-threatened"
+},
+	"quantity": 1,
+	"location": {
+		"areaId": "kuils-river",
+		"area": {
+	"name": "Kuils River undeveloped land",
+	"address": {
+		"street": "173 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.923555,
+		"longitude": 18.712917
+	},
+	"geofence": [
+		[
+			-33.92640090029467,
+			18.713214574713362
+		],
+		[
+			-33.92477909280872,
+			18.71300599715954
+		],
+		[
+			-33.92255817057901,
+			18.713068241659045
+		],
+		[
+			-33.91584340619552,
+			18.712051584323973
+		],
+		[
+			-33.91236529261397,
+			18.711366894822532
+		],
+		[
+			-33.917403836357394,
+			18.69906575474164
+		],
+		[
+			-33.919356143847544,
+			18.699135983103844
+		],
+		[
+			-33.92383567337802,
+			18.70651148860688
+		],
+		[
+			-33.92456094426854,
+			18.707642619322655
+		],
+		[
+			-33.925062234677426,
+			18.707552640749782
+		],
+		[
+			-33.92799523524527,
+			18.707244150554715
+		],
+		[
+			-33.93291695605749,
+			18.707132484375848
+		],
+		[
+			-33.93528514735533,
+			18.707110860570225
+		],
+		[
+			-33.93535690969983,
+			18.708696606332268
+		],
+		[
+			-33.93265777018576,
+			18.708429492118682
+		],
+		[
+			-33.93261619786219,
+			18.708229069783442
+		],
+		[
+			-33.92835492020161,
+			18.70827917471803
+		],
+		[
+			-33.92598514559472,
+			18.70852970263749
+		],
+		[
+			-33.92640090029467,
+			18.713214574713362
+		]
+	]
+},
+		"latitude": 
+		
+			-33.924239,
+		
+		"longitude":
+		
+			18.71257
+		
+	},
+	
+	"photos": {
+		
+			
+			"2024-12-15T16_42_53.000Z_shaun":
+			{
+	"file": "1D1EB992-E89F-4198-828F-A90A4EBCFC84_1_201_a.jpeg",
+	"sighting": "2024-12-15T16_42_53.000Z_shaun",
+	"description": "A Forest Buzzard perched atop a Port Jackson tree",
+	"birds": [
+		"buzzard-forest"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "kuils-river",
+		"latitude": -33.924239,
+		"longitude": 18.71257
+	}
+}
+		
+	},
+	
+	"observers": [
+		
+			
+			{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+		
+			,
+			{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
+}
+		
+	]
+}
+]
