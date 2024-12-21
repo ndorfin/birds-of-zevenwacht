@@ -1,0 +1,133 @@
+---
+layout: null
+permalink: "/service-worker.js"
+eleventyExcludeFromCollections: true
+---
+// https://gist.github.com/brootaylor/5c1e456fa4bd930eff4429f6c3dfdde7
+
+function getCacheName(type) {
+	return `cache_${ type }-v${ cacheGroups[type].version }`;
+}
+
+let cacheGroups = {
+	css: {
+		matches: /.css$/,
+		name: getCacheName('css'),
+		urls: [
+			"{{ "/all.css" | url }}"
+		],
+		version: {{ environment.timestamp.css }},
+	},
+	html: {
+		matches: /(\/|.html)$/,
+		name: getCacheName('html'),
+		urls: [
+			"{{ url.about | url }}",
+			"{{ url.areas | url }}",
+		{%- for areaId, area in areas %}
+			"{{ url.areas | url }}{{ areaId }}/",
+		{%- endfor %}
+			"{{ url.attribution | url }}",
+			"{{ url.birds | url }}",
+		{%- for birdId, bird in birds %}
+			"{{ url.birds | url }}{{ birdId }}/",
+		{%- endfor %}
+			"{{ url.people | url }}",
+		{%- for personId, person in people %}
+			"{{ url.people | url }}{{ personId }}/",
+		{%- endfor %}
+			"{{ url.photos | url }}",
+		{%- for photoId, photo in photos %}
+			"{{ url.photos | url }}{{ photoId }}/",
+		{%- endfor %}
+			"{{ url.sightings | url }}",
+		{%- for sightingId, sighting in sightings %}
+			"{{ url.sightings | url }}{{ sightingId }}/",
+		{%- endfor %}
+			"{{ "/" | url }}"
+		],
+		version: {{ environment.timestamps.html }},
+	},
+	json: {
+		matches: /.json$/,
+		name: getCacheName('json'),
+		urls: [
+		{%- for sightingId, sighting in sightings %}
+			"{{ url.sightings | url }}/{{ sightingId }}.json",
+		{%- endfor %}
+			"{{ url.sightings | url }}/all.json"
+		],
+		version: {{ environment.timestamps.json }},
+	},
+	libJS: {
+		matches: /.js$/,
+		name: getCacheName('libJS'),
+		urls: [
+			"{{ "/assets/mjs/lib/leaflet.1.9.4.js" | url }}"
+		],
+		version: {{ environment.timestamps.libJS }},
+	},
+	mjs: {
+		matches: /.mjs$/,
+		name: getCacheName('mjs'),
+		urls: [
+			"{{ "/assets/mjs/bundle.mjs" | url }}"
+		],
+		version: {{ environment.timestamps.mjs }},
+	},
+	static: {
+		matches: /.(ico|manifest|svg)$/,
+		name: getCacheName('static'),
+		urls: [
+			"{{ "/favicon.ico" | url }}",
+			"{{ "/icon_pwa.svg" | url }}",
+			"{{ "/web.manifest" | url }}",
+			"{{ "/assets/img/icon_bird.svg" | url }}",
+			"{{ "/assets/img/icon_photo.svg" | url }}",
+			"{{ "/assets/img/icon_sighting.svg" | url }}"
+		],
+		version: {{ environment.timestamps.static }},
+	},
+}
+
+addEventListener('install', event => {
+	event.waitUntil(
+		Object.keys(cacheGroups).forEach(key => {
+			let cacheGroup = cacheGroups[key];
+			caches
+				.open(cacheGroup.name)
+				.then(cache => cache.addAll(cacheGroup.urls))
+		})
+	);
+});
+
+addEventListener('activate', event => {
+	event.waitUntil(
+
+	);
+});
+
+addEventListener('fetch', event => {
+	const request = event.request;
+	console.log('Request', request.url);
+
+	// Ignore non-GET requests
+	if (request.method !== 'GET') {
+		return;
+	}
+
+	Object.keys(cacheGroups).forEach(type => {
+		const cacheType = cacheGroups[type];
+		if (request.url.matches(cacheType.matches)) {
+			console.log('CACHE HIT');
+			event.respondWith(
+				caches
+					.open(cacheType.name)
+					.then(cache => cache.match(request))
+			);
+			return;
+		}
+	});
+
+	return;
+});

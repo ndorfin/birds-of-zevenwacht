@@ -1,0 +1,73 @@
+---
+layout: null
+permalink: "/meta.json"
+eleventyExcludeFromCollections: true
+---
+{
+	css: {
+		matches: /.css$/,
+		version: 1,
+		urls: [
+			"{{ "/all.css" | url }}"
+		],
+	},
+	html: {
+		matches: /(\/|.html)$/,
+		version: 1,
+		urls: [
+			"{{ url.about | url }}",
+			"{{ url.areas | url }}",
+		{%- for areaId, area in areas %}
+			"{{ url.areas | url }}{{ areaId }}/",
+		{%- endfor %}
+			"{{ url.attribution | url }}",
+			"{{ url.birds | url }}",
+		{%- for birdId, bird in birds %}
+			"{{ url.birds | url }}{{ birdId }}/",
+		{%- endfor %}
+			"{{ url.people | url }}",
+		{%- for personId, person in people %}
+			"{{ url.people | url }}{{ personId }}/",
+		{%- endfor %}
+			"{{ url.photos | url }}",
+		{%- for photoId, photo in photos %}
+			"{{ url.photos | url }}{{ photoId }}/",
+		{%- endfor %}
+			"{{ url.sightings | url }}",
+		{%- for sightingId, sighting in sightings %}
+			"{{ url.sightings | url }}{{ sightingId }}/",
+		{%- endfor %}
+			"{{ "/" | url }}"
+		],
+	},
+	static: {
+		matches: /.(ico|manifest|svg)$/,
+		version: 1,
+		urls: [
+			"{{ "/favicon.ico" | url }}",
+			"{{ "/icon_pwa.svg" | url }}",
+			"{{ "/web.manifest" | url }}",
+			"{{ "/assets/img/icon_bird.svg" | url }}",
+			"{{ "/assets/img/icon_photo.svg" | url }}",
+			"{{ "/assets/img/icon_sighting.svg" | url }}"
+		],
+	},
+	js: {
+		matches: /.(js|mjs)$/,
+		version: 1,
+		urls: [
+			"{{ "/assets/mjs/bundle.mjs" | url }}",
+			"{{ "/assets/mjs/lib/leaflet.1.9.4.js" | url }}"
+		],
+	},
+	json: {
+		matches: /.json$/,
+		version: 1,
+		urls: [
+		{%- for sightingId, sighting in sightings %}
+			"{{ url.sightings | url }}/{{ sightingId }}.json",
+		{%- endfor %}
+			"{{ url.sightings | url }}/all.json"
+		],
+	}
+}
