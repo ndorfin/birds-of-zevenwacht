@@ -3,7 +3,7 @@ pagination:
   data: birds
   size: 1
   alias: birdId
-permalink: "{{ url.birds }}{{ birdId | slugify }}/index.html"
+permalink: "{{ url.birds }}{{ birdId }}/index.html"
 layout: "bird_detail.njk"
 eleventyExcludeFromCollections: true
 ---
