@@ -85,12 +85,15 @@ let cacheGroups = {
 }
 
 self.addEventListener('install', event => {
-	event.waitUntil((async () => {
-		return Promise.all(Object.keys(cacheGroups).map(cacheType => {
-			const cacheGroup = cacheGroups[cacheType];
-			return caches.open(cacheGroup.name).then(cache => cache.addAll(cacheGroup.urls));
-		}));
-	})());
+	event.waitUntil(
+		(async () => {
+			return Promise.all(Object.keys(cacheGroups).map(cacheType => {
+				const cacheGroup = cacheGroups[cacheType];
+				return caches.open(cacheGroup.name).then(cache => cache.addAll(cacheGroup.urls));
+			}));
+		})(),
+		self.skipWaiting()
+	);
 });
 
 const deleteCache = async (key) => {
