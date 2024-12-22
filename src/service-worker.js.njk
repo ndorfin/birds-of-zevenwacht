@@ -12,7 +12,7 @@ let cacheGroups = {
 		],
 		version: {{ environment.timestamps.css }},
 	},
-	html: {
+	{# html: {
 		matches: /(\/|.html)$/,
 		name: `cache_html-v{{ environment.timestamps.html }}`,
 		urls: [
@@ -52,7 +52,7 @@ let cacheGroups = {
 			"{{ url.sightings | url }}all.json"
 		],
 		version: {{ environment.timestamps.json }},
-	},
+	}, #}
 	libJS: {
 		matches: /.js$/,
 		name: `cache_libJS-v{{ environment.timestamps.libJS }}`,
