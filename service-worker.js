@@ -9,7 +9,7 @@ let cacheGroups = {
 	},
 	html: {
 		matches: /(\/|.html)$/,
-		name: `cache_html-v1734619420206`,
+		name: `cache_html-v1734619420207`,
 		urls: [
 			"/birds-of-zevenwacht/about/",
 			"/birds-of-zevenwacht/areas/",
@@ -540,7 +540,7 @@ let cacheGroups = {
 			"/birds-of-zevenwacht/sightings/2024-12-19T18:00:33.000Z_shaun/",
 			"/birds-of-zevenwacht/"
 		],
-		version: 1734619420206,
+		version: 1734619420207,
 	},
 	json: {
 		matches: /.json$/,
