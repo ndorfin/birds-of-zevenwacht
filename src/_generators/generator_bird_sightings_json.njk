@@ -3,7 +3,7 @@ pagination:
   data: birds
   size: 1
   alias: birdId
-permalink: "{{ url.birds }}{{ birds[birdId].name | slugify }}/sightings.json"
+permalink: "{{ url.birds }}{{ birdId }}/sightings.json"
 layout: null
 eleventyExcludeFromCollections: true
 ---
