@@ -3,18 +3,12 @@ layout: null
 permalink: "/service-worker.js"
 eleventyExcludeFromCollections: true
 ---
-// https://gist.github.com/brootaylor/5c1e456fa4bd930eff4429f6c3dfdde7
-
-function getCacheName(type) {
-	return `cache_${ type }-v${ cacheGroups[type].version }`;
-}
-
 let cacheGroups = {
 	css: {
 		matches: /.css$/,
 		name: `cache_css-v{{ environment.timestamps.css }}`,
 		urls: [
-			"{{ "/all.css" | url }}"
+			"{{ "/assets/css/all.css" | url }}?timestamp={{ environment.timestamps.css }}"
 		],
 		version: {{ environment.timestamps.css }},
 	},
@@ -71,7 +65,7 @@ let cacheGroups = {
 		matches: /.mjs$/,
 		name: `cache_mjs-v{{ environment.timestamps.mjs }}`,
 		urls: [
-			"{{ "/assets/mjs/bundle.mjs" | url }}"
+			"{{ "/assets/mjs/bundle.mjs" | url }}?timestamp={{ environment.timestamps.mjs }}"
 		],
 		version: {{ environment.timestamps.mjs }},
 	},
@@ -91,19 +85,12 @@ let cacheGroups = {
 }
 
 self.addEventListener('install', event => {
-	event.waitUntil(
-		Promise.all(Object.keys(cacheGroups).map(key => {
-			let cacheGroup = cacheGroups[key];
-			console.log('name', cacheGroup.name);
-			return caches
-				.open(cacheGroup.name)
-				.then(cache => {
-					console.log('cache', cache);
-					console.log('urls', cacheGroup.urls.length);
-					return cache.addAll(cacheGroup.urls);
-				});
-		}))
-	);
+	event.waitUntil((async () => {
+		return Promise.all(Object.keys(cacheGroups).map(cacheType => {
+			const cacheGroup = cacheGroups[cacheType];
+			return caches.open(cacheGroup.name).then(cache => cache.addAll(cacheGroup.urls));
+		}));
+	})());
 });
 
 const deleteCache = async (key) => {
@@ -111,7 +98,7 @@ const deleteCache = async (key) => {
 };
 
 const deleteOldCaches = async () => {
-  const cacheKeepList = Object.entries(cacheGroups).map(item => item.name);
+  const cacheKeepList = Object.entries(cacheGroups).map(([key, value]) => value.name);
   const keyList = await caches.keys();
   const cachesToDelete = keyList.filter((key) => !cacheKeepList.includes(key));
   await Promise.all(cachesToDelete.map(deleteCache));
@@ -126,25 +113,32 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', event => {
 	const request = event.request;
-	console.log('Request', request.url);
 
 	// Ignore non-GET requests
-	if (request.method !== 'GET') {
-		return;
-	}
+	if (request.method !== 'GET') return;
 
+	let matchingType;
 	Object.keys(cacheGroups).forEach(type => {
 		const cacheType = cacheGroups[type];
 		if (request.url.match(cacheType.matches)) {
-			console.log('CACHE HIT');
-			event.respondWith(
-				caches
-					.open(cacheType.name)
-					.then(cache => cache.match(request))
-			);
+			matchingType = type;
 			return;
 		}
 	});
 
-	return;
+	event.respondWith((async () => {
+		if (matchingType) {
+			const cachedResponse = await caches
+				.open(cacheGroups[matchingType].name)
+				.then(cache => cache.match(request));
+
+			if (cachedResponse) {
+				return cachedResponse;
+			}
+		}
+
+		const response = await fetch(request);
+
+		return response;
+	})());
 });
