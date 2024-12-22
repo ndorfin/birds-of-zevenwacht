@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
 	{% for birdId, bird in birds %}
 		{% if not bird.uncomfirmed %}
 			<li>
-				<a href="{{ url.birds }}{{ bird.name | slugify }}/">{{ bird.name }}</a>
+				<a href="{{ url.birds }}{{ birdId }}/">{{ bird.name }}</a>
 			</li>
 		{% endif %}
 	{% endfor %}
@@ -20,7 +20,7 @@ eleventyExcludeFromCollections: true
 	{% for birdId, bird in birds %}
 		{% if bird.uncomfirmed %}
 			<li>
-				<a href="{{ url.birds }}{{ bird.name | slugify }}/">{{ bird.name }}</a>
+				<a href="{{ url.birds }}{{ birdId }}/">{{ bird.name }}</a>
 			</li>
 		{% endif %}
 	{% endfor %}
