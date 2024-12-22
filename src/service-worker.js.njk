@@ -1,0 +1,144 @@
+---
+layout: null
+permalink: "/service-worker.js"
+eleventyExcludeFromCollections: true
+---
+let cacheGroups = {
+	css: {
+		matches: /.css$/,
+		name: `cache_css-v{{ environment.timestamps.css }}`,
+		urls: [
+			"{{ "/assets/css/all.css" | url }}?timestamp={{ environment.timestamps.css }}"
+		],
+		version: {{ environment.timestamps.css }},
+	},
+	html: {
+		matches: /(\/|.html)$/,
+		name: `cache_html-v{{ environment.timestamps.html }}`,
+		urls: [
+			"{{ url.about | url }}",
+			"{{ url.areas | url }}",
+		{%- for areaId, area in areas %}
+			"{{ url.areas | url }}{{ areaId }}/",
+		{%- endfor %}
+			"{{ url.attribution | url }}",
+			"{{ url.birds | url }}",
+		{%- for birdId, bird in birds %}
+			"{{ url.birds | url }}{{ birdId }}/",
+		{%- endfor %}
+			"{{ url.people | url }}",
+		{%- for personId, person in people %}
+			"{{ url.people | url }}{{ personId }}/",
+		{%- endfor %}
+			"{{ url.photos | url }}",
+		{%- for photoId, photo in photos %}
+			"{{ url.photos | url }}{{ photoId }}/",
+		{%- endfor %}
+			"{{ url.sightings | url }}",
+		{%- for sightingId, sighting in sightings %}
+			"{{ url.sightings | url }}{{ sightingId }}/",
+		{%- endfor %}
+			"{{ "/" | url }}"
+		],
+		version: {{ environment.timestamps.html }},
+	},
+	json: {
+		matches: /.json$/,
+		name: `cache_json-v{{ environment.timestamps.json }}`,
+		urls: [
+		{%- for sightingId, sighting in sightings %}
+			"{{ url.sightings | url }}{{ sightingId }}.json",
+		{%- endfor %}
+			"{{ url.sightings | url }}all.json"
+		],
+		version: {{ environment.timestamps.json }},
+	},
+	libJS: {
+		matches: /.js$/,
+		name: `cache_libJS-v{{ environment.timestamps.libJS }}`,
+		urls: [
+			"{{ "/assets/mjs/lib/leaflet.1.9.4.js" | url }}"
+		],
+		version: {{ environment.timestamps.libJS }},
+	},
+	mjs: {
+		matches: /.mjs$/,
+		name: `cache_mjs-v{{ environment.timestamps.mjs }}`,
+		urls: [
+			"{{ "/assets/mjs/bundle.mjs" | url }}?timestamp={{ environment.timestamps.mjs }}"
+		],
+		version: {{ environment.timestamps.mjs }},
+	},
+	static: {
+		matches: /.(ico|manifest|svg)$/,
+		name: `cache_static-v{{ environment.timestamps.static }}`,
+		urls: [
+			"{{ "/favicon.ico" | url }}",
+			"{{ "/icon_pwa.svg" | url }}",
+			"{{ "/web.manifest" | url }}",
+			"{{ "/assets/img/icon_bird.svg" | url }}",
+			"{{ "/assets/img/icon_photo.svg" | url }}",
+			"{{ "/assets/img/icon_sighting.svg" | url }}"
+		],
+		version: {{ environment.timestamps.static }},
+	},
+}
+
+self.addEventListener('install', event => {
+	event.waitUntil((async () => {
+		return Promise.all(Object.keys(cacheGroups).map(cacheType => {
+			const cacheGroup = cacheGroups[cacheType];
+			return caches.open(cacheGroup.name).then(cache => cache.addAll(cacheGroup.urls));
+		}));
+	})());
+});
+
+const deleteCache = async (key) => {
+  await caches.delete(key);
+};
+
+const deleteOldCaches = async () => {
+  const cacheKeepList = Object.entries(cacheGroups).map(([key, value]) => value.name);
+  const keyList = await caches.keys();
+  const cachesToDelete = keyList.filter((key) => !cacheKeepList.includes(key));
+  await Promise.all(cachesToDelete.map(deleteCache));
+};
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+		clients.claim(),
+		deleteOldCaches(),
+	);
+});
+
+self.addEventListener('fetch', event => {
+	const request = event.request;
+
+	// Ignore non-GET requests
+	if (request.method !== 'GET') return;
+
+	let matchingType;
+	Object.keys(cacheGroups).forEach(type => {
+		const cacheType = cacheGroups[type];
+		if (request.url.match(cacheType.matches)) {
+			matchingType = type;
+			return;
+		}
+	});
+
+	event.respondWith((async () => {
+		if (matchingType) {
+			const cachedResponse = await caches
+				.open(cacheGroups[matchingType].name)
+				.then(cache => cache.match(request));
+
+			if (cachedResponse) {
+				return cachedResponse;
+			}
+		}
+
+		const response = await fetch(request);
+
+		return response;
+	})());
+});

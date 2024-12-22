@@ -1,5 +1,5 @@
 {% if environment.name == 'production' %}
-	<script async type="module" src="/assets/mjs/bundle.mjs?timestamp={{ environment.timestampMJSBuild }}"></script>
+	<script async type="module" src="/assets/mjs/bundle.mjs?timestamp={{ environment.timestamps.mjs }}"></script>
 {% else %}
 	<script async type="module" src="/assets/mjs/index.mjs"></script>
 {% endif %}

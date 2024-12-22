@@ -15,7 +15,7 @@ export default {
 				// Update timestamp
 				const environmentFilePath = './src/_data/environment.mjs';
 				let environmentFileContent = fs.readFileSync(environmentFilePath, 'utf8');
-				let newContent = environmentFileContent.replace(/timestampMJSBuild: [\d]+/g, `timestampMJSBuild: ${ new Date().valueOf() }`);
+				let newContent = environmentFileContent.replace(/mjs: [\d]+/g, `mjs: ${ new Date().valueOf() }`);
 				fs.writeFileSync(environmentFilePath, newContent);
 				console.log(environmentFilePath + ' updated');
 			}

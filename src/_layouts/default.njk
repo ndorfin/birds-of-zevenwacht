@@ -3,10 +3,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 {% if environment.name == 'production' %}
-	{% set css %}{% include "src/assets/css/all.css" %}{% endset %}
-	<style>
-		{{ css | safe }}
-	</style>
+	<link rel="stylesheet" href="/assets/css/all.css?timestamp={{ environment.timestamps.css }}">
 {% else %}
 	<link rel="stylesheet" href="/assets/css/index.css">
 {% endif %}
