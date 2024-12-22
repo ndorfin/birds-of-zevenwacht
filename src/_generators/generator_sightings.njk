@@ -16,7 +16,7 @@ eleventyExcludeFromCollections: true
 	<div>
 		<dt>Birds</dt>
 		<dd>
-			{{ sighting.bird.quantity }} × <a href="{{ url.birds }}{{ birds[sighting.bird.id].name | slugify }}/">{{ birds[sighting.bird.id].name }}</a>
+			{{ sighting.bird.quantity }} × <a href="{{ url.birds }}{{ sighting.bird.id }}/">{{ birds[sighting.bird.id].name }}</a>
 		</dd>
 	</div>
 	{% if sighting.photos %}
