@@ -1,0 +1,17 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 2D6D3241-EF1A-4D27-9E63-8B29A456DE73_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-12-24T12:33:34.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: Three Blacksmith Lapwings resting on the banks of the upper Lifestyle Estate dam. A Red-knobbed Coot photobombing.
+# List each of the bird IDs present in this photo
+birds:
+  - lapwing-blacksmith
+  - coot-red-knobbed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.931813
+  longitude: 18.715783

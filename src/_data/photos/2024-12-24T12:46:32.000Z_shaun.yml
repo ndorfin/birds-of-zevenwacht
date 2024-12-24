@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 95F58716-343A-48CA-B4AF-4D15355E0630_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-12-24T12:46:32.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A juvenile and adult Malachite Kingfisher barely visible even with a 400mm lens.
+# List each of the bird IDs present in this photo
+birds:
+  - kingfisher-malachite
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: langverwacht-estate
+  latitude: -33.933785
+  longitude: 18.719189

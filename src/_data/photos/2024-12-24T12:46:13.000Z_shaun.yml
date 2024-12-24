@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: D70ABC7D-FD4C-4F5F-A664-FFB3D9DFCC72_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-12-24T12:46:13.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: Four adult Yellow-billed Ducks swim through the water lillies in the lower Langverwacht dam.
+# List each of the bird IDs present in this photo
+birds:
+  - duck-yellow-billed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: langverwacht-estate
+  latitude: -33.934263
+  longitude: 18.719244

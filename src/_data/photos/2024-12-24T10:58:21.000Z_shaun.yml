@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 49FCFAE4-98F3-4858-A3FB-398778F3B0D1_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-12-24T10:58:21.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult male Pin-tailed Whydah walking over flagstones in the garden
+# List each of the bird IDs present in this photo
+birds:
+  - whydah-pin-tailed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
