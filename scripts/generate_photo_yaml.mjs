@@ -7,6 +7,18 @@ const targetPhotosFolder = path.resolve('src/_data/photos');
 const targetSightingsFolder = path.resolve('src/_data/sightings');
 const targetEXIFFolder = path.resolve('src/_data/exifs');
 
+function getGPSCoords(exifObj, type) {
+	if (exifObj[type])
+		return exifObj[type];
+
+	let titleCase = `${ type.charAt(0).toUpperCase() }${ type.substring(1) }`;
+	
+	if (exifObj[`GPS${ titleCase }`])
+		return exifObj[`GPS${ titleCase }`];
+
+	return '';
+}
+
 function createEXIFYML(exifEntryObj) {
 	let fileString = '';
 
@@ -20,8 +32,8 @@ FocalLengthIn35mmFormat: ${ exifEntryObj.FocalLengthIn35mmFormat ? exifEntryObj.
 ExposureTime: ${ exifEntryObj.ExposureTime }
 ExposureCompensation: ${ exifEntryObj.ExposureCompensation }
 ISO: ${ exifEntryObj.ISO }
-latitude: ${ exifEntryObj.latitude ? exifEntryObj.latitude : '' }
-longitude: ${ exifEntryObj.longitude ? exifEntryObj.longitude : '' }
+latitude: ${ getGPSCoords( exifEntryObj, 'latitude') }
+longitude: ${ getGPSCoords( exifEntryObj, 'longitude') }
 `;
 
 	return fileString;
@@ -57,8 +69,8 @@ location:
 
 	if (sightingEntryObj.exif && sightingEntryObj.exif.latitude ) {
 		fileString += `\
-  latitude: ${ sightingEntryObj.exif.latitude }
-  longitude: ${ sightingEntryObj.exif.longitude }
+  latitude: ${ getGPSCoords( sightingEntryObj, 'latitude') }
+  longitude: ${ getGPSCoords( sightingEntryObj, 'longitude') }
 `;
 	}
 
@@ -95,8 +107,8 @@ location:
 
 	if (photoEntryObj.exif && photoEntryObj.exif.GPSLatitude ) {
 		fileString += `\
-  latitude: ${ photoEntryObj.exif.GPSLatitude }
-  longitude: ${ photoEntryObj.exif.GPSLongitude }
+  latitude: ${ getGPSCoords( photoEntryObj, 'latitude') }
+  longitude: ${ getGPSCoords( photoEntryObj, 'longitude') }
 `
 	}
 
