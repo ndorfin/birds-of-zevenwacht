@@ -8,6 +8,7 @@
 @import './list_gallery.css'      layer(content.components);
 @import './link_thumbnail.css'    layer(content.components);
 @import './figure_full.css'       layer(content.components);
+@import './card_bird.css'         layer(content.components);
 @import './list_details.css'      layer(content.components);
 @import './list_stripped.css'     layer(content.components);
 @import './wc/map-embed.css'      layer(content.components.map);
