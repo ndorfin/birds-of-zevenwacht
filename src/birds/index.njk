@@ -10,7 +10,19 @@ eleventyExcludeFromCollections: true
 	{% for birdId, bird in birds %}
 		{% if not bird.uncomfirmed %}
 			<li>
-				<a href="{{ url.birds }}{{ birdId }}/">{{ bird.name }}</a>
+				<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
+					<figure>
+						<div>
+							{% set photo = photos | byBird(birdId) | sortByDatetimeRecent | objToArray | first %}
+							{% if photo %}
+								{% photoThumbnail url.source_photos + photo.photographer + '/' + photo.file, photo.description %}
+							{% else %}
+								<span>No photo yet</span>
+							{% endif %}
+						</div>
+						<figcaption>{{ bird.name }}</figcaption>
+					</figure>
+				</a>
 			</li>
 		{% endif %}
 	{% endfor %}
@@ -20,7 +32,19 @@ eleventyExcludeFromCollections: true
 	{% for birdId, bird in birds %}
 		{% if bird.uncomfirmed %}
 			<li>
-				<a href="{{ url.birds }}{{ birdId }}/">{{ bird.name }}</a>
+				<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
+					<figure>
+						<div>
+							{% set photo = photos | byBird(birdId) | objToArray | first %}
+							{% if photo %}
+								{% photoThumbnail url.source_photos + photo.photographer + '/' + photo.file, photo.description %}
+							{% else %}
+								<span>No photo yet</span>
+							{% endif %}
+						</div>
+						<figcaption>{{ bird.name }}</figcaption>
+					</figure>
+				</a>
 			</li>
 		{% endif %}
 	{% endfor %}

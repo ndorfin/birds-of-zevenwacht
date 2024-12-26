@@ -1,0 +1,57 @@
+.card_bird {
+	text-decoration: none;
+
+	& figure {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 1rem;
+		margin: 0;
+		padding: 0;
+
+		& > div {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			inline-size: 4rem;
+			block-size: 4rem;
+			background-color: grey;
+		}
+
+		& > div > span {
+			display: block;
+			font-size: 0.75rem;
+			text-align: center;
+			color: white;
+			padding: 0.5rem;
+		}
+	}
+	
+
+	& img {
+		max-inline-size: 4rem;
+		max-block-size: 4rem;
+		aspect-ratio: 1;
+		object-fit: cover;
+	}
+}
+
+ol:has(.card_bird) {
+	padding-inline-start: 2rem;
+}
+
+li:has(.card_bird) {
+	line-height: 4rem;
+	vertical-align: middle;
+
+	&::marker {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	& .card_bird {
+		line-height: 1;
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
