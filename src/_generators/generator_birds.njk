@@ -53,64 +53,108 @@ eleventyExcludeFromCollections: true
 	{% endif %}
 </dl>
 
-<article aria-labelledby="heading_bird_sightings">
-	<header>
-		<h3 id="heading_bird_sightings">{{ filtered_sightings_array.length }} sightings</h3>
-	</header>
-	{% if filtered_sightings_array.length %}
-		<div class="layout_map">
-			<div class="layout_item_map">
-				<map-embed
-					id="area_boundaries"
-					sightings="./sightings.json"
-					latitude="-33.929"
-					longitude="18.72"
-					zoom="15"
-				></map-embed>
-			</div>
-			<div class="layout_item_list">	
-				<ul>
-					{% for sightingId, sighting in filtered_sightings %}
-						<li>
-							<a href="{{ url.sightings }}{{ sightingId }}/">
-								{{ sighting.bird.quantity }} × {{ bird.name}} on {{ sighting.datetime | CCYYMMDD }}
-							</a>
-						</li>
-					{% endfor %}
-				</ul>
-			</div>
-		<div>
-	{% else %}
-		<p>No sightings yet</p>
-	{% endif %}
-</article>
-
-<article aria-labelledby="heading_bird_photos">
-	<header>
-		<h3 id="heading_bird_photos">{{ filtered_photos_array.length }} Photos</h3>
-	</header>
-	{% if filtered_photos_array.length %}
-		<ul class="list_gallery">
-			{% for photoId, photo in filtered_photos %}
-				{% set exif = exifs[photo.photographer][photo.file] %}
-				{% if exif %}
-					{% set datetime = exif.DateTimeOriginal %}
-				{% else %}
-					{% set datetime = photo.datetime %}
-				{% endif %}
-				<li>
-					<a class="link_thumbnail" href="{{ url.photos }}{{ photoId }}/">
-						<figure>
-							{% photoThumbnail url.source_photos + photo.photographer + '/' + photo.file, photo.description %}
-							<figcpation>
-								{% datetime datetime %}
-							</figcpation>
-						</figure>
-					</a>
-				</li>
-			{% endfor %}
+<tab-group>
+	<nav aria-labelledby="heading_nav_tabs">
+		<screenreader-only>
+			<h3 id="heading_nav_tabs">In this page</h3>
+		</screenreader-only>
+		<ul>
+			<li>
+				<a href="#section_photos" aria-active="true">
+					<b>{{ filtered_photos_array.length }}</b>
+					Photos
+				</a>
+			</li>
+			<li>
+				<a href="#section_sightings">
+					<b>{{ filtered_sightings_array.length }}</b>
+					Sightings
+				</a>
+			</li>
+			<li>
+				<a href="#section_people">
+					<b>0</b>
+					Observers
+				</a>
+			</li>
 		</ul>
-	{% else %}
-		<p>No photos yet</p>
-	{% endif %}
-</article>
+	</nav>
+
+	<article id="section_photos" aria-labelledby="heading_bird_photos">
+		<screenreader-only>
+			<header>
+				<h3 id="heading_bird_photos">{{ filtered_photos_array.length }} Photos</h3>
+			</header>
+		</screenreader-only>
+		{% if filtered_photos_array.length %}
+			<ul class="list_gallery">
+				{% for photoId, photo in filtered_photos %}
+					{% set exif = exifs[photo.photographer][photo.file] %}
+					{% if exif %}
+						{% set datetime = exif.DateTimeOriginal %}
+					{% else %}
+						{% set datetime = photo.datetime %}
+					{% endif %}
+					<li>
+						<a class="link_thumbnail" href="{{ url.photos }}{{ photoId }}/">
+							<figure>
+								{% photoThumbnail url.source_photos + photo.photographer + '/' + photo.file, photo.description %}
+								<figcpation>
+									{% datetime datetime %}
+								</figcpation>
+							</figure>
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		{% else %}
+			<p>No photos yet</p>
+		{% endif %}
+	</article>
+
+	<article id="section_sightings" aria-labelledby="heading_bird_sightings">
+		<screenreader-only>
+			<header>
+				<h3 id="heading_bird_sightings">{{ filtered_sightings_array.length }} sightings</h3>
+			</header>
+		</screenreader-only>
+		{% if filtered_sightings_array.length %}
+			<div class="layout_map">
+				<div class="layout_item_map">
+					<map-embed
+						id="area_boundaries"
+						sightings="./sightings.json"
+						latitude="-33.929"
+						longitude="18.72"
+						zoom="15"
+					></map-embed>
+				</div>
+				<div class="layout_item_list">	
+					<ul>
+						{% for sightingId, sighting in filtered_sightings %}
+							<li>
+								<a href="{{ url.sightings }}{{ sightingId }}/">
+									{{ sighting.bird.quantity }} × {{ bird.name}} on {{ sighting.datetime | CCYYMMDD }}
+								</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
+			<div>
+		{% else %}
+			<p>No sightings yet</p>
+		{% endif %}
+	</article>
+
+	<article id="section_people" aria-labelledby="heading_bird_people">
+		<screenreader-only>
+			<header>
+				<h3 id="heading_bird_people">0 Observers</h3>
+			</header>
+		</screenreader-only>
+
+		<p>No observers yet</p>
+
+	</article>
+
+</tab-group>

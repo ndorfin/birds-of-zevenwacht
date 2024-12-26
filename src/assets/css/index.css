@@ -11,6 +11,7 @@
 @import './card_bird.css'         layer(content.components);
 @import './list_details.css'      layer(content.components);
 @import './list_stripped.css'     layer(content.components);
+@import './wc/tab-group.css'      layer(content.components.tabs);
 @import './wc/map-embed.css'      layer(content.components.map);
 @import './icons.css'             layer(content.components.map);
 @import './lib/leaflet.1.9.4.css' layer(content.components.map);
