@@ -3,6 +3,135 @@
 		
 		
 		{
+			"id": "2024-12-26T14:31:06.000Z_mike",
+			"datetime": "2024-12-26T14:31:06.000Z",
+			"birdId": "flycatcher-african-paradise",
+			"bird": {
+	"name": "African Paradise Flycatcher",
+	"family_name": "Flycatcher",
+	"german_name": null,
+	"afrikaans_name": null,
+	"genus": "Terpsiphone",
+	"species": "viridis",
+	"ebird": "https://ebird.org/species/afpfly1/ZA",
+	"red-list": "least-concern"
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-village",
+				"area": {
+	"name": "Zevenwacht Village",
+	"address": {
+		"street": "151 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934301,
+		"longitude": 18.713467
+	},
+	"geofence": [
+		[
+			-33.935893233077714,
+			18.71226990760988
+		],
+		[
+			-33.93553206079912,
+			18.712058210015783
+		],
+		[
+			-33.935047495038035,
+			18.713038968801868
+		],
+		[
+			-33.93518006519004,
+			18.713165696061054
+		],
+		[
+			-33.93532177788244,
+			18.71345771974447
+		],
+		[
+			-33.93506120875843,
+			18.71368913592974
+		],
+		[
+			-33.934457783486145,
+			18.713628527241156
+		],
+		[
+			-33.93415149781066,
+			18.713600977837075
+		],
+		[
+			-33.93397778305724,
+			18.713628527241156
+		],
+		[
+			-33.932702339387696,
+			18.71354587998806
+		],
+		[
+			-33.931632598390955,
+			18.713804844387
+		],
+		[
+			-33.93099714758992,
+			18.713970140811256
+		],
+		[
+			-33.93092857347935,
+			18.713865453075613
+		],
+		[
+			-33.93251033399087,
+			18.70856494282151
+		],
+		[
+			-33.93531329253742,
+			18.708901425601454
+		],
+		[
+			-33.935548268921785,
+			18.709136435975353
+		],
+		[
+			-33.93557326637127,
+			18.71028738421026
+		],
+		[
+			-33.935893233077714,
+			18.711510643328268
+		],
+		[
+			-33.935893233077714,
+			18.71226990760988
+		]
+	]
+},
+				"latitude": 
+				
+					null,
+				
+				"longitude":
+				
+					null
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike T",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
 			"id": "2024-12-24T14:51:07.000Z_shaun",
 			"datetime": "2024-12-24T14:51:07.000Z",
 			"birdId": "flycatcher-african-paradise",
@@ -129,7 +258,7 @@
 					,
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -4061,7 +4190,7 @@
 					,
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -8410,7 +8539,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -9350,7 +9479,7 @@
 					,
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -9840,7 +9969,7 @@
 					,
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -10119,7 +10248,7 @@
 					,
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -11950,7 +12079,7 @@
 					,
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -12222,7 +12351,7 @@
 					,
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -12494,7 +12623,7 @@
 					,
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -12637,7 +12766,7 @@
 					,
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -12909,7 +13038,7 @@
 					,
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -14844,7 +14973,7 @@
 					,
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -14987,7 +15116,7 @@
 					,
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -15259,7 +15388,7 @@
 					,
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -15402,7 +15531,7 @@
 					,
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -19904,7 +20033,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -20162,7 +20291,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -20291,7 +20420,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -20420,7 +20549,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -21468,7 +21597,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -24286,7 +24415,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -24775,7 +24904,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -24885,7 +25014,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -33662,7 +33791,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -33893,7 +34022,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -33995,7 +34124,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -34097,7 +34226,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -34199,7 +34328,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -34301,7 +34430,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -34431,7 +34560,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -34541,7 +34670,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -34651,7 +34780,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -34753,7 +34882,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -34863,7 +34992,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -34965,7 +35094,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -35075,7 +35204,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -35177,7 +35306,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -35279,7 +35408,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -35381,7 +35510,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -35483,7 +35612,7 @@
 					
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
@@ -35592,7 +35721,7 @@
 					,
 					{
 	"name": "Mike",
-	"full-name": "Mike Tyszowiecki",
+	"full-name": "Mike T",
 	"email": null
 }
 				
