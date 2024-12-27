@@ -3,3 +3,11 @@ map-embed {
 	aspect-ratio: 1.5;
 	block-size: 100%;
 }
+
+@media (min-width: 720px) {
+	.layout_item_map {
+		& map-embed {
+			aspect-ratio: auto;
+		}
+	}
+}
