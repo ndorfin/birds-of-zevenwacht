@@ -11,64 +11,130 @@ eleventyExcludeFromCollections: true
 {% set filtered_sightings_array = filtered_sightings | objToArray %}
 {% set filtered_photos = photos | byPerson(personId) | sortByDatetimeRecent %}
 {% set filtered_photos_array = filtered_photos | objToArray %}
+{% set birdsArray = [] %}
+{% for sightingId, sighting in filtered_sightings %}
+	{% set birdsArray = (birdsArray.push(sighting.bird.id), birdsArray) %}
+{% endfor %}
+{% set sightedBirds = birdsArray | uniques | sort %}
 
-<article aria-labelledby="heading_bird_sightings">
-	<header>
-		<h3 id="heading_bird_sightings">{{ filtered_sightings_array.length }} sightings added</h3>
-	</header>
-	{% if filtered_sightings_array.length %}
-		<div class="layout_map">
-			<div class="layout_item_map">
-				<map-embed
-					id="map_people_sightings"
-					sightings="./sightings.json"
-					latitude="-33.929"
-					longitude="18.72"
-					zoom="15"
-				></map-embed>
-			</div>
-			<div class="layout_item_list">
-				<ul>
-					{% for sightingId, sighting in filtered_sightings %}
-						<li id="sighting_{{ sightingId }}">
-							<a href="{{ url.sightings }}{{ sightingId }}/">
-								{{ sighting.bird.quantity }} × {{ birds[sighting.bird.id].name }}
-							</a>
-						</li>
-					{% endfor %}
-				</ul>
-			</div>
-		</div>
-	{% else %}
-		<p>No sightings yet</p>
-	{% endif %}
-</article>
-
-<article aria-labelledby="heading_bird_photos">
-	<header>
-		<h3 id="heading_bird_photos">{{ filtered_photos_array.length }} photos added</h3>
-	</header>
-	{% if filtered_photos_array.length %}
-		<ul class="list_gallery">
-			{% for photoId, photo in filtered_photos %}
-				<li id="photo_{{ photoId }}">
-					<a class="link_thumbnail" href="{{ url.photos }}{{ photoId }}/">
-						<figure>
-							{% set photoPath = url.source_photos + photo.photographer + '/' + photo.file %}
-							{% photoThumbnail photoPath, photo.description %}
-							<figcaption>
-								<ul>
-									{% for birdId in photo.birds %}
-										<li>{{ birds[birdId].name }}{% if loop.length > 1 and not loop.last %},{% endif %}</li>
-									{% endfor %}
-								</ul>
-							</figcaption>
-						</figure>
-					</a>
-				</li>
-			{% endfor %}
+<tab-group>
+	<nav aria-labelledby="heading_nav_tabs">
+		<screenreader-only>
+			<h3 id="heading_nav_tabs">In this page</h3>
+		</screenreader-only>
+		<ul>
+			<li>
+				<a href="#section_photos" aria-active="true">
+					<b>{{ filtered_photos_array.length }}</b>
+					Photos
+				</a>
+			</li>
+			<li>
+				<a href="#section_sightings">
+					<b>{{ filtered_sightings_array.length }}</b>
+					Sightings
+				</a>
+			</li>
+			<li>
+				<a href="#section_birds">
+					<b>{{ sightedBirds.length }}</b>
+					Bird species
+				</a>
+			</li>
 		</ul>
-	{% else %}
-		<p>No photos yet</p>
-	{% endif %}
-</article>
+	</nav>
+
+	<article id="section_sightings" aria-labelledby="heading_bird_sightings">
+		<header>
+			<h3 id="heading_bird_sightings">{{ filtered_sightings_array.length }} sightings added</h3>
+		</header>
+		{% if filtered_sightings_array.length %}
+			<div class="layout_map">
+				<div class="layout_item_map">
+					<map-embed
+						id="map_people_sightings"
+						sightings="./sightings.json"
+						latitude="-33.929"
+						longitude="18.72"
+						zoom="15"
+					></map-embed>
+				</div>
+				<div class="layout_item_list">
+					<ul>
+						{% for sightingId, sighting in filtered_sightings %}
+							<li id="sighting_{{ sightingId }}">
+								<a href="{{ url.sightings }}{{ sightingId }}/">
+									{{ sighting.bird.quantity }} × {{ birds[sighting.bird.id].name }}
+								</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		{% else %}
+			<p>No sightings yet</p>
+		{% endif %}
+	</article>
+
+	<article id="section_photos" aria-labelledby="heading_bird_photos">
+		<header>
+			<h3 id="heading_bird_photos">{{ filtered_photos_array.length }} photos added</h3>
+		</header>
+		{% if filtered_photos_array.length %}
+			<ul class="list_gallery">
+				{% for photoId, photo in filtered_photos %}
+					<li id="photo_{{ photoId }}">
+						<a class="link_thumbnail" href="{{ url.photos }}{{ photoId }}/">
+							<figure>
+								{% set photoPath = url.source_photos + photo.photographer + '/' + photo.file %}
+								{% photoThumbnail photoPath, photo.description %}
+								<figcaption>
+									<ul>
+										{% for birdId in photo.birds %}
+											<li>{{ birds[birdId].name }}{% if loop.length > 1 and not loop.last %},{% endif %}</li>
+										{% endfor %}
+									</ul>
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		{% else %}
+			<p>No photos yet</p>
+		{% endif %}
+	</article>
+
+	<article id="section_birds" aria-labelledby="heading_birds">
+		<header>
+			<h3 id="heading_birds">{{ sightedBirds.length }} bird species seen</h3>
+		</header>
+		{% if sightedBirds.length %}
+			<ol>
+				{% for birdId in sightedBirds %}
+					{% set bird = birds[birdId] %}
+					<li>
+						<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
+							<figure>
+								<div>
+									{% set photo = photos | byBird(birdId) | objToArray | first %}
+									{% if photo %}
+										{% photoThumbnail url.source_photos + photo.photographer + '/' + photo.file, photo.description %}
+									{% else %}
+										<span>No photo yet</span>
+									{% endif %}
+								</div>
+								<figcaption>
+									{{ bird.name }}
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+				{% endfor %}
+			</ol>
+		{% else %}
+			<p>No birds seen yet</p>
+		{% endif %}
+	</article>
+
+</tab-group>
