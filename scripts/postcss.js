@@ -33,7 +33,7 @@ postcss([cssnano({ preset: require('cssnano-preset-default') })])
 		// Update timestamp
 		const environmentFilePath = './src/_data/environment.mjs';
 		let environmentFileContent = fs.readFileSync(environmentFilePath, 'utf8');
-		let newContent = environmentFileContent.replace(/css: [\d]+/g, `timestampCSSBuild: ${ new Date().valueOf() }`);
+		let newContent = environmentFileContent.replace(/css: [\d]+/g, `css: ${ new Date().valueOf() }`);
 		fs.writeFileSync(environmentFilePath, newContent);
 		console.log(environmentFilePath + ' updated');
 	});
