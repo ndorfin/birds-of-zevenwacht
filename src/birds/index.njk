@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
 <p>Birds we have sightings or photos of:</p>
 <ol>
 	{% for birdId, bird in birds %}
-		{% if not bird.uncomfirmed %}
+		{% if not bird.unconfirmed %}
 			<li>
 				<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
 					<figure>
@@ -30,7 +30,7 @@ eleventyExcludeFromCollections: true
 <p>Unconfirmed sightings, or birds we haven't logged sightings or photos for yet:</p>
 <ol>
 	{% for birdId, bird in birds %}
-		{% if bird.uncomfirmed %}
+		{% if bird.unconfirmed %}
 			<li>
 				<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
 					<figure>
