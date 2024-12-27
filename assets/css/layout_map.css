@@ -23,11 +23,8 @@
 
 	.layout_item_map {
 		flex-grow: 1;
-
-		& map-embed {
-			aspect-ratio: auto;
-		}
 	}
+	
 	.layout_item_list {
 		overflow-y: auto;
 		background-color: hsla(0 0 95% / 1);
