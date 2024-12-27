@@ -63,8 +63,8 @@ eleventyExcludeFromCollections: true
 					type="sighting"
 					marker-latitude="{{ sighting.location.latitude }}"
 					marker-longitude="{{ sighting.location.longitude }}"
-					latitude="-33.929"
-					longitude="18.72"
+					latitude="{{ sighting.location.latitude }}"
+					longitude="{{ sighting.location.longitude }}"
 					zoom="15"
 				></map-embed>
 			{% else %}
