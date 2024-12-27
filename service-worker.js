@@ -18,11 +18,11 @@ let cacheGroups = {
 	},
 	mjs: {
 		matches: /.mjs$/,
-		name: `cache_mjs-v1735292839383`,
+		name: `cache_mjs-v1735302164423`,
 		urls: [
-			"/birds-of-zevenwacht/assets/mjs/bundle.mjs?timestamp=1735292839383"
+			"/birds-of-zevenwacht/assets/mjs/bundle.mjs?timestamp=1735302164423"
 		],
-		version: 1735292839383,
+		version: 1735302164423,
 	},
 	static: {
 		matches: /.(ico|manifest|svg)$/,
