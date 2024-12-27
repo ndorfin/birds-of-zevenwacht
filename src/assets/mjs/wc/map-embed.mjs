@@ -95,8 +95,7 @@ class MapEmbed extends HTMLElement {
 	}
 
 	#addBoundaries(data) {
-		let polygon = window.L.polygon(data, {color: 'hsla(220 50% 50% / 0.80)'}).addTo(this.#map);
-		this.#map.fitBounds(polygon.getBounds());
+		window.L.polygon(data, {color: 'hsla(220 50% 50% / 0.80)'}).addTo(this.#map);
 	}
 
 	#invokeLeaflet() {
