@@ -91,6 +91,9 @@ export default async function (config) {
 	config.addFilter('stringify', data => {
 		return JSON.stringify(data, null, '\t');
 	});
+	config.addFilter('uniques', data => {
+		return Array.from(new Set(data));
+	});
 	config.addFilter('CCYYMMDD', date => {
 		return new Date(date).toISOString().substring(0, 10);
 	});
