@@ -2,6 +2,7 @@ import getBaseURI from '../lib/get-base-uri.mjs';
 
 class MapEmbed extends HTMLElement {
 
+	observer;
 	#map;
 
 	#checkSourceElementExists(elemId) {
@@ -136,6 +137,21 @@ class MapEmbed extends HTMLElement {
 				this.#addBoundaries(data);
 			});
 		}
+
+		this.#addObserver();
+	}
+
+	#redrawMap() {
+		this.#map.invalidateSize();
+	}
+
+	#addObserver() {
+		const options = {
+			root: document.querySelector('html'),
+			threshold: 0.1,
+		};
+		this.observer = new IntersectionObserver(this.#redrawMap.bind(this), options);
+		this.observer.observe(this);
 	}
 
 	connectedCallback() {
