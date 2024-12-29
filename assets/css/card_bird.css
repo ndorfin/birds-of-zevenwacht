@@ -27,10 +27,17 @@
 		}
 	}
 	
+	& picture {
+		overflow: hidden;
+	}
 
 	& img {
-		max-inline-size: 4rem;
-		max-block-size: 4rem;
+		transform:
+			translate(
+				var(--thumbnail-translate-x, 0),
+				var(--thumbnail-translate-y, 0)
+			)
+			scale(var(--thumbnail-scale, 1));
 		aspect-ratio: 1;
 		object-fit: cover;
 	}

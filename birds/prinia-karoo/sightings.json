@@ -17,7 +17,10 @@
 	"ebird": "https://ebird.org/species/karpri1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-11-05T15_54_52.000Z_shaun"
+		"id": "2024-11-05T15_54_52.000Z_shaun",
+		"tx": "70%",
+		"ty": "-40%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -234,7 +237,10 @@
 			"birdId": "prinia-karoo",
 			"bird": {
 	"photo": {
-		"id": "2024-11-05T15_54_52.000Z_shaun"
+		"id": "2024-11-05T15_54_52.000Z_shaun",
+		"tx": "70%",
+		"ty": "-40%",
+		"scale": 3
 	},
 	"name": "Karoo Prinia",
 	"family_name": "Prinia",
@@ -339,7 +345,10 @@
 			"birdId": "prinia-karoo",
 			"bird": {
 	"photo": {
-		"id": "2024-11-05T15_54_52.000Z_shaun"
+		"id": "2024-11-05T15_54_52.000Z_shaun",
+		"tx": "70%",
+		"ty": "-40%",
+		"scale": 3
 	},
 	"name": "Karoo Prinia",
 	"family_name": "Prinia",

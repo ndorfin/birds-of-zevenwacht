@@ -17,7 +17,10 @@
 	"ebird": "https://ebird.org/species/sacibi2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-04T00_26_05.000Z_shaun"
+		"id": "2024-09-04T00_26_05.000Z_shaun",
+		"tx": "-10%",
+		"ty": "30%",
+		"scale": 2
 	}
 },
 			"quantity": 14,
@@ -241,7 +244,10 @@
 			"birdId": "ibis-african-sacred",
 			"bird": {
 	"photo": {
-		"id": "2024-09-04T00_26_05.000Z_shaun"
+		"id": "2024-09-04T00_26_05.000Z_shaun",
+		"tx": "-10%",
+		"ty": "30%",
+		"scale": 2
 	},
 	"name": "African Sacred Ibis",
 	"family_name": "Ibis",
@@ -466,7 +472,10 @@
 			"birdId": "ibis-african-sacred",
 			"bird": {
 	"photo": {
-		"id": "2024-09-04T00_26_05.000Z_shaun"
+		"id": "2024-09-04T00_26_05.000Z_shaun",
+		"tx": "-10%",
+		"ty": "30%",
+		"scale": 2
 	},
 	"name": "African Sacred Ibis",
 	"family_name": "Ibis",

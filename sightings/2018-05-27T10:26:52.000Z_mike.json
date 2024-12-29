@@ -13,7 +13,10 @@
 	"ebird": "https://ebird.org/species/affeag1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2018-09-24T11:20:39.000Z_mike"
+		"id": "2018-09-24T11:20:39.000Z_mike",
+		"tx": "0%",
+		"ty": "0%",
+		"scale": 1.5
 	}
 },
 	"quantity": 1,

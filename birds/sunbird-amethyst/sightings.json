@@ -17,7 +17,10 @@
 	"ebird": "https://ebird.org/species/amesun2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-11-15T15_38_36.000Z_shaun"
+		"id": "2024-11-15T15_38_36.000Z_shaun",
+		"tx": "30%",
+		"ty": "-20%",
+		"scale": 2
 	}
 },
 			"quantity": 2,
@@ -155,7 +158,10 @@
 			"birdId": "sunbird-amethyst",
 			"bird": {
 	"photo": {
-		"id": "2024-11-15T15_38_36.000Z_shaun"
+		"id": "2024-11-15T15_38_36.000Z_shaun",
+		"tx": "30%",
+		"ty": "-20%",
+		"scale": 2
 	},
 	"name": "Amethyst Sunbird",
 	"family_name": "Sunbird",

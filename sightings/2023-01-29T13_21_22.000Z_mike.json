@@ -13,7 +13,10 @@
 	"ebird": "https://ebird.org/species/bokmak1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2023-01-29T13_21_22.000Z_mike"
+		"id": "2023-01-29T13_21_22.000Z_mike",
+		"tx": "-40%",
+		"ty": "-10%",
+		"scale": 2.25
 	}
 },
 	"quantity": 1,

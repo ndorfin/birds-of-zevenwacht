@@ -17,7 +17,8 @@
 	"ebird": "https://ebird.org/species/klacuc1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2018-11-27T14:30:20.000Z_mike"
+		"id": "2018-11-27T14:30:20.000Z_mike",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -234,7 +235,8 @@
 			"birdId": "cuckoo-klaass",
 			"bird": {
 	"photo": {
-		"id": "2018-11-27T14:30:20.000Z_mike"
+		"id": "2018-11-27T14:30:20.000Z_mike",
+		"scale": 3
 	},
 	"name": "Klaas's Cuckoo",
 	"family_name": "Cuckoo",
@@ -366,7 +368,8 @@
 			"birdId": "cuckoo-klaass",
 			"bird": {
 	"photo": {
-		"id": "2018-11-27T14:30:20.000Z_mike"
+		"id": "2018-11-27T14:30:20.000Z_mike",
+		"scale": 3
 	},
 	"name": "Klaas's Cuckoo",
 	"family_name": "Cuckoo",

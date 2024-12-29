@@ -17,7 +17,10 @@
 	"ebird": "https://ebird.org/species/capfra2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-13T14_14_59.000Z_shaun"
+		"id": "2024-12-13T14_14_59.000Z_shaun",
+		"tx": "0%",
+		"ty": "20%",
+		"scale": 1.5
 	}
 },
 			"quantity": 3,
@@ -155,7 +158,10 @@
 			"birdId": "spurfowl-cape",
 			"bird": {
 	"photo": {
-		"id": "2024-12-13T14_14_59.000Z_shaun"
+		"id": "2024-12-13T14_14_59.000Z_shaun",
+		"tx": "0%",
+		"ty": "20%",
+		"scale": 1.5
 	},
 	"name": "Cape Spurfowl",
 	"family_name": "Spurfowl",
@@ -287,7 +293,10 @@
 			"birdId": "spurfowl-cape",
 			"bird": {
 	"photo": {
-		"id": "2024-12-13T14_14_59.000Z_shaun"
+		"id": "2024-12-13T14_14_59.000Z_shaun",
+		"tx": "0%",
+		"ty": "20%",
+		"scale": 1.5
 	},
 	"name": "Cape Spurfowl",
 	"family_name": "Spurfowl",

@@ -17,7 +17,10 @@
 	"ebird": "https://ebird.org/species/grests1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-11-25T14_58_28.000Z_shaun"
+		"id": "2024-11-25T14_58_28.000Z_shaun",
+		"tx": "-40%",
+		"ty": "-30%",
+		"scale": 3
 	}
 },
 			"quantity": 8,
@@ -138,7 +141,10 @@
 			"birdId": "swallow-greater-striped",
 			"bird": {
 	"photo": {
-		"id": "2024-11-25T14_58_28.000Z_shaun"
+		"id": "2024-11-25T14_58_28.000Z_shaun",
+		"tx": "-40%",
+		"ty": "-30%",
+		"scale": 3
 	},
 	"name": "Greater Striped Swallow",
 	"family_name": "Swallow",
@@ -270,7 +276,10 @@
 			"birdId": "swallow-greater-striped",
 			"bird": {
 	"photo": {
-		"id": "2024-11-25T14_58_28.000Z_shaun"
+		"id": "2024-11-25T14_58_28.000Z_shaun",
+		"tx": "-40%",
+		"ty": "-30%",
+		"scale": 3
 	},
 	"name": "Greater Striped Swallow",
 	"family_name": "Swallow",

@@ -17,7 +17,10 @@
 	"ebird": "https://ebird.org/species/afpfly1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-26T14:31:06.000Z_mike"
+		"id": "2024-12-26T14:31:06.000Z_mike",
+		"tx": "10%",
+		"ty": "10%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -163,7 +166,10 @@
 	"ebird": "https://ebird.org/species/blagos1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2022-11-23T16_36_27.000Z_tony"
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
+		"ty": "20%",
+		"scale": 2
 	}
 },
 			"quantity": 3,
@@ -302,7 +308,10 @@
 	"ebird": "https://ebird.org/species/helgui/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-19T17:48:16.000Z_shaun"
+		"id": "2024-12-19T17:48:16.000Z_shaun",
+		"tx": "-30%",
+		"ty": "40%",
+		"scale": 3
 	}
 },
 			"quantity": 4,
@@ -441,7 +450,10 @@
 	"ebird": "https://ebird.org/species/barswa/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-15T16_52_15.000Z_shaun"
+		"id": "2024-12-15T16_52_15.000Z_shaun",
+		"tx": "40%",
+		"ty": "-30%",
+		"scale": 3.5
 	}
 },
 			"quantity": "7-10",
@@ -673,7 +685,9 @@
 	"ebird": "https://ebird.org/species/moubuz3/ZA",
 	"red-list": "near-threatened",
 	"photo": {
-		"id": "2024-12-15T16_42_53.000Z_shaun"
+		"id": "2024-12-15T16_42_53.000Z_shaun",
+		"tx": "-60%",
+		"scale": 3.5
 	}
 },
 			"quantity": 1,
@@ -812,7 +826,10 @@
 	"ebird": "https://ebird.org/species/bkskit1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-15T16_30_29.000Z_shaun"
+		"id": "2024-12-15T16_30_29.000Z_shaun",
+		"tx": "60%",
+		"ty": "20%",
+		"scale": 3
 	}
 },
 			"quantity": 2,
@@ -948,7 +965,10 @@
 	"ebird": "https://ebird.org/species/whrswi1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-15T16_18_28.000Z_shaun"
+		"id": "2024-12-15T16_18_28.000Z_shaun",
+		"tx": "40%",
+		"ty": "40%",
+		"scale": 2.5
 	}
 },
 			"quantity": "7-10",
@@ -1172,7 +1192,10 @@
 			"birdId": "guineafowl-helmeted",
 			"bird": {
 	"photo": {
-		"id": "2024-12-19T17:48:16.000Z_shaun"
+		"id": "2024-12-19T17:48:16.000Z_shaun",
+		"tx": "-30%",
+		"ty": "40%",
+		"scale": 3
 	},
 	"name": "Helmeted Guineafowl",
 	"family_name": "Guineafowl",
@@ -1412,7 +1435,10 @@
 	"ebird": "https://ebird.org/species/yebduc1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2022-08-08T09_18_37.000Z_tony"
+		"id": "2022-08-08T09_18_37.000Z_tony",
+		"tx": "-10%",
+		"ty": "0%",
+		"scale": 2
 	}
 },
 			"quantity": 4,
@@ -1572,7 +1598,10 @@
 	"ebird": "https://ebird.org/species/darter3/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-15T15:32:52.000Z_shaun"
+		"id": "2024-12-15T15:32:52.000Z_shaun",
+		"tx": "40%",
+		"ty": "-10%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -1732,7 +1761,10 @@
 	"ebird": "https://ebird.org/species/piecro1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-11-28T17_21_57.000Z_shaun"
+		"id": "2024-11-28T17_21_57.000Z_shaun",
+		"tx": "-40%",
+		"ty": "-10%",
+		"scale": 3.5
 	},
 	"size": {
 		"min": 460,
@@ -1900,7 +1932,10 @@
 	"ebird": "https://ebird.org/species/commoo3/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-15T15_24_29.000Z_shaun"
+		"id": "2024-12-15T15_24_29.000Z_shaun",
+		"tx": "-40%",
+		"ty": "40%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -2060,7 +2095,10 @@
 	"ebird": "https://ebird.org/species/tincis1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-15T15_17_32.000Z_shaun"
+		"id": "2024-12-15T15_17_32.000Z_shaun",
+		"tx": "10%",
+		"ty": "0%",
+		"scale": 2
 	}
 },
 			"quantity": 4,
@@ -2196,7 +2234,10 @@
 	"ebird": "https://ebird.org/species/rekcoo1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-24T01_58_34.000Z_shaun"
+		"id": "2024-09-24T01_58_34.000Z_shaun",
+		"tx": "30%",
+		"ty": "-40%",
+		"scale": 3
 	}
 },
 			"quantity": 9,
@@ -2428,7 +2469,10 @@
 	"ebird": "https://ebird.org/species/afrswi1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-14T13_21_19.000Z_shaun"
+		"id": "2024-12-14T13_21_19.000Z_shaun",
+		"tx": "10%",
+		"ty": "0%",
+		"scale": 2
 	}
 },
 			"quantity": 4,
@@ -2574,7 +2618,10 @@
 	"ebird": "https://ebird.org/species/capfra2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-13T14_14_59.000Z_shaun"
+		"id": "2024-12-13T14_14_59.000Z_shaun",
+		"tx": "0%",
+		"ty": "20%",
+		"scale": 1.5
 	}
 },
 			"quantity": 3,
@@ -2720,7 +2767,10 @@
 	"ebird": "https://ebird.org/species/sacibi2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-04T00_26_05.000Z_shaun"
+		"id": "2024-09-04T00_26_05.000Z_shaun",
+		"tx": "-10%",
+		"ty": "30%",
+		"scale": 2
 	}
 },
 			"quantity": 14,
@@ -2944,7 +2994,10 @@
 			"birdId": "crow-pied",
 			"bird": {
 	"photo": {
-		"id": "2024-11-28T17_21_57.000Z_shaun"
+		"id": "2024-11-28T17_21_57.000Z_shaun",
+		"tx": "-40%",
+		"ty": "-10%",
+		"scale": 3.5
 	},
 	"size": {
 		"min": 460,
@@ -3099,7 +3152,10 @@
 	"ebird": "https://ebird.org/species/malsun1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-11-19T12_45_11.000Z_shaun"
+		"id": "2024-11-19T12_45_11.000Z_shaun",
+		"tx": "30%",
+		"ty": "-20%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -3245,7 +3301,10 @@
 	"ebird": "https://ebird.org/species/eurkes1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2018-08-19T13:14:48.000Z_mike"
+		"id": "2018-08-19T13:14:48.000Z_mike",
+		"tx": "25%",
+		"ty": "-30%",
+		"scale": 4.5
 	},
 	"size": {
 		"min": 300,
@@ -3594,7 +3653,10 @@
 			"birdId": "swift-african-black",
 			"bird": {
 	"photo": {
-		"id": "2024-12-14T13_21_19.000Z_shaun"
+		"id": "2024-12-14T13_21_19.000Z_shaun",
+		"tx": "10%",
+		"ty": "0%",
+		"scale": 2
 	},
 	"name": "African Black Swift",
 	"family_name": "Swift",
@@ -3741,7 +3803,10 @@
 	"ebird": "https://ebird.org/species/amesun2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-11-15T15_38_36.000Z_shaun"
+		"id": "2024-11-15T15_38_36.000Z_shaun",
+		"tx": "30%",
+		"ty": "-20%",
+		"scale": 2
 	}
 },
 			"quantity": 2,
@@ -3887,7 +3952,10 @@
 	"ebird": "https://ebird.org/species/fisfly1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-11-07T16_07_20.000Z_shaun"
+		"id": "2024-11-07T16_07_20.000Z_shaun",
+		"tx": "-10%",
+		"ty": "10%",
+		"scale": 2
 	}
 },
 			"quantity": 1,
@@ -4040,7 +4108,10 @@
 	"ebird": "https://ebird.org/species/afbduc1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-11-07T15_53_10.000Z_shaun"
+		"id": "2024-11-07T15_53_10.000Z_shaun",
+		"tx": "0%",
+		"ty": "-30%",
+		"scale": 2.5
 	}
 },
 			"quantity": 1,
@@ -4185,7 +4256,10 @@
 			"birdId": "duck-yellow-billed",
 			"bird": {
 	"photo": {
-		"id": "2022-08-08T09_18_37.000Z_tony"
+		"id": "2022-08-08T09_18_37.000Z_tony",
+		"tx": "-10%",
+		"ty": "0%",
+		"scale": 2
 	},
 	"name": "Yellow-billed Duck",
 	"family_name": "Duck",
@@ -4353,7 +4427,10 @@
 	"ebird": "https://ebird.org/species/spoeao2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	}
 },
 			"quantity": 3,
@@ -4513,7 +4590,10 @@
 	"ebird": "https://ebird.org/species/olithr2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2021-07-19T08_45_40.000Z_tony"
+		"id": "2021-07-19T08_45_40.000Z_tony",
+		"tx": "20%",
+		"ty": "-20%",
+		"scale": 2.5
 	}
 },
 			"quantity": 1,
@@ -4659,7 +4739,9 @@
 	"ebird": "https://ebird.org/species/capbul1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-10-18T20_06_43.000Z_shaun"
+		"id": "2024-10-18T20_06_43.000Z_shaun",
+		"ty": "35%",
+		"scale": 2
 	}
 },
 			"quantity": 1,
@@ -4805,7 +4887,10 @@
 	"ebird": "https://ebird.org/species/afmwea/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-10-18T19_50_21.000Z_shaun"
+		"id": "2024-10-18T19_50_21.000Z_shaun",
+		"tx": "80%",
+		"ty": "-20%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -4951,7 +5036,10 @@
 	"ebird": "https://ebird.org/species/capwhe2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2021-07-18T08_34_44.000Z_tony"
+		"id": "2021-07-18T08_34_44.000Z_tony",
+		"tx": "0%",
+		"ty": "-20%",
+		"scale": 2
 	}
 },
 			"quantity": 1,
@@ -5326,7 +5414,10 @@
 	"ebird": "https://ebird.org/species/rindov/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-10-12T17_30_36.000Z_shaun"
+		"id": "2024-10-12T17_30_36.000Z_shaun",
+		"tx": "-30%",
+		"ty": "40%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -5464,7 +5555,10 @@
 			"birdId": "coot-red-knobbed",
 			"bird": {
 	"photo": {
-		"id": "2024-09-24T01_58_34.000Z_shaun"
+		"id": "2024-09-24T01_58_34.000Z_shaun",
+		"tx": "30%",
+		"ty": "-40%",
+		"scale": 3
 	},
 	"name": "Red-knobbed Coot",
 	"family_name": "Coot",
@@ -5704,7 +5798,10 @@
 	"ebird": "https://ebird.org/species/blaplo1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-24T01_57_28.000Z_shaun"
+		"id": "2024-09-24T01_57_28.000Z_shaun",
+		"tx": "0%",
+		"ty": "-100%",
+		"scale": 4.5
 	}
 },
 			"quantity": 1,
@@ -5936,7 +6033,10 @@
 	"ebird": null,
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-24T01_56_06.000Z_shaun"
+		"id": "2024-09-24T01_56_06.000Z_shaun",
+		"tx": "0%",
+		"ty": "100%",
+		"scale": 4
 	}
 },
 			"quantity": 1,
@@ -6168,7 +6268,10 @@
 	"ebird": "https://ebird.org/species/capcan1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-24T01_27_49.000Z_shaun"
+		"id": "2024-09-24T01_27_49.000Z_shaun",
+		"tx": "-30%",
+		"ty": "-30%",
+		"scale": 3.5
 	}
 },
 			"quantity": "3-5",
@@ -6400,7 +6503,10 @@
 	"ebird": "https://ebird.org/species/carcha1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2022-04-03T11_10_54.000Z_tony"
+		"id": "2022-04-03T11_10_54.000Z_tony",
+		"tx": "0%",
+		"ty": "0%",
+		"scale": 1.5
 	}
 },
 			"quantity": 1,
@@ -6632,7 +6738,10 @@
 	"ebird": "https://ebird.org/species/jacbuz1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-24T01_03_15.000Z_shaun"
+		"id": "2024-09-24T01_03_15.000Z_shaun",
+		"tx": "40%",
+		"ty": "50%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -6856,7 +6965,10 @@
 			"birdId": "kite-black-winged",
 			"bird": {
 	"photo": {
-		"id": "2024-12-15T16_30_29.000Z_shaun"
+		"id": "2024-12-15T16_30_29.000Z_shaun",
+		"tx": "60%",
+		"ty": "20%",
+		"scale": 3
 	},
 	"name": "Black-winged Kite",
 	"family_name": "Kite",
@@ -7024,7 +7136,10 @@
 	"ebird": "https://ebird.org/species/redbis/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2019-11-28T05:29:34.000Z_mike"
+		"id": "2019-11-28T05:29:34.000Z_mike",
+		"tx": "5%",
+		"ty": "-10%",
+		"scale": 2.25
 	}
 },
 			"quantity": "10-15",
@@ -7160,7 +7275,10 @@
 	"ebird": "https://ebird.org/species/sptkne1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-14T00_50_22.000Z_shaun"
+		"id": "2024-09-14T00_50_22.000Z_shaun",
+		"tx": "0%",
+		"ty": "-20%",
+		"scale": 2.5
 	}
 },
 			"quantity": 3,
@@ -7306,7 +7424,10 @@
 	"ebird": "https://ebird.org/species/laudov1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-14T00_49_26.000Z_shaun"
+		"id": "2024-09-14T00_49_26.000Z_shaun",
+		"tx": "10%",
+		"ty": "20%",
+		"scale": 2.5
 	}
 },
 			"quantity": 1,
@@ -7452,7 +7573,10 @@
 	"ebird": "https://ebird.org/species/piebar1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2017-09-25T11:07:04.000Z_mike"
+		"id": "2017-09-25T11:07:04.000Z_mike",
+		"tx": "7%",
+		"ty": "8%",
+		"scale": 2
 	}
 },
 			"quantity": 2,
@@ -7736,7 +7860,10 @@
 			"birdId": "guineafowl-helmeted",
 			"bird": {
 	"photo": {
-		"id": "2024-12-19T17:48:16.000Z_shaun"
+		"id": "2024-12-19T17:48:16.000Z_shaun",
+		"tx": "-30%",
+		"ty": "40%",
+		"scale": 3
 	},
 	"name": "Helmeted Guineafowl",
 	"family_name": "Guineafowl",
@@ -7883,7 +8010,10 @@
 	"ebird": "https://ebird.org/species/afdfly1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-04T01_28_53.000Z_shaun"
+		"id": "2024-09-04T01_28_53.000Z_shaun",
+		"tx": "-120%",
+		"ty": "-60%",
+		"scale": 4
 	}
 },
 			"quantity": 1,
@@ -8107,7 +8237,10 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
@@ -8347,7 +8480,10 @@
 	"ebird": "https://ebird.org/species/yelbis1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-04T00_25_28.000Z_shaun"
+		"id": "2024-09-04T00_25_28.000Z_shaun",
+		"tx": "-30%",
+		"ty": "-10%",
+		"scale": 4
 	}
 },
 			"quantity": 1,
@@ -8579,7 +8715,10 @@
 	"ebird": "https://ebird.org/species/lotcor1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2023-10-12T08_28_00.000Z_tony"
+		"id": "2023-10-12T08_28_00.000Z_tony",
+		"tx": "50%",
+		"ty": "40%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -8811,7 +8950,10 @@
 	"ebird": "https://ebird.org/species/capwea1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-04T00_16_23.000Z_shaun"
+		"id": "2024-09-04T00_16_23.000Z_shaun",
+		"tx": "40%",
+		"ty": "-20%",
+		"scale": 2.5
 	}
 },
 			"quantity": 9,
@@ -9043,7 +9185,10 @@
 	"ebird": "https://ebird.org/species/blkswa/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-04T00_02_17.000Z_shaun"
+		"id": "2024-09-04T00_02_17.000Z_shaun",
+		"tx": "-10%",
+		"ty": "-20%",
+		"scale": 2
 	}
 },
 			"quantity": 3,
@@ -9171,7 +9316,10 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",

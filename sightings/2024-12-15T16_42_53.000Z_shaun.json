@@ -13,7 +13,9 @@
 	"ebird": "https://ebird.org/species/moubuz3/ZA",
 	"red-list": "near-threatened",
 	"photo": {
-		"id": "2024-12-15T16_42_53.000Z_shaun"
+		"id": "2024-12-15T16_42_53.000Z_shaun",
+		"tx": "-60%",
+		"scale": 3.5
 	}
 },
 	"quantity": 1,

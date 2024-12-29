@@ -17,7 +17,10 @@
 	"ebird": "https://ebird.org/species/afpfly1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-26T14:31:06.000Z_mike"
+		"id": "2024-12-26T14:31:06.000Z_mike",
+		"tx": "10%",
+		"ty": "10%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -141,7 +144,10 @@
 			"birdId": "flycatcher-african-paradise",
 			"bird": {
 	"photo": {
-		"id": "2024-12-26T14:31:06.000Z_mike"
+		"id": "2024-12-26T14:31:06.000Z_mike",
+		"tx": "10%",
+		"ty": "10%",
+		"scale": 3
 	},
 	"name": "African Paradise Flycatcher",
 	"family_name": "Flycatcher",
@@ -295,7 +301,10 @@
 	"ebird": "https://ebird.org/species/capfra2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-13T14_14_59.000Z_shaun"
+		"id": "2024-12-13T14_14_59.000Z_shaun",
+		"tx": "0%",
+		"ty": "20%",
+		"scale": 1.5
 	}
 },
 			"quantity": 3,
@@ -441,7 +450,10 @@
 	"ebird": "https://ebird.org/species/hoopoe/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-20T23_50_26.000Z_shaun"
+		"id": "2024-09-20T23_50_26.000Z_shaun",
+		"tx": "0%",
+		"ty": "-20%",
+		"scale": 2
 	}
 },
 			"quantity": 2,
@@ -573,7 +585,10 @@
 	"ebird": "https://ebird.org/species/malsun1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-11-19T12_45_11.000Z_shaun"
+		"id": "2024-11-19T12_45_11.000Z_shaun",
+		"tx": "30%",
+		"ty": "-20%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -719,7 +734,10 @@
 	"ebird": "https://ebird.org/species/blhher1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-11-18T08_16_00.000Z_shaun"
+		"id": "2024-11-18T08_16_00.000Z_shaun",
+		"tx": "-70%",
+		"ty": "0%",
+		"scale": 2.5
 	}
 },
 			"quantity": 1,
@@ -858,7 +876,10 @@
 	"ebird": "https://ebird.org/species/amesun2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-11-15T15_38_36.000Z_shaun"
+		"id": "2024-11-15T15_38_36.000Z_shaun",
+		"tx": "30%",
+		"ty": "-20%",
+		"scale": 2
 	}
 },
 			"quantity": 2,
@@ -1004,7 +1025,10 @@
 	"ebird": "https://ebird.org/species/olithr2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2021-07-19T08_45_40.000Z_tony"
+		"id": "2021-07-19T08_45_40.000Z_tony",
+		"tx": "20%",
+		"ty": "-20%",
+		"scale": 2.5
 	}
 },
 			"quantity": 1,
@@ -1150,7 +1174,9 @@
 	"ebird": "https://ebird.org/species/capbul1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-10-18T20_06_43.000Z_shaun"
+		"id": "2024-10-18T20_06_43.000Z_shaun",
+		"ty": "35%",
+		"scale": 2
 	}
 },
 			"quantity": 1,
@@ -1296,7 +1322,10 @@
 	"ebird": "https://ebird.org/species/afmwea/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-10-18T19_50_21.000Z_shaun"
+		"id": "2024-10-18T19_50_21.000Z_shaun",
+		"tx": "80%",
+		"ty": "-20%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -1442,7 +1471,10 @@
 	"ebird": "https://ebird.org/species/capwhe2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2021-07-18T08_34_44.000Z_tony"
+		"id": "2021-07-18T08_34_44.000Z_tony",
+		"tx": "0%",
+		"ty": "-20%",
+		"scale": 2
 	}
 },
 			"quantity": 1,
@@ -1588,7 +1620,10 @@
 	"ebird": "https://ebird.org/species/rindov/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-10-12T17_30_36.000Z_shaun"
+		"id": "2024-10-12T17_30_36.000Z_shaun",
+		"tx": "-30%",
+		"ty": "40%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -1734,7 +1769,10 @@
 	"ebird": "https://ebird.org/species/sptkne1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-14T00_50_22.000Z_shaun"
+		"id": "2024-09-14T00_50_22.000Z_shaun",
+		"tx": "0%",
+		"ty": "-20%",
+		"scale": 2.5
 	}
 },
 			"quantity": 3,
@@ -1880,7 +1918,10 @@
 	"ebird": "https://ebird.org/species/laudov1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-14T00_49_26.000Z_shaun"
+		"id": "2024-09-14T00_49_26.000Z_shaun",
+		"tx": "10%",
+		"ty": "20%",
+		"scale": 2.5
 	}
 },
 			"quantity": 1,
@@ -2026,7 +2067,10 @@
 	"ebird": "https://ebird.org/species/piebar1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2017-09-25T11:07:04.000Z_mike"
+		"id": "2017-09-25T11:07:04.000Z_mike",
+		"tx": "7%",
+		"ty": "8%",
+		"scale": 2
 	}
 },
 			"quantity": 2,
@@ -2318,7 +2362,10 @@
 	"ebird": "https://ebird.org/species/eubeat1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2020-01-15T05:42:02.000Z_mike"
+		"id": "2020-01-15T05:42:02.000Z_mike",
+		"tx": "-5%",
+		"ty": "-15%",
+		"scale": 2
 	}
 },
 			"quantity": 1,
@@ -2450,7 +2497,10 @@
 	"ebird": "https://ebird.org/species/bokmak1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2023-01-29T13_21_22.000Z_mike"
+		"id": "2023-01-29T13_21_22.000Z_mike",
+		"tx": "-40%",
+		"ty": "-10%",
+		"scale": 2.25
 	}
 },
 			"quantity": 1,
@@ -2582,7 +2632,10 @@
 	"ebird": "https://ebird.org/species/blagos1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2022-11-23T16_36_27.000Z_tony"
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
+		"ty": "20%",
+		"scale": 2
 	}
 },
 			"quantity": 1,
@@ -2706,7 +2759,10 @@
 			"birdId": "heron-black-headed",
 			"bird": {
 	"photo": {
-		"id": "2024-11-18T08_16_00.000Z_shaun"
+		"id": "2024-11-18T08_16_00.000Z_shaun",
+		"tx": "-70%",
+		"ty": "0%",
+		"scale": 2.5
 	},
 	"name": "Black-headed Heron",
 	"family_name": "Heron",
@@ -2846,7 +2902,10 @@
 	"ebird": "https://ebird.org/species/spoeao2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	}
 },
 			"quantity": 1,
@@ -2985,7 +3044,10 @@
 	"ebird": "https://ebird.org/species/karpri1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-11-05T15_54_52.000Z_shaun"
+		"id": "2024-11-05T15_54_52.000Z_shaun",
+		"tx": "70%",
+		"ty": "-40%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -3090,7 +3152,10 @@
 	"ebird": "https://ebird.org/species/bkskit1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-15T16_30_29.000Z_shaun"
+		"id": "2024-12-15T16_30_29.000Z_shaun",
+		"tx": "60%",
+		"ty": "20%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -3195,7 +3260,10 @@
 	"ebird": "https://ebird.org/species/eurkes1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2018-08-19T13:14:48.000Z_mike"
+		"id": "2018-08-19T13:14:48.000Z_mike",
+		"tx": "25%",
+		"ty": "-30%",
+		"scale": 4.5
 	},
 	"size": {
 		"min": 300,
@@ -3300,7 +3368,10 @@
 			"birdId": "bee-eater-european",
 			"bird": {
 	"photo": {
-		"id": "2020-01-15T05:42:02.000Z_mike"
+		"id": "2020-01-15T05:42:02.000Z_mike",
+		"tx": "-5%",
+		"ty": "-15%",
+		"scale": 2
 	},
 	"name": "European Bee-eater",
 	"family_name": "Bee-eater",
@@ -3413,7 +3484,10 @@
 	"ebird": "https://ebird.org/species/booeag1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2019-12-23T15:58:38.000Z_mike"
+		"id": "2019-12-23T15:58:38.000Z_mike",
+		"tx": "0%",
+		"ty": "0%",
+		"scale": 1.5
 	}
 },
 			"quantity": 1,
@@ -3518,7 +3592,10 @@
 	"ebird": "https://ebird.org/species/redbis/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2019-11-28T05:29:34.000Z_mike"
+		"id": "2019-11-28T05:29:34.000Z_mike",
+		"tx": "5%",
+		"ty": "-10%",
+		"scale": 2.25
 	}
 },
 			"quantity": 1,
@@ -3615,7 +3692,10 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"photo": {
-		"id": "2022-11-23T16_36_27.000Z_tony"
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
+		"ty": "20%",
+		"scale": 2
 	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
@@ -3728,7 +3808,10 @@
 	"ebird": "https://ebird.org/species/wooduc/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2019-09-16T07:18:07.000Z_mike"
+		"id": "2019-09-16T07:18:07.000Z_mike",
+		"tx": "0%",
+		"ty": "0%",
+		"scale": 2.5
 	}
 },
 			"quantity": 2,
@@ -3825,7 +3908,10 @@
 			"birdId": "spurfowl-cape",
 			"bird": {
 	"photo": {
-		"id": "2024-12-13T14_14_59.000Z_shaun"
+		"id": "2024-12-13T14_14_59.000Z_shaun",
+		"tx": "0%",
+		"ty": "20%",
+		"scale": 1.5
 	},
 	"name": "Cape Spurfowl",
 	"family_name": "Spurfowl",
@@ -3938,7 +4024,10 @@
 	"ebird": "https://ebird.org/species/grwpel1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2019-07-13T11:07:14.000Z_mike"
+		"id": "2019-07-13T11:07:14.000Z_mike",
+		"tx": "-40%",
+		"ty": "20%",
+		"scale": 4
 	}
 },
 			"quantity": 29,
@@ -4071,7 +4160,10 @@
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2018-11-02T06:09:07.000Z_mike"
+		"id": "2018-11-02T06:09:07.000Z_mike",
+		"tx": "20%",
+		"ty": "30%",
+		"scale": 2
 	},
 	"size": {
 		"min": 600,
@@ -4176,7 +4268,10 @@
 			"birdId": "harrier-hawk-african",
 			"bird": {
 	"photo": {
-		"id": "2018-11-02T06:09:07.000Z_mike"
+		"id": "2018-11-02T06:09:07.000Z_mike",
+		"tx": "20%",
+		"ty": "30%",
+		"scale": 2
 	},
 	"size": {
 		"min": 600,
@@ -4297,7 +4392,8 @@
 	"ebird": "https://ebird.org/species/klacuc1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2018-11-27T14:30:20.000Z_mike"
+		"id": "2018-11-27T14:30:20.000Z_mike",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -4394,7 +4490,10 @@
 			"birdId": "harrier-hawk-african",
 			"bird": {
 	"photo": {
-		"id": "2018-11-02T06:09:07.000Z_mike"
+		"id": "2018-11-02T06:09:07.000Z_mike",
+		"tx": "20%",
+		"ty": "30%",
+		"scale": 2
 	},
 	"size": {
 		"min": 600,
@@ -4515,7 +4614,10 @@
 	"ebird": "https://ebird.org/species/affeag1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2018-09-24T11:20:39.000Z_mike"
+		"id": "2018-09-24T11:20:39.000Z_mike",
+		"tx": "0%",
+		"ty": "0%",
+		"scale": 1.5
 	}
 },
 			"quantity": 1,
@@ -4612,7 +4714,10 @@
 			"birdId": "kestrel-rock",
 			"bird": {
 	"photo": {
-		"id": "2018-08-19T13:14:48.000Z_mike"
+		"id": "2018-08-19T13:14:48.000Z_mike",
+		"tx": "25%",
+		"ty": "-30%",
+		"scale": 4.5
 	},
 	"size": {
 		"min": 300,
@@ -4725,7 +4830,10 @@
 			"birdId": "eagle-african-fish",
 			"bird": {
 	"photo": {
-		"id": "2018-09-24T11:20:39.000Z_mike"
+		"id": "2018-09-24T11:20:39.000Z_mike",
+		"tx": "0%",
+		"ty": "0%",
+		"scale": 1.5
 	},
 	"name": "African Fish Eagle",
 	"family_name": "Eagle",
@@ -4830,7 +4938,10 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"photo": {
-		"id": "2022-11-23T16_36_27.000Z_tony"
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
+		"ty": "20%",
+		"scale": 2
 	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
@@ -5040,7 +5151,10 @@
 			"birdId": "barbet-acacia-pied",
 			"bird": {
 	"photo": {
-		"id": "2017-09-25T11:07:04.000Z_mike"
+		"id": "2017-09-25T11:07:04.000Z_mike",
+		"tx": "7%",
+		"ty": "8%",
+		"scale": 2
 	},
 	"name": "Acacia Pied Barbet",
 	"family_name": "Barbet",

@@ -13,7 +13,10 @@
 	"ebird": "https://ebird.org/species/malsun1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-11-19T12_45_11.000Z_shaun"
+		"id": "2024-11-19T12_45_11.000Z_shaun",
+		"tx": "30%",
+		"ty": "-20%",
+		"scale": 3
 	}
 },
 	"quantity": 1,

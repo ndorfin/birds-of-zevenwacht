@@ -17,7 +17,10 @@
 	"ebird": "https://ebird.org/species/blagos1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2022-11-23T16_36_27.000Z_tony"
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
+		"ty": "20%",
+		"scale": 2
 	}
 },
 			"quantity": 3,
@@ -148,7 +151,10 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"photo": {
-		"id": "2022-11-23T16_36_27.000Z_tony"
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
+		"ty": "20%",
+		"scale": 2
 	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
@@ -280,7 +286,10 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"photo": {
-		"id": "2022-11-23T16_36_27.000Z_tony"
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
+		"ty": "20%",
+		"scale": 2
 	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
@@ -412,7 +421,10 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"photo": {
-		"id": "2022-11-23T16_36_27.000Z_tony"
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
+		"ty": "20%",
+		"scale": 2
 	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
@@ -544,7 +556,10 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"photo": {
-		"id": "2022-11-23T16_36_27.000Z_tony"
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
+		"ty": "20%",
+		"scale": 2
 	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
@@ -676,7 +691,10 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"photo": {
-		"id": "2022-11-23T16_36_27.000Z_tony"
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
+		"ty": "20%",
+		"scale": 2
 	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
@@ -808,7 +826,10 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"photo": {
-		"id": "2022-11-23T16_36_27.000Z_tony"
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
+		"ty": "20%",
+		"scale": 2
 	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
@@ -913,7 +934,10 @@
 			"birdId": "sparrowhawk-black",
 			"bird": {
 	"photo": {
-		"id": "2022-11-23T16_36_27.000Z_tony"
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
+		"ty": "20%",
+		"scale": 2
 	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",

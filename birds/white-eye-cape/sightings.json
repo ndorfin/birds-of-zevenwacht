@@ -17,7 +17,10 @@
 	"ebird": "https://ebird.org/species/capwhe2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2021-07-18T08_34_44.000Z_tony"
+		"id": "2021-07-18T08_34_44.000Z_tony",
+		"tx": "0%",
+		"ty": "-20%",
+		"scale": 2
 	}
 },
 			"quantity": 1,
@@ -155,7 +158,10 @@
 			"birdId": "white-eye-cape",
 			"bird": {
 	"photo": {
-		"id": "2021-07-18T08_34_44.000Z_tony"
+		"id": "2021-07-18T08_34_44.000Z_tony",
+		"tx": "0%",
+		"ty": "-20%",
+		"scale": 2
 	},
 	"name": "Cape White-eye",
 	"family_name": "White-eye",
@@ -287,7 +293,10 @@
 			"birdId": "white-eye-cape",
 			"bird": {
 	"photo": {
-		"id": "2021-07-18T08_34_44.000Z_tony"
+		"id": "2021-07-18T08_34_44.000Z_tony",
+		"tx": "0%",
+		"ty": "-20%",
+		"scale": 2
 	},
 	"name": "Cape White-eye",
 	"family_name": "White-eye",

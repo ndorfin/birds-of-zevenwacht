@@ -17,7 +17,10 @@
 	"ebird": "https://ebird.org/species/spoeao2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	}
 },
 			"quantity": 1,
@@ -162,7 +165,10 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
@@ -322,7 +328,10 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
@@ -554,7 +563,10 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
@@ -686,7 +698,10 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
@@ -818,7 +833,10 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
@@ -957,7 +975,10 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
@@ -1089,7 +1110,10 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
@@ -1221,7 +1245,10 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
@@ -1353,7 +1380,10 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
@@ -1485,7 +1515,10 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
@@ -1617,7 +1650,10 @@
 			"birdId": "owl-spotted-eagle",
 			"bird": {
 	"photo": {
-		"id": "2021-03-02T16_59_00.000Z_tony"
+		"id": "2021-03-02T16_59_00.000Z_tony",
+		"tx": "10%",
+		"ty": "25%",
+		"scale": 2.5
 	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",

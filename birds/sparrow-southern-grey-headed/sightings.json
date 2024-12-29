@@ -17,7 +17,10 @@
 	"ebird": "https://ebird.org/species/sghspa2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-19T11:30:26.000Z_shaun"
+		"id": "2024-12-19T11:30:26.000Z_shaun",
+		"tx": "40%",
+		"ty": "-20%",
+		"scale": 2.5
 	}
 },
 			"quantity": 1,
@@ -141,7 +144,10 @@
 			"birdId": "sparrow-southern-grey-headed",
 			"bird": {
 	"photo": {
-		"id": "2024-12-19T11:30:26.000Z_shaun"
+		"id": "2024-12-19T11:30:26.000Z_shaun",
+		"tx": "40%",
+		"ty": "-20%",
+		"scale": 2.5
 	},
 	"name": "Southern Grey-headed Sparrow",
 	"family_name": "Sparrow",

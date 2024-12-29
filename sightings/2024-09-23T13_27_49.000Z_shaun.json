@@ -13,7 +13,10 @@
 	"ebird": "https://ebird.org/species/capcan1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-24T01_27_49.000Z_shaun"
+		"id": "2024-09-24T01_27_49.000Z_shaun",
+		"tx": "-30%",
+		"ty": "-30%",
+		"scale": 3.5
 	}
 },
 	"quantity": "3-5",

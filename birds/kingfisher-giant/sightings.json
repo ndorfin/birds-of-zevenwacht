@@ -17,7 +17,10 @@
 	"ebird": "https://ebird.org/species/giakin3/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-07-13T11_50_20.000Z_tony"
+		"id": "2024-07-13T11_50_20.000Z_tony",
+		"tx": "50%",
+		"ty": "0%",
+		"scale": 3
 	}
 },
 			"quantity": 1,
@@ -162,7 +165,10 @@
 			"birdId": "kingfisher-giant",
 			"bird": {
 	"photo": {
-		"id": "2024-07-13T11_50_20.000Z_tony"
+		"id": "2024-07-13T11_50_20.000Z_tony",
+		"tx": "50%",
+		"ty": "0%",
+		"scale": 3
 	},
 	"name": "Giant Kingfisher",
 	"family_name": "Kingfisher",
@@ -294,7 +300,10 @@
 			"birdId": "kingfisher-giant",
 			"bird": {
 	"photo": {
-		"id": "2024-07-13T11_50_20.000Z_tony"
+		"id": "2024-07-13T11_50_20.000Z_tony",
+		"tx": "50%",
+		"ty": "0%",
+		"scale": 3
 	},
 	"name": "Giant Kingfisher",
 	"family_name": "Kingfisher",

@@ -17,7 +17,10 @@
 	"ebird": "https://ebird.org/species/eursta/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-11-05T16_19_40.000Z_shaun"
+		"id": "2024-11-05T16_19_40.000Z_shaun",
+		"tx": "-20%",
+		"ty": "0%",
+		"scale": 2
 	}
 },
 			"quantity": 1,
@@ -234,7 +237,10 @@
 			"birdId": "starling-common",
 			"bird": {
 	"photo": {
-		"id": "2024-11-05T16_19_40.000Z_shaun"
+		"id": "2024-11-05T16_19_40.000Z_shaun",
+		"tx": "-20%",
+		"ty": "0%",
+		"scale": 2
 	},
 	"name": "Common Starling",
 	"family_name": "Starling",

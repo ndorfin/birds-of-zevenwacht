@@ -17,7 +17,10 @@
 	"ebird": "https://ebird.org/species/malkin1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-05T08_57_12.000Z_tony"
+		"id": "2024-12-05T08_57_12.000Z_tony",
+		"tx": "-10%",
+		"ty": "10%",
+		"scale": 3
 	}
 },
 			"quantity": 2,
@@ -169,7 +172,10 @@
 			"birdId": "kingfisher-malachite",
 			"bird": {
 	"photo": {
-		"id": "2024-12-05T08_57_12.000Z_tony"
+		"id": "2024-12-05T08_57_12.000Z_tony",
+		"tx": "-10%",
+		"ty": "10%",
+		"scale": 3
 	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
@@ -301,7 +307,10 @@
 			"birdId": "kingfisher-malachite",
 			"bird": {
 	"photo": {
-		"id": "2024-12-05T08_57_12.000Z_tony"
+		"id": "2024-12-05T08_57_12.000Z_tony",
+		"tx": "-10%",
+		"ty": "10%",
+		"scale": 3
 	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
@@ -433,7 +442,10 @@
 			"birdId": "kingfisher-malachite",
 			"bird": {
 	"photo": {
-		"id": "2024-12-05T08_57_12.000Z_tony"
+		"id": "2024-12-05T08_57_12.000Z_tony",
+		"tx": "-10%",
+		"ty": "10%",
+		"scale": 3
 	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
@@ -565,7 +577,10 @@
 			"birdId": "kingfisher-malachite",
 			"bird": {
 	"photo": {
-		"id": "2024-12-05T08_57_12.000Z_tony"
+		"id": "2024-12-05T08_57_12.000Z_tony",
+		"tx": "-10%",
+		"ty": "10%",
+		"scale": 3
 	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
@@ -718,7 +733,10 @@
 			"birdId": "kingfisher-malachite",
 			"bird": {
 	"photo": {
-		"id": "2024-12-05T08_57_12.000Z_tony"
+		"id": "2024-12-05T08_57_12.000Z_tony",
+		"tx": "-10%",
+		"ty": "10%",
+		"scale": 3
 	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
@@ -850,7 +868,10 @@
 			"birdId": "kingfisher-malachite",
 			"bird": {
 	"photo": {
-		"id": "2024-12-05T08_57_12.000Z_tony"
+		"id": "2024-12-05T08_57_12.000Z_tony",
+		"tx": "-10%",
+		"ty": "10%",
+		"scale": 3
 	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
@@ -982,7 +1003,10 @@
 			"birdId": "kingfisher-malachite",
 			"bird": {
 	"photo": {
-		"id": "2024-12-05T08_57_12.000Z_tony"
+		"id": "2024-12-05T08_57_12.000Z_tony",
+		"tx": "-10%",
+		"ty": "10%",
+		"scale": 3
 	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
@@ -1114,7 +1138,10 @@
 			"birdId": "kingfisher-malachite",
 			"bird": {
 	"photo": {
-		"id": "2024-12-05T08_57_12.000Z_tony"
+		"id": "2024-12-05T08_57_12.000Z_tony",
+		"tx": "-10%",
+		"ty": "10%",
+		"scale": 3
 	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
@@ -1246,7 +1273,10 @@
 			"birdId": "kingfisher-malachite",
 			"bird": {
 	"photo": {
-		"id": "2024-12-05T08_57_12.000Z_tony"
+		"id": "2024-12-05T08_57_12.000Z_tony",
+		"tx": "-10%",
+		"ty": "10%",
+		"scale": 3
 	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",

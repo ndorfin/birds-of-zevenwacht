@@ -13,7 +13,10 @@
 	"ebird": "https://ebird.org/species/blaplo1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-24T01_57_28.000Z_shaun"
+		"id": "2024-09-24T01_57_28.000Z_shaun",
+		"tx": "0%",
+		"ty": "-100%",
+		"scale": 4.5
 	}
 },
 	"quantity": 3,
