@@ -97,6 +97,9 @@ export default async function (config) {
 	config.addFilter('CCYYMMDD', date => {
 		return new Date(date).toISOString().substring(0, 10);
 	});
+	config.addFilter('getYear', date => {
+		return new Date(date).getFullYear();
+	});
 	config.addFilter('sortByDatetimeRecent', (obj) => {
 		const sorted = {};
 		Object.keys(obj)

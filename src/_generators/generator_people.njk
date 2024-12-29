@@ -60,15 +60,27 @@ eleventyExcludeFromCollections: true
 					></map-embed>
 				</div>
 				<div class="layout_item_list">
-					<ul>
-						{% for sightingId, sighting in filtered_sightings %}
-							<li id="sighting_{{ sightingId }}">
-								<a href="{{ url.sightings }}{{ sightingId }}/">
-									{{ sighting.bird.quantity }} × {{ birds[sighting.bird.id].name }}
-								</a>
-							</li>
+					<dl class="list_by_year">
+						{% for ccyy in date_range %}
+							<div>
+								<dt>{{ ccyy }}</dt>
+								<dd>
+									<ul>
+										{% for sightingId, sighting in filtered_sightings %}
+											{% set itemYear = sighting.datetime | getYear %}
+											{% if itemYear > ccyy - 1 and itemYear < ccyy + 1 %}
+											<li>
+												<a href="{{ url.sightings }}{{ sightingId }}/">
+													{{ sighting.bird.quantity }} × {{ birds[sighting.bird.id].name }}
+												</a>
+											</li>
+											{% endif %}
+										{% endfor %}
+									</ul>
+								</dd>
+							</div>
 						{% endfor %}
-					</ul>
+					</dl>
 				</div>
 			</div>
 		{% else %}
