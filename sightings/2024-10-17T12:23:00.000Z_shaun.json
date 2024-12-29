@@ -1,13 +1,9 @@
 
+
 [
-	
-		
-		
-		{
-			"id": "2024-10-17T12:23:00.000Z_shaun",
-			"datetime": "2024-10-17T12:23:00.000Z",
-			"birdId": "ibis-glossy",
-			"bird": {
+{
+	"datetime": "2024-10-17T12:23:00.000Z",
+	"bird": {
 	"name": "Glossy Ibis",
 	"family_name": "Ibis",
 	"german_name": null,
@@ -18,10 +14,10 @@
 	"red-list": "least-concern",
 	"unconfirmed": true
 },
-			"quantity": 1,
-			"location": {
-				"areaId": "zevenwacht-wine-estate",
-				"area": {
+	"quantity": 1,
+	"location": {
+		"areaId": "zevenwacht-wine-estate",
+		"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
 		"street": "Langverwacht Road",
@@ -203,32 +199,32 @@
 	],
 	"website": "https://zevenwacht.co.za/"
 },
-				"latitude": 
-				
-					-33.921764,
-				
-				"longitude":
-				
-					18.71389
-				
-			},
-			"observers": [
-				
-					
-					{
+		"latitude": 
+		
+			-33.921764,
+		
+		"longitude":
+		
+			18.71389
+		
+	},
+	
+	"observers": [
+		
+			
+			{
 	"name": "Shaun",
 	"full-name": "Shaun O'Connell",
 	"email": "shaun@tactile.co.za"
 }
-				
-					,
-					{
+		
+			,
+			{
 	"name": "Ingunn",
 	"full-name": "Ingunn O'Connell",
 	"email": "groingunn@gmail.com"
 }
-				
-			]
-		}
-	
+		
+	]
+}
 ]
