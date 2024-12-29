@@ -39,38 +39,7 @@ export default async function (config) {
 
 	/* Add YAML support */
 	config.addDataExtension('yml,yaml', contents => yaml.load(contents));
-	config.addDataExtension('jpeg,jpg,JPG,JPEG', {
-		parser: async (file) => {
-			let attributes = [
-				'DateTimeOriginal',
-				'Make',
-				'Model',
-				'LensModel',
-				'FNumber',
-				'FocalLengthIn35mmFormat',
-				'ExposureTime',
-				'ExposureCompensation',
-				'ISO'
-			];
-			let exif = await exifr.parse(file, attributes);
-			return {
-				exif,
-			};
-		},
-		// Using `read: false` changes the parser argument to
-		// a file path instead of file contents.
-		read: false,
-	});
-	config.addDataExtension('csv', (contents) => {
-    const records = parse(contents, {
-      columns: true,
-      skip_empty_lines: true,
-      relax_column_count: true,
-      delimiter: ',',
-      trim: true,
-    });
-    return records;
-  });
+
 	/* Copy assets straight through to the `public` folder */
 	config.addPassthroughCopy({ 'src/_root': '.' });
 	config.addPassthroughCopy({ 'src/assets': 'assets' });
@@ -201,17 +170,15 @@ export default async function (config) {
 		return Image.generateHTML(metadata, imageAttributes);
 	});
 
-	config.addTransform("htmlmin", function (content) {
-		if ((this.page.outputPath || "").endsWith(".html")) {
+	config.addTransform('htmlmin', function (content) {
+		if ((this.page.outputPath || '').endsWith('.html')) {
 			let minified = htmlmin.minify(content, {
 				useShortDoctype: true,
 				removeComments: false,
 				collapseWhitespace: true,
 			});
-
 			return minified;
 		}
-
 		// If not an HTML output, return content as-is
 		return content;
 	});
