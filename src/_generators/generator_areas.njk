@@ -151,8 +151,8 @@ eleventyExcludeFromCollections: true
 						<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
 							<figure>
 								<div>
-									{% set photo = photos | byBird(birdId) | objToArray | first %}
-									{% if photo %}
+									{% if bird.photo %}
+										{% set photo = photos[bird.photo.id] %}
 										{% photoThumbnail url.source_photos + photo.photographer + '/' + photo.file, photo.description %}
 									{% else %}
 										<span>No photo yet</span>
