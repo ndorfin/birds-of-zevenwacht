@@ -15,7 +15,10 @@
 	"genus": "Anthropoides",
 	"species": "paradiseus",
 	"ebird": "https://ebird.org/species/blucra2/ZA",
-	"red-list": "vulnerable"
+	"red-list": "vulnerable",
+	"photo": {
+		"id": "2018-02-04T05:43:27.000Z_mike"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -165,6 +168,9 @@
 			"datetime": "2024-11-05T14:59:40.000Z",
 			"birdId": "crane-blue",
 			"bird": {
+	"photo": {
+		"id": "2018-02-04T05:43:27.000Z_mike"
+	},
 	"name": "Blue Crane",
 	"family_name": "Crane",
 	"german_name": null,
@@ -315,6 +321,9 @@
 			"datetime": "2022-06-24T00:00:00.001Z",
 			"birdId": "crane-blue",
 			"bird": {
+	"photo": {
+		"id": "2018-02-04T05:43:27.000Z_mike"
+	},
 	"name": "Blue Crane",
 	"family_name": "Crane",
 	"german_name": null,
@@ -444,6 +453,9 @@
 			"datetime": "2018-02-04T05:43:27.000Z",
 			"birdId": "crane-blue",
 			"bird": {
+	"photo": {
+		"id": "2018-02-04T05:43:27.000Z_mike"
+	},
 	"name": "Blue Crane",
 	"family_name": "Crane",
 	"german_name": null,

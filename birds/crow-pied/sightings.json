@@ -16,6 +16,9 @@
 	"species": "Albus",
 	"ebird": "https://ebird.org/species/piecro1/ZA",
 	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-11-28T17_21_57.000Z_shaun"
+	},
 	"size": {
 		"min": 460,
 		"max": 500
@@ -173,6 +176,9 @@
 			"datetime": "2024-11-28T17:21:57.000Z",
 			"birdId": "crow-pied",
 			"bird": {
+	"photo": {
+		"id": "2024-11-28T17_21_57.000Z_shaun"
+	},
 	"size": {
 		"min": 460,
 		"max": 500
@@ -317,6 +323,9 @@
 			"datetime": "2020-04-10T00:00:00.026Z",
 			"birdId": "crow-pied",
 			"bird": {
+	"photo": {
+		"id": "2024-11-28T17_21_57.000Z_shaun"
+	},
 	"size": {
 		"min": 460,
 		"max": 500

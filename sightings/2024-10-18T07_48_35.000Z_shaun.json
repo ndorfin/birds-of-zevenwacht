@@ -11,7 +11,10 @@
 	"genus": "Zosterops",
 	"species": "virens",
 	"ebird": "https://ebird.org/species/capwhe2/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2021-07-18T08_34_44.000Z_tony"
+	}
 },
 	"quantity": 1,
 	"location": {

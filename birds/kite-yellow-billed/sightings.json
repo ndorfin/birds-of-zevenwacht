@@ -14,7 +14,11 @@
 	"afrikaans_name": null,
 	"genus": "Milvus",
 	"species": "aegyptius",
-	"ebird": null
+	"ebird": null,
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-24T01_56_06.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -136,13 +140,17 @@
 			"datetime": "2024-09-23T13:56:06.000Z",
 			"birdId": "kite-yellow-billed",
 			"bird": {
+	"photo": {
+		"id": "2024-09-24T01_56_06.000Z_shaun"
+	},
 	"name": "Yellow-billed Kite",
 	"family_name": "Kite",
 	"german_name": null,
 	"afrikaans_name": null,
 	"genus": "Milvus",
 	"species": "aegyptius",
-	"ebird": null
+	"ebird": null,
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -364,13 +372,17 @@
 			"datetime": "2023-12-16T00:00:00.000Z",
 			"birdId": "kite-yellow-billed",
 			"bird": {
+	"photo": {
+		"id": "2024-09-24T01_56_06.000Z_shaun"
+	},
 	"name": "Yellow-billed Kite",
 	"family_name": "Kite",
 	"german_name": null,
 	"afrikaans_name": null,
 	"genus": "Milvus",
 	"species": "aegyptius",
-	"ebird": null
+	"ebird": null,
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

@@ -15,7 +15,10 @@
 	"genus": "Cinnyris",
 	"species": "chalybeus",
 	"ebird": "https://ebird.org/species/sdcsun3/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-03T19_29_47.000Z_shaun"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -137,6 +140,9 @@
 			"datetime": "2020-04-10T00:00:00.017Z",
 			"birdId": "sunbird-southern-double-collared",
 			"bird": {
+	"photo": {
+		"id": "2024-09-03T19_29_47.000Z_shaun"
+	},
 	"name": "Southern Double-collared Sunbird",
 	"family_name": "Sunbird",
 	"german_name": null,

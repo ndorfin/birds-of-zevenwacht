@@ -15,7 +15,10 @@
 	"genus": "Microcarbo",
 	"species": "africanus",
 	"ebird": "https://ebird.org/species/lotcor1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2023-10-12T08_28_00.000Z_tony"
+	}
 },
 			"quantity": 5,
 			"location": {
@@ -134,6 +137,9 @@
 			"datetime": "2024-12-04T15:28:00.000Z",
 			"birdId": "cormorant-reed",
 			"bird": {
+	"photo": {
+		"id": "2023-10-12T08_28_00.000Z_tony"
+	},
 	"name": "Reed Cormorant",
 	"family_name": "Cormorant",
 	"german_name": null,
@@ -284,6 +290,9 @@
 			"datetime": "2024-09-03T12:23:45.000Z",
 			"birdId": "cormorant-reed",
 			"bird": {
+	"photo": {
+		"id": "2023-10-12T08_28_00.000Z_tony"
+	},
 	"name": "Reed Cormorant",
 	"family_name": "Cormorant",
 	"german_name": null,
@@ -513,6 +522,9 @@
 			"datetime": "2024-07-18T00:00:00.000Z",
 			"birdId": "cormorant-reed",
 			"bird": {
+	"photo": {
+		"id": "2023-10-12T08_28_00.000Z_tony"
+	},
 	"name": "Reed Cormorant",
 	"family_name": "Cormorant",
 	"german_name": null,
@@ -642,6 +654,9 @@
 			"datetime": "2023-10-12T08:28:00.000Z",
 			"birdId": "cormorant-reed",
 			"bird": {
+	"photo": {
+		"id": "2023-10-12T08_28_00.000Z_tony"
+	},
 	"name": "Reed Cormorant",
 	"family_name": "Cormorant",
 	"german_name": null,
@@ -771,6 +786,9 @@
 			"datetime": "2020-08-29T06:13:17.000Z",
 			"birdId": "cormorant-reed",
 			"bird": {
+	"photo": {
+		"id": "2023-10-12T08_28_00.000Z_tony"
+	},
 	"name": "Reed Cormorant",
 	"family_name": "Cormorant",
 	"german_name": null,

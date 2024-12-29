@@ -15,7 +15,10 @@
 	"genus": "Pycnonotus",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capbul1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-10-18T20_06_43.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -151,6 +154,9 @@
 			"datetime": "2020-04-10T00:00:00.008Z",
 			"birdId": "bulbul-cape",
 			"bird": {
+	"photo": {
+		"id": "2024-10-18T20_06_43.000Z_shaun"
+	},
 	"name": "Cape Bulbul",
 	"family_name": "Bulbul",
 	"german_name": "Kapbülbül",

@@ -11,7 +11,10 @@
 	"genus": "Numida",
 	"species": "meleagris",
 	"ebird": "https://ebird.org/species/helgui/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-19T17:48:16.000Z_shaun"
+	}
 },
 	"quantity": "30-40",
 	"location": {

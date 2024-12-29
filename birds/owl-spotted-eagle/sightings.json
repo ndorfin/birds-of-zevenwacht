@@ -15,7 +15,10 @@
 	"genus": "Bubo",
 	"species": "africanus",
 	"ebird": "https://ebird.org/species/spoeao2/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2021-03-02T16_59_00.000Z_tony"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -158,6 +161,9 @@
 			"datetime": "2024-11-05T14:54:30.000Z",
 			"birdId": "owl-spotted-eagle",
 			"bird": {
+	"photo": {
+		"id": "2021-03-02T16_59_00.000Z_tony"
+	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
 	"german_name": null,
@@ -315,6 +321,9 @@
 			"datetime": "2024-09-03T12:49:03.000Z",
 			"birdId": "owl-spotted-eagle",
 			"bird": {
+	"photo": {
+		"id": "2021-03-02T16_59_00.000Z_tony"
+	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
 	"german_name": null,
@@ -544,6 +553,9 @@
 			"datetime": "2023-10-05T15:57:03.000Z",
 			"birdId": "owl-spotted-eagle",
 			"bird": {
+	"photo": {
+		"id": "2021-03-02T16_59_00.000Z_tony"
+	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
 	"german_name": null,
@@ -673,6 +685,9 @@
 			"datetime": "2023-03-03T10:24:12.000Z",
 			"birdId": "owl-spotted-eagle",
 			"bird": {
+	"photo": {
+		"id": "2021-03-02T16_59_00.000Z_tony"
+	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
 	"german_name": null,
@@ -802,6 +817,9 @@
 			"datetime": "2022-07-30T16:25:53.000Z",
 			"birdId": "owl-spotted-eagle",
 			"bird": {
+	"photo": {
+		"id": "2021-03-02T16_59_00.000Z_tony"
+	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
 	"german_name": null,
@@ -938,6 +956,9 @@
 			"datetime": "2021-10-23T14:49:24.000Z",
 			"birdId": "owl-spotted-eagle",
 			"bird": {
+	"photo": {
+		"id": "2021-03-02T16_59_00.000Z_tony"
+	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
 	"german_name": null,
@@ -1067,6 +1088,9 @@
 			"datetime": "2021-03-02T16:59:00.000Z",
 			"birdId": "owl-spotted-eagle",
 			"bird": {
+	"photo": {
+		"id": "2021-03-02T16_59_00.000Z_tony"
+	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
 	"german_name": null,
@@ -1196,6 +1220,9 @@
 			"datetime": "2020-12-14T14:43:25.000Z",
 			"birdId": "owl-spotted-eagle",
 			"bird": {
+	"photo": {
+		"id": "2021-03-02T16_59_00.000Z_tony"
+	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
 	"german_name": null,
@@ -1325,6 +1352,9 @@
 			"datetime": "2020-05-26T15:03:56.000Z",
 			"birdId": "owl-spotted-eagle",
 			"bird": {
+	"photo": {
+		"id": "2021-03-02T16_59_00.000Z_tony"
+	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
 	"german_name": null,
@@ -1454,6 +1484,9 @@
 			"datetime": "2020-04-10T00:00:00.025Z",
 			"birdId": "owl-spotted-eagle",
 			"bird": {
+	"photo": {
+		"id": "2021-03-02T16_59_00.000Z_tony"
+	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
 	"german_name": null,
@@ -1583,6 +1616,9 @@
 			"datetime": "2020-01-02T07:25:30.000Z",
 			"birdId": "owl-spotted-eagle",
 			"bird": {
+	"photo": {
+		"id": "2021-03-02T16_59_00.000Z_tony"
+	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
 	"german_name": null,

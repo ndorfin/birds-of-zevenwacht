@@ -15,7 +15,10 @@
 	"genus": "Laniarius",
 	"species": "ferrugineus",
 	"ebird": "https://ebird.org/species/soubou1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-04T01_06_19.000Z_shaun"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -230,6 +233,9 @@
 			"datetime": "2020-04-10T00:00:00.043Z",
 			"birdId": "boubou-southern",
 			"bird": {
+	"photo": {
+		"id": "2024-09-04T01_06_19.000Z_shaun"
+	},
 	"name": "Southern Boubou",
 	"family_name": "Bush-shrike",
 	"german_name": null,

@@ -15,7 +15,10 @@
 	"genus": "Streptopelia",
 	"species": "semitorquata",
 	"ebird": "https://ebird.org/species/reedov1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-17T09:55:59.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -137,6 +140,9 @@
 			"datetime": "2020-04-10T00:00:00.004Z",
 			"birdId": "dove-red-eyed",
 			"bird": {
+	"photo": {
+		"id": "2024-12-17T09:55:59.000Z_shaun"
+	},
 	"name": "Red-eyed Dove",
 	"family_name": "Dove",
 	"german_name": null,

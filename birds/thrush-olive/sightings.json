@@ -15,7 +15,10 @@
 	"genus": "Turdus",
 	"species": "olivaceus",
 	"ebird": "https://ebird.org/species/olithr2/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2021-07-19T08_45_40.000Z_tony"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -151,6 +154,9 @@
 			"datetime": "2021-07-19T08:45:40.000Z",
 			"birdId": "thrush-olive",
 			"bird": {
+	"photo": {
+		"id": "2021-07-19T08_45_40.000Z_tony"
+	},
 	"name": "Olive Thursh",
 	"family_name": "Thrush",
 	"german_name": null,
@@ -280,6 +286,9 @@
 			"datetime": "2020-04-10T00:00:00.009Z",
 			"birdId": "thrush-olive",
 			"bird": {
+	"photo": {
+		"id": "2021-07-19T08_45_40.000Z_tony"
+	},
 	"name": "Olive Thursh",
 	"family_name": "Thrush",
 	"german_name": null,

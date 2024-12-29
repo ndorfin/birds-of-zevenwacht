@@ -16,6 +16,9 @@
 	"species": "rupicolus",
 	"ebird": "https://ebird.org/species/eurkes1/ZA",
 	"red-list": "least-concern",
+	"photo": {
+		"id": "2018-08-19T13:14:48.000Z_mike"
+	},
 	"size": {
 		"min": 300,
 		"max": 340
@@ -238,6 +241,9 @@
 			"datetime": "2024-11-18T15:30:00.000Z",
 			"birdId": "kestrel-rock",
 			"bird": {
+	"photo": {
+		"id": "2018-08-19T13:14:48.000Z_mike"
+	},
 	"size": {
 		"min": 300,
 		"max": 340
@@ -475,6 +481,9 @@
 			"datetime": "2020-09-12T16:46:41.000Z",
 			"birdId": "kestrel-rock",
 			"bird": {
+	"photo": {
+		"id": "2018-08-19T13:14:48.000Z_mike"
+	},
 	"size": {
 		"min": 300,
 		"max": 340
@@ -585,6 +594,9 @@
 			"datetime": "2018-08-19T13:14:48.000Z",
 			"birdId": "kestrel-rock",
 			"bird": {
+	"photo": {
+		"id": "2018-08-19T13:14:48.000Z_mike"
+	},
 	"size": {
 		"min": 300,
 		"max": 340

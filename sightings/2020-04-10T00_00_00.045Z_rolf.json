@@ -11,7 +11,10 @@
 	"genus": "Passer",
 	"species": "diffusus",
 	"ebird": "https://ebird.org/species/sghspa2/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-19T11:30:26.000Z_shaun"
+	}
 },
 	"quantity": 1,
 	"location": {

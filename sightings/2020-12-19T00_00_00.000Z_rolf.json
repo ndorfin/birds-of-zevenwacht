@@ -11,7 +11,8 @@
 	"genus": "Passer",
 	"species": "domesticus",
 	"ebird": "https://ebird.org/species/houspa/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"unconfirmed": true
 },
 	"quantity": 1,
 	"location": {

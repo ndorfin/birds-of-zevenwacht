@@ -11,7 +11,10 @@
 	"genus": "Dessonornis",
 	"species": "caffer",
 	"ebird": "https://ebird.org/species/carcha1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2022-04-03T11_10_54.000Z_tony"
+	}
 },
 	"quantity": 1,
 	"location": {

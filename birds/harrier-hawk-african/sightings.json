@@ -16,6 +16,9 @@
 	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
 	"red-list": "least-concern",
+	"photo": {
+		"id": "2018-11-02T06:09:07.000Z_mike"
+	},
 	"size": {
 		"min": 600,
 		"max": 660
@@ -145,6 +148,9 @@
 			"datetime": "2022-09-26T08:38:31.000Z",
 			"birdId": "harrier-hawk-african",
 			"bird": {
+	"photo": {
+		"id": "2018-11-02T06:09:07.000Z_mike"
+	},
 	"size": {
 		"min": 600,
 		"max": 660
@@ -282,6 +288,9 @@
 			"datetime": "2022-09-25T14:51:37.000Z",
 			"birdId": "harrier-hawk-african",
 			"bird": {
+	"photo": {
+		"id": "2018-11-02T06:09:07.000Z_mike"
+	},
 	"size": {
 		"min": 600,
 		"max": 660
@@ -419,6 +428,9 @@
 			"datetime": "2020-04-10T00:00:00.052Z",
 			"birdId": "harrier-hawk-african",
 			"bird": {
+	"photo": {
+		"id": "2018-11-02T06:09:07.000Z_mike"
+	},
 	"size": {
 		"min": 600,
 		"max": 660
@@ -556,6 +568,9 @@
 			"datetime": "2018-12-19T10:01:23.000Z",
 			"birdId": "harrier-hawk-african",
 			"bird": {
+	"photo": {
+		"id": "2018-11-02T06:09:07.000Z_mike"
+	},
 	"size": {
 		"min": 600,
 		"max": 660
@@ -666,6 +681,9 @@
 			"datetime": "2018-12-05T05:48:01.000Z",
 			"birdId": "harrier-hawk-african",
 			"bird": {
+	"photo": {
+		"id": "2018-11-02T06:09:07.000Z_mike"
+	},
 	"size": {
 		"min": 600,
 		"max": 660
@@ -776,6 +794,9 @@
 			"datetime": "2018-11-02T06:09:27.000Z",
 			"birdId": "harrier-hawk-african",
 			"bird": {
+	"photo": {
+		"id": "2018-11-02T06:09:07.000Z_mike"
+	},
 	"size": {
 		"min": 600,
 		"max": 660

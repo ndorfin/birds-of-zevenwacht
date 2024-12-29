@@ -10,7 +10,11 @@
 	"afrikaans_name": null,
 	"genus": "Milvus",
 	"species": "aegyptius",
-	"ebird": null
+	"ebird": null,
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-24T01_56_06.000Z_shaun"
+	}
 },
 	"quantity": 1,
 	"location": {

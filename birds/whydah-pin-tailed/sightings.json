@@ -15,7 +15,10 @@
 	"genus": "Vidua",
 	"species": "macroura",
 	"ebird": "https://ebird.org/species/pitwhy/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-24T10:58:21.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -144,6 +147,9 @@
 			"datetime": "2020-04-10T00:00:00.021Z",
 			"birdId": "whydah-pin-tailed",
 			"bird": {
+	"photo": {
+		"id": "2024-12-24T10:58:21.000Z_shaun"
+	},
 	"name": "Pin-tailed Whydah",
 	"family_name": "Whydah",
 	"german_name": null,

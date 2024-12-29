@@ -15,7 +15,10 @@
 	"genus": "Corythornis",
 	"species": "cristatus",
 	"ebird": "https://ebird.org/species/malkin1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-05T08_57_12.000Z_tony"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -165,6 +168,9 @@
 			"datetime": "2024-12-09T06:14:37.000Z",
 			"birdId": "kingfisher-malachite",
 			"bird": {
+	"photo": {
+		"id": "2024-12-05T08_57_12.000Z_tony"
+	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
 	"german_name": null,
@@ -294,6 +300,9 @@
 			"datetime": "2024-12-05T09:33:08.000Z",
 			"birdId": "kingfisher-malachite",
 			"bird": {
+	"photo": {
+		"id": "2024-12-05T08_57_12.000Z_tony"
+	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
 	"german_name": null,
@@ -423,6 +432,9 @@
 			"datetime": "2024-12-05T08:57:12.000Z",
 			"birdId": "kingfisher-malachite",
 			"bird": {
+	"photo": {
+		"id": "2024-12-05T08_57_12.000Z_tony"
+	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
 	"german_name": null,
@@ -552,6 +564,9 @@
 			"datetime": "2024-12-04T15:21:00.000Z",
 			"birdId": "kingfisher-malachite",
 			"bird": {
+	"photo": {
+		"id": "2024-12-05T08_57_12.000Z_tony"
+	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
 	"german_name": null,
@@ -702,6 +717,9 @@
 			"datetime": "2024-12-01T15:40:12.000Z",
 			"birdId": "kingfisher-malachite",
 			"bird": {
+	"photo": {
+		"id": "2024-12-05T08_57_12.000Z_tony"
+	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
 	"german_name": null,
@@ -831,6 +849,9 @@
 			"datetime": "2024-12-01T08:35:52.000Z",
 			"birdId": "kingfisher-malachite",
 			"bird": {
+	"photo": {
+		"id": "2024-12-05T08_57_12.000Z_tony"
+	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
 	"german_name": null,
@@ -960,6 +981,9 @@
 			"datetime": "2024-11-27T05:42:47.000Z",
 			"birdId": "kingfisher-malachite",
 			"bird": {
+	"photo": {
+		"id": "2024-12-05T08_57_12.000Z_tony"
+	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
 	"german_name": null,
@@ -1089,6 +1113,9 @@
 			"datetime": "2022-07-11T12:59:22.000Z",
 			"birdId": "kingfisher-malachite",
 			"bird": {
+	"photo": {
+		"id": "2024-12-05T08_57_12.000Z_tony"
+	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
 	"german_name": null,
@@ -1218,6 +1245,9 @@
 			"datetime": "2022-07-02T00:00:00.000Z",
 			"birdId": "kingfisher-malachite",
 			"bird": {
+	"photo": {
+		"id": "2024-12-05T08_57_12.000Z_tony"
+	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
 	"german_name": null,

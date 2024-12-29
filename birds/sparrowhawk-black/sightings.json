@@ -15,7 +15,10 @@
 	"genus": "Astur",
 	"species": "melanoleucus",
 	"ebird": "https://ebird.org/species/blagos1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2022-11-23T16_36_27.000Z_tony"
+	}
 },
 			"quantity": 3,
 			"location": {
@@ -144,6 +147,9 @@
 			"datetime": "2024-10-18T10:46:35.000Z",
 			"birdId": "sparrowhawk-black",
 			"bird": {
+	"photo": {
+		"id": "2022-11-23T16_36_27.000Z_tony"
+	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
 	"german_name": null,
@@ -273,6 +279,9 @@
 			"datetime": "2024-10-18T08:01:28.000Z",
 			"birdId": "sparrowhawk-black",
 			"bird": {
+	"photo": {
+		"id": "2022-11-23T16_36_27.000Z_tony"
+	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
 	"german_name": null,
@@ -402,6 +411,9 @@
 			"datetime": "2023-01-20T05:22:05.000Z",
 			"birdId": "sparrowhawk-black",
 			"bird": {
+	"photo": {
+		"id": "2022-11-23T16_36_27.000Z_tony"
+	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
 	"german_name": null,
@@ -531,6 +543,9 @@
 			"datetime": "2022-11-23T16:36:27.000Z",
 			"birdId": "sparrowhawk-black",
 			"bird": {
+	"photo": {
+		"id": "2022-11-23T16_36_27.000Z_tony"
+	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
 	"german_name": null,
@@ -660,6 +675,9 @@
 			"datetime": "2020-04-10T00:00:00.058Z",
 			"birdId": "sparrowhawk-black",
 			"bird": {
+	"photo": {
+		"id": "2022-11-23T16_36_27.000Z_tony"
+	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
 	"german_name": null,
@@ -789,6 +807,9 @@
 			"datetime": "2019-10-24T15:11:54.000Z",
 			"birdId": "sparrowhawk-black",
 			"bird": {
+	"photo": {
+		"id": "2022-11-23T16_36_27.000Z_tony"
+	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
 	"german_name": null,
@@ -891,6 +912,9 @@
 			"datetime": "2018-02-11T17:41:58.000Z",
 			"birdId": "sparrowhawk-black",
 			"bird": {
+	"photo": {
+		"id": "2022-11-23T16_36_27.000Z_tony"
+	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
 	"german_name": null,

@@ -15,7 +15,10 @@
 	"genus": "Coccopygia",
 	"species": "melanotis",
 	"ebird": "https://ebird.org/species/swewax3/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-04T00_35_19.000Z_shaun"
+	}
 },
 			"quantity": 3,
 			"location": {

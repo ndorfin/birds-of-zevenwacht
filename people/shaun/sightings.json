@@ -15,7 +15,10 @@
 	"genus": "Terpsiphone",
 	"species": "viridis",
 	"ebird": "https://ebird.org/species/afpfly1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-26T14:31:06.000Z_mike"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -158,7 +161,10 @@
 	"genus": "Riparia",
 	"species": "paludicola",
 	"ebird": "https://ebird.org/species/plamar1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-24T13:32:36.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -315,7 +321,10 @@
 	"genus": "Anthropoides",
 	"species": "paradiseus",
 	"ebird": "https://ebird.org/species/blucra2/ZA",
-	"red-list": "vulnerable"
+	"red-list": "vulnerable",
+	"photo": {
+		"id": "2018-02-04T05:43:27.000Z_mike"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -472,7 +481,10 @@
 	"genus": "Corythornis",
 	"species": "cristatus",
 	"ebird": "https://ebird.org/species/malkin1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-05T08_57_12.000Z_tony"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -629,7 +641,10 @@
 	"genus": "Anas",
 	"species": "undulata",
 	"ebird": "https://ebird.org/species/yebduc1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2022-08-08T09_18_37.000Z_tony"
+	}
 },
 			"quantity": 7,
 			"location": {
@@ -786,7 +801,10 @@
 	"genus": "Vanellus",
 	"species": "armatus",
 	"ebird": "https://ebird.org/species/blaplo1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-24T01_57_28.000Z_shaun"
+	}
 },
 			"quantity": 3,
 			"location": {
@@ -919,7 +937,10 @@
 	"genus": "Vidua",
 	"species": "macroura",
 	"ebird": "https://ebird.org/species/pitwhy/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-24T10:58:21.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -1055,7 +1076,10 @@
 	"genus": "Astur",
 	"species": "melanoleucus",
 	"ebird": "https://ebird.org/species/blagos1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2022-11-23T16_36_27.000Z_tony"
+	}
 },
 			"quantity": 3,
 			"location": {
@@ -1191,7 +1215,10 @@
 	"genus": "Numida",
 	"species": "meleagris",
 	"ebird": "https://ebird.org/species/helgui/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-19T17:48:16.000Z_shaun"
+	}
 },
 			"quantity": 4,
 			"location": {
@@ -1327,7 +1354,10 @@
 	"genus": "Tricholaema",
 	"species": "leucomelas",
 	"ebird": "https://ebird.org/species/piebar1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2017-09-25T11:07:04.000Z_mike"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -1456,7 +1486,10 @@
 	"genus": "Passer",
 	"species": "diffusus",
 	"ebird": "https://ebird.org/species/sghspa2/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-19T11:30:26.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -1585,7 +1618,10 @@
 	"genus": "Streptopelia",
 	"species": "semitorquata",
 	"ebird": "https://ebird.org/species/reedov1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-17T09:55:59.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -1714,7 +1750,10 @@
 	"genus": "Hirundo",
 	"species": "rustica",
 	"ebird": "https://ebird.org/species/barswa/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-15T16_52_15.000Z_shaun"
+	}
 },
 			"quantity": "7-10",
 			"location": {
@@ -1943,7 +1982,10 @@
 	"genus": "Buteo",
 	"species": "trizonatus",
 	"ebird": "https://ebird.org/species/moubuz3/ZA",
-	"red-list": "near-threatened"
+	"red-list": "near-threatened",
+	"photo": {
+		"id": "2024-12-15T16_42_53.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -2079,7 +2121,10 @@
 	"genus": "Elanus",
 	"species": "caeruleus",
 	"ebird": "https://ebird.org/species/bkskit1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-15T16_30_29.000Z_shaun"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -2212,7 +2257,10 @@
 	"genus": "Apus",
 	"species": "caffer",
 	"ebird": "https://ebird.org/species/whrswi1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-15T16_18_28.000Z_shaun"
+	}
 },
 			"quantity": "7-10",
 			"location": {
@@ -2434,6 +2482,9 @@
 			"datetime": "2024-12-15T15:55:17.000Z",
 			"birdId": "guineafowl-helmeted",
 			"bird": {
+	"photo": {
+		"id": "2024-12-19T17:48:16.000Z_shaun"
+	},
 	"name": "Helmeted Guineafowl",
 	"family_name": "Guineafowl",
 	"german_name": null,
@@ -2663,6 +2714,9 @@
 			"datetime": "2024-12-15T15:38:17.000Z",
 			"birdId": "duck-yellow-billed",
 			"bird": {
+	"photo": {
+		"id": "2022-08-08T09_18_37.000Z_tony"
+	},
 	"name": "Yellow-billed Duck",
 	"family_name": "Duck",
 	"german_name": null,
@@ -2827,7 +2881,10 @@
 	"genus": "Anhinga",
 	"species": "rufa",
 	"ebird": "https://ebird.org/species/darter3/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-15T15:32:52.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -2985,6 +3042,9 @@
 	"species": "Albus",
 	"ebird": "https://ebird.org/species/piecro1/ZA",
 	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-11-28T17_21_57.000Z_shaun"
+	},
 	"size": {
 		"min": 460,
 		"max": 500
@@ -3149,7 +3209,10 @@
 	"genus": "Gallinula",
 	"species": "chloropus",
 	"ebird": "https://ebird.org/species/commoo3/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-15T15_24_29.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -3306,7 +3369,10 @@
 	"genus": "Cisticola",
 	"species": "tinniens",
 	"ebird": "https://ebird.org/species/tincis1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-15T15_17_32.000Z_shaun"
+	}
 },
 			"quantity": 4,
 			"location": {
@@ -3439,7 +3505,10 @@
 	"genus": "Fulica",
 	"species": "cristata",
 	"ebird": "https://ebird.org/species/rekcoo1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-24T01_58_34.000Z_shaun"
+	}
 },
 			"quantity": 9,
 			"location": {
@@ -3668,7 +3737,10 @@
 	"genus": "Apus",
 	"species": "barbatus",
 	"ebird": "https://ebird.org/species/afrswi1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-14T13_21_19.000Z_shaun"
+	}
 },
 			"quantity": 4,
 			"location": {
@@ -3811,7 +3883,10 @@
 	"genus": "Pternistis",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capfra2/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-13T14_14_59.000Z_shaun"
+	}
 },
 			"quantity": 3,
 			"location": {
@@ -3954,7 +4029,10 @@
 	"genus": "Threskiornis",
 	"species": "aethiopicus",
 	"ebird": "https://ebird.org/species/sacibi2/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-04T00_26_05.000Z_shaun"
+	}
 },
 			"quantity": 14,
 			"location": {
@@ -4183,7 +4261,10 @@
 	"genus": "Lanius",
 	"species": "collaris",
 	"ebird": "https://ebird.org/species/soufis1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-09T16_39_53.000Z_shaun"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -4406,6 +4487,9 @@
 	"species": "rupicolus",
 	"ebird": "https://ebird.org/species/eurkes1/ZA",
 	"red-list": "least-concern",
+	"photo": {
+		"id": "2018-08-19T13:14:48.000Z_mike"
+	},
 	"size": {
 		"min": 300,
 		"max": 340
@@ -4634,7 +4718,11 @@
 	"afrikaans_name": null,
 	"genus": "Milvus",
 	"species": "aegyptius",
-	"ebird": null
+	"ebird": null,
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-24T01_56_06.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -4889,7 +4977,10 @@
 	"genus": "Cygnus",
 	"species": "atratus",
 	"ebird": "https://ebird.org/species/blkswa/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-04T00_02_17.000Z_shaun"
+	}
 },
 			"quantity": 3,
 			"location": {
@@ -5015,7 +5106,10 @@
 	"genus": "Microcarbo",
 	"species": "africanus",
 	"ebird": "https://ebird.org/species/lotcor1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2023-10-12T08_28_00.000Z_tony"
+	}
 },
 			"quantity": 5,
 			"location": {
@@ -5134,6 +5228,9 @@
 			"datetime": "2024-12-04T15:51:00.000Z",
 			"birdId": "flycatcher-african-paradise",
 			"bird": {
+	"photo": {
+		"id": "2024-12-26T14:31:06.000Z_mike"
+	},
 	"name": "African Paradise Flycatcher",
 	"family_name": "Flycatcher",
 	"german_name": null,
@@ -5291,7 +5388,10 @@
 	"genus": "Bubo",
 	"species": "africanus",
 	"ebird": "https://ebird.org/species/spoeao2/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2021-03-02T16_59_00.000Z_tony"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -5434,6 +5534,9 @@
 			"datetime": "2024-12-04T15:43:00.000Z",
 			"birdId": "moorhen-common",
 			"bird": {
+	"photo": {
+		"id": "2024-12-15T15_24_29.000Z_shaun"
+	},
 	"name": "Common Moorhen",
 	"family_name": "Moorhen",
 	"german_name": null,
@@ -5591,7 +5694,10 @@
 	"genus": "Megaceryle",
 	"species": "maxima",
 	"ebird": "https://ebird.org/species/giakin3/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-07-13T11_50_20.000Z_tony"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -5734,6 +5840,9 @@
 			"datetime": "2024-12-04T15:38:00.000Z",
 			"birdId": "duck-yellow-billed",
 			"bird": {
+	"photo": {
+		"id": "2022-08-08T09_18_37.000Z_tony"
+	},
 	"name": "Yellow-billed Duck",
 	"family_name": "Duck",
 	"german_name": null,
@@ -5884,6 +5993,9 @@
 			"datetime": "2024-12-04T15:28:00.000Z",
 			"birdId": "cormorant-reed",
 			"bird": {
+	"photo": {
+		"id": "2023-10-12T08_28_00.000Z_tony"
+	},
 	"name": "Reed Cormorant",
 	"family_name": "Cormorant",
 	"german_name": null,
@@ -6034,6 +6146,9 @@
 			"datetime": "2024-12-04T15:24:00.000Z",
 			"birdId": "swift-african-black",
 			"bird": {
+	"photo": {
+		"id": "2024-12-14T13_21_19.000Z_shaun"
+	},
 	"name": "African Black Swift",
 	"family_name": "Swift",
 	"german_name": null,
@@ -6184,6 +6299,9 @@
 			"datetime": "2024-12-04T15:21:00.000Z",
 			"birdId": "kingfisher-malachite",
 			"bird": {
+	"photo": {
+		"id": "2024-12-05T08_57_12.000Z_tony"
+	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
 	"german_name": null,
@@ -6334,6 +6452,9 @@
 			"datetime": "2024-12-04T15:16:00.000Z",
 			"birdId": "coot-red-knobbed",
 			"bird": {
+	"photo": {
+		"id": "2024-09-24T01_58_34.000Z_shaun"
+	},
 	"name": "Red-knobbed Coot",
 	"family_name": "Coot",
 	"german_name": null,
@@ -6484,6 +6605,9 @@
 			"datetime": "2024-12-04T15:13:00.000Z",
 			"birdId": "lapwing-blacksmith",
 			"bird": {
+	"photo": {
+		"id": "2024-09-24T01_57_28.000Z_shaun"
+	},
 	"name": "Blacksmith Lapwing",
 	"family_name": "Lapwing",
 	"german_name": null,
@@ -6641,7 +6765,10 @@
 	"genus": "Cecropis",
 	"species": "cucullata",
 	"ebird": "https://ebird.org/species/grests1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-11-25T14_58_28.000Z_shaun"
+	}
 },
 			"quantity": 8,
 			"location": {
@@ -6760,6 +6887,9 @@
 			"datetime": "2024-12-04T15:07:00.000Z",
 			"birdId": "coot-red-knobbed",
 			"bird": {
+	"photo": {
+		"id": "2024-09-24T01_58_34.000Z_shaun"
+	},
 	"name": "Red-knobbed Coot",
 	"family_name": "Coot",
 	"german_name": null,
@@ -6893,7 +7023,10 @@
 	"genus": "Colius",
 	"species": "colius",
 	"ebird": "https://ebird.org/species/whbmou1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2020-08-21T11_43_13.000Z_tony"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -7019,7 +7152,10 @@
 	"genus": "Euplectes",
 	"species": "orix",
 	"ebird": "https://ebird.org/species/redbis/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2019-11-28T05:29:34.000Z_mike"
+	}
 },
 			"quantity": 12,
 			"location": {
@@ -7145,7 +7281,10 @@
 	"genus": "Sigelus",
 	"species": "silens",
 	"ebird": "https://ebird.org/species/fisfly1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-11-07T16_07_20.000Z_shaun"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -7264,6 +7403,9 @@
 			"datetime": "2024-11-28T17:21:57.000Z",
 			"birdId": "crow-pied",
 			"bird": {
+	"photo": {
+		"id": "2024-11-28T17_21_57.000Z_shaun"
+	},
 	"size": {
 		"min": 460,
 		"max": 500
@@ -7415,7 +7557,10 @@
 	"genus": "Crithagra",
 	"species": "sulphurata",
 	"ebird": "https://ebird.org/species/brican1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-11-28T14_35_58.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -7674,6 +7819,9 @@
 			"datetime": "2024-11-25T14:58:28.000Z",
 			"birdId": "swallow-greater-striped",
 			"bird": {
+	"photo": {
+		"id": "2024-11-25T14_58_28.000Z_shaun"
+	},
 	"name": "Greater Striped Swallow",
 	"family_name": "Swallow",
 	"german_name": null,
@@ -7810,7 +7958,10 @@
 	"genus": "Nectarinia",
 	"species": "famosa",
 	"ebird": "https://ebird.org/species/malsun1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-11-19T12_45_11.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -7946,6 +8097,9 @@
 			"datetime": "2024-11-18T15:30:00.000Z",
 			"birdId": "kestrel-rock",
 			"bird": {
+	"photo": {
+		"id": "2018-08-19T13:14:48.000Z_mike"
+	},
 	"size": {
 		"min": 300,
 		"max": 340
@@ -8307,7 +8461,10 @@
 	"genus": "Ardea",
 	"species": "melanocephala",
 	"ebird": "https://ebird.org/species/blhher1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-11-18T08_16_00.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -8436,6 +8593,9 @@
 			"datetime": "2024-11-15T16:54:08.000Z",
 			"birdId": "swift-african-black",
 			"bird": {
+	"photo": {
+		"id": "2024-12-14T13_21_19.000Z_shaun"
+	},
 	"name": "African Black Swift",
 	"family_name": "Swift",
 	"german_name": null,
@@ -8579,7 +8739,10 @@
 	"genus": "Chalcomitra",
 	"species": "amethystina",
 	"ebird": "https://ebird.org/species/amesun2/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-11-15T15_38_36.000Z_shaun"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -8715,6 +8878,9 @@
 			"datetime": "2024-11-07T16:07:20.000Z",
 			"birdId": "flycatcher-fiscal",
 			"bird": {
+	"photo": {
+		"id": "2024-11-07T16_07_20.000Z_shaun"
+	},
 	"name": "Fiscal Flycatcher",
 	"family_name": "Flycatcher",
 	"german_name": null,
@@ -8872,7 +9038,10 @@
 	"genus": "Anas",
 	"species": "sparsa",
 	"ebird": "https://ebird.org/species/afbduc1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-11-07T15_53_10.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -9022,7 +9191,10 @@
 	"genus": "Sturnus",
 	"species": "Vulgaris",
 	"ebird": "https://ebird.org/species/eursta/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-11-05T16_19_40.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -9244,7 +9416,10 @@
 	"genus": "Prinia",
 	"species": "maculosa",
 	"ebird": "https://ebird.org/species/karpri1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-11-05T15_54_52.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -9466,7 +9641,10 @@
 	"genus": "Chrysococcyx",
 	"species": "klaas",
 	"ebird": "https://ebird.org/species/klacuc1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2018-11-27T14:30:20.000Z_mike"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -9681,6 +9859,9 @@
 			"datetime": "2024-11-05T15:09:40.000Z",
 			"birdId": "duck-yellow-billed",
 			"bird": {
+	"photo": {
+		"id": "2022-08-08T09_18_37.000Z_tony"
+	},
 	"name": "Yellow-billed Duck",
 	"family_name": "Duck",
 	"german_name": null,
@@ -9838,6 +10019,9 @@
 			"datetime": "2024-11-05T14:59:40.000Z",
 			"birdId": "crane-blue",
 			"bird": {
+	"photo": {
+		"id": "2018-02-04T05:43:27.000Z_mike"
+	},
 	"name": "Blue Crane",
 	"family_name": "Crane",
 	"german_name": null,
@@ -9988,6 +10172,9 @@
 			"datetime": "2024-11-05T14:54:30.000Z",
 			"birdId": "owl-spotted-eagle",
 			"bird": {
+	"photo": {
+		"id": "2021-03-02T16_59_00.000Z_tony"
+	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
 	"german_name": null,
@@ -10152,7 +10339,10 @@
 	"genus": "Turdus",
 	"species": "olivaceus",
 	"ebird": "https://ebird.org/species/olithr2/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2021-07-19T08_45_40.000Z_tony"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -10295,7 +10485,10 @@
 	"genus": "Pycnonotus",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capbul1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-10-18T20_06_43.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -10438,7 +10631,10 @@
 	"genus": "Ploceus",
 	"species": "velatus",
 	"ebird": "https://ebird.org/species/afmwea/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-10-18T19_50_21.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -10581,7 +10777,10 @@
 	"genus": "Zosterops",
 	"species": "virens",
 	"ebird": "https://ebird.org/species/capwhe2/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2021-07-18T08_34_44.000Z_tony"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -10724,8 +10923,7 @@
 	"genus": "Plegadis",
 	"species": "falcinellus",
 	"ebird": "https://ebird.org/species/gloibi/ZA",
-	"red-list": "least-concern",
-	"unconfirmed": true
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -10954,7 +11152,10 @@
 	"genus": "Streptopelia",
 	"species": "capicola",
 	"ebird": "https://ebird.org/species/rindov/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-10-12T17_30_36.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -11090,6 +11291,9 @@
 			"datetime": "2024-09-23T13:58:34.000Z",
 			"birdId": "coot-red-knobbed",
 			"bird": {
+	"photo": {
+		"id": "2024-09-24T01_58_34.000Z_shaun"
+	},
 	"name": "Red-knobbed Coot",
 	"family_name": "Coot",
 	"german_name": null,
@@ -11319,6 +11523,9 @@
 			"datetime": "2024-09-23T13:57:28.000Z",
 			"birdId": "lapwing-blacksmith",
 			"bird": {
+	"photo": {
+		"id": "2024-09-24T01_57_28.000Z_shaun"
+	},
 	"name": "Blacksmith Lapwing",
 	"family_name": "Lapwing",
 	"german_name": null,
@@ -11548,13 +11755,17 @@
 			"datetime": "2024-09-23T13:56:06.000Z",
 			"birdId": "kite-yellow-billed",
 			"bird": {
+	"photo": {
+		"id": "2024-09-24T01_56_06.000Z_shaun"
+	},
 	"name": "Yellow-billed Kite",
 	"family_name": "Kite",
 	"german_name": null,
 	"afrikaans_name": null,
 	"genus": "Milvus",
 	"species": "aegyptius",
-	"ebird": null
+	"ebird": null,
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -11783,7 +11994,10 @@
 	"genus": "Serinus",
 	"species": "canicollis",
 	"ebird": "https://ebird.org/species/capcan1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-24T01_27_49.000Z_shaun"
+	}
 },
 			"quantity": "3-5",
 			"location": {
@@ -12012,7 +12226,10 @@
 	"genus": "Dessonornis",
 	"species": "caffer",
 	"ebird": "https://ebird.org/species/carcha1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2022-04-03T11_10_54.000Z_tony"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -12241,7 +12458,10 @@
 	"genus": "Buteo",
 	"species": "rufofuscus",
 	"ebird": "https://ebird.org/species/jacbuz1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-24T01_03_15.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -12463,6 +12683,9 @@
 			"datetime": "2024-09-23T12:38:31.000Z",
 			"birdId": "kite-black-winged",
 			"bird": {
+	"photo": {
+		"id": "2024-12-15T16_30_29.000Z_shaun"
+	},
 	"name": "Black-winged Kite",
 	"family_name": "Kite",
 	"german_name": null,
@@ -12620,6 +12843,9 @@
 			"datetime": "2024-09-23T12:27:28.000Z",
 			"birdId": "bishop-southern-red",
 			"bird": {
+	"photo": {
+		"id": "2019-11-28T05:29:34.000Z_mike"
+	},
 	"name": "Southern Red Bishop",
 	"family_name": "Bishop",
 	"german_name": null,
@@ -12760,7 +12986,10 @@
 	"genus": "Upupa",
 	"species": "epops",
 	"ebird": "https://ebird.org/species/hoopoe/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-20T23_50_26.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -12889,7 +13118,10 @@
 	"genus": "Burhinus",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/sptkne1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-14T00_50_22.000Z_shaun"
+	}
 },
 			"quantity": 3,
 			"location": {
@@ -13032,7 +13264,10 @@
 	"genus": "Spilopelia",
 	"species": "senegalensis",
 	"ebird": "https://ebird.org/species/laudov1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-14T00_49_26.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -13175,7 +13410,10 @@
 	"genus": "Bostrychia",
 	"species": "hagedash",
 	"ebird": "https://ebird.org/species/hadibi1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2020-06-17T14_46_10.000Z_tony"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -13297,6 +13535,9 @@
 			"datetime": "2024-09-12T13:43:47.000Z",
 			"birdId": "barbet-acacia-pied",
 			"bird": {
+	"photo": {
+		"id": "2017-09-25T11:07:04.000Z_mike"
+	},
 	"name": "Acacia Pied Barbet",
 	"family_name": "Barbet",
 	"german_name": null,
@@ -13447,7 +13688,10 @@
 	"genus": "Alopochen",
 	"species": "aegyptiaca",
 	"ebird": "https://ebird.org/species/egygoo/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-09T00_19_06.000Z_shaun"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -13583,6 +13827,9 @@
 			"datetime": "2024-09-03T13:39:46.000Z",
 			"birdId": "guineafowl-helmeted",
 			"bird": {
+	"photo": {
+		"id": "2024-12-19T17:48:16.000Z_shaun"
+	},
 	"name": "Helmeted Guineafowl",
 	"family_name": "Guineafowl",
 	"german_name": null,
@@ -13726,7 +13973,10 @@
 	"genus": "Muscicapa",
 	"species": "adusta",
 	"ebird": "https://ebird.org/species/afdfly1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-04T01_28_53.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -13955,7 +14205,10 @@
 	"genus": "Laniarius",
 	"species": "ferrugineus",
 	"ebird": "https://ebird.org/species/soubou1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-04T01_06_19.000Z_shaun"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -14170,6 +14423,9 @@
 			"datetime": "2024-09-03T12:49:03.000Z",
 			"birdId": "owl-spotted-eagle",
 			"bird": {
+	"photo": {
+		"id": "2021-03-02T16_59_00.000Z_tony"
+	},
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
 	"german_name": null,
@@ -14406,7 +14662,10 @@
 	"genus": "Pavo",
 	"species": "cristatus",
 	"ebird": "https://ebird.org/species/compea/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-04T00_43_57.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -14628,7 +14887,10 @@
 	"genus": "Coccopygia",
 	"species": "melanotis",
 	"ebird": "https://ebird.org/species/swewax3/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-04T00_35_19.000Z_shaun"
+	}
 },
 			"quantity": 3,
 			"location": {
@@ -14843,6 +15105,9 @@
 			"datetime": "2024-09-03T12:26:05.000Z",
 			"birdId": "ibis-african-sacred",
 			"bird": {
+	"photo": {
+		"id": "2024-09-04T00_26_05.000Z_shaun"
+	},
 	"name": "African Sacred Ibis",
 	"family_name": "Ibis",
 	"german_name": null,
@@ -15072,7 +15337,10 @@
 	"genus": "Euplectes",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/yelbis1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-04T00_25_28.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -15294,6 +15562,9 @@
 			"datetime": "2024-09-03T12:23:45.000Z",
 			"birdId": "cormorant-reed",
 			"bird": {
+	"photo": {
+		"id": "2023-10-12T08_28_00.000Z_tony"
+	},
 	"name": "Reed Cormorant",
 	"family_name": "Cormorant",
 	"german_name": null,
@@ -15530,7 +15801,10 @@
 	"genus": "Ploceus",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capwea1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-04T00_16_23.000Z_shaun"
+	}
 },
 			"quantity": 9,
 			"location": {
@@ -15752,6 +16026,9 @@
 			"datetime": "2024-09-03T12:02:17.000Z",
 			"birdId": "swan-black",
 			"bird": {
+	"photo": {
+		"id": "2024-09-04T00_02_17.000Z_shaun"
+	},
 	"name": "Black Swan",
 	"family_name": "Swan",
 	"german_name": null,
@@ -15892,7 +16169,10 @@
 	"genus": "Cinnyris",
 	"species": "chalybeus",
 	"ebird": "https://ebird.org/species/sdcsun3/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-03T19_29_47.000Z_shaun"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -16021,7 +16301,10 @@
 	"genus": "Dicrurus",
 	"species": "adsimilis",
 	"ebird": "https://ebird.org/species/fotdro5/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-08-29T20_33_00.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -16150,7 +16433,10 @@
 	"genus": "Passer",
 	"species": "melanurus",
 	"ebird": "https://ebird.org/species/capspa1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-08-29T20_19_50.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -16272,6 +16558,9 @@
 			"datetime": "2024-08-28T08:18:48.000Z",
 			"birdId": "mousebird-white-backed",
 			"bird": {
+	"photo": {
+		"id": "2020-08-21T11_43_13.000Z_tony"
+	},
 	"name": "White-backed Mousebird",
 	"family_name": "Mousebird",
 	"german_name": null,

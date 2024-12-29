@@ -15,7 +15,10 @@
 	"genus": "Vanellus",
 	"species": "armatus",
 	"ebird": "https://ebird.org/species/blaplo1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-24T01_57_28.000Z_shaun"
+	}
 },
 			"quantity": 3,
 			"location": {
@@ -148,7 +151,10 @@
 	"genus": "Elanus",
 	"species": "caeruleus",
 	"ebird": "https://ebird.org/species/bkskit1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-15T16_30_29.000Z_shaun"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -281,7 +287,10 @@
 	"genus": "Cisticola",
 	"species": "tinniens",
 	"ebird": "https://ebird.org/species/tincis1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-15T15_17_32.000Z_shaun"
+	}
 },
 			"quantity": 4,
 			"location": {
@@ -540,7 +549,10 @@
 	"genus": "Cygnus",
 	"species": "atratus",
 	"ebird": "https://ebird.org/species/blkswa/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-04T00_02_17.000Z_shaun"
+	}
 },
 			"quantity": 3,
 			"location": {
@@ -666,7 +678,10 @@
 	"genus": "Microcarbo",
 	"species": "africanus",
 	"ebird": "https://ebird.org/species/lotcor1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2023-10-12T08_28_00.000Z_tony"
+	}
 },
 			"quantity": 5,
 			"location": {
@@ -792,7 +807,10 @@
 	"genus": "Cecropis",
 	"species": "cucullata",
 	"ebird": "https://ebird.org/species/grests1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-11-25T14_58_28.000Z_shaun"
+	}
 },
 			"quantity": 8,
 			"location": {
@@ -918,7 +936,10 @@
 	"genus": "Fulica",
 	"species": "cristata",
 	"ebird": "https://ebird.org/species/rekcoo1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-24T01_58_34.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -1044,7 +1065,10 @@
 	"genus": "Colius",
 	"species": "colius",
 	"ebird": "https://ebird.org/species/whbmou1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2020-08-21T11_43_13.000Z_tony"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -1170,7 +1194,10 @@
 	"genus": "Euplectes",
 	"species": "orix",
 	"ebird": "https://ebird.org/species/redbis/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2019-11-28T05:29:34.000Z_mike"
+	}
 },
 			"quantity": 12,
 			"location": {
@@ -1296,7 +1323,10 @@
 	"genus": "Sigelus",
 	"species": "silens",
 	"ebird": "https://ebird.org/species/fisfly1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-11-07T16_07_20.000Z_shaun"
+	}
 },
 			"quantity": 2,
 			"location": {
@@ -1415,6 +1445,9 @@
 			"datetime": "2024-09-23T12:27:28.000Z",
 			"birdId": "bishop-southern-red",
 			"bird": {
+	"photo": {
+		"id": "2019-11-28T05:29:34.000Z_mike"
+	},
 	"name": "Southern Red Bishop",
 	"family_name": "Bishop",
 	"german_name": null,
@@ -1548,6 +1581,9 @@
 			"datetime": "2024-09-03T12:02:17.000Z",
 			"birdId": "swan-black",
 			"bird": {
+	"photo": {
+		"id": "2024-09-04T00_02_17.000Z_shaun"
+	},
 	"name": "Black Swan",
 	"family_name": "Swan",
 	"german_name": null,
