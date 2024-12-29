@@ -10,7 +10,7 @@ function getGPSCoords(exifObj, type) {
 	return '';
 }
 
-export default function createEXIFYML(exifEntryObj) {
+export function createEXIFYML(exifEntryObj) {
 	let fileString = '';
 
 	fileString += `\

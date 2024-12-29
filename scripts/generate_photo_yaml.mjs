@@ -28,9 +28,20 @@ fs.readdir(dumpFolder, (errAuthor, entries) => {
 				// ==============================================
 				// Save a smaller copy in the `source_photos` folder
 				// We'll use this later to generate images using `eleventy-img`
-				sharp(photoPath)
-					.resize({width: 2400})
-					.toFile(targetPhotoPath);
+				const imageToProcess = sharp(photoPath)
+				
+				imageToProcess
+					.metadata()
+					.then(metadata => {
+						if (metadata.width < 2400) {
+							return imageToProcess
+								.toFile(targetPhotoPath);
+						} else {
+							return imageToProcess
+								.resize({width: 2400})
+								.toFile(targetPhotoPath);
+						}
+					});
 
 				fs.readFile(photoPath, (errFile, data) => {
 					// Step 2: Generate EXIF data entry
