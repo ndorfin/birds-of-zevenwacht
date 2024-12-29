@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 ---
 
 <ul class="list_gallery">
-	{% for photoId, photo in photos | sortByDatetimeRecent %}
+	{% for photoId, photo in photos | sortByProp('datetime') %}
 		<li>
 			<a class="link_thumbnail" href="{{ url.photos }}{{ photoId }}/">
 				<figure>

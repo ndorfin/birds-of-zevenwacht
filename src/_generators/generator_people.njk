@@ -7,9 +7,9 @@ permalink: "{{ url.people }}{{ personId | slugify }}/index.html"
 layout: "person_detail.njk"
 eleventyExcludeFromCollections: true
 ---
-{% set filtered_sightings = sightings | byPerson(personId) | sortByDatetimeRecent %}
+{% set filtered_sightings = sightings | byPerson(personId) | sortByProp('datetime') %}
 {% set filtered_sightings_array = filtered_sightings | objToArray %}
-{% set filtered_photos = photos | byPerson(personId) | sortByDatetimeRecent %}
+{% set filtered_photos = photos | byPerson(personId) | sortByProp('datetime') %}
 {% set filtered_photos_array = filtered_photos | objToArray %}
 {% set birdsArray = [] %}
 {% for sightingId, sighting in filtered_sightings %}

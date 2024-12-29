@@ -32,7 +32,7 @@ eleventyExcludeFromCollections: true
 					<dt>{{ ccyy }}</dt>
 					<dd>
 						<ul>
-							{% for sightingId, sighting in sightings | sortByDatetimeRecent %}
+							{% for sightingId, sighting in sightings | sortByProp('datetime') %}
 								{% set itemYear = sighting.datetime | getYear %}
 								{% if itemYear > ccyy - 1 and itemYear < ccyy + 1 %}
 								<li>

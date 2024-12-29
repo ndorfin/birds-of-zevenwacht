@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
 ---
 {% set birdSightings = sightings | byBird(birdId) %}
 [
-	{% for sightingId, sighting in birdSightings | sortByDatetimeRecent %}
+	{% for sightingId, sighting in birdSightings | sortByProp('datetime') %}
 		{% set bird = birds[sighting.bird.id] %}
 		{% if loop.index > 1 and loop.revindex >= 1 %},{% endif%}
 		{

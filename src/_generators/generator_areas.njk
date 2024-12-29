@@ -7,9 +7,9 @@ permalink: "{{ url.areas }}{{ areaId }}/index.html"
 layout: "area_detail.njk"
 eleventyExcludeFromCollections: true
 ---
-{% set filtered_sightings = sightings | byArea(areaId) | sortByDatetimeRecent %}
+{% set filtered_sightings = sightings | byArea(areaId) | sortByProp('datetime') %}
 {% set filtered_sightings_array = filtered_sightings | objToArray %}
-{% set filtered_photos = photos | byArea(areaId) | sortByDatetimeRecent %}
+{% set filtered_photos = photos | byArea(areaId) | sortByProp('datetime') %}
 {% set filtered_photos_array = filtered_photos | objToArray %}
 {% set area = areas[areaId] %}
 {% set birdsArray = [] %}

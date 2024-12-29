@@ -8,9 +8,9 @@ layout: "bird_detail.njk"
 eleventyExcludeFromCollections: true
 ---
 {% set bird = birds[birdId] %}
-{% set filtered_sightings = sightings | byBird(birdId) | sortByDatetimeRecent %}
+{% set filtered_sightings = sightings | byBird(birdId) | sortByProp('datetime') %}
 {% set filtered_sightings_array = filtered_sightings | objToArray %}
-{% set filtered_photos = photos | byBird(birdId) | sortByDatetimeRecent %}
+{% set filtered_photos = photos | byBird(birdId) | sortByProp('datetime') %}
 {% set filtered_photos_array = filtered_photos | objToArray %}
 {% set observerArray = [] %}
 {% for sightingId, sighting in filtered_sightings %}
@@ -56,6 +56,28 @@ eleventyExcludeFromCollections: true
 		<div>
 			<dt>Reference</dt>
 			<dd><a href="{{ bird.ebird }}">{{ bird.name }} on eBird</a></dd>
+		</div>
+	{% endif %}
+	{% if bird['red-list'] %}
+		<div>
+			<dt>Red-List</dt>
+			<dd>
+				{{ red_list[bird['red-list']].title }}. <small>See: <a href="https://www.birdlife.org/projects/iucn-red-list/">IUCN Red-List</a></small>
+				<ol class="list_redlist">
+					{% set sortedRedList = red_list | sortByProp('severity') %}
+					{% for rlId, rlItem in sortedRedList %}
+						<li>
+							<abbr
+								data-code="{{ rlItem.abbr }}"
+								title="{{ rlItem.title }}"
+								{% if red_list[bird['red-list']].abbr == rlItem.abbr %} data-match {% endif %}
+							>
+								{{ rlItem.abbr }}
+							</abbr>
+						</li>
+					{% endfor %}
+				</ol>
+			</dd>
 		</div>
 	{% endif %}
 </dl>

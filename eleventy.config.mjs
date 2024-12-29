@@ -69,15 +69,6 @@ export default async function (config) {
 	config.addFilter('getYear', date => {
 		return new Date(date).getFullYear();
 	});
-	config.addFilter('sortByDatetimeRecent', (obj) => {
-		const sorted = {};
-		Object.keys(obj)
-			.sort((a, b) => {
-				return obj[a].datetime < obj[b].datetime ? 1 : -1;
-			})
-			.forEach((name) => (sorted[name] = obj[name]));
-		return sorted;
-	});
 	config.addFilter('byPerson', (obj, personId) => {
 		const filtered = {};
 		Object.keys(obj)
@@ -112,6 +103,15 @@ export default async function (config) {
 			})
 			.forEach((name) => (filtered[name] = obj[name]));
 		return filtered;
+	});
+	config.addFilter('sortByProp', (obj, prop) => {
+		const sorted = {};
+		Object.keys(obj)
+			.sort((a, b) => {
+				return obj[a][prop] < obj[b][prop] ? 1 : -1;
+			})
+			.forEach((name) => (sorted[name] = obj[name]));
+		return sorted;
 	});
 	config.addFilter('ogImage', (filename, photographerId) => {
 		let thumbnailPhoto = filename.replace(/\.JPEG$/,'-640.JPEG').replace(/\.jpeg$/,'-640.jpeg').replace(/\.JPG$/,'-640.JPG').replace(/\.jpg$/,'-640.jpg');

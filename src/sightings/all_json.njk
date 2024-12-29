@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 permalink: "{{ url.sightings }}/all.json"
 ---
 [
-	{% for sightingId, sighting in sightings | sortByDatetimeRecent %}
+	{% for sightingId, sighting in sightings | sortByProp('datetime') %}
 		{% set bird = birds[sighting.bird.id] %}
 		{% if loop.index > 1 and loop.revindex >= 1 %},{% endif%}
 		{
