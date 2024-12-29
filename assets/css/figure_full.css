@@ -1,5 +1,6 @@
 .figure_full {
 	margin: 0;
+	max-inline-size: 1200px;
 
 	& figcaption p {
 		margin: 0;
