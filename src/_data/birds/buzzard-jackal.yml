@@ -8,3 +8,6 @@ ebird: https://ebird.org/species/jacbuz1/ZA
 red-list: least-concern
 photo:
   id: 2024-09-24T01_03_15.000Z_shaun
+  tx: 40%
+  ty: 50%
+  scale: 3

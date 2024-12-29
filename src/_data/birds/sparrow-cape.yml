@@ -8,3 +8,6 @@ ebird: https://ebird.org/species/capspa1/ZA
 red-list: least-concern
 photo:
   id: 2024-08-29T20_19_50.000Z_shaun
+  tx: 40%
+  ty: -20%
+  scale: 2

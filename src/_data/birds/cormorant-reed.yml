@@ -8,3 +8,6 @@ ebird: https://ebird.org/species/lotcor1/ZA
 red-list: least-concern
 photo:
   id: 2023-10-12T08_28_00.000Z_tony
+  tx: 50%
+  ty: 40%
+  scale: 3

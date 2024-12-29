@@ -8,3 +8,6 @@ ebird: https://ebird.org/species/olithr2/ZA
 red-list: least-concern
 photo:
   id: 2021-07-19T08_45_40.000Z_tony
+  tx: 20%
+  ty: -20%
+  scale: 2.5

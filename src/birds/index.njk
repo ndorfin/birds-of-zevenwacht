@@ -7,15 +7,22 @@ eleventyExcludeFromCollections: true
 ---
 <p>Birds we have sightings or photos of:</p>
 <ol>
-	{% for birdId, bird in birds %}
+	{% asyncEach birdId, bird in birds %}
 		{% if not bird.unconfirmed %}
-			<li>
+			<li id="bird_{{ birdId }}">
 				<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
 					<figure>
 						<div>
 							{% if bird.photo %}
 								{% set photo = photos[bird.photo.id] %}
-								{% photoThumbnail url.source_photos + photo.photographer + '/' + photo.file, photo.description %}
+								{%
+									photoThumbnail
+										url.source_photos + photo.photographer + '/' + photo.file,
+										photo.description,
+										bird.photo.tx,
+										bird.photo.ty,
+										bird.photo.scale
+								%}
 							{% else %}
 								<span>No photo yet</span>
 							{% endif %}
@@ -25,11 +32,11 @@ eleventyExcludeFromCollections: true
 				</a>
 			</li>
 		{% endif %}
-	{% endfor %}
+	{% endeach %}
 </ol>
 <p>Unconfirmed sightings, or birds we haven't logged sightings or photos for yet:</p>
 <ol>
-	{% for birdId, bird in birds %}
+	{% asyncEach birdId, bird in birds %}
 		{% if bird.unconfirmed %}
 			<li>
 				<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
@@ -47,5 +54,5 @@ eleventyExcludeFromCollections: true
 				</a>
 			</li>
 		{% endif %}
-	{% endfor %}
+	{% endeach %}
 </ol>

@@ -8,3 +8,6 @@ ebird: https://ebird.org/species/commoo3/ZA
 red-list: least-concern
 photo:
   id: 2024-12-15T15_24_29.000Z_shaun
+  tx: -40%
+  ty: 40%
+  scale: 3

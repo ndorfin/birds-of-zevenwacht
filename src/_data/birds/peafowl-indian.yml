@@ -8,3 +8,6 @@ ebird: https://ebird.org/species/compea/ZA
 red-list: least-concern
 photo:
   id: 2024-09-04T00_43_57.000Z_shaun
+  tx: -50%
+  ty: -30%
+  scale: 2.5

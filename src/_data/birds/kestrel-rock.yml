@@ -8,6 +8,9 @@ ebird: https://ebird.org/species/eurkes1/ZA
 red-list: least-concern
 photo:
   id: 2018-08-19T13:14:48.000Z_mike
+  tx: 25%
+  ty: -30%
+  scale: 4.5
 size:
   min: 300
   max: 340

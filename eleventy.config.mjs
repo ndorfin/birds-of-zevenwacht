@@ -175,7 +175,7 @@ export default async function (config) {
 		};
 		return Image.generateHTML(metadata, imageAttributes);
 	});
-	config.addShortcode('photoThumbnail', async function (src, alt) {
+	config.addShortcode('photoThumbnail', async function (src, alt, translateX = 0, translateY = 0, scale = 1) {
 		const authorId = src.split('src/_data/source_photos/')[1].split('/')[0];
 		const imageId = src.split(`src/_data/source_photos/${authorId}/`)[1].replace('.','_');
 		let metadata = await Image(src, {
@@ -188,7 +188,12 @@ export default async function (config) {
 		let imageAttributes = {
 			alt,
 			loading: 'lazy',
-			style: `view-transition-name: image_${ imageId };`
+			style: `
+				--thumbnail-translate-x: ${ translateX };
+				--thumbnail-translate-y: ${ translateY };
+				--thumbnail-scale: ${ scale };
+				view-transition-name: image_${ imageId };
+			`
 		};
 		return Image.generateHTML(metadata, imageAttributes);
 	});
