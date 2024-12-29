@@ -6,4 +6,5 @@ genus: Plegadis
 species: falcinellus
 ebird: https://ebird.org/species/gloibi/ZA
 red-list: least-concern
-unconfirmed: true
+# photo:
+#   id: 

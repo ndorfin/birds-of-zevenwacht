@@ -6,6 +6,8 @@ genus: Estrilda
 species: astrild
 ebird: https://ebird.org/species/comwax/ZA
 red-list: least-concern
+# photo:
+#   id: 
 size:
   min: 110
   max: 110
