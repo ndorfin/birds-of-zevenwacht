@@ -6,5 +6,8 @@ genus: Columba
 species: Guinea
 ebird: https://ebird.org/species/spepig1/ZA
 red-list: least-concern
-# photo:
-#   id: 
+photo:
+  id: 2025-01-05T15:16:08.000Z_shaun
+  tx: 120%
+  ty: 120%
+  scale: 3.5
