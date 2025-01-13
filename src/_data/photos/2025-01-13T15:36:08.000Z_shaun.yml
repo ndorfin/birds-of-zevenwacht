@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: CFEC4920-128F-41CB-A6CD-8EDDED15C6A5_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-01-13T15:36:08.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A female Amethyst Sunbird chases a male off a perching branch of a Protea
+# List each of the bird IDs present in this photo
+birds:
+  - sunbird-amethyst
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
