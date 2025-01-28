@@ -36,7 +36,7 @@ class MapEmbed extends HTMLElement {
 		function getHTMLByType(type) {
 			if (type === 'sighting') return `
 				<b>Sighting</b> on ${ new Date(markerObj.item.datetime).toISOString().substring(0, 10) }<br>
-				<a href="${ getBaseURI() }sightings/${ markerObj.id }-${ markerObj.item.birdId }/">${ markerObj.item.quantity } × ${ markerObj.item.bird.name }</a>
+				<a href="${ getBaseURI() }sightings/${ markerObj.id }/">${ markerObj.item.quantity } × ${ markerObj.item.bird.name }</a>
 			`;
 			if (type === 'sightings') return `
 				<b>Grouped Sightings</b><br>
@@ -44,7 +44,7 @@ class MapEmbed extends HTMLElement {
 			`;
 			if (type === 'photo') return `
 				<b>Photo</b> on ${ new Date(markerObj.item.datetime).toISOString().substring(0, 10) }<br>
-				<a href="${ getBaseURI() }photos/${ markerObj.id }-${ markerObj.item.photographer }/">${ markerObj.item.birds[0].name }</a>
+				<a href="${ getBaseURI() }photos/${ markerObj.id }_${ markerObj.item.photographer }/">${ markerObj.item.birds[0].name }</a>
 			`;
 			if (type === 'photos') return `
 				<b>Grouped Photos</b><br>
