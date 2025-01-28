@@ -8352,24 +8352,22 @@
 		{
 			"id": "2024-11-25T15_09_31.000Z_shaun",
 			"datetime": "2024-11-25T15:09:31.000Z",
-			"birdId": "sparrowhawk-rufous-breasted",
+			"birdId": "sparrowhawk-black",
 			"bird": {
-	"name": "Rufous-breasted Sparrowhawk",
+	"photo": {
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
+		"ty": "20%",
+		"scale": 2
+	},
+	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
 	"german_name": null,
 	"afrikaans_name": null,
-	"genus": "Accipiter",
-	"species": "rufiventris",
-	"ebird": "https://ebird.org/species/rucspa2/ZA",
-	"red-list": "least-concern",
-	"size": {
-		"min": 300,
-		"max": 380
-	},
-	"weight": {
-		"min": 105,
-		"max": 210
-	}
+	"genus": "Astur",
+	"species": "melanoleucus",
+	"ebird": "https://ebird.org/species/blagos1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
