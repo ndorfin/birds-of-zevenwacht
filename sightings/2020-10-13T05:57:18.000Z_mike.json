@@ -86,11 +86,11 @@
 },
 		"latitude": 
 		
-			null,
+			-33.937455,
 		
 		"longitude":
 		
-			null
+			18.71692
 		
 	},
 	
@@ -107,7 +107,9 @@
 	],
 	"photographer": "mike",
 	"location": {
-		"area": "zevenwacht-country-estate"
+		"area": "zevenwacht-country-estate",
+		"latitude": -33.937455,
+		"longitude": 18.71692
 	}
 }
 		
