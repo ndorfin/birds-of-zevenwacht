@@ -1,9 +1,13 @@
 
-
 [
-{
-	"datetime": "2024-12-15T16:42:53.000Z",
-	"bird": {
+	
+		
+		
+		{
+			"id": "2024-12-15T16_42_53.000Z_shaun",
+			"datetime": "2024-12-15T16:42:53.000Z",
+			"birdId": "buzzard-common",
+			"bird": {
 	"name": "Common Buzzard",
 	"family_name": "Buzzard",
 	"german_name": null,
@@ -18,10 +22,10 @@
 		"scale": 3.5
 	}
 },
-	"quantity": 1,
-	"location": {
-		"areaId": "kuils-river",
-		"area": {
+			"quantity": 1,
+			"location": {
+				"areaId": "kuils-river",
+				"area": {
 	"name": "Kuils River undeveloped land",
 	"address": {
 		"street": "173 Langverwacht Road",
@@ -110,53 +114,32 @@
 		]
 	]
 },
-		"latitude": 
-		
-			-33.924239,
-		
-		"longitude":
-		
-			18.71257
-		
-	},
-	
-	"photos": {
-		
-			
-			"2024-12-15T16_42_53.000Z_shaun":
-			{
-	"file": "1D1EB992-E89F-4198-828F-A90A4EBCFC84_1_201_a.jpeg",
-	"sighting": "2024-12-15T16_42_53.000Z_shaun",
-	"description": "A Common (Steppe) Buzzard perched atop a Port Jackson tree",
-	"birds": [
-		"buzzard-common"
-	],
-	"photographer": "shaun",
-	"location": {
-		"area": "kuils-river",
-		"latitude": -33.924239,
-		"longitude": 18.71257
-	}
-}
-		
-	},
-	
-	"observers": [
-		
-			
-			{
+				"latitude": 
+				
+					-33.924239,
+				
+				"longitude":
+				
+					18.71257
+				
+			},
+			"observers": [
+				
+					
+					{
 	"name": "Shaun",
 	"full-name": "Shaun O'Connell",
 	"email": "shaun@tactile.co.za"
 }
-		
-			,
-			{
+				
+					,
+					{
 	"name": "Ingunn",
 	"full-name": "Ingunn O'Connell",
 	"email": "groingunn@gmail.com"
 }
-		
-	]
-}
+				
+			]
+		}
+	
 ]
