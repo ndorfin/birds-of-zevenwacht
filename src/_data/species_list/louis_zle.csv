@@ -1,99 +1,99 @@
-Common name,Afrikaans name
-Little Grebe,Kleindobbertjie
-Reed Cormorant,Rietduiker
-Grey Heron,Bloureier
-Black-headed Heron,Swartkopreier
-Cattle Egret,Bosluisvoël
-Hamerkop,Hamerkop
-Sacred Ibis,Skoorsteenveër
-Hadeda Ibis,Hadeda
-African Spoonbill,Lepelaar
-Egyptian Goose,Kolgans
-Yellow-billed Duck,Geelbek-Eend
-White-backed Duck,Witrug-eend
-Black-winged Kite,Blouvalk
-Booted Eagle,Dwergarend
-African Fish Eagle,Visarend
-Common Buzzard,Bruinjakkalsvoël
-Jackal Buzzard,Rooiborsjakkalsvoël
-Rufous-breasted Sparrowhawk,Rooiborssperwer
-Black Sparrowhawk,Swartsperwer
-African Goshawk,Afrikaanse Sperwer
-African Harrierhawk,Kaalwangvalk
-Peregrine Falcon,Swerfvalk
-Lanner Falcom,Edelvalk
-Rock Kestrel,Kransvalk
-Cape Spurfowl,Kaapse Fisant
-Helmeted Guineafowl,Gewone Tarentaal
-Red-Knobbed Coot,Bleshoender
-Three-banded Plover,Driebandstrandkiewiet
-Crowned Lapwing,Kroonkiewiet
-Blacksmith Lapwing,Bontkiewiet
-Spotted Thick-knee,Gewone Dikkop
-Speckled Pigeon,Kransduif
-Red-eyed Dove,Grootringduif
-Laughing Dove,Rooiborsduifie
-Red-Chested Cuckoo,Piet-my-vrou
-Klaass Cuckoo,Meitjie
-Diederik Cuckoo,Diederikkie
-Fiery-necked Nightjar,Afrikaanse Naguil
-Palm Swift,Palmwindswael
-White-rumped Swift,Witkruiswindswael
-Little Swift,Kleinwindswael
-White-backed Mousebird,Witkruismuisvoël
-Malachite Kingfisher,Kuifkopvisvanger
-Giant Kingfisher,Reuse Visvanger
-European Bee-eater,Europese byvreter
-African Hoopoe,Hoephoep
-Acacia Pied Barbet,Bonthoutkapper
-Large-billed Lark,Dikbeklewerik
-Barn Swallow,Europese Swael
-White-throated Swallow,Witkeelswael
-Pearl-breasted Swallow,Pêrelborsswael
-Greater Striped Swallow,Grootstreepswael
-Brown-throated Martin,Afrikaanse Oewerswael
-Black Saw-wing,Swartsaagvlerkswael
-Pied Crow,Witborskraai
-Cape Bulbul,Kaapse Tiptol
-Olive Thrush,Olyflyster
-Karoo Robin,Slangverklikker
-Cape Robin-Chat,Gewone Janfrederik
-Common Reed-warbler,Kleinrietsanger
-Lesser Swamp Warbler,Kaapse Rietsanger
-Grey-backed Cisticola,Grysrugtinktinkie
-Levaillant's Cisticola,Vleitinktinkie Le
-Karoo Prinia,Karoolangstertjie
-Fiscal Flycatcher,Fiskaalvlieëvanger
-African Paradise Flycatcher,Paradysvlieëvanger
-Cape Wagtail,Gewone Kwikkie
-Southern Boubou,Fiskaallaksman
-Bokmakierie,Bokmakierie
-Red-winged Starling,Rooivlerkspreeu
-Malachite Sunbird,Jangroentjie
-Southern Double-collared Sunbird,Klein-rooibandsuikerbekkie
-Amethyst Sunbird,Swart Suikerbekkie
-Cape White-eye,Kaapse Glasogie
-House Sparrow,Huismossie
-Cape Sparrow,Gewone Mossie
-Southern Grey-headed Sparrow,Gryskopmossie
-Cape Weaver,Kaapse Wewer
-Southern Masked Weaver,Swartkeelgeelvink
-Red Bishop,Rooivink
-Yellow Bishop,Kaapse Flap
-Common Waxbill,Rooibeksysie
-Swee Waxbill,Suidelike Swie
-Pin-tailed Whydah,Koningrooibekkie
-Cape Canary,Kaapse Kanarie
-Brimstone Canary,Dikbekkanarie
-Yello Canary,Geelkanarie
-Yellow-billed Kite,Geelbekwou
-White-breasted Cormorant,Witborsduiker
-African Darter,Slanghalsvoël
-Common Moorhen,Grootwaterhoender
-Kelp Gull,Kelpmeeu
-Spotted Eagle-Owl,Gevlekte Ooruil
-African Stonechat,Gewone Bontrokkie
-African Pipit,Gewone Koester
-Fork-tailed Drongo,Mikstertbyvanger
-European Starling,Europese Spreeu
-Cape Sugarbird,Kaapse Suikervoël
+Common name,Afrikaans name,Genus,Species
+Acacia Pied Barbet,Bonthoutkapper,Tricholaema,leucomelas
+African Darter,Slanghalsvoël,Anhinga,rufa
+African Fish Eagle,Visarend,Haliaeetus,vocifer
+African Goshawk,Afrikaanse Sperwer,Accipiter,tachiro
+African Harrier-hawk,Kaalwangvalk,Polyboroides,typus
+African Hoopoe,Hoephoep,Upupa,africana
+African Palm Swift,Palmwindswael,Cypsiurus,parvus
+African Paradise Flycatcher,Paradysvlieëvanger,Terpsiphone,viridis
+African Pipit,Gewone Koester,Anthus,cinnamomeus
+African Sacred Ibis,Skoorsteenveër,Threskiornis,aethiopicus
+African Spoonbill,Lepelaar,Platalea,alba
+African Stonechat,Gewone Bontrokkie,Saxicola,torquatus
+Amethyst Sunbird,Swart Suikerbekkie,Chalcomitra,amethystina
+Barn Swallow,Europese Swael,Hirundo,rustica
+Black Saw-wing,Swartsaagvlerkswael,Psalidoprocne,pristoptera
+Black Sparrowhawk,Swartsperwer,Accipiter,melanoleucus
+Black-headed Heron,Swartkopreier,Ardea,melanocephala
+Black-winged Kite,Blouvalk,Elanus,caeruleus
+Blacksmith Lapwing,Bontkiewiet,Vanellus,armatus
+Bokmakierie,Bokmakierie,Telophorus,zeylonus
+Booted Eagle,Dwergarend,Hieraaetus,pennatus
+Brimstone Canary,Dikbekkanarie,Crithagra,sulphurata
+Brown-throated Martin,Afrikaanse Oewerswael,Riparia,paludicola
+Cape Bulbul,Kaapse Tiptol,Pycnonotus,capensis
+Cape Canary,Kaapse Kanarie,Serinus,canicollis
+Cape Robin-Chat,Gewone Janfrederik,Cossypha,caffra
+Cape Sparrow,Gewone Mossie,Passer,melanurus
+Cape Spurfowl,Kaapse Fisant,Pternistis,capensis
+Cape Sugarbird,Kaapse Suikervoël,Promerops,cafer
+Cape Wagtail,Gewone Kwikkie,Motacilla,capensis
+Cape Weaver,Kaapse Wewer,Ploceus,capensis
+Cape White-eye,Kaapse Glasogie,Zosterops,virens
+Common Buzzard,Bruinjakkalsvoël,Buteo,buteo
+Common Moorhen,Grootwaterhoender,Gallinula,chloropus
+Common Reed-warbler,Kleinrietsanger,Acrocephalus,scirpaceus
+Common Starling,Europese Spreeu,Sturnus,vulgaris
+Common Waxbill,Rooibeksysie,Estrilda,astrild
+Crowned Lapwing,Kroonkiewiet,Vanellus,coronatus
+Diederik Cuckoo,Diederikkie,Chrysococcyx,caprius
+Egyptian Goose,Kolgans,Alopochen,aegyptiaca
+European Bee-eater,Europese byvreter,Merops,apiaster
+Fiery-necked Nightjar,Afrikaanse Naguil,Caprimulgus,pectoralis
+Fiscal Flycatcher,Fiskaalvlieëvanger,Melaenornis,silens
+Fork-tailed Drongo,Mikstertbyvanger,Dicrurus,adsimilis
+Giant Kingfisher,Reuse Visvanger,Megaceryle,maxima
+Greater Striped Swallow,Grootstreepswael,Cecropis,cucullata
+Grey Heron,Bloureier,Ardea,cinerea
+Grey-backed Cisticola,Grysrugtinktinkie,Cisticola,subruficapilla
+Hadeda Ibis,Hadeda,Bostrychia,hagedash
+Hamerkop,Hamerkop,Scopus,umbretta
+Helmeted Guineafowl,Gewone Tarentaal,Numida,meleagris
+House Sparrow,Huismossie,Passer,domesticus
+Jackal Buzzard,Rooiborsjakkalsvoël,Buteo,rufofuscus
+Karoo Prinia,Karoolangstertjie,Prinia,maculosa
+Karoo Scrub Robin,Slangverklikker,Cercotrichas,coryphoeus
+Kelp Gull,Kelpmeeu,Larus,dominicanus
+Klaass Cuckoo,Meitjie,Chrysococcyx,klaas
+Lanner Falcom,Edelvalk,Falco,biarmicus
+Large-billed Lark,Dikbeklewerik,Galerida,magnirostris
+Laughing Dove,Rooiborsduifie,Spilopelia,senegalensis
+Lesser Swamp Warbler,Kaapse Rietsanger,Acrocephalus,gracilirostris
+Levaillant's Cisticola,Vleitinktinkie,Cisticola,tinniens
+Little Grebe,Kleindobbertjie,Tachybaptus,ruficollis
+Little Swift,Kleinwindswael,Apus,affinis
+Malachite Kingfisher,Kuifkopvisvanger,Corythornis,cristatus
+Malachite Sunbird,Jangroentjie,Nectarinia,famosa
+Olive Thrush,Olyflyster,Turdus,olivaceus
+Pearl-breasted Swallow,Pêrelborsswael,Hirundo,dimidiata
+Peregrine Falcon,Swerfvalk,Falco,peregrinus
+Pied Crow,Witborskraai,Corvus,albus
+Pin-tailed Whydah,Koningrooibekkie,Vidua,macroura
+Red-Chested Cuckoo,Piet-my-vrou,Cuculus,solitarius
+Red-eyed Dove,Grootringduif,Streptopelia,semitorquata
+Red-Knobbed Coot,Bleshoender,Fulica,cristata
+Red-winged Starling,Rooivlerkspreeu,Onychognathus,morio
+Reed Cormorant,Rietduiker,Microcarbo,africanus
+Rock Kestrel,Kransvalk,Falco,rupicolus
+Rufous-breasted Sparrowhawk,Rooiborssperwer,Accipiter,rufiventris
+Southern Boubou,Fiskaallaksman,Laniarius,ferrugineus
+Southern Double-collared Sunbird,Klein-rooibandsuikerbekkie,Cinnyris,chalybeus
+Southern Grey-headed Sparrow,Gryskopmossie,Passer,diffusus
+Southern Masked Weaver,Swartkeelgeelvink,Ploceus,velatus
+Speckled Pigeon,Kransduif,Columba,guinea
+Southern Red Bishop,Rooivink,Euplectes,orix
+Spotted Eagle-Owl,Gevlekte Ooruil,Bubo,africanus
+Spotted Thick-knee,Gewone Dikkop,Burhinus,capensis
+Swee Waxbill,Suidelike Swie,Coccopygia,melanotis
+Three-banded Plover,Driebandstrandkiewiet,Charadrius,tricollaris
+Western Cattle Egret,Bosluisvoël,Bubulcus,ibis
+White-backed Duck,Witrug-eend,Thalassornis,leuconotus
+White-backed Mousebird,Witkruismuisvoël,Colius,colius
+White-breasted Cormorant,Witborsduiker,Phalacrocorax,lucidus
+White-rumped Swift,Witkruiswindswael,Apus,caffer
+White-throated Swallow,Witkeelswael,Hirundo,albigularis
+Yello Canary,Geelkanarie,Crithagra,flaviventris
+Yellow Bishop,Kaapse Flap,Euplectes,capensis
+Yellow-billed Duck,Geelbek-Eend,Anas,undulata
+Yellow-billed Kite,Geelbekwou,Milvus,aegyptius
