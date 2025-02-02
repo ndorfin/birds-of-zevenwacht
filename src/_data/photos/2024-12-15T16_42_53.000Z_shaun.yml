@@ -4,10 +4,10 @@ file: 1D1EB992-E89F-4198-828F-A90A4EBCFC84_1_201_a.jpeg
 # 2024-09-04T14_23
 sighting: 2024-12-15T16_42_53.000Z_shaun
 # Describe this image, as if you were explaining it over the phone
-description: A Forest Buzzard perched atop a Port Jackson tree
+description: A Common (Steppe) Buzzard perched atop a Port Jackson tree
 # List each of the bird IDs present in this photo
 birds:
-  - buzzard-forest
+  - buzzard-common
 # Link this photo to a photographer (matching a file in the _data/people folder)
 photographer: shaun
 location:

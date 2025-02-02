@@ -7,7 +7,7 @@ description: |-
   So I crept around to get the sun behind me, managed to take a few shots, but then it took off before I get better lighting.
 bird:
   # Supply a matching Bird ID
-  id: buzzard-forest
+  id: buzzard-common
   # How many individuals did you spot?
   quantity: 1
 # Link this Sighting to a Photo, by its ID
