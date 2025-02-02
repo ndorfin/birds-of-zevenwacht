@@ -4,7 +4,7 @@
 {
 	"datetime": "2024-10-12T17:30:36.000Z",
 	"bird": {
-	"name": "Cape Turtle Dove",
+	"name": "Ring-necked Dove",
 	"family_name": "Dove",
 	"german_name": null,
 	"afrikaans_name": null,
@@ -128,9 +128,9 @@
 			{
 	"file": "F29C2898-AA16-4E1C-9281-3517EFC04A25.jpeg",
 	"sighting": "2024-10-12T17_30_36.000Z_shaun",
-	"description": "An adult Cape Turtle Dove walking across paving",
+	"description": "An adult Ring-necked Dove (Cape Turtle Dove) walking across paving",
 	"birds": [
-		"dove-cape-turtle"
+		"dove-ring-necked"
 	],
 	"photographer": "shaun",
 	"location": {

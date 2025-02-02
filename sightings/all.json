@@ -13573,9 +13573,9 @@
 		{
 			"id": "2024-10-12T17_30_36.000Z_shaun",
 			"datetime": "2024-10-12T17:30:36.000Z",
-			"birdId": "dove-cape-turtle",
+			"birdId": "dove-ring-necked",
 			"bird": {
-	"name": "Cape Turtle Dove",
+	"name": "Ring-necked Dove",
 	"family_name": "Dove",
 	"german_name": null,
 	"afrikaans_name": null,
@@ -33986,9 +33986,9 @@
 		{
 			"id": "2020-04-10T00_00_00.002Z_rolf",
 			"datetime": "2020-04-10T00:00:00.002Z",
-			"birdId": "dove-cape-turtle",
+			"birdId": "dove-ring-necked",
 			"bird": {
-	"name": "Cape Turtle Dove",
+	"name": "Ring-necked Dove",
 	"family_name": "Dove",
 	"german_name": null,
 	"afrikaans_name": null,
