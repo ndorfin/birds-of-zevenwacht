@@ -6,7 +6,7 @@ description: |-
   N/A
 bird:
   # Supply a matching Bird ID
-  id: dove-cape-turtle
+  id: dove-ring-necked
   # How many individuals did you spot?
   quantity: 1
 # Link this Sighting to a Photo, by its ID
