@@ -4,10 +4,10 @@ file: 456B934D-7A84-4CA1-8E55-2A552F330410_1_201_a.jpeg
 # 2024-09-04T14_23
 sighting: 2024-12-14T13_21_19.000Z_shaun
 # Describe this image, as if you were explaining it over the phone
-description: An adult African Black Swift resting high up in a Stone Pine tree
+description: An adult Black Saw-wing resting high up in a Stone Pine tree
 # List each of the bird IDs present in this photo
 birds:
-  - swift-african-black
+  - saw-wing-black
 # Link this photo to a photographer (matching a file in the _data/people folder)
 photographer: shaun
 location:

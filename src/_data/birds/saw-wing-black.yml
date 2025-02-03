@@ -6,4 +6,8 @@ genus: Psalidoprocne
 species: pristoptera
 ebird: https://ebird.org/species/blksaw1/ZA
 red-list: least-concern
-hidden: true
+photo:
+  id: 2024-12-14T13_21_19.000Z_shaun
+  tx: 10%
+  ty: 0%
+  scale: 2

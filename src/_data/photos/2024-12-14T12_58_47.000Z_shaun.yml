@@ -4,10 +4,10 @@ file: 9F668B00-DA89-48DF-9A3C-668D81A6C3C4_1_201_a.jpeg
 # 2024-09-04T14_23
 sighting: 2024-12-14T13_21_19.000Z_shaun
 # Describe this image, as if you were explaining it over the phone
-description: An adult African Black Swift diving in mid-air high above the photographer
+description: An adult Black Saw-wing diving in mid-air high above the photographer
 # List each of the bird IDs present in this photo
 birds:
-  - swift-african-black
+  - saw-wing-black
 # Link this photo to a photographer (matching a file in the _data/people folder)
 photographer: shaun
 location:
