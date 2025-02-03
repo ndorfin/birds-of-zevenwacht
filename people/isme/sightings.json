@@ -6,15 +6,15 @@
 		{
 			"id": "2024-12-14T13_21_19.000Z_shaun",
 			"datetime": "2024-12-14T13:21:19.000Z",
-			"birdId": "swift-african-black",
+			"birdId": "saw-wing-black",
 			"bird": {
-	"name": "African Black Swift",
-	"family_name": "Swift",
+	"name": "Black Saw-wing",
+	"family_name": "Swallow",
+	"afrikaans_name": "Swartsaagvlerkswael",
 	"german_name": null,
-	"afrikaans_name": null,
-	"genus": "Apus",
-	"species": "barbatus",
-	"ebird": "https://ebird.org/species/afrswi1/ZA",
+	"genus": "Psalidoprocne",
+	"species": "pristoptera",
+	"ebird": "https://ebird.org/species/blksaw1/ZA",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-12-14T13_21_19.000Z_shaun",

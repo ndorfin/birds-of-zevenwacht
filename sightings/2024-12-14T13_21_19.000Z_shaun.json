@@ -4,13 +4,13 @@
 {
 	"datetime": "2024-12-14T13:21:19.000Z",
 	"bird": {
-	"name": "African Black Swift",
-	"family_name": "Swift",
+	"name": "Black Saw-wing",
+	"family_name": "Swallow",
+	"afrikaans_name": "Swartsaagvlerkswael",
 	"german_name": null,
-	"afrikaans_name": null,
-	"genus": "Apus",
-	"species": "barbatus",
-	"ebird": "https://ebird.org/species/afrswi1/ZA",
+	"genus": "Psalidoprocne",
+	"species": "pristoptera",
+	"ebird": "https://ebird.org/species/blksaw1/ZA",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-12-14T13_21_19.000Z_shaun",
@@ -128,9 +128,9 @@
 			{
 	"file": "9F668B00-DA89-48DF-9A3C-668D81A6C3C4_1_201_a.jpeg",
 	"sighting": "2024-12-14T13_21_19.000Z_shaun",
-	"description": "An adult African Black Swift diving in mid-air high above the photographer",
+	"description": "An adult Black Saw-wing diving in mid-air high above the photographer",
 	"birds": [
-		"swift-african-black"
+		"saw-wing-black"
 	],
 	"photographer": "shaun",
 	"location": {
@@ -143,9 +143,9 @@
 			{
 	"file": "456B934D-7A84-4CA1-8E55-2A552F330410_1_201_a.jpeg",
 	"sighting": "2024-12-14T13_21_19.000Z_shaun",
-	"description": "An adult African Black Swift resting high up in a Stone Pine tree",
+	"description": "An adult Black Saw-wing resting high up in a Stone Pine tree",
 	"birds": [
-		"swift-african-black"
+		"saw-wing-black"
 	],
 	"photographer": "shaun",
 	"location": {
