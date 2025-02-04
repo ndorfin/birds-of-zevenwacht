@@ -12,7 +12,12 @@
 	"species": "biarmicus",
 	"ebird": "https://ebird.org/species/lanfal1/ZA",
 	"red-list": "least-concern",
-	"hidden": true
+	"photo": {
+		"id": "2025-02-04T16:46:51.000Z_shaun",
+		"tx": "-20%",
+		"ty": "0%",
+		"scale": 2
+	}
 },
 	"quantity": 1,
 	"location": {
