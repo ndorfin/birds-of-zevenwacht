@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 7EEB3950-AF30-4560-9113-C86DF8AB798C_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-02-06T16:50:25.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A small flock of Spurfowl battle the wind while crossing the road inside the Lifestyle Estate
+# List each of the bird IDs present in this photo
+birds:
+  - spurfowl-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.931773
+  longitude: 18.716198
