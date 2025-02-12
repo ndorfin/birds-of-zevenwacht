@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: CB75E29A-EBB0-4DE3-B478-798E253056D2_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-02-06T15:48:37.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An odd colouring on this duck suggests it might be a Mallard Hybrid, possibly crossed with a domesticated Swedish Blue Duck.
+# List each of the bird IDs present in this photo
+birds:
+  - mallard
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.930982
+  longitude: 18.726627
