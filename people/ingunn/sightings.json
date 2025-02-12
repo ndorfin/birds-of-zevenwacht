@@ -4,6 +4,159 @@
 		
 		
 		{
+			"id": "2025-02-06T16:50:25.000Z_shaun",
+			"datetime": "2025-02-06T16:50:25.000Z",
+			"birdId": "spurfowl-cape",
+			"bird": {
+	"name": "Cape Spurfowl",
+	"family_name": "Spurfowl",
+	"german_name": null,
+	"afrikaans_name": "Kaapse Fisant",
+	"genus": "Pternistis",
+	"species": "capensis",
+	"ebird": "https://ebird.org/species/capfra2/ZA",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-13T14_14_59.000Z_shaun",
+		"tx": "0%",
+		"ty": "20%",
+		"scale": 1.5
+	}
+},
+			"quantity": 5,
+			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
+				"area": {
+	"name": "Zevenwacht Lifestyle Estate",
+	"address": {
+		"street": "150 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934168,
+		"longitude": 18.713997
+	},
+	"geofence": [
+		[
+			-33.931973439185626,
+			18.716853932275
+		],
+		[
+			-33.93108850441808,
+			18.714853983648453
+		],
+		[
+			-33.93109945990521,
+			18.71446446551323
+		],
+		[
+			-33.93139525726785,
+			18.714035334386807
+		],
+		[
+			-33.932813976095744,
+			18.713744846286488
+		],
+		[
+			-33.93395524976114,
+			18.713771252451608
+		],
+		[
+			-33.93417435187366,
+			18.71395610851505
+		],
+		[
+			-33.93433320055193,
+			18.713830670471538
+		],
+		[
+			-33.934590644332715,
+			18.71378445645547
+		],
+		[
+			-33.93518221432526,
+			18.713876884487632
+		],
+		[
+			-33.93565327638076,
+			18.713909894498954
+		],
+		[
+			-33.936014787353976,
+			18.713678824419475
+		],
+		[
+			-33.93633247754774,
+			18.71409475056325
+		],
+		[
+			-33.936283180872415,
+			18.71434562665027
+		],
+		[
+			-33.93590524117223,
+			18.715276510105156
+		],
+		[
+			-33.93520412668197,
+			18.717666434934557
+		],
+		[
+			-33.93401111448705,
+			18.717395296463167
+		],
+		[
+			-33.931973439185626,
+			18.716853932275
+		]
+	],
+	"website": "https://zevenwacht-lifestyle-estate.co.za/"
+},
+				"latitude": 
+				
+					-33.931773,
+				
+				"longitude":
+				
+					18.716198
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Tony",
+	"full-name": "Tony Carlsson",
+	"email": null
+}
+				
+					,
+					{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
+}
+				
+					,
+					{
+	"name": "Nikki",
+	"full-name": "Nikki Carlsson",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
 			"id": "2025-02-04T15:58:05.000Z_shaun",
 			"datetime": "2025-02-04T15:58:05.000Z",
 			"birdId": "buzzard-common",
@@ -3044,7 +3197,6 @@
 			"location": {
 				"areaId": "zevenwacht-lifestyle-estate",
 				"area": {
-	"name": "Zevenwacht Lifestyle Estate",
 	"address": {
 		"street": "150 Langverwacht Road",
 		"suburb": "Kuils River"
@@ -3053,6 +3205,7 @@
 		"latitude": -33.934168,
 		"longitude": 18.713997
 	},
+	"name": "Zevenwacht Lifestyle Estate",
 	"geofence": [
 		[
 			-33.931973439185626,
@@ -3500,6 +3653,12 @@
 			"datetime": "2024-12-13T14:17:58.000Z",
 			"birdId": "spurfowl-cape",
 			"bird": {
+	"photo": {
+		"id": "2024-12-13T14_14_59.000Z_shaun",
+		"tx": "0%",
+		"ty": "20%",
+		"scale": 1.5
+	},
 	"name": "Cape Spurfowl",
 	"family_name": "Spurfowl",
 	"german_name": null,
@@ -3507,13 +3666,7 @@
 	"genus": "Pternistis",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capfra2/ZA",
-	"red-list": "least-concern",
-	"photo": {
-		"id": "2024-12-13T14_14_59.000Z_shaun",
-		"tx": "0%",
-		"ty": "20%",
-		"scale": 1.5
-	}
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {
