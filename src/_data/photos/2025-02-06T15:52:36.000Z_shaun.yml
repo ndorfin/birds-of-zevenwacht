@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 1AABF062-EE10-4F08-A0E9-DCBFCDB4D6C5_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-02-06T15:52:36.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An African Darter in flight, with one wing pointing upwards, showing its boney limb.
+# List each of the bird IDs present in this photo
+birds:
+  - darter-african
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.931231
+  longitude: 18.727078
