@@ -1,13 +1,9 @@
 
+
 [
-	
-		
-		
-		{
-			"id": "2025-02-06T15:48:37.000Z_shaun",
-			"datetime": "2025-02-06T15:48:37.000Z",
-			"birdId": "mallard",
-			"bird": {
+{
+	"datetime": "2025-02-06T15:48:37.000Z",
+	"bird": {
 	"name": "Mallard",
 	"family_name": "Duck",
 	"afrikaans_name": null,
@@ -17,10 +13,10 @@
 	"ebird": "https://ebird.org/species/mallar3/ZA",
 	"red-list": "least-concern"
 },
-			"quantity": 1,
-			"location": {
-				"areaId": "zevenwacht-wine-estate",
-				"area": {
+	"quantity": 1,
+	"location": {
+		"areaId": "zevenwacht-wine-estate",
+		"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
 		"street": "Langverwacht Road",
@@ -154,46 +150,67 @@
 	],
 	"website": "https://zevenwacht.co.za/"
 },
-				"latitude": 
-				
-					-33.930982,
-				
-				"longitude":
-				
-					18.726627
-				
-			},
-			"observers": [
-				
-					
-					{
+		"latitude": 
+		
+			-33.930982,
+		
+		"longitude":
+		
+			18.726627
+		
+	},
+	
+	"photos": {
+		
+			
+			"2025-02-06T15:48:37.000Z_shaun":
+			{
+	"file": "CB75E29A-EBB0-4DE3-B478-798E253056D2_1_201_a.jpeg",
+	"sighting": "2025-02-06T15:48:37.000Z_shaun",
+	"description": "An odd colouring on this duck suggests it might be a Mallard Hybrid, possibly crossed with a domesticated Swedish Blue Duck.",
+	"birds": [
+		"mallard"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "zevenwacht-wine-estate",
+		"latitude": -33.930982,
+		"longitude": 18.726627
+	}
+}
+		
+	},
+	
+	"observers": [
+		
+			
+			{
 	"name": "Nikki",
 	"full-name": "Nikki Carlsson",
 	"email": null
 }
-				
-					,
-					{
+		
+			,
+			{
 	"name": "Ingunn",
 	"full-name": "Ingunn O'Connell",
 	"email": "groingunn@gmail.com"
 }
-				
-					,
-					{
+		
+			,
+			{
 	"name": "Shaun",
 	"full-name": "Shaun O'Connell",
 	"email": "shaun@tactile.co.za"
 }
-				
-					,
-					{
+		
+			,
+			{
 	"name": "Tony",
 	"full-name": "Tony Carlsson",
 	"email": null
 }
-				
-			]
-		}
-	
+		
+	]
+}
 ]
