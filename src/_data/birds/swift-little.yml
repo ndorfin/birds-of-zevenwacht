@@ -6,4 +6,8 @@ genus: Apus
 species: affinis
 ebird: https://ebird.org/species/litswi1/ZA
 red-list: least-concern
-hidden: true
+photo:
+  id: 2025-03-02T16:21:35.000Z_shaun
+  tx: -35%
+  ty: 45%
+  scale: 3.5
