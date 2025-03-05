@@ -1,32 +1,28 @@
 
+
 [
-	
-		
-		
-		{
-			"id": "2025-03-02T16:21:35.000Z_shaun",
-			"datetime": "2025-03-02T16:21:35.000Z",
-			"birdId": "swift-little",
-			"bird": {
-	"name": "Little Swift",
-	"family_name": "Swift",
-	"afrikaans_name": "Kleinwindswael",
+{
+	"datetime": "2025-03-05T10:09:27.000Z",
+	"bird": {
+	"name": "Cape Batis",
+	"family_name": "Batis",
 	"german_name": null,
-	"genus": "Apus",
-	"species": "affinis",
-	"ebird": "https://ebird.org/species/litswi1/ZA",
+	"afrikaans_name": null,
+	"genus": "Batis",
+	"species": "capensis",
+	"ebird": "https://ebird.org/species/capbat10/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2025-03-02T16:21:35.000Z_shaun",
-		"tx": "-35%",
-		"ty": "45%",
-		"scale": 3.5
+		"id": "2025-03-05T10:08:57.000Z_shaun",
+		"tx": "15%",
+		"ty": "5%",
+		"scale": 1.5
 	}
 },
-			"quantity": 3,
-			"location": {
-				"areaId": "zevenwacht-village",
-				"area": {
+	"quantity": 2,
+	"location": {
+		"areaId": "zevenwacht-village",
+		"area": {
 	"name": "Zevenwacht Village",
 	"address": {
 		"street": "151 Langverwacht Road",
@@ -115,25 +111,59 @@
 		]
 	]
 },
-				"latitude": 
-				
-					null,
-				
-				"longitude":
-				
-					null
-				
-			},
-			"observers": [
-				
-					
-					{
+		"latitude": 
+		
+			null,
+		
+		"longitude":
+		
+			null
+		
+	},
+	
+	"photos": {
+		
+			
+			"2025-03-05T10:08:57.000Z_shaun":
+			{
+	"file": "17DCB34D-2024-4F2A-8F83-067F29832258_1_201_a.jpeg",
+	"sighting": "2025-03-05T10:09:27.000Z_shaun",
+	"description": "A male adult Cape Batis looking for bugs in the tree canopy above",
+	"birds": [
+		"batis-cape"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "zevenwacht-village"
+	}
+}
+		
+			,
+			"2025-03-05T10:09:27.000Z_shaun":
+			{
+	"file": "1412237B-384C-4B0C-8680-E710E18493FC_1_201_a.jpeg",
+	"sighting": "2025-03-05T10:09:27.000Z_shaun",
+	"description": "A female adult Cape Batis looking for bugs in the tree canopy above",
+	"birds": [
+		"batis-cape"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "zevenwacht-village"
+	}
+}
+		
+	},
+	
+	"observers": [
+		
+			
+			{
 	"name": "Shaun",
 	"full-name": "Shaun O'Connell",
 	"email": "shaun@tactile.co.za"
 }
-				
-			]
-		}
-	
+		
+	]
+}
 ]

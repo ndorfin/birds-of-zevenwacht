@@ -1,13 +1,9 @@
 
+
 [
-	
-		
-		
-		{
-			"id": "2025-03-02T16:21:35.000Z_shaun",
-			"datetime": "2025-03-02T16:21:35.000Z",
-			"birdId": "swift-little",
-			"bird": {
+{
+	"datetime": "2025-03-02T16:21:35.000Z",
+	"bird": {
 	"name": "Little Swift",
 	"family_name": "Swift",
 	"afrikaans_name": "Kleinwindswael",
@@ -23,10 +19,10 @@
 		"scale": 3.5
 	}
 },
-			"quantity": 3,
-			"location": {
-				"areaId": "zevenwacht-village",
-				"area": {
+	"quantity": 3,
+	"location": {
+		"areaId": "zevenwacht-village",
+		"area": {
 	"name": "Zevenwacht Village",
 	"address": {
 		"street": "151 Langverwacht Road",
@@ -115,25 +111,44 @@
 		]
 	]
 },
-				"latitude": 
-				
-					null,
-				
-				"longitude":
-				
-					null
-				
-			},
-			"observers": [
-				
-					
-					{
+		"latitude": 
+		
+			null,
+		
+		"longitude":
+		
+			null
+		
+	},
+	
+	"photos": {
+		
+			
+			"2025-03-02T16:21:35.000Z_shaun":
+			{
+	"file": "9421BF60-2E6C-4972-AB5D-39DC981F546A_1_201_a.jpeg",
+	"sighting": "2025-03-02T16:21:35.000Z_shaun",
+	"description": "A Little Swift flying high above the photographer",
+	"birds": [
+		"swift-little"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "zevenwacht-village"
+	}
+}
+		
+	},
+	
+	"observers": [
+		
+			
+			{
 	"name": "Shaun",
 	"full-name": "Shaun O'Connell",
 	"email": "shaun@tactile.co.za"
 }
-				
-			]
-		}
-	
+		
+	]
+}
 ]
