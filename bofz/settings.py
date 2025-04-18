@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/5.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -51,10 +51,14 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'bofz.urls'
 
+print(os.path.join(BASE_DIR, 'bofz', 'templates'))
+
 TEMPLATES = [
  {
 		'BACKEND': 'django.template.backends.jinja2.Jinja2',
-		'DIRS': [],
+		'DIRS': [
+    	os.path.join(BASE_DIR, 'bofz', 'templates', 'bofz')
+    ],
 		'APP_DIRS': True,
 		'OPTIONS': {
 			'environment': 'bofz.jinja2.environment',
