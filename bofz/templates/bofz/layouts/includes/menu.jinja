@@ -1,0 +1,21 @@
+{% set menu = [
+	('Birds', '/birds/', 'bird'),
+	('Sightings', url('sightings'), 'sighting'),
+	('Photos', '/photos/', 'photo'),
+] %}
+<nav aria-labelledby="heading_site_structure">
+	<screenreader-only>
+		<h2 id="heading_site_structure">Site structure</h2>
+	</screenreader-only>
+	<ul>
+		{%- for label, url, classifier in menu %}
+		<li>
+			<a
+				style="--site_nav_anchor_image: url(/birds-of-zevenwacht/assets/img/icon_{{ classifier }}.svg)"
+				href="{{ url }}">
+				{{ label }}
+			</a>
+		</li>
+		{% endfor -%}
+	</ul>
+</nav>

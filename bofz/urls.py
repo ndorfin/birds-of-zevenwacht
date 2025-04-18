@@ -16,9 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from . import views
+from bofz.views import Home, Sightings
 
 urlpatterns = [
-  path('', views.HomeView.as_view()),
-  path('admin/', admin.site.urls),
+  path('', Home.as_view(), name='home'),
+  path('admin/', admin.site.urls, name='admin'),
+  path('sightings/', Sightings.as_view(), name='sightings'),
 ]

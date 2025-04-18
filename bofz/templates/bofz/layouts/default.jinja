@@ -4,6 +4,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 {% include "layouts/includes/title.jinja" %}
 {% include "layouts/includes/body.jinja" %}
-{% block content %}
-	<p>No page content found</p>
-{% endblock %}
+<header>
+	<h1>Birds of Zevenwacht</h1>
+	{% include "layouts/includes/menu.jinja" %}
+</header>
+<main>
+	{% include "layouts/includes/page_header.jinja" %}
+	{% block content %}
+		<p>No page content found</p>
+	{% endblock %}
+</main>
