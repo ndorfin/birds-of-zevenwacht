@@ -11,7 +11,7 @@
 		{%- for label, url, classifier in menu %}
 		<li>
 			<a
-				style="--site_nav_anchor_image: url(/birds-of-zevenwacht/assets/img/icon_{{ classifier }}.svg)"
+				style="--site_nav_anchor_image: url({{ static('bofz/img/icon_' + classifier + '.svg') }})"
 				href="{{ url }}">
 				{{ label }}
 			</a>

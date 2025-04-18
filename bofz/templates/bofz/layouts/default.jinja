@@ -3,9 +3,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 {% include "layouts/includes/title.jinja" %}
+<link rel="stylesheet" href="{{ static('/bofz/css/index.css') }}">
 {% include "layouts/includes/body.jinja" %}
 <header>
-	<h1>Birds of Zevenwacht</h1>
+	<h1>
+		<a href="{{ url('home') }}">
+			Birds of Zevenwacht
+		</a>
+	</h1>
 	{% include "layouts/includes/menu.jinja" %}
 </header>
 <main>
