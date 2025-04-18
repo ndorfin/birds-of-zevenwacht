@@ -52,6 +52,14 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'bofz.urls'
 
 TEMPLATES = [
+ {
+		'BACKEND': 'django.template.backends.jinja2.Jinja2',
+		'DIRS': [],
+		'APP_DIRS': True,
+		'OPTIONS': {
+			'environment': 'bofz.jinja2.environment',
+		},
+	},
 	{
 		'BACKEND': 'django.template.backends.django.DjangoTemplates',
 		'DIRS': [],
@@ -76,7 +84,7 @@ WSGI_APPLICATION = 'bofz.wsgi.application'
 DATABASES = {
 	'default': {
 		'ENGINE': 'django.db.backends.sqlite3',
-		'NAME': BASE_DIR / 'db.sqlite3',
+		'NAME': BASE_DIR / 'data/db.sqlite3',
 	}
 }
 
@@ -103,13 +111,10 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
-
+LANGUAGE_CODE = 'en-za'
 TIME_ZONE = 'UTC'
-
-USE_I18N = True
-
-USE_TZ = True
+USE_I18N = False
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
