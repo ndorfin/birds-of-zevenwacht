@@ -58,7 +58,7 @@ TEMPLATES = [
     ],
     'APP_DIRS': True,
     'OPTIONS': {
-      'environment': 'bofz.jinja2.environment',
+      'environment': 'bofz-django.jinja2.environment',
     },
   },
   {
@@ -76,7 +76,7 @@ TEMPLATES = [
   },
 ]
 
-WSGI_APPLICATION = 'bofz.wsgi.application'
+WSGI_APPLICATION = 'bofz-django.wsgi.application'
 
 
 # Database
