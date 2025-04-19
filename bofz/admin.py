@@ -1,10 +1,5 @@
 from django.contrib import admin
-from .models import (
-  Bird,
-  Person,
-  RedListLevel,
-  Sighting,
-)
+from .models import Bird, Person, RedListLevel, Sighting
 
 admin.site.register([
   Bird,
