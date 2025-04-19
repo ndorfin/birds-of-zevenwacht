@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from django.views import View
+from django.views.generic import DetailView, ListView
+from .models import Sighting
 
 # ===============================
 # Setup
@@ -21,11 +23,32 @@ class GenericView(View):
     }
     return context
 
+class GenericListView(ListView):
+  layout = 'layouts/default.jinja'
+  
+  def get_context_data(self, **kwargs):
+    # Call the base implementation first to get a context
+    context = super().get_context_data(**kwargs)
+    # Add extra context data
+    context["layout"] = self.layout
+    return context
+
+class GenericDetailView(DetailView):
+  layout = 'layouts/default.jinja'
+  
+  def get_context_data(self, **kwargs):
+    # Call the base implementation first to get a context
+    context = super().get_context_data(**kwargs)
+    # Add extra context data
+    context["layout"] = self.layout
+    return context
+
+
 # ===============================
 # Views
 # ===============================
 
-class Home(GenericView):
+class ViewHome(GenericView):
   def __init__(self):
     self.page_name = 'Home'
     self.page_description = 'A community birding project'
@@ -33,11 +56,12 @@ class Home(GenericView):
   def get(self, request):
     return render(request, 'index.jinja', self.get_context())
 
-class Sightings(GenericView):
-  def __init__(self):
-    self.page_name = 'Sightings'
-    self.page_description = 'Most recent sightings of birds'
-    
-  def get(self, request):
-    extra_context = {}
-    return render(request, 'sightings/list.jinja', self.get_context(extra_context))
+class SightingListView(GenericListView):
+  model = Sighting
+  context_object_name = "sightings"
+  template_name = "sightings/list.jinja"
+  
+class SightingDetailView(GenericDetailView):
+  model = Sighting
+  context_object_name = "sighting"
+  template_name = "sightings/detail.jinja"

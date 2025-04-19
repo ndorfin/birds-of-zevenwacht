@@ -1,4 +1,6 @@
 {% extends layout %}
+{% set page_name = 'Sightings' %}
+{% set page_description = 'A list of recently-recorded sightings' %}
 
 {% block content %}
 	{% if sightings %}
@@ -6,9 +8,15 @@
 			<ul>
 				{% for sighting in sightings %}
 					<li>
-						<a href="{{ url('sighting', sighting.id) }}">
-							{{ sighting.short_name }}
-						</a>
+						{{ sighting.id }}
+						{# <a href="{{ url('sighting_detail', sighting.id) }}"> #}
+							{{ sighting.datetime }}<br>
+							{{ sighting.bird }} x {{ sighting.quantity }}<br>
+							{{ sighting.observers }}
+							{# {% for observer in sighting.observers %}
+								{{ observer.short_name }}
+							{% endfor %} #}
+						{# </a> #}
 					</li>
 				{% endfor %}
 			</ul>

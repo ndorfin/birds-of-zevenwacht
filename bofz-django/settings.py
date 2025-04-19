@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+  'django_extensions',
   'bofz.apps.BofzConfig',
   'django.contrib.admin',
   'django.contrib.auth',
@@ -49,7 +50,7 @@ MIDDLEWARE = [
   'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'bofz.urls'
+ROOT_URLCONF = 'bofz-django.urls'
 
 TEMPLATES = [
   {
