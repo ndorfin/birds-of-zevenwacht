@@ -29,6 +29,14 @@ class RedListLevel(models.Model):
   def __str__(self):
     return self.label + ' (' + self.abbreviation + ')'
   
+  @classmethod
+  def get_default_pk(cls):
+    level, created = cls.objects.get_or_create(
+      abbreviation="LC",
+      defaults=dict(label="Least Concern", severity=5),
+    )
+    return level.pk
+  
   severity = models.PositiveIntegerField("Severity rank",
     help_text="Where 1 = CR/Critically endangered and 5 = LC/Least Concern",
     db_comment="How severe is this level?"
@@ -94,5 +102,10 @@ class Bird(models.Model):
     null=True,
     help_text="e.g. https://en.wikipedia.org/wiki/Blue_crane",
     db_comment="Useful as a reference for this bird"
+  )
+  redlist_level = models.ForeignKey(
+    RedListLevel,
+    on_delete=models.CASCADE,
+    default=RedListLevel.get_default_pk,
   )
 
