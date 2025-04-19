@@ -1,4 +1,8 @@
 from django.contrib import admin
-from .models import Sighting
+from .models import Sighting, Person, Bird
 
-admin.site.register(Sighting)
+admin.site.register([
+  Sighting,
+  Person,
+  Bird,
+])
