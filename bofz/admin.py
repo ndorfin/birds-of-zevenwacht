@@ -1,8 +1,14 @@
 from django.contrib import admin
-from .models import Sighting, Person, Bird
+from .models import (
+  Bird,
+  Person,
+  RedListLevel,
+  Sighting,
+)
 
 admin.site.register([
-  Sighting,
-  Person,
   Bird,
+  Person,
+  RedListLevel,
+  Sighting,
 ])

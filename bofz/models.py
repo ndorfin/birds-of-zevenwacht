@@ -30,7 +30,7 @@ class RedListLevel(models.Model):
     return self.label + ' (' + self.abbreviation + ')'
   
   severity = models.PositiveIntegerField("Severity rank",
-    help_text="Where 1 = CR/Critically endangered and 6 = LC/Least Concern",
+    help_text="Where 1 = CR/Critically endangered and 5 = LC/Least Concern",
     db_comment="How severe is this level?"
   )
   
@@ -95,3 +95,4 @@ class Bird(models.Model):
     help_text="e.g. https://en.wikipedia.org/wiki/Blue_crane",
     db_comment="Useful as a reference for this bird"
   )
+
