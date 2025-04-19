@@ -1,4 +1,19 @@
 {% extends layout %}
+
 {% block content %}
-<p>All sightings</p>
+	{% if sightings %}
+		<nav>
+			<ul>
+				{% for sighting in sightings %}
+					<li>
+						<a href="{{ url('sighting', sighting.id) }}">
+							{{ sighting.short_name }}
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</nav>
+	{% else %}
+		<p class="no_items">No sightings recorded yet</p>
+	{% endif %}
 {% endblock %}

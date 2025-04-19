@@ -12,6 +12,7 @@
 		<li>
 			<a
 				style="--site_nav_anchor_image: url({{ static('bofz/img/icon_' + classifier + '.svg') }})"
+				{% if url in request.get_full_path() %}aria-current="page"{% endif %}
 				href="{{ url }}">
 				{{ label }}
 			</a>
