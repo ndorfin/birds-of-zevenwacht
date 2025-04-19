@@ -24,23 +24,19 @@ class GenericView(View):
     return context
 
 class GenericListView(ListView):
-  layout = 'layouts/default.jinja'
-  
   def get_context_data(self, **kwargs):
     # Call the base implementation first to get a context
     context = super().get_context_data(**kwargs)
     # Add extra context data
-    context["layout"] = self.layout
+    context["layout"] = 'layouts/default.jinja'
     return context
 
 class GenericDetailView(DetailView):
-  layout = 'layouts/default.jinja'
-  
   def get_context_data(self, **kwargs):
     # Call the base implementation first to get a context
     context = super().get_context_data(**kwargs)
     # Add extra context data
-    context["layout"] = self.layout
+    context["layout"] = 'layouts/default.jinja'
     return context
 
 

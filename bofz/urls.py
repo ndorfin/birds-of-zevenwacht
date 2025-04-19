@@ -20,5 +20,5 @@ from .views import ViewHome, SightingListView, SightingDetailView
 urlpatterns = [
   path("", ViewHome.as_view(), name="home"),
   path("sightings/", SightingListView.as_view(), name="sightings_list"),
-  path("sightings/<int:sighting_id>/", SightingDetailView.as_view(), name="sighting_detail")
+  path("sightings/<int:pk>/", SightingDetailView.as_view(), name="sighting_detail")
 ]

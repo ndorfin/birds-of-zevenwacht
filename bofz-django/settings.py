@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+  'django_jinja',
   'django_extensions',
   'bofz.apps.BofzConfig',
   'django.contrib.admin',
@@ -54,13 +55,16 @@ ROOT_URLCONF = 'bofz-django.urls'
 
 TEMPLATES = [
   {
-    'BACKEND': 'django.template.backends.jinja2.Jinja2',
+    'BACKEND': 'django_jinja.jinja2.Jinja2',
     'DIRS': [
       os.path.join(BASE_DIR, 'bofz', 'templates', 'bofz')
     ],
     'APP_DIRS': True,
     'OPTIONS': {
-      'environment': 'bofz-django.jinja2.environment',
+      # See: https://niwi.nz/django-jinja/latest/#_custom_filters_globals_constants_and_tests
+      "constants": {
+        "debug": DEBUG,
+      },
     },
   },
   {

@@ -8,15 +8,14 @@
 			<ul>
 				{% for sighting in sightings %}
 					<li>
-						{{ sighting.id }}
-						{# <a href="{{ url('sighting_detail', sighting.id) }}"> #}
+						<a href="{{ url('sighting_detail', pk=sighting.id) }}">
 							{{ sighting.datetime }}<br>
 							{{ sighting.bird }} x {{ sighting.quantity }}<br>
 							{{ sighting.observers }}
 							{# {% for observer in sighting.observers %}
 								{{ observer.short_name }}
 							{% endfor %} #}
-						{# </a> #}
+						</a>
 					</li>
 				{% endfor %}
 			</ul>
