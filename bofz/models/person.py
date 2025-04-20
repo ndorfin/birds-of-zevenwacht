@@ -3,6 +3,15 @@ from django.db import models
 class Person(models.Model):
   def __str__(self):
     return self.full_name + ' <' + self.email + '>'
+  
+  @classmethod
+  def get_default_pk(cls):
+    person, created = cls.objects.get_or_create(
+      full_name="Shaun O'Connell",
+      short_name="Shaun",
+      email="shaun@tactile.co.za",
+    )
+    return person.pk
 
   full_name = models.CharField("Full name",
     max_length=32,

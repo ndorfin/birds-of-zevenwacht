@@ -1,9 +1,14 @@
 from django.db import models
-from . import Bird, Person
+from . import Bird, Person, Photo
 
 class Sighting(models.Model):
   def __str__(self):
     return self.datetime.strftime('%Y-%m-%d %H:%M:%S')
+  
+  @classmethod
+  def get_default_pk(cls):
+    sighting, created = cls.objects.get(pk=cls.pk)
+    return sighting.pk
 
   datetime = models.DateTimeField("Date and time of sighting",
     help_text="What date and time was this sighting?",
@@ -22,4 +27,9 @@ class Sighting(models.Model):
   quantity = models.PositiveIntegerField("Quantity",
     default=1,
     help_text="How many total individuals of this species were seen?",
+  )
+  photos = models.ManyToManyField(
+    Photo,
+    help_text="Select the Photos associated with this Sighting",
+    blank=True
   )
