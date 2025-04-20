@@ -1,0 +1,10 @@
+{% set photographer = photo.photographer %}
+
+{% extends layout %}
+{% set page_name = 'Photo' %}
+{% set page_description = 'More details about this photo' %}
+
+{% block content %}
+{{ photo.datetime }}<br>
+{{ photographer }}<br>
+{% endblock %}

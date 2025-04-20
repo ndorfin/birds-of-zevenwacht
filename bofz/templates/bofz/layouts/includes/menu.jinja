@@ -1,7 +1,7 @@
 {% set menu = [
-	('Birds', '/birds/', 'bird'),
+	('Birds', url('birds_list'), 'bird'),
 	('Sightings', url('sightings_list'), 'sighting'),
-	('Photos', '/photos/', 'photo'),
+	('Photos', url('photos_list'), 'photo'),
 ] %}
 <nav aria-labelledby="heading_site_structure">
 	<screenreader-only>

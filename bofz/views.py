@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views import View
 from django.views.generic import DetailView, ListView
-from .models import Sighting
+from .models import Bird, Photo, Sighting
 
 # ===============================
 # Setup
@@ -51,6 +51,27 @@ class ViewHome(GenericView):
     
   def get(self, request):
     return render(request, 'index.jinja', self.get_context())
+
+
+class BirdListView(GenericListView):
+  model = Bird
+  context_object_name = "birds"
+  template_name = "birds/list.jinja"
+  
+class BirdDetailView(GenericDetailView):
+  model = Bird
+  context_object_name = "bird"
+  template_name = "birds/detail.jinja"
+  
+class PhotoListView(GenericListView):
+  model = Photo
+  context_object_name = "photos"
+  template_name = "photos/list.jinja"
+  
+class PhotoDetailView(GenericDetailView):
+  model = Photo
+  context_object_name = "photo"
+  template_name = "photos/detail.jinja"
 
 class SightingListView(GenericListView):
   model = Sighting

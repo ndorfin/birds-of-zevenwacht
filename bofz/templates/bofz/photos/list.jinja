@@ -1,0 +1,21 @@
+{% extends layout %}
+{% set page_name = 'Photos' %}
+{% set page_description = 'A list of recently-recorded photos' %}
+
+{% block content %}
+	{% if photos %}
+		<nav>
+			<ul>
+				{% for photo in photos %}
+					<li>
+						<a href="{{ url('photo_detail', pk=photo.id) }}">
+							{{ photo.datetime }}: {{ photo.photographer }}
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</nav>
+	{% else %}
+		<p class="no_items">No photos recorded yet</p>
+	{% endif %}
+{% endblock %}

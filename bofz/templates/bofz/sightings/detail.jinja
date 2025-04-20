@@ -1,12 +1,16 @@
-{% extends layout %}
 {% set bird = sighting.bird %}
+{% set photos = sighting.photos %}
+{% set observers = sighting.observers %}
+
+{% extends layout %}
 {% set page_name = bird.common_name + ' Sighting' %}
 {% set page_description = 'More details about this sighting' %}
 
 {% block content %}
 {{ sighting.id }}<br>
 {{ sighting.datetime }}<br>
-{{ sighting.observers }}<br>
+{{ observers }}<br>
 {{ bird }}<br>
 {{ sighting.quantity }}<br>
+{{ photos }}<br>
 {% endblock %}

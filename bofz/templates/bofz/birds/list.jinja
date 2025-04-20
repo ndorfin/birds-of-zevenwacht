@@ -1,0 +1,21 @@
+{% extends layout %}
+{% set page_name = 'Birds' %}
+{% set page_description = 'A list of all birds' %}
+
+{% block content %}
+	{% if birds %}
+		<nav>
+			<ul>
+				{% for bird in birds %}
+					<li>
+						<a href="{{ url('bird_detail', pk=bird.id) }}">
+							{{ bird.common_name }}
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</nav>
+	{% else %}
+		<p class="no_items">No birds recorded yet</p>
+	{% endif %}
+{% endblock %}

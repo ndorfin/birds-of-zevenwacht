@@ -1,0 +1,15 @@
+{% extends layout %}
+{% set page_name = bird.common_name %}
+{% set page_description = 'More details about this bird' %}
+
+{% block content %}
+{{ bird.id }}<br>
+{{ bird.common_name }}<br>
+{{ bird.family }}<br>
+{{ bird.genus }} {{ bird.species }}<br>
+{{ bird.redlist_level }}<br>
+{{ bird.afrikaans_name }}<br>
+{{ bird.german_name }}<br>
+{{ bird.ebird }}<br>
+{{ bird.wikipedia }}<br>
+{% endblock %}
