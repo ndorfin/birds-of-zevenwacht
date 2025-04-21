@@ -40,25 +40,29 @@ class Bird(models.Model):
   )
   afrikaans_name = models.CharField("Afrikaans name",
     max_length=64,
-    null=True,
+    default="",
+    blank=True,
     help_text="e.g. Blou Kraanvoël",
     db_comment="Afrikaans common name for this species, e.g. 'Blou Kraanvoël'"
   )
   german_name = models.CharField("German name",
     max_length=64,
-    null=True,
+    default="",
+    blank=True,
     help_text="e.g. Paradieskranich",
     db_comment="German common name for this species, e.g. 'Paradieskranich'"
   )
   ebird = models.URLField("eBird URL",
     max_length=64,
-    null=True,
+    default="",
+    blank=True,
     help_text="e.g. https://ebird.org/species/blucra2/ZA",
     db_comment="Useful as a reference for this bird"
   )
   wikipedia = models.URLField("Wikipedia URL",
     max_length=64,
-    null=True,
+    default="",
+    blank=True,
     help_text="e.g. https://en.wikipedia.org/wiki/Blue_crane",
     db_comment="Useful as a reference for this bird"
   )

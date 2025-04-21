@@ -11,10 +11,8 @@ class RedListLevel(models.Model):
   def get_default_pk(cls):
     level, created = cls.objects.get_or_create(
       abbreviation="LC",
-      defaults=dict(
-        label="Least Concern",
-        severity=5,
-      ),
+      label="Least Concern",
+      severity=5,
     )
     return level.pk
   
