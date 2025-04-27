@@ -1,0 +1,21 @@
+{% extends layout %}
+{% set page_name = 'People' %}
+{% set page_description = 'A list of birders' %}
+
+{% block content %}
+	{% if persons %}
+		<nav>
+			<ul>
+				{% for person in persons %}
+					<li>
+						<a href="{{ url('person_detail', pk=person.id) }}">
+							{{ person.short_name }}
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</nav>
+	{% else %}
+		<p class="no_items">No persons recorded yet</p>
+	{% endif %}
+{% endblock %}

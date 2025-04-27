@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views import View
 from django.views.generic import DetailView, ListView
-from .models import Bird, Photo, Sighting
+from .models import Bird, Photo, Sighting, Person
 
 # ===============================
 # Setup
@@ -89,3 +89,15 @@ class SightingDetailView(GenericDetailView):
   model = Sighting
   context_object_name = "sighting"
   template_name = "sightings/detail.jinja"
+
+# Persons
+# ------------------
+class PersonListView(GenericListView):
+  model = Person
+  context_object_name = "persons"
+  template_name = "persons/list.jinja"
+  
+class PersonDetailView(GenericDetailView):
+  model = Person
+  context_object_name = "person"
+  template_name = "persons/detail.jinja"
