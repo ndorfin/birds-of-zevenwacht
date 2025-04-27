@@ -44,7 +44,7 @@ class GenericDetailView(DetailView):
 # Views
 # ===============================
 
-# Home
+# Static pages
 # ------------------
 class ViewHome(GenericView):
   def __init__(self):
@@ -53,6 +53,22 @@ class ViewHome(GenericView):
     
   def get(self, request):
     return render(request, 'index.jinja', self.get_context())
+
+class ViewAbout(GenericView):
+  def __init__(self):
+    self.page_name = 'About'
+    self.page_description = 'More information about this community project'
+    
+  def get(self, request):
+    return render(request, 'about.jinja', self.get_context())
+
+class ViewAttribution(GenericView):
+  def __init__(self):
+    self.page_name = 'Attribution'
+    self.page_description = 'This community project wouldn’t be possible without its contributors, owners, and Open Source Software (OSS)'
+
+  def get(self, request):
+    return render(request, 'attribution.jinja', self.get_context())
 
 # Birds
 # ------------------

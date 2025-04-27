@@ -1,0 +1,29 @@
+{% set menu = [
+	('People', url('persons_list'), 'persons'),
+	('Areas', '#', 'area'),
+	('About', url('about'), 'about'),
+] %}
+<footer>
+	<nav aria-labelledby="heading_footer_nav">
+		<screenreader-only>
+			<h2 id="heading_footer_nav">More links</h2>
+		</screenreader-only>
+		<ul>
+			{%- for label, url, classifier in menu %}
+			<li>
+				<a
+					{% if url in request.get_full_path() %}aria-current="page"{% endif %}
+					href="{{ url }}">
+					{{ label }}
+				</a>
+			</li>
+			{% endfor -%}
+		</ul>
+	</nav>
+	<p>
+		<small>
+			© Photographs copyright by their respective owners, see
+			<a href="{{ url('attribution') }}">Attribution</a>.
+		</small>
+	</p>
+</footer>

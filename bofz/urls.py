@@ -17,6 +17,8 @@ Including another URLconf
 from django.urls import path
 from .views import (
   ViewHome,
+  ViewAbout,
+  ViewAttribution,
   BirdListView,
   BirdDetailView,
   PhotoListView,
@@ -29,6 +31,8 @@ from .views import (
 
 urlpatterns = [
   path("", ViewHome.as_view(), name="home"),
+  path("about/", ViewAbout.as_view(), name="about"),
+  path("attribution/", ViewAttribution.as_view(), name="attribution"),
   path("birds/", BirdListView.as_view(), name="birds_list"),
   path("birds/<int:pk>/", BirdDetailView.as_view(), name="bird_detail"),
   path("photos/", PhotoListView.as_view(), name="photos_list"),
