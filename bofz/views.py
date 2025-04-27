@@ -44,6 +44,8 @@ class GenericDetailView(DetailView):
 # Views
 # ===============================
 
+# Home
+# ------------------
 class ViewHome(GenericView):
   def __init__(self):
     self.page_name = 'Home'
@@ -52,7 +54,8 @@ class ViewHome(GenericView):
   def get(self, request):
     return render(request, 'index.jinja', self.get_context())
 
-
+# Birds
+# ------------------
 class BirdListView(GenericListView):
   model = Bird
   context_object_name = "birds"
@@ -62,7 +65,9 @@ class BirdDetailView(GenericDetailView):
   model = Bird
   context_object_name = "bird"
   template_name = "birds/detail.jinja"
-  
+
+# Photos
+# ------------------
 class PhotoListView(GenericListView):
   model = Photo
   context_object_name = "photos"
@@ -73,6 +78,8 @@ class PhotoDetailView(GenericDetailView):
   context_object_name = "photo"
   template_name = "photos/detail.jinja"
 
+# Sightings
+# ------------------
 class SightingListView(GenericListView):
   model = Sighting
   context_object_name = "sightings"

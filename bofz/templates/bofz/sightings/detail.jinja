@@ -1,16 +1,54 @@
-{% set bird = sighting.bird %}
-{% set photos = sighting.photos %}
-{% set observers = sighting.observers %}
-
 {% extends layout %}
-{% set page_name = bird.common_name + ' Sighting' %}
+{% set page_name = sighting.bird.common_name + ' Sighting' %}
 {% set page_description = 'More details about this sighting' %}
 
 {% block content %}
-{{ sighting.id }}<br>
-{{ sighting.datetime }}<br>
-{{ observers }}<br>
-{{ bird }}<br>
-{{ sighting.quantity }}<br>
-{{ photos }}<br>
+<dl>
+	<div>
+		<dt>id</dt>
+		<dd>{{ sighting.id }}</dd>
+	</div>
+	<div>
+		<dt>datetime</dt>
+		<dd>
+			<time datetime="{{ sighting.datetime | date('c') }}+02:00">
+				{{ sighting.datetime }}
+			</time>
+		</dd>
+	</div>
+	<div>
+		<dt>observers</dt>
+		<dd>
+			{% for observer in sighting.observers.all() %}
+				{{ observer }}
+			{% else %}
+				No observers listed
+			{% endfor %}
+		</dd>
+	</div>
+	<div>
+		<dt>bird</dt>
+		<dd>
+			<a href="{{ url('bird_detail', sighting.bird.id) }}">
+				{{ sighting.bird }}
+			</a>
+		</dd>
+	</div>
+	<div>
+		<dt>quantity</dt>
+		<dd>{{ sighting.quantity }}</dd>
+	</div>
+	<div>
+		<dt>photos</dt>
+		<dd>
+			{% for photo in sighting.photos.all() %}
+				<a href="{{ url('photo_detail', photo.id) }}">
+					{{ photo }}
+				</a>
+			{% else %}
+				No photos added
+			{% endfor %}
+		</dd>
+	</div>
+</dl>
 {% endblock %}

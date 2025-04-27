@@ -3,13 +3,41 @@
 {% set page_description = 'More details about this bird' %}
 
 {% block content %}
-{{ bird.id }}<br>
-{{ bird.common_name }}<br>
-{{ bird.family }}<br>
-{{ bird.genus }} {{ bird.species }}<br>
-{{ bird.redlist_level }}<br>
-{{ bird.afrikaans_name }}<br>
-{{ bird.german_name }}<br>
-{{ bird.ebird }}<br>
-{{ bird.wikipedia }}<br>
+<div>
+		<dt>id</dt>
+		<dd>{{ bird.id }}</dd>
+	</div>
+	<div>
+		<dt>common_name</dt>
+		<dd>{{ bird.common_name }}</dd>
+	</div>
+	<div>
+		<dt>family</dt>
+		<dd>{{ bird.family }}</dd>
+	</div>
+	<div>
+		<dt>genus, species</dt>
+		<dd>{{ bird.genus }} {{ bird.species }}</dd>
+	</div>
+	<div>
+		<dt>redlist_level</dt>
+		<dd>{{ bird.redlist_level }}</dd>
+	</div>
+	<div>
+		<dt>afrikaans_name</dt>
+		<dd>{{ bird.afrikaans_name }}</dd>
+	</div>
+	<div>
+		<dt>german_name</dt>
+		<dd>{{ bird.german_name }}</dd>
+	</div>
+	<div>
+		<dt>ebird</dt>
+		<dd>{{ bird.ebird }}</dd>
+	</div>
+	<div>
+		<dt>wikipedia</dt>
+		<dd>{{ bird.wikipedia }}</dd>
+	</div>
+</dl>
 {% endblock %}
