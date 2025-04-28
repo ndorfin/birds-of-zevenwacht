@@ -71,3 +71,14 @@ class Bird(models.Model):
     on_delete=models.CASCADE,
     default=RedListLevel.get_default_pk,
   )
+  sighted = models.BooleanField("Sighted",
+    default=False,
+    help_text="Does this bird have any Sightings associated with it?",
+    db_comment="We'll use this to determine the bird's visibility in lists and counts",
+  )
+  photographed = models.BooleanField("Photographed",
+    default=False,
+    help_text="Does this bird have any Photos associated with it?",
+    db_comment="We'll use this to determine the bird's visibility in lists and counts",
+  )
+  # species_lists = models.ManyToManyField()
