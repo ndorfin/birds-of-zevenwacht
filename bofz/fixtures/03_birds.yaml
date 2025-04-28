@@ -1,0 +1,2222 @@
+# Birds
+# ===========================================
+- model: bofz.Bird
+  pk: 1
+  fields:
+    genus: "Apalis"
+    species: "thoracica"
+    family: "Apalis"
+    common_name: "Bar-throated Apalis"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/batapa2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 2
+  fields:
+    genus: "Tricholaema"
+    species: "leucomelas"
+    family: "Barbet"
+    common_name: "Acacia Pied Barbet"
+    german_name: ""
+    afrikaans_name: "Bonthoutkapper"
+    ebird: "https://ebird.org/species/piebar1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 3
+  fields:
+    genus: "Batis"
+    species: "capensis"
+    family: "Batis"
+    common_name: "Cape Batis"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/capbat10/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 4
+  fields:
+    genus: "Merops"
+    species: "apiaster"
+    family: "Bee-eater"
+    common_name: "European Bee-eater"
+    german_name: ""
+    afrikaans_name: "Europese byvreter"
+    ebird: "https://ebird.org/species/eubeat1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 5
+  fields:
+    genus: "Euplectes"
+    species: "orix"
+    family: "Bishop"
+    common_name: "Southern Red Bishop"
+    german_name: ""
+    afrikaans_name: "Rooivink"
+    ebird: "https://ebird.org/species/redbis/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 6
+  fields:
+    genus: "Euplectes"
+    species: "capensis"
+    family: "Bishop"
+    common_name: "Yellow Bishop"
+    german_name: ""
+    afrikaans_name: "Kaapse Flap"
+    ebird: "https://ebird.org/species/yelbis1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 7
+  fields:
+    genus: "Telophorus"
+    species: "zeylonus"
+    family: "Bush-shrike"
+    common_name: "Bokmakierie"
+    german_name: ""
+    afrikaans_name: "Bokmakierie"
+    ebird: "https://ebird.org/species/bokmak1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 8
+  fields:
+    genus: "Laniarius"
+    species: "ferrugineus"
+    family: "Bush-shrike"
+    common_name: "Southern Boubou"
+    german_name: ""
+    afrikaans_name: "Fiskaallaksman"
+    ebird: "https://ebird.org/species/soubou1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 9
+  fields:
+    genus: "Pycnonotus"
+    species: "capensis"
+    family: "Bulbul"
+    common_name: "Cape Bulbul"
+    german_name: "Kapbülbül"
+    afrikaans_name: "Kaapse Tiptol"
+    ebird: "https://ebird.org/species/capbul1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 10
+  fields:
+    genus: "Buteo"
+    species: "buteo"
+    family: "Buzzard"
+    common_name: "Common Buzzard"
+    german_name: ""
+    afrikaans_name: "Bruinjakkalsvoël"
+    ebird: "https://ebird.org/species/combuz1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 11
+  fields:
+    genus: "Buteo"
+    species: "trizonatus"
+    family: "Buzzard"
+    common_name: "Forest Buzzard"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/moubuz3/ZA"
+    wikipedia: ""
+    redlist_level: 4
+    sighted: false
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 12
+  fields:
+    genus: "Buteo"
+    species: "rufofuscus"
+    family: "Buzzard"
+    common_name: "Jackal Buzzard"
+    german_name: ""
+    afrikaans_name: "Rooiborsjakkalsvoël"
+    ebird: "https://ebird.org/species/jacbuz1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 13
+  fields:
+    genus: "Crithagra"
+    species: "sulphurata"
+    family: "Canary"
+    common_name: "Brimstone Canary"
+    german_name: ""
+    afrikaans_name: "Dikbekkanarie"
+    ebird: "https://ebird.org/species/brican1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 14
+  fields:
+    genus: "Serinus"
+    species: "canicollis"
+    family: "Canary"
+    common_name: "Cape Canary"
+    german_name: ""
+    afrikaans_name: "Kaapse Kanarie"
+    ebird: "https://ebird.org/species/capcan1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 15
+  fields:
+    genus: "Crithagra"
+    species: "albogularis"
+    family: "Canary"
+    common_name: "White-throated Canary"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/whtcan1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 16
+  fields:
+    genus: "Crithagra"
+    species: "flaviventris"
+    family: "Canary"
+    common_name: "Yellow Canary"
+    german_name: ""
+    afrikaans_name: "Geelkanarie"
+    ebird: "https://ebird.org/species/yelcan1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 17
+  fields:
+    genus: "Cisticola"
+    species: "subruficapilla"
+    family: "Cisticola"
+    common_name: "Grey-backed Cisticola"
+    german_name: ""
+    afrikaans_name: "Grysrugtinktinkie"
+    ebird: "https://ebird.org/species/rehcis2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 18
+  fields:
+    genus: "Cisticola"
+    species: "tinniens"
+    family: "Cisticola"
+    common_name: "Levaillant’s Cisticola"
+    german_name: ""
+    afrikaans_name: "Vleitinktinkie"
+    ebird: "https://ebird.org/species/tincis1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 19
+  fields:
+    genus: "Cisticola"
+    species: "fulvicapilla"
+    family: "Cisticola"
+    common_name: "Piping Cisticola"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/pipcis2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 20
+  fields:
+    genus: "Cisticola"
+    species: "juncidis"
+    family: "Cisticola"
+    common_name: "Zitting Cisticola"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/zitcis1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 21
+  fields:
+    genus: "Fulica"
+    species: "cristata"
+    family: "Coot"
+    common_name: "Red-knobbed Coot"
+    german_name: ""
+    afrikaans_name: "Bleshoender"
+    ebird: "https://ebird.org/species/rekcoo1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 22
+  fields:
+    genus: "Microcarbo"
+    species: "africanus"
+    family: "Cormorant"
+    common_name: "Reed Cormorant"
+    german_name: ""
+    afrikaans_name: "Rietduiker"
+    ebird: "https://ebird.org/species/lotcor1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 23
+  fields:
+    genus: "Phalacrocorax"
+    species: "lucidus"
+    family: "Cormorant"
+    common_name: "White-breasted Cormorant"
+    german_name: ""
+    afrikaans_name: "Witborsduiker"
+    ebird: "https://ebird.org/species/grecor/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 24
+  fields:
+    genus: "Zapornia"
+    species: "flavirostra"
+    family: "Crake"
+    common_name: "Black Crake"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/blacra1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 25
+  fields:
+    genus: "Anthropoides"
+    species: "paradiseus"
+    family: "Crane"
+    common_name: "Blue Crane"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/blucra2/ZA"
+    wikipedia: ""
+    redlist_level: 3
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 26
+  fields:
+    genus: "Corvus"
+    species: "splendens"
+    family: "Crow"
+    common_name: "House Crow"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/houcro1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 27
+  fields:
+    genus: "Corvus"
+    species: "Albus"
+    family: "Crow"
+    common_name: "Pied Crow"
+    german_name: ""
+    afrikaans_name: "Witborskraai"
+    ebird: "https://ebird.org/species/piecro1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 28
+  fields:
+    genus: "Chrysococcyx"
+    species: "caprius"
+    family: "Cuckoo"
+    common_name: "Diederik Cuckoo"
+    german_name: ""
+    afrikaans_name: "Diederikkie"
+    ebird: "https://ebird.org/species/didcuc1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 29
+  fields:
+    genus: "Chrysococcyx"
+    species: "klaas"
+    family: "Cuckoo"
+    common_name: "Klaas’s Cuckoo"
+    german_name: ""
+    afrikaans_name: "Meitjie"
+    ebird: "https://ebird.org/species/klacuc1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 30
+  fields:
+    genus: "Cuculus"
+    species: "solitarius"
+    family: "Cuckoo"
+    common_name: "Red-chested Cuckoo"
+    german_name: ""
+    afrikaans_name: "Piet-my-vrou"
+    ebird: "https://ebird.org/species/reccuc1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 31
+  fields:
+    genus: "Anhinga"
+    species: "rufa"
+    family: "Darter"
+    common_name: "African Darter"
+    german_name: ""
+    afrikaans_name: "Slanghalsvoël"
+    ebird: "https://ebird.org/species/darter3/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 32
+  fields:
+    genus: "Spilopelia"
+    species: "senegalensis"
+    family: "Dove"
+    common_name: "Laughing Dove"
+    german_name: ""
+    afrikaans_name: "Rooiborsduifie"
+    ebird: "https://ebird.org/species/laudov1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 33
+  fields:
+    genus: "Oena"
+    species: "capensis"
+    family: "Dove"
+    common_name: "Namaqua Dove"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/namdov1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 34
+  fields:
+    genus: "Streptopelia"
+    species: "semitorquata"
+    family: "Dove"
+    common_name: "Red-eyed Dove"
+    german_name: ""
+    afrikaans_name: "Grootringduif"
+    ebird: "https://ebird.org/species/reedov1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 35
+  fields:
+    genus: "Streptopelia"
+    species: "capicola"
+    family: "Dove"
+    common_name: "Ring-necked Dove"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/rindov/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 36
+  fields:
+    genus: "Columba"
+    species: "livia"
+    family: "Dove"
+    common_name: "Rock Dove"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/rocpig/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 37
+  fields:
+    genus: "Dicrurus"
+    species: "adsimilis"
+    family: "Drongo"
+    common_name: "Fork-tailed Drongo"
+    german_name: ""
+    afrikaans_name: "Mikstertbyvanger"
+    ebird: "https://ebird.org/species/fotdro5/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 38
+  fields:
+    genus: "Anas"
+    species: "sparsa"
+    family: "Duck"
+    common_name: "African Black Duck"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/afbduc1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 39
+  fields:
+    genus: "Anas"
+    species: "erythrorhyncha"
+    family: "Duck"
+    common_name: "Red-billed Duck"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/rebduc1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 40
+  fields:
+    genus: "Thalassornis"
+    species: "leuconotus"
+    family: "Duck"
+    common_name: "White-backed Duck"
+    german_name: ""
+    afrikaans_name: "Witrug-eend"
+    ebird: "https://ebird.org/species/whbduc1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 41
+  fields:
+    genus: "Aix"
+    species: "sponsa"
+    family: "Duck"
+    common_name: "Wood Duck"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/wooduc/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 42
+  fields:
+    genus: "Anas"
+    species: "undulata"
+    family: "Duck"
+    common_name: "Yellow-billed Duck"
+    german_name: ""
+    afrikaans_name: "Geelbek-Eend"
+    ebird: "https://ebird.org/species/yebduc1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 43
+  fields:
+    genus: "Icthyophaga"
+    species: "vocifer"
+    family: "Eagle"
+    common_name: "African Fish Eagle"
+    german_name: ""
+    afrikaans_name: "Visarend"
+    ebird: "https://ebird.org/species/affeag1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 44
+  fields:
+    genus: "Hieraaetus"
+    species: "pennatus"
+    family: "Eagle"
+    common_name: "Booted Eagle"
+    german_name: ""
+    afrikaans_name: "Dwergarend"
+    ebird: "https://ebird.org/species/booeag1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 45
+  fields:
+    genus: "Egretta"
+    species: "garzetta"
+    family: "Egret"
+    common_name: "Little Egret"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/litegr/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 46
+  fields:
+    genus: "Ardea"
+    species: "ibis"
+    family: "Egret"
+    common_name: "Western Cattle Egret"
+    german_name: ""
+    afrikaans_name: "Bosluisvoël"
+    ebird: "https://ebird.org/species/categr1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 47
+  fields:
+    genus: "Falco"
+    species: "biarmicus"
+    family: "Falcon"
+    common_name: "Lanner Falcon"
+    german_name: ""
+    afrikaans_name: "Edelvalk"
+    ebird: "https://ebird.org/species/lanfal1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 48
+  fields:
+    genus: "Falco"
+    species: "peregrinus"
+    family: "Falcon"
+    common_name: "Peregrine Falcon"
+    german_name: ""
+    afrikaans_name: "Swerfvalk"
+    ebird: "https://ebird.org/species/perfal/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 49
+  fields:
+    genus: "Lanius"
+    species: "collaris"
+    family: "Shrike"
+    common_name: "Southern Fiscal"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/soufis1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 50
+  fields:
+    genus: "Muscicapa"
+    species: "adusta"
+    family: "Flycatcher"
+    common_name: "African Dusky Flycatcher"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/afdfly1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 51
+  fields:
+    genus: "Terpsiphone"
+    species: "viridis"
+    family: "Flycatcher"
+    common_name: "African Paradise Flycatcher"
+    german_name: ""
+    afrikaans_name: "Paradysvlieëvanger"
+    ebird: "https://ebird.org/species/afpfly1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 52
+  fields:
+    genus: "Sigelus"
+    species: "silens"
+    family: "Flycatcher"
+    common_name: "Fiscal Flycatcher"
+    german_name: ""
+    afrikaans_name: "Fiskaalvlieëvanger"
+    ebird: "https://ebird.org/species/fisfly1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 53
+  fields:
+    genus: "Scleroptila"
+    species: "afra"
+    family: "Francolin"
+    common_name: "Grey-winged Francolin"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/gywfra1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 54
+  fields:
+    genus: "Alopochen"
+    species: "aegyptiaca"
+    family: "Goose"
+    common_name: "Egyptian Goose"
+    german_name: ""
+    afrikaans_name: "Kolgans"
+    ebird: "https://ebird.org/species/egygoo/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 55
+  fields:
+    genus: "Plectropterus"
+    species: "gambensis"
+    family: "Goose"
+    common_name: "Spur-winged Goose"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/spwgoo1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 56
+  fields:
+    genus: "Aerospiza"
+    species: "tachiro"
+    family: "Goshawk"
+    common_name: "African Goshwawk"
+    german_name: ""
+    afrikaans_name: "Afrikaanse Sperwer"
+    ebird: "https://ebird.org/species/afrgos1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 57
+  fields:
+    genus: "Tachybaptus"
+    species: "ruficollis"
+    family: "Grebe"
+    common_name: "Little Grebe"
+    german_name: ""
+    afrikaans_name: "Kleindobbertjie"
+    ebird: "https://ebird.org/species/litgre1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 58
+  fields:
+    genus: "Numida"
+    species: "meleagris"
+    family: "Guineafowl"
+    common_name: "Helmeted Guineafowl"
+    german_name: ""
+    afrikaans_name: "Gewone Tarentaal"
+    ebird: "https://ebird.org/species/helgui/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 59
+  fields:
+    genus: "Chroicocephalus"
+    species: "cirrocephalus"
+    family: "Gull"
+    common_name: "Grey-headed Gull"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/grhgul/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 60
+  fields:
+    genus: "Chroicocephalus"
+    species: "hartlaubii"
+    family: "Gull"
+    common_name: "Hartlaub’s Gull"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/hargul1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 61
+  fields:
+    genus: "Larus"
+    species: "dominicanus"
+    family: "Gull"
+    common_name: "Kelp Gull"
+    german_name: ""
+    afrikaans_name: "Kelpmeeu"
+    ebird: "https://ebird.org/species/kelgul/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 62
+  fields:
+    genus: "Scopus"
+    species: "umbretta"
+    family: "Ibis"
+    common_name: "Hamerkop"
+    german_name: ""
+    afrikaans_name: "Hamerkop"
+    ebird: "https://ebird.org/species/hamerk1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 63
+  fields:
+    genus: "Polyboroides"
+    species: "typus"
+    family: "Harrier-hawk"
+    common_name: "African Harrier-hawk"
+    german_name: ""
+    afrikaans_name: "Kaalwangvalk"
+    ebird: "https://ebird.org/species/afhhaw1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 64
+  fields:
+    genus: "Nycticorax"
+    species: "nycticorax"
+    family: "Heron"
+    common_name: "Black-crowned Night Heron"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/bcnher/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 65
+  fields:
+    genus: "Ardea"
+    species: "melanocephala"
+    family: "Heron"
+    common_name: "Black-headed Heron"
+    german_name: ""
+    afrikaans_name: "Swartkopreier"
+    ebird: "https://ebird.org/species/blhher1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 66
+  fields:
+    genus: "Ardea"
+    species: "cinerea"
+    family: "Heron"
+    common_name: "Grey Heron"
+    german_name: ""
+    afrikaans_name: "Bloureier"
+    ebird: "https://ebird.org/species/graher1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 67
+  fields:
+    genus: "Ardea"
+    species: "purpurea"
+    family: "Heron"
+    common_name: "Purple Heron"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/purher1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 68
+  fields:
+    genus: "Indicator"
+    species: "minor"
+    family: "Honeyguide"
+    common_name: "Lesser Honeyguide"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/y00400/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 69
+  fields:
+    genus: "Upupa"
+    species: "epops"
+    family: "Hoopoe"
+    common_name: "African Hoopoe"
+    german_name: ""
+    afrikaans_name: "Hoephoep"
+    ebird: "https://ebird.org/species/hoopoe/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 70
+  fields:
+    genus: "Threskiornis"
+    species: "aethiopicus"
+    family: "Ibis"
+    common_name: "African Sacred Ibis"
+    german_name: ""
+    afrikaans_name: "Skoorsteenveër"
+    ebird: "https://ebird.org/species/sacibi2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 71
+  fields:
+    genus: "Plegadis"
+    species: "falcinellus"
+    family: "Ibis"
+    common_name: "Glossy Ibis"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/gloibi/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 72
+  fields:
+    genus: "Bostrychia"
+    species: "hagedash"
+    family: "Ibis"
+    common_name: "Hadeda Ibis"
+    german_name: ""
+    afrikaans_name: "Hadeda"
+    ebird: "https://ebird.org/species/hadibi1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 73
+  fields:
+    genus: "Falco"
+    species: "rupicolus"
+    family: "Kestrel"
+    common_name: "Rock Kestrel"
+    german_name: ""
+    afrikaans_name: "Kransvalk"
+    ebird: "https://ebird.org/species/eurkes1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 74
+  fields:
+    genus: "Megaceryle"
+    species: "maxima"
+    family: "Kingfisher"
+    common_name: "Giant Kingfisher"
+    german_name: ""
+    afrikaans_name: "Reuse Visvanger"
+    ebird: "https://ebird.org/species/giakin3/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 75
+  fields:
+    genus: "Corythornis"
+    species: "cristatus"
+    family: "Kingfisher"
+    common_name: "Malachite Kingfisher"
+    german_name: ""
+    afrikaans_name: "Kuifkopvisvanger"
+    ebird: "https://ebird.org/species/malkin1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 76
+  fields:
+    genus: "Ceryle"
+    species: "rudis"
+    family: "Kingfisher"
+    common_name: "Pied Kingfisher"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/piekin1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 77
+  fields:
+    genus: "Elanus"
+    species: "caeruleus"
+    family: "Kite"
+    common_name: "Black-winged Kite"
+    german_name: ""
+    afrikaans_name: "Blouvalk"
+    ebird: "https://ebird.org/species/bkskit1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 78
+  fields:
+    genus: "Milvus"
+    species: "aegyptius"
+    family: "Kite"
+    common_name: "Yellow-billed Kite"
+    german_name: ""
+    afrikaans_name: "Geelbekwou"
+    ebird: ""
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 79
+  fields:
+    genus: "Vanellus"
+    species: "armatus"
+    family: "Lapwing"
+    common_name: "Blacksmith Lapwing"
+    german_name: ""
+    afrikaans_name: "Bontkiewiet"
+    ebird: "https://ebird.org/species/blaplo1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 80
+  fields:
+    genus: "Vanellus"
+    species: "coronatus"
+    family: "Lapwing"
+    common_name: "Crowned Lapwing"
+    german_name: ""
+    afrikaans_name: "Kroonkiewiet"
+    ebird: "https://ebird.org/species/crolap1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 81
+  fields:
+    genus: "Galerida"
+    species: "magnirostris"
+    family: "Lark"
+    common_name: "Large-billed Lark"
+    german_name: ""
+    afrikaans_name: "Dikbeklewerik"
+    ebird: "https://ebird.org/species/lablar1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 82
+  fields:
+    genus: "Calandrella"
+    species: "cinerea"
+    family: "Lark"
+    common_name: "Red-capped Lark"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/reclar1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 83
+  fields:
+    genus: "Anas"
+    species: "platyrhynchos"
+    family: "Duck"
+    common_name: "Mallard"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/mallar3/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 84
+  fields:
+    genus: "Riparia"
+    species: "paludicola"
+    family: "Martin"
+    common_name: "Plain Martin"
+    german_name: ""
+    afrikaans_name: "Afrikaanse Oewerswael"
+    ebird: "https://ebird.org/species/plamar1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 85
+  fields:
+    genus: "Ptyonoprogne"
+    species: "fuligula"
+    family: "Martin"
+    common_name: "Southern Crag-Martin"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/rocmar5/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 86
+  fields:
+    genus: "Gallinula"
+    species: "chloropus"
+    family: "Moorhen"
+    common_name: "Common Moorhen"
+    german_name: ""
+    afrikaans_name: "Grootwaterhoender"
+    ebird: "https://ebird.org/species/commoo3/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 87
+  fields:
+    genus: "Urocolius"
+    species: "indicus"
+    family: "Mousebird"
+    common_name: "Red-faced Mousebird"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/refmou1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 88
+  fields:
+    genus: "Colius"
+    species: "striatus"
+    family: "Mousebird"
+    common_name: "Speckled Mousebird"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/spemou2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 89
+  fields:
+    genus: "Colius"
+    species: "colius"
+    family: "Mousebird"
+    common_name: "White-backed Mousebird"
+    german_name: ""
+    afrikaans_name: "Witkruismuisvoël"
+    ebird: "https://ebird.org/species/whbmou1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 90
+  fields:
+    genus: "Caprimulgus"
+    species: "pectoralis"
+    family: "Nightjar"
+    common_name: "Fiery-necked Nightjar"
+    german_name: ""
+    afrikaans_name: "Afrikaanse Naguil"
+    ebird: "https://ebird.org/species/finnig1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 91
+  fields:
+    genus: "Bubo"
+    species: "africanus"
+    family: "Owl"
+    common_name: "Spotted Eagle-Owl"
+    german_name: ""
+    afrikaans_name: "Gevlekte Ooruil"
+    ebird: "https://ebird.org/species/spoeao2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 92
+  fields:
+    genus: "Tyto"
+    species: "alba"
+    family: "Owl"
+    common_name: "Western Barn Owl"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/webowl1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 93
+  fields:
+    genus: "Pavo"
+    species: "cristatus"
+    family: "Peafowl"
+    common_name: "Indian Peafowl"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/compea/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 94
+  fields:
+    genus: "Pelecanus"
+    species: "onocrotalus"
+    family: "Pelican"
+    common_name: "Great White Pelican"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/grwpel1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 95
+  fields:
+    genus: "Columba"
+    species: "Guinea"
+    family: "Pigeon"
+    common_name: "Speckled Pigeon"
+    german_name: ""
+    afrikaans_name: "Kransduif"
+    ebird: "https://ebird.org/species/spepig1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 96
+  fields:
+    genus: "Anthus"
+    species: "cinnamomeus"
+    family: "Pipit"
+    common_name: "African Pipit"
+    german_name: ""
+    afrikaans_name: "Gewone Koester"
+    ebird: "https://ebird.org/species/afrpip1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 97
+  fields:
+    genus: "Thinornis"
+    species: "tricollaris"
+    family: "Plover"
+    common_name: "Three-banded Plover"
+    german_name: ""
+    afrikaans_name: "Driebandstrandkiewiet"
+    ebird: "https://ebird.org/species/thbplo1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 98
+  fields:
+    genus: "Prinia"
+    species: "maculosa"
+    family: "Prinia"
+    common_name: "Karoo Prinia"
+    german_name: ""
+    afrikaans_name: "Karoolangstertjie"
+    ebird: "https://ebird.org/species/karpri1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 99
+  fields:
+    genus: "Coturnix"
+    species: "coturnix"
+    family: "Quail"
+    common_name: "Common Quail"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/comqua1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 100
+  fields:
+    genus: "Corvus"
+    species: "albicollis"
+    family: "Raven"
+    common_name: "White-necked Raven"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/whnrav1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 101
+  fields:
+    genus: "Dessonornis"
+    species: "caffer"
+    family: "Robin-Chat"
+    common_name: "Cape Robin-Chat"
+    german_name: ""
+    afrikaans_name: "Gewone Janfrederik"
+    ebird: "https://ebird.org/species/carcha1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 102
+  fields:
+    genus: "Tychaedon"
+    species: "coryphoeus"
+    family: "Robin"
+    common_name: "Karoo Scrub-Robin"
+    german_name: ""
+    afrikaans_name: "Slangverklikker"
+    ebird: "https://ebird.org/species/kasrob2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 103
+  fields:
+    genus: "Psalidoprocne"
+    species: "pristoptera"
+    family: "Swallow"
+    common_name: "Black Saw-wing"
+    german_name: ""
+    afrikaans_name: "Swartsaagvlerkswael"
+    ebird: "https://ebird.org/species/blksaw1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 104
+  fields:
+    genus: "Spatula"
+    species: "smithii"
+    family: "Duck"
+    common_name: "Cape Shoveler"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/capsho1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 105
+  fields:
+    genus: "Crithagra"
+    species: "totta"
+    family: "Siskin"
+    common_name: "Cape Siskin"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/capsis2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 106
+  fields:
+    genus: "Passer"
+    species: "melanurus"
+    family: "Sparrow"
+    common_name: "Cape Sparrow"
+    german_name: ""
+    afrikaans_name: "Gewone Mossie"
+    ebird: "https://ebird.org/species/capspa1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 107
+  fields:
+    genus: "Passer"
+    species: "domesticus"
+    family: "Sparrow"
+    common_name: "House Sparrow"
+    german_name: ""
+    afrikaans_name: "Huismossie"
+    ebird: "https://ebird.org/species/houspa/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 108
+  fields:
+    genus: "Passer"
+    species: "diffusus"
+    family: "Sparrow"
+    common_name: "Southern Grey-headed Sparrow"
+    german_name: ""
+    afrikaans_name: "Gryskopmossie"
+    ebird: "https://ebird.org/species/sghspa2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 109
+  fields:
+    genus: "Astur"
+    species: "melanoleucus"
+    family: "Sparrowhawk"
+    common_name: "Black Sparrowhawk"
+    german_name: ""
+    afrikaans_name: "Swartsperwer"
+    ebird: "https://ebird.org/species/blagos1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 110
+  fields:
+    genus: "Tachyspiza"
+    species: "minulla"
+    family: "Sparrowhawk"
+    common_name: "Little Sparrowhawk"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/litspa1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 111
+  fields:
+    genus: "Accipiter"
+    species: "rufiventris"
+    family: "Sparrowhawk"
+    common_name: "Rufous-breasted Sparrowhawk"
+    german_name: ""
+    afrikaans_name: "Rooiborssperwer"
+    ebird: "https://ebird.org/species/rucspa2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 112
+  fields:
+    genus: "Platalea"
+    species: "alba"
+    family: "Spoonbill"
+    common_name: "African Spoonbill"
+    german_name: ""
+    afrikaans_name: "Lepelaar"
+    ebird: "https://ebird.org/species/afrspo1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 113
+  fields:
+    genus: "Pternistis"
+    species: "capensis"
+    family: "Spurfowl"
+    common_name: "Cape Spurfowl"
+    german_name: ""
+    afrikaans_name: "Kaapse Fisant"
+    ebird: "https://ebird.org/species/capfra2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 114
+  fields:
+    genus: "Sturnus"
+    species: "Vulgaris"
+    family: "Starling"
+    common_name: "Common Starling"
+    german_name: ""
+    afrikaans_name: "Europese Spreeu"
+    ebird: "https://ebird.org/species/eursta/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 115
+  fields:
+    genus: "Onychognathus"
+    species: "morio"
+    family: "Starling"
+    common_name: "Red-winged Starling"
+    german_name: ""
+    afrikaans_name: "Rooivlerkspreeu"
+    ebird: "https://ebird.org/species/rewsta1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 116
+  fields:
+    genus: "Himantopus"
+    species: "himantopus"
+    family: "Stilt"
+    common_name: "Black-winged Stilt"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/bkwsti/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 117
+  fields:
+    genus: "Saxicola"
+    species: "torquatus"
+    family: "Chat"
+    common_name: "African Stonechat"
+    german_name: ""
+    afrikaans_name: "Gewone Bontrokkie"
+    ebird: "https://ebird.org/species/afrsto1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 118
+  fields:
+    genus: "Promerops"
+    species: "cafer"
+    family: "Sugarbird"
+    common_name: "Cape Sugarbird"
+    german_name: ""
+    afrikaans_name: "Kaapse Suikervoël"
+    ebird: "https://ebird.org/species/capsug1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 119
+  fields:
+    genus: "Chalcomitra"
+    species: "amethystina"
+    family: "Sunbird"
+    common_name: "Amethyst Sunbird"
+    german_name: ""
+    afrikaans_name: "Swart Suikerbekkie"
+    ebird: "https://ebird.org/species/amesun2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 120
+  fields:
+    genus: "Cinnyris"
+    species: "afer"
+    family: "Sunbird"
+    common_name: "Greater Double-collared Sunbird"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/gdcsun2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 121
+  fields:
+    genus: "Nectarinia"
+    species: "famosa"
+    family: "Sunbird"
+    common_name: "Malachite Sunbird"
+    german_name: ""
+    afrikaans_name: "Jangroentjie"
+    ebird: "https://ebird.org/species/malsun1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 122
+  fields:
+    genus: "Anthobaphes"
+    species: "violacea"
+    family: "Sunbird"
+    common_name: "Orange-breasted Sunbird"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/orbsun2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 123
+  fields:
+    genus: "Cinnyris"
+    species: "chalybeus"
+    family: "Sunbird"
+    common_name: "Southern Double-collared Sunbird"
+    german_name: ""
+    afrikaans_name: "Klein-rooibandsuikerbekkie"
+    ebird: "https://ebird.org/species/sdcsun3/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 124
+  fields:
+    genus: "Hirundo"
+    species: "rustica"
+    family: "Swallow"
+    common_name: "Barn Swallow"
+    german_name: ""
+    afrikaans_name: "Europese Swael"
+    ebird: "https://ebird.org/species/barswa/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 125
+  fields:
+    genus: "Cecropis"
+    species: "cucullata"
+    family: "Swallow"
+    common_name: "Greater Striped Swallow"
+    german_name: ""
+    afrikaans_name: "Grootstreepswael"
+    ebird: "https://ebird.org/species/grests1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 126
+  fields:
+    genus: "Hirundo"
+    species: "dimidiata"
+    family: "Swallow"
+    common_name: "Pearl-breasted Swallow"
+    german_name: ""
+    afrikaans_name: "Pêrelborsswael"
+    ebird: "https://ebird.org/species/pebswa1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 127
+  fields:
+    genus: "Hirundo"
+    species: "albigularis"
+    family: "Swallow"
+    common_name: "White-throated Swallow"
+    german_name: ""
+    afrikaans_name: "Witkeelswael"
+    ebird: "https://ebird.org/species/whtswa3/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 128
+  fields:
+    genus: "Porphyrio"
+    species: "madagascariensis"
+    family: "Swamphen"
+    common_name: "African Swamphen"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/purswa2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 129
+  fields:
+    genus: "Cygnus"
+    species: "atratus"
+    family: "Swan"
+    common_name: "Black Swan"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/blkswa/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 130
+  fields:
+    genus: "Apus"
+    species: "barbatus"
+    family: "Swift"
+    common_name: "African Black Swift"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/afrswi1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 131
+  fields:
+    genus: "Cypsiurus"
+    species: "parvus"
+    family: "Swift"
+    common_name: "African Palm Swift"
+    german_name: ""
+    afrikaans_name: "Palmwindswael"
+    ebird: "https://ebird.org/species/afpswi1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 132
+  fields:
+    genus: "Tachymarptis"
+    species: "melba"
+    family: "Swift"
+    common_name: "Alpine Swift"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/alpswi1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 133
+  fields:
+    genus: "Apus"
+    species: "affinis"
+    family: "Swift"
+    common_name: "Little Swift"
+    german_name: ""
+    afrikaans_name: "Kleinwindswael"
+    ebird: "https://ebird.org/species/litswi1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 134
+  fields:
+    genus: "Apus"
+    species: "caffer"
+    family: "Swift"
+    common_name: "White-rumped Swift"
+    german_name: ""
+    afrikaans_name: "Witkruiswindswael"
+    ebird: "https://ebird.org/species/whrswi1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 135
+  fields:
+    genus: "Burhinus"
+    species: "capensis"
+    family: "Thick-knee"
+    common_name: "Spotted Thick-knee"
+    german_name: ""
+    afrikaans_name: "Gewone Dikkop"
+    ebird: "https://ebird.org/species/sptkne1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 136
+  fields:
+    genus: "Turdus"
+    species: "olivaceus"
+    family: "Thrush"
+    common_name: "Olive Thursh"
+    german_name: ""
+    afrikaans_name: "Olyflyster"
+    ebird: "https://ebird.org/species/olithr2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 137
+  fields:
+    genus: "Motacilla"
+    species: "capensis"
+    family: "Wagtail"
+    common_name: "Cape Wagtail"
+    german_name: ""
+    afrikaans_name: "Gewone Kwikkie"
+    ebird: "https://ebird.org/species/capwag1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 138
+  fields:
+    genus: "Acrocephalus"
+    species: "scirpaceus"
+    family: "Warbler"
+    common_name: "Common Reed Warbler"
+    german_name: ""
+    afrikaans_name: "Kleinrietsanger"
+    ebird: "https://ebird.org/species/eurwar1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 139
+  fields:
+    genus: "Acrocephalus"
+    species: "gracilirostris"
+    family: "Warbler"
+    common_name: "Lesser Swamp Warbler"
+    german_name: ""
+    afrikaans_name: "Kaapse Rietsanger"
+    ebird: "https://ebird.org/species/leswar1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 140
+  fields:
+    genus: "Bradypterus"
+    species: "baboecala"
+    family: "Warbler"
+    common_name: "Little Rush Warbler"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/afbwar1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 141
+  fields:
+    genus: "Estrilda"
+    species: "astrild"
+    family: "Waxbill"
+    common_name: "Common Waxbill"
+    german_name: ""
+    afrikaans_name: "Rooibeksysie"
+    ebird: "https://ebird.org/species/comwax/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 142
+  fields:
+    genus: "Coccopygia"
+    species: "melanotis"
+    family: "Waxbill"
+    common_name: "Swee Waxbill"
+    german_name: ""
+    afrikaans_name: "Suidelike Swie"
+    ebird: "https://ebird.org/species/swewax3/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 143
+  fields:
+    genus: "Ploceus"
+    species: "capensis"
+    family: "Weaver"
+    common_name: "Cape Weaver"
+    german_name: ""
+    afrikaans_name: "Kaapse Wewer"
+    ebird: "https://ebird.org/species/capwea1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 144
+  fields:
+    genus: "Ploceus"
+    species: "velatus"
+    family: "Weaver"
+    common_name: "Southern Masked Weaver"
+    german_name: ""
+    afrikaans_name: "Swartkeelgeelvink"
+    ebird: "https://ebird.org/species/afmwea/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 145
+  fields:
+    genus: "Zosterops"
+    species: "virens"
+    family: "White-eye"
+    common_name: "Cape White-eye"
+    german_name: ""
+    afrikaans_name: "Kaapse Glasogie"
+    ebird: "https://ebird.org/species/capwhe2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 146
+  fields:
+    genus: "Vidua"
+    species: "macroura"
+    family: "Whydah"
+    common_name: "Pin-tailed Whydah"
+    german_name: ""
+    afrikaans_name: "Koningrooibekkie"
+    ebird: "https://ebird.org/species/pitwhy/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 147
+  fields:
+    genus: "Dendropicos"
+    species: "fuscescens"
+    family: "Woodpecker"
+    common_name: "Cardinal Woodpecker"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/carwoo1/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 148
+  fields:
+    genus: "Dendropicos"
+    species: "griseocephalus"
+    family: "Woodpecker"
+    common_name: "Olive Woodpecker"
+    german_name: ""
+    afrikaans_name: ""
+    ebird: "https://ebird.org/species/oliwoo2/ZA"
+    wikipedia: ""
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false

@@ -81,4 +81,9 @@ class Bird(models.Model):
     help_text="Does this bird have any Photos associated with it?",
     db_comment="We'll use this to determine the bird's visibility in lists and counts",
   )
+  potential = models.BooleanField("Potential",
+    default=False,
+    help_text="Does this Bird have potential to be sighted in these Areas",
+    db_comment="This will mostly be driven by the bird's inclusion in a SpeciesList",
+  )
   # species_lists = models.ManyToManyField()
