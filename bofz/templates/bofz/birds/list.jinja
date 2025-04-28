@@ -1,20 +1,47 @@
 {% extends layout %}
 {% set page_name = 'Birds' %}
-{% set page_description = 'A list of all birds' %}
+{% set page_description = 'All birds sighted in or near Zevenwacht Wine Estate' %}
 
 {% block content %}
 	{% if birds %}
-		<nav>
-			<ul>
-				{% for bird in birds %}
+		<p>Birds we have sightings or photos of:</p>
+		<ol>
+			{% for bird in birds %}
+				{% if bird.sighted %}
 					<li>
-						<a href="{{ url('bird_detail', pk=bird.id) }}">
-							{{ bird.common_name }}
+						<a class="card_bird" href="{{ url('bird_detail', pk=bird.id) }}">
+							<figure>
+								<div>
+									<span>No photo yet</span>
+								</div>
+								<figcaption>
+									{{ bird.common_name }}
+								</figcaption>
+							</figure>
 						</a>
 					</li>
-				{% endfor %}
-			</ul>
-		</nav>
+				{% endif %}
+			{% endfor %}
+		</ol>
+		<p>Birds we should see based on other data sources:</p>
+		<ol>
+			{% for bird in birds %}
+				{% if not bird.sighted and not bird.photographed and bird.potential %}
+					<li>
+						<a class="card_bird" href="{{ url('bird_detail', pk=bird.id) }}">
+							<figure>
+								<div>
+									<span>No photo yet</span>
+								</div>
+								<figcaption>
+									{{ bird.common_name }}
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ol>
 	{% else %}
 		<p class="no_items">No birds recorded yet</p>
 	{% endif %}
