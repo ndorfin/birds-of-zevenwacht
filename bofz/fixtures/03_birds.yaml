@@ -1266,15 +1266,15 @@
     genus: "Ptyonoprogne"
     species: "fuligula"
     family: "Martin"
-    common_name: "Southern Crag-Martin"
-    german_name: ""
-    afrikaans_name: ""
+    common_name: "Large Rock Martin"
+    german_name: "Große Felsenschwalbe"
+    afrikaans_name: "Kransswael"
     ebird: "https://ebird.org/species/rocmar5/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/Large_rock_martin"
     redlist_level: 5
     sighted: false
     photographed: false
-    potential: true
+    potential: false
 - model: bofz.Bird
   pk: 86
   fields:
@@ -1282,10 +1282,10 @@
     species: "chloropus"
     family: "Moorhen"
     common_name: "Common Moorhen"
-    german_name: ""
+    german_name: "Teichhuhn"
     afrikaans_name: "Grootwaterhoender"
     ebird: "https://ebird.org/species/commoo3/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/Common_moorhen"
     redlist_level: 5
     sighted: true
     photographed: true
@@ -1297,10 +1297,10 @@
     species: "indicus"
     family: "Mousebird"
     common_name: "Red-faced Mousebird"
-    german_name: ""
-    afrikaans_name: ""
+    german_name: "Rotzügel-Mausvogel"
+    afrikaans_name: "Rooiwangmuisvoël"
     ebird: "https://ebird.org/species/refmou1/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/Red-faced_mousebird"
     redlist_level: 5
     sighted: true
     photographed: false
@@ -1312,10 +1312,10 @@
     species: "striatus"
     family: "Mousebird"
     common_name: "Speckled Mousebird"
-    german_name: ""
-    afrikaans_name: ""
+    german_name: "Braunflügel-Mausvogel"
+    afrikaans_name: "Gevlekte Muisvoël"
     ebird: "https://ebird.org/species/spemou2/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/Speckled_mousebird"
     redlist_level: 5
     sighted: true
     photographed: false
@@ -1327,10 +1327,10 @@
     species: "colius"
     family: "Mousebird"
     common_name: "White-backed Mousebird"
-    german_name: ""
+    german_name: "Weißrücken-Mausvogel"
     afrikaans_name: "Witkruismuisvoël"
     ebird: "https://ebird.org/species/whbmou1/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/White-backed_mousebird"
     redlist_level: 5
     sighted: true
     photographed: true
