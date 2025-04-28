@@ -1,0 +1,10 @@
+# Species Lists
+# ===========================================
+- model: bofz.SpeciesList
+  pk: 1
+  fields:
+    name: Rolf's Species Count
+    author: Rolf Dieckmann
+    url: 
+    birds: 
+      - 

@@ -18,5 +18,7 @@ python manage.py migrate
 ### Load reference/sample data
 
 ```bash
-python manage.py loaddata ./bofz/fixtures/sample.yaml
+python manage.py loaddata ./bofz/fixtures/01_redlist_levels.yaml
+python manage.py loaddata ./bofz/fixtures/02_persons.yaml
+…etc…
 ```

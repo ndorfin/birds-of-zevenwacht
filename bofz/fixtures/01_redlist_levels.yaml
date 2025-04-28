@@ -1,0 +1,32 @@
+# RedListLevel
+# ===========================================
+- model: bofz.RedListLevel
+  pk: 1
+  fields:
+    severity: 1
+    abbreviation: CR
+    label: Critically endangered
+- model: bofz.RedListLevel
+  pk: 2
+  fields:
+    severity: 2
+    abbreviation: EN
+    label: Endangered
+- model: bofz.RedListLevel
+  pk: 3
+  fields:
+    severity: 3
+    abbreviation: VU
+    label: Vulnerable
+- model: bofz.RedListLevel
+  pk: 4
+  fields:
+    severity: 4
+    abbreviation: NT
+    label: Near threatened
+- model: bofz.RedListLevel
+  pk: 5
+  fields:
+    severity: 5
+    abbreviation: LC
+    label: Least concern
