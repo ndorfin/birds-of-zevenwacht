@@ -1,0 +1,25 @@
+---
+layout: null
+eleventyExcludeFromCollections: true
+permalink: "{{ url.birds }}/all.json"
+---
+[
+	{% for birdId, bird in birds %}
+		{% if loop.index > 1 and loop.revindex >= 1 %},{% endif%}
+		{
+			"id": "{{ birdId }}",
+			"genus": "{{ bird.genus }}",
+			"species": "{{ bird.species }}",
+			"family": "{{ bird.family_name }}",
+			"common_name": "{{ bird.name }}",
+			"german_name": "{{ bird.german_name }}",
+			"afrikaans_name": "{{ bird.afrikaans_name }}",
+			"ebird": "{{ bird.ebird }}",
+			"wikipedia": "{{ bird.wikipedia }}",
+			"redlist_level": "{{ bird['red-list'] }}",
+			"sighted": {% if not bird.unconfirmed and not bird.hidden %}true{% else %}false{% endif %},
+			"photographed": {% if bird.photo %}true{% else %}false{% endif %},
+			"potential": {% if not bird.unconfirmed and bird.hidden %}true{% else %}false{% endif %}
+		}
+	{% endfor %}
+]
