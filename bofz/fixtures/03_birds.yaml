@@ -952,10 +952,10 @@
     species: "nycticorax"
     family: "Heron"
     common_name: "Black-crowned Night Heron"
-    german_name: ""
-    afrikaans_name: ""
+    german_name: "Nachtreiher"
+    afrikaans_name: "Gewone nagreier"
     ebird: "https://ebird.org/species/bcnher/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/Black-crowned_night_heron"
     redlist_level: 5
     sighted: true
     photographed: false
@@ -1237,13 +1237,13 @@
     species: "platyrhynchos"
     family: "Duck"
     common_name: "Mallard"
-    german_name: ""
-    afrikaans_name: ""
+    german_name: "Stockente"
+    afrikaans_name: "Wildeend"
     ebird: "https://ebird.org/species/mallar3/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/Mallard"
     redlist_level: 5
     sighted: true
-    photographed: false
+    photographed: true
     potential: false
 - model: bofz.Bird
   pk: 84
@@ -2220,3 +2220,18 @@
     sighted: true
     photographed: false
     potential: false
+- model: bofz.Bird
+  pk: 149
+  fields:
+    genus: "Ardea"
+    species: "brachyrhyncha"
+    family: "Egret"
+    common_name: "Yellow-billed Egret"
+    german_name: "Afrikamittelreiher"
+    afrikaans_name: "Geelbekwitreier"
+    ebird: "https://ebird.org/species/integr3/ZA"
+    wikipedia: "https://en.wikipedia.org/wiki/Yellow-billed_egret"
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true

@@ -1,0 +1,143 @@
+# Species Lists
+# ===========================================
+- model: bofz.SpeciesList
+  pk: 1
+  fields:
+    name: SABAP2 Tile for Zevenwacht Wine Estate
+    author: The South African Bird Atlas Project
+    url: https://sabap2.birdmap.africa/coverage/pentad/3355_1840
+    birds: 
+      - 1 # Apalis,Bar-throated,Apalis,thoracica
+      - 2 # Barbet,"Acacia Pied",Tricholaema,leucomelas
+      - 3 # Batis,Cape,Batis,capensis
+      - 4 # Bee-eater,European,Merops,apiaster
+      - 5 # "Red Bishop",Southern,Euplectes,orix
+      - 6 # Bishop,Yellow,Euplectes,capensis
+      - 7 # Bokmakierie,Telophorus,zeylonus
+      - 8 # Boubou,Southern,Laniarius,ferrugineus
+      - 9 # Bulbul,Cape,Pycnonotus,capensis
+      - 10 # Buzzard,Common,Buteo,buteo
+      - 12 # Buzzard,Jackal,Buteo,rufofuscus
+      - 13 # Canary,Brimstone,Crithagra,sulphurata
+      - 14 # Canary,Cape,Serinus,canicollis
+      - 15 # Canary,White-throated,Crithagra,albogularis
+      - 16 # Canary,Yellow,Crithagra,flaviventris
+      - 17 # Cisticola,Grey-backed,Cisticola,subruficapilla
+      - 18 # Cisticola,Levaillant's,Cisticola,tinniens
+      - 19 # Neddicky,Cisticola,fulvicapilla
+      - 20 # Cisticola,Zitting,Cisticola,juncidis
+      - 21 # Coot,Red-knobbed,Fulica,cristata
+      - 22 # Cormorant,Reed,Microcarbo,africanus
+      - 23 # Cormorant,White-breasted,Phalacrocorax,lucidus
+      - 24 # Crake,Black,Zaporina,flavirostra
+      - 25 # Crane,Blue,Grus,paradisea
+      - 26 # Crow,House,Corvus,splendens
+      - 27 # Crow,Pied,Corvus,albus
+      - 28 # Cuckoo,Diederik,Chrysococcyx,caprius
+      - 29 # Cuckoo,Klaas's,Chrysococcyx,klaas
+      - 31 # Darter,African,Anhinga,rufa
+      - 32 # Dove,Laughing,Spilopelia,senegalensis
+      - 33 # Dove,Namaqua,Oena,capensis
+      - 34 # Dove,Red-eyed,Streptopelia,semitorquata
+      - 35 # Dove,Ring-necked,Streptopelia,capicola
+      - 36 # Dove,Rock,Columba,livia
+      - 37 # Drongo,Fork-tailed,Dicrurus,adsimilis
+      - 38 # Duck,"African Black",Anas,sparsa
+      - 39 # Teal,Red-billed,Anas,erythrorhyncha
+      - 42 # Duck,Yellow-billed,Anas,undulata
+      - 44 # Eagle,Booted,Hieraaetus,pennatus
+      - 91 # Eagle-Owl,Spotted,Bubo,africanus
+      - 45 # Egret,Little,Egretta,garzetta
+      - 46 # Egret,"Western Cattle",Bubulcus,ibis
+      - 48 # Falcon,Peregrine,Falco,peregrinus
+      - 49 # Fiscal,Southern,Lanius,collaris
+      - 43 # Fish Eagle,African,Haliaeetus,vocifer
+      - 50 # Flycatcher,"African Dusky",Muscicapa,adusta
+      - 51 # Flycatcher,"African Paradise",Terpsiphone,viridis
+      - 52 # Flycatcher,Fiscal,Melaenornis,silens
+      - 54 # Goose,Egyptian,Alopochen,aegyptiaca
+      - 55 # Goose,Spur-winged,Plectropterus,gambensis
+      - 56 # Goshawk,African,Accipiter,tachiro
+      - 57 # Grebe,Little,Tachybaptus,ruficollis
+      - 58 # Guineafowl,Helmeted,Numida,meleagris
+      - 59 # Gull,Grey-headed,Chroicocephalus,cirrocephalus
+      - 60 # Gull,Hartlaub's,Chroicocephalus,hartlaubii
+      - 61 # Gull,Kelp,Larus,dominicanus
+      - 62 # Hamerkop,Scopus,umbretta
+      - 63 # Harrier-Hawk,African,Polyboroides,typus
+      - 64 # "Night Heron",Black-crowned,Nycticorax,nycticorax
+      - 65 # Heron,Black-headed,Ardea,melanocephala
+      - 66 # Heron,Grey,Ardea,cinerea
+      - 67 # Heron,Purple,Ardea,purpurea
+      - 68 # Honeyguide,Lesser,Indicator,minor
+      - 69 # Hoopoe,African,Upupa,africana
+      - 70 # Ibis,"African Sacred",Threskiornis,aethiopicus
+      - 71 # Ibis,Glossy,Plegadis,falcinellus
+      - 72 # Ibis,Hadada,Bostrychia,hagedash
+      - 73 # Kestrel,Rock,Falco,rupicolus
+      - 74 # Kingfisher,Giant,Megaceryle,maxima
+      - 75 # Kingfisher,Malachite,Corythornis,cristatus
+      - 77 # Kite,Black-winged,Elanus,caeruleus
+      - 78 # Kite,Yellow-billed,Milvus,aegyptius
+      - 79 # Lapwing,Blacksmith,Vanellus,armatus
+      - 80 # Lapwing,Crowned,Vanellus,coronatus
+      - 82 # Lark,Red-capped,Calandrella,cinerea
+      - 83 # Mallard,Hybrid,Anas,hybrid
+      - 84 # Martin,Brown-throated,Riparia,paludicola
+      - 85 # Martin,Rock,Ptyonoprogne,fuligula
+      - 86 # Moorhen,Common,Gallinula,chloropus
+      - 87 # Mousebird,Red-faced,Urocolius,indicus
+      - 88 # Mousebird,Speckled,Colius,striatus
+      - 89 # Mousebird,White-backed,Colius,colius
+      - 93 # Peafowl,Indian,Pavo,cristatus
+      - 94 # Pelican,"Great White",Pelecanus,onocrotalus
+      - 95 # Pigeon,Speckled,Columba,guinea
+      - 96 # Pipit,African,Anthus,cinnamomeus
+      - 97 # Plover,Three-banded,Charadrius,tricollaris
+      - 98 # Prinia,Karoo,Prinia,maculosa
+      - 99 # Quail,Common,Coturnix,coturnix
+      - 100 # Raven,White-necked,Corvus,albicollis
+      - 101 # Robin-Chat,Cape,Cossypha,caffra
+      - 102 # "Scrub Robin",Karoo,Cercotrichas,coryphoeus
+      - 103 # Saw-wing,Black,Psalidoprocne,pristoptera
+      - 104 # Shoveler,Cape,Anas,smithii
+      - 105 # Siskin,Cape,Crithagra,totta
+      - 106 # Sparrow,Cape,Passer,melanurus
+      - 107 # Sparrow,House,Passer,domesticus
+      - 108 # Sparrow,"Southern Grey-headed",Passer,diffusus
+      - 109 # Sparrowhawk,Black,Accipiter,melanoleucus
+      - 111 # Sparrowhawk,Rufous-breasted,Accipiter,rufiventris
+      - 112 # Spoonbill,African,Platalea,alba
+      - 113 # Spurfowl,Cape,Pternistis,capensis
+      - 114 # Starling,Common,Sturnus,vulgaris
+      - 115 # Starling,Red-winged,Onychognathus,morio
+      - 116 # Stilt,Black-winged,Himantopus,himantopus
+      - 117 # Stonechat,African,Saxicola,torquatus
+      - 119 # Sunbird,Amethyst,Chalcomitra,amethystina
+      - 121 # Sunbird,Malachite,Nectarinia,famosa
+      - 122 # Sunbird,Orange-breasted,Anthobaphes,violacea
+      - 123 # Sunbird,"Southern  Double-collared",Cinnyris,chalybeus
+      - 124 # Swallow,Barn,Hirundo,rustica
+      - 125 # Swallow,"Greater Striped",Cecropis,cucullata
+      - 126 # Swallow,Pearl-breasted,Hirundo,dimidiata
+      - 127 # Swallow,White-throated,Hirundo,albigularis
+      - 128 # Swamphen,African,Porphyrio,madagascariensis
+      - 130 # Swift,"African Black",Apus,barbatus
+      - 132 # Swift,Alpine,Tachymarptis,melba
+      - 133 # Swift,Little,Apus,affinis
+      - 134 # Swift,White-rumped,Apus,caffer
+      - 135 # Thick-knee,Spotted,Burhinus,capensis
+      - 136 # Thrush,Olive,Turdus,olivaceus
+      - 137 # Wagtail,Cape,Motacilla,capensis
+      - 138 # Warbler,"African Reed  [x]",Acrocephalus,baeticatus - more likely Common Reed Warbler, Acrocephalus scirpaceus
+      - 139 # Warbler,"Lesser Swamp",Acrocephalus,gracilirostris
+      - 140 # Warbler,"Little Rush",Bradypterus,baboecala
+      - 141 # Waxbill,Common,Estrilda,astrild
+      - 142 # Waxbill,Swee,Coccopygia,melanotis
+      - 143 # Weaver,Cape,Ploceus,capensis
+      - 144 # Weaver,"Southern Masked",Ploceus,velatus
+      - 145 # White-eye,Cape,Zosterops,virens
+      - 146 # Whydah,Pin-tailed,Vidua,macroura
+      - 148 # Woodpecker,Olive,Dendropicos,griseocephalus
+      - 149 # Egret,Intermediate,Ardea,intermedia - more likely Yellow-billed Egret
+
