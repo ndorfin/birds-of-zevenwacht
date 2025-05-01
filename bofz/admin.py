@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import (
+  Area,
   RedListLevel,
   Person,
   Bird,
@@ -9,6 +10,7 @@ from .models import (
 )
 
 admin.site.register([
+  Area,
   RedListLevel,
   Person,
   Bird,
