@@ -19,8 +19,7 @@ class SpeciesList(models.Model):
   )
   url = models.URLField("URL or reference site",
     max_length=64,
-    default="",
-    blank=True,
+    null=True,
     help_text="The canonical reference of this list on the Web",
     db_comment="Any reference we can provide for this source is valuable",
   )
