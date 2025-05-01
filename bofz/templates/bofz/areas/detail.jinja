@@ -1,0 +1,36 @@
+{% extends layout %}
+{% set page_name = area.name %}
+{% set page_description = 'An area in or near Zevenwahct Wine Estate' %}
+
+{% block content %}
+<dl>
+	<div>
+		<dt>id</dt>
+		<dd>{{ area.id }}</dd>
+	</div>
+	<div>
+		<dt>name</dt>
+		<dd>{{ area.name }}</dd>
+	</div>
+	<div>
+		<dt>url</dt>
+		<dd>{{ area.url }}</dd>
+	</div>
+	<div>
+		<dt>street and suburb</dt>
+		<dd>{{ area.street }}, {{ area.suburb }}</dd>
+	</div>
+	<div>
+		<dt>entrance</dt>
+		<dd>{{ area.entrance }}</dd>
+	</div>
+	<div>
+		<dt>centre</dt>
+		<dd>{{ area.centre }}</dd>
+	</div>
+	<div>
+		<dt>boundaries</dt>
+		<dd>{{ area.boundaries }}</dd>
+	</div>
+</dl>
+{% endblock %}

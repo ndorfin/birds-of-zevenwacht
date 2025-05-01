@@ -1,0 +1,21 @@
+{% extends layout %}
+{% set page_name = 'Areas' %}
+{% set page_description = 'A list of areas in or near Zevenwacht Wine Estate' %}
+
+{% block content %}
+	{% if areas %}
+		<nav>
+			<ul>
+				{% for area in areas %}
+					<li>
+						<a href="{{ url('area_detail', pk=area.id) }}">
+							{{ area.name }}
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</nav>
+	{% else %}
+		<p class="no_items">No areas recorded yet</p>
+	{% endif %}
+{% endblock %}

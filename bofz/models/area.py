@@ -8,17 +8,25 @@ class Area(models.Model):
     max_length=32,
     default="",
     help_text="The name of this gated community, farm, or other",
-    db_comment="Helps identify the general area a sighting or photo will be bound by. Useful to obfuscate sightings taken from a Person's home."
+    db_comment="Helps identify the general area a sighting or photo will be bound by. Areas are useful to obfuscate sightings taken from a Person's home.",
+  )
+  url = models.URLField("Website",
+    max_length=64,
+    null=True,
+    help_text="Does this Area have a representative website?",
+    db_comment="Provides a reference link to the Area",
   )
   street = models.CharField("Street name and number",
     max_length=32,
     default="",
+    null=True,
     help_text="What is the street name and number for the entrance to this Area?",
     db_comment="Used with the suburb to build up a physical address",
   )
   suburb = models.CharField("Suburb",
     max_length=32,
     default="Kuils River",
+    null=True,
     help_text="What is the suburb or municipality of this Area",
     db_comment="Used with the street address to build up a physical address",
   )

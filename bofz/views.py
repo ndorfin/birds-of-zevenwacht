@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views import View
 from django.views.generic import DetailView, ListView
-from .models import Bird, Photo, Sighting, Person
+from .models import Area, Bird, Photo, Sighting, Person
 
 # ===============================
 # Setup
@@ -69,6 +69,18 @@ class ViewAttribution(GenericView):
 
   def get(self, request):
     return render(request, 'attribution.jinja', self.get_context())
+
+# Areas
+# ------------------
+class AreaListView(GenericListView):
+  model = Area
+  context_object_name = "areas"
+  template_name = "areas/list.jinja"
+  
+class AreaDetailView(GenericDetailView):
+  model = Area
+  context_object_name = "area"
+  template_name = "areas/detail.jinja"
 
 # Birds
 # ------------------
