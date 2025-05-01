@@ -1,4 +1,5 @@
 from .area import Area
+from .camera import Camera
 from .red_list_level import RedListLevel
 from .person import Person
 from .bird import Bird

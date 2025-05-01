@@ -1,0 +1,36 @@
+- model: bofz.Camera
+  pk: 1
+  fields:
+    exif_identifier: sony-ilce-7m3
+    manufacturer: Sony
+    model_name: Alpha A7 Mark III
+- model: bofz.Camera
+  pk: 2
+  fields:
+    exif_identifier: Apple-iPhone 12 Pro
+    manufacturer: Apple
+    model_name: iPhone 12 Pro
+- model: bofz.Camera
+  pk: 3
+  fields:
+    exif_identifier: Apple-iPhone 7
+    manufacturer: Apple
+    model_name: iPhone 7
+- model: bofz.Camera
+  pk: 4
+  fields:
+    exif_identifier: Canon-Canon EOS 6D Mark II
+    manufacturer: Canon
+    model_name: EOS 6D Mark II
+- model: bofz.Camera
+  pk: 5
+  fields:
+    exif_identifier: Canon-Canon EOS 500D
+    manufacturer: Canon
+    model_name: EOS 500D
+- model: bofz.Camera
+  pk: 6
+  fields:
+    exif_identifier: Canon-Canon EOS 750D
+    manufacturer: Canon
+    model_name: EOS 750D
