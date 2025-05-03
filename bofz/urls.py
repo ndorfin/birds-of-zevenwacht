@@ -28,21 +28,25 @@ from .views import (
   SightingListView,
   SightingDetailView,
   PersonListView,
-  PersonDetailView
+  PersonDetailView,
+  SpeciesListListView,
+  SpeciesListDetailView,
 )
 
 urlpatterns = [
   path("", ViewHome.as_view(), name="home"),
   path("about/", ViewAbout.as_view(), name="about"),
-  path("attribution/", ViewAttribution.as_view(), name="attribution"),
   path("areas/", AreaListView.as_view(), name="areas_list"),
   path("areas/<int:pk>/", AreaDetailView.as_view(), name="area_detail"),
+  path("attribution/", ViewAttribution.as_view(), name="attribution"),
   path("birds/", BirdListView.as_view(), name="birds_list"),
   path("birds/<int:pk>/", BirdDetailView.as_view(), name="bird_detail"),
+  path("persons/", PersonListView.as_view(), name="persons_list"),
+  path("persons/<int:pk>/", PersonDetailView.as_view(), name="person_detail"),
   path("photos/", PhotoListView.as_view(), name="photos_list"),
   path("photos/<int:pk>/", PhotoDetailView.as_view(), name="photo_detail"),
   path("sightings/", SightingListView.as_view(), name="sightings_list"),
   path("sightings/<int:pk>/", SightingDetailView.as_view(), name="sighting_detail"),
-  path("persons/", PersonListView.as_view(), name="persons_list"),
-  path("persons/<int:pk>/", PersonDetailView.as_view(), name="person_detail"),
+  path("species-lists/", SpeciesListListView.as_view(), name="species_lists_list"),
+  path("species-lists/<int:pk>/", SpeciesListDetailView.as_view(), name="species_list_detail"),
 ]

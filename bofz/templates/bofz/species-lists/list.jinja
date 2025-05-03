@@ -1,0 +1,21 @@
+{% extends layout %}
+{% set page_name = 'Species reference lists' %}
+{% set page_description = 'A list of data sources or reference lists of birds in the area' %}
+
+{% block content %}
+	{% if species_lists %}
+		<nav>
+			<ul>
+				{% for species_list in species_lists %}
+					<li>
+						<a href="{{ url('species_list_detail', pk=species_list.id) }}">
+							{{ species_list.name }}
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</nav>
+	{% else %}
+		<p class="no_items">No species lists added yet</p>
+	{% endif %}
+{% endblock %}

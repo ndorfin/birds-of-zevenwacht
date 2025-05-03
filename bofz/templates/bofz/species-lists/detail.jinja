@@ -1,0 +1,46 @@
+{% extends layout %}
+{% set page_name = species_list.name %}
+{% set page_description = 'More details about this source of species data for Zevenwacht Wine Estate and surrounds' %}
+
+{% block content %}
+<dl>
+	<div>
+		<dt>id</dt>
+		<dd>{{ species_list.id }}</dd>
+	</div>
+	<div>
+		<dt>name</dt>
+		<dd>{{ species_list.name }}</dd>
+	</div>
+	<div>
+		<dt>author</dt>
+		<dd>{{ species_list.author }}</dd>
+	</div>
+	<div>
+		<dt>url</dt>
+		<dd>
+			{% if species_list.url %}
+				<a href="{{ species_list.url }}">{{ species_list.url }}</a></dd>
+			{% else %}
+				None
+			{% endif %}
+	</div>
+	<div>
+		<dt>birds</dt>
+		<dd>
+			{% set birds = species_list.birds.all() | sort(attribute='family') %}
+			{% if birds %}
+				<ol>
+					{% for bird in birds %}
+						<li>
+							<a href="{{ url('bird_detail', bird.id) }}">{{ bird }}</a>
+						</li>
+					{% endfor %}
+				</ol>
+			{% else %}
+				<p>No birds added yet</p>
+			{% endif %}
+		</dd>
+	</div>
+</dl>
+{% endblock %}
