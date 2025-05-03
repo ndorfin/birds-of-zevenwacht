@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views import View
 from django.views.generic import DetailView, ListView
-from .models import Area, Bird, Photo, Sighting, Person, SpeciesList
+from .models import Area, RedListLevel, Bird, Photo, Sighting, Person, SpeciesList
 
 # ===============================
 # Setup
@@ -98,6 +98,7 @@ class BirdDetailView(GenericDetailView):
     context = super().get_context_data(**kwargs)
     # Add the SpeciesLists this Bird is a member of
     context['memberships'] = SpeciesList.objects.filter(birds__id=self.object.id)
+    context['redlist_levels'] = RedListLevel.objects.all()
     return context
 
 # Photos

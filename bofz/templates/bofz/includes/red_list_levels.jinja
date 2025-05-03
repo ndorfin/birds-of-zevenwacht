@@ -1,0 +1,14 @@
+{{ current_redlist_level.label }}. <small>See: <a href="https://www.birdlife.org/projects/iucn-red-list/">IUCN Red-List</a></small>
+<ol class="list_redlist">
+	{% for redlist_level in redlist_levels %}
+		<li>
+			<abbr
+				data-code="{{ redlist_level.abbreviation }}"
+				title="{{ redlist_level.label }}"
+				{% if current_redlist_level.id == redlist_level.id %} data-match {% endif %}
+			>
+				{{ redlist_level.abbreviation }}
+			</abbr>
+		</li>
+	{% endfor %}
+</ol>
