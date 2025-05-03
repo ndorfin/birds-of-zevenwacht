@@ -1,0 +1,120 @@
+# Species Lists
+# ===========================================
+- model: bofz.SpeciesList
+  pk: 2
+  fields:
+    name: Louis' Lifestyle List
+    author: Louis van der Vyver
+    url: 
+    birds: 
+      - 2 # 47 Bonthoutkapper Acacia Pied Barbet
+      - 4 # 45 Europese byvreter European Bee-eater
+      - 5 # 80 Rooivink Red Bishop
+      - 6 # 81 Kaapse Flap Yellow Bishop
+      - 7 # 69 Bokmakierie Bokmakierie
+      - 8 # 68 Fiskaallaksman Southern Boubou
+      - 9 # 56 Kaapse Tiptol Cape Bulbul
+      - 10 # 16 Bruinjakkalsvoël Common Buzzard
+      - 12 # 17 Rooiborsjakkalsvoël Jackal Buzzard
+      - 13 # 86 Dikbekkanarie Brimstone Canary
+      - 14 # 85 Kaapse Kanarie Cape Canary
+      - 16 # 87 Geelkanarie Yellow Canary
+      - 17 # 62 Grysrugtinktinkie Grey-backed Cisticola
+      - 18 # 63 Vleitinktinkie Le Vaillants Cisticola
+      - 21 # 27 Bleshoender Red-Knobbed Coot
+      - 22 # 2 Rietduiker Reed Cormorant
+      - 23 # 89 Witborsduiker White-breasted Cormorant
+      - 27 # 55 Witborskraai Pied Crow
+      - 28 # 37 Diederikkie Diederik Cuckoo
+      - 29 # 36 Meitjie Klaas's Cuckoo
+      - 30 # 35 Piet-my-vrou Red-Chested Cuckoo
+      - 31 # 90 Slanghalsvoël African Darter
+      - 32 # 34 Rooiborsduifie Laughing Dove
+      - 34 # 33 Grootringduif Red-eyed Dove
+      - 37 # 96 Mikstertbyvanger Fork-tailed Drongo
+      - 40 # 12 Witrug-eend White-backed Duck
+      - 42 # 11 Geelbek-Eend Yellow-billed Duck
+      - 43 # 15 Visarend African Fish Eagle
+      - 44 # 14 Dwergarend Booted Eagle
+      - 46 # 5 Bosluisvoël Cattle Egret
+      - 47 # 23 Edelvalk Lanner Falcon
+      - 48 # 22 Swerfvalk Peregrine Falcon
+      - 51 # 66 Paradysvlieëvanger African Paradise Flycatcher
+      - 52 # 65 Fiskaalvlieëvanger Fiscal Flycatcher
+      - 54 # 10 Kolgans Egyptian Goose
+      - 56 # 20 Afrikaanse Sperwer African Goshawk
+      - 57 # 1 Kleindobbertjie Little Grebe
+      - 58 # 26 Gewone Tarentaal Helmeted Guineafowl
+      - 61 # 92 Kelpmeeu Kelp Gull
+      - 62 # 6 Hamerkop Hamerkop
+      - 63 # 21 Kaalwangvalk Gymnogene African Harrier-Hawk
+      - 65 # 4 Swartkopreier Black-headed Heron
+      - 66 # 3 Bloureier Grey Heron
+      - 69 # 46 Hoephoep African Hoopoe
+      - 70 # 7 Skoorsteenveër African Sacred Ibis
+      - 72 # 8 Hadeda Hadeda Ibis
+      - 73 # 24 Kransvalk Rock Kestrel
+      - 74 # 44 Reuse Visvanger Giant Kingfisher
+      - 75 # 43 Kuifkopvisvanger Malachite Kingfisher
+      - 77 # 13 Blouvalk Black-winged Kite
+      - 78 # 88 Geelbekwou Yellow-billed Kite
+      - 79 # 30 Bontkiewiet Blacksmith Lapwing
+      - 80 # 29 Kroonkiewiet Crowned Lapwing
+      - 81 # 48 Dikbeklewerik Large-billed Lark
+      - 84 # 53 Afrikaanse Oewerswael Brown-throated Martin
+      - 86 # 91 Grootwaterhoender Common Moorhen
+      - 89 # 42 Witkruismuisvoël White-backed Mousebird
+      - 90 # 38 Afrikaanse Naguil Fiery-necked Nightjar
+      - 91 # 93 Gevlekte Ooruil Spotted Eagle 4Owl
+      - 95 # 32 Kransduif Speckled Pigeon
+      - 96 # 95 Gewone Koester African Pipit
+      - 97 # 28 Driebandstrandkiewiet Three-banded Plover
+      - 98 # 64 Karoolangstertjie Karoo Prinia
+      - 101 # 59 Gewone Janfrederik Cape Robin-Chat
+      - 102 # 58 Slangverklikker Karoo Robin
+      - 103 # 54 Swartsaagvlerkswael Black Saw-wing
+      - 106 # 76 Gewone Mossie Cape Sparrow
+      - 107 # 75 Huismossie House Sparrow
+      - 108 # 77 Gryskopmossie Southern Grey-headed Sparrow
+      - 109 # 19 Swartsperwer Black Sparrowhawk
+      - 111 # 18 Rooiborssperwer Rufous-breasted Sparrowhawk
+      - 112 # 9 Lepelaar African Spoonbill
+      - 113 # 25 Kaapse Fisant Cape Spurfowl
+      - 114 # 97 Europese Spreeu European Starling
+      - 115 # 70 Rooivlerkspreeu Red-winged Starling
+      - 117 # 94 Gewone Bontrokkie African Stonechat
+      - 118 # 98 Kaapse Suikervoël Cape Sugarbird
+      - 119 # 73 Swart Suikerbekkie Amethyst Sunbird
+      - 121 # 71 Jangroentjie Malachite Sunbird
+      - 123 # 72 Klein-rooibandsuikerbekkie Southern Double-collared Sunbird
+      - 124 # 49 Europese Swael Barn Swallow
+      - 125 # 52 Grootstreepswael Greater Striped Swallow
+      - 126 # 51 Pêrelborsswael Pearl-breasted Swallow
+      - 127 # 50 Witkeelswael White-throated Swallow
+      - 131 # 39 Palmwindswael Palm Swift
+      - 133 # 41 Kleinwindswael Little Swift
+      - 134 # 40 Witkruiswindswael White-rumped Swift
+      - 135 # 31 Gewone Dikkop Spotted Thick-knee
+      - 136 # 57 Olyflyster Olive Thrush
+      - 137 # 67 Gewone Kwikkie Cape Wagtail
+      - 138 # 60 Kleinrietsanger Common Reed-warbler
+      - 139 # 61 Kaapse Rietsanger Lesser Swamp Warbler
+      - 141 # 82 Rooibeksysie Common Waxbill
+      - 142 # 83 Suidelike Swie Swee Waxbill
+      - 143 # 78 Kaapse Wewer Cape Weaver
+      - 144 # 79 Swartkeelgeelvink Southern Masked Weaver
+      - 145 # 74 Kaapse Glasogie Cape White-eye
+      - 146 # 84 Koningrooibekkie Pin-tailed Whydah
+      - 25 # 28 Bloukraanvoël Blue Crane
+      - 150 # 31 Waterdikkop Water Thick-knee
+      - 35 # 34 Gewone Tortelduif Cape Turtle Dove
+      - 148 # 51 Gryskopspeg Olive Woodpecker
+      - 151 # 64 Bosveld Stompstert Long-billed Crombec
+      - 49 # 73 Fiskaallaksmam Fiscal Shrike
+      - 88 # 74 Gevlekte Muisvoël Speckled Mousebird
+      - 60 # 100 Hartlaubse Meeu Hartlaub's Gull
+      - 92 # 102 Nonnetjie-uil Western Barn Owl
+      - 3 # 109 Kaapse Bosbontrokkie Cape Batis
+      - 50 # 110 Donkervlieëvanger Dusky Flycatcher
+      - 1 # 111 Bandkeelkleinjantjie Bar-throated Apalis
+      - 152 # 108 Gewone Spekvreter Familiar Chat

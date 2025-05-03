@@ -7,10 +7,10 @@
     species: "thoracica"
     family: "Apalis"
     common_name: "Bar-throated Apalis"
-    german_name: ""
-    afrikaans_name: ""
+    german_name: "Halsband-Feinsänger"
+    afrikaans_name: "Bandkeelkleinjantjie"
     ebird: "https://ebird.org/species/batapa2/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/Bar-throated_apalis"
     redlist_level: 5
     sighted: true
     photographed: false
@@ -37,10 +37,10 @@
     species: "capensis"
     family: "Batis"
     common_name: "Cape Batis"
-    german_name: ""
-    afrikaans_name: ""
+    german_name: "Kapschnäpper"
+    afrikaans_name: "Kaapse Bosbontrokkie"
     ebird: "https://ebird.org/species/capbat10/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/Cape_batis"
     redlist_level: 5
     sighted: true
     photographed: true
@@ -727,10 +727,10 @@
     species: "collaris"
     family: "Shrike"
     common_name: "Southern Fiscal"
-    german_name: ""
-    afrikaans_name: ""
+    german_name: "Fiskalwürger"
+    afrikaans_name: "Fiskaallaksmam"
     ebird: "https://ebird.org/species/soufis1/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/Southern_fiscal"
     redlist_level: 5
     sighted: true
     photographed: true
@@ -742,10 +742,10 @@
     species: "adusta"
     family: "Flycatcher"
     common_name: "African Dusky Flycatcher"
-    german_name: ""
-    afrikaans_name: ""
+    german_name: "Afrikanischer Dunkelschnäpper"
+    afrikaans_name: "Donkervlieëvanger"
     ebird: "https://ebird.org/species/afdfly1/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/African_dusky_flycatcher"
     redlist_level: 5
     sighted: true
     photographed: true
@@ -892,10 +892,10 @@
     species: "hartlaubii"
     family: "Gull"
     common_name: "Hartlaub’s Gull"
-    german_name: ""
-    afrikaans_name: ""
+    german_name: "Hartlaubmöwe"
+    afrikaans_name: "Hartlaubse Meeu"
     ebird: "https://ebird.org/species/hargul1/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/Hartlaub%27s_gull"
     redlist_level: 5
     sighted: false
     photographed: false
@@ -1372,10 +1372,10 @@
     species: "alba"
     family: "Owl"
     common_name: "Western Barn Owl"
-    german_name: ""
-    afrikaans_name: ""
+    german_name: "Schleiereule"
+    afrikaans_name: "Nonnetjie-uil"
     ebird: "https://ebird.org/species/webowl1/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/Western_barn_owl"
     redlist_level: 5
     sighted: true
     photographed: false
@@ -2235,3 +2235,63 @@
     sighted: false
     photographed: false
     potential: true
+- model: bofz.Bird
+  pk: 150
+  fields:
+    genus: "Burhinus"
+    species: "vermiculatus"
+    family: "Thick-knee"
+    common_name: "Water Thick-knee"
+    german_name: "Wassertriel"
+    afrikaans_name: "Waterdikkop"
+    ebird: "https://ebird.org/species/watkne1/ZA"
+    wikipedia: "https://en.wikipedia.org/wiki/Water_thick-knee"
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 151
+  fields:
+    genus: "Sylvietta"
+    species: "rufescens"
+    family: "Crombec"
+    common_name: "Long-billed Crombec"
+    german_name: "Langschnabel-Sylvietta"
+    afrikaans_name: "Bosveld Stompstert"
+    ebird: "https://ebird.org/species/capcro1/ZA"
+    wikipedia: "https://en.wikipedia.org/wiki/Long-billed_crombec"
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+- model: bofz.Bird
+  pk: 152
+  fields:
+    genus: "Oenanthe"
+    species: "familiaris"
+    family: "Chat"
+    common_name: "Familiar Chat"
+    german_name: "Rostschwanzschmätzer"
+    afrikaans_name: "Gewone Spekvreter"
+    ebird: "https://ebird.org/species/famcha1/ZA"
+    wikipedia: "https://en.wikipedia.org/wiki/Familiar_chat"
+    redlist_level: 5
+    sighted: false
+    photographed: false
+    potential: true
+# - model: bofz.Bird
+#   pk: 153
+#   fields:
+#     genus: ""
+#     species: ""
+#     family: ""
+#     common_name: ""
+#     german_name: ""
+#     afrikaans_name: ""
+#     ebird: ""
+#     wikipedia: ""
+#     redlist_level: 5
+#     sighted: false
+#     photographed: false
+#     potential: true
