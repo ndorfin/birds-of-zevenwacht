@@ -86,6 +86,7 @@ class AreaDetailView(GenericDetailView):
 # ------------------
 class BirdListView(GenericListView):
   model = Bird
+  ordering = ['family', 'common_name']
   context_object_name = "birds"
   template_name = "birds/list.jinja"
   

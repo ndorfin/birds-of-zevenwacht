@@ -23,7 +23,8 @@
 				{% endif %}
 			{% endfor %}
 		</ol>
-		<p>Birds we should see based on other data sources:</p>
+		
+		<p>Birds we should see based on <a href="{{ url('species_lists_list') }}">our data sources</a>:</p>
 		<ol>
 			{% for bird in birds %}
 				{% if not bird.sighted and not bird.photographed and bird.potential %}
