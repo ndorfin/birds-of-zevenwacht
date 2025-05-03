@@ -93,6 +93,12 @@ class BirdDetailView(GenericDetailView):
   model = Bird
   context_object_name = "bird"
   template_name = "birds/detail.jinja"
+  
+  def get_context_data(self, **kwargs):
+    context = super().get_context_data(**kwargs)
+    # Add the SpeciesLists this Bird is a member of
+    context['memberships'] = SpeciesList.objects.filter(birds__id=self.object.id)
+    return context
 
 # Photos
 # ------------------

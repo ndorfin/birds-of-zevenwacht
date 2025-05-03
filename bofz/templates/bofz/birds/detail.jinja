@@ -39,5 +39,21 @@
 		<dt>wikipedia</dt>
 		<dd>{{ bird.wikipedia }}</dd>
 	</div>
+	<div>
+		<dt>memberships</dt>
+		<dd>
+			{% if memberships %}
+				<ul>
+					{% for membership in memberships %}
+						<li>
+							<a href="{{ url('species_list_detail', membership.id) }}">{{ membership }}</a>
+						</li>
+					{% endfor %}
+				</ul>
+			{% else %}
+				None
+			{% endif %}
+		</dd>
+	</div>
 </dl>
 {% endblock %}
