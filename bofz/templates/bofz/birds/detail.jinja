@@ -37,14 +37,30 @@
 	{% endif %}
 	{% if bird.ebird or bird.wikipedia %}
 		<div>
-			<dt>Reference</dt>
+			<dt>References</dt>
 			<dd>
-				{% if bird.ebird %}
-				<a href="{{ bird.ebird }}">{{ bird.common_name }} on eBird</a><br>
-				{% endif %}
-				{% if bird.wikipedia %}
-				<a href="{{ bird.wikipedia }}">{{ bird.common_name }} on Wikipedia</a>
-				{% endif %}
+				<ul>
+					{% if bird.ebird %}
+						<li>
+							<a href="{{ bird.ebird }}">{{ bird.common_name }} on eBird</a>
+						</li>
+					{% endif %}
+					{% if bird.wikipedia %}
+						<li>
+							<a href="{{ bird.wikipedia }}">{{ bird.common_name }} on Wikipedia</a>
+						</li>
+					{% endif %}
+				</ul>
+			</dd>
+		</div>
+	{% endif %}
+	{% if bird.redlist_level %}
+		<div>
+			<dt>Red-List</dt>
+			<dd>
+				{% with current_redlist_level = bird.redlist_level %}
+					{% include 'bofz/includes/red_list_levels.jinja' %}
+				{% endwith %}
 			</dd>
 		</div>
 	{% endif %}
@@ -64,16 +80,6 @@
 			{% endif %}
 		</dd>
 	</div>
-	{% if bird.redlist_level %}
-		<div>
-			<dt>Red-List</dt>
-			<dd>
-				{% with current_redlist_level = bird.redlist_level %}
-					{% include 'bofz/includes/red_list_levels.jinja' %}
-				{% endwith %}
-			</dd>
-		</div>
-	{% endif %}
 </dl>
 {# <tab-group>
 	<nav aria-labelledby="heading_nav_tabs">
