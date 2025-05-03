@@ -5,3 +5,4 @@ dist
 dump
 *.tmp
 **/__pycache__
+media

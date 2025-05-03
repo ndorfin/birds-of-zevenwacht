@@ -16,5 +16,17 @@
 			{{ photo.photographer }}
 		</dd>
 	</div>
+	<div>
+		<dt>source_photo</dt>
+		<dd>
+			<img src="{{ photo.source_photo.url }}" alt="{{ photo.description }}">
+		</dd>
+	</div>
+	<div>
+		<dt>description</dt>
+		<dd>
+			{{ photo.description }}
+		</dd>
+	</div>
 </dl>
 {% endblock %}

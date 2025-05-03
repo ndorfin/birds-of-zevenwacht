@@ -1,5 +1,5 @@
 from django.db import models
-from . import Bird, Person, Photo
+from . import Area, Bird, Person, Photo
 
 class Sighting(models.Model):
   def __str__(self):
@@ -27,9 +27,16 @@ class Sighting(models.Model):
   quantity = models.PositiveIntegerField("Quantity",
     default=1,
     help_text="How many total individuals of this species were seen?",
+    db_comment="We need numbers of the species",
   )
   photos = models.ManyToManyField(
     Photo,
-    help_text="Select the Photos associated with this Sighting",
-    blank=True
+    help_text="Select the optional Photos associated with this Sighting",
+    blank=True,
+  )
+  area = models.ForeignKey(
+    Area,
+    help_text="Which Area was this Sighting recorded in?",
+    on_delete=models.CASCADE,
+    default=Area.get_default_pk,
   )

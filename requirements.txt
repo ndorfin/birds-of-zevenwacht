@@ -3,3 +3,4 @@ Jinja2
 django-extensions
 django-jinja
 pyyaml
+pillow
