@@ -26,7 +26,15 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-l&o%wa(+wea))%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG_ENABLED', '') == 'True'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+  'bofz.pythonanywhere.com',
+  '127.0.0.1',
+  'localhost',
+]
+
+CSRF_TRUSTED_ORIGINS = [
+  'https://bofz.pythonanywhere.com',
+]
 
 
 # Application definition
