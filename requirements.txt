@@ -4,3 +4,4 @@ django-extensions
 django-jinja
 pyyaml
 pillow
+python-dotenv
