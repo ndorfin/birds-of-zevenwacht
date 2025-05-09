@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.contrib.auth.mixins import PermissionRequiredMixin
 from django.views import View
 from django.views.generic import DetailView, ListView
 from .models import Area, RedListLevel, Bird, Photo, Sighting, Person, SpeciesList
@@ -125,6 +126,17 @@ class SightingDetailView(GenericDetailView):
   model = Sighting
   context_object_name = "sighting"
   template_name = "sightings/detail.jinja"
+
+
+class SightingAddView(PermissionRequiredMixin, GenericView):
+  permission_required = "bofz.can_add_sighting"
+
+  def __init__(self):
+    self.page_name = 'Add Sighting'
+    self.page_description = 'Contribute to Birds of Zevenwacht by adding your own Sightings'
+
+  def get(self, request):
+    return render(request, "sightings/add.jinja", self.get_context())
 
 # Persons
 # ------------------
