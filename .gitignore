@@ -6,3 +6,4 @@ dump
 *.tmp
 **/__pycache__
 media
+data/db.sqlite3
