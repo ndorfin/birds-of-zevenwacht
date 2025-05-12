@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth.mixins import PermissionRequiredMixin
 from django.views import View
 from django.views.generic import DetailView, ListView, CreateView
-from .models import Area, RedListLevel, Bird, Photo, Sighting, Person, SpeciesList
+from .models import Area, RedListLevel, Bird, Photo, Sighting, SpeciesList
 
 DEFAULT_LAYOUT = 'layouts/default.jinja'
 
@@ -152,12 +152,12 @@ class SightingAddView(PermissionRequiredMixin, GenericCreateView):
 # Persons
 # ------------------
 class PersonListView(GenericListView):
-  model = Person
+  model = User
   context_object_name = "persons"
   template_name = "persons/list.jinja"
   
 class PersonDetailView(GenericDetailView):
-  model = Person
+  model = User
   context_object_name = "person"
   template_name = "persons/detail.jinja"
 

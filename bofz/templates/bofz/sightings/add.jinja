@@ -55,9 +55,9 @@
 						{% if person.email == user.email %}
 							<li>
 								<label>
-									<input type="checkbox" name="{{ form.observers.name }}" value="{{ person.pk }}" checked disabled>
+									<input type="checkbox" name="{{ form.observers.name }}" value="{{ person.id }}" checked disabled>
 									{{ person }}
-									<input type="hidden" name="{{ form.observers.name }}" value="{{ person.pk }}">
+									<input type="hidden" name="{{ form.observers.name }}" value="{{ person.id }}">
 								</label>
 							</li>
 						{% endif %}
@@ -65,9 +65,9 @@
 					{% for person in all_people %}
 						{% if person.email != user.email %}
 							<li>
-								{% set person_pk = person.pk | string %}
+								{% set person_id = person.id | string %}
 								<label>
-									<input type="checkbox" name="{{ form.observers.name }}" value="{{ person_pk }}" {% if person_pk in form.observers.data %}checked{% endif %}>
+									<input type="checkbox" name="{{ form.observers.name }}" value="{{ person_id }}" {% if person_id in form.observers.data %}checked{% endif %}>
 									{{ person }}
 								</label>
 							</li>

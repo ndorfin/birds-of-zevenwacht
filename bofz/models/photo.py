@@ -1,6 +1,5 @@
 from django.db import models
 from django.contrib.auth.models import User
-from . import Person
 
 def person_id_folder_path(instance, filename): 
   # file will be uploaded to `MEDIA_ROOT/birds/<photographer.id>/<filename>`
@@ -18,7 +17,7 @@ class Photo(models.Model):
     User,
     help_text="Who took this Photo?",
     on_delete=models.CASCADE,
-    default=Person.get_default_pk,
+    default=1,
   )
   source_photo = models.ImageField(
     "Source photo",
