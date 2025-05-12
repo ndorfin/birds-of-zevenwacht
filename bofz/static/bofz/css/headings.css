@@ -1,0 +1,27 @@
+.heading {
+	--heading-font-weight: 400;
+	--heading-font-size: 1rem;
+	--heading-font-size-multiplier: 1;
+
+	font-weight: var(--heading-font-weight);
+	font-size: calc(var(--heading-font-size) * var(--heading-font-size-multiplier));
+}
+
+.heading_page {
+	--heading-font-weight: 600;
+	--heading-font-size-multiplier: 1.5;
+}
+
+.heading_section {
+	--heading-font-weight: 600;
+	--heading-font-size-multiplier: 1.25;
+}
+
+.heading_grouping {
+	--heading-font-weight: 600;
+	--heading-font-size-multiplier: 1.125;
+}
+
+.heading_paragraph {
+	--heading-font-weight: 600;
+}

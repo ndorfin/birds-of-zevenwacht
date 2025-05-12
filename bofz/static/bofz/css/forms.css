@@ -1,0 +1,28 @@
+button,
+input:is(
+	[type="email"],
+	[type="number"],
+	[type="password"],
+	[type="search"],
+	[type="tel"],
+	[type="text"],
+	[type="url"],
+),
+select,
+textarea {
+	font-size: 1rem;
+	padding-block: 0.5rem;
+	padding-inline: 0.75rem;
+	border-radius: 0.25rem;
+	min-block-size: 1rem;
+	border: 0.0625rem solid hsla(0, 0%, 0%, 0.5);
+}
+
+.form_row {
+	& > label + .form_field {
+		margin-block-start: 0.25rem;
+	}
+	& + .form_row {
+		margin-block-start: 1rem;
+	}
+}

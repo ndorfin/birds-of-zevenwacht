@@ -1,0 +1,23 @@
+.notification {
+	background-color: hsla(var(--notification-color-theme), 0.25);
+	border: 0.0625rem solid hsl(var(--notification-color-theme));
+	padding: 1rem;
+	margin-block-end: 1rem;
+
+	& > * {
+		margin: 0;
+
+		& + * {
+			margin-block-start: 0.5rem;
+		}
+	}
+
+	& ul:has(li:only-child) {
+		padding: 0;
+		list-style: "";
+	}
+}
+
+.notification[data-type="error"] {
+	--notification-color-theme: 0, 50%, 50%;
+}

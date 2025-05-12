@@ -5,6 +5,10 @@
 @import './main.css'              layer(framework);
 @import './site_footer.css'       layer(framework);
 @import './layout_map.css'        layer(content.layout);
+@import './notifications.css'     layer(content.components);
+@import './buttons.css'           layer(content.components);
+@import './headings.css'          layer(content.components);
+@import './forms.css'             layer(content.components);
 @import './list_gallery.css'      layer(content.components);
 @import './link_thumbnail.css'    layer(content.components);
 @import './figure_full.css'       layer(content.components);

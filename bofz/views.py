@@ -128,6 +128,7 @@ class SightingDetailView(GenericDetailView):
 class SightingAddView(PermissionRequiredMixin, GenericView):
   permission_required = "bofz.can_add_sighting"
   template_name = "sightings/add.jinja"
+  login_url = "log-in"
 
   def get(self, request):
     return self.simple_get(request)

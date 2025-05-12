@@ -14,7 +14,11 @@
 	{% include "layouts/includes/menu.jinja" %}
 </header>
 <main>
-	{% include "layouts/includes/page_header.jinja" %}
+	<header>
+		{% include "layouts/includes/page_header.jinja" %}
+		{% block toolbar %}{% endblock %}
+	</header>
+	{% block notifications %}{% endblock %}
 	{% block content %}
 		<p>No page content found</p>
 	{% endblock %}

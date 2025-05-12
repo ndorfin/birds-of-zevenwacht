@@ -2,10 +2,13 @@
 {% set page_name = 'Sightings' %}
 {% set page_description = 'A list of recently-recorded sightings' %}
 
-{% block content %}
+{% block toolbar %}
 	{% if user.is_authenticated %}
-		<p><a href="{{ url('sighting_add') }}">Add a sighting</a></p>
+		<p><a href="{{ url('sighting_add') }}" class="button">Add a sighting</a></p>
 	{% endif %}
+{% endblock %}
+
+{% block content %}
 	{% if sightings %}
 		<nav>
 			<ul>
