@@ -1,8 +1,9 @@
 .notification {
-	background-color: hsla(var(--notification-color-theme), 0.25);
-	border: 0.0625rem solid hsl(var(--notification-color-theme));
 	padding: 1rem;
 	margin-block-end: 1rem;
+	border: 0.0625rem solid hsl(var(--notification-color-theme));
+	border-radius: 0.25rem;
+	background-color: hsla(var(--notification-color-theme), 0.125);
 
 	& > * {
 		margin: 0;

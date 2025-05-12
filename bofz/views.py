@@ -1,13 +1,15 @@
 from django.shortcuts import render
+from django.contrib.auth.models import User
 from django.contrib.auth.mixins import PermissionRequiredMixin
 from django.views import View
-from django.views.generic import DetailView, ListView
+from django.views.generic import DetailView, ListView, CreateView
 from .models import Area, RedListLevel, Bird, Photo, Sighting, Person, SpeciesList
+
+DEFAULT_LAYOUT = 'layouts/default.jinja'
 
 # ===============================
 # Setup
 # ===============================
-DEFAULT_LAYOUT = 'layouts/default.jinja'
 class GenericView(View):
   template_name = ''
   
@@ -30,6 +32,14 @@ class GenericListView(ListView):
     return context
 
 class GenericDetailView(DetailView):
+  def get_context_data(self, **kwargs):
+    # Call the base implementation first to get a context
+    context = super().get_context_data(**kwargs)
+    # Add extra context data
+    context["layout"] = DEFAULT_LAYOUT
+    return context
+  
+class GenericCreateView(CreateView):
   def get_context_data(self, **kwargs):
     # Call the base implementation first to get a context
     context = super().get_context_data(**kwargs)
@@ -125,13 +135,19 @@ class SightingDetailView(GenericDetailView):
   template_name = "sightings/detail.jinja"
 
 
-class SightingAddView(PermissionRequiredMixin, GenericView):
+class SightingAddView(PermissionRequiredMixin, GenericCreateView):
+  model = Sighting
   permission_required = "bofz.can_add_sighting"
   template_name = "sightings/add.jinja"
   login_url = "log-in"
+  fields = "__all__"
 
-  def get(self, request):
-    return self.simple_get(request)
+  def get_context_data(self, **kwargs):
+    context = super().get_context_data(**kwargs)
+    # Add the SpeciesLists this Bird is a member of
+    context['all_birds'] = Bird.objects.all()
+    context['all_people'] = User.objects.all()
+    return context
 
 # Persons
 # ------------------

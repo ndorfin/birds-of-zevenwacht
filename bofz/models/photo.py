@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 from . import Person
 
 def person_id_folder_path(instance, filename): 
@@ -14,7 +15,7 @@ class Photo(models.Model):
     db_comment="We need a to-the-minute recording of the time and date of this photo",
   )
   photographer = models.ForeignKey(
-    Person,
+    User,
     help_text="Who took this Photo?",
     on_delete=models.CASCADE,
     default=Person.get_default_pk,

@@ -1,5 +1,6 @@
 from django.db import models
-from . import Area, Bird, Person, Photo
+from django.contrib.auth.models import User
+from . import Area, Bird, Photo
 
 class Sighting(models.Model):
   def __str__(self):
@@ -15,7 +16,7 @@ class Sighting(models.Model):
     db_comment="We need a to-the-minute recording of the time and date of this sighting. We can potentially infer this from any supporting photos' EXIF data.",
   )
   observers = models.ManyToManyField(
-    Person,
+    User,
     help_text="Who observed these birds?",
   )
   bird = models.ForeignKey(

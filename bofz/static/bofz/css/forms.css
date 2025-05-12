@@ -1,5 +1,6 @@
 button,
 input:is(
+	[type="datetime-local"],
 	[type="email"],
 	[type="number"],
 	[type="password"],
@@ -11,6 +12,7 @@ input:is(
 select,
 textarea {
 	font-size: 1rem;
+	font-family: inherit;
 	padding-block: 0.5rem;
 	padding-inline: 0.75rem;
 	border-radius: 0.25rem;
@@ -24,5 +26,27 @@ textarea {
 	}
 	& + .form_row {
 		margin-block-start: 1rem;
+	}
+}
+
+.form_field_help,
+.form_field_errors {
+	font-size: 0.875rem;
+}
+
+.form_field_help {
+	color: hsl(0, 0%, 50%);
+}
+
+.form_field_errors {
+	color: hsl(0, 50%, 50%);
+
+	& ul {
+		margin: 0;
+		padding: 0;
+		
+		&:has(li:only-child) {
+			list-style: "";
+		}
 	}
 }
