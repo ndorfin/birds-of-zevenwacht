@@ -10,19 +10,17 @@ from .models import Area, RedListLevel, Bird, Photo, Sighting, Person, SpeciesLi
 
 class GenericView(View):
   layout = 'layouts/default.jinja'
-  page_id = None
-  page_name = None
-  page_description = None
+  template_name = ''
   
   def get_context(self, additional_context = {}):
     context = {
-      'page_id': self.page_name.lower().replace(' ', '_'),
-      'page_name': self.page_name,
-      'page_description': self.page_description,
       'layout': self.layout,
       **additional_context,
     }
     return context
+  
+  def simple_get(self, request):
+    return render(request, self.template_name, self.get_context())
 
 class GenericListView(ListView):
   def get_context_data(self, **kwargs):
@@ -48,28 +46,22 @@ class GenericDetailView(DetailView):
 # Static pages
 # ------------------
 class ViewHome(GenericView):
-  def __init__(self):
-    self.page_name = 'Home'
-    self.page_description = 'A community birding project'
-    
+  template_name = 'index.jinja'
+
   def get(self, request):
-    return render(request, 'index.jinja', self.get_context())
+    return self.simple_get(request)
 
 class ViewAbout(GenericView):
-  def __init__(self):
-    self.page_name = 'About'
-    self.page_description = 'More information about this community project'
-    
+  template_name = 'about.jinja'
+
   def get(self, request):
-    return render(request, 'about.jinja', self.get_context())
+    return self.simple_get(request)
 
 class ViewAttribution(GenericView):
-  def __init__(self):
-    self.page_name = 'Attribution'
-    self.page_description = 'This community project wouldn’t be possible without its contributors, owners, and Open Source Software (OSS)'
+  template_name = 'attribution.jinja'
 
   def get(self, request):
-    return render(request, 'attribution.jinja', self.get_context())
+    return self.simple_get(request)
 
 # Areas
 # ------------------
@@ -130,13 +122,10 @@ class SightingDetailView(GenericDetailView):
 
 class SightingAddView(PermissionRequiredMixin, GenericView):
   permission_required = "bofz.can_add_sighting"
-
-  def __init__(self):
-    self.page_name = 'Add Sighting'
-    self.page_description = 'Contribute to Birds of Zevenwacht by adding your own Sightings'
+  template_name = "sightings/add.jinja"
 
   def get(self, request):
-    return render(request, "sightings/add.jinja", self.get_context())
+    return self.simple_get(request)
 
 # Persons
 # ------------------
