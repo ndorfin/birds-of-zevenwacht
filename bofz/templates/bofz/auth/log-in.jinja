@@ -5,16 +5,25 @@
 {% block content %}
 	<form action="." method="POST">
 		{% csrf_token %}
+		{% if form.non_field_errors() %}
+			{{ form.non_field_errors() }}
+		{% endif %}
 		<div class="form_row">
 			<label for="id_username">Username</label>
 			<div class="form_field">
 				{{ form.username }}
+				{% if form.username.errors %}
+					{{ form.username.errors }}
+				{% endif %}
 			</div>
 		</div>
 		<div class="form_row">
 			<label for="id_password">Password</label>
 			<div class="form_field">
 				{{ form.password }}
+				{% if form.password.errors %}
+					{{ form.password.errors }}
+				{% endif %}
 			</div>
 		</div>
 		<div class="form_row">

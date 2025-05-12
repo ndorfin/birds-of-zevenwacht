@@ -35,12 +35,14 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
+### Create SuperUser
+
+```bash
+python manage.py createsuperuser
+```
+
 ### Load reference/sample data
 
 ```bash
-python manage.py loaddata ./bofz/fixtures/01_redlist_levels.yaml
-python manage.py loaddata ./bofz/fixtures/02_persons.yaml
-…etc…
+sh scripts/add_fixtures.sh
 ```
-
-**NOTE:** Make sure to run all the fixtures in [`./bofz/fixtures`](./bofz/fixtures).
