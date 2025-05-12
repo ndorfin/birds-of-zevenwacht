@@ -20,68 +20,145 @@
 	<form method="POST" action=".">
 		{% csrf_token %}
 		
-		<div class="form_row">
-			<label for="{{ form.datetime.id_for_label }}">{{ form.datetime.label }}</label>
-			<div class="form_field">
-				<input
-					type="datetime-local"
-					name="{{ form.datetime.name }}"
-					id="{{ form.datetime.auto_id }}"
-					value="{{ form.datetime.value() or '' }}"
-					{% if form.datetime.errors %}
-						aria-describedby="{{ form.datetime.auto_id }}_errors"
-					{% elif form.datetime.help_text %}
-						aria-describedby="{{ form.datetime.auto_id }}_helptext"
+		<fieldset>
+			<legend>Time and Place</legend>
+			<div class="form_row">
+				<label for="{{ form.datetime.id_for_label }}">{{ form.datetime.label }}</label>
+				<div class="form_field">
+					<input
+						type="datetime-local"
+						name="{{ form.datetime.name }}"
+						id="{{ form.datetime.auto_id }}"
+						value="{{ form.datetime.value() or '' }}"
+						{% if form.datetime.errors %}
+							aria-describedby="{{ form.datetime.auto_id }}_errors"
+						{% elif form.datetime.help_text %}
+							aria-describedby="{{ form.datetime.auto_id }}_helptext"
+						{% endif %}
+						required>
+					{% if form.datetime.help_text %}
+						<div id="{{ form.datetime.auto_id }}_helptext" class="form_field_help">
+							{{ form.datetime.help_text }}
+						</div>
 					{% endif %}
-					required>
-				{% if form.datetime.help_text %}
-					<div id="{{ form.datetime.auto_id }}_helptext" class="form_field_help">
-						{{ form.datetime.help_text }}
-					</div>
-				{% endif %}
-				{% if form.datetime.errors %}
-					<div id="{{ form.datetime.auto_id }}_errors" class="form_field_errors">
-						{{ form.datetime.errors }}
-					</div>
-				{% endif %}
+					{% if form.datetime.errors %}
+						<div id="{{ form.datetime.auto_id }}_errors" class="form_field_errors">
+							{{ form.datetime.errors }}
+						</div>
+					{% endif %}
+				</div>
 			</div>
-		</div>
+			<div class="form_row">
+				<label for="{{ form.area.id_for_label }}">{{ form.area.label }}</label>
+				<div class="form_field">
+					{{ form.area }}
+					{% if form.area.help_text %}
+						<div id="{{ form.area.auto_id }}_helptext" class="form_field_help">
+							{{ form.area.help_text }}
+						</div>
+					{% endif %}
+					{% if form.area.errors %}
+						<div id="{{ form.area.auto_id }}_errors" class="form_field_errors">
+							{{ form.area.errors }}
+						</div>
+					{% endif %}
+				</div>
+			</div>
+		</fieldset>
 
-		<div class="form_row">
-			<label for="{{ form.observers.id_for_label }}">{{ form.observers.label }}</label>
-			<div class="form_field">
-				<ul>
-					{% for person in all_people %}
-						{% if person.email == user.email %}
-							<li>
-								<label>
-									<input type="checkbox" name="{{ form.observers.name }}" value="{{ person.id }}" checked disabled>
-									{{ person }}
-									<input type="hidden" name="{{ form.observers.name }}" value="{{ person.id }}">
-								</label>
-							</li>
-						{% endif %}
-					{% endfor %}
-					{% for person in all_people %}
-						{% if person.email != user.email %}
-							<li>
-								{% set person_id = person.id | string %}
-								<label>
-									<input type="checkbox" name="{{ form.observers.name }}" value="{{ person_id }}" {% if person_id in form.observers.data %}checked{% endif %}>
-									{{ person }}
-								</label>
-							</li>
-						{% endif %}
-					{% endfor %}
-				</ul>
-				{% if form.observers.help_text %}
-					<div id="{{ form.observers.auto_id }}_helptext" class="form_field_help">
-						{{ form.observers.help_text }}
-					</div>
-				{% endif %}
+		<fieldset>
+			<legend>Birds</legend>
+			<div class="form_row">
+				<label for="{{ form.bird.id_for_label }}">{{ form.bird.label }}</label>
+				<div class="form_field">
+					{{ form.bird }}
+					{% if form.bird.help_text %}
+						<div id="{{ form.bird.auto_id }}_helptext" class="form_field_help">
+							{{ form.bird.help_text }}
+						</div>
+					{% endif %}
+					{% if form.bird.errors %}
+						<div id="{{ form.bird.auto_id }}_errors" class="form_field_errors">
+							{{ form.bird.errors }}
+						</div>
+					{% endif %}
+				</div>
 			</div>
-		</div>
+			<div class="form_row">
+				<label for="{{ form.quantity.id_for_label }}">{{ form.quantity.label }}</label>
+				<div class="form_field">
+					{{ form.quantity }}
+					{% if form.quantity.help_text %}
+						<div id="{{ form.quantity.auto_id }}_helptext" class="form_field_help">
+							{{ form.quantity.help_text }}
+						</div>
+					{% endif %}
+					{% if form.quantity.errors %}
+						<div id="{{ form.quantity.auto_id }}_errors" class="form_field_errors">
+							{{ form.quantity.errors }}
+						</div>
+					{% endif %}
+				</div>
+			</div>
+		</fieldset>
 		
+		<fieldset>
+			<legend>People involved</legend>
+			<div class="form_row">
+				<label for="{{ form.observers.id_for_label }}">{{ form.observers.label }}</label>
+				<div class="form_field">
+					<ul>
+						{% for person in all_people %}
+							{% if person.email == user.email %}
+								<li>
+									<label>
+										<input type="checkbox" name="{{ form.observers.name }}" value="{{ person.id }}" checked disabled>
+										{{ person }}
+										<input type="hidden" name="{{ form.observers.name }}" value="{{ person.id }}">
+									</label>
+								</li>
+							{% endif %}
+						{% endfor %}
+						{% for person in all_people %}
+							{% if person.email != user.email %}
+								<li>
+									{% set person_id = person.id | string %}
+									<label>
+										<input type="checkbox" name="{{ form.observers.name }}" value="{{ person_id }}" {% if person_id in form.observers.data %}checked{% endif %}>
+										{{ person }}
+									</label>
+								</li>
+							{% endif %}
+						{% endfor %}
+					</ul>
+					{% if form.observers.help_text %}
+						<div id="{{ form.observers.auto_id }}_helptext" class="form_field_help">
+							{{ form.observers.help_text }}
+						</div>
+					{% endif %}
+				</div>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Associated photos</legend>
+			<div class="form_row">
+				<label for="{{ form.photos.id_for_label }}">{{ form.photos.label }}</label>
+				<div class="form_field">
+					{{ form.photos }}
+					{% if form.photos.help_text %}
+						<div id="{{ form.photos.auto_id }}_helptext" class="form_field_help">
+							{{ form.photos.help_text }}
+						</div>
+					{% endif %}
+					{% if form.photos.errors %}
+						<div id="{{ form.photos.auto_id }}_errors" class="form_field_errors">
+							{{ form.photos.errors }}
+						</div>
+					{% endif %}
+				</div>
+			</div>
+		</fieldset>
 		{# {% for field in form %}
 			<div class="form_row">
 				<label for="{{ field.id_for_label }}">{{ field.label }}</label>

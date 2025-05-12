@@ -20,6 +20,30 @@ textarea {
 	border: 0.0625rem solid hsla(0, 0%, 0%, 0.5);
 }
 
+fieldset {
+	border: none;
+	border-block-start: 0.0625rem solid hsla(0, 0%, 50%, 0.5);
+	margin: 0;
+	padding-block: 0;
+	padding-inline-start: 2rem;
+	padding-inline-end: 0;
+
+	& + :is(fieldset,.form_row) {
+		margin-block-start: 3rem;
+	}
+}
+
+legend {
+	font-weight: 600;
+	margin-inline-start: -0.5rem;
+	margin-block-end: 1rem;
+	padding-block: 0;
+	padding-inline: 0.5rem;
+	background-color: white;
+	text-transform: uppercase;
+	color: hsla(0, 0%, 50%, 0.75);
+}
+
 .form_row {
 	& > label + .form_field {
 		margin-block-start: 0.25rem;
