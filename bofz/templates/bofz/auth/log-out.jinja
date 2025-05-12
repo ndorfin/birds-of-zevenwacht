@@ -1,0 +1,10 @@
+{% extends 'layouts/default.jinja' %}
+{% set page_name = 'Log out' %}
+{% set page_description = 'Use your prevsiouly registered email and password to log in' %}
+
+{% block content %}
+	<form action="{{ url('logged-out') }}" method="POST">
+		{% csrf_token %}
+		<button type="submit">Log out</button>
+	</form>
+{% endblock %}

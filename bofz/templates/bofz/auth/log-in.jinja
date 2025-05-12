@@ -1,0 +1,26 @@
+{% extends 'layouts/default.jinja' %}
+{% set page_name = 'Log in' %}
+{% set page_description = 'Use your prevsiouly registered email and password to log in' %}
+
+{% block content %}
+	<form action="." method="POST">
+		{% csrf_token %}
+		<div class="form_row">
+			<label for="id_username">Username</label>
+			<div class="form_field">
+				{{ form.username }}
+			</div>
+		</div>
+		<div class="form_row">
+			<label for="id_password">Password</label>
+			<div class="form_field">
+				{{ form.password }}
+			</div>
+		</div>
+		<div class="form_row">
+			<button>Log in</button>
+			or <a href="{{ url('home') }}">Cancel</a>
+		</div>
+		<input type="hidden" name="next" value="{{ next or url('home') }}">
+	</form>
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends 'layouts/default.jinja' %}
+{% set page_name = 'Logged out' %}
+{% set page_description = 'See you next time' %}
+
+{% block content %}
+	<p>
+		<a href="{{ url('log-in') }}">Log in again</a>
+	</p>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% if user.is_authenticated %}
+	<form action="{{ url('logged-out') }}" id="form_logout" method="POST">
+		{% csrf_token %}
+	</form>
+	<p>
+		Logged-in as <i>{{ user.username }}</i>.
+		<button type="submit" form="form_logout">Log out</button>
+	</p>
+{% else %}
+	{% set next_url = request.get_full_path() %}
+	{% if 'logged-out' in next_url %}
+		{% set next_url = '/' %}
+	{% endif %}
+	<p>Not authenticated. <a href="{{ url('log-in') }}?next={{ next_url }}">Log in</a></p>
+{% endif %}

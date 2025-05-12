@@ -3,6 +3,9 @@
 {% set page_description = 'A list of recently-recorded sightings' %}
 
 {% block content %}
+	{% if user.is_authenticated %}
+		<p><a href="{{ url('sighting_add') }}">Add a sighting</a></p>
+	{% endif %}
 	{% if sightings %}
 		<nav>
 			<ul>

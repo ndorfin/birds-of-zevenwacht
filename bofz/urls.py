@@ -15,10 +15,12 @@ Including another URLconf
   2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path
+from django.contrib.auth import views as auth_views
 from .views import (
   ViewHome,
   ViewAbout,
   ViewAttribution,
+  ViewStartLogOut,
   AreaListView,
   AreaDetailView,
   BirdListView,
@@ -33,6 +35,7 @@ from .views import (
   SpeciesListListView,
   SpeciesListDetailView,
 )
+
 
 urlpatterns = [
   # Flat views
@@ -54,4 +57,8 @@ urlpatterns = [
   path("species-lists/<int:pk>/", SpeciesListDetailView.as_view(), name="species_list_detail"),
   # Interactive views
   path("sightings/add/", SightingAddView.as_view(), name="sighting_add"),
+  # Authentication views
+  path("log-in/", auth_views.LoginView.as_view(template_name="auth/log-in.jinja"), name="log-in"),
+  path("log-out/", ViewStartLogOut.as_view(), name="log-out"),
+  path("logged-out/", auth_views.LogoutView.as_view(template_name="auth/logged-out.jinja"), name="logged-out"),
 ]

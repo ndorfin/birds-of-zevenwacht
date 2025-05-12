@@ -24,6 +24,7 @@ load_dotenv(env_path)
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-l&o%wa(+wea))%b7wb1a99wf%j4vqvc_b9(1gg3=+fg4g5zw1b')
 
 # SECURITY WARNING: don't run with debug turned on in production!
+# DEBUG = False
 DEBUG = os.environ.get('DJANGO_DEBUG_ENABLED', '') == 'True'
 
 ALLOWED_HOSTS = [
@@ -73,9 +74,12 @@ TEMPLATES = [
     'APP_DIRS': True,
     'OPTIONS': {
       # See: https://niwi.nz/django-jinja/latest/#_custom_filters_globals_constants_and_tests
-      "constants": {
-        "debug": DEBUG,
+      'constants': {
+        'debug': DEBUG,
       },
+      'context_processors': [
+        'django.contrib.auth.context_processors.auth',
+      ],
     },
   },
   {

@@ -7,14 +7,13 @@ from .models import Area, RedListLevel, Bird, Photo, Sighting, Person, SpeciesLi
 # ===============================
 # Setup
 # ===============================
-
+DEFAULT_LAYOUT = 'layouts/default.jinja'
 class GenericView(View):
-  layout = 'layouts/default.jinja'
   template_name = ''
   
   def get_context(self, additional_context = {}):
     context = {
-      'layout': self.layout,
+      'layout': DEFAULT_LAYOUT,
       **additional_context,
     }
     return context
@@ -27,7 +26,7 @@ class GenericListView(ListView):
     # Call the base implementation first to get a context
     context = super().get_context_data(**kwargs)
     # Add extra context data
-    context["layout"] = 'layouts/default.jinja'
+    context["layout"] = DEFAULT_LAYOUT
     return context
 
 class GenericDetailView(DetailView):
@@ -35,7 +34,7 @@ class GenericDetailView(DetailView):
     # Call the base implementation first to get a context
     context = super().get_context_data(**kwargs)
     # Add extra context data
-    context["layout"] = 'layouts/default.jinja'
+    context["layout"] = DEFAULT_LAYOUT
     return context
 
 
@@ -59,6 +58,12 @@ class ViewAbout(GenericView):
 
 class ViewAttribution(GenericView):
   template_name = 'attribution.jinja'
+
+  def get(self, request):
+    return self.simple_get(request)
+
+class ViewStartLogOut(GenericView):
+  template_name = 'auth/log-out.jinja'
 
   def get(self, request):
     return self.simple_get(request)
