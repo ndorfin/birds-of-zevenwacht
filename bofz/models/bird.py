@@ -2,6 +2,10 @@ from django.db import models
 from .red_list_level import RedListLevel
 
 class Bird(models.Model):
+
+  class Meta:
+    ordering = ['family', 'common_name']
+
   def __str__(self):
     return self.common_name
   

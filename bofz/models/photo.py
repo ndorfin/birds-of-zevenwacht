@@ -1,13 +1,20 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.urls import reverse
 
 def person_id_folder_path(instance, filename): 
   # file will be uploaded to `MEDIA_ROOT/birds/<photographer.id>/<filename>`
   return 'birds/{0}/{1}'.format(instance.photographer.id, filename) 
 
 class Photo(models.Model):
+  class Meta:
+    ordering = ['-datetime']
+
   def __str__(self):
     return self.datetime.strftime('%Y-%m-%d %H:%M:%S')
+  
+  def get_absolute_url(self):
+    return reverse('photo_detail', args=[str(self.id)])
   
   datetime = models.DateTimeField("Date and time of photo",
     help_text="What date and time was this photo?",

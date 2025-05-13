@@ -144,7 +144,6 @@ class SightingAddView(PermissionRequiredMixin, GenericCreateView):
 
   def get_context_data(self, **kwargs):
     context = super().get_context_data(**kwargs)
-    # Add the SpeciesLists this Bird is a member of
     context['all_birds'] = Bird.objects.all()
     context['all_people'] = User.objects.all()
     return context

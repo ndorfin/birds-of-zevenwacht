@@ -71,7 +71,22 @@
 			<div class="form_row">
 				<label for="{{ form.bird.id_for_label }}">{{ form.bird.label }}</label>
 				<div class="form_field">
-					{{ form.bird }}
+					<select
+						name="{{ form.bird.name }}"
+						id="{{ form.bird.auto_id }}"
+						{% if form.bird.errors %}
+							aria-describedby="{{ form.bird.auto_id }}_errors"
+						{% elif form.bird.help_text %}
+							aria-describedby="{{ form.bird.auto_id }}_helptext"
+						{% endif %}
+						required>
+						<option value="">Select one</option>
+						<optgroup label="Previously seen birds">
+							{% for bird in all_birds %}
+								<option value="{{ bird.id }}">{{ bird }}</option>
+							{% endfor %}
+						</optgroup>
+					</select>
 					{% if form.bird.help_text %}
 						<div id="{{ form.bird.auto_id }}_helptext" class="form_field_help">
 							{{ form.bird.help_text }}
