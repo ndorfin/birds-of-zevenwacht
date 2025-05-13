@@ -1,0 +1,95 @@
+{% extends layout %}
+{% set page_name = 'Add Photo' %}
+{% set page_description = 'Contribute to Birds of Zevenwacht by adding your own Photos' %}
+
+{% block notifications %}
+	{% if form.errors %}
+		<div class="notification" data-type="error" role="alert">
+			<h3 class="heading heading_paragraph">Oops!</h3>
+			<p>
+				There were problems with the fields below
+			</p>
+			{% if form.non_field_errors() %}
+				{{ form.non_field_errors() }}
+			{% endif %}
+		</div>
+	{% endif %}
+{% endblock %}
+
+{% block content %}
+	<form method="POST" action="." enctype="multipart/form-data">
+		{% csrf_token %}
+		<input
+			type="hidden"
+			name="{{ form.photographer.name }}"
+			value="{{ user.id }}">
+		<fieldset>
+			<legend>Time and Place</legend>
+			<div class="form_row">
+				<label for="{{ form.datetime.id_for_label }}">{{ form.datetime.label }}</label>
+				<div class="form_field">
+					<input
+						type="datetime-local"
+						name="{{ form.datetime.name }}"
+						id="{{ form.datetime.auto_id }}"
+						value="{{ form.datetime.value() or '' }}"
+						{% if form.datetime.errors %}
+							aria-describedby="{{ form.datetime.auto_id }}_errors"
+						{% elif form.datetime.help_text %}
+							aria-describedby="{{ form.datetime.auto_id }}_helptext"
+						{% endif %}
+						required>
+					{% if form.datetime.help_text %}
+						<div id="{{ form.datetime.auto_id }}_helptext" class="form_field_help">
+							{{ form.datetime.help_text }}
+						</div>
+					{% endif %}
+					{% if form.datetime.errors %}
+						<div id="{{ form.datetime.auto_id }}_errors" class="form_field_errors">
+							{{ form.datetime.errors }}
+						</div>
+					{% endif %}
+				</div>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Upload photo</legend>
+			<div class="form_row">
+				<label for="{{ form.source_photo.id_for_label }}">{{ form.source_photo.label }}</label>
+				<div class="form_field">
+					{{ form.source_photo }}
+					{% if form.source_photo.help_text %}
+						<div id="{{ form.source_photo.auto_id }}_helptext" class="form_field_help">
+							{{ form.source_photo.help_text }}
+						</div>
+					{% endif %}
+					{% if form.source_photo.errors %}
+						<div id="{{ form.source_photo.auto_id }}_errors" class="form_field_errors">
+							{{ form.source_photo.errors }}
+						</div>
+					{% endif %}
+				</div>
+			</div>
+			<div class="form_row">
+				<label for="{{ form.description.id_for_label }}">{{ form.description.label }}</label>
+				<div class="form_field">
+					{{ form.description }}
+					{% if form.description.help_text %}
+						<div id="{{ form.description.auto_id }}_helptext" class="form_field_help">
+							{{ form.description.help_text }}
+						</div>
+					{% endif %}
+					{% if form.description.errors %}
+						<div id="{{ form.description.auto_id }}_errors" class="form_field_errors">
+							{{ form.description.errors }}
+						</div>
+					{% endif %}
+				</div>
+			</div>
+		</fieldset>
+		<div class="form_row">
+			<button type="submit">Add Photo</button>
+		</div>
+	</form>
+{% endblock %}

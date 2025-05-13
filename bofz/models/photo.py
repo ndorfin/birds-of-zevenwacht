@@ -17,7 +17,7 @@ class Photo(models.Model):
     return reverse('photo_detail', args=[str(self.id)])
   
   datetime = models.DateTimeField("Date and time of photo",
-    help_text="What date and time was this photo?",
+    help_text="What date and time was this photo taken at?",
     db_comment="We need a to-the-minute recording of the time and date of this photo",
   )
   photographer = models.ForeignKey(

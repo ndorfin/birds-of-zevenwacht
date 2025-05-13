@@ -2,6 +2,12 @@
 {% set page_name = 'Photos' %}
 {% set page_description = 'A list of recently-recorded photos' %}
 
+{% block toolbar %}
+	{% if user.is_authenticated %}
+		<p><a href="{{ url('photo_add') }}" class="button">Add a photo</a></p>
+	{% endif %}
+{% endblock %}
+
 {% block content %}
 	{% if photos %}
 		<nav>

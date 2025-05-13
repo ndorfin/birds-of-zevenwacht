@@ -122,6 +122,14 @@ class PhotoDetailView(GenericDetailView):
   context_object_name = "photo"
   template_name = "photos/detail.jinja"
 
+class PhotoAddView(PermissionRequiredMixin, GenericCreateView):
+  model = Photo
+  permission_required = "bofz.can_add_photo"
+  template_name = "photos/add.jinja"
+  login_url = "log-in"
+  fields = "__all__"
+  
+
 # Sightings
 # ------------------
 class SightingListView(GenericListView):

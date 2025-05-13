@@ -25,6 +25,7 @@ from .views import (
   AreaDetailView,
   BirdListView,
   BirdDetailView,
+  PhotoAddView,
   PhotoListView,
   PhotoDetailView,
   SightingAddView,
@@ -56,6 +57,7 @@ urlpatterns = [
   path("species-lists/", SpeciesListListView.as_view(), name="species_lists_list"),
   path("species-lists/<int:pk>/", SpeciesListDetailView.as_view(), name="species_list_detail"),
   # Interactive views
+  path("photos/add/", PhotoAddView.as_view(), name="photo_add"),
   path("sightings/add/", SightingAddView.as_view(), name="sighting_add"),
   # Authentication views
   path("log-in/", auth_views.LoginView.as_view(template_name="auth/log-in.jinja"), name="log-in"),
