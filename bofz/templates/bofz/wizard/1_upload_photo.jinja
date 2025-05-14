@@ -3,28 +3,36 @@
 {% set page_description = 'Contribute to Birds of Zevenwacht by adding your own Photo and/or Sighting' %}
 
 {% block step_content %}
-	<form method="POST" action="." enctype="multipart/form-data">
+	<form id="wizard_form" method="POST" action="" enctype="multipart/form-data">
 		{% csrf_token %}
+		{{ wizard.management_form }}
 		<div class="form_row">
-			<label for="fil_photo">Upload a photo:</label>
+			<label for="{{ wizard.form.source_photo.id_for_label }}">Upload a photo (Optional)</label>
 			<div class="form_field">
 				<input
 					type="file"
-					id="fil_photo"
-					{# {% if form.source_photo.errors %}
-						aria-describedby="photo_error_messages"
-					{% endif %} #}
-					required>
-				{# {% if form.source_photo.errors %}
-					<div id="photo_error_messages" class="form_field_errors">
-						{{ form.source_photo.errors }}
+					id="{{ wizard.form.source_photo.auto_id }}"
+					name="{{ wizard.form.source_photo.html_name }}"
+					{% if wizard.form.source_photo.errors %}
+						aria-describedby="{{ wizard.form.source_photo.auto_id }}_errors"
+					{% elif wizard.form.source_photo.help_text %}
+						aria-describedby="{{ wizard.form.source_photo.auto_id }}_helptext"
+					{% endif %}
+					>
+				{% if wizard.form.source_photo.help_text %}
+					<div id="{{ wizard.form.source_photo.auto_id }}_helptext" class="form_field_help">
+						{{ wizard.form.source_photo.help_text }}
 					</div>
-				{% endif %} #}
+				{% endif %}
+				{% if wizard.form.source_photo.errors %}
+					<div id="{{ wizard.form.source_photo.auto_id }}_errors" class="form_field_errors">
+						{{ wizard.form.source_photo.errors }}
+					</div>
+				{% endif %}
 			</div>
 		</div>
 		<div class="form_row">
 			<button type="submit">Next</button>
-			or <a href="{{ url('wizard_edit_location') }}">Skip</a>
 		</div>
 	</form>
 {% endblock %}

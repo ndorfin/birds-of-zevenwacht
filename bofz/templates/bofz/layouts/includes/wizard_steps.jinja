@@ -1,26 +1,27 @@
-{% set steps = [
-	('Start', 'wizard_upload_photo'),
-	('Photo', 'wizard_edit_photo'),
-	('Location', 'wizard_edit_location'),
-	('Birds', 'wizard_add_birds'),
-	('Extra info', 'wizard_add_extra'),
-	('Done', 'wizard_done'),
-] %}
-{% set step_current = namespace(index=0) %}
-{% for label, url_name in steps %}
-	{% if url(url_name) == request.get_full_path() %}
-		{% set step_current.index = loop.index0 %}
-	{% endif %}
-{% endfor %}
+{% set steps_label_dict = {
+	'start': 'Start',
+	'photo': 'Photo',
+	'location': 'Location',
+	'birds': 'Birds',
+	'extra-info': 'Extra info',
+} %}
 <aside class="layout_aside" aria-labelledby="aside_heading">
 	<h3 id="aside_heading" class="heading heading_section">Progress</h3>
 	<ol class="list_steps">
-		{% for label, url_name in steps %}
+		{% for step in wizard.steps.all %}
 			<li>
-				{% if step_current.index >= loop.index0  %}
-					<a href="{{ url(url_name) }}" {% if url(url_name) == request.get_full_path() %}aria-current="page"{% endif %}>{{ label }}</a>
+				{% if wizard.steps.step0 > loop.index0 %}
+					<button
+						class="button_link"
+						form="wizard_form"
+						name="wizard_goto_step"
+						type="submit"
+						value="{{ step }}"
+						formnovalidate>{{ steps_label_dict[step] }}</button>
+				{% elif step == wizard.steps.current %}
+					<b>{{ steps_label_dict[step] }}</b>
 				{% else %}
-					<span>{{ label }}</span>
+					<span>{{ steps_label_dict[step] }}</span>
 				{% endif %}
 			</li>
 		{% endfor %}

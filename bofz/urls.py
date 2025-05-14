@@ -14,7 +14,7 @@ Including another URLconf
   1. Import the include() function: from django.urls import include, path
   2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.urls import path
+from django.urls import path, re_path
 from django.contrib.auth import views as auth_views
 from django.views.generic import RedirectView
 from .views import (
@@ -36,14 +36,33 @@ from .views import (
   PersonDetailView,
   SpeciesListListView,
   SpeciesListDetailView,
-  WizardUploadPhotoView,
-  WizardEditPhotoView,
-  WizardEditLocationView,
-  WizardAddBirdsView,
-  WizardAddExtraView,
-  WizardDoneView,
+  WizardAddEntryViews,
+  skip_photo_upload,
+  WizardAddEntryDoneView,
+  # WizardUploadPhotoView,
+  # WizardEditPhotoView,
+  # WizardEditLocationView,
+  # WizardAddBirdsView,
+  # WizardAddExtraView,
+  # WizardDoneView,
 )
+from .forms import WizardUploadPhotoForm, WizardEditPhotoForm, WizardEditLocationForm, WizardAddBirdsForm, WizardAddExtraForm
 
+WIZARD_ADD_ENTRY_FORMS = [
+  ('start', WizardUploadPhotoForm),
+	('photo', WizardEditPhotoForm),
+	('location', WizardEditLocationForm),
+	('birds', WizardAddBirdsForm),
+	('extra-info', WizardAddExtraForm),
+]
+
+wizard_view = WizardAddEntryViews.as_view(
+  WIZARD_ADD_ENTRY_FORMS,
+  condition_dict={
+    'photo': skip_photo_upload,
+  },
+  url_name='wizard'
+)
 
 urlpatterns = [
   # Flat views
@@ -66,13 +85,8 @@ urlpatterns = [
   # Interactive views
   path("photos/add/", PhotoAddView.as_view(), name="photo_add"),
   path("sightings/add/", SightingAddView.as_view(), name="sighting_add"),
-  path("wizard/", RedirectView.as_view(url="/wizard/upload-photo/", permanent=True), name="wizard"),
-  path("wizard/upload-photo/", WizardUploadPhotoView.as_view(), name="wizard_upload_photo"),
-  path("wizard/edit-photo/", WizardEditPhotoView.as_view(), name="wizard_edit_photo"),
-  path("wizard/edit-location/", WizardEditLocationView.as_view(), name="wizard_edit_location"),
-  path("wizard/add-birds/", WizardAddBirdsView.as_view(), name="wizard_add_birds"),
-  path("wizard/add-extra/", WizardAddExtraView.as_view(), name="wizard_add_extra"),
-  path("wizard/done/", WizardDoneView.as_view(), name="wizard_done"),
+  re_path(r'^wizard/(?P<step>.+)/$', wizard_view, name="wizard"),
+  path("wizard/done/", WizardAddEntryDoneView.as_view(), name="wizard_done"),
   # Authentication views
   path("log-in/", auth_views.LoginView.as_view(template_name="auth/log-in.jinja"), name="log-in"),
   path("log-out/", ViewStartLogOut.as_view(), name="log-out"),

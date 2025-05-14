@@ -3,8 +3,91 @@
 {% set page_description = 'Provide more details about the photo' %}
 
 {% block step_content %}
-	<form method="POST" action="." enctype="multipart/form-data">
+	<p style="float:inline-end; max-inline-size: 10rem;">
+		<img src="{{ photo }}" alt>
+	</p>
+	<form id="wizard_form" method="POST" action="." enctype="multipart/form-data">
 		{% csrf_token %}
+		{{ wizard.management_form }}
+		<div class="form_row">
+			<label for="{{ wizard.form.datetime.id_for_label }}">Date and time</label>
+			<div class="form_field">
+				<input
+					type="datetime-local"
+					id="{{ wizard.form.datetime.auto_id }}"
+					name="{{ wizard.form.datetime.html_name }}"
+					value="{{ wizard.form.datetime.value() }}"
+					{% if wizard.form.datetime.errors %}
+						aria-describedby="{{ wizard.form.datetime.auto_id }}_errors"
+					{% elif wizard.form.datetime.help_text %}
+						aria-describedby="{{ wizard.form.datetime.auto_id }}_helptext"
+					{% endif %}
+					required>
+				{% if wizard.form.datetime.help_text %}
+					<div id="{{ wizard.form.datetime.auto_id }}_helptext" class="form_field_help">
+						{{ wizard.form.datetime.help_text }}
+					</div>
+				{% endif %}
+				{% if wizard.form.datetime.errors %}
+					<div id="{{ wizard.form.datetime.auto_id }}_errors" class="form_field_errors">
+						{{ wizard.form.datetime.errors }}
+					</div>
+				{% endif %}
+			</div>
+		</div>
+		<div class="form_row">
+			<label for="{{ wizard.form.description.id_for_label }}">Description</label>
+			<div class="form_field">
+				<input
+					type="text"
+					id="{{ wizard.form.description.auto_id }}"
+					name="{{ wizard.form.description.html_name }}"
+					value="{{ wizard.form.description.value() or '' }}"
+					{% if wizard.form.description.errors %}
+						aria-describedby="{{ wizard.form.description.auto_id }}_errors"
+					{% elif wizard.form.description.help_text %}
+						aria-describedby="{{ wizard.form.description.auto_id }}_helptext"
+					{% endif %}
+					required>
+				{% if wizard.form.description.help_text %}
+					<div id="{{ wizard.form.description.auto_id }}_helptext" class="form_field_help">
+						{{ wizard.form.description.help_text }}
+					</div>
+				{% endif %}
+				{% if wizard.form.description.errors %}
+					<div id="{{ wizard.form.description.auto_id }}_errors" class="form_field_errors">
+						{{ wizard.form.description.errors }}
+					</div>
+				{% endif %}
+			</div>
+		</div>
+		<div class="form_row">
+			<label for="{{ wizard.form.photographer.id_for_label }}">Photographer</label>
+			<div class="form_field">
+				<input
+					type="text"
+					id="{{ wizard.form.photographer.auto_id }}"
+					name="{{ wizard.form.photographer.html_name }}"
+					value="{{ user.username }}"
+					readonly
+					{% if wizard.form.photographer.errors %}
+						aria-describedby="{{ wizard.form.photographer.auto_id }}_errors"
+					{% elif wizard.form.photographer.help_text %}
+						aria-describedby="{{ wizard.form.photographer.auto_id }}_helptext"
+					{% endif %}
+					required>
+				{% if wizard.form.photographer.help_text %}
+					<div id="{{ wizard.form.photographer.auto_id }}_helptext" class="form_field_help">
+						{{ wizard.form.photographer.help_text }}
+					</div>
+				{% endif %}
+				{% if wizard.form.photographer.errors %}
+					<div id="{{ wizard.form.photographer.auto_id }}_errors" class="form_field_errors">
+						{{ wizard.form.photographer.errors }}
+					</div>
+				{% endif %}
+			</div>
+		</div>
 		{# <div class="form_row">
 			<label for="{{ form.datetime.id_for_label }}">{{ form.datetime.label }}</label>
 			<div class="form_field">

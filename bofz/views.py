@@ -1,8 +1,14 @@
-from django.shortcuts import render
+import os
+from django.http import HttpResponseRedirect
+from django.conf import settings
 from django.contrib.auth.models import User
 from django.contrib.auth.mixins import PermissionRequiredMixin
+from django.core.files.storage import FileSystemStorage
+from django.shortcuts import render
+from django.urls import reverse
 from django.views import View
 from django.views.generic import DetailView, ListView, CreateView
+from formtools.wizard.views import NamedUrlSessionWizardView
 from .models import Area, RedListLevel, Bird, Photo, Sighting, SpeciesList
 
 DEFAULT_LAYOUT = 'layouts/default.jinja'
@@ -181,40 +187,59 @@ class SpeciesListDetailView(GenericDetailView):
   template_name = "species-lists/detail.jinja"
 
 
-# Wizard: Create Sighting (and Photo)
-# -----------------------------------
-class WizardUploadPhotoView(GenericView):
-  template_name = "wizard/1_upload_photo.jinja"
+# Wizard: Create Sighting (and Photo) using `django-formtools`
+# -----------------------------------------------------------
+WIZARD_ADD_ENTRY_TEMPLATES = {
+  'start':      "wizard/1_upload_photo.jinja",
+	'photo':      "wizard/2_edit_photo.jinja",
+	'location':   "wizard/3_edit_location.jinja",
+	'birds':      "wizard/4_add_birds.jinja",
+	'extra-info': "wizard/5_add_extra.jinja",
+}
 
-  def get(self, request):
-    return self.simple_get(request)
+def skip_photo_upload(wizard):
+  cleaned_data = wizard.get_cleaned_data_for_step('start') or {}
+  return cleaned_data.get('source_photo') != None
 
-class WizardEditPhotoView(GenericView):
-  template_name = "wizard/2_edit_photo.jinja"
+class WizardAddEntryViews(NamedUrlSessionWizardView):
+  file_storage = FileSystemStorage(location=os.path.join(settings.MEDIA_ROOT, 'wizard_photos'))
 
-  def get(self, request):
-    return self.simple_get(request)
+  def get_context_data(self, form, **kwargs):
+    context = super().get_context_data(form=form, **kwargs)
+    print("=========================")
+    print("self.get_cleaned_data_for_step('start')", self.get_cleaned_data_for_step('start'))
+    print("=========================")
+    if self.steps.current == 'photo':
+      previous_form_data = self.get_cleaned_data_for_step('start')
+      context.update({'photo': '/media/wizard_photos/' + str(previous_form_data.get('source_photo')) })
+    return context
 
-class WizardEditLocationView(GenericView):
-  template_name = "wizard/3_edit_location.jinja"
+  def get_form_step_data(self, form):
+    print("=========================")
+    print("form.data", form.data)
+    print("=========================")
+    return form.data
+  # on step change:
+  #   self.storage.set_step_data('start', {})
+  def get_form_step_files(self, form):
+    print("=========================")
+    print("form.files", form.files)
+    print("=========================")
+    return form.files
 
-  def get(self, request):
-    return self.simple_get(request)
+  def get_template_names(self):
+    return [WIZARD_ADD_ENTRY_TEMPLATES[self.steps.current]]
 
-class WizardAddBirdsView(GenericView):
-  template_name = "wizard/4_add_birds.jinja"
+  def done(self, form_list, **kwargs):
+    print("form_list", form_list)
+    # Photo.save()
+    # Sighting.save()
+    return HttpResponseRedirect(reverse('wizard_done'))
 
-  def get(self, request):
-    return self.simple_get(request)
 
-class WizardAddExtraView(GenericView):
-  template_name = "wizard/5_add_extra.jinja"
-
-  def get(self, request):
-    return self.simple_get(request)
-
-class WizardDoneView(GenericView):
+class WizardAddEntryDoneView(GenericView):
   template_name = "wizard/6_done.jinja"
-
+  
   def get(self, request):
     return self.simple_get(request)
+

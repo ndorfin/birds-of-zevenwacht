@@ -3,9 +3,9 @@
 {% set page_description = "Anything else you'd like to add?" %}
 
 {% block step_content %}
-	<form method="POST" action="." enctype="multipart/form-data">
+	<form id="wizard_form" method="POST" action="." enctype="multipart/form-data">
 		{% csrf_token %}
-
+		{{ wizard.management_form }}
 		<div class="form_row">
 			<button type="submit">Done</button>
 		</div>

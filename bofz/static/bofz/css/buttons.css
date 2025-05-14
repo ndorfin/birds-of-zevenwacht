@@ -9,3 +9,11 @@
 	text-decoration: none;
 	color: inherit;
 }
+.button_link {
+	padding: 0;
+	margin: 0;
+	background: none;
+	border: none;
+	color: var(--color-link-default);
+	cursor: pointer;
+}
