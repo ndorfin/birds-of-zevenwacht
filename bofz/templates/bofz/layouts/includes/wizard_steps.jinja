@@ -1,10 +1,10 @@
 {% set steps = [
-	('Start', 'wizard_upload_photo',),
-	('Photo', 'wizard_edit_photo',),
-	('Location', 'wizard_edit_location',),
-	('Birds', 'wizard_add_birds',),
-	('Extra info', 'wizard_add_extra',),
-	('Done', 'wizard_done',),
+	('Start', 'wizard_upload_photo'),
+	('Photo', 'wizard_edit_photo'),
+	('Location', 'wizard_edit_location'),
+	('Birds', 'wizard_add_birds'),
+	('Extra info', 'wizard_add_extra'),
+	('Done', 'wizard_done'),
 ] %}
 {% set step_current = namespace(index=0) %}
 {% for label, url_name in steps %}
