@@ -179,3 +179,42 @@ class SpeciesListDetailView(GenericDetailView):
   model = SpeciesList
   context_object_name = "species_list"
   template_name = "species-lists/detail.jinja"
+
+
+# Wizard: Create Sighting (and Photo)
+# -----------------------------------
+class WizardUploadPhotoView(GenericView):
+  template_name = "wizard/1_upload_photo.jinja"
+
+  def get(self, request):
+    return self.simple_get(request)
+
+class WizardEditPhotoView(GenericView):
+  template_name = "wizard/2_edit_photo.jinja"
+
+  def get(self, request):
+    return self.simple_get(request)
+
+class WizardEditLocationView(GenericView):
+  template_name = "wizard/3_edit_location.jinja"
+
+  def get(self, request):
+    return self.simple_get(request)
+
+class WizardAddBirdsView(GenericView):
+  template_name = "wizard/4_add_birds.jinja"
+
+  def get(self, request):
+    return self.simple_get(request)
+
+class WizardAddExtraView(GenericView):
+  template_name = "wizard/5_add_extra.jinja"
+
+  def get(self, request):
+    return self.simple_get(request)
+
+class WizardDoneView(GenericView):
+  template_name = "wizard/6_done.jinja"
+
+  def get(self, request):
+    return self.simple_get(request)

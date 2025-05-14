@@ -1,0 +1,54 @@
+{% extends "layouts/wizard.jinja" %}
+{% set page_name = 'New entry: Edit photo' %}
+{% set page_description = 'Provide more details about the photo' %}
+
+{% block step_content %}
+	<form method="POST" action="." enctype="multipart/form-data">
+		{% csrf_token %}
+		{# <div class="form_row">
+			<label for="{{ form.datetime.id_for_label }}">{{ form.datetime.label }}</label>
+			<div class="form_field">
+				<input
+					type="datetime-local"
+					name="{{ form.datetime.name }}"
+					id="{{ form.datetime.auto_id }}"
+					value="{{ form.datetime.value() or '' }}"
+					{% if form.datetime.errors %}
+						aria-describedby="{{ form.datetime.auto_id }}_errors"
+					{% elif form.datetime.help_text %}
+						aria-describedby="{{ form.datetime.auto_id }}_helptext"
+					{% endif %}
+					required>
+				{% if form.datetime.help_text %}
+					<div id="{{ form.datetime.auto_id }}_helptext" class="form_field_help">
+						{{ form.datetime.help_text }}
+					</div>
+				{% endif %}
+				{% if form.datetime.errors %}
+					<div id="{{ form.datetime.auto_id }}_errors" class="form_field_errors">
+						{{ form.datetime.errors }}
+					</div>
+				{% endif %}
+			</div>
+		</div> #}
+		{# <div class="form_row">
+			<label for="{{ form.description.id_for_label }}">{{ form.description.label }}</label>
+			<div class="form_field">
+				{{ form.description }}
+				{% if form.description.help_text %}
+					<div id="{{ form.description.auto_id }}_helptext" class="form_field_help">
+						{{ form.description.help_text }}
+					</div>
+				{% endif %}
+				{% if form.description.errors %}
+					<div id="{{ form.description.auto_id }}_errors" class="form_field_errors">
+						{{ form.description.errors }}
+					</div>
+				{% endif %}
+			</div>
+		</div> #}
+		<div class="form_row">
+			<button type="submit">Next</button>
+		</div>
+	</form>
+{% endblock %}

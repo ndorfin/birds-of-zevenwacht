@@ -1,0 +1,13 @@
+{% extends "layouts/wizard.jinja" %}
+{% set page_name = 'New entry: Add extra info' %}
+{% set page_description = "Anything else you'd like to add?" %}
+
+{% block step_content %}
+	<form method="POST" action="." enctype="multipart/form-data">
+		{% csrf_token %}
+
+		<div class="form_row">
+			<button type="submit">Done</button>
+		</div>
+	</form>
+{% endblock %}

@@ -1,0 +1,13 @@
+@media (width > 640px) {
+	.layout_aside {
+		float: inline-end;
+		margin-inline-start: 3rem;
+		margin-block-end: 3rem;
+		padding-inline: 1rem;
+		min-inline-size: 10rem;
+
+		& > .heading {
+			margin-block-start: 0;
+		}
+	}
+}

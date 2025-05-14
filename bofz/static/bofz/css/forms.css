@@ -2,6 +2,7 @@ button,
 input:is(
 	[type="datetime-local"],
 	[type="email"],
+	[type="file"],
 	[type="number"],
 	[type="password"],
 	[type="search"],

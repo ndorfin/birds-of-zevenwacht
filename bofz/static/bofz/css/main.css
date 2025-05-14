@@ -35,5 +35,9 @@ main {
 		max-inline-size: 80ch;
 		color: hsl(0 0% 30%);
 	}
+
+	&:has(> .layout_aside) {
+		overflow: hidden;
+	}
 }
 
