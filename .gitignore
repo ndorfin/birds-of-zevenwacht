@@ -7,3 +7,4 @@ dump
 **/__pycache__
 media
 data/db.sqlite3
+.venv

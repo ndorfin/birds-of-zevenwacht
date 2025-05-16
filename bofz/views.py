@@ -189,6 +189,7 @@ class SpeciesListDetailView(GenericDetailView):
 
 # Wizard: Create Sighting (and Photo) using `django-formtools`
 # -----------------------------------------------------------
+# See: https://django-formtools.readthedocs.io/en/latest/index.html
 WIZARD_ADD_ENTRY_TEMPLATES = {
   'start':      "wizard/1_upload_photo.jinja",
 	'photo':      "wizard/2_edit_photo.jinja",
@@ -203,6 +204,8 @@ def skip_photo_upload(wizard):
 
 class WizardAddEntryViews(NamedUrlSessionWizardView):
   file_storage = FileSystemStorage(location=os.path.join(settings.MEDIA_ROOT, 'wizard_photos'))
+
+  # See: https://github.com/jazzband/django-formtools/issues/207
 
   def get_context_data(self, form, **kwargs):
     context = super().get_context_data(form=form, **kwargs)
