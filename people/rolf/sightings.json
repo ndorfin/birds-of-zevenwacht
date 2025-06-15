@@ -2272,11 +2272,12 @@
 			"bird": {
 	"name": "Purple Heron",
 	"family_name": "Heron",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Purpurreiher",
+	"afrikaans_name": "Rooireier",
 	"genus": "Ardea",
 	"species": "purpurea",
 	"ebird": "https://ebird.org/species/purher1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Purple_heron",
 	"red-list": "least-concern"
 },
 			"quantity": 1,

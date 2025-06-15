@@ -682,6 +682,23 @@
 	
 		,
 		{
+			"id": "duck-white-faced-whistling",
+			"genus": "Dendrocygna",
+			"species": "viduata",
+			"family": "Duck",
+			"common_name": "White-faced Whistling Duck",
+			"german_name": "Witwenpfeifgans",
+			"afrikaans_name": "Nonnetjie-eend",
+			"ebird": "https://ebird.org/species/wfwduc1/ZA",
+			"wikipedia": "https://en.wikipedia.org/wiki/White-faced_whistling_duck",
+			"redlist_level": "least-concern",
+			"sighted": true,
+			"photographed": false,
+			"potential": false
+		}
+	
+		,
+		{
 			"id": "duck-wood",
 			"genus": "Aix",
 			"species": "sponsa",
@@ -930,9 +947,9 @@
 			"ebird": "https://ebird.org/species/spwgoo1/ZA",
 			"wikipedia": "",
 			"redlist_level": "least-concern",
-			"sighted": false,
+			"sighted": true,
 			"photographed": false,
-			"potential": true
+			"potential": false
 		}
 	
 		,
@@ -1129,10 +1146,10 @@
 			"species": "purpurea",
 			"family": "Heron",
 			"common_name": "Purple Heron",
-			"german_name": "",
-			"afrikaans_name": "",
+			"german_name": "Purpurreiher",
+			"afrikaans_name": "Rooireier",
 			"ebird": "https://ebird.org/species/purher1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Purple_heron",
 			"redlist_level": "least-concern",
 			"sighted": true,
 			"photographed": false,
@@ -1413,11 +1430,11 @@
 	
 		,
 		{
-			"id": "martin-plain",
+			"id": "martin-brown-throated",
 			"genus": "Riparia",
 			"species": "paludicola",
 			"family": "Martin",
-			"common_name": "Plain Martin",
+			"common_name": "Brown-throated Martin",
 			"german_name": "",
 			"afrikaans_name": "Afrikaanse Oewerswael",
 			"ebird": "https://ebird.org/species/plamar1/ZA",
@@ -1729,9 +1746,9 @@
 			"ebird": "https://ebird.org/species/kasrob2/ZA",
 			"wikipedia": "",
 			"redlist_level": "least-concern",
-			"sighted": false,
+			"sighted": true,
 			"photographed": false,
-			"potential": true
+			"potential": false
 		}
 	
 		,
@@ -1894,14 +1911,14 @@
 			"species": "alba",
 			"family": "Spoonbill",
 			"common_name": "African Spoonbill",
-			"german_name": "",
+			"german_name": "Rotgesichtlöffler",
 			"afrikaans_name": "Lepelaar",
 			"ebird": "https://ebird.org/species/afrspo1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/African_spoonbill",
 			"redlist_level": "least-concern",
-			"sighted": false,
+			"sighted": true,
 			"photographed": false,
-			"potential": true
+			"potential": false
 		}
 	
 		,
@@ -1950,9 +1967,9 @@
 			"ebird": "https://ebird.org/species/rewsta1/ZA",
 			"wikipedia": "",
 			"redlist_level": "least-concern",
-			"sighted": false,
+			"sighted": true,
 			"photographed": false,
-			"potential": true
+			"potential": false
 		}
 	
 		,
@@ -1984,9 +2001,9 @@
 			"ebird": "https://ebird.org/species/afrsto1/ZA",
 			"wikipedia": "",
 			"redlist_level": "least-concern",
-			"sighted": false,
+			"sighted": true,
 			"photographed": false,
-			"potential": true
+			"potential": false
 		}
 	
 		,
@@ -2246,6 +2263,23 @@
 	
 		,
 		{
+			"id": "swift-horus",
+			"genus": "Apus",
+			"species": "horus",
+			"family": "Swift",
+			"common_name": "Horus Swift",
+			"german_name": "Horussegler",
+			"afrikaans_name": "Horuswindswael",
+			"ebird": "https://ebird.org/species/horswi1/ZA",
+			"wikipedia": "https://en.wikipedia.org/wiki/Horus_swift",
+			"redlist_level": "least-concern",
+			"sighted": true,
+			"photographed": false,
+			"potential": false
+		}
+	
+		,
+		{
 			"id": "swift-little",
 			"genus": "Apus",
 			"species": "affinis",
@@ -2292,6 +2326,23 @@
 			"redlist_level": "least-concern",
 			"sighted": true,
 			"photographed": true,
+			"potential": false
+		}
+	
+		,
+		{
+			"id": "thick-knee-water",
+			"genus": "Burhinus",
+			"species": "vermiculatus",
+			"family": "Thick-knee",
+			"common_name": "Water Thick-knee",
+			"german_name": "Wassertriel",
+			"afrikaans_name": "Waterdikkop",
+			"ebird": "https://ebird.org/species/watkne1/ZA",
+			"wikipedia": "https://en.wikipedia.org/wiki/Water_thick-knee",
+			"redlist_level": "least-concern",
+			"sighted": true,
+			"photographed": false,
 			"potential": false
 		}
 	

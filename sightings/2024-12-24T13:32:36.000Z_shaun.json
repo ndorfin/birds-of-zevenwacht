@@ -4,7 +4,7 @@
 {
 	"datetime": "2024-12-24T13:32:36.000Z",
 	"bird": {
-	"name": "Plain Martin",
+	"name": "Brown-throated Martin",
 	"family_name": "Martin",
 	"german_name": null,
 	"afrikaans_name": "Afrikaanse Oewerswael",
@@ -151,7 +151,7 @@
 	"sighting": "2024-12-24T13:32:36.000Z_shaun",
 	"description": "This Martin was doing orbits around the nearby pine trees. We suspect it was on alert or its nest was threatened.",
 	"birds": [
-		"martin-plain"
+		"martin-brown-throated"
 	],
 	"photographer": "shaun",
 	"location": {
