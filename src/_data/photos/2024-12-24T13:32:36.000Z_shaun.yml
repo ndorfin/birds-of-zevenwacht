@@ -7,7 +7,7 @@ sighting: 2024-12-24T13:32:36.000Z_shaun
 description: This Martin was doing orbits around the nearby pine trees. We suspect it was on alert or its nest was threatened.
 # List each of the bird IDs present in this photo
 birds:
-  - martin-plain
+  - martin-brown-throated
 # Link this photo to a photographer (matching a file in the _data/people folder)
 photographer: shaun
 location:

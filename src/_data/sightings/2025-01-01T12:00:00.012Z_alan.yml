@@ -1,22 +1,21 @@
 # Add an ISO8601 date
 # 2024-09-04T14:23:59Z 
-datetime: 2024-12-24T13:32:36.000Z
+datetime: 2025-01-01T12:00:00.012Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  We saw this Brown-throated Martin doing orbits through the ravine behind the lower Langverwacht dam.
+  
 bird:
   # Supply a matching Bird ID
-  id: martin-brown-throated
+  id: pipit-african
   # How many individuals did you spot?
   quantity: 1
 # Link this Sighting to a Photo, by its ID
-photos: 
-  - 2024-12-24T13:32:36.000Z_shaun
+# photos: 
+#   - 
 # Include all the people that spotted this bird.
 observers:
-  - shaun
-  - jayesh
+  - alan
 location:
-  area: langverwacht-estate
-  latitude: -33.933633
-  longitude: 18.718013
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.932653
+  longitude: 18.715304
