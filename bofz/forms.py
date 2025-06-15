@@ -2,6 +2,7 @@ from django import forms
 
 class WizardUploadPhotoForm(forms.Form):
   source_photo = forms.ImageField(required=False)
+  upload = forms.BooleanField(required=False)
 
 
 class WizardEditPhotoForm(forms.Form):

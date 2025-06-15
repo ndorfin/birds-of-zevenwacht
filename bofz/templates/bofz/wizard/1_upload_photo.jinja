@@ -1,6 +1,6 @@
 {% extends "layouts/wizard.jinja" %}
 {% set page_name = 'Add an entry' %}
-{% set page_description = 'Contribute to Birds of Zevenwacht by adding your own Photo and/or Sighting' %}
+{% set page_description = 'Contribute to Birds of Zevenwacht by adding your own Sighting (and Photo)' %}
 
 {% block step_content %}
 	<form id="wizard_form" method="POST" action="" enctype="multipart/form-data">
@@ -18,7 +18,7 @@
 					{% elif wizard.form.source_photo.help_text %}
 						aria-describedby="{{ wizard.form.source_photo.auto_id }}_helptext"
 					{% endif %}
-					>
+					required>
 				{% if wizard.form.source_photo.help_text %}
 					<div id="{{ wizard.form.source_photo.auto_id }}_helptext" class="form_field_help">
 						{{ wizard.form.source_photo.help_text }}
@@ -32,7 +32,9 @@
 			</div>
 		</div>
 		<div class="form_row">
-			<button type="submit">Next</button>
+			<button type="submit" name="{{ wizard.form.upload.html_name }}" value="on">Upload</button>
+			or
+			<button type="submit" name="{{ wizard.form.upload.html_name }}" value="off" formnovalidate>Skip</button>
 		</div>
 	</form>
 {% endblock %}

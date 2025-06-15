@@ -200,35 +200,50 @@ WIZARD_ADD_ENTRY_TEMPLATES = {
 
 def skip_photo_upload(wizard):
   cleaned_data = wizard.get_cleaned_data_for_step('start') or {}
-  return cleaned_data.get('source_photo') != None
+  return cleaned_data.get('upload') == False
 
 class WizardAddEntryViews(NamedUrlSessionWizardView):
   file_storage = FileSystemStorage(location=os.path.join(settings.MEDIA_ROOT, 'wizard_photos'))
 
   # See: https://github.com/jazzband/django-formtools/issues/207
 
-  def get_context_data(self, form, **kwargs):
-    context = super().get_context_data(form=form, **kwargs)
-    print("=========================")
-    print("self.get_cleaned_data_for_step('start')", self.get_cleaned_data_for_step('start'))
-    print("=========================")
-    if self.steps.current == 'photo':
-      previous_form_data = self.get_cleaned_data_for_step('start')
-      context.update({'photo': '/media/wizard_photos/' + str(previous_form_data.get('source_photo')) })
-    return context
+  # def get_context_data(self, form, **kwargs):
+  #   context = super().get_context_data(form=form, **kwargs)
+  #   print("=========================")
+  #   print("get_context_data", self.get_cleaned_data_for_step('start'))
+  #   print("=========================")
+  #   if self.steps.current == 'photo':
+  #     previous_form_data = self.get_cleaned_data_for_step('start')
+  #     context.update({'photo': '/media/wizard_photos/' + str(previous_form_data.get('source_photo')) })
+  #   return context
+  
+  # def process_step(self, form):
+  #   print("Processing step")
+  #   return super().process_step(form)
+  
+  def render_goto_step(self, goto_step, **kwargs):
+    self.storage.current_step = goto_step
+    if goto_step == 'start':
+      print("RESET STORAGE")
+      self.storage.reset()
+      self.storage.set_step_data('start', {})
+    form = self.get_form(
+      data=self.storage.get_step_data(self.steps.current),
+      files=self.storage.get_step_files(self.steps.current)
+    )
+    return self.render(form, **kwargs)
 
-  def get_form_step_data(self, form):
-    print("=========================")
-    print("form.data", form.data)
-    print("=========================")
-    return form.data
-  # on step change:
-  #   self.storage.set_step_data('start', {})
-  def get_form_step_files(self, form):
-    print("=========================")
-    print("form.files", form.files)
-    print("=========================")
-    return form.files
+  # def get_form_step_data(self, form):
+  #   print("=========================")
+  #   print("form.data", form.data)
+  #   print("=========================")
+  #   return form.data
+  
+  # def get_form_step_files(self, form):
+  #   print("=========================")
+  #   print("form.files", form.files)
+  #   print("=========================")
+  #   return form.files
 
   def get_template_names(self):
     return [WIZARD_ADD_ENTRY_TEMPLATES[self.steps.current]]
