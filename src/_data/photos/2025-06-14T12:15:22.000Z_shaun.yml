@@ -1,0 +1,18 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: F5B5121E-8430-414B-B92C-D1922D04080A_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-06-14T12:15:22.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: 
+# List each of the bird IDs present in this photo
+birds:
+  - cormorant-reed
+  - coot-red-knobbed
+  - darter-african
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: langverwacht-estate
+  latitude: -33.934047
+  longitude: 18.718751
