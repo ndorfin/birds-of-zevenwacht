@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2025-06-14T10:14:34.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  We saw three African Pipits flying from the vine posts, and eventually along the farm road
+bird:
+  # Supply a matching Bird ID
+  id: pipit-african
+  # How many individuals did you spot?
+  quantity: 3
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2025-06-14T10:14:34.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.933742
+  longitude: 18.741084

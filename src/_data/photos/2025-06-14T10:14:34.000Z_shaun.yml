@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: C623BD8F-CAF9-48A0-9F3F-B74A31159C2F_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-06-14T10:14:34.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An African Pipit walks along the grass verge of a farm trail
+# List each of the bird IDs present in this photo
+birds:
+  - pipit-african
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.933742
+  longitude: 18.741084
