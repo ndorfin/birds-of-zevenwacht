@@ -284,9 +284,9 @@
 			"ebird": "https://ebird.org/species/rehcis2/ZA",
 			"wikipedia": "",
 			"redlist_level": "least-concern",
-			"sighted": false,
-			"photographed": false,
-			"potential": true
+			"sighted": true,
+			"photographed": true,
+			"potential": false
 		}
 	
 		,

@@ -1,13 +1,9 @@
 
+
 [
-	
-		
-		
-		{
-			"id": "2025-06-14T09:48:39.000Z_shaun",
-			"datetime": "2025-06-14T09:48:39.000Z",
-			"birdId": "cisticola-grey-backed",
-			"bird": {
+{
+	"datetime": "2025-06-14T09:48:39.000Z",
+	"bird": {
 	"name": "Grey-backed Cisticola",
 	"family_name": "Cisticola",
 	"afrikaans_name": "Grysrugtinktinkie",
@@ -23,10 +19,10 @@
 		"scale": 3
 	}
 },
-			"quantity": 2,
-			"location": {
-				"areaId": "zevenwacht-wine-estate",
-				"area": {
+	"quantity": 2,
+	"location": {
+		"areaId": "zevenwacht-wine-estate",
+		"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
 		"street": "Langverwacht Road",
@@ -160,32 +156,53 @@
 	],
 	"website": "https://zevenwacht.co.za/"
 },
-				"latitude": 
-				
-					-33.934742,
-				
-				"longitude":
-				
-					18.736832
-				
-			},
-			"observers": [
-				
-					
-					{
+		"latitude": 
+		
+			-33.934742,
+		
+		"longitude":
+		
+			18.736832
+		
+	},
+	
+	"photos": {
+		
+			
+			"2025-06-14T09:48:39.000Z_shaun":
+			{
+	"file": "533B2E2C-922E-4898-BB7F-D88BCB17B393_1_105_c.jpeg",
+	"sighting": "2025-06-14T09:48:39.000Z_shaun",
+	"description": "A Grey-backed Cisticola perched and calling from a bush",
+	"birds": [
+		"cisticola-grey-backed"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "zevenwacht-wine-estate",
+		"latitude": -33.934742,
+		"longitude": 18.736832
+	}
+}
+		
+	},
+	
+	"observers": [
+		
+			
+			{
 	"name": "Shaun",
 	"full-name": "Shaun O'Connell",
 	"email": "shaun@tactile.co.za"
 }
-				
-					,
-					{
+		
+			,
+			{
 	"name": "Ingunn",
 	"full-name": "Ingunn O'Connell",
 	"email": "groingunn@gmail.com"
 }
-				
-			]
-		}
-	
+		
+	]
+}
 ]
