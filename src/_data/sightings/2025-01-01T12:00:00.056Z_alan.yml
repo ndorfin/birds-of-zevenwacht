@@ -1,12 +1,12 @@
 # Add an ISO8601 date
 # 2024-09-04T14:23:59Z 
-datetime: 2025-01-01T12:00:00.007Z
+datetime: 2025-01-01T12:00:00.056Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
   
 bird:
   # Supply a matching Bird ID
-  id: kingfisher-pied
+  id: grebe-little
   # How many individuals did you spot?
   quantity: 1
 # Link this Sighting to a Photo, by its ID
@@ -17,5 +17,5 @@ observers:
   - alan
 location:
   area: langverwacht-estate
-  latitude: -33.934758
-  longitude: 18.718932
+  latitude: -33.935614
+  longitude: 18.714411
