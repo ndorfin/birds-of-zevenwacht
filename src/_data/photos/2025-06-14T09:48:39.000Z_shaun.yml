@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 533B2E2C-922E-4898-BB7F-D88BCB17B393_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-06-14T09:48:39.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Grey-backed Cisticola perched and calling from a bush
+# List each of the bird IDs present in this photo
+birds:
+  - cisticola-grey-backed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.934742
+  longitude: 18.736832

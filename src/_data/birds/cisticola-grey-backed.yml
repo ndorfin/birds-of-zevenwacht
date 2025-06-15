@@ -6,4 +6,8 @@ genus: Cisticola
 species: subruficapilla
 ebird: https://ebird.org/species/rehcis2/ZA
 red-list: least-concern
-hidden: true
+photo:
+  id: 2025-06-14T09:48:39.000Z_shaun
+  tx: 30%
+  ty: 10%
+  scale: 3
