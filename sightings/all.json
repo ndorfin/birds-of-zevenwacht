@@ -14,7 +14,13 @@
 	"genus": "Anthus",
 	"species": "cinnamomeus",
 	"ebird": "https://ebird.org/species/afrpip1/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2025-06-14T10:14:34.000Z_shaun",
+		"tx": "-50%",
+		"ty": "-40%",
+		"scale": 3
+	}
 },
 			"quantity": 3,
 			"location": {
@@ -376,7 +382,13 @@
 	"genus": "Indicator",
 	"species": "minor",
 	"ebird": "https://ebird.org/species/y00400/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2025-04-18T09:07:34.000Z_rolf",
+		"tx": "15%",
+		"ty": "70%",
+		"scale": 3
+	}
 },
 			"quantity": 1,
 			"location": {
@@ -1441,7 +1453,13 @@
 	"genus": "Anas",
 	"species": "platyrhynchos",
 	"ebird": "https://ebird.org/species/mallar3/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2025-02-06T15:48:37.000Z_shaun",
+		"tx": "5%",
+		"ty": "-5%",
+		"scale": 2.5
+	}
 },
 			"quantity": 1,
 			"location": {

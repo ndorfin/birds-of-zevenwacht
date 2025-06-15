@@ -1152,7 +1152,7 @@
 			"wikipedia": "",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	
@@ -1407,7 +1407,7 @@
 			"wikipedia": "",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	
@@ -1628,7 +1628,7 @@
 			"wikipedia": "",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	

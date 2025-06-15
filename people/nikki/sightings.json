@@ -546,7 +546,13 @@
 	"genus": "Anas",
 	"species": "platyrhynchos",
 	"ebird": "https://ebird.org/species/mallar3/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2025-02-06T15:48:37.000Z_shaun",
+		"tx": "5%",
+		"ty": "-5%",
+		"scale": 2.5
+	}
 },
 			"quantity": 1,
 			"location": {

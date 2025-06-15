@@ -11,7 +11,13 @@
 	"genus": "Indicator",
 	"species": "minor",
 	"ebird": "https://ebird.org/species/y00400/ZA",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2025-04-18T09:07:34.000Z_rolf",
+		"tx": "15%",
+		"ty": "70%",
+		"scale": 3
+	}
 },
 	"quantity": 1,
 	"location": {
