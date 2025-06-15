@@ -1,13 +1,9 @@
 
+
 [
-	
-		
-		
-		{
-			"id": "2025-06-14T09:00:00.000Z_shaun",
-			"datetime": "2025-06-14T09:10:00.000Z",
-			"birdId": "gull-hartlaubs",
-			"bird": {
+{
+	"datetime": "2025-06-14T09:10:00.000Z",
+	"bird": {
 	"name": "Hartlaub's Gull",
 	"family_name": "Gull",
 	"afrikaans_name": null,
@@ -17,10 +13,10 @@
 	"ebird": "https://ebird.org/species/hargul1/ZA",
 	"red-list": "least-concern"
 },
-			"quantity": 1,
-			"location": {
-				"areaId": "zevenwacht-wine-estate",
-				"area": {
+	"quantity": 1,
+	"location": {
+		"areaId": "zevenwacht-wine-estate",
+		"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
 		"street": "Langverwacht Road",
@@ -154,32 +150,32 @@
 	],
 	"website": "https://zevenwacht.co.za/"
 },
-				"latitude": 
-				
-					-33.932102,
-				
-				"longitude":
-				
-					18.719576
-				
-			},
-			"observers": [
-				
-					
-					{
+		"latitude": 
+		
+			-33.932102,
+		
+		"longitude":
+		
+			18.719576
+		
+	},
+	
+	"observers": [
+		
+			
+			{
 	"name": "Shaun",
 	"full-name": "Shaun O'Connell",
 	"email": "shaun@tactile.co.za"
 }
-				
-					,
-					{
+		
+			,
+			{
 	"name": "Ingunn",
 	"full-name": "Ingunn O'Connell",
 	"email": "groingunn@gmail.com"
 }
-				
-			]
-		}
-	
+		
+	]
+}
 ]
