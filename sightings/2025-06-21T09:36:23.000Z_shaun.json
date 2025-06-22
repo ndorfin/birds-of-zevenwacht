@@ -1,13 +1,9 @@
 
+
 [
-	
-		
-		
-		{
-			"id": "2025-06-21T09:36:23.000Z_shaun",
-			"datetime": "2025-06-21T09:36:23.000Z",
-			"birdId": "cisticola-zitting",
-			"bird": {
+{
+	"datetime": "2025-06-21T09:36:23.000Z",
+	"bird": {
 	"name": "Zitting Cisticola",
 	"family_name": "Cisticola",
 	"afrikaans_name": "Landeryklopkloppie",
@@ -24,10 +20,10 @@
 		"scale": 3.5
 	}
 },
-			"quantity": 2,
-			"location": {
-				"areaId": "zevenwacht-wine-estate",
-				"area": {
+	"quantity": 2,
+	"location": {
+		"areaId": "zevenwacht-wine-estate",
+		"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
 		"street": "Langverwacht Road",
@@ -161,32 +157,70 @@
 	],
 	"website": "https://zevenwacht.co.za/"
 },
-				"latitude": 
-				
-					-33.92743,
-				
-				"longitude":
-				
-					18.73242
-				
-			},
-			"observers": [
-				
-					
-					{
+		"latitude": 
+		
+			-33.92743,
+		
+		"longitude":
+		
+			18.73242
+		
+	},
+	
+	"photos": {
+		
+			
+			"2025-06-21T09:36:07.000Z_shaun":
+			{
+	"file": "674B2EEE-E565-460C-8DBC-0D67162045D4_1_105_c.jpeg",
+	"sighting": "2025-06-21T09:36:23.000Z_shaun",
+	"description": "A Zitting Cisticola perched on a wire, calling.",
+	"birds": [
+		"cisticola-zitting"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "zevenwacht-wine-estate",
+		"latitude": -33.92743,
+		"longitude": 18.73242
+	}
+}
+		
+			,
+			"2025-06-21T09:36:23.000Z_shaun":
+			{
+	"file": "A57B6D43-ACF7-4818-8684-6FA8C8F77877_1_201_a.jpeg",
+	"sighting": "2025-06-21T09:36:23.000Z_shaun",
+	"description": "A Zitting Cisticola perched on a wire",
+	"birds": [
+		"cisticola-zitting"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "zevenwacht-wine-estate",
+		"latitude": -33.92743,
+		"longitude": 18.73242
+	}
+}
+		
+	},
+	
+	"observers": [
+		
+			
+			{
 	"name": "Shaun",
 	"full-name": "Shaun O'Connell",
 	"email": "shaun@tactile.co.za"
 }
-				
-					,
-					{
+		
+			,
+			{
 	"name": "Ingunn",
 	"full-name": "Ingunn O'Connell",
 	"email": "groingunn@gmail.com"
 }
-				
-			]
-		}
-	
+		
+	]
+}
 ]

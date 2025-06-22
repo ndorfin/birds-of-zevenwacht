@@ -330,14 +330,14 @@
 			"species": "juncidis",
 			"family": "Cisticola",
 			"common_name": "Zitting Cisticola",
-			"german_name": "",
-			"afrikaans_name": "",
+			"german_name": "Zistensänger",
+			"afrikaans_name": "Landeryklopkloppie",
 			"ebird": "https://ebird.org/species/zitcis1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Zitting_cisticola",
 			"redlist_level": "least-concern",
-			"sighted": false,
-			"photographed": false,
-			"potential": true
+			"sighted": true,
+			"photographed": true,
+			"potential": false
 		}
 	
 		,
