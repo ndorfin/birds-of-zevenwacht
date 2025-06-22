@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: A57B6D43-ACF7-4818-8684-6FA8C8F77877_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-06-21T09:36:23.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Zitting Cisticola perched on a wire
+# List each of the bird IDs present in this photo
+birds:
+  - cisticola-zitting
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.92743
+  longitude: 18.73242

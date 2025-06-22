@@ -1,9 +1,14 @@
 name: Zitting Cisticola
 family_name: Cisticola
-afrikaans_name: 
-german_name: 
+afrikaans_name: Landeryklopkloppie
+german_name: Zistensänger
 genus: Cisticola
 species: juncidis
 ebird: https://ebird.org/species/zitcis1/ZA
+wikipedia: https://en.wikipedia.org/wiki/Zitting_cisticola
 red-list: least-concern
-hidden: true
+photo:
+  id: 2025-06-21T09:36:07.000Z_shaun
+  tx: -10%
+  ty: -70%
+  scale: 3.5
