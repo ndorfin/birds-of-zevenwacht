@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: IMG_2498.jpg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-07-13T08:22:20.000Z_rolf
+# Describe this image, as if you were explaining it over the phone
+description: An African Wood Owl peers down at the camera
+# List each of the bird IDs present in this photo
+birds:
+  - owl-african-wood
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: rolf
+location:
+  area: zevenwacht-village
+  latitude: -33.93317
+  longitude: 18.711334

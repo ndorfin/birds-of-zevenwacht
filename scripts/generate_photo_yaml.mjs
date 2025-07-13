@@ -21,6 +21,8 @@ fs.readdir(dumpFolder, (errAuthor, entries) => {
 	authorNames.forEach(photographer => {
 		fs.readdir(`${ dumpFolder }/${ photographer }`, (errPhotos, filenames) => {
 			filenames.forEach(filename => {
+				if (filename.includes('.DS_Store')) return;
+				console.log('filename', filename)
 				let photoPath = `${ dumpFolder }/${ photographer }/${ filename }`;
 				let targetPhotoPath = `${ sourcePhotosFolder }/${ photographer }/${ filename }`
 				
@@ -35,55 +37,56 @@ fs.readdir(dumpFolder, (errAuthor, entries) => {
 					.then(metadata => {
 						if (metadata.width < 2400) {
 							return imageToProcess
+								.withMetadata()
 								.toFile(targetPhotoPath);
 						} else {
 							return imageToProcess
 								.resize({width: 2400})
+								.withMetadata()
 								.toFile(targetPhotoPath);
 						}
-					});
+					}).finally(() => {
+						fs.readFile(photoPath, (errFile, data) => {
+						// Step 2: Generate EXIF data entry
+						// ==============================================
+						const { ctime } = fs.statSync(photoPath);
+						exifr.parse(data).then(exif => {
+							const createdDate = exif ? exif.DateTimeOriginal : new Date(ctime);
+							const createdDateString = createdDate.toISOString();
+							const filenamePattern = `${ createdDateString }_${ photographer }`;
+							const targetPhotoFile = `${ targetPhotosFolder }/${ filenamePattern }.yml`;
+							const targetSightingFile = `${ targetSightingsFolder }/${ filenamePattern }.yml`;
+							const targetEXIFFile = `${ targetEXIFFolder }/${ photographer }/${ filename }.yml`;
 
-				fs.readFile(photoPath, (errFile, data) => {
-					// Step 2: Generate EXIF data entry
-					// ==============================================
-					const { ctime } = fs.statSync(photoPath);
-					exifr.parse(data).then(exif => {
-						const createdDate = exif ? exif.DateTimeOriginal : new Date(ctime);
-						const createdDateString = createdDate.toISOString();
-						const filenamePattern = `${ createdDateString }_${ photographer }`;
-						const targetPhotoFile = `${ targetPhotosFolder }/${ filenamePattern }.yml`;
-						const targetSightingFile = `${ targetSightingsFolder }/${ filenamePattern }.yml`;
-						const targetEXIFFile = `${ targetEXIFFolder }/${ photographer }/${ filename }.yml`;
+							if (!fs.existsSync(targetEXIFFile)) {
+								fs.writeFileSync(targetEXIFFile, createEXIFYML(exif));
 
-						if (!fs.existsSync(targetEXIFFile)) {
-							fs.writeFileSync(targetEXIFFile, createEXIFYML(exif));
-
-							// Step 3: Create photo data entry
-							// ==============================================
-							if (!fs.existsSync(targetPhotoFile)) {
-								let photoEntryObj = {
-									filename,
-									photographer,
-									exif,
-									createdDate,
-									sightingFileId: filenamePattern,
+								// Step 3: Create photo data entry
+								// ==============================================
+								if (!fs.existsSync(targetPhotoFile)) {
+									let photoEntryObj = {
+										filename,
+										photographer,
+										exif,
+										createdDate,
+										sightingFileId: filenamePattern,
+									}
+									fs.writeFileSync(targetPhotoFile, createPhotoYML(photoEntryObj));
 								}
-								fs.writeFileSync(targetPhotoFile, createPhotoYML(photoEntryObj));
-							}
 
-							// Step 4: Create sighting data entry
-							// ==============================================
-							if (!fs.existsSync(targetSightingFile)) {
-								let sightingEntryObj = {
-									photographer,
-									exif,
-									createdDate,
-									photoFileId: filenamePattern,
+								// Step 4: Create sighting data entry
+								// ==============================================
+								if (!fs.existsSync(targetSightingFile)) {
+									let sightingEntryObj = {
+										photographer,
+										exif,
+										createdDate,
+										photoFileId: filenamePattern,
+									}
+									fs.writeFileSync(targetSightingFile, createSightingYML(sightingEntryObj));
 								}
-								fs.writeFileSync(targetSightingFile, createSightingYML(sightingEntryObj));
 							}
-						}
-						
+						});
 					});
 				});
 			});
