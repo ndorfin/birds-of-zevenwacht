@@ -1560,7 +1560,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/African_wood_owl",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	

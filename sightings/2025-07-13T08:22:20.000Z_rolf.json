@@ -1,13 +1,9 @@
 
+
 [
-	
-		
-		
-		{
-			"id": "2025-07-13T08:22:20.000Z_rolf",
-			"datetime": "2025-07-13T08:22:20.000Z",
-			"birdId": "owl-african-wood",
-			"bird": {
+{
+	"datetime": "2025-07-13T08:22:20.000Z",
+	"bird": {
 	"name": "African Wood Owl",
 	"family_name": "Owl",
 	"german_name": "Afrikanischer Waldkauz",
@@ -24,10 +20,10 @@
 		"scale": 2
 	}
 },
-			"quantity": 1,
-			"location": {
-				"areaId": "zevenwacht-village",
-				"area": {
+	"quantity": 1,
+	"location": {
+		"areaId": "zevenwacht-village",
+		"area": {
 	"name": "Zevenwacht Village",
 	"address": {
 		"street": "151 Langverwacht Road",
@@ -116,25 +112,46 @@
 		]
 	]
 },
-				"latitude": 
-				
-					-33.93317,
-				
-				"longitude":
-				
-					18.711334
-				
-			},
-			"observers": [
-				
-					
-					{
+		"latitude": 
+		
+			-33.93317,
+		
+		"longitude":
+		
+			18.711334
+		
+	},
+	
+	"photos": {
+		
+			
+			"2025-07-13T08:22:20.000Z_rolf":
+			{
+	"file": "IMG_2498.jpg",
+	"sighting": "2025-07-13T08:22:20.000Z_rolf",
+	"description": "An African Wood Owl peers down at the camera",
+	"birds": [
+		"owl-african-wood"
+	],
+	"photographer": "rolf",
+	"location": {
+		"area": "zevenwacht-village",
+		"latitude": -33.93317,
+		"longitude": 18.711334
+	}
+}
+		
+	},
+	
+	"observers": [
+		
+			
+			{
 	"name": "Rolf",
 	"full-name": "Rolf Dieckmann",
 	"email": null
 }
-				
-			]
-		}
-	
+		
+	]
+}
 ]
