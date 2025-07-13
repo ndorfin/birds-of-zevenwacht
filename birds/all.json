@@ -1549,6 +1549,23 @@
 	
 		,
 		{
+			"id": "owl-african-wood",
+			"genus": "Strix",
+			"species": "woodfordii",
+			"family": "Owl",
+			"common_name": "African Wood Owl",
+			"german_name": "Afrikanischer Waldkauz",
+			"afrikaans_name": "Bosuil",
+			"ebird": "https://ebird.org/species/afwowl1/ZA",
+			"wikipedia": "https://en.wikipedia.org/wiki/African_wood_owl",
+			"redlist_level": "least-concern",
+			"sighted": true,
+			"photographed": false,
+			"potential": false
+		}
+	
+		,
+		{
 			"id": "owl-spotted-eagle",
 			"genus": "Bubo",
 			"species": "africanus",
