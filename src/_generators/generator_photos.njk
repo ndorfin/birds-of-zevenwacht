@@ -51,79 +51,82 @@ eleventyExcludeFromCollections: true
 			<a href="{{ url.people }}{{ photo.photographer }}">{{ people[photo.photographer]['full-name'] }}</a>
 		</dd>
 	</div>
-	{% if exif %}
+</dl>
+
+{% if exif %}
+<dl class="list_details">
 	<div>
-		<dt><abbr title="Exchangeable Image File Format">EXIF</abbr> data</dt>
+		<dt>Camera</dt>
+		{% set camera = cameras[exif.Make + '-' + exif.Model] %}
+		<dd>{{ camera.make }} {{ camera.model }}</dd>
+	</div>
+	<div>
+		<dt>Lens</dt>
 		<dd>
-			<dl class="list_details">
-				<div>
-					<dt>Camera</dt>
-					{% set camera = cameras[exif.Make + '-' + exif.Model] %}
-					<dd>{{ camera.make }} {{ camera.model }}</dd>
-				</div>
-				<div>
-					<dt>Lens</dt>
-					<dd>
-						{{ exif.LensModel }}
-					</dd>
-				</div>
-				<div>
-					<dt>F-number</dt>
-					<dd>𝑓{{ exif.FNumber.toFixed(1) }}</dd>
-				</div>
-				<div>
-					<dt>Focal length</dt>
-					<dd>{{ exif.FocalLengthIn35mmFormat }}<abbr title="Millimeters">mm</abbr></dd>
-				</div>
-				<div>
-					<dt>Shutter speed</dt>
-					<dd>
-						{%- if exif.ExposureTime > 1 -%}
-						{{ exif.ExposureTime }}
-						{% else %}
-						1/{{ (1 / exif.ExposureTime) | int }}
-						{%- endif -%}<abbr title="Seconds">s</abbr>
-					</dd>
-				</div>
-				<div>
-					<dt>Exposure</dt>
-					<dd>{{ exif.ExposureCompensation.toFixed(1) }}<abbr title="Exposure compensation">EV</abbr></dd>
-				</div>
-				<div>
-					<dt>ISO</dt>
-					<dd>{{ exif.ISO }}</dd>
-				</div>
-			</dl>
+			{{ exif.LensModel }}
+		</dd>
+	</div>
+	<div>
+		<dt>F-number</dt>
+		<dd>𝑓{{ exif.FNumber.toFixed(1) }}</dd>
+	</div>
+	<div>
+		<dt>Focal length</dt>
+		<dd>{{ exif.FocalLengthIn35mmFormat }}<abbr title="Millimeters">mm</abbr></dd>
+	</div>
+	<div>
+		<dt>Shutter speed</dt>
+		<dd>
+			{%- if exif.ExposureTime > 1 -%}
+			{{ exif.ExposureTime }}
+			{% else %}
+			1/{{ (1 / exif.ExposureTime) | int }}
+			{%- endif -%}<abbr title="Seconds">s</abbr>
+		</dd>
+	</div>
+	<div>
+		<dt>Exposure</dt>
+		<dd>{{ exif.ExposureCompensation.toFixed(1) }}<abbr title="Exposure compensation">EV</abbr></dd>
+	</div>
+	<div>
+		<dt>ISO</dt>
+		<dd>{{ exif.ISO }}</dd>
+	</div>
+</dl>
+{% endif %}
+
+<dl class="list_details">
+	<div>
+		<dt>Location</dt>
+		<dd><a href="{{ url.areas }}{{ photo.location.area }}/">{{ areas[photo.location.area].name }}</a></dd>
+	</div>
+	{% if photo.location.latitude %}
+	<div>
+		<dt>Coordinates</dt>
+		<dd>
+		{% set location = photo.location %}
+		{% include "link_google_maps.njk" %}
 		</dd>
 	</div>
 	{% endif %}
-	<div>
-		<dt>Location</dt>
-		<dd>
-			<a href="{{ url.areas }}{{ photo.location.area }}/">{{ areas[photo.location.area].name }}</a>
-			{% if photo.location.latitude %}
-				<p>
-					{% set location = photo.location %}
-					{% include "link_google_maps.njk" %}
-				</p>
-				<map-embed
-					id="map_photo_detail"
-					type="photo"
-					marker-latitude="{{ photo.location.latitude }}"
-					marker-longitude="{{ photo.location.longitude }}"
-					latitude="-33.929"
-					longitude="18.72"
-					zoom="15"
-				></map-embed>
-			{% else %}
-				<map-embed
-					id="map_photo_area"
-					boundaries="{{ url.areas }}{{ photo.location.area }}/geofence.json"
-					latitude="-33.929"
-					longitude="18.72"
-					zoom="15"
-				></map-embed>
-			{% endif %}
-		</dd>
-	</div>
 </dl>
+
+{% if photo.location.latitude %}
+	<map-embed
+		id="map_photo_detail"
+		type="photo"
+		marker-latitude="{{ photo.location.latitude }}"
+		marker-longitude="{{ photo.location.longitude }}"
+		latitude="-33.929"
+		longitude="18.72"
+		zoom="15"
+	></map-embed>
+{% else %}
+	<map-embed
+		id="map_photo_area"
+		boundaries="{{ url.areas | url }}{{ photo.location.area }}/geofence.json"
+		latitude="-33.929"
+		longitude="18.72"
+		zoom="15"
+	></map-embed>
+{% endif %}

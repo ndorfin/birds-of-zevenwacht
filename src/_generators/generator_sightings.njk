@@ -49,33 +49,44 @@ eleventyExcludeFromCollections: true
 			</ul>
 		</dd>
 	</div>
+</dl>
+
+<dl class="list_details">
 	<div>
 		<dt>Location</dt>
 		<dd>
 			<a href="{{ url.areas }}{{ sighting.location.area }}/">{{ areas[sighting.location.area].name }}</a>
-			{% if sighting.location.latitude %}
-				<p>
-					{% set location = sighting.location %}
-					{% include "link_google_maps.njk" %}
-				</p>
-				<map-embed
-					id="map_sighting_detail"
-					type="sighting"
-					marker-latitude="{{ sighting.location.latitude }}"
-					marker-longitude="{{ sighting.location.longitude }}"
-					latitude="{{ sighting.location.latitude }}"
-					longitude="{{ sighting.location.longitude }}"
-					zoom="15"
-				></map-embed>
-			{% else %}
-				<map-embed
-					id="map_sighting_area"
-					boundaries="{{ url.areas }}{{ sighting.location.area }}/geofence.json"
-					latitude="-33.929"
-					longitude="18.72"
-					zoom="15"
-				></map-embed>
-			{% endif %}
+		</dd>
+	</div>
+	{% if sighting.location.latitude %}
+	<div>
+		<dt>Coordinates</dt>
+		<dd>
+			{% set location = sighting.location %}
+			{% include "link_google_maps.njk" %}
+		</dd>
+	</div>
+	{% endif %}
 		</dd>
 	</div>
 </dl>
+
+{% if sighting.location.latitude %}
+	<map-embed
+		id="map_sighting_detail"
+		type="sighting"
+		marker-latitude="{{ sighting.location.latitude }}"
+		marker-longitude="{{ sighting.location.longitude }}"
+		latitude="{{ sighting.location.latitude }}"
+		longitude="{{ sighting.location.longitude }}"
+		zoom="15"
+	></map-embed>
+{% else %}
+	<map-embed
+		id="map_sighting_area"
+		boundaries="{{ url.areas | url }}{{ sighting.location.area }}/geofence.json"
+		latitude="-33.929"
+		longitude="18.72"
+		zoom="15"
+	></map-embed>
+{% endif %}
