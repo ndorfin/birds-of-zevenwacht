@@ -1,11 +1,11 @@
 let cacheGroups = {
 	css: {
 		matches: /.css$/,
-		name: `cache_css-v1735492034121`,
+		name: `cache_css-v1753027927127`,
 		urls: [
-			"/birds-of-zevenwacht/assets/css/all.css?timestamp=1735492034121"
+			"/birds-of-zevenwacht/assets/css/all.css?timestamp=1753027927127"
 		],
-		version: 1735492034121,
+		version: 1753027927127,
 	},
 	
 	libJS: {
@@ -18,11 +18,11 @@ let cacheGroups = {
 	},
 	mjs: {
 		matches: /.mjs$/,
-		name: `cache_mjs-v1738139879645`,
+		name: `cache_mjs-v1753027909498`,
 		urls: [
-			"/birds-of-zevenwacht/assets/mjs/bundle.mjs?timestamp=1738139879645"
+			"/birds-of-zevenwacht/assets/mjs/bundle.mjs?timestamp=1753027909498"
 		],
-		version: 1738139879645,
+		version: 1753027909498,
 	},
 	static: {
 		matches: /.(ico|manifest|svg)$/,
