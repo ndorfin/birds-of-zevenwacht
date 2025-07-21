@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: owlets.jpg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 1998-01-01T12:00:00.000Z_patricia
+# Describe this image, as if you were explaining it over the phone
+description: Two Spotted Eagle Owlets visible from their nest in a Stone Pine tree
+# List each of the bird IDs present in this photo
+birds:
+  - owl-spotted-eagle
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: patricia
+location:
+  area: zevenwacht-village

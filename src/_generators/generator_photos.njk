@@ -12,7 +12,7 @@ eleventyExcludeFromCollections: true
 {% if exif %}
 	{% set datetime = exif.DateTimeOriginal %}
 {% else %}
-	{% set datetime = photo.datetime %}
+	{% set datetime = photoId.split('_')[0] %}
 {% endif %}
 <figure class="figure_full">
 	{% set photoPath = url.source_photos + photo.photographer + '/' + photo.file %}
@@ -61,12 +61,14 @@ eleventyExcludeFromCollections: true
 		{% set camera = cameras[model_name] %}
 		<dd>{{ camera.make }} {{ camera.model }}</dd>
 	</div>
+	{% if exif.LensModel != 'undefined' %}
 	<div>
 		<dt>Lens</dt>
 		<dd>
 			{{ exif.LensModel }}
 		</dd>
 	</div>
+	{% endif %}
 	<div>
 		<dt>F-number</dt>
 		<dd>𝑓{{ exif.FNumber.toFixed(1) }}</dd>

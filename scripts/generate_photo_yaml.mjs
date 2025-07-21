@@ -51,7 +51,7 @@ fs.readdir(dumpFolder, (errAuthor, entries) => {
 						// ==============================================
 						const { ctime } = fs.statSync(photoPath);
 						exifr.parse(data).then(exif => {
-							const createdDate = exif ? exif.DateTimeOriginal : new Date(ctime);
+							const createdDate = (exif && exif.DateTimeOriginal) ? exif.DateTimeOriginal : new Date(ctime);
 							const createdDateString = createdDate.toISOString();
 							const filenamePattern = `${ createdDateString }_${ photographer }`;
 							const targetPhotoFile = `${ targetPhotosFolder }/${ filenamePattern }.yml`;
@@ -59,7 +59,9 @@ fs.readdir(dumpFolder, (errAuthor, entries) => {
 							const targetEXIFFile = `${ targetEXIFFolder }/${ photographer }/${ filename }.yml`;
 
 							if (!fs.existsSync(targetEXIFFile)) {
-								fs.writeFileSync(targetEXIFFile, createEXIFYML(exif));
+								if (exif && exif.DateTimeOriginal) {
+									fs.writeFileSync(targetEXIFFile, createEXIFYML(exif));
+								}
 
 								// Step 3: Create photo data entry
 								// ==============================================

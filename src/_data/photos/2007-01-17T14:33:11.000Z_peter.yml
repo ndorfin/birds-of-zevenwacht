@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: batis.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2007-01-17T14:33:11.000Z_peter
+# Describe this image, as if you were explaining it over the phone
+description: A male Cape Batis perched in a tree
+# List each of the bird IDs present in this photo
+birds:
+  - batis-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: peter
+location:
+  area: zevenwacht-village

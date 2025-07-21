@@ -1,6 +1,10 @@
 {% set photo = photos[photoId] %}
 {% set exif = exifs[photo.photographer][photo.file] %}
-{% set formattedDate = exif.DateTimeOriginal | CCYYMMDD %}
+{% if exif %}
+	{% set formattedDate = exif.DateTimeOriginal | CCYYMMDD %}
+{% else %}
+	{% set formattedDate = photoId.split('_')[0] | CCYYMMDD %}
+{% endif %}
 {% set birdName = birds[photo.birds[0]].name %}
 {% if photo.birds.length > 1 %}
 	{% set birdName = 'Multiple species' %}

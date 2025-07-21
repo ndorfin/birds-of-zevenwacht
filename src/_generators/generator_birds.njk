@@ -120,7 +120,7 @@ eleventyExcludeFromCollections: true
 					{% if exif %}
 						{% set datetime = exif.DateTimeOriginal %}
 					{% else %}
-						{% set datetime = photo.datetime %}
+						{% set datetime = photoId.split('_')[0] %}
 					{% endif %}
 					<li>
 						<a class="link_thumbnail" href="{{ url.photos }}{{ photoId }}/">
