@@ -6,8 +6,8 @@
 	"bird": {
 	"name": "Hartlaub's Gull",
 	"family_name": "Gull",
-	"afrikaans_name": null,
-	"german_name": null,
+	"afrikaans_name": "Hartlaubse Meeu",
+	"german_name": "Hartlaubmöwe",
 	"genus": "Chroicocephalus",
 	"species": "hartlaubii",
 	"ebird": "https://ebird.org/species/hargul1/ZA",

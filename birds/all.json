@@ -1010,14 +1010,14 @@
 			"species": "cirrocephalus",
 			"family": "Gull",
 			"common_name": "Grey-headed Gull",
-			"german_name": "",
-			"afrikaans_name": "",
+			"german_name": "Graukopfmöwe",
+			"afrikaans_name": "Gryskopmeeu",
 			"ebird": "https://ebird.org/species/grhgul/ZA",
 			"wikipedia": "",
 			"redlist_level": "least-concern",
-			"sighted": false,
-			"photographed": false,
-			"potential": true
+			"sighted": true,
+			"photographed": true,
+			"potential": false
 		}
 	
 		,
@@ -1027,8 +1027,8 @@
 			"species": "hartlaubii",
 			"family": "Gull",
 			"common_name": "Hartlaub&#39;s Gull",
-			"german_name": "",
-			"afrikaans_name": "",
+			"german_name": "Hartlaubmöwe",
+			"afrikaans_name": "Hartlaubse Meeu",
 			"ebird": "https://ebird.org/species/hargul1/ZA",
 			"wikipedia": "",
 			"redlist_level": "least-concern",
