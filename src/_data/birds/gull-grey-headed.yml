@@ -1,9 +1,13 @@
 name: Grey-headed Gull
 family_name: Gull
-afrikaans_name: 
-german_name: 
+afrikaans_name: Gryskopmeeu
+german_name: Graukopfmöwe
 genus: Chroicocephalus
 species: cirrocephalus
 ebird: https://ebird.org/species/grhgul/ZA
 red-list: least-concern
-hidden: true
+photo:
+  id: 2025-08-02T14:49:10.000Z_shaun
+  tx: 0%
+  ty: 0%
+  scale: 3

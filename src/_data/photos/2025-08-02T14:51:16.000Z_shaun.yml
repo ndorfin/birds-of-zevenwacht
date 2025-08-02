@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 12C82F77-BDA0-48D7-9CF4-211E3B2F15C0_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-08-02T14:51:16.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A floofed up Olive Thrush perched in a lichen-encrusted tree
+# List each of the bird IDs present in this photo
+birds:
+  - thrush-olive
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.933676
+  longitude: 18.710262

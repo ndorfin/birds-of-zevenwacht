@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: E7C2C575-3592-4BA2-B160-01F0857E148C_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-08-02T14:16:46.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Cape Bulbul perched half-way up a bare tree
+# List each of the bird IDs present in this photo
+birds:
+  - bulbul-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.932593 
+  longitude: 18.710450

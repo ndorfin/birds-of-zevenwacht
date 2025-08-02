@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 916550B8-89C8-4671-8FB2-DA1830A10948_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-08-02T14:49:10.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Grey-headed Gull flying south west over the Village
+# List each of the bird IDs present in this photo
+birds:
+  - gull-grey-headed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.933935
+  longitude: 18.710161

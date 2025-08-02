@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: F632698A-F1BE-4275-99A7-CB4EDE6BCD91_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-08-02T14:31:09.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: The male weavers are hard at work building nests over the middle dam
+# List each of the bird IDs present in this photo
+birds:
+  - weaver-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.933922 
+  longitude: 18.709765
