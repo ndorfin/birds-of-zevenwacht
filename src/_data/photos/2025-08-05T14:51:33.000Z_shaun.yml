@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 643C91F7-66EF-476B-ADD4-735C12CD457A_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-08-05T14:51:33.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Kestrel with a mouse or rat clutched in its claws
+# List each of the bird IDs present in this photo
+birds:
+  - kestrel-rock
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.933842
+  longitude: 18.710074

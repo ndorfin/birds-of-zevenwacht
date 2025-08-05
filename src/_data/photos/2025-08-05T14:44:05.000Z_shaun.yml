@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 83F03A69-AB7D-4006-9DF4-2410989095CE_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-08-05T14:37:09.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: 
+# List each of the bird IDs present in this photo
+birds:
+  - kingfisher-malachite
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.933931
+  longitude: 18.710383
