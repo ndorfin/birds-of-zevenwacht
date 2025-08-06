@@ -252,9 +252,9 @@
     ebird: "https://ebird.org/species/rehcis2/ZA"
     wikipedia: ""
     redlist_level: 5
-    sighted: false
-    photographed: false
-    potential: true
+    sighted: true
+    photographed: true
+    potential: false
 - model: bofz.Bird
   pk: 18
   fields:
@@ -292,14 +292,14 @@
     species: "juncidis"
     family: "Cisticola"
     common_name: "Zitting Cisticola"
-    german_name: ""
-    afrikaans_name: ""
+    german_name: "Zistensänger"
+    afrikaans_name: "Landeryklopkloppie"
     ebird: "https://ebird.org/species/zitcis1/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/Zitting_cisticola"
     redlist_level: 5
-    sighted: false
-    photographed: false
-    potential: true
+    sighted: true
+    photographed: true
+    potential: false
 - model: bofz.Bird
   pk: 21
   fields:
@@ -822,9 +822,9 @@
     ebird: "https://ebird.org/species/spwgoo1/ZA"
     wikipedia: ""
     redlist_level: 5
-    sighted: false
+    sighted: true
     photographed: false
-    potential: true
+    potential: false
 - model: bofz.Bird
   pk: 56
   fields:
@@ -877,14 +877,14 @@
     species: "cirrocephalus"
     family: "Gull"
     common_name: "Grey-headed Gull"
-    german_name: ""
-    afrikaans_name: ""
+    german_name: "Graukopfmöwe"
+    afrikaans_name: "Gryskopmeeu"
     ebird: "https://ebird.org/species/grhgul/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/Grey-headed_gull"
     redlist_level: 5
-    sighted: false
-    photographed: false
-    potential: true
+    sighted: true
+    photographed: true
+    potential: false
 - model: bofz.Bird
   pk: 60
   fields:
@@ -897,9 +897,9 @@
     ebird: "https://ebird.org/species/hargul1/ZA"
     wikipedia: "https://en.wikipedia.org/wiki/Hartlaub%27s_gull"
     redlist_level: 5
-    sighted: false
+    sighted: true
     photographed: false
-    potential: true
+    potential: false
 - model: bofz.Bird
   pk: 61
   fields:
@@ -997,10 +997,10 @@
     species: "purpurea"
     family: "Heron"
     common_name: "Purple Heron"
-    german_name: ""
-    afrikaans_name: ""
+    german_name: "Purpurreiher"
+    afrikaans_name: "Rooireier"
     ebird: "https://ebird.org/species/purher1/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/Purple_heron"
     redlist_level: 5
     sighted: true
     photographed: false
@@ -1251,7 +1251,7 @@
     genus: "Riparia"
     species: "paludicola"
     family: "Martin"
-    common_name: "Plain Martin"
+    common_name: "Brown-throated Martin"
     german_name: "Braunkehluferschwalbe"
     afrikaans_name: "Afrikaanse Oewerswael"
     ebird: "https://ebird.org/species/plamar1/ZA"
@@ -1672,10 +1672,10 @@
     species: "alba"
     family: "Spoonbill"
     common_name: "African Spoonbill"
-    german_name: ""
+    german_name: "Rotgesichtlöffler"
     afrikaans_name: "Lepelaar"
     ebird: "https://ebird.org/species/afrspo1/ZA"
-    wikipedia: ""
+    wikipedia: "https://en.wikipedia.org/wiki/African_spoonbill"
     redlist_level: 5
     sighted: false
     photographed: false
@@ -2232,9 +2232,9 @@
     ebird: "https://ebird.org/species/integr3/ZA"
     wikipedia: "https://en.wikipedia.org/wiki/Yellow-billed_egret"
     redlist_level: 5
-    sighted: false
+    sighted: true
     photographed: false
-    potential: true
+    potential: false
 - model: bofz.Bird
   pk: 150
   fields:
@@ -2247,9 +2247,9 @@
     ebird: "https://ebird.org/species/watkne1/ZA"
     wikipedia: "https://en.wikipedia.org/wiki/Water_thick-knee"
     redlist_level: 5
-    sighted: false
+    sighted: true
     photographed: false
-    potential: true
+    potential: false
 - model: bofz.Bird
   pk: 151
   fields:
@@ -2262,9 +2262,9 @@
     ebird: "https://ebird.org/species/capcro1/ZA"
     wikipedia: "https://en.wikipedia.org/wiki/Long-billed_crombec"
     redlist_level: 5
-    sighted: false
+    sighted: true
     photographed: false
-    potential: true
+    potential: false
 - model: bofz.Bird
   pk: 152
   fields:
@@ -2277,11 +2277,56 @@
     ebird: "https://ebird.org/species/famcha1/ZA"
     wikipedia: "https://en.wikipedia.org/wiki/Familiar_chat"
     redlist_level: 5
-    sighted: false
+    sighted: true
     photographed: false
-    potential: true
+    potential: false
+- model: bofz.Bird
+  pk: 153
+  fields:
+    genus: "Dendrocygna"
+    species: "viduata"
+    family: "Duck"
+    common_name: "White-faced whistling Duck"
+    german_name: "Witwenpfeifgans"
+    afrikaans_name: "Nonnetjie-eend"
+    ebird: "https://ebird.org/species/wfwduc1/ZA"
+    wikipedia: "https://en.wikipedia.org/wiki/White-faced_whistling_duck"
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
+- model: bofz.Bird
+  pk: 154
+  fields:
+    genus: "Strix"
+    species: "woodfordii"
+    family: "Owl"
+    common_name: "African Wood Owl"
+    german_name: "Afrikanischer Waldkauz"
+    afrikaans_name: "Bosuil"
+    ebird: "https://ebird.org/species/afwowl1/ZA"
+    wikipedia: "https://en.wikipedia.org/wiki/African_wood_owl"
+    redlist_level: 5
+    sighted: true
+    photographed: true
+    potential: false
+- model: bofz.Bird
+  pk: 155
+  fields:
+    genus: "Apus"
+    species: "horus"
+    family: "Swift"
+    common_name: "Horus Swift"
+    german_name: "Horussegler"
+    afrikaans_name: "Horuswindswael"
+    ebird: "https://ebird.org/species/horswi1/ZA"
+    wikipedia: "https://en.wikipedia.org/wiki/Horus_swift"
+    redlist_level: 5
+    sighted: true
+    photographed: false
+    potential: false
 # - model: bofz.Bird
-#   pk: 153
+#   pk: 156
 #   fields:
 #     genus: ""
 #     species: ""
