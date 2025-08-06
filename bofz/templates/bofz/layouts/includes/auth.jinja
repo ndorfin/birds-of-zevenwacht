@@ -3,7 +3,7 @@
 		{% csrf_token %}
 	</form>
 	<p>
-		Logged-in as <i>{{ user.username }}</i>.
+		Logged-in as <i>{{ user.short_name }}</i>.
 		<button type="submit" form="form_logout">Log out</button>
 	</p>
 {% else %}

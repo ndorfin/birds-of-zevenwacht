@@ -7,6 +7,7 @@ from .models import (
   Photo,
   Sighting,
   SpeciesList,
+  Person,
 )
 
 admin.site.register([
@@ -17,4 +18,5 @@ admin.site.register([
   Photo,
   Sighting,
   SpeciesList,
+  Person,
 ])

@@ -5,3 +5,4 @@ from .bird import Bird
 from .photo import Photo
 from .sighting import Sighting
 from .species_list import SpeciesList
+from .person import Person

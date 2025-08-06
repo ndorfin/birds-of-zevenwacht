@@ -1,7 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import User
 from django.urls import reverse
-from . import Area, Bird, Photo
 
 class Sighting(models.Model):
 
@@ -24,11 +22,11 @@ class Sighting(models.Model):
     db_comment="We need a to-the-minute recording of the time and date of this sighting. We can potentially infer this from any supporting photos' EXIF data.",
   )
   observers = models.ManyToManyField(
-    User,
+    "bofz.Person",
     help_text="Who observed these birds?",
   )
   bird = models.ForeignKey(
-    Bird,
+    "bofz.Bird",
     help_text="Select the species you observed in this Sighting",
     on_delete=models.CASCADE,
     default='',
@@ -39,13 +37,12 @@ class Sighting(models.Model):
     db_comment="We need numbers of the species",
   )
   photos = models.ManyToManyField(
-    Photo,
+    "bofz.Photo",
     help_text="Select the optional Photos associated with this Sighting",
     blank=True,
   )
   area = models.ForeignKey(
-    Area,
+    "bofz.Area",
     help_text="Which Area was this Sighting recorded in?",
     on_delete=models.CASCADE,
-    default=Area.get_default_pk,
   )
