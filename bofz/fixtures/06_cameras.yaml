@@ -34,3 +34,9 @@
     exif_identifier: Canon-Canon EOS 750D
     manufacturer: Canon
     model_name: EOS 750D
+- model: bofz.Camera
+  pk: 7
+  fields:
+    exif_identifier: panasonic-dmc-fz50
+    manufacturer: Panasonic
+    model_name: DMC-FZ50
