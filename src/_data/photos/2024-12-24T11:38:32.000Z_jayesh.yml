@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: cape-sparrow.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-12-24T11:38:32.000Z_jayesh
+# Describe this image, as if you were explaining it over the phone
+description: A female Cape Sparrow takes off from the water feature
+# List each of the bird IDs present in this photo
+birds:
+  - sparrow-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: jayesh
+location:
+  area: zevenwacht-village

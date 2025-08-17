@@ -1,0 +1,20 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2024-12-24T11:28:53.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  An Acacia Pied Barbet was scouting for food, interested in the birdfeeder in our garden
+bird:
+  # Supply a matching Bird ID
+  id: barbet-acacia-pied
+  # How many individuals did you spot?
+  quantity: 2
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2024-12-24T11:28:53.000Z_jayesh
+# Include all the people that spotted this bird.
+observers:
+  - jayesh
+  - shaun
+location:
+  area: zevenwacht-village

@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: black-headed-heron.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-12-24T13:12:43.000Z_jayesh
+# Describe this image, as if you were explaining it over the phone
+description: A Black-headed Heron rests in the shade of the pine trees above the McKenzie dam
+# List each of the bird IDs present in this photo
+birds:
+  - heron-black-headed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: jayesh
+location:
+  area: langverwacht-estate
+  latitude: -33.934442
+  longitude: 18.719670

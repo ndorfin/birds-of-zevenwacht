@@ -1,0 +1,21 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2024-12-24T13:12:43.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A Black-headed Heron rests in the shade of a pine tree above the McKenzie dam
+bird:
+  # Supply a matching Bird ID
+  id: heron-black-headed
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2024-12-24T13:12:43.000Z_jayesh
+# Include all the people that spotted this bird.
+observers:
+  - jayesh
+location:
+  area: langverwacht-estate
+  latitude: -33.934442
+  longitude: 18.719670

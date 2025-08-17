@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: fork-tailed-drongo.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-12-24T12:22:50.000Z_jayesh
+# Describe this image, as if you were explaining it over the phone
+description: A silohuette of a Fork-tailed Drongo
+# List each of the bird IDs present in this photo
+birds:
+  - drongo-fork-tailed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: jayesh
+location:
+  area: langverwacht-estate
+  latitude: -33.933216
+  longitude: 18.718485

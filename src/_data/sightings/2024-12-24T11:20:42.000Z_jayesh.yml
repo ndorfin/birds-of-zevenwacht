@@ -1,0 +1,21 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2024-12-24T11:20:42.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  We often get White-backed Mousebirds at the birdfeeder, they love eating fruits
+bird:
+  # Supply a matching Bird ID
+  id: mousebird-white-backed
+  # How many individuals did you spot?
+  quantity: 4
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2024-12-24T11:20:42.000Z_jayesh
+# Include all the people that spotted this bird.
+observers:
+  - jayesh
+  - shaun
+location:
+  area: zevenwacht-village
+
