@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 51558413-A560-485F-9F1D-B98155330AEC_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-08-26T14:48:32.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: Saw a pair of these Bulbuls drinking, and inspecting this nesting log
+# List each of the bird IDs present in this photo
+birds:
+  - bulbul-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.934052
+  longitude: 18.709814

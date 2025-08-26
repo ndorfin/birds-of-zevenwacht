@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: B75B9E23-2434-450F-91A5-2D3F1DC14810_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-08-26T14:36:20.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: This male was unphased by my close proximity, instead focused on warding off potential rivals from this prized flowering shrub.
+# List each of the bird IDs present in this photo
+birds:
+  - sunbird-southern-double-collared
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.934805
+  longitude: 18.709187

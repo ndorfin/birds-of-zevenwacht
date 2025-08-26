@@ -170,18 +170,20 @@ export default async function (config) {
 		return Image.generateHTML(metadata, imageAttributes);
 	});
 
-	config.addTransform('htmlmin', function (content) {
-		if ((this.page.outputPath || '').endsWith('.html')) {
-			let minified = htmlmin.minify(content, {
-				useShortDoctype: true,
-				removeComments: false,
-				collapseWhitespace: true,
-			});
-			return minified;
-		}
-		// If not an HTML output, return content as-is
-		return content;
-	});
+	if (process.env.ELEVENTY_RUN_MODE === 'build'){
+		config.addTransform('htmlmin', function (content) {
+			if ((this.page.outputPath || '').endsWith('.html')) {
+				let minified = htmlmin.minify(content, {
+					useShortDoctype: true,
+					removeComments: false,
+					collapseWhitespace: true,
+				});
+				return minified;
+			}
+			// If not an HTML output, return content as-is
+			return content;
+		});
+	}
 
 	return {
 		templateFormats: ['html', 'md', 'njk'],

@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 16855E0F-B424-4DF1-8FEB-243DFE558746_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-08-26T14:47:29.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: My first sighting of this bird ever, and managed to snap a photo too!
+# List each of the bird IDs present in this photo
+birds:
+  - apalis-bar-throated
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.934052
+  longitude: 18.709814
