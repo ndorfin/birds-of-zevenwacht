@@ -7,13 +7,13 @@
 			"species": "thoracica",
 			"family": "Apalis",
 			"common_name": "Bar-throated Apalis",
-			"german_name": "",
-			"afrikaans_name": "",
+			"german_name": "Halsband-Feinsänger",
+			"afrikaans_name": "Bandkeelkleinjantjie",
 			"ebird": "https://ebird.org/species/batapa2/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Bar-throated_apalis",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	
@@ -507,7 +507,7 @@
 			"redlist_level": "least-concern",
 			"sighted": false,
 			"photographed": false,
-			"potential": false
+			"potential": true
 		}
 	
 		,
@@ -609,7 +609,7 @@
 			"redlist_level": "least-concern",
 			"sighted": false,
 			"photographed": false,
-			"potential": false
+			"potential": true
 		}
 	
 		,
@@ -796,7 +796,7 @@
 			"redlist_level": "least-concern",
 			"sighted": false,
 			"photographed": false,
-			"potential": false
+			"potential": true
 		}
 	
 		,
@@ -1850,7 +1850,7 @@
 			"redlist_level": "least-concern",
 			"sighted": false,
 			"photographed": false,
-			"potential": false
+			"potential": true
 		}
 	
 		,
