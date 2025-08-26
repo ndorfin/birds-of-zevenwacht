@@ -118,6 +118,57 @@ export default async function (config) {
 		return `/assets/photos/${ photographerId }/${ thumbnailPhoto }`;
 	});
 
+	/* Custom Collections */
+	config.addCollection('birds_photographed', async (collectionsApi) => {
+		let all_birds = collectionsApi.getAll()[0].data.birds;
+		let photographed_birds = {}
+		Object.entries(all_birds).forEach(([id, item]) => {
+			if (item.photo && !item.hidden && !item.unconfirmed) {
+				photographed_birds[id] = item;
+			}
+		});
+		return photographed_birds;
+	});
+	config.addCollection('birds_sighted', async (collectionsApi) => {
+		let all_birds = collectionsApi.getAll()[0].data.birds;
+		let sighted_birds = {}
+		Object.entries(all_birds).forEach(([id, item]) => {
+			if (!item.photo && !item.hidden && !item.unconfirmed) {
+				sighted_birds[id] = item;
+			}
+		});
+		return sighted_birds;
+	});
+	config.addCollection('birds_unsighted', async (collectionsApi) => {
+		let all_birds = collectionsApi.getAll()[0].data.birds;
+		let unsighted_birds = {}
+		Object.entries(all_birds).forEach(([id, item]) => {
+			if (item.hidden && !item.unconfirmed) {
+				unsighted_birds[id] = item;
+			}
+		});
+		return unsighted_birds;
+	});
+	config.addCollection('birds_registered', async (collectionsApi) => {
+		let all_birds = collectionsApi.getAll()[0].data.birds;
+		let registered_birds = []
+		Object.entries(all_birds).forEach(([id, item]) => {
+			if (!item.unconfirmed) {
+				registered_birds.push([id, item]);
+			}
+		});
+		registered_birds.sort((itemA, itemB) => {
+			if (itemA[1].name < itemB[1].name) {
+				return -1;
+			}
+			if (itemA[1].name > itemB[1].name) {
+				return 1;
+			}
+			return 0;
+		});
+		return registered_birds;
+	});
+
 	/* Shortcodes */
 	config.addShortcode('datetime', function (date) {
 		const newDate = new Date(date);

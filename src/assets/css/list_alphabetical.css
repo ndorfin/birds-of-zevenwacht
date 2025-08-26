@@ -1,0 +1,37 @@
+.list_alphabetical {
+	--list_alphabetical_letter_height: 1.5rem;
+	--list_alphabetical_letter_width: 3rem;
+	--list_alphabetical_left_gutter: 1rem;
+	margin-block-start: 3rem;
+	margin-inline-start: var(--list_alphabetical_left_gutter);
+
+	& dt {
+		font-size: var(--list_alphabetical_letter_height);
+		line-height: 1;
+		font-weight: 700;
+		inline-size: var(--list_alphabetical_letter_width);
+		position: sticky;
+		inset-block-start: 1rem;
+		background-color: hsla(220 0 100% / 1);
+
+		& + dd {
+			margin-block-start: calc(var(--list_alphabetical_letter_height) * -1);
+		}
+	}
+
+	& dd {
+		margin-inline-start: calc(var(--list_alphabetical_letter_width) + 1rem);
+
+		& + dt {
+			margin-block-start: calc(var(--list_alphabetical_letter_height) * 3);
+		}
+		
+		& + dd {
+			margin-block-start: 0.5rem;
+		}
+
+		& .card_bird {
+			display: inline-flex;
+		}
+	}
+}

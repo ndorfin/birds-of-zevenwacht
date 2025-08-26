@@ -6,4 +6,4 @@ genus: Columba
 species: livia
 ebird: https://ebird.org/species/rocpig/ZA
 red-list: least-concern
-unconfirmed: true
+hidden: true

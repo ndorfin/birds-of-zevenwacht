@@ -1,0 +1,19 @@
+.layout_columns {
+	--layout_columns_count: 1;
+
+	display: grid;
+	grid-template-columns: repeat(var(--layout_columns_count), 1fr);
+	gap: 3rem;
+
+	@media (min-width: 600px) {
+		--layout_columns_count: 2;
+	}
+
+	@media (min-width: 900px) {
+		--layout_columns_count: 3;
+	}
+
+	@media (min-width: 1200px) {
+		--layout_columns_count: 4;
+	}
+}

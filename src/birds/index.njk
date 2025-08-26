@@ -5,76 +5,130 @@ summary: All birds sighted in or near Zevenwacht Wine Estate
 description: All birds sighted in or near Zevenwacht Wine Estate
 eleventyExcludeFromCollections: true
 ---
-<p>Birds we have sightings or photos of:</p>
-<ol>
-	{% asyncEach birdId, bird in birds %}
-		{% if not bird.unconfirmed and not bird.hidden %}
-			<li id="bird_{{ birdId }}">
-				<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
-					<figure>
-						<div>
-							{% if bird.photo %}
-								{% set photo = photos[bird.photo.id] %}
-								{%
-									photoThumbnail
-										url.source_photos + photo.photographer + '/' + photo.file,
-										photo.description,
-										bird.photo.tx,
-										bird.photo.ty,
-										bird.photo.scale
-								%}
-							{% else %}
-								<span>No photo yet</span>
-							{% endif %}
-						</div>
-						<figcaption>{{ bird.name }}</figcaption>
-					</figure>
-				</a>
-			</li>
-		{% endif %}
-	{% endeach %}
-</ol>
-<p>Unconfirmed sightings, or birds we haven't logged sightings or photos for yet:</p>
-<ol>
-	{% asyncEach birdId, bird in birds %}
-		{% if bird.unconfirmed and not bird.hidden %}
+<tab-group>
+	<nav aria-labelledby="heading_nav_tabs">
+		<screenreader-only>
+			<h3 id="heading_nav_tabs">In this page</h3>
+		</screenreader-only>
+		<ul>
 			<li>
-				<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
-					<figure>
-						<div>
-							{% if bird.photo %}
-								{% set photo = photos[bird.photo.id] %}
-								{% photoThumbnail url.source_photos + photo.photographer + '/' + photo.file, photo.description %}
-							{% else %}
-								<span>No photo yet</span>
-							{% endif %}
-						</div>
-						<figcaption>{{ bird.name }}</figcaption>
-					</figure>
+				<a href="#section_alphabetical">
+					By name
 				</a>
 			</li>
-		{% endif %}
-	{% endeach %}
-</ol>
-<p>Birds we should see here, based on other data sources:</p>
-<ol>
-	{% asyncEach birdId, bird in birds %}
-		{% if bird.hidden and not bird.unconfirmed %}
 			<li>
-				<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
-					<figure>
-						<div>
-							{% if bird.photo %}
-								{% set photo = photos[bird.photo.id] %}
-								{% photoThumbnail url.source_photos + photo.photographer + '/' + photo.file, photo.description %}
-							{% else %}
-								<span>No photo yet</span>
-							{% endif %}
-						</div>
-						<figcaption>{{ bird.name }}</figcaption>
-					</figure>
+				<a href="#section_status">
+					By status
 				</a>
 			</li>
-		{% endif %}
-	{% endeach %}
-</ol>
+		</ul>
+	</nav>
+	<article id="section_alphabetical" aria-labelledby="heading_alphabetical">
+		<screenreader-only>
+		<header>
+			<h3 id="heading_alphabetical">By name</h3>
+		</header>
+		</screenreader-only>
+		{% set previousInitial = null %}
+		<dl class="list_alphabetical">
+		{% asyncEach birdId, bird in collections.birds_registered %}
+			{% if bird.name[0] != previousInitial %}
+				<dt>{{ bird.name[0] }}</dt>
+			{% endif %}
+			{% set previousInitial = bird.name[0] %}
+			{% if not bird.unconfirmed %}
+				<dd>
+					<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
+						<figure>
+							<div>
+								{% if bird.photo %}
+									{% set photo = photos[bird.photo.id] %}
+									{%
+										photoThumbnail
+											url.source_photos + photo.photographer + '/' + photo.file,
+											photo.description,
+											bird.photo.tx,
+											bird.photo.ty,
+											bird.photo.scale
+									%}
+								{% else %}
+									<span>No photo yet</span>
+								{% endif %}
+							</div>
+							<figcaption>{{ bird.name }}</figcaption>
+						</figure>
+					</a>
+				</dd>
+			{% endif %}
+		{% endeach %}
+	</article>
+
+	<article id="section_status" aria-labelledby="heading_status">
+		<screenreader-only>
+		<header>
+			<h3 id="heading_status">By status</h3>
+		</header>
+		</screenreader-only>
+		<div class="layout_columns">
+			<div class="layout_item">
+				<p>Birds we have photos of:</p>
+				<ol>
+					{% asyncEach birdId, bird in collections.birds_photographed %}
+						<li>
+							<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
+								<figure>
+									<div>
+										{% set photo = photos[bird.photo.id] %}
+										{%
+											photoThumbnail
+												url.source_photos + photo.photographer + '/' + photo.file,
+												photo.description,
+												bird.photo.tx,
+												bird.photo.ty,
+												bird.photo.scale
+										%}
+									</div>
+									<figcaption>{{ bird.name }}</figcaption>
+								</figure>
+							</a>
+						</li>
+					{% endeach %}
+				</ol>	
+			</div>
+			<div class="layout_item">
+				<p>Birds we have sightings of:</p>
+				<ol>
+					{% asyncEach birdId, bird in collections.birds_sighted %}
+						<li>
+							<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
+								<figure>
+									<div>
+										<span>No photo yet</span>
+									</div>
+									<figcaption>{{ bird.name }}</figcaption>
+								</figure>
+							</a>
+						</li>
+					{% endeach %}
+				</ol>
+			</div>
+			<div class="layout_item">
+				<p>Unsighted birds (based on other data sources):</p>
+				<ol>
+					{% asyncEach birdId, bird in collections.birds_unsighted %}
+						<li>
+							<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
+								<figure>
+									<div>
+										<span>No photo yet</span>
+									</div>
+									<figcaption>{{ bird.name }}</figcaption>
+								</figure>
+							</a>
+						</li>
+					{% endeach %}
+				</ol>
+			</div>
+		</div>
+	</article>
+</tab-group>

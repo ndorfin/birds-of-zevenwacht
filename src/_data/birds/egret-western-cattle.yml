@@ -8,4 +8,4 @@ ebird: https://ebird.org/species/categr1/ZA
 red-list: least-concern
 # photo:
 #   id: 
-unconfirmed: true
+hidden: true
