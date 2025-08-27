@@ -2417,12 +2417,12 @@
 	"name": "White-breasted Cormorant",
 	"family_name": "Cormorant",
 	"afrikaans_name": "Witborsduiker",
-	"german_name": null,
+	"german_name": "Weißbrustkormoran",
 	"genus": "Phalacrocorax",
 	"species": "lucidus",
 	"ebird": "https://ebird.org/species/grecor/ZA",
-	"red-list": "least-concern",
-	"hidden": true
+	"wikipedia": "https://en.wikipedia.org/wiki/White-breasted_cormorant",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

@@ -2,7 +2,7 @@
 
 [
 {
-	"datetime": "2025-01-01T12:00:00.051Z",
+	"datetime": "2025-07-22T14:30:00.000Z",
 	"bird": {
 	"name": "White-breasted Cormorant",
 	"family_name": "Cormorant",
@@ -105,11 +105,11 @@
 },
 		"latitude": 
 		
-			-33.931947,
+			-33.935395,
 		
 		"longitude":
 		
-			18.714824
+			18.714181
 		
 	},
 	
@@ -117,9 +117,16 @@
 		
 			
 			{
-	"name": "Alan",
-	"full-name": "Alan Bowden",
-	"email": null
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+		
+			,
+			{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
 }
 		
 	]

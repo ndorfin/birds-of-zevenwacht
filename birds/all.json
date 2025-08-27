@@ -381,14 +381,14 @@
 			"species": "lucidus",
 			"family": "Cormorant",
 			"common_name": "White-breasted Cormorant",
-			"german_name": "",
+			"german_name": "Weißbrustkormoran",
 			"afrikaans_name": "Witborsduiker",
 			"ebird": "https://ebird.org/species/grecor/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/White-breasted_cormorant",
 			"redlist_level": "least-concern",
-			"sighted": false,
+			"sighted": true,
 			"photographed": false,
-			"potential": true
+			"potential": false
 		}
 	
 		,
