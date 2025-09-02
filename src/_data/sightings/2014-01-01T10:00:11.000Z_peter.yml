@@ -1,0 +1,19 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2014-01-01T10:00:11.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A Cape Spurfowl and 4 chicks scurry among the undergrowth
+bird:
+  # Supply a matching Bird ID
+  id: spurfowl-cape
+  # How many individuals did you spot?
+  quantity: 5
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2014-01-01T10:00:11.000Z_peter
+# Include all the people that spotted this bird.
+observers:
+  - peter
+location:
+  area: zevenwacht-village
