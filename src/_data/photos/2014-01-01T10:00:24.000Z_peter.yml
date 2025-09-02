@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: flycatcher-nest.jpg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2014-01-01T10:00:24.000Z_peter
+# Describe this image, as if you were explaining it over the phone
+description: A male Fiscal Flycatcher tends to the 3 chicks in his nest
+# List each of the bird IDs present in this photo
+birds:
+  - flycatcher-fiscal
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: peter
+location:
+  area: zevenwacht-village
