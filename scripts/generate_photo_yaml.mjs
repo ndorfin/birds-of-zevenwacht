@@ -49,9 +49,9 @@ fs.readdir(dumpFolder, (errAuthor, entries) => {
 						fs.readFile(photoPath, (errFile, data) => {
 						// Step 2: Generate EXIF data entry
 						// ==============================================
-						const { ctime } = fs.statSync(photoPath);
+						const { ctime, birthtime } = fs.statSync(photoPath);
 						exifr.parse(data).then(exif => {
-							const createdDate = (exif && exif.DateTimeOriginal) ? exif.DateTimeOriginal : new Date(ctime);
+							const createdDate = (exif && exif.DateTimeOriginal) ? exif.DateTimeOriginal : new Date(birthtime);
 							const createdDateString = createdDate.toISOString();
 							const filenamePattern = `${ createdDateString }_${ photographer }`;
 							const targetPhotoFile = `${ targetPhotosFolder }/${ filenamePattern }.yml`;
