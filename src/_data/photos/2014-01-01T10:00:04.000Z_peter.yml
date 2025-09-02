@@ -1,0 +1,18 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2014-01-01T10:00:04.000Z
+# What is the filename of this photo (in the /assets/photos folder)
+file: white-eye-1.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2014-01-01T10:00:04.000Z_peter
+# Describe this image, as if you were explaining it over the phone
+description: A Cape White-Eye gorges itself on a berry shrub
+# List each of the bird IDs present in this photo
+birds:
+  - white-eye-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: peter
+location:
+  area: zevenwacht-village
+
