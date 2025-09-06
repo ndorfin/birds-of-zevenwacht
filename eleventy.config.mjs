@@ -69,6 +69,14 @@ export default async function (config) {
 	config.addFilter('getYear', date => {
 		return new Date(date).getFullYear();
 	});
+	config.addFilter('exifCameraId', ({Make, Model}) => {
+		/**
+		 * Pass in an EXIF object with `Make` and `Model` keys
+		 */
+		let makeName = Make.toLowerCase().replace(/\s/gi, '_');
+		let modelName = Model.toLowerCase().replace(/\s/gi, '_');
+		return `${makeName}-${modelName}`;
+	});
 	config.addFilter('byPerson', (obj, personId) => {
 		const filtered = {};
 		Object.keys(obj)

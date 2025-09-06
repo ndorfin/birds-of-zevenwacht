@@ -57,7 +57,7 @@ eleventyExcludeFromCollections: true
 <dl class="list_details">
 	<div>
 		<dt>Camera</dt>
-		{% set model_name = exif.Make | lower + '-' + exif.Model | lower %}
+		{% set model_name = exif | exifCameraId %}
 		{% set camera = cameras[model_name] %}
 		<dd>{{ camera.make }} {{ camera.model }}</dd>
 	</div>
