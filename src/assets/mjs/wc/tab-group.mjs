@@ -1,5 +1,5 @@
 // See: https://inclusive-components.design/tabbed-interfaces/
-class TabGroup extends HTMLElement {
+export default class TabGroup extends HTMLElement {
 	#setRoleAttributes() {
 		this.querySelector('nav ul').setAttribute('role', 'tablist');
 		Array.from(this.querySelectorAll('nav li')).forEach(listitem => {
@@ -17,12 +17,14 @@ class TabGroup extends HTMLElement {
 	#getMatchingAnchorFromLocation() {
 		let fragmentId = window.location.hash;
 		let anchorElem = this.#getMatchingAnchorByHref(fragmentId);
+
 		if (anchorElem) {
 			let currentTab = this.querySelector('nav a[aria-selected="true"]');
 			if (currentTab) currentTab.removeAttribute('aria-selected');
 
 			anchorElem.setAttribute('aria-selected', 'true');
 			this.activeTab = this.#getAnchorElemParentIndex(anchorElem);
+			this.#showRelevantSection(fragmentId.split('#')[1]);
 		}
 	}
 
@@ -77,7 +79,7 @@ class TabGroup extends HTMLElement {
 			5. Set the activeTab index, highlighting the active tab.
 			6. Show the relevant section
 		*/
-		if (event.target.closest('nav')) {
+		if (event.target.closest('a') && event.target.closest('nav')) {
 			event.preventDefault();
 			
 			let currentTab = this.querySelector('nav a[aria-selected="true"]');
@@ -131,4 +133,4 @@ class TabGroup extends HTMLElement {
 	}
 }
 
-customElements.define('tab-group', TabGroup);
+window.customElements.define('tab-group', TabGroup);
