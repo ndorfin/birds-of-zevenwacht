@@ -1,27 +1,25 @@
 
+
 [
-	
-		
-		
-		{
-			"id": "2025-09-24T14:51:23.000Z_mj",
-			"datetime": "2025-09-24T14:51:23.000Z",
-			"birdId": "falcon-peregrine",
-			"bird": {
-	"name": "Peregrine Falcon",
-	"family_name": "Falcon",
-	"afrikaans_name": "Swerfvalk",
+{
+	"datetime": "2025-10-12T15:37:44.000Z",
+	"bird": {
+	"name": "Swee Waxbill",
+	"family_name": "Waxbill",
 	"german_name": null,
-	"genus": "Falco",
-	"species": "peregrinus",
-	"ebird": "https://ebird.org/species/perfal/ZA",
+	"afrikaans_name": "Suidelike Swie",
+	"genus": "Coccopygia",
+	"species": "melanotis",
+	"ebird": "https://ebird.org/species/swewax3/ZA",
 	"red-list": "least-concern",
-	"hidden": true
+	"photo": {
+		"id": "2024-09-04T00_35_19.000Z_shaun"
+	}
 },
-			"quantity": 1,
-			"location": {
-				"areaId": "zevenwacht-village",
-				"area": {
+	"quantity": 2,
+	"location": {
+		"areaId": "zevenwacht-village",
+		"area": {
 	"name": "Zevenwacht Village",
 	"address": {
 		"street": "151 Langverwacht Road",
@@ -110,25 +108,44 @@
 		]
 	]
 },
-				"latitude": 
-				
-					null,
-				
-				"longitude":
-				
-					null
-				
-			},
-			"observers": [
-				
-					
-					{
-	"name": "MJ",
-	"full-name": "MJ Jacobs",
+		"latitude": 
+		
+			null,
+		
+		"longitude":
+		
+			null
+		
+	},
+	
+	"photos": {
+		
+			
+			"2025-10-12T15:37:44.000Z_gerhard":
+			{
+	"file": "20251012_173744.jpg",
+	"sighting": "2025-10-12T15:37:44.000Z_gerhard",
+	"description": "Two Swee Waxbills perched on a bird-feeder",
+	"birds": [
+		"waxbill-swee"
+	],
+	"photographer": "gerhard",
+	"location": {
+		"area": "zevenwacht-village"
+	}
+}
+		
+	},
+	
+	"observers": [
+		
+			
+			{
+	"name": "Gerhard",
+	"full-name": "Gerhard Walzl",
 	"email": null
 }
-				
-			]
-		}
-	
+		
+	]
+}
 ]

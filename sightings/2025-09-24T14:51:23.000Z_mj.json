@@ -1,13 +1,9 @@
 
+
 [
-	
-		
-		
-		{
-			"id": "2025-09-24T14:51:23.000Z_mj",
-			"datetime": "2025-09-24T14:51:23.000Z",
-			"birdId": "falcon-peregrine",
-			"bird": {
+{
+	"datetime": "2025-09-24T14:51:23.000Z",
+	"bird": {
 	"name": "Peregrine Falcon",
 	"family_name": "Falcon",
 	"afrikaans_name": "Swerfvalk",
@@ -18,10 +14,10 @@
 	"red-list": "least-concern",
 	"hidden": true
 },
-			"quantity": 1,
-			"location": {
-				"areaId": "zevenwacht-village",
-				"area": {
+	"quantity": 1,
+	"location": {
+		"areaId": "zevenwacht-village",
+		"area": {
 	"name": "Zevenwacht Village",
 	"address": {
 		"street": "151 Langverwacht Road",
@@ -110,25 +106,44 @@
 		]
 	]
 },
-				"latitude": 
-				
-					null,
-				
-				"longitude":
-				
-					null
-				
-			},
-			"observers": [
-				
-					
-					{
+		"latitude": 
+		
+			null,
+		
+		"longitude":
+		
+			null
+		
+	},
+	
+	"photos": {
+		
+			
+			"2025-09-24T14:51:23.000Z_mj":
+			{
+	"file": "C8B49E9C-A6D8-42F0-8576-20A26F50E9F0_1_201_a.jpeg",
+	"sighting": "2025-09-24T14:51:23.000Z_mj",
+	"description": "A Peregrine Falcon devouring a small prey bird in the shade of a tree",
+	"birds": [
+		"falcon-peregrine"
+	],
+	"photographer": "mj",
+	"location": {
+		"area": "zevenwacht-village"
+	}
+}
+		
+	},
+	
+	"observers": [
+		
+			
+			{
 	"name": "MJ",
 	"full-name": "MJ Jacobs",
 	"email": null
 }
-				
-			]
-		}
-	
+		
+	]
+}
 ]
