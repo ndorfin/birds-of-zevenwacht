@@ -2,7 +2,7 @@
 
 [
 {
-	"datetime": "2020-04-10T00:00:00.041Z",
+	"datetime": "2025-10-12T15:24:47.000Z",
 	"bird": {
 	"name": "Red-faced Mousebird",
 	"family_name": "Mousebird",
@@ -114,11 +114,32 @@
 },
 		"latitude": 
 		
-			null,
+			33.932689,
 		
 		"longitude":
 		
-			null
+			18.710272
+		
+	},
+	
+	"photos": {
+		
+			
+			"2025-10-12T15:24:47.000Z_shaun":
+			{
+	"file": "9CEA2E42-0B8A-4BFA-BFC4-101E98BE1A6E_1_201_a.jpeg",
+	"sighting": "2025-10-12T15:24:47.000Z_shaun",
+	"description": "A Red-faced Mousebird in a tangle of bare branches",
+	"birds": [
+		"mousebird-red-faced"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "zevenwacht-village",
+		"latitude": 33.932689,
+		"longitude": 18.710272
+	}
+}
 		
 	},
 	
@@ -126,9 +147,9 @@
 		
 			
 			{
-	"name": "Rolf",
-	"full-name": "Rolf Dieckmann",
-	"email": null
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
 }
 		
 	]

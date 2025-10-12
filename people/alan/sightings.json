@@ -8142,12 +8142,19 @@
 			"bird": {
 	"name": "Red-faced Mousebird",
 	"family_name": "Mousebird",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Rotzügel-Mausvogel",
+	"afrikaans_name": "Rooiwangmuisvoël",
 	"genus": "Urocolius",
 	"species": "indicus",
 	"ebird": "https://ebird.org/species/refmou1/ZA",
-	"red-list": "least-concern"
+	"wikipedia": "https://en.wikipedia.org/wiki/Red-faced_mousebird",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2025-10-12T15:24:47.000Z_shaun",
+		"tx": "20%",
+		"ty": "20%",
+		"scale": 1.5
+	}
 },
 			"quantity": 1,
 			"location": {

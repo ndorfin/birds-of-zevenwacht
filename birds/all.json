@@ -1486,13 +1486,13 @@
 			"species": "indicus",
 			"family": "Mousebird",
 			"common_name": "Red-faced Mousebird",
-			"german_name": "",
-			"afrikaans_name": "",
+			"german_name": "Rotzügel-Mausvogel",
+			"afrikaans_name": "Rooiwangmuisvoël",
 			"ebird": "https://ebird.org/species/refmou1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Red-faced_mousebird",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	
