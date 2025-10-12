@@ -823,14 +823,14 @@
 			"species": "peregrinus",
 			"family": "Falcon",
 			"common_name": "Peregrine Falcon",
-			"german_name": "",
+			"german_name": "Wanderfalke",
 			"afrikaans_name": "Swerfvalk",
 			"ebird": "https://ebird.org/species/perfal/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Peregrine_falcon",
 			"redlist_level": "least-concern",
-			"sighted": false,
-			"photographed": false,
-			"potential": true
+			"sighted": true,
+			"photographed": true,
+			"potential": false
 		}
 	
 		,
@@ -2472,10 +2472,10 @@
 			"species": "melanotis",
 			"family": "Waxbill",
 			"common_name": "Swee Waxbill",
-			"german_name": "",
+			"german_name": "Kapgrünastrild",
 			"afrikaans_name": "Suidelike Swie",
 			"ebird": "https://ebird.org/species/swewax3/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Swee_waxbill",
 			"redlist_level": "least-concern",
 			"sighted": true,
 			"photographed": true,

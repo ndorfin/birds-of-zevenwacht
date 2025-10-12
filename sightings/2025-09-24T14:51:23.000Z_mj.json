@@ -7,12 +7,18 @@
 	"name": "Peregrine Falcon",
 	"family_name": "Falcon",
 	"afrikaans_name": "Swerfvalk",
-	"german_name": null,
+	"german_name": "Wanderfalke",
 	"genus": "Falco",
 	"species": "peregrinus",
 	"ebird": "https://ebird.org/species/perfal/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Peregrine_falcon",
 	"red-list": "least-concern",
-	"hidden": true
+	"photo": {
+		"id": "2025-09-24T14:51:23.000Z_mj",
+		"tx": "30%",
+		"ty": "0%",
+		"scale": 2.5
+	}
 },
 	"quantity": 1,
 	"location": {

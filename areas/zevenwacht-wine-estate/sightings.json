@@ -8307,14 +8307,18 @@
 			"bird": {
 	"name": "Swee Waxbill",
 	"family_name": "Waxbill",
-	"german_name": null,
+	"german_name": "Kapgrünastrild",
 	"afrikaans_name": "Suidelike Swie",
 	"genus": "Coccopygia",
 	"species": "melanotis",
 	"ebird": "https://ebird.org/species/swewax3/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Swee_waxbill",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-09-04T00_35_19.000Z_shaun"
+		"id": "2025-10-12T15:37:44.000Z_gerhard",
+		"tx": "50%",
+		"ty": "20%",
+		"scale": 2.5
 	}
 },
 			"quantity": 3,
