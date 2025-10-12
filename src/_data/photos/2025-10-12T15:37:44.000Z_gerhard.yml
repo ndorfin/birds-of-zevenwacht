@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 20251012_173744.jpg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-10-12T15:37:44.000Z_gerhard
+# Describe this image, as if you were explaining it over the phone
+description: Two Swee Waxbills perched on a bird-feeder
+# List each of the bird IDs present in this photo
+birds:
+  - waxbill-swee
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: gerhard
+location:
+  area: zevenwacht-village
