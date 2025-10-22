@@ -4,10 +4,10 @@ file: C8B49E9C-A6D8-42F0-8576-20A26F50E9F0_1_201_a.jpeg
 # 2024-09-04T14_23
 sighting: 2025-09-24T14:51:23.000Z_mj
 # Describe this image, as if you were explaining it over the phone
-description: A Peregrine Falcon devouring a small prey bird in the shade of a tree
+description: An African Goshawk devouring a small prey bird in the shade of a tree
 # List each of the bird IDs present in this photo
 birds:
-  - falcon-peregrine
+  - goshawk-african
 # Link this photo to a photographer (matching a file in the _data/people folder)
 photographer: mj
 location:
