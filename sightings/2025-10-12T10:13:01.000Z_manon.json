@@ -20,7 +20,7 @@
 },
 	"quantity": 1,
 	"location": {
-		"areaId": "zevenvwacht-villlage",
+		"areaId": "zevenvwacht-village",
 		"area": ,
 		"latitude": 
 		
@@ -45,7 +45,7 @@
 	],
 	"photographer": "manon",
 	"location": {
-		"area": "zevenvwacht-villlage"
+		"area": "zevenvwacht-village"
 	}
 }
 		
