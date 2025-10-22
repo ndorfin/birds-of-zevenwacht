@@ -2455,13 +2455,13 @@
 			"species": "astrild",
 			"family": "Waxbill",
 			"common_name": "Common Waxbill",
-			"german_name": "",
+			"german_name": "Wellenastrild",
 			"afrikaans_name": "Rooibeksysie",
 			"ebird": "https://ebird.org/species/comwax/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Common_waxbill",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	

@@ -4,6 +4,157 @@
 		
 		
 		{
+			"id": "2025-10-21T16:07:46.000Z_shaun",
+			"datetime": "2025-10-21T16:07:46.000Z",
+			"birdId": "waxbill-common",
+			"bird": {
+	"name": "Common Waxbill",
+	"family_name": "Waxbill",
+	"german_name": "Wellenastrild",
+	"afrikaans_name": "Rooibeksysie",
+	"genus": "Estrilda",
+	"species": "astrild",
+	"ebird": "https://ebird.org/species/comwax/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Common_waxbill",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2025-10-21T16:07:46.000Z_shaun",
+		"tx": "20%",
+		"ty": 0,
+		"scale": 3
+	},
+	"size": {
+		"min": 110,
+		"max": 110
+	},
+	"weight": {
+		"min": 7,
+		"max": 10
+	}
+},
+			"quantity": 3,
+			"location": {
+				"areaId": "zevenwacht-village",
+				"area": {
+	"name": "Zevenwacht Village",
+	"address": {
+		"street": "151 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934301,
+		"longitude": 18.713467
+	},
+	"geofence": [
+		[
+			-33.935893233077714,
+			18.71226990760988
+		],
+		[
+			-33.93553206079912,
+			18.712058210015783
+		],
+		[
+			-33.935047495038035,
+			18.713038968801868
+		],
+		[
+			-33.93518006519004,
+			18.713165696061054
+		],
+		[
+			-33.93532177788244,
+			18.71345771974447
+		],
+		[
+			-33.93506120875843,
+			18.71368913592974
+		],
+		[
+			-33.934457783486145,
+			18.713628527241156
+		],
+		[
+			-33.93415149781066,
+			18.713600977837075
+		],
+		[
+			-33.93397778305724,
+			18.713628527241156
+		],
+		[
+			-33.932702339387696,
+			18.71354587998806
+		],
+		[
+			-33.931632598390955,
+			18.713804844387
+		],
+		[
+			-33.93099714758992,
+			18.713970140811256
+		],
+		[
+			-33.93092857347935,
+			18.713865453075613
+		],
+		[
+			-33.93251033399087,
+			18.70856494282151
+		],
+		[
+			-33.93531329253742,
+			18.708901425601454
+		],
+		[
+			-33.935548268921785,
+			18.709136435975353
+		],
+		[
+			-33.93557326637127,
+			18.71028738421026
+		],
+		[
+			-33.935893233077714,
+			18.711510643328268
+		],
+		[
+			-33.935893233077714,
+			18.71226990760988
+		]
+	]
+},
+				"latitude": 
+				
+					-33.933734,
+				
+				"longitude":
+				
+					18.710348
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
+}
+				
+			]
+		}
+	
+		
+		,
+		{
 			"id": "2025-10-15T12:12:50.000Z_manon",
 			"datetime": "2025-10-15T12:12:50.000Z",
 			"birdId": "spurfowl-cape",
@@ -27,7 +178,6 @@
 			"location": {
 				"areaId": "zevenwacht-village",
 				"area": {
-	"name": "Zevenwacht Village",
 	"address": {
 		"street": "151 Langverwacht Road",
 		"suburb": "Kuils River"
@@ -36,6 +186,7 @@
 		"latitude": -33.934301,
 		"longitude": 18.713467
 	},
+	"name": "Zevenwacht Village",
 	"geofence": [
 		[
 			-33.935893233077714,
@@ -679,6 +830,290 @@
 		
 		,
 		{
+			"id": "2025-10-12T16:15:03.000Z_shaun",
+			"datetime": "2025-10-12T16:15:03.000Z",
+			"birdId": "duck-yellow-billed",
+			"bird": {
+	"name": "Yellow-billed Duck",
+	"family_name": "Duck",
+	"german_name": null,
+	"afrikaans_name": "Geelbek-Eend",
+	"genus": "Anas",
+	"species": "undulata",
+	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2022-08-08T09_18_37.000Z_tony",
+		"tx": "-10%",
+		"ty": "0%",
+		"scale": 2
+	}
+},
+			"quantity": 5,
+			"location": {
+				"areaId": "zevenwacht-village",
+				"area": {
+	"address": {
+		"street": "151 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934301,
+		"longitude": 18.713467
+	},
+	"name": "Zevenwacht Village",
+	"geofence": [
+		[
+			-33.935893233077714,
+			18.71226990760988
+		],
+		[
+			-33.93553206079912,
+			18.712058210015783
+		],
+		[
+			-33.935047495038035,
+			18.713038968801868
+		],
+		[
+			-33.93518006519004,
+			18.713165696061054
+		],
+		[
+			-33.93532177788244,
+			18.71345771974447
+		],
+		[
+			-33.93506120875843,
+			18.71368913592974
+		],
+		[
+			-33.934457783486145,
+			18.713628527241156
+		],
+		[
+			-33.93415149781066,
+			18.713600977837075
+		],
+		[
+			-33.93397778305724,
+			18.713628527241156
+		],
+		[
+			-33.932702339387696,
+			18.71354587998806
+		],
+		[
+			-33.931632598390955,
+			18.713804844387
+		],
+		[
+			-33.93099714758992,
+			18.713970140811256
+		],
+		[
+			-33.93092857347935,
+			18.713865453075613
+		],
+		[
+			-33.93251033399087,
+			18.70856494282151
+		],
+		[
+			-33.93531329253742,
+			18.708901425601454
+		],
+		[
+			-33.935548268921785,
+			18.709136435975353
+		],
+		[
+			-33.93557326637127,
+			18.71028738421026
+		],
+		[
+			-33.935893233077714,
+			18.711510643328268
+		],
+		[
+			-33.935893233077714,
+			18.71226990760988
+		]
+	]
+},
+				"latitude": 
+				
+					-33.933839,
+				
+				"longitude":
+				
+					18.710327
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2025-10-12T16:02:17.000Z_shaun",
+			"datetime": "2025-10-12T16:02:17.000Z",
+			"birdId": "mousebird-white-backed",
+			"bird": {
+	"name": "White-backed Mousebird",
+	"family_name": "Mousebird",
+	"german_name": null,
+	"afrikaans_name": "Witkruismuisvoël",
+	"genus": "Colius",
+	"species": "colius",
+	"ebird": "https://ebird.org/species/whbmou1/ZA",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2020-08-21T11_43_13.000Z_tony",
+		"tx": "-20%",
+		"ty": "0%",
+		"scale": 3
+	}
+},
+			"quantity": 3,
+			"location": {
+				"areaId": "zevenwacht-village",
+				"area": {
+	"address": {
+		"street": "151 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934301,
+		"longitude": 18.713467
+	},
+	"name": "Zevenwacht Village",
+	"geofence": [
+		[
+			-33.935893233077714,
+			18.71226990760988
+		],
+		[
+			-33.93553206079912,
+			18.712058210015783
+		],
+		[
+			-33.935047495038035,
+			18.713038968801868
+		],
+		[
+			-33.93518006519004,
+			18.713165696061054
+		],
+		[
+			-33.93532177788244,
+			18.71345771974447
+		],
+		[
+			-33.93506120875843,
+			18.71368913592974
+		],
+		[
+			-33.934457783486145,
+			18.713628527241156
+		],
+		[
+			-33.93415149781066,
+			18.713600977837075
+		],
+		[
+			-33.93397778305724,
+			18.713628527241156
+		],
+		[
+			-33.932702339387696,
+			18.71354587998806
+		],
+		[
+			-33.931632598390955,
+			18.713804844387
+		],
+		[
+			-33.93099714758992,
+			18.713970140811256
+		],
+		[
+			-33.93092857347935,
+			18.713865453075613
+		],
+		[
+			-33.93251033399087,
+			18.70856494282151
+		],
+		[
+			-33.93531329253742,
+			18.708901425601454
+		],
+		[
+			-33.935548268921785,
+			18.709136435975353
+		],
+		[
+			-33.93557326637127,
+			18.71028738421026
+		],
+		[
+			-33.935893233077714,
+			18.711510643328268
+		],
+		[
+			-33.935893233077714,
+			18.71226990760988
+		]
+	]
+},
+				"latitude": 
+				
+					-33.93368,
+				
+				"longitude":
+				
+					18.71031
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
+}
+				
+			]
+		}
+	
+		
+		,
+		{
 			"id": "2025-10-12T15:37:44.000Z_gerhard",
 			"datetime": "2025-10-12T15:37:44.000Z",
 			"birdId": "waxbill-swee",
@@ -807,6 +1242,148 @@
 	"name": "Gerhard",
 	"full-name": "Gerhard Walzl",
 	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2025-10-12T15:29:32.000Z_shaun",
+			"datetime": "2025-10-12T15:29:32.000Z",
+			"birdId": "kite-yellow-billed",
+			"bird": {
+	"name": "Yellow-billed Kite",
+	"family_name": "Kite",
+	"german_name": null,
+	"afrikaans_name": "Geelbekwou",
+	"genus": "Milvus",
+	"species": "aegyptius",
+	"ebird": null,
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-24T01_56_06.000Z_shaun",
+		"tx": "0%",
+		"ty": "100%",
+		"scale": 4
+	}
+},
+			"quantity": 2,
+			"location": {
+				"areaId": "zevenwacht-village",
+				"area": {
+	"address": {
+		"street": "151 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934301,
+		"longitude": 18.713467
+	},
+	"name": "Zevenwacht Village",
+	"geofence": [
+		[
+			-33.935893233077714,
+			18.71226990760988
+		],
+		[
+			-33.93553206079912,
+			18.712058210015783
+		],
+		[
+			-33.935047495038035,
+			18.713038968801868
+		],
+		[
+			-33.93518006519004,
+			18.713165696061054
+		],
+		[
+			-33.93532177788244,
+			18.71345771974447
+		],
+		[
+			-33.93506120875843,
+			18.71368913592974
+		],
+		[
+			-33.934457783486145,
+			18.713628527241156
+		],
+		[
+			-33.93415149781066,
+			18.713600977837075
+		],
+		[
+			-33.93397778305724,
+			18.713628527241156
+		],
+		[
+			-33.932702339387696,
+			18.71354587998806
+		],
+		[
+			-33.931632598390955,
+			18.713804844387
+		],
+		[
+			-33.93099714758992,
+			18.713970140811256
+		],
+		[
+			-33.93092857347935,
+			18.713865453075613
+		],
+		[
+			-33.93251033399087,
+			18.70856494282151
+		],
+		[
+			-33.93531329253742,
+			18.708901425601454
+		],
+		[
+			-33.935548268921785,
+			18.709136435975353
+		],
+		[
+			-33.93557326637127,
+			18.71028738421026
+		],
+		[
+			-33.935893233077714,
+			18.711510643328268
+		],
+		[
+			-33.935893233077714,
+			18.71226990760988
+		]
+	]
+},
+				"latitude": 
+				
+					-33.933,
+				
+				"longitude":
+				
+					18.709691
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
 }
 				
 			]
@@ -1077,6 +1654,155 @@
 	"name": "Manon",
 	"full-name": "Manon van der Burg",
 	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2025-10-11T16:04:58.000Z_shaun",
+			"datetime": "2025-10-11T16:04:58.000Z",
+			"birdId": "whydah-pin-tailed",
+			"bird": {
+	"photo": {
+		"id": "2024-12-24T10:58:21.000Z_shaun",
+		"tx": "30%",
+		"ty": "30%",
+		"scale": 3
+	},
+	"name": "Pin-tailed Whydah",
+	"family_name": "Whydah",
+	"german_name": null,
+	"afrikaans_name": "Koningrooibekkie",
+	"genus": "Vidua",
+	"species": "macroura",
+	"ebird": "https://ebird.org/species/pitwhy/ZA",
+	"red-list": "least-concern"
+},
+			"quantity": 3,
+			"location": {
+				"areaId": "zevenwacht-village",
+				"area": {
+	"address": {
+		"street": "151 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934301,
+		"longitude": 18.713467
+	},
+	"name": "Zevenwacht Village",
+	"geofence": [
+		[
+			-33.935893233077714,
+			18.71226990760988
+		],
+		[
+			-33.93553206079912,
+			18.712058210015783
+		],
+		[
+			-33.935047495038035,
+			18.713038968801868
+		],
+		[
+			-33.93518006519004,
+			18.713165696061054
+		],
+		[
+			-33.93532177788244,
+			18.71345771974447
+		],
+		[
+			-33.93506120875843,
+			18.71368913592974
+		],
+		[
+			-33.934457783486145,
+			18.713628527241156
+		],
+		[
+			-33.93415149781066,
+			18.713600977837075
+		],
+		[
+			-33.93397778305724,
+			18.713628527241156
+		],
+		[
+			-33.932702339387696,
+			18.71354587998806
+		],
+		[
+			-33.931632598390955,
+			18.713804844387
+		],
+		[
+			-33.93099714758992,
+			18.713970140811256
+		],
+		[
+			-33.93092857347935,
+			18.713865453075613
+		],
+		[
+			-33.93251033399087,
+			18.70856494282151
+		],
+		[
+			-33.93531329253742,
+			18.708901425601454
+		],
+		[
+			-33.935548268921785,
+			18.709136435975353
+		],
+		[
+			-33.93557326637127,
+			18.71028738421026
+		],
+		[
+			-33.935893233077714,
+			18.711510643328268
+		],
+		[
+			-33.935893233077714,
+			18.71226990760988
+		]
+	]
+},
+				"latitude": 
+				
+					-33.93368,
+				
+				"longitude":
+				
+					18.71031
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Manon",
+	"full-name": "Manon van der Burg",
+	"email": null
+}
+				
+					,
+					{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
 }
 				
 			]
@@ -5274,6 +6000,12 @@
 			"datetime": "2024-12-24T11:20:42.000Z",
 			"birdId": "mousebird-white-backed",
 			"bird": {
+	"photo": {
+		"id": "2020-08-21T11_43_13.000Z_tony",
+		"tx": "-20%",
+		"ty": "0%",
+		"scale": 3
+	},
 	"name": "White-backed Mousebird",
 	"family_name": "Mousebird",
 	"german_name": null,
@@ -5281,13 +6013,7 @@
 	"genus": "Colius",
 	"species": "colius",
 	"ebird": "https://ebird.org/species/whbmou1/ZA",
-	"red-list": "least-concern",
-	"photo": {
-		"id": "2020-08-21T11_43_13.000Z_tony",
-		"tx": "-20%",
-		"ty": "0%",
-		"scale": 3
-	}
+	"red-list": "least-concern"
 },
 			"quantity": 4,
 			"location": {
@@ -7349,6 +8075,12 @@
 			"datetime": "2024-12-04T16:40:00.000Z",
 			"birdId": "kite-yellow-billed",
 			"bird": {
+	"photo": {
+		"id": "2024-09-24T01_56_06.000Z_shaun",
+		"tx": "0%",
+		"ty": "100%",
+		"scale": 4
+	},
 	"name": "Yellow-billed Kite",
 	"family_name": "Kite",
 	"german_name": null,
@@ -7356,13 +8088,7 @@
 	"genus": "Milvus",
 	"species": "aegyptius",
 	"ebird": null,
-	"red-list": "least-concern",
-	"photo": {
-		"id": "2024-09-24T01_56_06.000Z_shaun",
-		"tx": "0%",
-		"ty": "100%",
-		"scale": 4
-	}
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -15689,6 +16415,12 @@
 			"datetime": "2022-08-08T09:22:36.000Z",
 			"birdId": "duck-yellow-billed",
 			"bird": {
+	"photo": {
+		"id": "2022-08-08T09_18_37.000Z_tony",
+		"tx": "-10%",
+		"ty": "0%",
+		"scale": 2
+	},
 	"name": "Yellow-billed Duck",
 	"family_name": "Duck",
 	"german_name": null,
@@ -15696,13 +16428,7 @@
 	"genus": "Anas",
 	"species": "undulata",
 	"ebird": "https://ebird.org/species/yebduc1/ZA",
-	"red-list": "least-concern",
-	"photo": {
-		"id": "2022-08-08T09_18_37.000Z_tony",
-		"tx": "-10%",
-		"ty": "0%",
-		"scale": 2
-	}
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
@@ -25071,14 +25797,12 @@
 			"datetime": "2020-04-10T00:00:00.022Z",
 			"birdId": "waxbill-common",
 			"bird": {
-	"name": "Common Waxbill",
-	"family_name": "Waxbill",
-	"german_name": null,
-	"afrikaans_name": "Rooibeksysie",
-	"genus": "Estrilda",
-	"species": "astrild",
-	"ebird": "https://ebird.org/species/comwax/ZA",
-	"red-list": "least-concern",
+	"photo": {
+		"id": "2025-10-21T16:07:46.000Z_shaun",
+		"tx": "20%",
+		"ty": 0,
+		"scale": 3
+	},
 	"size": {
 		"min": 110,
 		"max": 110
@@ -25086,7 +25810,16 @@
 	"weight": {
 		"min": 7,
 		"max": 10
-	}
+	},
+	"name": "Common Waxbill",
+	"family_name": "Waxbill",
+	"german_name": "Wellenastrild",
+	"afrikaans_name": "Rooibeksysie",
+	"genus": "Estrilda",
+	"species": "astrild",
+	"ebird": "https://ebird.org/species/comwax/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Common_waxbill",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
