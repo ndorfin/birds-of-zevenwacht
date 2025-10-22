@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2025-10-16T09:09:35.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A male Yellow Bishop in full breeding regalia, perched in a leafless tree above a flowering meadow
+bird:
+  # Supply a matching Bird ID
+  id: bishop-yellow
+  # How many individuals did you spot?
+  quantity: 2
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2025-10-16T09:09:35.000Z_manon
+# Include all the people that spotted this bird.
+observers:
+  - manon
+  - shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.923714
+  longitude: 18.717329

@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: Birds Zevenwacht 08.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-10-16T07:30:11.000Z_manon
+# Describe this image, as if you were explaining it over the phone
+description: A male Malachite Sunbird perched on the trellis wires in the vineyard
+# List each of the bird IDs present in this photo
+birds:
+  - sunbird-malachite
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: manon
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.931582
+  longitude: 18.728074

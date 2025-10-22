@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: Birds Zevenwacht 11.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-10-16T09:09:35.000Z_manon
+# Describe this image, as if you were explaining it over the phone
+description: A male Yellow Bishop in full breeding regalia, perched in a leafless tree above a flowering meadow
+# List each of the bird IDs present in this photo
+birds:
+  - bishop-yellow
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: manon
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.923714
+  longitude: 18.717329

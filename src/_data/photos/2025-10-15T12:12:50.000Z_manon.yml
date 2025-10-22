@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: Birds Zevenwacht 05.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-10-15T12:12:50.000Z_manon
+# Describe this image, as if you were explaining it over the phone
+description: Two adult Cape Spurfowls scrounge through the sand for food
+# List each of the bird IDs present in this photo
+birds:
+  - spurfowl-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: manon
+location:
+  area: zevenwacht-village

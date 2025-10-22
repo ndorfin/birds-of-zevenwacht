@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: Birds Zevenwacht 09.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-10-16T07:33:05.000Z_manon
+# Describe this image, as if you were explaining it over the phone
+description: Four Swee Waxbills perched on an overhead wire
+# List each of the bird IDs present in this photo
+birds:
+  - waxbill-swee
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: manon
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.931418
+  longitude: 18.727900

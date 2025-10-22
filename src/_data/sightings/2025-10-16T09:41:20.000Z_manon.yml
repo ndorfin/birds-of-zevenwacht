@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2025-10-16T09:41:20.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A male Southern Red Bishop clinging to a reed near a dam
+bird:
+  # Supply a matching Bird ID
+  id: 4
+  # How many individuals did you spot?
+  quantity: bishop-southern-red
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2025-10-16T09:41:20.000Z_manon
+# Include all the people that spotted this bird.
+observers:
+  - manon
+  - shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.921915
+  longitude: 18.713925
