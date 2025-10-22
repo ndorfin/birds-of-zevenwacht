@@ -4,8 +4,8 @@
 		
 		
 		{
-			"id": "2025-08-26T14:48:32.000Z_shaun",
-			"datetime": "2025-08-26T14:48:32.000Z",
+			"id": "2025-10-12T10:13:01.000Z_manon",
+			"datetime": "2025-10-12T10:13:01.000Z",
 			"birdId": "bulbul-cape",
 			"bird": {
 	"name": "Cape Bulbul",
@@ -21,6 +21,52 @@
 		"ty": "35%",
 		"scale": 2
 	}
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenvwacht-villlage",
+				"area": ,
+				"latitude": 
+				
+					null,
+				
+				"longitude":
+				
+					null
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Manon",
+	"full-name": "Manon van der Burg",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2025-08-26T14:48:32.000Z_shaun",
+			"datetime": "2025-08-26T14:48:32.000Z",
+			"birdId": "bulbul-cape",
+			"bird": {
+	"photo": {
+		"id": "2024-10-18T20_06_43.000Z_shaun",
+		"ty": "35%",
+		"scale": 2
+	},
+	"name": "Cape Bulbul",
+	"family_name": "Bulbul",
+	"german_name": "Kapbülbül",
+	"afrikaans_name": "Kaapse Tiptol",
+	"genus": "Pycnonotus",
+	"species": "capensis",
+	"ebird": "https://ebird.org/species/capbul1/ZA",
+	"red-list": "least-concern"
 },
 			"quantity": 2,
 			"location": {
