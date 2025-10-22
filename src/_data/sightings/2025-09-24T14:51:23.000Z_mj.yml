@@ -3,10 +3,10 @@
 datetime: 2025-09-24T14:51:23.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  An African Goshawk devouring a small prey bird in the shade of a nearby tree
+  A female Black Sparrowhawk devouring a small prey bird in the shade of a tree
 bird:
   # Supply a matching Bird ID
-  id: goshawk-african
+  id: sparrowhawk-black
   # How many individuals did you spot?
   quantity: 1
 # Link this Sighting to a Photo, by its ID
