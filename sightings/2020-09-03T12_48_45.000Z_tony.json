@@ -4,13 +4,14 @@
 {
 	"datetime": "2020-09-03T12:48:45.000Z",
 	"bird": {
-	"name": "African Goshwawk",
+	"name": "African Goshawk",
 	"family_name": "Goshawk",
-	"german_name": null,
+	"german_name": "Afrikahabicht",
 	"afrikaans_name": "Afrikaanse Sperwer",
 	"genus": "Aerospiza",
 	"species": "tachiro",
 	"ebird": "https://ebird.org/species/afrgos1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_goshawk",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2020-09-03T12_48_45.000Z_tony",

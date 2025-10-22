@@ -829,7 +829,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/Peregrine_falcon",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": true,
+			"photographed": false,
 			"potential": false
 		}
 	
@@ -958,11 +958,11 @@
 			"genus": "Aerospiza",
 			"species": "tachiro",
 			"family": "Goshawk",
-			"common_name": "African Goshwawk",
-			"german_name": "",
+			"common_name": "African Goshawk",
+			"german_name": "Afrikahabicht",
 			"afrikaans_name": "Afrikaanse Sperwer",
 			"ebird": "https://ebird.org/species/afrgos1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/African_goshawk",
 			"redlist_level": "least-concern",
 			"sighted": true,
 			"photographed": true,
