@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 9520960D-2CA9-4894-9E23-275C0AC73B15_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-10-11T16:04:58.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A male Pin-tailed Whydah poses on top of a shrub
+# List each of the bird IDs present in this photo
+birds:
+  - whydah-pin-tailed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.933680 
+  longitude: 18.710310

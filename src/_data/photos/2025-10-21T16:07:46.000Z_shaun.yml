@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: E45D24EB-685F-4D43-99D0-BBAF8FF887E9_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-10-21T16:07:46.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: These waxbills were diving in and out of the hedges above the middle dam
+# List each of the bird IDs present in this photo
+birds:
+  - waxbill-common
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.933734
+  longitude: 18.710348

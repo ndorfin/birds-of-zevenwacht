@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2025-10-16T08:42:53.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A Yellow-billed Kite flying low over the vineyard, presumably hunting for rodents
+bird:
+  # Supply a matching Bird ID
+  id: kite-yellow-billed
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2025-10-16T08:42:53.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - manon
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.927820
+  longitude: 18.722774

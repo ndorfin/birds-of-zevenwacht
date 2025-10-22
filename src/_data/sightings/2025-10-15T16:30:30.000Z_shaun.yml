@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2025-10-15T16:30:30.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  An adult pair of Black Swans guiding their 5 cygnets through the Lifestyle Estate's upper dam
+bird:
+  # Supply a matching Bird ID
+  id: swan-black
+  # How many individuals did you spot?
+  quantity: 7
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2025-10-15T16:30:30.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.931873
+  longitude: 18.715300

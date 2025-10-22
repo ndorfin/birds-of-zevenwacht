@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 97C4E58B-9F8D-49BC-870E-DACF51146E37_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-10-12T16:15:03.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: Two adult Yellow-billed Ducks escort their three offspring through the lillies in the middle dam
+# List each of the bird IDs present in this photo
+birds:
+  - duck-yellow-billed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.933839 
+  longitude: 18.710327

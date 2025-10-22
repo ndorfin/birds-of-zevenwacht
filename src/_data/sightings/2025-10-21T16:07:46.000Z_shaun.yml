@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2025-10-21T16:07:46.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  These waxbills were diving in and out of the hedges above the middle dam
+bird:
+  # Supply a matching Bird ID
+  id: waxbill-common
+  # How many individuals did you spot?
+  quantity: 3
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2025-10-21T16:07:46.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-village
+  latitude: -33.933734
+  longitude: 18.710348

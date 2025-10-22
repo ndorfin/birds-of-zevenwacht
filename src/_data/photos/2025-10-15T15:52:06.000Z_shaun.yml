@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: D1C47B7F-2361-4F26-BE4D-2DA74FAA01B0.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-10-15T15:52:06.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Red-faced Mousebird scrounging through the refuse and composting on the wine estate
+# List each of the bird IDs present in this photo
+birds:
+  - mousebird-red-faced
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.929817
+  longitude: 18.718008

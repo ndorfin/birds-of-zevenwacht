@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 7097EA9E-9DCF-44D6-9FC6-6E82518A8C5D_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-10-16T07:22:25.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An African Fish Eagle perched in a Eucalyptus tree
+# List each of the bird IDs present in this photo
+birds:
+  - eagle-african-fish
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: langverwacht-estate
+  latitude: -33.933161
+  longitude: 18.728158

@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: CE548C99-1416-4F03-A1D5-32C2D0B0141B_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-10-16T07:03:29.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Common (Steppe) Buzzard soaring above the photographer
+# List each of the bird IDs present in this photo
+birds:
+  - buzzard-common
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: langverwacht-estate
+  latitude: -33.932576
+  longitude: 18.724574

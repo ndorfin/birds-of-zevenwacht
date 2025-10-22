@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2025-10-16T07:22:25.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  An African Fish Eagle perched in a Eucalyptus tree
+bird:
+  # Supply a matching Bird ID
+  id: eagle-african-fish
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2025-10-16T07:22:25.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - manon
+location:
+  area: langverwacht-estate
+  latitude: -33.933161
+  longitude: 18.728158

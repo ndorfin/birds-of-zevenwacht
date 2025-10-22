@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: FDD6A481-DB16-42BB-A297-D8E5F6D99AD9_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-10-15T16:30:30.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult pair of Black Swans guiding their 5 cygnets through the Lifestyle Estate's upper dam
+# List each of the bird IDs present in this photo
+birds:
+  - swan-black
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.931873
+  longitude: 18.715300

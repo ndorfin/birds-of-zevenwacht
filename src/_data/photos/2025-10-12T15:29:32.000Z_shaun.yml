@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 8F8EE806-872E-4200-ADE9-FB97C9286511_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-10-12T15:29:32.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A pair of Yellow-billed Kites wrestle with their talons in mid-flight
+# List each of the bird IDs present in this photo
+birds:
+  - kite-yellow-billed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.933000
+  longitude: 18.709691
