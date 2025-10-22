@@ -6,9 +6,9 @@ description: |-
   A male Southern Red Bishop clinging to a reed near a dam
 bird:
   # Supply a matching Bird ID
-  id: 4
+  id: bishop-southern-red
   # How many individuals did you spot?
-  quantity: bishop-southern-red
+  quantity: 4
 # Link this Sighting to a Photo, by its ID
 photos: 
   - 2025-10-16T09:41:20.000Z_manon

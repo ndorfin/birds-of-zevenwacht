@@ -6,9 +6,9 @@ description: |-
   A Bar-throated Apalis with a large green Katydid in its beak
 bird:
   # Supply a matching Bird ID
-  id: 1
+  id: apalis-bar-throated
   # How many individuals did you spot?
-  quantity: apalis-bar-throated
+  quantity: 1
 # Link this Sighting to a Photo, by its ID
 photos: 
   - 2025-10-16T09:10:30.000Z_manon
