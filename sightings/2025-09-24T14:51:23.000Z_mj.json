@@ -4,20 +4,19 @@
 {
 	"datetime": "2025-09-24T14:51:23.000Z",
 	"bird": {
-	"name": "African Goshawk",
-	"family_name": "Goshawk",
-	"german_name": "Afrikahabicht",
-	"afrikaans_name": "Afrikaanse Sperwer",
-	"genus": "Aerospiza",
-	"species": "tachiro",
-	"ebird": "https://ebird.org/species/afrgos1/ZA",
-	"wikipedia": "https://en.wikipedia.org/wiki/African_goshawk",
+	"name": "Black Sparrowhawk",
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": "Swartsperwer",
+	"genus": "Astur",
+	"species": "melanoleucus",
+	"ebird": "https://ebird.org/species/blagos1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2020-09-03T12_48_45.000Z_tony",
-		"tx": "-10%",
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
 		"ty": "20%",
-		"scale": 3
+		"scale": 2
 	}
 },
 	"quantity": 1,
@@ -129,9 +128,9 @@
 			{
 	"file": "C8B49E9C-A6D8-42F0-8576-20A26F50E9F0_1_201_a.jpeg",
 	"sighting": "2025-09-24T14:51:23.000Z_mj",
-	"description": "An African Goshawk devouring a small prey bird in the shade of a tree",
+	"description": "A female Black Sparrowhawk devouring a small prey bird in the shade of a tree",
 	"birds": [
-		"goshawk-african"
+		"sparrowhawk-black"
 	],
 	"photographer": "mj",
 	"location": {

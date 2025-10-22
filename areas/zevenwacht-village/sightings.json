@@ -1087,22 +1087,21 @@
 		{
 			"id": "2025-09-24T14:51:23.000Z_mj",
 			"datetime": "2025-09-24T14:51:23.000Z",
-			"birdId": "goshawk-african",
+			"birdId": "sparrowhawk-black",
 			"bird": {
-	"name": "African Goshawk",
-	"family_name": "Goshawk",
-	"german_name": "Afrikahabicht",
-	"afrikaans_name": "Afrikaanse Sperwer",
-	"genus": "Aerospiza",
-	"species": "tachiro",
-	"ebird": "https://ebird.org/species/afrgos1/ZA",
-	"wikipedia": "https://en.wikipedia.org/wiki/African_goshawk",
+	"name": "Black Sparrowhawk",
+	"family_name": "Sparrowhawk",
+	"german_name": null,
+	"afrikaans_name": "Swartsperwer",
+	"genus": "Astur",
+	"species": "melanoleucus",
+	"ebird": "https://ebird.org/species/blagos1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2020-09-03T12_48_45.000Z_tony",
-		"tx": "-10%",
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
 		"ty": "20%",
-		"scale": 3
+		"scale": 2
 	}
 },
 			"quantity": 1,
@@ -5559,6 +5558,12 @@
 			"datetime": "2024-12-19T18:00:33.000Z",
 			"birdId": "sparrowhawk-black",
 			"bird": {
+	"photo": {
+		"id": "2022-11-23T16_36_27.000Z_tony",
+		"tx": "30%",
+		"ty": "20%",
+		"scale": 2
+	},
 	"name": "Black Sparrowhawk",
 	"family_name": "Sparrowhawk",
 	"german_name": null,
@@ -5566,13 +5571,7 @@
 	"genus": "Astur",
 	"species": "melanoleucus",
 	"ebird": "https://ebird.org/species/blagos1/ZA",
-	"red-list": "least-concern",
-	"photo": {
-		"id": "2022-11-23T16_36_27.000Z_tony",
-		"tx": "30%",
-		"ty": "20%",
-		"scale": 2
-	}
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {
@@ -19287,12 +19286,6 @@
 			"datetime": "2020-09-03T12:48:45.000Z",
 			"birdId": "goshawk-african",
 			"bird": {
-	"photo": {
-		"id": "2020-09-03T12_48_45.000Z_tony",
-		"tx": "-10%",
-		"ty": "20%",
-		"scale": 3
-	},
 	"name": "African Goshawk",
 	"family_name": "Goshawk",
 	"german_name": "Afrikahabicht",
@@ -19301,7 +19294,13 @@
 	"species": "tachiro",
 	"ebird": "https://ebird.org/species/afrgos1/ZA",
 	"wikipedia": "https://en.wikipedia.org/wiki/African_goshawk",
-	"red-list": "least-concern"
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2020-09-03T12_48_45.000Z_tony",
+		"tx": "-10%",
+		"ty": "20%",
+		"scale": 3
+	}
 },
 			"quantity": 1,
 			"location": {
