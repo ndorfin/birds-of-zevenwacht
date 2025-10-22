@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 3ABE2B27-CE3D-4685-8CBB-E7FD59B81652_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-10-15T08:27:53.000Z_mike
+# Describe this image, as if you were explaining it over the phone
+description: A male Pin-tailed Whydah perched on a fence post
+# List each of the bird IDs present in this photo
+birds:
+  - whydah-pin-tailed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: mike
+location:
+  area: zevenwacht-village
