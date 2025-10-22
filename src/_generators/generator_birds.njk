@@ -52,10 +52,17 @@ eleventyExcludeFromCollections: true
 			</dd>
 		</div>
 	{% endif %}
-	{% if bird.ebird %}
+	{% if bird.ebird or bird.wikipedia %}
 		<div>
 			<dt>Reference</dt>
-			<dd><a href="{{ bird.ebird }}">{{ bird.name }} on eBird</a></dd>
+			<dd>
+			{% if bird.ebird %}
+			<a href="{{ bird.ebird }}">{{ bird.name }} on eBird</a><br>
+			{% endif %}
+			{% if bird.wikipedia %}
+			<a href="{{ bird.wikipedia }}">{{ bird.name }} on WikiPedia</a>
+			{% endif %}
+			</dd>
 		</div>
 	{% endif %}
 	{% if bird['red-list'] %}
