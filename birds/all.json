@@ -1934,7 +1934,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/African_spoonbill",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	
