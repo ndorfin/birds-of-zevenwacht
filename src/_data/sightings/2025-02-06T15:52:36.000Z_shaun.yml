@@ -12,6 +12,7 @@ bird:
 # Link this Sighting to a Photo, by its ID
 photos: 
   - 2025-02-06T15:52:36.000Z_shaun
+  - 2025-02-06T16:28:25.000Z_tony
 # Include all the people that spotted this bird.
 observers:
   - shaun

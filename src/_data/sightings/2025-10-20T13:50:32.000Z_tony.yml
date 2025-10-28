@@ -1,17 +1,17 @@
 # Add an ISO8601 date
 # 2024-09-04T14:23:59Z 
-datetime: 2025-10-28T10:34:08.000Z
+datetime: 2025-10-20T13:50:32.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  An adult Hamerkop perched on a trunk over a dam
+  4 Common Waxbills eating seeds from a birdfeeder
 bird:
   # Supply a matching Bird ID
-  id: hamerkop
+  id: waxbill-common
   # How many individuals did you spot?
-  quantity: 1
+  quantity: 4
 # Link this Sighting to a Photo, by its ID
 photos: 
-  - 2025-10-28T10:34:08.000Z_tony
+  - 2025-10-20T13:50:32.000Z_tony
 # Include all the people that spotted this bird.
 observers:
   - tony

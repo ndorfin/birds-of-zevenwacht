@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 9A1342E0-4FDE-43DA-BF28-660AA094ABA5_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-10-28T11:56:17.000Z_tony
+# Describe this image, as if you were explaining it over the phone
+description: An adult Yellow-billed Kite soaring above the photographer
+# List each of the bird IDs present in this photo
+birds:
+  - kite-yellow-billed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: tony
+location:
+  area: zevenwacht-village
