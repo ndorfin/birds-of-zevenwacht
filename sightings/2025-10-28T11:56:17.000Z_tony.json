@@ -2,21 +2,21 @@
 
 [
 {
-	"datetime": "2025-10-28T10:34:08.000Z",
+	"datetime": "2025-10-28T11:56:17.000Z",
 	"bird": {
-	"name": "Hamerkop",
-	"family_name": "Ibis",
+	"name": "Yellow-billed Kite",
+	"family_name": "Kite",
 	"german_name": null,
-	"afrikaans_name": "Hamerkop",
-	"genus": "Scopus",
-	"species": "umbretta",
-	"ebird": "https://ebird.org/species/hamerk1/ZA",
+	"afrikaans_name": "Geelbekwou",
+	"genus": "Milvus",
+	"species": "aegyptius",
+	"ebird": null,
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-10-27T08_06_33.000Z_tony",
-		"tx": "10%",
-		"ty": "0%",
-		"scale": 2.5
+		"id": "2024-09-24T01_56_06.000Z_shaun",
+		"tx": "0%",
+		"ty": "100%",
+		"scale": 4
 	}
 },
 	"quantity": 1,
@@ -124,13 +124,13 @@
 	"photos": {
 		
 			
-			"2025-10-28T10:34:08.000Z_tony":
+			"2025-10-28T11:56:17.000Z_tony":
 			{
-	"file": "hammerkop 1.JPG",
-	"sighting": "2025-10-28T10:34:08.000Z_tony",
-	"description": "An adult Hamerkop perched on a trunk over a dam",
+	"file": "9A1342E0-4FDE-43DA-BF28-660AA094ABA5_1_201_a.jpeg",
+	"sighting": "2025-10-28T11:56:17.000Z_tony",
+	"description": "An adult Yellow-billed Kite soaring above the photographer",
 	"birds": [
-		"hamerkop"
+		"kite-yellow-billed"
 	],
 	"photographer": "tony",
 	"location": {

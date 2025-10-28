@@ -185,6 +185,23 @@
 	}
 }
 		
+			,
+			"2025-02-06T16:28:25.000Z_tony":
+			{
+	"file": "IMG_5965.JPG",
+	"sighting": "2025-02-06T15:52:36.000Z_shaun",
+	"description": "An African Darter flies just above the water near the Manor House",
+	"birds": [
+		"darter-african"
+	],
+	"photographer": "tony",
+	"location": {
+		"area": "zevenwacht-wine-estate",
+		"latitude": -33.931231,
+		"longitude": 18.727078
+	}
+}
+		
 	},
 	
 	"observers": [
