@@ -1,0 +1,19 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2025-08-04T15:24:15.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  An adult male Malachite Sunbird eating from a Hot-poker Aloe
+bird:
+  # Supply a matching Bird ID
+  id: sunbird-malachite
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2025-08-04T15:24:15.000Z_tony
+# Include all the people that spotted this bird.
+observers:
+  - tony
+location:
+  area: zevenwacht-village
