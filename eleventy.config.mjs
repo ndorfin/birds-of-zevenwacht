@@ -13,7 +13,8 @@ const markdownIt = require('markdown-it');
 const md = new markdownIt({ html: true });
 const imageFilenameFormatter = function (id, src, width, format, options) {
 	const extension = path.extname(src);
-	const name = path.basename(src, extension);
+	const escapedSrc = src.replace(/\s/g,'_');
+	const name = path.basename(escapedSrc, extension);
 	// id: hash of the original image
 	// src: original image path
 	// width: current width in px
@@ -208,7 +209,7 @@ export default async function (config) {
 	});
 	config.addShortcode('photoThumbnail', async function (src, alt, translateX = 0, translateY = 0, scale = 1) {
 		const authorId = src.split('src/_data/source_photos/')[1].split('/')[0];
-		const imageId = src.split(`src/_data/source_photos/${authorId}/`)[1].replace('.','_');
+		const imageId = src.split(`src/_data/source_photos/${authorId}/`)[1].replace('.','_').replace(' ','_');
 		let metadata = await Image(src, {
 			urlPath: `/assets/photos/${authorId}/`,
 			outputDir: `src/assets/photos/${authorId}/`,
