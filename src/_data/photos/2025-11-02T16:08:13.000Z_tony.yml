@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: IMG_6593.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-11-02T16:08:13.000Z_tony
+# Describe this image, as if you were explaining it over the phone
+description: A male Pin-tailed Whydah hovers near a female in a tree, displaying.
+# List each of the bird IDs present in this photo
+birds:
+  - whydah-pin-tailed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: tony
+location:
+  area: zevenwacht-village
+  latitude: -33.935058
+  longitude: 18.710451

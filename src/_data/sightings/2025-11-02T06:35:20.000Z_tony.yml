@@ -1,0 +1,23 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2025-11-02T06:35:20.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  An adult pair of Cape Batises feeding and caring for chicks in a nest
+bird:
+  # Supply a matching Bird ID
+  id: batis-cape
+  # How many individuals did you spot?
+  quantity: 4
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2025-11-02T05:57:24.000Z_tony
+  - 2025-11-02T06:33:11.000Z_tony
+  - 2025-11-02T06:35:20.000Z_tony
+# Include all the people that spotted this bird.
+observers:
+  - tony
+location:
+  area: zevenwacht-village
+  latitude: -33.935125
+  longitude: 18.710629
