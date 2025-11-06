@@ -19,7 +19,7 @@
 		"scale": 3
 	}
 },
-	"quantity": 2,
+	"quantity": 1,
 	"location": {
 		"areaId": "zevenwacht-village",
 		"area": {
@@ -128,9 +128,10 @@
 			{
 	"file": "26AB8BA2-58C0-4C88-BF95-B0920257D837.jpeg",
 	"sighting": "2024-09-03T07_29_47.000Z_shaun",
-	"description": "An adult pair of Southern Double-collared Sunbirds cooling off on a water feature",
+	"description": "A male Southern Double-collared Sunbird complaining about the female Malachite Sunbird cooling off on a water feature",
 	"birds": [
-		"sunbird-southern-double-collared"
+		"sunbird-southern-double-collared",
+		"sunbird-malachite"
 	],
 	"photographer": "shaun",
 	"location": {
