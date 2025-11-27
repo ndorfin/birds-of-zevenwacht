@@ -1,13 +1,9 @@
 
+
 [
-	
-		
-		
-		{
-			"id": "2025-11-27T16:45:00.000Z_shaun",
-			"datetime": "2025-11-27T16:45:00.000Z",
-			"birdId": "cuckoo-red-chested",
-			"bird": {
+{
+	"datetime": "2025-11-27T16:45:00.000Z",
+	"bird": {
 	"name": "Red-chested Cuckoo",
 	"family_name": "Cuckoo",
 	"german_name": "Einsiedlerkuckuck",
@@ -18,10 +14,10 @@
 	"wikipedia": "https://en.wikipedia.org/wiki/Red-chested_cuckoo",
 	"red-list": "least-concern"
 },
-			"quantity": 1,
-			"location": {
-				"areaId": "zevenwacht-village",
-				"area": {
+	"quantity": 1,
+	"location": {
+		"areaId": "zevenwacht-village",
+		"area": {
 	"name": "Zevenwacht Village",
 	"address": {
 		"street": "151 Langverwacht Road",
@@ -110,39 +106,39 @@
 		]
 	]
 },
-				"latitude": 
-				
-					-33.932444,
-				
-				"longitude":
-				
-					18.712
-				
-			},
-			"observers": [
-				
-					
-					{
+		"latitude": 
+		
+			-33.932444,
+		
+		"longitude":
+		
+			18.712
+		
+	},
+	
+	"observers": [
+		
+			
+			{
 	"name": "Shaun",
 	"full-name": "Shaun O'Connell",
 	"email": "shaun@tactile.co.za"
 }
-				
-					,
-					{
+		
+			,
+			{
 	"name": "Ingunn",
 	"full-name": "Ingunn O'Connell",
 	"email": "groingunn@gmail.com"
 }
-				
-					,
-					{
+		
+			,
+			{
 	"name": "Rolf",
 	"full-name": "Rolf Dieckmann",
 	"email": null
 }
-				
-			]
-		}
-	
+		
+	]
+}
 ]

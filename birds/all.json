@@ -500,14 +500,14 @@
 			"species": "solitarius",
 			"family": "Cuckoo",
 			"common_name": "Red-chested Cuckoo",
-			"german_name": "",
+			"german_name": "Einsiedlerkuckuck",
 			"afrikaans_name": "Piet-my-vrou",
 			"ebird": "https://ebird.org/species/reccuc1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Red-chested_cuckoo",
 			"redlist_level": "least-concern",
-			"sighted": false,
+			"sighted": true,
 			"photographed": false,
-			"potential": true
+			"potential": false
 		}
 	
 		,
