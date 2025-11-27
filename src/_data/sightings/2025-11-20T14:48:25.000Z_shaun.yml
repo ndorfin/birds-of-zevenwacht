@@ -1,0 +1,20 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2025-11-20T14:48:25.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A male African Paradise Flycatcher sitting on its nest.
+bird:
+  # Supply a matching Bird ID
+  id: flycatcher-african-paradise
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2025-11-20T14:48:25.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-village
