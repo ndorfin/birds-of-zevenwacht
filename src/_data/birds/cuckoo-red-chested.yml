@@ -7,5 +7,8 @@ species: solitarius
 ebird: https://ebird.org/species/reccuc1/ZA
 wikipedia: https://en.wikipedia.org/wiki/Red-chested_cuckoo
 red-list: least-concern
-# photo:
-#   id: 
+photo:
+  id: 2025-11-27T17:22:46.000Z_shaun
+  ty: 20%
+  tx: -20%
+  scale: 2

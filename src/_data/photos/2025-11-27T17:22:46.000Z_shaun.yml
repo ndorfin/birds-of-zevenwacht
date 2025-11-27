@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: FE97C394-2FD3-41D6-9D28-48E0F4344E48_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-11-27T17:22:46.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Red-chested Cuckoo was calling from high up in a Eucalyptus tree
+# List each of the bird IDs present in this photo
+birds:
+  - cuckoo-red-chested
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
