@@ -8133,12 +8133,16 @@
 			"bird": {
 	"name": "Glossy Ibis",
 	"family_name": "Ibis",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Braunsichler",
+	"afrikaans_name": "Glansibis",
 	"genus": "Plegadis",
 	"species": "falcinellus",
 	"ebird": "https://ebird.org/species/gloibi/ZA",
-	"red-list": "least-concern"
+	"wikipedia": "https://en.wikipedia.org/wiki/Glossy_ibis",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2025-11-20T14:38:56.000Z_shaun"
+	}
 },
 			"quantity": 1,
 			"location": {
