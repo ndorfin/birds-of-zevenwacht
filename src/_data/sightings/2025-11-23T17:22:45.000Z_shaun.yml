@@ -1,0 +1,19 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2025-11-23T17:22:45.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  The Thick-Knee chicks hatched the night before this photo was taken
+bird:
+  # Supply a matching Bird ID
+  id: thick-knee-spotted
+  # How many individuals did you spot?
+  quantity: 4
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2025-11-23T17:22:45.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+location:
+  area: zevenwacht-village

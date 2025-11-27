@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 410D826C-9CD6-465F-9C91-A0AD5D346575_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-11-26T15:05:43.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: Two adult Spotted Thick-knees show their newly hatched chicks how to forage
+# List each of the bird IDs present in this photo
+birds:
+  - thick-knee-spotted
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

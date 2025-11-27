@@ -1,0 +1,21 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2025-11-26T15:05:43.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  Two adult Spotted Thick-knees show their newly hatched chicks how to forage
+bird:
+  # Supply a matching Bird ID
+  id: thick-knee-spotted
+  # How many individuals did you spot?
+  quantity: 4
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2025-11-26T15:05:43.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+  - mike
+location:
+  area: zevenwacht-village

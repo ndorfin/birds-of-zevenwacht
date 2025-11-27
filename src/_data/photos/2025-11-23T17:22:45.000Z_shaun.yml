@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 6B6F5BBC-F938-4216-AFA0-3BECA70B9333_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-11-23T17:22:45.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult Spotted Thick-knee sits over their newly-hatched chick
+# List each of the bird IDs present in this photo
+birds:
+  - thick-knee-spotted
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
