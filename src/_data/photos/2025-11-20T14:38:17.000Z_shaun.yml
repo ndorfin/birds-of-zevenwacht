@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: CD9BB613-823D-49EB-B42B-4AE42DA8B6A5_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-11-20T14:38:56.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult Glossy Ibis searching for food in the shallow waters of the middle dam
+# List each of the bird IDs present in this photo
+birds:
+  - ibis-glossy
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.933804
+  longitude: 18.710309
