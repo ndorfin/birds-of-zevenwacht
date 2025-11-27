@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 342E06AF-9CB9-4ED2-BAE8-EC80B33913EA_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-11-17T17:11:03.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult Yellow-billed Kite perched in a Eucalyptus tree
+# List each of the bird IDs present in this photo
+birds:
+  - kite-yellow-billed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
