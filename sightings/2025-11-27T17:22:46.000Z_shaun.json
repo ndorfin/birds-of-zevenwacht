@@ -2,7 +2,7 @@
 
 [
 {
-	"datetime": "2025-11-27T16:45:00.000Z",
+	"datetime": "2025-11-27T17:22:46.000Z",
 	"bird": {
 	"name": "Red-chested Cuckoo",
 	"family_name": "Cuckoo",
@@ -114,11 +114,30 @@
 },
 		"latitude": 
 		
-			-33.932444,
+			null,
 		
 		"longitude":
 		
-			18.712
+			null
+		
+	},
+	
+	"photos": {
+		
+			
+			"2025-11-27T17:22:46.000Z_shaun":
+			{
+	"file": "FE97C394-2FD3-41D6-9D28-48E0F4344E48_1_105_c.jpeg",
+	"sighting": "2025-11-27T17:22:46.000Z_shaun",
+	"description": "A Red-chested Cuckoo was calling from high up in a Eucalyptus tree",
+	"birds": [
+		"cuckoo-red-chested"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "zevenwacht-village"
+	}
+}
 		
 	},
 	
@@ -129,20 +148,6 @@
 	"name": "Shaun",
 	"full-name": "Shaun O'Connell",
 	"email": "shaun@tactile.co.za"
-}
-		
-			,
-			{
-	"name": "Ingunn",
-	"full-name": "Ingunn O'Connell",
-	"email": "groingunn@gmail.com"
-}
-		
-			,
-			{
-	"name": "Rolf",
-	"full-name": "Rolf Dieckmann",
-	"email": null
 }
 		
 	]

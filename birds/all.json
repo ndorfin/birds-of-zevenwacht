@@ -506,7 +506,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/Red-chested_cuckoo",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	
