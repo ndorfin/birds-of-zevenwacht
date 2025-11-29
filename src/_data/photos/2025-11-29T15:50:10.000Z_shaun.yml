@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 053BE46B-7686-4C9D-BF27-1A8374632094_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-11-29T15:50:10.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Grey Heron was resting on the banks of the Lifestyle Estate upper dam
+# List each of the bird IDs present in this photo
+birds:
+  - heron-grey
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.932429
+  longitude: 18.715185
