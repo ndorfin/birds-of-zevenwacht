@@ -1129,13 +1129,13 @@
 			"species": "cinerea",
 			"family": "Heron",
 			"common_name": "Grey Heron",
-			"german_name": "",
+			"german_name": "Graureiher",
 			"afrikaans_name": "Bloureier",
 			"ebird": "https://ebird.org/species/graher1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Grey_heron",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	
