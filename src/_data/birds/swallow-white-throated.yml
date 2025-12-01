@@ -1,9 +1,14 @@
 name: White-throated Swallow
 family_name: Swallow
 afrikaans_name: Witkeelswael
-german_name: 
+german_name: Weißkehlschwalbe
 genus: Hirundo
 species: albigularis
 ebird: https://ebird.org/species/whtswa3/ZA
+wikipedia: https://en.wikipedia.org/wiki/White-throated_swallow
 red-list: least-concern
-hidden: true
+photo:
+  id: 2025-12-01T15:08:56.000Z_shaun
+  tx: -20%
+  ty: 20%
+  scale: 2

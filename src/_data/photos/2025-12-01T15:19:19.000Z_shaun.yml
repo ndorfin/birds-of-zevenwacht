@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: B7231ED3-FF96-4DA7-B13B-0845AE937838_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-12-01T15:19:19.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An African Hoopoe flew past us, and landed under one of the nearby trees near the Village entrance
+# List each of the bird IDs present in this photo
+birds:
+  - hoopoe-african
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.934326
+  longitude: 18.713243

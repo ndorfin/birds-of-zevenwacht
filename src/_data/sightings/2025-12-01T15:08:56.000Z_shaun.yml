@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2025-12-01T15:08:56.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  Three Yellow-billed Ducks were swimming in the lower Lifestyle Estate dam, and the White-throated Swallows photo-bombed them.
+bird:
+  # Supply a matching Bird ID
+  id: swallow-white-throated
+  # How many individuals did you spot?
+  quantity: 3
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2025-12-01T15:08:56.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.935612
+  longitude: 18.714617
