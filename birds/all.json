@@ -393,15 +393,32 @@
 	
 		,
 		{
+			"id": "coucal-burchells",
+			"genus": "Centropus",
+			"species": "burchellii",
+			"family": "Coucal",
+			"common_name": "Burchell&#39;s Coucal",
+			"german_name": "Burchellkuckuck",
+			"afrikaans_name": "Gewone Vleiloerie",
+			"ebird": "https://ebird.org/species/whbcou3/ZA-WC",
+			"wikipedia": "https://en.wikipedia.org/wiki/Burchell%27s_coucal",
+			"redlist_level": "least-concern",
+			"sighted": false,
+			"photographed": false,
+			"potential": true
+		}
+	
+		,
+		{
 			"id": "crake-black",
 			"genus": "Zapornia",
 			"species": "flavirostra",
 			"family": "Crake",
 			"common_name": "Black Crake",
-			"german_name": "",
-			"afrikaans_name": "",
+			"german_name": "Schwarzkielralle",
+			"afrikaans_name": "Swartriethaan",
 			"ebird": "https://ebird.org/species/blacra1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Black_crake",
 			"redlist_level": "least-concern",
 			"sighted": false,
 			"photographed": false,
