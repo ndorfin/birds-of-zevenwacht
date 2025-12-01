@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2025-12-01T15:25:08.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A nesting pair of Fork-tailed Drongos have been fending off potential predators, and [making mimic calls of a Booted Eagle](https://www.youtube.com/watch?v=LqXmt3kOBxc).
+bird:
+  # Supply a matching Bird ID
+  id: drongo-fork-tailed
+  # How many individuals did you spot?
+  quantity: 2
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2025-12-01T15:25:08.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-village
+  latitude: -33.932557
+  longitude: 18.712280

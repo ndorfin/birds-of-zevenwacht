@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 88578C8A-C6B6-4DB5-9A73-E78FA6ACD901_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-12-01T15:25:08.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Fork-tailed Drongo sitting high up in the Stone Pines
+# List each of the bird IDs present in this photo
+birds:
+  - drongo-fork-tailed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.932557
+  longitude: 18.712280
