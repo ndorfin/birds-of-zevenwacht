@@ -4,6 +4,429 @@
 		
 		
 		{
+			"id": "2025-12-01T15:19:19.000Z_shaun",
+			"datetime": "2025-12-01T15:19:19.000Z",
+			"birdId": "hoopoe-african",
+			"bird": {
+	"name": "African Hoopoe",
+	"family_name": "Hoopoe",
+	"german_name": "Wiedehopf",
+	"afrikaans_name": "Hoephoep",
+	"genus": "Upupa",
+	"species": "epops",
+	"ebird": "https://ebird.org/species/hoopoe/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Eurasian_hoopoe",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-20T23_50_26.000Z_shaun",
+		"tx": "0%",
+		"ty": "-20%",
+		"scale": 2
+	}
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-village",
+				"area": {
+	"name": "Zevenwacht Village",
+	"address": {
+		"street": "151 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934301,
+		"longitude": 18.713467
+	},
+	"geofence": [
+		[
+			-33.935893233077714,
+			18.71226990760988
+		],
+		[
+			-33.93553206079912,
+			18.712058210015783
+		],
+		[
+			-33.935047495038035,
+			18.713038968801868
+		],
+		[
+			-33.93518006519004,
+			18.713165696061054
+		],
+		[
+			-33.93532177788244,
+			18.71345771974447
+		],
+		[
+			-33.93506120875843,
+			18.71368913592974
+		],
+		[
+			-33.934457783486145,
+			18.713628527241156
+		],
+		[
+			-33.93415149781066,
+			18.713600977837075
+		],
+		[
+			-33.93397778305724,
+			18.713628527241156
+		],
+		[
+			-33.932702339387696,
+			18.71354587998806
+		],
+		[
+			-33.931632598390955,
+			18.713804844387
+		],
+		[
+			-33.93099714758992,
+			18.713970140811256
+		],
+		[
+			-33.93092857347935,
+			18.713865453075613
+		],
+		[
+			-33.93251033399087,
+			18.70856494282151
+		],
+		[
+			-33.93531329253742,
+			18.708901425601454
+		],
+		[
+			-33.935548268921785,
+			18.709136435975353
+		],
+		[
+			-33.93557326637127,
+			18.71028738421026
+		],
+		[
+			-33.935893233077714,
+			18.711510643328268
+		],
+		[
+			-33.935893233077714,
+			18.71226990760988
+		]
+	]
+},
+				"latitude": 
+				
+					-33.934326,
+				
+				"longitude":
+				
+					18.713243
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2025-12-01T15:11:52.000Z_shaun",
+			"datetime": "2025-12-01T15:11:52.000Z",
+			"birdId": "eagle-booted",
+			"bird": {
+	"name": "Booted Eagle",
+	"family_name": "Eagle",
+	"german_name": "Zwergadler",
+	"afrikaans_name": "Dwergarend",
+	"genus": "Hieraaetus",
+	"species": "pennatus",
+	"ebird": "https://ebird.org/species/booeag1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Booted_eagle",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2019-12-23T15:58:38.000Z_mike",
+		"tx": "0%",
+		"ty": "0%",
+		"scale": 1.5
+	}
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
+				"area": {
+	"name": "Zevenwacht Lifestyle Estate",
+	"address": {
+		"street": "150 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934168,
+		"longitude": 18.713997
+	},
+	"geofence": [
+		[
+			-33.931973439185626,
+			18.716853932275
+		],
+		[
+			-33.93108850441808,
+			18.714853983648453
+		],
+		[
+			-33.93109945990521,
+			18.71446446551323
+		],
+		[
+			-33.93139525726785,
+			18.714035334386807
+		],
+		[
+			-33.932813976095744,
+			18.713744846286488
+		],
+		[
+			-33.93395524976114,
+			18.713771252451608
+		],
+		[
+			-33.93417435187366,
+			18.71395610851505
+		],
+		[
+			-33.93433320055193,
+			18.713830670471538
+		],
+		[
+			-33.934590644332715,
+			18.71378445645547
+		],
+		[
+			-33.93518221432526,
+			18.713876884487632
+		],
+		[
+			-33.93565327638076,
+			18.713909894498954
+		],
+		[
+			-33.936014787353976,
+			18.713678824419475
+		],
+		[
+			-33.93633247754774,
+			18.71409475056325
+		],
+		[
+			-33.936283180872415,
+			18.71434562665027
+		],
+		[
+			-33.93590524117223,
+			18.715276510105156
+		],
+		[
+			-33.93520412668197,
+			18.717666434934557
+		],
+		[
+			-33.93401111448705,
+			18.717395296463167
+		],
+		[
+			-33.931973439185626,
+			18.716853932275
+		]
+	],
+	"website": "https://zevenwacht-lifestyle-estate.co.za/"
+},
+				"latitude": 
+				
+					-33.934535,
+				
+				"longitude":
+				
+					18.717255
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2025-12-01T15:08:56.000Z_shaun",
+			"datetime": "2025-12-01T15:08:56.000Z",
+			"birdId": "swallow-white-throated",
+			"bird": {
+	"name": "White-throated Swallow",
+	"family_name": "Swallow",
+	"afrikaans_name": "Witkeelswael",
+	"german_name": "Weißkehlschwalbe",
+	"genus": "Hirundo",
+	"species": "albigularis",
+	"ebird": "https://ebird.org/species/whtswa3/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/White-throated_swallow",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2025-12-01T15:08:56.000Z_shaun",
+		"tx": "-20%",
+		"ty": "20%",
+		"scale": 2
+	}
+},
+			"quantity": 3,
+			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
+				"area": {
+	"address": {
+		"street": "150 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934168,
+		"longitude": 18.713997
+	},
+	"name": "Zevenwacht Lifestyle Estate",
+	"geofence": [
+		[
+			-33.931973439185626,
+			18.716853932275
+		],
+		[
+			-33.93108850441808,
+			18.714853983648453
+		],
+		[
+			-33.93109945990521,
+			18.71446446551323
+		],
+		[
+			-33.93139525726785,
+			18.714035334386807
+		],
+		[
+			-33.932813976095744,
+			18.713744846286488
+		],
+		[
+			-33.93395524976114,
+			18.713771252451608
+		],
+		[
+			-33.93417435187366,
+			18.71395610851505
+		],
+		[
+			-33.93433320055193,
+			18.713830670471538
+		],
+		[
+			-33.934590644332715,
+			18.71378445645547
+		],
+		[
+			-33.93518221432526,
+			18.713876884487632
+		],
+		[
+			-33.93565327638076,
+			18.713909894498954
+		],
+		[
+			-33.936014787353976,
+			18.713678824419475
+		],
+		[
+			-33.93633247754774,
+			18.71409475056325
+		],
+		[
+			-33.936283180872415,
+			18.71434562665027
+		],
+		[
+			-33.93590524117223,
+			18.715276510105156
+		],
+		[
+			-33.93520412668197,
+			18.717666434934557
+		],
+		[
+			-33.93401111448705,
+			18.717395296463167
+		],
+		[
+			-33.931973439185626,
+			18.716853932275
+		]
+	],
+	"website": "https://zevenwacht-lifestyle-estate.co.za/"
+},
+				"latitude": 
+				
+					-33.935612,
+				
+				"longitude":
+				
+					18.714617
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
+}
+				
+			]
+		}
+	
+		
+		,
+		{
 			"id": "2025-11-27T16:45:00.000Z_shaun",
 			"datetime": "2025-11-27T16:45:00.000Z",
 			"birdId": "cuckoo-red-chested",
@@ -28,7 +451,6 @@
 			"location": {
 				"areaId": "zevenwacht-village",
 				"area": {
-	"name": "Zevenwacht Village",
 	"address": {
 		"street": "151 Langverwacht Road",
 		"suburb": "Kuils River"
@@ -37,6 +459,7 @@
 		"latitude": -33.934301,
 		"longitude": 18.713467
 	},
+	"name": "Zevenwacht Village",
 	"geofence": [
 		[
 			-33.935893233077714,
@@ -1218,7 +1641,6 @@
 			"location": {
 				"areaId": "zevenwacht-lifestyle-estate",
 				"area": {
-	"name": "Zevenwacht Lifestyle Estate",
 	"address": {
 		"street": "150 Langverwacht Road",
 		"suburb": "Kuils River"
@@ -1227,6 +1649,7 @@
 		"latitude": -33.934168,
 		"longitude": 18.713997
 	},
+	"name": "Zevenwacht Lifestyle Estate",
 	"geofence": [
 		[
 			-33.931973439185626,
@@ -5744,20 +6167,21 @@
 			"datetime": "2025-02-04T14:49:21.000Z",
 			"birdId": "eagle-booted",
 			"bird": {
-	"name": "Booted Eagle",
-	"family_name": "Eagle",
-	"german_name": null,
-	"afrikaans_name": "Dwergarend",
-	"genus": "Hieraaetus",
-	"species": "pennatus",
-	"ebird": "https://ebird.org/species/booeag1/ZA",
-	"red-list": "least-concern",
 	"photo": {
 		"id": "2019-12-23T15:58:38.000Z_mike",
 		"tx": "0%",
 		"ty": "0%",
 		"scale": 1.5
-	}
+	},
+	"name": "Booted Eagle",
+	"family_name": "Eagle",
+	"german_name": "Zwergadler",
+	"afrikaans_name": "Dwergarend",
+	"genus": "Hieraaetus",
+	"species": "pennatus",
+	"ebird": "https://ebird.org/species/booeag1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Booted_eagle",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
