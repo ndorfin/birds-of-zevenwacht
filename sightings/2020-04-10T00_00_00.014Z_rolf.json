@@ -6,12 +6,16 @@
 	"bird": {
 	"name": "Cape Sugarbird",
 	"family_name": "Sugarbird",
-	"german_name": null,
+	"german_name": "Kaphonigvogel",
 	"afrikaans_name": "Kaapse Suikervoël",
 	"genus": "Promerops",
 	"species": "cafer",
 	"ebird": "https://ebird.org/species/capsug1/ZA",
-	"red-list": "least-concern"
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_sugarbird",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-13T12:39:53.000Z_rolf"
+	}
 },
 	"quantity": 1,
 	"location": {

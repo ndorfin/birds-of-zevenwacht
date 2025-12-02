@@ -2,7 +2,7 @@
 
 [
 {
-	"datetime": "2020-04-10T00:00:00.038Z",
+	"datetime": "2021-04-17T09:48:53.000Z",
 	"bird": {
 	"name": "Western Barn Owl",
 	"family_name": "Owl",
@@ -111,11 +111,51 @@
 },
 		"latitude": 
 		
-			null,
+			-33.9332194,
 		
 		"longitude":
 		
-			null
+			18.7104194
+		
+	},
+	
+	"photos": {
+		
+			
+			"2021-04-17T09:48:53.000Z_rolf":
+			{
+	"datetime": "2021-04-17T09:48:53.000Z",
+	"file": "IMG_6119.jpg",
+	"sighting": "2021-04-17T09:48:53.000Z_rolf",
+	"description": "A Western Barn Owl perched in an exotic Ficus tree",
+	"birds": [
+		"owl-western-barn"
+	],
+	"photographer": "rolf",
+	"location": {
+		"area": "zevenwacht-village",
+		"latitude": -33.9332194,
+		"longitude": 18.7104194
+	}
+}
+		
+			,
+			"2021-04-17T09:48:53.001Z_rolf":
+			{
+	"datetime": "2021-04-17T09:48:53.001Z",
+	"file": "c6cb0274-ffff-4511-acdf-3d3bbffe23a5.JPG",
+	"sighting": "2021-04-17T09:48:53.000Z_rolf",
+	"description": "A close up of a Western Barn Owl",
+	"birds": [
+		"owl-western-barn"
+	],
+	"photographer": "rolf",
+	"location": {
+		"area": "zevenwacht-village",
+		"latitude": -33.9332194,
+		"longitude": 18.7104194
+	}
+}
 		
 	},
 	

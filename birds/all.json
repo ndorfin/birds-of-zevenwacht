@@ -1605,13 +1605,13 @@
 			"species": "alba",
 			"family": "Owl",
 			"common_name": "Western Barn Owl",
-			"german_name": "",
-			"afrikaans_name": "",
+			"german_name": "Schleiereule",
+			"afrikaans_name": "Nonnetjie-uil",
 			"ebird": "https://ebird.org/species/webowl1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Western_barn_owl",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	
@@ -2047,13 +2047,13 @@
 			"species": "cafer",
 			"family": "Sugarbird",
 			"common_name": "Cape Sugarbird",
-			"german_name": "",
+			"german_name": "Kaphonigvogel",
 			"afrikaans_name": "Kaapse Suikervoël",
 			"ebird": "https://ebird.org/species/capsug1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Cape_sugarbird",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	
