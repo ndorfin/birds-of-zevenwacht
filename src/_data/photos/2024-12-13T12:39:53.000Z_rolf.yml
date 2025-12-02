@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: IMG_0280.jpg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-12-13T12:39:53.000Z_rolf
+# Describe this image, as if you were explaining it over the phone
+description: A Cape Sugarbird perched in a tangle of vines and branches
+# List each of the bird IDs present in this photo
+birds:
+  - sugarbird-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: rolf
+location:
+  area: zevenwacht-village
+  latitude: -33.932766
+  longitude: 18.7095388

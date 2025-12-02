@@ -1,0 +1,19 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2021-04-17T09:48:53.000Z
+# What is the filename of this photo (in the /assets/photos folder)
+file: IMG_6119.jpg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2021-04-17T09:48:53.000Z_rolf
+# Describe this image, as if you were explaining it over the phone
+description: A Western Barn Owl perched in an exotic Ficus tree
+# List each of the bird IDs present in this photo
+birds:
+  - owl-western-barn
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: rolf
+location:
+  area: zevenwacht-village
+  latitude: -33.9332194
+  longitude: 18.7104194

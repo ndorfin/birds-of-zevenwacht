@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2021-04-17T09:48:53.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A Western Barn Owl sitting in a Ficus tree
+bird:
+  # Supply a matching Bird ID
+  id: owl-western-barn
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2021-04-17T09:48:53.000Z_rolf
+  - 2021-04-17T09:48:53.001Z_rolf
+# Include all the people that spotted this bird.
+observers:
+  - rolf
+location:
+  area: zevenwacht-village
+  latitude: -33.9332194
+  longitude: 18.7104194
