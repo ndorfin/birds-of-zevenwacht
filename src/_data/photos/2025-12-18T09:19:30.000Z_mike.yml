@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 5209B66F-4A41-4BB9-9329-0295EEE1BF67_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-12-18T09:19:30.000Z_mike
+# Describe this image, as if you were explaining it over the phone
+description: A Jackal Buzzard rests in a pine tree near the upper Langverwacht Estate dam.
+# List each of the bird IDs present in this photo
+birds:
+  - buzzard-jackal
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: mike
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.933521
+  longitude: 18.731693
