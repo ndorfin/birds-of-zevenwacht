@@ -2,7 +2,7 @@
 
 [
 {
-	"datetime": "2024-09-23T13:03:15.000Z",
+	"datetime": "2025-12-18T09:19:30.000Z",
 	"bird": {
 	"name": "Jackal Buzzard",
 	"family_name": "Buzzard",
@@ -159,30 +159,30 @@
 },
 		"latitude": 
 		
-			-33.932131,
+			-33.933521,
 		
 		"longitude":
 		
-			18.720448
+			18.731693
 		
 	},
 	
 	"photos": {
 		
 			
-			"2024-09-24T01_03_15.000Z_shaun":
+			"2025-12-18T09:19:30.000Z_mike":
 			{
-	"file": "3595ABEB-817B-4F28-97D1-2F43A6C19AD6.jpeg",
-	"sighting": "2024-09-23T13_03_15.000Z_shaun",
-	"description": "An adult Jackal Buzzard perched atop a pine tree",
+	"file": "5209B66F-4A41-4BB9-9329-0295EEE1BF67_1_201_a.jpeg",
+	"sighting": "2025-12-18T09:19:30.000Z_mike",
+	"description": "A Jackal Buzzard rests in a pine tree near the upper Langverwacht Estate dam.",
 	"birds": [
 		"buzzard-jackal"
 	],
-	"photographer": "shaun",
+	"photographer": "mike",
 	"location": {
 		"area": "zevenwacht-wine-estate",
-		"latitude": -33.932131,
-		"longitude": 18.720448
+		"latitude": -33.933521,
+		"longitude": 18.731693
 	}
 }
 		
@@ -192,16 +192,9 @@
 		
 			
 			{
-	"name": "Shaun",
-	"full-name": "Shaun O'Connell",
-	"email": "shaun@tactile.co.za"
-}
-		
-			,
-			{
-	"name": "Ingunn",
-	"full-name": "Ingunn O'Connell",
-	"email": "groingunn@gmail.com"
+	"name": "Mike",
+	"full-name": "Mike T",
+	"email": null
 }
 		
 	]
