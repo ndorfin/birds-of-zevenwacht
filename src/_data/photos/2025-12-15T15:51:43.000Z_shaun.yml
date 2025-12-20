@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 06612DCE-CAC6-4F15-9010-215103A973D9_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-12-15T15:51:43.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Kelp Gull was fighting against the wind above De Morgenzon
+# List each of the bird IDs present in this photo
+birds:
+  - gull-kelp
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.935424
+  longitude: 18.741855
