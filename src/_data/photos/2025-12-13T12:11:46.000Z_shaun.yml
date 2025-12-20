@@ -1,0 +1,18 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 193BFF5D-7231-4704-9AA3-C403E89F9C60_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-12-13T12:11:46.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: 5 species of birds all trying to eat flying ants
+# List each of the bird IDs present in this photo
+birds:
+  - drongo-fork-tailed
+  - swallow-greater-striped
+  - swallow-barn
+  - guineafowl-helmeted
+  - saw-wing-black
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
