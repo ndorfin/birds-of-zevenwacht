@@ -1,0 +1,202 @@
+
+
+[
+{
+	"datetime": "2025-12-15T16:57:24.000Z",
+	"bird": {
+	"name": "Jackal Buzzard",
+	"family_name": "Buzzard",
+	"german_name": "Schakalbussard",
+	"afrikaans_name": "Rooiborsjakkalsvoël",
+	"genus": "Buteo",
+	"species": "rufofuscus",
+	"ebird": "https://ebird.org/species/jacbuz1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Jackal_buzzard",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-24T01_03_15.000Z_shaun",
+		"tx": "40%",
+		"ty": "50%",
+		"scale": 3
+	}
+},
+	"quantity": 1,
+	"location": {
+		"areaId": "zevenwacht-wine-estate",
+		"area": {
+	"name": "Zevenwacht Wine Estate",
+	"address": {
+		"street": "Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.931888,
+		"longitude": 18.716808
+	},
+	"geofence": [
+		[
+			-33.9309527,
+			18.7141857
+		],
+		[
+			-33.9308127,
+			18.7144212
+		],
+		[
+			-33.9320831,
+			18.717304
+		],
+		[
+			-33.932684,
+			18.7174435
+		],
+		[
+			-33.9322052,
+			18.7207401
+		],
+		[
+			-33.9324722,
+			18.7222636
+		],
+		[
+			-33.9321874,
+			18.7250531
+		],
+		[
+			-33.9315725,
+			18.7259023
+		],
+		[
+			-33.9333885,
+			18.7314169
+		],
+		[
+			-33.9350798,
+			18.7364809
+		],
+		[
+			-33.9362545,
+			18.7419818
+		],
+		[
+			-33.9350834,
+			18.7423465
+		],
+		[
+			-33.9341359,
+			18.7431834
+		],
+		[
+			-33.9324268,
+			18.743913
+		],
+		[
+			-33.9326994,
+			18.7396964
+		],
+		[
+			-33.9297288,
+			18.7334545
+		],
+		[
+			-33.9220466,
+			18.7333277
+		],
+		[
+			-33.917565,
+			18.7328871
+		],
+		[
+			-33.9158734,
+			18.7269434
+		],
+		[
+			-33.9169632,
+			18.7237554
+		],
+		[
+			-33.9170522,
+			18.7226396
+		],
+		[
+			-33.9175864,
+			18.7216955
+		],
+		[
+			-33.9106511,
+			18.7139467
+		],
+		[
+			-33.9205235,
+			18.7102106
+		],
+		[
+			-33.9214022,
+			18.7129427
+		],
+		[
+			-33.9228381,
+			18.7131359
+		],
+		[
+			-33.9254008,
+			18.7131009
+		],
+		[
+			-33.9300981,
+			18.7136009
+		],
+		[
+			-33.9305521,
+			18.713778
+		],
+		[
+			-33.9309527,
+			18.7141857
+		]
+	],
+	"website": "https://zevenwacht.co.za/"
+},
+		"latitude": 
+		
+			-33.930319,
+		
+		"longitude":
+		
+			18.720543
+		
+	},
+	
+	"photos": {
+		
+			
+			"2025-12-15T16:57:24.000Z_shaun":
+			{
+	"file": "1AD56CBE-2112-4232-8402-ADAA6C2B7BD8_1_201_a.jpeg",
+	"sighting": "2025-12-15T16:57:24.000Z_shaun",
+	"description": "A Jackal Buzzard with prey (probably a rat) in its talons",
+	"birds": [
+		"buzzard-jackal"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "zevenwacht-wine-estate",
+		"latitude": -33.930319,
+		"longitude": 18.720543
+	}
+}
+		
+	},
+	
+	"observers": [
+		
+			
+			{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+		
+	]
+}
+]

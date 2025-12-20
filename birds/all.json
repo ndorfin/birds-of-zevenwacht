@@ -1078,14 +1078,14 @@
 			"species": "dominicanus",
 			"family": "Gull",
 			"common_name": "Kelp Gull",
-			"german_name": "",
+			"german_name": "Dominikanermöwe",
 			"afrikaans_name": "Kelpmeeu",
 			"ebird": "https://ebird.org/species/kelgul/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Kelp_gull",
 			"redlist_level": "least-concern",
-			"sighted": false,
-			"photographed": false,
-			"potential": true
+			"sighted": true,
+			"photographed": true,
+			"potential": false
 		}
 	
 		,
