@@ -1,0 +1,21 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2025-12-15T17:14:24.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A duo of White-throated Swallows were catching insects above the irrigation dam
+bird:
+  # Supply a matching Bird ID
+  id: swallow-white-throated
+  # How many individuals did you spot?
+  quantity: 2
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2025-12-15T17:14:24.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.931728
+  longitude: 18.715296

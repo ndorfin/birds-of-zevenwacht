@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 86492BE0-B437-4DC7-BABD-242FA5C318BB_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-12-15T17:14:24.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A duo of White-throated Swallows were catching insects above the irrigation dam
+# List each of the bird IDs present in this photo
+birds:
+  - swallow-white-throated
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.931728
+  longitude: 18.715296
