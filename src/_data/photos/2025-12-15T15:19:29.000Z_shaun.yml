@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: BB3FC35F-837A-4659-95A7-35F22B40EDA0_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-12-15T15:19:29.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A juvenile African Fish Eagle flying above the Langverwacht and Jordan dams
+# List each of the bird IDs present in this photo
+birds:
+  - eagle-african-fish
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: langverwacht-estate
+  latitude: -33.933616
+  longitude: 18.730873
