@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 1AD56CBE-2112-4232-8402-ADAA6C2B7BD8_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-12-15T16:57:24.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Jackal Buzzard with prey (probably a rat) in its talons
+# List each of the bird IDs present in this photo
+birds:
+  - buzzard-jackal
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.930319
+  longitude: 18.720543
