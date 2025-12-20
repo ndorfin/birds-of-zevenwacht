@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 99648C1A-D625-4A98-88C3-502522163589_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-12-13T12:14:55.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Black Saw-wing flies low above the grass, catching flying ants
+# List each of the bird IDs present in this photo
+birds:
+  - saw-wing-black
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
