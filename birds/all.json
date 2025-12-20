@@ -784,6 +784,23 @@
 	
 		,
 		{
+			"id": "eagle-verreauxs",
+			"genus": "Aquila",
+			"species": "verreauxii",
+			"family": "Eagle",
+			"common_name": "Verreaux&#39;s Eagle",
+			"german_name": "Felsenadler",
+			"afrikaans_name": "Witkruisarend",
+			"ebird": "https://ebird.org/species/vereag1/ZA",
+			"wikipedia": "https://en.wikipedia.org/wiki/Verreaux%27s_eagle",
+			"redlist_level": "least-concern",
+			"sighted": false,
+			"photographed": false,
+			"potential": true
+		}
+	
+		,
+		{
 			"id": "egret-little",
 			"genus": "Egretta",
 			"species": "garzetta",
@@ -1804,15 +1821,32 @@
 	
 		,
 		{
+			"id": "secretarybird",
+			"genus": "Sagittarius",
+			"species": "serpentarius",
+			"family": "Secretarybird",
+			"common_name": "Secretarybird",
+			"german_name": "Sekretär",
+			"afrikaans_name": "Sekretarisvoël",
+			"ebird": "https://ebird.org/species/secret2/ZA",
+			"wikipedia": "https://en.wikipedia.org/wiki/Secretarybird",
+			"redlist_level": "least-concern",
+			"sighted": false,
+			"photographed": false,
+			"potential": true
+		}
+	
+		,
+		{
 			"id": "shoveler-cape",
 			"genus": "Spatula",
 			"species": "smithii",
 			"family": "Duck",
 			"common_name": "Cape Shoveler",
-			"german_name": "",
-			"afrikaans_name": "",
+			"german_name": "Kaplöffelente",
+			"afrikaans_name": "Kaapse slopeend",
 			"ebird": "https://ebird.org/species/capsho1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Cape_shoveler",
 			"redlist_level": "least-concern",
 			"sighted": false,
 			"photographed": false,
