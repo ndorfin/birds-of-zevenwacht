@@ -41,8 +41,8 @@ eleventyExcludeFromCollections: true
 					<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
 						<figure>
 							<div>
-								{% if bird.photo %}
-									{% set photo = photos[bird.photo.id] %}
+								{% set photo = photos[bird.photo.id] %}
+								{% if photo %}
 									{%
 										photoThumbnail
 											url.source_photos + photo.photographer + '/' + photo.file,
@@ -55,7 +55,10 @@ eleventyExcludeFromCollections: true
 									<span>No photo yet</span>
 								{% endif %}
 							</div>
-							<figcaption>{{ bird.name }}</figcaption>
+							<figcaption>
+								{{ bird.name }}
+								<i>{{ bird.genus }} {{ bird.species }}</i>
+							</figcaption>
 						</figure>
 					</a>
 				</dd>
@@ -75,22 +78,7 @@ eleventyExcludeFromCollections: true
 				<ol>
 					{% asyncEach birdId, bird in collections.birds_photographed %}
 						<li>
-							<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
-								<figure>
-									<div>
-										{% set photo = photos[bird.photo.id] %}
-										{%
-											photoThumbnail
-												url.source_photos + photo.photographer + '/' + photo.file,
-												photo.description,
-												bird.photo.tx,
-												bird.photo.ty,
-												bird.photo.scale
-										%}
-									</div>
-									<figcaption>{{ bird.name }}</figcaption>
-								</figure>
-							</a>
+							{% include "card_bird.njk" %}
 						</li>
 					{% endeach %}
 				</ol>	
@@ -100,31 +88,17 @@ eleventyExcludeFromCollections: true
 				<ol>
 					{% asyncEach birdId, bird in collections.birds_sighted %}
 						<li>
-							<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
-								<figure>
-									<div>
-										<span>No photo yet</span>
-									</div>
-									<figcaption>{{ bird.name }}</figcaption>
-								</figure>
-							</a>
+							{% include "card_bird.njk" %}
 						</li>
 					{% endeach %}
 				</ol>
 			</div>
 			<div class="layout_item">
-				<p>Unsighted birds (based on other data sources):</p>
+				<p>Birds we haven't seen yet:</p>
 				<ol>
 					{% asyncEach birdId, bird in collections.birds_unsighted %}
 						<li>
-							<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
-								<figure>
-									<div>
-										<span>No photo yet</span>
-									</div>
-									<figcaption>{{ bird.name }}</figcaption>
-								</figure>
-							</a>
+							{% include "card_bird.njk" %}
 						</li>
 					{% endeach %}
 				</ol>

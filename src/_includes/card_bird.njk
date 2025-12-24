@@ -1,0 +1,23 @@
+<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
+	<figure>
+		<div>
+			{% set photo = photos[bird.photo.id] %}
+			{% if photo %}
+				{%
+					photoThumbnail
+						url.source_photos + photo.photographer + '/' + photo.file,
+						photo.description,
+						bird.photo.tx,
+						bird.photo.ty,
+						bird.photo.scale
+				%}
+			{% else %}
+				<span>No photo yet</span>
+			{% endif %}
+		</div>
+		<figcaption>
+			{{ bird.name }}
+			<i>{{ bird.genus }} {{ bird.species }}</i>
+		</figcaption>
+	</figure>
+</a>

@@ -1,5 +1,14 @@
 .card_bird {
 	text-decoration: none;
+	border: #eee solid 1px;
+	display: block;
+	border-radius: 0.25rem;
+	overflow: hidden;
+	max-width: 25rem;
+
+	&:hover {
+		border-color: currentColor;
+	}
 
 	& figure {
 		display: flex;
@@ -16,15 +25,29 @@
 			min-inline-size: 4rem;
 			inline-size: 4rem;
 			block-size: 4rem;
-			background-color: grey;
+			padding: 0.5rem;
+			background-color: #eee;
+		}
+
+		& picture {
+			margin: -0.5rem;
+			border-radius: 0.25rem;
 		}
 
 		& > div > span {
 			display: block;
 			font-size: 0.75rem;
 			text-align: center;
-			color: white;
+			color: #aaa;
 			padding: 0.5rem;
+		}
+	}
+
+	& figcaption {
+		& i {
+			display: block;
+			margin-block-start: 0.25rem;
+			color: grey;
 		}
 	}
 	
@@ -45,21 +68,10 @@
 }
 
 ol:has(.card_bird) {
-	padding-inline-start: 2rem;
+	padding-inline-start: 0;
 }
 
 li:has(.card_bird) {
-	line-height: 4rem;
-	vertical-align: middle;
-
-	&::marker {
-		display: inline-block;
-		vertical-align: middle;
-	}
-
-	& .card_bird {
-		line-height: 1;
-		display: inline-block;
-		vertical-align: middle;
-	}
+	margin-block: 0.75rem;
+	list-style-type: "";
 }
