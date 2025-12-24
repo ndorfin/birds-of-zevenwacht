@@ -123,26 +123,12 @@ eleventyExcludeFromCollections: true
 		</header>
 		{% if sightedBirds.length %}
 			<ol>
-				{% for birdId in sightedBirds %}
+				{% asyncEach birdId in sightedBirds %}
 					{% set bird = birds[birdId] %}
 					<li>
-						<a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
-							<figure>
-								<div>
-									{% if bird.photo %}
-										{% set photo = photos[bird.photo.id] %}
-										{% photoThumbnail url.source_photos + photo.photographer + '/' + photo.file, photo.description %}
-									{% else %}
-										<span>No photo yet</span>
-									{% endif %}
-								</div>
-								<figcaption>
-									{{ bird.name }}
-								</figcaption>
-							</figure>
-						</a>
+						{% include "card_bird.njk" %}
 					</li>
-				{% endfor %}
+				{% endeach %}
 			</ol>
 		{% else %}
 			<p>No birds seen yet</p>
