@@ -1,5 +1,5 @@
 {% extends layout %}
-{% set page_name = person.username %}
+{% set page_name = person.short_name %}
 {% set page_description = 'A contributor to Birds of Zevenwacht' %}
 
 {% block content %}
@@ -9,20 +9,16 @@
 		<dd>{{ person.id }}</dd>
 	</div>
 	<div>
-		<dt>username</dt>
-		<dd>{{ person.username }}</dd>
+		<dt>Short name</dt>
+		<dd>{{ person.short_name }}</dd>
 	</div>
 	<div>
 		<dt>email</dt>
 		<dd>{{ person.email }}</dd>
 	</div>
 	<div>
-		<dt>first_name</dt>
-		<dd>{{ person.first_name }}</dd>
-	</div>
-	<div>
-		<dt>last_name</dt>
-		<dd>{{ person.last_name }}</dd>
+		<dt>full_name</dt>
+		<dd>{{ person.full_name }}</dd>
 	</div>
 </dl>
 {% endblock %}

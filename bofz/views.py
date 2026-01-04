@@ -165,12 +165,12 @@ class SightingAddView(PermissionRequiredMixin, GenericCreateView):
 # Persons
 # ------------------
 class PersonListView(GenericListView):
-  model = User
+  model = Person
   context_object_name = "persons"
   template_name = "persons/list.jinja"
   
 class PersonDetailView(GenericDetailView):
-  model = User
+  model = Person
   context_object_name = "person"
   template_name = "persons/detail.jinja"
 
