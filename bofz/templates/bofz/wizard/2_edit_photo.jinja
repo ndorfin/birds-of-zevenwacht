@@ -68,7 +68,7 @@
 					type="text"
 					id="{{ wizard.form.photographer.auto_id }}"
 					name="{{ wizard.form.photographer.html_name }}"
-					value="{{ user.username }}"
+					value="{{ person.id }}"
 					readonly
 					{% if wizard.form.photographer.errors %}
 						aria-describedby="{{ wizard.form.photographer.auto_id }}_errors"

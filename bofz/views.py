@@ -1,7 +1,7 @@
 import os
 from django.http import HttpResponseRedirect
 from django.conf import settings
-from django.contrib.auth.models import User
+# from django.contrib.auth.models import User
 from django.contrib.auth.mixins import PermissionRequiredMixin
 from django.core.files.storage import FileSystemStorage
 from django.shortcuts import render
