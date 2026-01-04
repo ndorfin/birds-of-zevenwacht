@@ -9,7 +9,7 @@ from django.urls import reverse
 from django.views import View
 from django.views.generic import DetailView, ListView, CreateView
 from formtools.wizard.views import NamedUrlSessionWizardView
-from .models import Area, RedListLevel, Bird, Photo, Sighting, SpeciesList
+from .models import Area, RedListLevel, Bird, Photo, Sighting, SpeciesList, Person
 
 DEFAULT_LAYOUT = 'layouts/default.jinja'
 
@@ -159,7 +159,7 @@ class SightingAddView(PermissionRequiredMixin, GenericCreateView):
   def get_context_data(self, **kwargs):
     context = super().get_context_data(**kwargs)
     context['all_birds'] = Bird.objects.all()
-    context['all_people'] = User.objects.all()
+    context['all_people'] = Person.objects.all()
     return context
 
 # Persons
