@@ -1,11 +1,11 @@
 let cacheGroups = {
 	css: {
 		matches: /.css$/,
-		name: `cache_css-v1761144251869`,
+		name: `cache_css-v1768910075388`,
 		urls: [
-			"/birds-of-zevenwacht/assets/css/all.css?timestamp=1761144251869"
+			"/birds-of-zevenwacht/assets/css/all.css?timestamp=1768910075388"
 		],
-		version: 1761144251869,
+		version: 1768910075388,
 	},
 	
 	libJS: {
