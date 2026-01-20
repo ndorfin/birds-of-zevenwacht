@@ -4,3 +4,7 @@ dist
 .env
 dump
 *.tmp
+bofz
+bofz-django
+data
+media
