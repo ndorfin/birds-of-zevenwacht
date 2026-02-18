@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 346841ED-5D51-4976-A651-64F012586304_4_5005_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-02-07T12:34:59.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An immature African Harrier-Hawk searching for prey in the bark of a Stone Pine tree
+# List each of the bird IDs present in this photo
+birds:
+  - harrier-hawk-african
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

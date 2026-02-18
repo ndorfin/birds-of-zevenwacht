@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: AB75E306-B830-4604-B7CE-066E549553F5_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-01-27T15:08:33.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Greater Striped Swallow catching insects above the photographer
+# List each of the bird IDs present in this photo
+birds:
+  - swallow-greater-striped
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.934903
+  longitude: 18.711056

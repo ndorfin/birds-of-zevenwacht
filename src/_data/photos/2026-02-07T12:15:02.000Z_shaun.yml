@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 071E288D-A140-4AA2-9BBE-56C39B1AEF3E_4_5005_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-02-07T12:15:02.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A flock of Cape Spurfowls congregating under the trees, avoiding the overflying raptors
+# List each of the bird IDs present in this photo
+birds:
+  - spurfowl-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 49F708D7-5AD3-4816-B640-2B80046B8C9E_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-01-27T15:32:18.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Cape Robin-Chat keeping a watchful eye over the birdfeeder
+# List each of the bird IDs present in this photo
+birds:
+  - robin-chat-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

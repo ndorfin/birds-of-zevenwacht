@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2026-01-27T15:32:18.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A Cape Robin-Chat keeping a watchful eye over the birdfeeder
+bird:
+  # Supply a matching Bird ID
+  id: robin-chat-cape
+  # How many individuals did you spot?
+  quantity: 2
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2026-01-27T15:32:18.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+  - tony
+  - nikki
+location:
+  area: zevenwacht-village

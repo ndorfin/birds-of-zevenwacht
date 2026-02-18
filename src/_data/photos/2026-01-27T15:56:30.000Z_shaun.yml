@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: FC9BFE33-75D2-4711-B250-3D4A57C6B662_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-01-27T15:56:30.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A pair of Red-Eyed Doves size each other up
+# List each of the bird IDs present in this photo
+birds:
+  - dove-red-eyed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
