@@ -65,6 +65,7 @@ fs.readdir(dumpFolder, (errAuthor, entries) => {
 
 							if (!fs.existsSync(targetEXIFFile)) {
 								if (exif && exif.DateTimeOriginal) {
+									if (!fs.existsSync(`${ targetEXIFFolder }/${ photographer }`)) fs.mkdirSync(`${ targetEXIFFolder }/${ photographer }`);
 									fs.writeFileSync(targetEXIFFile, createEXIFYML(exif));
 								}
 
