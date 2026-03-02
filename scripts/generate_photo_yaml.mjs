@@ -24,7 +24,12 @@ fs.readdir(dumpFolder, (errAuthor, entries) => {
 				if (filename.includes('.DS_Store')) return;
 				console.log('filename', filename)
 				let photoPath = `${ dumpFolder }/${ photographer }/${ filename }`;
-				let targetPhotoPath = `${ sourcePhotosFolder }/${ photographer }/${ filename }`
+				
+				let targetPhotoFolder = `${ sourcePhotosFolder }/${ photographer }`;
+				if (!fs.existsSync(targetPhotoFolder)) fs.mkdirSync(targetPhotoFolder);
+
+				let targetPhotoPath = `${ targetPhotoFolder }/${ filename }`;
+
 				
 				// Step 1: Transform
 				// ==============================================
