@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: DSC_3474.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-11-28T06:37:22.000Z_alan
+# Describe this image, as if you were explaining it over the phone
+description: An adult Little Grebe (Dabchick) eyes the photographer from the dam's surface
+# List each of the bird IDs present in this photo
+birds:
+  - grebe-little
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: alan
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.921599
+  longitude: 18.713606

@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: DSC_3697.JPG
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2024-11-28T09:53:49.000Z_alan
+# Describe this image, as if you were explaining it over the phone
+description: A juvenile female Klaas's Cuckoo hiding in a lichen-laden tree
+# List each of the bird IDs present in this photo
+birds:
+  - cuckoo-klaass
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: alan
+location:
+  area: langverwacht-estate
+  latitude: -33.933255
+  longitude: 18.723479

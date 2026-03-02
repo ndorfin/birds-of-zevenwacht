@@ -1,0 +1,21 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2024-11-28T09:53:49.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A juvenile female Klaas's Cuckoo hiding in a lichen-laden tree
+bird:
+  # Supply a matching Bird ID
+  id: cuckoo-klaass
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2024-11-28T09:53:49.000Z_alan
+# Include all the people that spotted this bird.
+observers:
+  - alan
+location:
+  area: langverwacht-estate
+  latitude: -33.933255
+  longitude: 18.723479
