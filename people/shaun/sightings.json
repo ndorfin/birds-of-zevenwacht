@@ -4,8 +4,714 @@
 		
 		
 		{
-			"id": "2026-02-07T12:34:59.000Z_shaun",
-			"datetime": "2026-02-07T12:34:59.000Z",
+			"id": "2026-03-17T11:41:24.000Z_shaun",
+			"datetime": "2026-03-17T11:41:24.000Z",
+			"birdId": "sparrow-southern-grey-headed",
+			"bird": {
+	"name": "Southern Grey-headed Sparrow",
+	"family_name": "Sparrow",
+	"german_name": null,
+	"afrikaans_name": "Gryskopmossie",
+	"genus": "Passer",
+	"species": "diffusus",
+	"ebird": "https://ebird.org/species/sghspa2/ZA",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-12-19T11:30:26.000Z_shaun",
+		"tx": "40%",
+		"ty": "-20%",
+		"scale": 2.5
+	}
+},
+			"quantity": 6,
+			"location": {
+				"areaId": "zevenwacht-village",
+				"area": {
+	"name": "Zevenwacht Village",
+	"address": {
+		"street": "151 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934301,
+		"longitude": 18.713467
+	},
+	"geofence": [
+		[
+			-33.935893233077714,
+			18.71226990760988
+		],
+		[
+			-33.93553206079912,
+			18.712058210015783
+		],
+		[
+			-33.935047495038035,
+			18.713038968801868
+		],
+		[
+			-33.93518006519004,
+			18.713165696061054
+		],
+		[
+			-33.93532177788244,
+			18.71345771974447
+		],
+		[
+			-33.93506120875843,
+			18.71368913592974
+		],
+		[
+			-33.934457783486145,
+			18.713628527241156
+		],
+		[
+			-33.93415149781066,
+			18.713600977837075
+		],
+		[
+			-33.93397778305724,
+			18.713628527241156
+		],
+		[
+			-33.932702339387696,
+			18.71354587998806
+		],
+		[
+			-33.931632598390955,
+			18.713804844387
+		],
+		[
+			-33.93099714758992,
+			18.713970140811256
+		],
+		[
+			-33.93092857347935,
+			18.713865453075613
+		],
+		[
+			-33.93251033399087,
+			18.70856494282151
+		],
+		[
+			-33.93531329253742,
+			18.708901425601454
+		],
+		[
+			-33.935548268921785,
+			18.709136435975353
+		],
+		[
+			-33.93557326637127,
+			18.71028738421026
+		],
+		[
+			-33.935893233077714,
+			18.711510643328268
+		],
+		[
+			-33.935893233077714,
+			18.71226990760988
+		]
+	]
+},
+				"latitude": 
+				
+					null,
+				
+				"longitude":
+				
+					null
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2026-03-16T13:46:38.000Z_shaun",
+			"datetime": "2026-03-16T13:46:38.000Z",
+			"birdId": "drongo-fork-tailed",
+			"bird": {
+	"name": "Fork-tailed Drongo",
+	"family_name": "Drongo",
+	"german_name": null,
+	"afrikaans_name": "Mikstertbyvanger",
+	"genus": "Dicrurus",
+	"species": "adsimilis",
+	"ebird": "https://ebird.org/species/fotdro5/ZA",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-08-29T20_33_00.000Z_shaun",
+		"tx": "-80%",
+		"ty": "10%",
+		"scale": 3
+	}
+},
+			"quantity": 2,
+			"location": {
+				"areaId": "zevenwacht-village",
+				"area": {
+	"address": {
+		"street": "151 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934301,
+		"longitude": 18.713467
+	},
+	"name": "Zevenwacht Village",
+	"geofence": [
+		[
+			-33.935893233077714,
+			18.71226990760988
+		],
+		[
+			-33.93553206079912,
+			18.712058210015783
+		],
+		[
+			-33.935047495038035,
+			18.713038968801868
+		],
+		[
+			-33.93518006519004,
+			18.713165696061054
+		],
+		[
+			-33.93532177788244,
+			18.71345771974447
+		],
+		[
+			-33.93506120875843,
+			18.71368913592974
+		],
+		[
+			-33.934457783486145,
+			18.713628527241156
+		],
+		[
+			-33.93415149781066,
+			18.713600977837075
+		],
+		[
+			-33.93397778305724,
+			18.713628527241156
+		],
+		[
+			-33.932702339387696,
+			18.71354587998806
+		],
+		[
+			-33.931632598390955,
+			18.713804844387
+		],
+		[
+			-33.93099714758992,
+			18.713970140811256
+		],
+		[
+			-33.93092857347935,
+			18.713865453075613
+		],
+		[
+			-33.93251033399087,
+			18.70856494282151
+		],
+		[
+			-33.93531329253742,
+			18.708901425601454
+		],
+		[
+			-33.935548268921785,
+			18.709136435975353
+		],
+		[
+			-33.93557326637127,
+			18.71028738421026
+		],
+		[
+			-33.935893233077714,
+			18.711510643328268
+		],
+		[
+			-33.935893233077714,
+			18.71226990760988
+		]
+	]
+},
+				"latitude": 
+				
+					null,
+				
+				"longitude":
+				
+					null
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2026-03-16T11:53:26.000Z_shaun",
+			"datetime": "2026-03-16T11:53:26.000Z",
+			"birdId": "hoopoe-african",
+			"bird": {
+	"name": "African Hoopoe",
+	"family_name": "Hoopoe",
+	"german_name": "Wiedehopf",
+	"afrikaans_name": "Hoephoep",
+	"genus": "Upupa",
+	"species": "epops",
+	"ebird": "https://ebird.org/species/hoopoe/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Eurasian_hoopoe",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-09-20T23_50_26.000Z_shaun",
+		"tx": "0%",
+		"ty": "-20%",
+		"scale": 2
+	}
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-village",
+				"area": {
+	"address": {
+		"street": "151 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934301,
+		"longitude": 18.713467
+	},
+	"name": "Zevenwacht Village",
+	"geofence": [
+		[
+			-33.935893233077714,
+			18.71226990760988
+		],
+		[
+			-33.93553206079912,
+			18.712058210015783
+		],
+		[
+			-33.935047495038035,
+			18.713038968801868
+		],
+		[
+			-33.93518006519004,
+			18.713165696061054
+		],
+		[
+			-33.93532177788244,
+			18.71345771974447
+		],
+		[
+			-33.93506120875843,
+			18.71368913592974
+		],
+		[
+			-33.934457783486145,
+			18.713628527241156
+		],
+		[
+			-33.93415149781066,
+			18.713600977837075
+		],
+		[
+			-33.93397778305724,
+			18.713628527241156
+		],
+		[
+			-33.932702339387696,
+			18.71354587998806
+		],
+		[
+			-33.931632598390955,
+			18.713804844387
+		],
+		[
+			-33.93099714758992,
+			18.713970140811256
+		],
+		[
+			-33.93092857347935,
+			18.713865453075613
+		],
+		[
+			-33.93251033399087,
+			18.70856494282151
+		],
+		[
+			-33.93531329253742,
+			18.708901425601454
+		],
+		[
+			-33.935548268921785,
+			18.709136435975353
+		],
+		[
+			-33.93557326637127,
+			18.71028738421026
+		],
+		[
+			-33.935893233077714,
+			18.711510643328268
+		],
+		[
+			-33.935893233077714,
+			18.71226990760988
+		]
+	]
+},
+				"latitude": 
+				
+					null,
+				
+				"longitude":
+				
+					null
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2026-03-12T17:50:11.000Z_mike",
+			"datetime": "2026-03-12T17:50:11.000Z",
+			"birdId": "goshawk-african",
+			"bird": {
+	"name": "African Goshawk",
+	"family_name": "Goshawk",
+	"german_name": "Afrikahabicht",
+	"afrikaans_name": "Afrikaanse Sperwer",
+	"genus": "Aerospiza",
+	"species": "tachiro",
+	"ebird": "https://ebird.org/species/afrgos1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_goshawk",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2020-09-03T12_48_45.000Z_tony",
+		"tx": "-10%",
+		"ty": "20%",
+		"scale": 3
+	}
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-village",
+				"area": {
+	"address": {
+		"street": "151 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934301,
+		"longitude": 18.713467
+	},
+	"name": "Zevenwacht Village",
+	"geofence": [
+		[
+			-33.935893233077714,
+			18.71226990760988
+		],
+		[
+			-33.93553206079912,
+			18.712058210015783
+		],
+		[
+			-33.935047495038035,
+			18.713038968801868
+		],
+		[
+			-33.93518006519004,
+			18.713165696061054
+		],
+		[
+			-33.93532177788244,
+			18.71345771974447
+		],
+		[
+			-33.93506120875843,
+			18.71368913592974
+		],
+		[
+			-33.934457783486145,
+			18.713628527241156
+		],
+		[
+			-33.93415149781066,
+			18.713600977837075
+		],
+		[
+			-33.93397778305724,
+			18.713628527241156
+		],
+		[
+			-33.932702339387696,
+			18.71354587998806
+		],
+		[
+			-33.931632598390955,
+			18.713804844387
+		],
+		[
+			-33.93099714758992,
+			18.713970140811256
+		],
+		[
+			-33.93092857347935,
+			18.713865453075613
+		],
+		[
+			-33.93251033399087,
+			18.70856494282151
+		],
+		[
+			-33.93531329253742,
+			18.708901425601454
+		],
+		[
+			-33.935548268921785,
+			18.709136435975353
+		],
+		[
+			-33.93557326637127,
+			18.71028738421026
+		],
+		[
+			-33.935893233077714,
+			18.711510643328268
+		],
+		[
+			-33.935893233077714,
+			18.71226990760988
+		]
+	]
+},
+				"latitude": 
+				
+					null,
+				
+				"longitude":
+				
+					null
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike T",
+	"email": null
+}
+				
+					,
+					{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
+}
+				
+					,
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2026-03-12T16:53:28.000Z_shaun",
+			"datetime": "2026-03-12T16:53:28.000Z",
+			"birdId": "goshawk-african",
+			"bird": {
+	"photo": {
+		"id": "2020-09-03T12_48_45.000Z_tony",
+		"tx": "-10%",
+		"ty": "20%",
+		"scale": 3
+	},
+	"name": "African Goshawk",
+	"family_name": "Goshawk",
+	"german_name": "Afrikahabicht",
+	"afrikaans_name": "Afrikaanse Sperwer",
+	"genus": "Aerospiza",
+	"species": "tachiro",
+	"ebird": "https://ebird.org/species/afrgos1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_goshawk",
+	"red-list": "least-concern"
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-village",
+				"area": {
+	"address": {
+		"street": "151 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934301,
+		"longitude": 18.713467
+	},
+	"name": "Zevenwacht Village",
+	"geofence": [
+		[
+			-33.935893233077714,
+			18.71226990760988
+		],
+		[
+			-33.93553206079912,
+			18.712058210015783
+		],
+		[
+			-33.935047495038035,
+			18.713038968801868
+		],
+		[
+			-33.93518006519004,
+			18.713165696061054
+		],
+		[
+			-33.93532177788244,
+			18.71345771974447
+		],
+		[
+			-33.93506120875843,
+			18.71368913592974
+		],
+		[
+			-33.934457783486145,
+			18.713628527241156
+		],
+		[
+			-33.93415149781066,
+			18.713600977837075
+		],
+		[
+			-33.93397778305724,
+			18.713628527241156
+		],
+		[
+			-33.932702339387696,
+			18.71354587998806
+		],
+		[
+			-33.931632598390955,
+			18.713804844387
+		],
+		[
+			-33.93099714758992,
+			18.713970140811256
+		],
+		[
+			-33.93092857347935,
+			18.713865453075613
+		],
+		[
+			-33.93251033399087,
+			18.70856494282151
+		],
+		[
+			-33.93531329253742,
+			18.708901425601454
+		],
+		[
+			-33.935548268921785,
+			18.709136435975353
+		],
+		[
+			-33.93557326637127,
+			18.71028738421026
+		],
+		[
+			-33.935893233077714,
+			18.711510643328268
+		],
+		[
+			-33.935893233077714,
+			18.71226990760988
+		]
+	]
+},
+				"latitude": 
+				
+					null,
+				
+				"longitude":
+				
+					null
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
+}
+				
+					,
+					{
+	"name": "Mike",
+	"full-name": "Mike T",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2026-03-11T12:14:08.000Z_mike",
+			"datetime": "2026-03-11T12:14:08.000Z",
 			"birdId": "harrier-hawk-african",
 			"bird": {
 	"name": "African Harrier-hawk",
@@ -35,7 +741,6 @@
 			"location": {
 				"areaId": "zevenwacht-village",
 				"area": {
-	"name": "Zevenwacht Village",
 	"address": {
 		"street": "151 Langverwacht Road",
 		"suburb": "Kuils River"
@@ -44,6 +749,456 @@
 		"latitude": -33.934301,
 		"longitude": 18.713467
 	},
+	"name": "Zevenwacht Village",
+	"geofence": [
+		[
+			-33.935893233077714,
+			18.71226990760988
+		],
+		[
+			-33.93553206079912,
+			18.712058210015783
+		],
+		[
+			-33.935047495038035,
+			18.713038968801868
+		],
+		[
+			-33.93518006519004,
+			18.713165696061054
+		],
+		[
+			-33.93532177788244,
+			18.71345771974447
+		],
+		[
+			-33.93506120875843,
+			18.71368913592974
+		],
+		[
+			-33.934457783486145,
+			18.713628527241156
+		],
+		[
+			-33.93415149781066,
+			18.713600977837075
+		],
+		[
+			-33.93397778305724,
+			18.713628527241156
+		],
+		[
+			-33.932702339387696,
+			18.71354587998806
+		],
+		[
+			-33.931632598390955,
+			18.713804844387
+		],
+		[
+			-33.93099714758992,
+			18.713970140811256
+		],
+		[
+			-33.93092857347935,
+			18.713865453075613
+		],
+		[
+			-33.93251033399087,
+			18.70856494282151
+		],
+		[
+			-33.93531329253742,
+			18.708901425601454
+		],
+		[
+			-33.935548268921785,
+			18.709136435975353
+		],
+		[
+			-33.93557326637127,
+			18.71028738421026
+		],
+		[
+			-33.935893233077714,
+			18.711510643328268
+		],
+		[
+			-33.935893233077714,
+			18.71226990760988
+		]
+	]
+},
+				"latitude": 
+				
+					null,
+				
+				"longitude":
+				
+					null
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Mike",
+	"full-name": "Mike T",
+	"email": null
+}
+				
+					,
+					{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
+}
+				
+					,
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2026-03-11T11:17:55.000Z_shaun",
+			"datetime": "2026-03-11T11:17:55.000Z",
+			"birdId": "harrier-hawk-african",
+			"bird": {
+	"photo": {
+		"id": "2018-11-02T06:09:07.000Z_mike",
+		"tx": "20%",
+		"ty": "30%",
+		"scale": 2
+	},
+	"size": {
+		"min": 600,
+		"max": 660
+	},
+	"weight": {
+		"min": 630,
+		"max": 950
+	},
+	"name": "African Harrier-hawk",
+	"family_name": "Harrier-hawk",
+	"german_name": null,
+	"afrikaans_name": "Kaalwangvalk",
+	"genus": "Polyboroides",
+	"species": "typus",
+	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"red-list": "least-concern"
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-village",
+				"area": {
+	"address": {
+		"street": "151 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934301,
+		"longitude": 18.713467
+	},
+	"name": "Zevenwacht Village",
+	"geofence": [
+		[
+			-33.935893233077714,
+			18.71226990760988
+		],
+		[
+			-33.93553206079912,
+			18.712058210015783
+		],
+		[
+			-33.935047495038035,
+			18.713038968801868
+		],
+		[
+			-33.93518006519004,
+			18.713165696061054
+		],
+		[
+			-33.93532177788244,
+			18.71345771974447
+		],
+		[
+			-33.93506120875843,
+			18.71368913592974
+		],
+		[
+			-33.934457783486145,
+			18.713628527241156
+		],
+		[
+			-33.93415149781066,
+			18.713600977837075
+		],
+		[
+			-33.93397778305724,
+			18.713628527241156
+		],
+		[
+			-33.932702339387696,
+			18.71354587998806
+		],
+		[
+			-33.931632598390955,
+			18.713804844387
+		],
+		[
+			-33.93099714758992,
+			18.713970140811256
+		],
+		[
+			-33.93092857347935,
+			18.713865453075613
+		],
+		[
+			-33.93251033399087,
+			18.70856494282151
+		],
+		[
+			-33.93531329253742,
+			18.708901425601454
+		],
+		[
+			-33.935548268921785,
+			18.709136435975353
+		],
+		[
+			-33.93557326637127,
+			18.71028738421026
+		],
+		[
+			-33.935893233077714,
+			18.711510643328268
+		],
+		[
+			-33.935893233077714,
+			18.71226990760988
+		]
+	]
+},
+				"latitude": 
+				
+					null,
+				
+				"longitude":
+				
+					null
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
+}
+				
+					,
+					{
+	"name": "Mike",
+	"full-name": "Mike T",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2026-03-03T12:20:49.000Z_shaun",
+			"datetime": "2026-03-03T12:20:49.000Z",
+			"birdId": "sunbird-malachite",
+			"bird": {
+	"name": "Malachite Sunbird",
+	"family_name": "Sunbird",
+	"german_name": null,
+	"afrikaans_name": "Jangroentjie",
+	"genus": "Nectarinia",
+	"species": "famosa",
+	"ebird": "https://ebird.org/species/malsun1/ZA",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-11-19T12_45_11.000Z_shaun",
+		"tx": "30%",
+		"ty": "-20%",
+		"scale": 3
+	}
+},
+			"quantity": 2,
+			"location": {
+				"areaId": "zevenwacht-village",
+				"area": {
+	"address": {
+		"street": "151 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934301,
+		"longitude": 18.713467
+	},
+	"name": "Zevenwacht Village",
+	"geofence": [
+		[
+			-33.935893233077714,
+			18.71226990760988
+		],
+		[
+			-33.93553206079912,
+			18.712058210015783
+		],
+		[
+			-33.935047495038035,
+			18.713038968801868
+		],
+		[
+			-33.93518006519004,
+			18.713165696061054
+		],
+		[
+			-33.93532177788244,
+			18.71345771974447
+		],
+		[
+			-33.93506120875843,
+			18.71368913592974
+		],
+		[
+			-33.934457783486145,
+			18.713628527241156
+		],
+		[
+			-33.93415149781066,
+			18.713600977837075
+		],
+		[
+			-33.93397778305724,
+			18.713628527241156
+		],
+		[
+			-33.932702339387696,
+			18.71354587998806
+		],
+		[
+			-33.931632598390955,
+			18.713804844387
+		],
+		[
+			-33.93099714758992,
+			18.713970140811256
+		],
+		[
+			-33.93092857347935,
+			18.713865453075613
+		],
+		[
+			-33.93251033399087,
+			18.70856494282151
+		],
+		[
+			-33.93531329253742,
+			18.708901425601454
+		],
+		[
+			-33.935548268921785,
+			18.709136435975353
+		],
+		[
+			-33.93557326637127,
+			18.71028738421026
+		],
+		[
+			-33.935893233077714,
+			18.711510643328268
+		],
+		[
+			-33.935893233077714,
+			18.71226990760988
+		]
+	]
+},
+				"latitude": 
+				
+					null,
+				
+				"longitude":
+				
+					null
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2026-02-07T12:34:59.000Z_shaun",
+			"datetime": "2026-02-07T12:34:59.000Z",
+			"birdId": "harrier-hawk-african",
+			"bird": {
+	"photo": {
+		"id": "2018-11-02T06:09:07.000Z_mike",
+		"tx": "20%",
+		"ty": "30%",
+		"scale": 2
+	},
+	"size": {
+		"min": 600,
+		"max": 660
+	},
+	"weight": {
+		"min": 630,
+		"max": 950
+	},
+	"name": "African Harrier-hawk",
+	"family_name": "Harrier-hawk",
+	"german_name": null,
+	"afrikaans_name": "Kaalwangvalk",
+	"genus": "Polyboroides",
+	"species": "typus",
+	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"red-list": "least-concern"
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-village",
+				"area": {
+	"address": {
+		"street": "151 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934301,
+		"longitude": 18.713467
+	},
+	"name": "Zevenwacht Village",
 	"geofence": [
 		[
 			-33.935893233077714,
@@ -1389,6 +2544,12 @@
 			"datetime": "2025-12-15T16:45:30.000Z",
 			"birdId": "sunbird-malachite",
 			"bird": {
+	"photo": {
+		"id": "2024-11-19T12_45_11.000Z_shaun",
+		"tx": "30%",
+		"ty": "-20%",
+		"scale": 3
+	},
 	"name": "Malachite Sunbird",
 	"family_name": "Sunbird",
 	"german_name": null,
@@ -1396,13 +2557,7 @@
 	"genus": "Nectarinia",
 	"species": "famosa",
 	"ebird": "https://ebird.org/species/malsun1/ZA",
-	"red-list": "least-concern",
-	"photo": {
-		"id": "2024-11-19T12_45_11.000Z_shaun",
-		"tx": "30%",
-		"ty": "-20%",
-		"scale": 3
-	}
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {
@@ -2229,6 +3384,12 @@
 			"datetime": "2025-12-13T12:11:46.000Z",
 			"birdId": "drongo-fork-tailed",
 			"bird": {
+	"photo": {
+		"id": "2024-08-29T20_33_00.000Z_shaun",
+		"tx": "-80%",
+		"ty": "10%",
+		"scale": 3
+	},
 	"name": "Fork-tailed Drongo",
 	"family_name": "Drongo",
 	"german_name": null,
@@ -2236,13 +3397,7 @@
 	"genus": "Dicrurus",
 	"species": "adsimilis",
 	"ebird": "https://ebird.org/species/fotdro5/ZA",
-	"red-list": "least-concern",
-	"photo": {
-		"id": "2024-08-29T20_33_00.000Z_shaun",
-		"tx": "-80%",
-		"ty": "10%",
-		"scale": 3
-	}
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -2655,6 +3810,12 @@
 			"datetime": "2025-12-01T15:19:19.000Z",
 			"birdId": "hoopoe-african",
 			"bird": {
+	"photo": {
+		"id": "2024-09-20T23_50_26.000Z_shaun",
+		"tx": "0%",
+		"ty": "-20%",
+		"scale": 2
+	},
 	"name": "African Hoopoe",
 	"family_name": "Hoopoe",
 	"german_name": "Wiedehopf",
@@ -2663,13 +3824,7 @@
 	"species": "epops",
 	"ebird": "https://ebird.org/species/hoopoe/ZA",
 	"wikipedia": "https://en.wikipedia.org/wiki/Eurasian_hoopoe",
-	"red-list": "least-concern",
-	"photo": {
-		"id": "2024-09-20T23_50_26.000Z_shaun",
-		"tx": "0%",
-		"ty": "-20%",
-		"scale": 2
-	}
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -16153,6 +17308,12 @@
 			"datetime": "2024-12-19T11:30:26.000Z",
 			"birdId": "sparrow-southern-grey-headed",
 			"bird": {
+	"photo": {
+		"id": "2024-12-19T11:30:26.000Z_shaun",
+		"tx": "40%",
+		"ty": "-20%",
+		"scale": 2.5
+	},
 	"name": "Southern Grey-headed Sparrow",
 	"family_name": "Sparrow",
 	"german_name": null,
@@ -16160,13 +17321,7 @@
 	"genus": "Passer",
 	"species": "diffusus",
 	"ebird": "https://ebird.org/species/sghspa2/ZA",
-	"red-list": "least-concern",
-	"photo": {
-		"id": "2024-12-19T11:30:26.000Z_shaun",
-		"tx": "40%",
-		"ty": "-20%",
-		"scale": 2.5
-	}
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
