@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 81BFC634-295C-4E44-8D5D-A60677A1154B_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-03-11T12:14:08.000Z_mike
+# Describe this image, as if you were explaining it over the phone
+description: A young African Harrier-Hawk panting heavily as it walks across the lawn
+# List each of the bird IDs present in this photo
+birds:
+  - harrier-hawk-african
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: mike
+location:
+  area: zevenwacht-village

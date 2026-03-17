@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 001AAA50-4EE7-4F2D-85BC-C29E5B318D63_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-03-03T12:20:49.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A young male Malachite Sunbird is perched on a King Protea, eating from its flowers
+# List each of the bird IDs present in this photo
+birds:
+  - sunbird-malachite
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 2AC40677-0D3C-415C-9E0F-3C8075F18BB3_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-03-11T11:17:55.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A young African Harrier-Hawk sunning itself on a patch of sand
+# List each of the bird IDs present in this photo
+birds:
+  - harrier-hawk-african
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 5163CF31-C8A1-4ECB-9C9D-B07B6AB6407A_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-03-17T11:41:24.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Southern Grey-headed Sparrow adding nesting materials to a nesting log
+# List each of the bird IDs present in this photo
+birds:
+  - sparrow-southern-grey-headed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

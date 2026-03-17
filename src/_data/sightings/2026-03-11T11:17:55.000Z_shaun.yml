@@ -1,0 +1,21 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2026-03-11T11:17:55.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A young African Harrier-Hawk sunning itself on a patch of sand
+bird:
+  # Supply a matching Bird ID
+  id: harrier-hawk-african
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2026-03-11T11:17:55.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+  - mike
+location:
+  area: zevenwacht-village

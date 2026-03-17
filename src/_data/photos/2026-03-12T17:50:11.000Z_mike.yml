@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: F1F01E2F-AF0F-4CE6-8F5B-1DFC586BB3BE_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-03-12T17:50:11.000Z_mike
+# Describe this image, as if you were explaining it over the phone
+description: An African Goshawk drinking from our bird bath
+# List each of the bird IDs present in this photo
+birds:
+  - goshawk-african
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: mike
+location:
+  area: zevenwacht-village
