@@ -11,6 +11,7 @@ bird:
   quantity: 1
 # Link this Sighting to a Photo, by its ID
 photos: 
+  - 2026-03-12T16:50:11.000Z_mike
   - 2026-03-12T16:53:28.000Z_shaun
 # Include all the people that spotted this bird.
 observers:

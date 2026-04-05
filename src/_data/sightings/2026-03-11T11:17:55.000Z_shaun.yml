@@ -3,7 +3,7 @@
 datetime: 2026-03-11T11:17:55.000Z
 # Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
 description: |-
-  A young African Harrier-Hawk sunning itself on a patch of sand
+  A young African Harrier-Hawk was panting heavily as it walks across the lawn, and then spread its wings and sunning itself on a patch of sand
 bird:
   # Supply a matching Bird ID
   id: harrier-hawk-african
@@ -12,6 +12,7 @@ bird:
 # Link this Sighting to a Photo, by its ID
 photos: 
   - 2026-03-11T11:17:55.000Z_shaun
+  - 2026-03-11T11:14:08.000Z_mike
 # Include all the people that spotted this bird.
 observers:
   - shaun
