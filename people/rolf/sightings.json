@@ -715,7 +715,10 @@
 	"wikipedia": "https://en.wikipedia.org/wiki/Cape_sugarbird",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2024-12-13T12:39:53.000Z_rolf"
+		"id": "2025-12-07T09:27:42.000Z_shaun",
+		"tx": "20%",
+		"ty": "-20%",
+		"scale": 1.5
 	}
 },
 			"quantity": 1,
@@ -9698,7 +9701,10 @@
 			"birdId": "sugarbird-cape",
 			"bird": {
 	"photo": {
-		"id": "2024-12-13T12:39:53.000Z_rolf"
+		"id": "2025-12-07T09:27:42.000Z_shaun",
+		"tx": "20%",
+		"ty": "-20%",
+		"scale": 1.5
 	},
 	"name": "Cape Sugarbird",
 	"family_name": "Sugarbird",

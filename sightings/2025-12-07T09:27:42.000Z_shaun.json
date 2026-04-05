@@ -2,7 +2,7 @@
 
 [
 {
-	"datetime": "2020-04-10T00:00:00.014Z",
+	"datetime": "2025-12-07T09:27:42.000Z",
 	"bird": {
 	"name": "Cape Sugarbird",
 	"family_name": "Sugarbird",
@@ -122,13 +122,32 @@
 		
 	},
 	
+	"photos": {
+		
+			
+			"2025-12-07T09:27:42.000Z_shaun":
+			{
+	"file": "2E66D109-562F-44C6-9B1D-34A23BC424F6.jpeg",
+	"sighting": "2025-12-07T09:27:42.000Z_shaun",
+	"description": "A Cape Sugarbird came to visit Rolf's feeders above the middle dam",
+	"birds": [
+		"sugarbird-cape"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "zevenwacht-village"
+	}
+}
+		
+	},
+	
 	"observers": [
 		
 			
 			{
-	"name": "Rolf",
-	"full-name": "Rolf Dieckmann",
-	"email": null
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
 }
 		
 	]
