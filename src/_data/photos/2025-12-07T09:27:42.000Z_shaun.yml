@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 2E66D109-562F-44C6-9B1D-34A23BC424F6.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-12-07T09:27:42.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Cape Sugarbird came to visit Rolf's feeders above the middle dam
+# List each of the bird IDs present in this photo
+birds:
+  - sugarbird-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
