@@ -1,33 +1,28 @@
 
+
 [
-	
-		
-		
-		{
-			"id": "2026-04-05T10:53:04.000Z_shaun",
-			"datetime": "2026-04-05T10:53:04.000Z",
-			"birdId": "falcon-peregrine",
-			"bird": {
-	"name": "Peregrine Falcon",
-	"family_name": "Falcon",
-	"afrikaans_name": "Swerfvalk",
-	"german_name": "Wanderfalke",
-	"genus": "Falco",
-	"species": "peregrinus",
-	"ebird": "https://ebird.org/species/perfal/ZA",
-	"wikipedia": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+{
+	"datetime": "2026-04-05T09:43:47.000Z",
+	"bird": {
+	"name": "Reed Cormorant",
+	"family_name": "Cormorant",
+	"german_name": null,
+	"afrikaans_name": "Rietduiker",
+	"genus": "Microcarbo",
+	"species": "africanus",
+	"ebird": "https://ebird.org/species/lotcor1/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2026-04-05T10:53:04.000Z_shaun",
-		"tx": "15%",
-		"ty": "0%",
-		"scale": 2.5
+		"id": "2023-10-12T08_28_00.000Z_tony",
+		"tx": "50%",
+		"ty": "40%",
+		"scale": 3
 	}
 },
-			"quantity": 1,
-			"location": {
-				"areaId": "zevenwacht-wine-estate",
-				"area": {
+	"quantity": 2,
+	"location": {
+		"areaId": "zevenwacht-wine-estate",
+		"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
 		"street": "Langverwacht Road",
@@ -161,32 +156,53 @@
 	],
 	"website": "https://zevenwacht.co.za/"
 },
-				"latitude": 
-				
-					-33.932043,
-				
-				"longitude":
-				
-					18.728023
-				
-			},
-			"observers": [
-				
-					
-					{
+		"latitude": 
+		
+			-33.931187,
+		
+		"longitude":
+		
+			18.720557
+		
+	},
+	
+	"photos": {
+		
+			
+			"2026-04-05T09:43:47.000Z_shaun":
+			{
+	"file": "BEA53052-1535-4AB8-AE4D-1A8D3A6A1B70_1_201_a.jpeg",
+	"sighting": "2026-04-05T09:43:47.000Z_shaun",
+	"description": "A Reed Cormorant perched on a half-submerged tire on the dam's edge",
+	"birds": [
+		"cormorant-reed"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "zevenwacht-wine-estate",
+		"latitude": -33.931187,
+		"longitude": 18.720557
+	}
+}
+		
+	},
+	
+	"observers": [
+		
+			
+			{
 	"name": "Shaun",
 	"full-name": "Shaun O'Connell",
 	"email": "shaun@tactile.co.za"
 }
-				
-					,
-					{
+		
+			,
+			{
 	"name": "Ingunn",
 	"full-name": "Ingunn O'Connell",
 	"email": "groingunn@gmail.com"
 }
-				
-			]
-		}
-	
+		
+	]
+}
 ]

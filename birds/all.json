@@ -863,7 +863,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/Peregrine_falcon",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	
