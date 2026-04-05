@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 4BEA7948-2004-48AC-9BFC-C552A3759B4A.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-11-29T14:32:03.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Bokmakierie in a tangle of branches
+# List each of the bird IDs present in this photo
+birds:
+  - bokmakierie
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.930421
+  longitude: 18.718431
