@@ -2,7 +2,7 @@
 
 [
 {
-	"datetime": "2014-01-01T10:00:20.000Z",
+	"datetime": "2026-04-10T16:21:09.000Z",
 	"bird": {
 	"name": "Malachite Sunbird",
 	"family_name": "Sunbird",
@@ -20,7 +20,7 @@
 		"scale": 3
 	}
 },
-	"quantity": 1,
+	"quantity": 3,
 	"location": {
 		"areaId": "zevenwacht-village",
 		"area": {
@@ -125,16 +125,45 @@
 	"photos": {
 		
 			
-			"2014-01-01T10:00:20.000Z_peter":
+			"2026-04-10T16:13:13.000Z_mike":
 			{
-	"datetime": "2014-01-01T10:00:20.000Z",
-	"file": "malachite.JPG",
-	"sighting": "2014-01-01T10:00:20.000Z_peter",
-	"description": "A male Malachite Sunbird perched on a Protea",
+	"file": "7F791738-4521-4AF3-BDE5-92EFF0B7ED2F_1_105_c.jpeg",
+	"sighting": "2026-04-10T16:21:09.000Z_mike",
+	"description": "A young male Malachite Sunbird bathing in the sprinklers from a King Protea bush",
 	"birds": [
 		"sunbird-malachite"
 	],
-	"photographer": "peter",
+	"photographer": "mike",
+	"location": {
+		"area": "zevenwacht-village"
+	}
+}
+		
+			,
+			"2026-04-10T16:17:46.000Z_mike":
+			{
+	"file": "1508859B-08FC-4DEF-B9AD-B5251DBA8597_1_105_c.jpeg",
+	"sighting": "2026-04-10T16:21:09.000Z_mike",
+	"description": "A young male Malachite Sunbird bathing in the sprinklers from a King Protea bush",
+	"birds": [
+		"sunbird-malachite"
+	],
+	"photographer": "mike",
+	"location": {
+		"area": "zevenwacht-village"
+	}
+}
+		
+			,
+			"2026-04-10T16:21:09.000Z_mike":
+			{
+	"file": "E1D135ED-C6A7-456C-8B6C-7776376DA22D_1_105_c.jpeg",
+	"sighting": "2026-04-10T16:21:09.000Z_mike",
+	"description": "A young male Malachite Sunbird bathing in the sprinklers from a King Protea bush",
+	"birds": [
+		"sunbird-malachite"
+	],
+	"photographer": "mike",
 	"location": {
 		"area": "zevenwacht-village"
 	}
@@ -146,9 +175,23 @@
 		
 			
 			{
-	"name": "Peter",
-	"full-name": "Peter Topzand",
+	"name": "Mike",
+	"full-name": "Mike T",
 	"email": null
+}
+		
+			,
+			{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
+}
+		
+			,
+			{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
 }
 		
 	]
