@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 7F791738-4521-4AF3-BDE5-92EFF0B7ED2F_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-04-10T16:21:09.000Z_mike
+# Describe this image, as if you were explaining it over the phone
+description: A young male Malachite Sunbird bathing in the sprinklers from a King Protea bush
+# List each of the bird IDs present in this photo
+birds:
+  - sunbird-malachite
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: mike
+location:
+  area: zevenwacht-village
