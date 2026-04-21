@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 5D4851B6-9039-4A37-B7E8-C307D1FE429D_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-04-18T13:42:59.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Fish Eagle was being mobbed by Crows near its usual roosting spot at the upper Langverwacht dam
+# List each of the bird IDs present in this photo
+birds:
+  - eagle-african-fish
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.931985
+  longitude: 18.728356

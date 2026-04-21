@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 38F035A1-257A-4942-8C9E-AD727D40C482_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-04-18T13:33:35.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Spotted Eagle Owl snoozing in a palm tree above the Lapa at the Wine Estate
+# List each of the bird IDs present in this photo
+birds:
+  - owl-spotted-eagle
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.930377 
+  longitude: 18.727617

@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: F0283F78-A09D-46C7-B97C-B67B6CF2951C_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-04-18T13:24:09.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An inquisitive Barn Owl flew up to the Oak Tree near the wine tasting venue at the Wine Estate while we were eating on the patio. Luckily I had my camera on hand.
+# List each of the bird IDs present in this photo
+birds:
+  - owl-western-barn
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.929543
+  longitude: 18.727159

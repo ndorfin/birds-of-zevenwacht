@@ -1,0 +1,21 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2026-04-18T13:24:09.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  An inquisitive Barn Owl flew up to the Oak Tree near the wine tasting venue at the Wine Estate while we were eating on the patio. Luckily I had my camera on hand.
+bird:
+  # Supply a matching Bird ID
+  id: owl-western-barn
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2026-04-18T13:24:09.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.929543
+  longitude: 18.727159
