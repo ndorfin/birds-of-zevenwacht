@@ -1481,19 +1481,19 @@
 	
 		,
 		{
-			"id": "martin-southern-crag",
+			"id": "martin-large-rock",
 			"genus": "Ptyonoprogne",
 			"species": "fuligula",
 			"family": "Martin",
-			"common_name": "Southern Crag-Martin",
-			"german_name": "",
-			"afrikaans_name": "",
+			"common_name": "Large Rock Martin",
+			"german_name": "Steinschwalbe",
+			"afrikaans_name": "Kransswael",
 			"ebird": "https://ebird.org/species/rocmar5/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Large_rock_martin",
 			"redlist_level": "least-concern",
-			"sighted": false,
-			"photographed": false,
-			"potential": true
+			"sighted": true,
+			"photographed": true,
+			"potential": false
 		}
 	
 		,
