@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 3B943B07-CFC7-482C-B9E0-7D2FACC25B61_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-04-24T14:18:37.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: This Grey Heron flew up to one of the overhanging trees over the lower irrigation dam
+# List each of the bird IDs present in this photo
+birds:
+  - heron-grey
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.931043
+  longitude: 18.721258

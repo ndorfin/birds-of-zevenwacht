@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: C4DCA8B8-C7FB-4411-99A3-997DC230D6A9_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-04-24T15:19:20.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A solitary Large Rock Martin flying towards the South East
+# List each of the bird IDs present in this photo
+birds:
+  - martin-large-rock
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.922936 
+  longitude: 18.720769
