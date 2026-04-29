@@ -1,9 +1,14 @@
 name: Yellow Canary
 family_name: Canary
 afrikaans_name: Geelkanarie
-german_name: 
+german_name: Kanarienvogel
 genus: Crithagra
 species: flaviventris
 ebird: https://ebird.org/species/yelcan1/ZA
+wikipedia: https://en.wikipedia.org/wiki/Yellow_canary
 red-list: least-concern
-hidden: true
+photo:
+  id: 2026-04-29T14:47:07.000Z_shaun
+  tx: 40%
+  ty: -20%
+  scale: 3
