@@ -1186,7 +1186,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/Purple_heron",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	

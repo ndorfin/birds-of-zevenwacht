@@ -2,21 +2,21 @@
 
 [
 {
-	"datetime": "2023-01-01T12:00:00.002Z",
+	"datetime": "2026-04-29T15:46:42.000Z",
 	"bird": {
-	"name": "Purple Heron",
-	"family_name": "Heron",
-	"german_name": "Purpurreiher",
-	"afrikaans_name": "Rooireier",
-	"genus": "Ardea",
-	"species": "purpurea",
-	"ebird": "https://ebird.org/species/purher1/ZA",
-	"wikipedia": "https://en.wikipedia.org/wiki/Purple_heron",
+	"name": "Grey-backed Cisticola",
+	"family_name": "Cisticola",
+	"afrikaans_name": "Grysrugtinktinkie",
+	"german_name": null,
+	"genus": "Cisticola",
+	"species": "subruficapilla",
+	"ebird": "https://ebird.org/species/rehcis2/ZA",
 	"red-list": "least-concern",
 	"photo": {
-		"id": "2026-04-29T15:08:12.000Z_shaun",
-		"tx": "20%",
-		"scale": 2
+		"id": "2025-06-14T09:48:39.000Z_shaun",
+		"tx": "30%",
+		"ty": "10%",
+		"scale": 3
 	}
 },
 	"quantity": 1,
@@ -110,11 +110,32 @@
 },
 		"latitude": 
 		
-			-33.932374,
+			-33.931426,
 		
 		"longitude":
 		
-			18.715213
+			18.715681
+		
+	},
+	
+	"photos": {
+		
+			
+			"2026-04-29T15:46:42.000Z_shaun":
+			{
+	"file": "395BB600-6874-42A0-BBC6-B208BFE77CA1_1_201_a.jpeg",
+	"sighting": "2026-04-29T15:46:42.000Z_shaun",
+	"description": "This Grey-backed Cisticola wasn't shy, and seemingly obsessed with finding food amongst the leaf-litter.",
+	"birds": [
+		"cisticola-grey-backed"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "zevenwacht-lifestyle-estate",
+		"latitude": -33.931426,
+		"longitude": 18.715681
+	}
+}
 		
 	},
 	
@@ -122,9 +143,16 @@
 		
 			
 			{
-	"name": "Alan",
-	"full-name": "Alan Bowden",
-	"email": null
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+		
+			,
+			{
+	"name": "Ingunn",
+	"full-name": "Ingunn O'Connell",
+	"email": "groingunn@gmail.com"
 }
 		
 	]
