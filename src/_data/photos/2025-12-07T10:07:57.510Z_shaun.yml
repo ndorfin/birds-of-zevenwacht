@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: A93C5628-F4E5-4CC9-9372-798DEAB361CC.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-12-07T10:07:57.510Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Brimstone Canary perched in the shade of a tree
+# List each of the bird IDs present in this photo
+birds:
+  - canary-brimstone
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.932679
+  longitude: 18.712288
