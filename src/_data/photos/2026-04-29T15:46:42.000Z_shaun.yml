@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 395BB600-6874-42A0-BBC6-B208BFE77CA1_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-04-29T15:46:42.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: This Grey-backed Cisticola wasn't shy, and seemingly obsessed with finding food amongst the leaf-litter.
+# List each of the bird IDs present in this photo
+birds:
+  - cisticola-grey-backed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.931426
+  longitude: 18.715681

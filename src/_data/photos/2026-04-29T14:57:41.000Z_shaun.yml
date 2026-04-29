@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 71EFE486-1E22-4F0E-B884-F4D09E621FBB_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-04-29T14:57:41.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A solitary Levaillant's Cisticola perched on Fennel, near the lower irrigation dam
+# List each of the bird IDs present in this photo
+birds:
+  - cisticola-levaillants
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.931232
+  longitude: 18.719346

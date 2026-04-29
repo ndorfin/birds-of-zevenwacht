@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 9C9AADCC-49E8-4BB8-BF72-141EAA291A1C_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-04-29T15:08:12.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Purple Heron wading near the bank of the lower irrigation dam
+# List each of the bird IDs present in this photo
+birds:
+  - heron-purple
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.931373
+  longitude: 18.720554
