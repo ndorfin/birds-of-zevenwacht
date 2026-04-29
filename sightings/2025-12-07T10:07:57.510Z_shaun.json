@@ -2,7 +2,7 @@
 
 [
 {
-	"datetime": "2024-12-24T11:28:01.000Z",
+	"datetime": "2025-12-07T10:07:57.510Z",
 	"bird": {
 	"name": "Brimstone Canary",
 	"family_name": "Canary",
@@ -114,28 +114,30 @@
 },
 		"latitude": 
 		
-			null,
+			-33.932679,
 		
 		"longitude":
 		
-			null
+			18.712288
 		
 	},
 	
 	"photos": {
 		
 			
-			"2024-12-24T11:28:01.000Z_jayesh":
+			"2025-12-07T10:07:57.510Z_shaun":
 			{
-	"file": "brimstone-canary.jpeg",
-	"sighting": "2024-12-24T11:28:01.000Z_jayesh",
-	"description": "This Brimstone Canary was sticking its head in the fountain",
+	"file": "A93C5628-F4E5-4CC9-9372-798DEAB361CC.jpeg",
+	"sighting": "2025-12-07T10:07:57.510Z_shaun",
+	"description": "A Brimstone Canary perched in the shade of a tree",
 	"birds": [
 		"canary-brimstone"
 	],
-	"photographer": "jayesh",
+	"photographer": "shaun",
 	"location": {
-		"area": "zevenwacht-village"
+		"area": "zevenwacht-village",
+		"latitude": -33.932679,
+		"longitude": 18.712288
 	}
 }
 		
@@ -144,13 +146,6 @@
 	"observers": [
 		
 			
-			{
-	"name": "Jayesh",
-	"full-name": "Jayesh Hargovan",
-	"email": null
-}
-		
-			,
 			{
 	"name": "Shaun",
 	"full-name": "Shaun O'Connell",
