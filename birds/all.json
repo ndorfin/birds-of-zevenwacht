@@ -387,7 +387,7 @@
 			"wikipedia": "https://en.wikipedia.org/wiki/White-breasted_cormorant",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	
