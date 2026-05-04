@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 416FF92C-EEA2-4FF2-A7A0-03F2969E6CF4_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-04T14:49:33.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A White-breasted Cormorant, drying off in the afternoon sun on a muddy sandbank in the lower Lifestyle Estate dam.
+# List each of the bird IDs present in this photo
+birds:
+  - cormorant-white-breasted
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.935627
+  longitude: 18.715201

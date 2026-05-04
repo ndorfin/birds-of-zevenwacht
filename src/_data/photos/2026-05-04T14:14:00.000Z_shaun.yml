@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 0030A5CB-0A53-4F35-B3D6-73AA4C858E31_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-04T14:14:00.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A lone African Hoopoe perched in a tree
+# List each of the bird IDs present in this photo
+birds:
+  - hoopoe-african
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
+  latitude: -33.933930
+  longitude: 18.712997

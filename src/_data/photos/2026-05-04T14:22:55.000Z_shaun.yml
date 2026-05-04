@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: A8CD99DD-CC34-4B9F-9571-2006E2FC68F1_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-04T14:22:55.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An African Spoonbill resting on a muddy sandbank in the lower Lifestyle Estate dam
+# List each of the bird IDs present in this photo
+birds:
+  - spoonbill-african
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.935627
+  longitude: 18.715201
