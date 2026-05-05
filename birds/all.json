@@ -823,14 +823,14 @@
 			"species": "ibis",
 			"family": "Egret",
 			"common_name": "Western Cattle Egret",
-			"german_name": "",
+			"german_name": "Kuhreiher",
 			"afrikaans_name": "Bosluisvoël",
 			"ebird": "https://ebird.org/species/categr1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Western_cattle_egret",
 			"redlist_level": "least-concern",
-			"sighted": false,
-			"photographed": false,
-			"potential": true
+			"sighted": true,
+			"photographed": true,
+			"potential": false
 		}
 	
 		,
