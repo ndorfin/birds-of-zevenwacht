@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 1DF2AD61-CF82-4508-A5CE-9954C6FB16A8.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2025-02-10T16:53:11.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A massive flock of European Bee-eaters catching insects high above the photographer
+# List each of the bird IDs present in this photo
+birds:
+  - bee-eater-european
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
