@@ -15,6 +15,7 @@
 @import './list_by_year.css'      layer(content.components);
 @import './list_redlist.css'      layer(content.components);
 @import './list_alphabetical.css' layer(content.components);
+@import './table_checklist.css'   layer(content.components);
 @import './wc/tab-group.css'      layer(content.components.tabs);
 @import './wc/map-embed.css'      layer(content.components.map);
 @import './icons.css'             layer(content.components.map);
