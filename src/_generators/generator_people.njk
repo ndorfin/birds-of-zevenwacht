@@ -17,6 +17,7 @@ eleventyExcludeFromCollections: true
 	{% set sightedBirdsArray = (sightedBirdsArray.push(sighting.bird.id), sightedBirdsArray) %}
 {% endfor %}
 {% set sightedBirds = sightedBirdsArray | uniques | sort %}
+{% set photodBirdsCount = 0 %}
 
 <tab-group>
 	<nav aria-labelledby="heading_nav_tabs">
@@ -37,14 +38,8 @@ eleventyExcludeFromCollections: true
 				</a>
 			</li>
 			<li>
-				<a href="#section_birds">
-					<b>{{ sightedBirds.length }}</b>
-					Bird species
-				</a>
-			</li>
-			<li>
 				<a href="#section_checklist">
-					Checklist
+					Bird checklist
 				</a>
 			</li>
 		</ul>
@@ -123,7 +118,7 @@ eleventyExcludeFromCollections: true
 		{% endif %}
 	</article>
 
-	<article id="section_birds" aria-labelledby="heading_birds">
+	{# <article id="section_birds" aria-labelledby="heading_birds">
 		<header>
 			<h3 id="heading_birds">{{ sightedBirds.length }} bird species seen</h3>
 		</header>
@@ -139,14 +134,14 @@ eleventyExcludeFromCollections: true
 		{% else %}
 			<p>No birds seen yet</p>
 		{% endif %}
-	</article>
+	</article> #}
 
 	<article id="section_checklist" aria-labelledby="heading_checklist">
 		<header>
-			<h3 id="heading_checklist">Checklist</h3>
+			<h3 id="heading_checklist">Bird checklist</h3>
 		</header>
 		{% if collections.birds_registered.length %}
-			<table>
+			<table class="table_checklist">
 				<thead>
 					<tr>
 						<th id="list_th_bird">
@@ -164,17 +159,16 @@ eleventyExcludeFromCollections: true
 					{% asyncEach birdId, bird in collections.birds_registered %}
 						<tr>
 							<th>
-								{{ bird.name }}
+								<a href="{{ url.birds }}{{ birdId }}/">{{ bird.name }}</a>
 							</th>
 							<td>
 								{% if birdId in sightedBirds %}
 									Yes {{ sightedBirds[birdId] }}
-								{% else %}
-									-
 								{% endif %}
 							</td>
 							<td>
 								{% if collections.photos_by_person_by_bird[personId][birdId] %}
+									{% set photodBirdsCount = photodBirdsCount + 1 %}
 									<details>
 										<summary>Yes</summary>
 										<ul class="list_gallery">
@@ -186,11 +180,7 @@ eleventyExcludeFromCollections: true
 															{% set photoPath = url.source_photos + photo.photographer + '/' + photo.file %}
 															{% photoThumbnail photoPath, photo.description %}
 															<figcaption>
-																<ul>
-																	{% for birdId in photo.birds %}
-																		<li>{{ birds[birdId].name }}{% if loop.length > 1 and not loop.last %},{% endif %}</li>
-																	{% endfor %}
-																</ul>
+																{{ photoId.split('T')[0] }}
 															</figcaption>
 														</figure>
 													</a>
@@ -203,6 +193,13 @@ eleventyExcludeFromCollections: true
 						</tr>
 					{% endeach %}
 				</tbody>
+				<tfoot>
+					<tr>
+						<td></td>
+						<td class="cell_amount">{{ sightedBirds.length }}</td>
+						<td class="cell_amount">{{ photodBirdsCount }}</td>
+					</tr>
+				</tfoot>
 			</table>
 		{% else %}
 			<p>No bird added to the checklist yet</p>
