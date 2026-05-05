@@ -41,6 +41,11 @@ eleventyExcludeFromCollections: true
 					Bird species
 				</a>
 			</li>
+			<li>
+				<a href="#section_checklist">
+					Checklist
+				</a>
+			</li>
 		</ul>
 	</nav>
 
@@ -132,6 +137,49 @@ eleventyExcludeFromCollections: true
 			</ol>
 		{% else %}
 			<p>No birds seen yet</p>
+		{% endif %}
+	</article>
+
+	<article id="section_checklist" aria-labelledby="heading_checklist">
+		<header>
+			<h3 id="heading_checklist">Checklist</h3>
+		</header>
+		{% if collections.birds_registered.length %}
+			<table>
+				<thead>
+					<tr>
+						<th id="list_th_bird">
+							Bird
+						</th>
+						<th id="list_th_seen">
+							Seen?
+						</th>
+						<th id="list_th_photod">
+							Photo'd?
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% asyncEach birdId, bird in collections.birds_registered %}
+						<tr>
+							<th>
+								{{ bird.name }}
+							</th>
+							<td>
+								{% if birdId in sightedBirds %}
+									Yes
+								{% else %}
+									-
+								{% endif %}
+							</td>
+							<td>
+							</td>
+						</tr>
+					{% endeach %}
+				</tbody>
+			</table>
+		{% else %}
+			<p>No bird added to the checklist yet</p>
 		{% endif %}
 	</article>
 
