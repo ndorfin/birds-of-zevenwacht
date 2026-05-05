@@ -118,24 +118,6 @@ eleventyExcludeFromCollections: true
 		{% endif %}
 	</article>
 
-	{# <article id="section_birds" aria-labelledby="heading_birds">
-		<header>
-			<h3 id="heading_birds">{{ sightedBirds.length }} bird species seen</h3>
-		</header>
-		{% if sightedBirds.length %}
-			<ol>
-				{% asyncEach birdId in sightedBirds %}
-					{% set bird = birds[birdId] %}
-					<li>
-						{% include "card_bird.njk" %}
-					</li>
-				{% endeach %}
-			</ol>
-		{% else %}
-			<p>No birds seen yet</p>
-		{% endif %}
-	</article> #}
-
 	<article id="section_checklist" aria-labelledby="heading_checklist">
 		<header>
 			<h3 id="heading_checklist">Bird checklist</h3>
@@ -151,7 +133,7 @@ eleventyExcludeFromCollections: true
 							Seen?
 						</th>
 						<th id="list_th_photod">
-							Photo'd?
+							Photographed?
 						</th>
 					</tr>
 				</thead>
@@ -195,9 +177,9 @@ eleventyExcludeFromCollections: true
 				</tbody>
 				<tfoot>
 					<tr>
-						<td></td>
-						<td class="cell_amount">{{ sightedBirds.length }}</td>
-						<td class="cell_amount">{{ photodBirdsCount }}</td>
+						<th class="cell_amount">{{ collections.birds_registered.length }} birds total</th>
+						<td class="cell_amount">{{ sightedBirds.length }} seen</td>
+						<td class="cell_amount">{{ photodBirdsCount }} photographed</td>
 					</tr>
 				</tfoot>
 			</table>

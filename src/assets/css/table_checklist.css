@@ -33,7 +33,6 @@
 	}
 
 	.cell_amount {
-		text-align: end;
 		font-feature-settings: "tnum";
 	}
 }
