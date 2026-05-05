@@ -2,7 +2,7 @@
 
 [
 {
-	"datetime": "2025-02-10T16:53:00.000Z",
+	"datetime": "2025-02-10T16:53:11.000Z",
 	"bird": {
 	"name": "European Bee-eater",
 	"family_name": "Bee-eater",
@@ -19,7 +19,7 @@
 		"scale": 2
 	}
 },
-	"quantity": 50,
+	"quantity": 40,
 	"location": {
 		"areaId": "zevenwacht-village",
 		"area": {
@@ -113,11 +113,30 @@
 },
 		"latitude": 
 		
-			-33.931664,
+			null,
 		
 		"longitude":
 		
-			18.712128
+			null
+		
+	},
+	
+	"photos": {
+		
+			
+			"2025-02-10T16:53:11.000Z_shaun":
+			{
+	"file": "1DF2AD61-CF82-4508-A5CE-9954C6FB16A8.jpeg",
+	"sighting": "2025-02-10T16:53:11.000Z_shaun",
+	"description": "A massive flock of European Bee-eaters catching insects high above the photographer",
+	"birds": [
+		"bee-eater-european"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "zevenwacht-village"
+	}
+}
 		
 	},
 	

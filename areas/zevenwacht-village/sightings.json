@@ -10597,8 +10597,8 @@
 		
 		,
 		{
-			"id": "2025-02-10T16:53:00.000Z_shaun",
-			"datetime": "2025-02-10T16:53:00.000Z",
+			"id": "2025-02-10T16:53:11.000Z_shaun",
+			"datetime": "2025-02-10T16:53:11.000Z",
 			"birdId": "bee-eater-european",
 			"bird": {
 	"name": "European Bee-eater",
@@ -10616,7 +10616,7 @@
 		"scale": 2
 	}
 },
-			"quantity": 50,
+			"quantity": 40,
 			"location": {
 				"areaId": "zevenwacht-village",
 				"area": {
@@ -10710,11 +10710,11 @@
 },
 				"latitude": 
 				
-					-33.931664,
+					null,
 				
 				"longitude":
 				
-					18.712128
+					null
 				
 			},
 			"observers": [
