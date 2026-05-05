@@ -11,11 +11,12 @@ eleventyExcludeFromCollections: true
 {% set filtered_sightings_array = filtered_sightings | objToArray %}
 {% set filtered_photos = photos | byPerson(personId) | sortByProp('datetime') %}
 {% set filtered_photos_array = filtered_photos | objToArray %}
-{% set birdsArray = [] %}
+
+{% set sightedBirdsArray = [] %}
 {% for sightingId, sighting in filtered_sightings %}
-	{% set birdsArray = (birdsArray.push(sighting.bird.id), birdsArray) %}
+	{% set sightedBirdsArray = (sightedBirdsArray.push(sighting.bird.id), sightedBirdsArray) %}
 {% endfor %}
-{% set sightedBirds = birdsArray | uniques | sort %}
+{% set sightedBirds = sightedBirdsArray | uniques | sort %}
 
 <tab-group>
 	<nav aria-labelledby="heading_nav_tabs">
@@ -167,12 +168,37 @@ eleventyExcludeFromCollections: true
 							</th>
 							<td>
 								{% if birdId in sightedBirds %}
-									Yes
+									Yes {{ sightedBirds[birdId] }}
 								{% else %}
 									-
 								{% endif %}
 							</td>
 							<td>
+								{% if collections.photos_by_person_by_bird[personId][birdId] %}
+									<details>
+										<summary>Yes</summary>
+										<ul class="list_gallery">
+											{% for photoId in collections.photos_by_person_by_bird[personId][birdId] %}
+												{% set photo = filtered_photos[photoId] %}
+												<li id="photo_{{ photoId }}">
+													<a class="link_thumbnail" href="{{ url.photos }}{{ photoId }}/">
+														<figure>
+															{% set photoPath = url.source_photos + photo.photographer + '/' + photo.file %}
+															{% photoThumbnail photoPath, photo.description %}
+															<figcaption>
+																<ul>
+																	{% for birdId in photo.birds %}
+																		<li>{{ birds[birdId].name }}{% if loop.length > 1 and not loop.last %},{% endif %}</li>
+																	{% endfor %}
+																</ul>
+															</figcaption>
+														</figure>
+													</a>
+												</li>
+											{% endfor %}
+										</ul>
+									</details>
+								{% endif %}
 							</td>
 						</tr>
 					{% endeach %}

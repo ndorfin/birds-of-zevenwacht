@@ -177,6 +177,23 @@ export default async function (config) {
 		});
 		return registered_birds;
 	});
+	config.addCollection('photos_by_person_by_bird', async (collectionsApi) => {
+		const all_photos = collectionsApi.getAll()[0].data.photos;
+		let photos_by_person = {}
+		Object.entries(all_photos).forEach(([id, item]) => {
+			const photographerId = item.photographer;
+			if (!photos_by_person[photographerId]) {
+				photos_by_person[photographerId] = {}
+			}
+			item.birds.forEach((birdId) => {
+				if (!photos_by_person[photographerId][birdId]) {
+					photos_by_person[photographerId][birdId] = [];
+				}
+				photos_by_person[photographerId][birdId].push(id);
+			});
+		});
+		return photos_by_person;
+	});
 
 	/* Shortcodes */
 	config.addShortcode('datetime', function (date) {
