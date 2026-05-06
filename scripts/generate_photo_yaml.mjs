@@ -57,10 +57,11 @@ fs.readdir(dumpFolder, (errAuthor, entries) => {
 						const { ctime, birthtime } = fs.statSync(photoPath);
 						exifr.parse(data).then(exif => {
 							const createdDate = (exif && exif.DateTimeOriginal) ? exif.DateTimeOriginal : new Date(birthtime);
+							const targetYear = createdDate.getFullYear();
 							const createdDateString = createdDate.toISOString();
 							const filenamePattern = `${ createdDateString }_${ photographer }`;
-							const targetPhotoFile = `${ targetPhotosFolder }/${ filenamePattern }.yml`;
-							const targetSightingFile = `${ targetSightingsFolder }/${ filenamePattern }.yml`;
+							const targetPhotoFile = `${ targetPhotosFolder }/${targetYear}/${ filenamePattern }.yml`;
+							const targetSightingFile = `${ targetSightingsFolder }/${targetYear}/${ filenamePattern }.yml`;
 							const targetEXIFFile = `${ targetEXIFFolder }/${ photographer }/${ filename }.yml`;
 
 							if (!fs.existsSync(targetEXIFFile)) {
