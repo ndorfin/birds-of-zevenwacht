@@ -11,7 +11,7 @@ body > header {
 	}
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 	body > header {
 		flex-direction: row;
 		align-items: end;

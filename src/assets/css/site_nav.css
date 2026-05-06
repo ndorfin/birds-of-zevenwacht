@@ -2,7 +2,7 @@ body > header > nav {
 	& ul {
 		display: flex;
 		flex-direction: row;
-		gap: 2rem;
+		gap: 1rem;
 		margin: 0;
 		padding: 0;
 		list-style: "";
@@ -37,10 +37,21 @@ body > header > nav {
 	}
 }
 
+@media (min-width: 500px) {
+	body > header > nav {
+		& ul {
+			gap: 2rem;
+		}
+	}
+
+}
+
 
 [data-page-path^="birds"]     > header > nav a[href*="/birds/"],
 [data-page-path^="sightings"] > header > nav a[href*="/sightings/"],
-[data-page-path^="photos"]    > header > nav a[href*="/photos/"] {
+[data-page-path^="photos"]    > header > nav a[href*="/photos/"],
+[data-page-path^="people"]    > header > nav a[href*="/people/"],
+[data-page-path^="areas"]    > header > nav a[href*="/areas/"] {
 	&::after {
 		content: "";
 		display: block;

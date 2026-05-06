@@ -1,5 +1,6 @@
 {
 	"yaml.schemas": {
 		"schemas/schema-bird.json": "src/_data/birds/*.yml",
-	}
+	},
+	"svg.preview.background": "transparent"
 }
