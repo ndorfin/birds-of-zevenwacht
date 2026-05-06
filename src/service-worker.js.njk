@@ -31,7 +31,7 @@ let cacheGroups = {
 			"{{ url.people | url }}{{ personId }}/",
 		{%- endfor %}
 			"{{ url.photos | url }}",
-		{%- for photoId, photo in photos %}
+		{%- for photoId, photo in collections.flattened_photos %}
 			"{{ url.photos | url }}{{ photoId }}/",
 		{%- endfor %}
 			"{{ url.sightings | url }}",

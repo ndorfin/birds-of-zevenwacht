@@ -1,13 +1,13 @@
 ---
 pagination:
-  data: photos
+  data: collections.flattened_photos
   size: 1
   alias: photoId
 permalink: "{{ url.photos }}{{ photoId }}/index.html"
 layout: "photo_detail.njk"
 eleventyExcludeFromCollections: true
 ---
-{% set photo = photos[photoId] %}
+{% set photo = collections.flattened_photos[photoId] %}
 {% set exif = exifs[photo.photographer][photo.file] %}
 {% if exif %}
 	{% set datetime = exif.DateTimeOriginal %}

@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
 ---
 {% set filtered_sightings = sightings | byArea(areaId) | sortByProp('datetime') %}
 {% set filtered_sightings_array = filtered_sightings | objToArray %}
-{% set filtered_photos = photos | byArea(areaId) | sortByProp('datetime') %}
+{% set filtered_photos = collections.flattened_photos | byArea(areaId) | sortByProp('datetime') %}
 {% set filtered_photos_array = filtered_photos | objToArray %}
 {% set area = areas[areaId] %}
 {% set birdsArray = [] %}

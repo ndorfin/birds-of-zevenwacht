@@ -35,7 +35,7 @@ eleventyExcludeFromCollections: true
 		{% for photoId in sighting.photos %}
 			{% if loop.index > 1 and loop.revindex >= 1 %},{% endif%}
 			{{ photoId | stringify | safe }}:
-			{{ photos[photoId] | stringify | safe }}
+			{{ collections.flattened_photos[photoId] | stringify | safe }}
 		{% endfor %}
 	},
 	{% endif %}

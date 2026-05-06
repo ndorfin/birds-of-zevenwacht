@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
 {% set bird = birds[birdId] %}
 {% set filtered_sightings = sightings | byBird(birdId) | sortByProp('datetime') %}
 {% set filtered_sightings_array = filtered_sightings | objToArray %}
-{% set filtered_photos = photos | byBird(birdId) | sortByProp('datetime') %}
+{% set filtered_photos = collections.flattened_photos | byBird(birdId) | sortByProp('datetime') %}
 {% set filtered_photos_array = filtered_photos | objToArray %}
 {% set observerArray = [] %}
 {% for sightingId, sighting in filtered_sightings %}

@@ -1,4 +1,4 @@
-{% set photo = photos[photoId] %}
+{% set photo = collections.flattened_photos[photoId] %}
 {% set exif = exifs[photo.photographer][photo.file] %}
 {% if exif %}
 	{% set formattedDate = exif.DateTimeOriginal | CCYYMMDD %}

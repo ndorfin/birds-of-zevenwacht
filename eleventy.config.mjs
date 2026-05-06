@@ -128,6 +128,16 @@ export default async function (config) {
 	});
 
 	/* Custom Collections */
+	config.addCollection('flattened_photos', (collectionsApi) => {
+		const photoData = collectionsApi.getAll()[0].data.photos;
+		let all_photos = {}
+		Object.entries(photoData).forEach(([year, photosByYear]) => {
+			Object.entries(photosByYear).forEach(([photoId, item]) => {
+				all_photos[photoId] = item;
+			});
+		});
+		return all_photos;
+	});
 	config.addCollection('birds_photographed', async (collectionsApi) => {
 		let all_birds = collectionsApi.getAll()[0].data.birds;
 		let photographed_birds = {}
@@ -177,8 +187,9 @@ export default async function (config) {
 		});
 		return registered_birds;
 	});
-	config.addCollection('photos_by_person_by_bird', async (collectionsApi) => {
-		const all_photos = collectionsApi.getAll()[0].data.photos;
+	config.addCollection('photos_by_person_by_bird', (collectionsApi) => {
+		const all_photos = config.getCollections().flattened_photos(collectionsApi);
+		console.log('all_photos', all_photos);
 		let photos_by_person = {}
 		Object.entries(all_photos).forEach(([id, item]) => {
 			const photographerId = item.photographer;

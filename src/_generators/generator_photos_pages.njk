@@ -1,6 +1,6 @@
 ---
 pagination:
-  data: photos
+  data: collections.flattened_photos
   size: 20
   alias: photoId
 permalink: "{{ url.photos }}{{ pagination.pageNumber }}/index.html"
@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
 ---
 <ul class="list_gallery">
 	{% for photoId in pagination.items %}
-		{% set photo = photos[photoId] %}
+		{% set photo = collections.flattened_photos[photoId] %}
 		<li>
 			<a class="link_thumbnail" href="{{ url.photos }}{{ photoId | slugify }}/">
 				<figure>

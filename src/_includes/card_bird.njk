@@ -1,7 +1,7 @@
 <a class="card_bird" href="{{ url.birds }}{{ birdId }}/">
 	<figure>
 		<div>
-			{% set photo = photos[bird.photo.id] %}
+			{% set photo = collections.flattened_photos[bird.photo.id] %}
 			{% if photo %}
 				{%
 					photoThumbnail

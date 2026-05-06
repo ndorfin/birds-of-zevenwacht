@@ -25,7 +25,7 @@ eleventyExcludeFromCollections: true
 		<dd>
 			<ul class="list_gallery">
 				{% for photoId in sighting.photos %}
-					{% set photo = photos[photoId] %}
+					{% set photo = collections.flattened_photos[photoId] %}
 					<li>
 						<a class="link_thumbnail" href="{{ url.photos }}{{ photoId }}/">
 							{% set photoPath = url.source_photos + photo.photographer + '/' + photo.file %}
