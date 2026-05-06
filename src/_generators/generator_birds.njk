@@ -8,7 +8,7 @@ layout: "bird_detail.njk"
 eleventyExcludeFromCollections: true
 ---
 {% set bird = birds[birdId] %}
-{% set filtered_sightings = sightings | byBird(birdId) | sortByProp('datetime') %}
+{% set filtered_sightings = collections.flattened_sightings | byBird(birdId) | sortByProp('datetime') %}
 {% set filtered_sightings_array = filtered_sightings | objToArray %}
 {% set filtered_photos = collections.flattened_photos | byBird(birdId) | sortByProp('datetime') %}
 {% set filtered_photos_array = filtered_photos | objToArray %}

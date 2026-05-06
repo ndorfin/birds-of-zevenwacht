@@ -1,13 +1,13 @@
 ---
 pagination:
-  data: sightings
+  data: collections.flattened_sightings
   size: 1
   alias: sightingId
 permalink: "{{ url.sightings }}{{ sightingId }}/index.html"
 layout: "sighting_detail.njk"
 eleventyExcludeFromCollections: true
 ---
-{% set sighting = sightings[sightingId] %}
+{% set sighting = collections.flattened_sightings[sightingId] %}
 <dl class="list_details">
 	<div>
 		<dt>Date and time</dt>

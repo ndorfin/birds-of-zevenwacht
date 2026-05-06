@@ -127,7 +127,10 @@ export default async function (config) {
 		return `/assets/photos/${ photographerId }/${ thumbnailPhoto }`;
 	});
 
-	/* Custom Collections */
+	/* Custom Collections
+		 ============================================================== */
+
+	/* Low-level changes */
 	config.addCollection('flattened_photos', (collectionsApi) => {
 		const photoData = collectionsApi.getAll()[0].data.photos;
 		let all_photos = {}
@@ -138,6 +141,18 @@ export default async function (config) {
 		});
 		return all_photos;
 	});
+	config.addCollection('flattened_sightings', (collectionsApi) => {
+		const photoData = collectionsApi.getAll()[0].data.sightings;
+		let all_sightings = {}
+		Object.entries(photoData).forEach(([year, sightingsByYear]) => {
+			Object.entries(sightingsByYear).forEach(([sightingId, item]) => {
+				all_sightings[sightingId] = item;
+			});
+		});
+		return all_sightings;
+	});
+
+	/* Subsets */
 	config.addCollection('birds_photographed', async (collectionsApi) => {
 		let all_birds = collectionsApi.getAll()[0].data.birds;
 		let photographed_birds = {}
@@ -189,7 +204,6 @@ export default async function (config) {
 	});
 	config.addCollection('photos_by_person_by_bird', (collectionsApi) => {
 		const all_photos = config.getCollections().flattened_photos(collectionsApi);
-		console.log('all_photos', all_photos);
 		let photos_by_person = {}
 		Object.entries(all_photos).forEach(([id, item]) => {
 			const photographerId = item.photographer;

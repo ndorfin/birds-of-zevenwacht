@@ -41,7 +41,7 @@ eleventyExcludeFromCollections: true
 	<div>
 		<dt>Sighting</dt>
 		<dd>
-			{% set sighting = sightings[photo.sighting] %}
+			{% set sighting = collections.flattened_sightings[photo.sighting] %}
 			<a href="{{ url.sightings }}{{ photo.sighting }}/">{% datetime datetime %}</a>
 		</dd>
 	</div>

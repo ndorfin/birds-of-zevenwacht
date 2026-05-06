@@ -7,7 +7,7 @@ permalink: "{{ url.areas }}{{ areaId }}/sightings.json"
 layout: null
 eleventyExcludeFromCollections: true
 ---
-{% set areaSightings = sightings | byArea(areaId) %}
+{% set areaSightings = collections.flattened_sightings | byArea(areaId) %}
 [
 	{% for sightingId, sighting in areaSightings | sortByProp('datetime') %}
 		{% set bird = birds[sighting.bird.id] %}

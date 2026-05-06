@@ -1,4 +1,4 @@
-{% set sighting = sightings[sightingId] %}
+{% set sighting = collections.flattened_sightings[sightingId] %}
 {% set formattedDate = sighting.datetime | CCYYMMDD %}
 {% set bird = birds[sighting.bird.id] %}
 {% set heading = 'Sighting of ' + sighting.bird.quantity + ' × ' + bird.name + ' on ' + formattedDate %}
