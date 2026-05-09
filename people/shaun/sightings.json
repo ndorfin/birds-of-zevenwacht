@@ -4,6 +4,1229 @@
 		
 		
 		{
+			"id": "2026-05-09T15:17:35.000Z_shaun",
+			"datetime": "2026-05-09T15:17:35.000Z",
+			"birdId": "prinia-karoo",
+			"bird": {
+	"name": "Karoo Prinia",
+	"family_name": "Prinia",
+	"german_name": null,
+	"afrikaans_name": "Karoolangstertjie",
+	"genus": "Prinia",
+	"species": "maculosa",
+	"ebird": "https://ebird.org/species/karpri1/ZA",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2024-11-05T15_54_52.000Z_shaun",
+		"tx": "70%",
+		"ty": "-40%",
+		"scale": 3
+	}
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-wine-estate",
+				"area": {
+	"name": "Zevenwacht Wine Estate",
+	"address": {
+		"street": "Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.931888,
+		"longitude": 18.716808
+	},
+	"geofence": [
+		[
+			-33.9309527,
+			18.7141857
+		],
+		[
+			-33.9308127,
+			18.7144212
+		],
+		[
+			-33.9320831,
+			18.717304
+		],
+		[
+			-33.932684,
+			18.7174435
+		],
+		[
+			-33.9322052,
+			18.7207401
+		],
+		[
+			-33.9324722,
+			18.7222636
+		],
+		[
+			-33.9321874,
+			18.7250531
+		],
+		[
+			-33.9315725,
+			18.7259023
+		],
+		[
+			-33.9333885,
+			18.7314169
+		],
+		[
+			-33.9350798,
+			18.7364809
+		],
+		[
+			-33.9362545,
+			18.7419818
+		],
+		[
+			-33.9350834,
+			18.7423465
+		],
+		[
+			-33.9341359,
+			18.7431834
+		],
+		[
+			-33.9324268,
+			18.743913
+		],
+		[
+			-33.9326994,
+			18.7396964
+		],
+		[
+			-33.9297288,
+			18.7334545
+		],
+		[
+			-33.9220466,
+			18.7333277
+		],
+		[
+			-33.917565,
+			18.7328871
+		],
+		[
+			-33.9158734,
+			18.7269434
+		],
+		[
+			-33.9169632,
+			18.7237554
+		],
+		[
+			-33.9170522,
+			18.7226396
+		],
+		[
+			-33.9175864,
+			18.7216955
+		],
+		[
+			-33.9106511,
+			18.7139467
+		],
+		[
+			-33.9205235,
+			18.7102106
+		],
+		[
+			-33.9214022,
+			18.7129427
+		],
+		[
+			-33.9228381,
+			18.7131359
+		],
+		[
+			-33.9254008,
+			18.7131009
+		],
+		[
+			-33.9300981,
+			18.7136009
+		],
+		[
+			-33.9305521,
+			18.713778
+		],
+		[
+			-33.9309527,
+			18.7141857
+		]
+	],
+	"website": "https://zevenwacht.co.za/"
+},
+				"latitude": 
+				
+					-33.923999,
+				
+				"longitude":
+				
+					18.720456
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Debby",
+	"full-name": "Debby Vigario",
+	"email": null
+}
+				
+					,
+					{
+	"name": "Matt",
+	"full-name": "Matt Vigario",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2026-05-09T14:59:55.000Z_shaun",
+			"datetime": "2026-05-09T14:59:55.000Z",
+			"birdId": "duck-yellow-billed",
+			"bird": {
+	"name": "Yellow-billed Duck",
+	"family_name": "Duck",
+	"german_name": null,
+	"afrikaans_name": "Geelbek-Eend",
+	"genus": "Anas",
+	"species": "undulata",
+	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2022-08-08T09_18_37.000Z_tony",
+		"tx": "-10%",
+		"ty": "0%",
+		"scale": 2
+	}
+},
+			"quantity": 2,
+			"location": {
+				"areaId": "zevenwacht-wine-estate",
+				"area": {
+	"address": {
+		"street": "Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.931888,
+		"longitude": 18.716808
+	},
+	"name": "Zevenwacht Wine Estate",
+	"geofence": [
+		[
+			-33.9309527,
+			18.7141857
+		],
+		[
+			-33.9308127,
+			18.7144212
+		],
+		[
+			-33.9320831,
+			18.717304
+		],
+		[
+			-33.932684,
+			18.7174435
+		],
+		[
+			-33.9322052,
+			18.7207401
+		],
+		[
+			-33.9324722,
+			18.7222636
+		],
+		[
+			-33.9321874,
+			18.7250531
+		],
+		[
+			-33.9315725,
+			18.7259023
+		],
+		[
+			-33.9333885,
+			18.7314169
+		],
+		[
+			-33.9350798,
+			18.7364809
+		],
+		[
+			-33.9362545,
+			18.7419818
+		],
+		[
+			-33.9350834,
+			18.7423465
+		],
+		[
+			-33.9341359,
+			18.7431834
+		],
+		[
+			-33.9324268,
+			18.743913
+		],
+		[
+			-33.9326994,
+			18.7396964
+		],
+		[
+			-33.9297288,
+			18.7334545
+		],
+		[
+			-33.9220466,
+			18.7333277
+		],
+		[
+			-33.917565,
+			18.7328871
+		],
+		[
+			-33.9158734,
+			18.7269434
+		],
+		[
+			-33.9169632,
+			18.7237554
+		],
+		[
+			-33.9170522,
+			18.7226396
+		],
+		[
+			-33.9175864,
+			18.7216955
+		],
+		[
+			-33.9106511,
+			18.7139467
+		],
+		[
+			-33.9205235,
+			18.7102106
+		],
+		[
+			-33.9214022,
+			18.7129427
+		],
+		[
+			-33.9228381,
+			18.7131359
+		],
+		[
+			-33.9254008,
+			18.7131009
+		],
+		[
+			-33.9300981,
+			18.7136009
+		],
+		[
+			-33.9305521,
+			18.713778
+		],
+		[
+			-33.9309527,
+			18.7141857
+		]
+	],
+	"website": "https://zevenwacht.co.za/"
+},
+				"latitude": 
+				
+					-33.921352,
+				
+				"longitude":
+				
+					18.718254
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Debby",
+	"full-name": "Debby Vigario",
+	"email": null
+}
+				
+					,
+					{
+	"name": "Matt",
+	"full-name": "Matt Vigario",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2026-05-09T14:42:22.000Z_shaun",
+			"datetime": "2026-05-09T14:42:22.000Z",
+			"birdId": "canary-yellow",
+			"bird": {
+	"name": "Yellow Canary",
+	"family_name": "Canary",
+	"afrikaans_name": "Geelkanarie",
+	"german_name": "Kanarienvogel",
+	"genus": "Crithagra",
+	"species": "flaviventris",
+	"ebird": "https://ebird.org/species/yelcan1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Yellow_canary",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2026-05-09T14:42:22.000Z_shaun",
+		"tx": "50%",
+		"ty": "-20%",
+		"scale": 2.5
+	}
+},
+			"quantity": 2,
+			"location": {
+				"areaId": "zevenwacht-wine-estate",
+				"area": {
+	"address": {
+		"street": "Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.931888,
+		"longitude": 18.716808
+	},
+	"name": "Zevenwacht Wine Estate",
+	"geofence": [
+		[
+			-33.9309527,
+			18.7141857
+		],
+		[
+			-33.9308127,
+			18.7144212
+		],
+		[
+			-33.9320831,
+			18.717304
+		],
+		[
+			-33.932684,
+			18.7174435
+		],
+		[
+			-33.9322052,
+			18.7207401
+		],
+		[
+			-33.9324722,
+			18.7222636
+		],
+		[
+			-33.9321874,
+			18.7250531
+		],
+		[
+			-33.9315725,
+			18.7259023
+		],
+		[
+			-33.9333885,
+			18.7314169
+		],
+		[
+			-33.9350798,
+			18.7364809
+		],
+		[
+			-33.9362545,
+			18.7419818
+		],
+		[
+			-33.9350834,
+			18.7423465
+		],
+		[
+			-33.9341359,
+			18.7431834
+		],
+		[
+			-33.9324268,
+			18.743913
+		],
+		[
+			-33.9326994,
+			18.7396964
+		],
+		[
+			-33.9297288,
+			18.7334545
+		],
+		[
+			-33.9220466,
+			18.7333277
+		],
+		[
+			-33.917565,
+			18.7328871
+		],
+		[
+			-33.9158734,
+			18.7269434
+		],
+		[
+			-33.9169632,
+			18.7237554
+		],
+		[
+			-33.9170522,
+			18.7226396
+		],
+		[
+			-33.9175864,
+			18.7216955
+		],
+		[
+			-33.9106511,
+			18.7139467
+		],
+		[
+			-33.9205235,
+			18.7102106
+		],
+		[
+			-33.9214022,
+			18.7129427
+		],
+		[
+			-33.9228381,
+			18.7131359
+		],
+		[
+			-33.9254008,
+			18.7131009
+		],
+		[
+			-33.9300981,
+			18.7136009
+		],
+		[
+			-33.9305521,
+			18.713778
+		],
+		[
+			-33.9309527,
+			18.7141857
+		]
+	],
+	"website": "https://zevenwacht.co.za/"
+},
+				"latitude": 
+				
+					-33.923435,
+				
+				"longitude":
+				
+					18.71363
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Debby",
+	"full-name": "Debby Vigario",
+	"email": null
+}
+				
+					,
+					{
+	"name": "Matt",
+	"full-name": "Matt Vigario",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2026-05-09T14:34:35.000Z_shaun",
+			"datetime": "2026-05-09T14:34:35.000Z",
+			"birdId": "stonechat-african",
+			"bird": {
+	"name": "African Stonechat",
+	"family_name": "Chat",
+	"afrikaans_name": "Gewone Bontrokkie",
+	"german_name": "Afrikaschwarzkehlchen",
+	"genus": "Saxicola",
+	"species": "torquatus",
+	"ebird": "https://ebird.org/species/afrsto1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_stonechat",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2026-05-09T14:34:35.000Z_shaun",
+		"tx": "-40%",
+		"scale": 2
+	}
+},
+			"quantity": 2,
+			"location": {
+				"areaId": "zevenwacht-wine-estate",
+				"area": {
+	"address": {
+		"street": "Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.931888,
+		"longitude": 18.716808
+	},
+	"name": "Zevenwacht Wine Estate",
+	"geofence": [
+		[
+			-33.9309527,
+			18.7141857
+		],
+		[
+			-33.9308127,
+			18.7144212
+		],
+		[
+			-33.9320831,
+			18.717304
+		],
+		[
+			-33.932684,
+			18.7174435
+		],
+		[
+			-33.9322052,
+			18.7207401
+		],
+		[
+			-33.9324722,
+			18.7222636
+		],
+		[
+			-33.9321874,
+			18.7250531
+		],
+		[
+			-33.9315725,
+			18.7259023
+		],
+		[
+			-33.9333885,
+			18.7314169
+		],
+		[
+			-33.9350798,
+			18.7364809
+		],
+		[
+			-33.9362545,
+			18.7419818
+		],
+		[
+			-33.9350834,
+			18.7423465
+		],
+		[
+			-33.9341359,
+			18.7431834
+		],
+		[
+			-33.9324268,
+			18.743913
+		],
+		[
+			-33.9326994,
+			18.7396964
+		],
+		[
+			-33.9297288,
+			18.7334545
+		],
+		[
+			-33.9220466,
+			18.7333277
+		],
+		[
+			-33.917565,
+			18.7328871
+		],
+		[
+			-33.9158734,
+			18.7269434
+		],
+		[
+			-33.9169632,
+			18.7237554
+		],
+		[
+			-33.9170522,
+			18.7226396
+		],
+		[
+			-33.9175864,
+			18.7216955
+		],
+		[
+			-33.9106511,
+			18.7139467
+		],
+		[
+			-33.9205235,
+			18.7102106
+		],
+		[
+			-33.9214022,
+			18.7129427
+		],
+		[
+			-33.9228381,
+			18.7131359
+		],
+		[
+			-33.9254008,
+			18.7131009
+		],
+		[
+			-33.9300981,
+			18.7136009
+		],
+		[
+			-33.9305521,
+			18.713778
+		],
+		[
+			-33.9309527,
+			18.7141857
+		]
+	],
+	"website": "https://zevenwacht.co.za/"
+},
+				"latitude": 
+				
+					-33.926306,
+				
+				"longitude":
+				
+					18.713617
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Debby",
+	"full-name": "Debby Vigario",
+	"email": null
+}
+				
+					,
+					{
+	"name": "Matt",
+	"full-name": "Matt Vigario",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2026-05-09T14:17:45.000Z_shaun",
+			"datetime": "2026-05-09T14:17:45.000Z",
+			"birdId": "pigeon-speckled",
+			"bird": {
+	"name": "Speckled Pigeon",
+	"family_name": "Pigeon",
+	"german_name": null,
+	"afrikaans_name": "Kransduif",
+	"genus": "Columba",
+	"species": "Guinea",
+	"ebird": "https://ebird.org/species/spepig1/ZA",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2025-01-05T15:16:08.000Z_shaun",
+		"tx": "120%",
+		"ty": "120%",
+		"scale": 3.5
+	}
+},
+			"quantity": 1,
+			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
+				"area": {
+	"name": "Zevenwacht Lifestyle Estate",
+	"address": {
+		"street": "150 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934168,
+		"longitude": 18.713997
+	},
+	"geofence": [
+		[
+			-33.931973439185626,
+			18.716853932275
+		],
+		[
+			-33.93108850441808,
+			18.714853983648453
+		],
+		[
+			-33.93109945990521,
+			18.71446446551323
+		],
+		[
+			-33.93139525726785,
+			18.714035334386807
+		],
+		[
+			-33.932813976095744,
+			18.713744846286488
+		],
+		[
+			-33.93395524976114,
+			18.713771252451608
+		],
+		[
+			-33.93417435187366,
+			18.71395610851505
+		],
+		[
+			-33.93433320055193,
+			18.713830670471538
+		],
+		[
+			-33.934590644332715,
+			18.71378445645547
+		],
+		[
+			-33.93518221432526,
+			18.713876884487632
+		],
+		[
+			-33.93565327638076,
+			18.713909894498954
+		],
+		[
+			-33.936014787353976,
+			18.713678824419475
+		],
+		[
+			-33.93633247754774,
+			18.71409475056325
+		],
+		[
+			-33.936283180872415,
+			18.71434562665027
+		],
+		[
+			-33.93590524117223,
+			18.715276510105156
+		],
+		[
+			-33.93520412668197,
+			18.717666434934557
+		],
+		[
+			-33.93401111448705,
+			18.717395296463167
+		],
+		[
+			-33.931973439185626,
+			18.716853932275
+		]
+	],
+	"website": "https://zevenwacht-lifestyle-estate.co.za/"
+},
+				"latitude": 
+				
+					-33.933392,
+				
+				"longitude":
+				
+					18.713748
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Debby",
+	"full-name": "Debby Vigario",
+	"email": null
+}
+				
+					,
+					{
+	"name": "Matt",
+	"full-name": "Matt Vigario",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2026-05-09T14:14:59.000Z_shaun",
+			"datetime": "2026-05-09T14:14:59.000Z",
+			"birdId": "sparrow-house",
+			"bird": {
+	"name": "House Sparrow",
+	"family_name": "Sparrow",
+	"german_name": "Haussperling",
+	"afrikaans_name": "Huismossie",
+	"genus": "Passer",
+	"species": "domesticus",
+	"ebird": "https://ebird.org/species/houspa/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/House_sparrow",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2026-05-09T14:14:59.000Z_shaun",
+		"scale": 2
+	}
+},
+			"quantity": 3,
+			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
+				"area": {
+	"address": {
+		"street": "150 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934168,
+		"longitude": 18.713997
+	},
+	"name": "Zevenwacht Lifestyle Estate",
+	"geofence": [
+		[
+			-33.931973439185626,
+			18.716853932275
+		],
+		[
+			-33.93108850441808,
+			18.714853983648453
+		],
+		[
+			-33.93109945990521,
+			18.71446446551323
+		],
+		[
+			-33.93139525726785,
+			18.714035334386807
+		],
+		[
+			-33.932813976095744,
+			18.713744846286488
+		],
+		[
+			-33.93395524976114,
+			18.713771252451608
+		],
+		[
+			-33.93417435187366,
+			18.71395610851505
+		],
+		[
+			-33.93433320055193,
+			18.713830670471538
+		],
+		[
+			-33.934590644332715,
+			18.71378445645547
+		],
+		[
+			-33.93518221432526,
+			18.713876884487632
+		],
+		[
+			-33.93565327638076,
+			18.713909894498954
+		],
+		[
+			-33.936014787353976,
+			18.713678824419475
+		],
+		[
+			-33.93633247754774,
+			18.71409475056325
+		],
+		[
+			-33.936283180872415,
+			18.71434562665027
+		],
+		[
+			-33.93590524117223,
+			18.715276510105156
+		],
+		[
+			-33.93520412668197,
+			18.717666434934557
+		],
+		[
+			-33.93401111448705,
+			18.717395296463167
+		],
+		[
+			-33.931973439185626,
+			18.716853932275
+		]
+	],
+	"website": "https://zevenwacht-lifestyle-estate.co.za/"
+},
+				"latitude": 
+				
+					-33.933392,
+				
+				"longitude":
+				
+					18.713748
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Debby",
+	"full-name": "Debby Vigario",
+	"email": null
+}
+				
+					,
+					{
+	"name": "Matt",
+	"full-name": "Matt Vigario",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
+			"id": "2026-05-09T14:14:31.000Z_shaun",
+			"datetime": "2026-05-09T14:14:31.000Z",
+			"birdId": "waxbill-common",
+			"bird": {
+	"name": "Common Waxbill",
+	"family_name": "Waxbill",
+	"german_name": "Wellenastrild",
+	"afrikaans_name": "Rooibeksysie",
+	"genus": "Estrilda",
+	"species": "astrild",
+	"ebird": "https://ebird.org/species/comwax/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Common_waxbill",
+	"red-list": "least-concern",
+	"photo": {
+		"id": "2025-10-21T16:07:46.000Z_shaun",
+		"tx": "20%",
+		"ty": 0,
+		"scale": 3
+	},
+	"size": {
+		"min": 110,
+		"max": 110
+	},
+	"weight": {
+		"min": 7,
+		"max": 10
+	}
+},
+			"quantity": 5,
+			"location": {
+				"areaId": "zevenwacht-lifestyle-estate",
+				"area": {
+	"address": {
+		"street": "150 Langverwacht Road",
+		"suburb": "Kuils River"
+	},
+	"location": {
+		"latitude": -33.934168,
+		"longitude": 18.713997
+	},
+	"name": "Zevenwacht Lifestyle Estate",
+	"geofence": [
+		[
+			-33.931973439185626,
+			18.716853932275
+		],
+		[
+			-33.93108850441808,
+			18.714853983648453
+		],
+		[
+			-33.93109945990521,
+			18.71446446551323
+		],
+		[
+			-33.93139525726785,
+			18.714035334386807
+		],
+		[
+			-33.932813976095744,
+			18.713744846286488
+		],
+		[
+			-33.93395524976114,
+			18.713771252451608
+		],
+		[
+			-33.93417435187366,
+			18.71395610851505
+		],
+		[
+			-33.93433320055193,
+			18.713830670471538
+		],
+		[
+			-33.934590644332715,
+			18.71378445645547
+		],
+		[
+			-33.93518221432526,
+			18.713876884487632
+		],
+		[
+			-33.93565327638076,
+			18.713909894498954
+		],
+		[
+			-33.936014787353976,
+			18.713678824419475
+		],
+		[
+			-33.93633247754774,
+			18.71409475056325
+		],
+		[
+			-33.936283180872415,
+			18.71434562665027
+		],
+		[
+			-33.93590524117223,
+			18.715276510105156
+		],
+		[
+			-33.93520412668197,
+			18.717666434934557
+		],
+		[
+			-33.93401111448705,
+			18.717395296463167
+		],
+		[
+			-33.931973439185626,
+			18.716853932275
+		]
+	],
+	"website": "https://zevenwacht-lifestyle-estate.co.za/"
+},
+				"latitude": 
+				
+					-33.933392,
+				
+				"longitude":
+				
+					18.713748
+				
+			},
+			"observers": [
+				
+					
+					{
+	"name": "Shaun",
+	"full-name": "Shaun O'Connell",
+	"email": "shaun@tactile.co.za"
+}
+				
+					,
+					{
+	"name": "Debby",
+	"full-name": "Debby Vigario",
+	"email": null
+}
+				
+					,
+					{
+	"name": "Matt",
+	"full-name": "Matt Vigario",
+	"email": null
+}
+				
+			]
+		}
+	
+		
+		,
+		{
 			"id": "2026-05-04T14:49:33.000Z_shaun",
 			"datetime": "2026-05-04T14:49:33.000Z",
 			"birdId": "cormorant-white-breasted",
@@ -28,7 +1251,6 @@
 			"location": {
 				"areaId": "zevenwacht-lifestyle-estate",
 				"area": {
-	"name": "Zevenwacht Lifestyle Estate",
 	"address": {
 		"street": "150 Langverwacht Road",
 		"suburb": "Kuils River"
@@ -37,6 +1259,7 @@
 		"latitude": -33.934168,
 		"longitude": 18.713997
 	},
+	"name": "Zevenwacht Lifestyle Estate",
 	"geofence": [
 		[
 			-33.931973439185626,
@@ -589,7 +1812,6 @@
 			"location": {
 				"areaId": "zevenwacht-wine-estate",
 				"area": {
-	"name": "Zevenwacht Wine Estate",
 	"address": {
 		"street": "Langverwacht Road",
 		"suburb": "Kuils River"
@@ -598,6 +1820,7 @@
 		"latitude": -33.931888,
 		"longitude": 18.716808
 	},
+	"name": "Zevenwacht Wine Estate",
 	"geofence": [
 		[
 			-33.9309527,
@@ -944,6 +2167,12 @@
 			"datetime": "2026-04-29T14:47:07.000Z",
 			"birdId": "canary-yellow",
 			"bird": {
+	"photo": {
+		"id": "2026-05-09T14:42:22.000Z_shaun",
+		"tx": "50%",
+		"ty": "-20%",
+		"scale": 2.5
+	},
 	"name": "Yellow Canary",
 	"family_name": "Canary",
 	"afrikaans_name": "Geelkanarie",
@@ -952,13 +2181,7 @@
 	"species": "flaviventris",
 	"ebird": "https://ebird.org/species/yelcan1/ZA",
 	"wikipedia": "https://en.wikipedia.org/wiki/Yellow_canary",
-	"red-list": "least-concern",
-	"photo": {
-		"id": "2026-04-29T14:47:07.000Z_shaun",
-		"tx": "40%",
-		"ty": "-20%",
-		"scale": 3
-	}
+	"red-list": "least-concern"
 },
 			"quantity": 3,
 			"location": {
@@ -3711,15 +4934,6 @@
 			"datetime": "2026-01-27T16:07:23.000Z",
 			"birdId": "waxbill-common",
 			"bird": {
-	"name": "Common Waxbill",
-	"family_name": "Waxbill",
-	"german_name": "Wellenastrild",
-	"afrikaans_name": "Rooibeksysie",
-	"genus": "Estrilda",
-	"species": "astrild",
-	"ebird": "https://ebird.org/species/comwax/ZA",
-	"wikipedia": "https://en.wikipedia.org/wiki/Common_waxbill",
-	"red-list": "least-concern",
 	"photo": {
 		"id": "2025-10-21T16:07:46.000Z_shaun",
 		"tx": "20%",
@@ -3733,7 +4947,16 @@
 	"weight": {
 		"min": 7,
 		"max": 10
-	}
+	},
+	"name": "Common Waxbill",
+	"family_name": "Waxbill",
+	"german_name": "Wellenastrild",
+	"afrikaans_name": "Rooibeksysie",
+	"genus": "Estrilda",
+	"species": "astrild",
+	"ebird": "https://ebird.org/species/comwax/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Common_waxbill",
+	"red-list": "least-concern"
 },
 			"quantity": 7,
 			"location": {
@@ -11007,6 +12230,12 @@
 			"datetime": "2025-10-12T16:15:03.000Z",
 			"birdId": "duck-yellow-billed",
 			"bird": {
+	"photo": {
+		"id": "2022-08-08T09_18_37.000Z_tony",
+		"tx": "-10%",
+		"ty": "0%",
+		"scale": 2
+	},
 	"name": "Yellow-billed Duck",
 	"family_name": "Duck",
 	"german_name": null,
@@ -11014,13 +12243,7 @@
 	"genus": "Anas",
 	"species": "undulata",
 	"ebird": "https://ebird.org/species/yebduc1/ZA",
-	"red-list": "least-concern",
-	"photo": {
-		"id": "2022-08-08T09_18_37.000Z_tony",
-		"tx": "-10%",
-		"ty": "0%",
-		"scale": 2
-	}
+	"red-list": "least-concern"
 },
 			"quantity": 5,
 			"location": {
@@ -17381,6 +18604,12 @@
 			"datetime": "2025-01-05T15:16:08.000Z",
 			"birdId": "pigeon-speckled",
 			"bird": {
+	"photo": {
+		"id": "2025-01-05T15:16:08.000Z_shaun",
+		"tx": "120%",
+		"ty": "120%",
+		"scale": 3.5
+	},
 	"name": "Speckled Pigeon",
 	"family_name": "Pigeon",
 	"german_name": null,
@@ -17388,13 +18617,7 @@
 	"genus": "Columba",
 	"species": "Guinea",
 	"ebird": "https://ebird.org/species/spepig1/ZA",
-	"red-list": "least-concern",
-	"photo": {
-		"id": "2025-01-05T15:16:08.000Z_shaun",
-		"tx": "120%",
-		"ty": "120%",
-		"scale": 3.5
-	}
+	"red-list": "least-concern"
 },
 			"quantity": 14,
 			"location": {
@@ -27902,6 +29125,12 @@
 			"datetime": "2024-11-05T15:54:52.000Z",
 			"birdId": "prinia-karoo",
 			"bird": {
+	"photo": {
+		"id": "2024-11-05T15_54_52.000Z_shaun",
+		"tx": "70%",
+		"ty": "-40%",
+		"scale": 3
+	},
 	"name": "Karoo Prinia",
 	"family_name": "Prinia",
 	"german_name": null,
@@ -27909,13 +29138,7 @@
 	"genus": "Prinia",
 	"species": "maculosa",
 	"ebird": "https://ebird.org/species/karpri1/ZA",
-	"red-list": "least-concern",
-	"photo": {
-		"id": "2024-11-05T15_54_52.000Z_shaun",
-		"tx": "70%",
-		"ty": "-40%",
-		"scale": 3
-	}
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

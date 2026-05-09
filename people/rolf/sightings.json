@@ -3378,13 +3378,17 @@
 			"bird": {
 	"name": "House Sparrow",
 	"family_name": "Sparrow",
-	"german_name": null,
+	"german_name": "Haussperling",
 	"afrikaans_name": "Huismossie",
 	"genus": "Passer",
 	"species": "domesticus",
 	"ebird": "https://ebird.org/species/houspa/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/House_sparrow",
 	"red-list": "least-concern",
-	"hidden": true
+	"photo": {
+		"id": "2026-05-09T14:14:59.000Z_shaun",
+		"scale": 2
+	}
 },
 			"quantity": 1,
 			"location": {

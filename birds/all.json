@@ -1894,14 +1894,14 @@
 			"species": "domesticus",
 			"family": "Sparrow",
 			"common_name": "House Sparrow",
-			"german_name": "",
+			"german_name": "Haussperling",
 			"afrikaans_name": "Huismossie",
 			"ebird": "https://ebird.org/species/houspa/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/House_sparrow",
 			"redlist_level": "least-concern",
-			"sighted": false,
-			"photographed": false,
-			"potential": true
+			"sighted": true,
+			"photographed": true,
+			"potential": false
 		}
 	
 		,
@@ -2064,13 +2064,13 @@
 			"species": "torquatus",
 			"family": "Chat",
 			"common_name": "African Stonechat",
-			"german_name": "",
+			"german_name": "Afrikaschwarzkehlchen",
 			"afrikaans_name": "Gewone Bontrokkie",
 			"ebird": "https://ebird.org/species/afrsto1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/African_stonechat",
 			"redlist_level": "least-concern",
 			"sighted": true,
-			"photographed": false,
+			"photographed": true,
 			"potential": false
 		}
 	
