@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: F0732149-906E-45EF-B0FF-D5B49A6CE9CF_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-09T14:14:31.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A flock of Common Waxbills perched in an Olive bush behind the Lifestyle Estate fence
+# List each of the bird IDs present in this photo
+birds:
+  - waxbill-common
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.933392
+  longitude: 18.713748

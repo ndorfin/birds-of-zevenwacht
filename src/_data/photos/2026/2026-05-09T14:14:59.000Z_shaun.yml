@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 55F213D1-DCEC-4BAE-9581-F3789920DC17_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-09T14:14:59.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A male House Sparrow perched in an Olive Bush
+# List each of the bird IDs present in this photo
+birds:
+  - sparrow-house
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.933392
+  longitude: 18.713748

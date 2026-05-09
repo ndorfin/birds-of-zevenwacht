@@ -27,16 +27,16 @@ export default async function (config) {
 	/* Add build:prod pathprefix capabilities for builds against gh-pages */
 	config.setQuietMode(true);
 	config.addPlugin(EleventyHtmlBasePlugin);
-	config.addPlugin(dirOutputPlugin, {
-		// Customize columns
-		columns: {
-			filesize: true, // Use `false` to disable
-			benchmark: true, // Use `false` to disable
-		},
+	// config.addPlugin(dirOutputPlugin, {
+	// 	// Customize columns
+	// 	columns: {
+	// 		filesize: false, // Use `false` to disable
+	// 		benchmark: false, // Use `false` to disable
+	// 	},
 
-		// Will show in yellow if greater than this number of bytes
-		warningFileSize: 400 * 1000,
-	});
+	// 	// Will show in yellow if greater than this number of bytes
+	// 	warningFileSize: 400 * 1000,
+	// });
 
 	/* Add YAML support */
 	config.addDataExtension('yml,yaml', contents => yaml.load(contents));

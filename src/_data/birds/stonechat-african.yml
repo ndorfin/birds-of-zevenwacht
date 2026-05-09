@@ -1,8 +1,13 @@
 name: African Stonechat
 family_name: Chat
 afrikaans_name: Gewone Bontrokkie
-german_name:
+german_name: Afrikaschwarzkehlchen
 genus: Saxicola
 species: torquatus
 ebird: https://ebird.org/species/afrsto1/ZA
+wikipedia: https://en.wikipedia.org/wiki/African_stonechat
 red-list: least-concern
+photo:
+  id: 2026-05-09T14:34:35.000Z_shaun
+  tx: -40%
+  scale: 2

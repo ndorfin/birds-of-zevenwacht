@@ -1,0 +1,23 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2026-05-09T14:14:31.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A flock of Common Waxbills perched in an Olive bush behind the Lifestyle Estate fence
+bird:
+  # Supply a matching Bird ID
+  id: waxbill-common
+  # How many individuals did you spot?
+  quantity: 5
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2026-05-09T14:14:31.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - debby
+  - matt
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.933392
+  longitude: 18.713748

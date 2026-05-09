@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 67B83D4C-DA0E-4EC9-8A52-43CC7925279B_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-09T14:17:45.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Speckled Pigeon perched on top of a chimney in the Lifestyle Estate
+# List each of the bird IDs present in this photo
+birds:
+  - pigeon-speckled
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.933392
+  longitude: 18.713748
