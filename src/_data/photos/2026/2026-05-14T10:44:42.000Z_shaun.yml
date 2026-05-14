@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 702487D1-C805-43AF-8D27-1781B0CB7260_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-14T10:44:42.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A male Southern Double-Collared Sunbird obsessively feeding from the Cape Honeysuckle
+# List each of the bird IDs present in this photo
+birds:
+  - sunbird-southern-double-collared
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

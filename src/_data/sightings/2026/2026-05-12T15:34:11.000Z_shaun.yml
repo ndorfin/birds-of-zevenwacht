@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2026-05-12T15:34:11.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  The wine farmers had dumped a lot of grape flesh and seeds out on the field here, attracting many birds in the process. This Speckled Pigeon was one of them.
+bird:
+  # Supply a matching Bird ID
+  id: pigeon-speckled
+  # How many individuals did you spot?
+  quantity: 1
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2026-05-12T15:34:11.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.929951 
+  longitude: 18.719768

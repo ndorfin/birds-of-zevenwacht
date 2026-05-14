@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: E499B1E1-A1F4-4E27-AC8D-4550434C203F_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-14T10:41:47.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A lone Black Sparrowhawk (Dark morph) keeping a watchful eye from a tall Eucalyptus tree
+# List each of the bird IDs present in this photo
+birds:
+  - sparrowhawk-black
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
