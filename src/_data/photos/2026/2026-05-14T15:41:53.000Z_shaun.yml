@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 71872B48-38A9-4D65-B86E-5A5909DD6776_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-14T15:41:53.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A trio of White-breasted Cormorants were drying their wings on the bank of the lower irrigation dam
+# List each of the bird IDs present in this photo
+birds:
+  - cormorant-white-breasted
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.931005
+  longitude: 18.720910

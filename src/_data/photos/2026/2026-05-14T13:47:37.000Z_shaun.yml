@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 9F2724D2-715B-45DA-9DAF-D4A610131E90_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-14T13:47:37.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: Two Red-knobbed Coots feeding in a dam
+# List each of the bird IDs present in this photo
+birds:
+  - coot-red-knobbed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.921725
+  longitude: 18.713412
