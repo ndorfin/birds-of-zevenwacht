@@ -6444,11 +6444,12 @@
 			"bird": {
 	"name": "Cape Weaver",
 	"family_name": "Weaver",
-	"german_name": null,
+	"german_name": "Kapweber",
 	"afrikaans_name": "Kaapse Wewer",
 	"genus": "Ploceus",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capwea1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_weaver",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-09-04T00_16_23.000Z_shaun",
@@ -7552,6 +7553,7 @@
 	"genus": "Pycnonotus",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capbul1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_bulbul",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-10-18T20_06_43.000Z_shaun",
@@ -8254,6 +8256,7 @@
 	"genus": "Pycnonotus",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capbul1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_bulbul",
 	"red-list": "least-concern"
 },
 			"quantity": 2,
@@ -9780,11 +9783,12 @@
 	},
 	"name": "Cape Weaver",
 	"family_name": "Weaver",
-	"german_name": null,
+	"german_name": "Kapweber",
 	"afrikaans_name": "Kaapse Wewer",
 	"genus": "Ploceus",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capwea1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_weaver",
 	"red-list": "least-concern"
 },
 			"quantity": 5,
@@ -9926,6 +9930,7 @@
 	"genus": "Pycnonotus",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capbul1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_bulbul",
 	"red-list": "least-concern"
 },
 			"quantity": 2,
@@ -17874,6 +17879,7 @@
 	"genus": "Pycnonotus",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capbul1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_bulbul",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -33362,11 +33368,12 @@
 	},
 	"name": "Cape Weaver",
 	"family_name": "Weaver",
-	"german_name": null,
+	"german_name": "Kapweber",
 	"afrikaans_name": "Kaapse Wewer",
 	"genus": "Ploceus",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capwea1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_weaver",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -34855,6 +34862,7 @@
 	"genus": "Pycnonotus",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capbul1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_bulbul",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
