@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: A3CF3238-C4FB-4E28-912F-7D1F26FCD182_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-18T14:50:28.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Lesser Honeyguide perched on a dead branch
+# List each of the bird IDs present in this photo
+birds:
+  - honeyguide-lesser
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-wine-estate
+  latitude: -33.929229
+  longitude: 18.743838
