@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: C18A123B-CDDF-462C-81B1-8E153EDAED45_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-19T12:45:32.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An Alpine Swift flying relatively low and above the cameraman, catching flying insects
+# List each of the bird IDs present in this photo
+birds:
+  - swift-alpine
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

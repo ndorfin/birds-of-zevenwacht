@@ -1,9 +1,14 @@
 name: Alpine Swift
 family_name: Swift
-afrikaans_name:
-german_name:
+afrikaans_name: Witpenswindswael
+german_name: Alpensegler
 genus: Tachymarptis
 species: melba
 ebird: https://ebird.org/species/alpswi1/ZA
+wikipedia: https://en.wikipedia.org/wiki/Alpine_swift
 red-list: least-concern
-hidden: true
+photo:
+  id: 2026-05-19T12:45:32.000Z_shaun
+  tx: 20%
+  ty: 20%
+  scale: 2.5
