@@ -1,13 +1,9 @@
 
+
 [
-	
-		
-		
-		{
-			"id": "2026-05-19T12:45:32.000Z_shaun",
-			"datetime": "2026-05-19T12:45:32.000Z",
-			"birdId": "swift-alpine",
-			"bird": {
+{
+	"datetime": "2026-05-19T12:45:32.000Z",
+	"bird": {
 	"name": "Alpine Swift",
 	"family_name": "Swift",
 	"afrikaans_name": "Witpenswindswael",
@@ -24,10 +20,10 @@
 		"scale": 2.5
 	}
 },
-			"quantity": 4,
-			"location": {
-				"areaId": "zevenwacht-village",
-				"area": {
+	"quantity": 4,
+	"location": {
+		"areaId": "zevenwacht-village",
+		"area": {
 	"name": "Zevenwacht Village",
 	"address": {
 		"street": "151 Langverwacht Road",
@@ -116,25 +112,44 @@
 		]
 	]
 },
-				"latitude": 
-				
-					null,
-				
-				"longitude":
-				
-					null
-				
-			},
-			"observers": [
-				
-					
-					{
+		"latitude": 
+		
+			null,
+		
+		"longitude":
+		
+			null
+		
+	},
+	
+	"photos": {
+		
+			
+			"2026-05-19T12:45:32.000Z_shaun":
+			{
+	"file": "C18A123B-CDDF-462C-81B1-8E153EDAED45_1_201_a.jpeg",
+	"sighting": "2026-05-19T12:45:32.000Z_shaun",
+	"description": "An Alpine Swift flying relatively low and above the cameraman, catching flying insects",
+	"birds": [
+		"swift-alpine"
+	],
+	"photographer": "shaun",
+	"location": {
+		"area": "zevenwacht-village"
+	}
+}
+		
+	},
+	
+	"observers": [
+		
+			
+			{
 	"name": "Shaun",
 	"full-name": "Shaun O'Connell",
 	"email": "shaun@tactile.co.za"
 }
-				
-			]
-		}
-	
+		
+	]
+}
 ]

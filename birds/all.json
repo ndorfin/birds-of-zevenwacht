@@ -2319,14 +2319,14 @@
 			"species": "melba",
 			"family": "Swift",
 			"common_name": "Alpine Swift",
-			"german_name": "",
-			"afrikaans_name": "",
+			"german_name": "Alpensegler",
+			"afrikaans_name": "Witpenswindswael",
 			"ebird": "https://ebird.org/species/alpswi1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Alpine_swift",
 			"redlist_level": "least-concern",
-			"sighted": false,
-			"photographed": false,
-			"potential": true
+			"sighted": true,
+			"photographed": true,
+			"potential": false
 		}
 	
 		,
