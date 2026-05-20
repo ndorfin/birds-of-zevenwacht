@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 786D26F9-775B-4B34-8684-4695B49874D5_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-19T13:24:15.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An Acacia Pied Barbet perched on the branch of a Brazillian Pepper Tree
+# List each of the bird IDs present in this photo
+birds:
+  - barbet-acacia-pied
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village

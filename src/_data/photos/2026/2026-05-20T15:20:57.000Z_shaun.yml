@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: E4237C45-2F38-4E31-B43B-3505832E31AA_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-20T15:20:57.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Brown-throated Martin was zooting around looking for flying insects to eat
+# List each of the bird IDs present in this photo
+birds:
+  - martin-brown-throated
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: kuils-river
+  latitude: -33.919752
+  longitude: 18.712523

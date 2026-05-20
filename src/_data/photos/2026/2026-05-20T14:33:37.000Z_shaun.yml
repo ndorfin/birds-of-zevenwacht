@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 0E0D9E97-2EAE-440D-A498-70596AB80583_1_105_c.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-20T14:33:37.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Red-knobbed Coot adult sitting on their raft-like nest in a dam
+# List each of the bird IDs present in this photo
+birds:
+  - coot-red-knobbed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: kuils-river
+  latitude: -33.918751
+  longitude: 18.712388

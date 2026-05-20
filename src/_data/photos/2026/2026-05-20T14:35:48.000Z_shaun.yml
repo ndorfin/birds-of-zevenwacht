@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: A7C75DC6-4C0F-458D-B8BF-80B122A6C485_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-05-20T14:35:48.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Three-banded Plover searches for food along the bank of a dam
+# List each of the bird IDs present in this photo
+birds:
+  - plover-three-banded
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: kuils-river
+  latitude: -33.918374
+  longitude: 18.712051

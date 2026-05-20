@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2026-05-20T14:33:37.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  A Red-knobbed Coot adult sitting on their raft-like nest in a dam
+bird:
+  # Supply a matching Bird ID
+  id: coot-red-knobbed
+  # How many individuals did you spot?
+  quantity: 8
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2026-05-20T14:33:37.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: kuils-river
+  latitude: -33.918751
+  longitude: 18.712388

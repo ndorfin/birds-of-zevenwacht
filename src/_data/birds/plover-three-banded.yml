@@ -1,9 +1,14 @@
 name: Three-banded Plover
 family_name: Plover
 afrikaans_name: Driebandstrandkiewiet
-german_name: 
+german_name: Dreiband-Regenpfeifer
 genus: Thinornis
 species: tricollaris
 ebird: https://ebird.org/species/thbplo1/ZA
+wikipedia: https://en.wikipedia.org/wiki/Three-banded_plover
 red-list: least-concern
-hidden: true
+photo:
+  id: 2026-05-20T14:35:48.000Z_shaun
+  tx: -20%
+  ty: 10%
+  scale: 3.5
