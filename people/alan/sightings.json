@@ -4904,11 +4904,12 @@
 			"bird": {
 	"name": "Brown-throated Martin",
 	"family_name": "Martin",
-	"german_name": null,
 	"afrikaans_name": "Afrikaanse Oewerswael",
+	"german_name": "Braunkehl-Uferschwalbe",
 	"genus": "Riparia",
 	"species": "paludicola",
 	"ebird": "https://ebird.org/species/plamar1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Brown-throated_martin",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-12-24T13:32:36.000Z_shaun",

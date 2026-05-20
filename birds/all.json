@@ -1469,10 +1469,10 @@
 			"species": "paludicola",
 			"family": "Martin",
 			"common_name": "Brown-throated Martin",
-			"german_name": "",
+			"german_name": "Braunkehl-Uferschwalbe",
 			"afrikaans_name": "Afrikaanse Oewerswael",
 			"ebird": "https://ebird.org/species/plamar1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Brown-throated_martin",
 			"redlist_level": "least-concern",
 			"sighted": true,
 			"photographed": true,
@@ -1707,14 +1707,14 @@
 			"species": "tricollaris",
 			"family": "Plover",
 			"common_name": "Three-banded Plover",
-			"german_name": "",
+			"german_name": "Dreiband-Regenpfeifer",
 			"afrikaans_name": "Driebandstrandkiewiet",
 			"ebird": "https://ebird.org/species/thbplo1/ZA",
-			"wikipedia": "",
+			"wikipedia": "https://en.wikipedia.org/wiki/Three-banded_plover",
 			"redlist_level": "least-concern",
-			"sighted": false,
-			"photographed": false,
-			"potential": true
+			"sighted": true,
+			"photographed": true,
+			"potential": false
 		}
 	
 		,
