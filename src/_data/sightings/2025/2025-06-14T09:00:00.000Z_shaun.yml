@@ -6,7 +6,7 @@ description: |-
   Our first time seeing a gull in the ZWE, just south of the lower irrigation dam.
 bird:
   # Supply a matching Bird ID
-  id: gull-hartlaubs
+  id: gull-grey-headed
   # How many individuals did you spot?
   quantity: 1
 # Link this Sighting to a Photo, by its ID
