@@ -1,9 +1,10 @@
 name: Little Egret
 family_name: Egret
-afrikaans_name: 
-german_name: 
+afrikaans_name: Kleinwitreier
+german_name: Seidenreiher
 genus: Egretta
 species: garzetta
 ebird: https://ebird.org/species/litegr/ZA
+wikipedia: https://en.wikipedia.org/wiki/Little_egret
 red-list: least-concern
 hidden: true
