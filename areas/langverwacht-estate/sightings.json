@@ -10,11 +10,12 @@
 			"bird": {
 	"name": "African Fish Eagle",
 	"family_name": "Eagle",
-	"german_name": null,
+	"german_name": "Schreiseeadler",
 	"afrikaans_name": "Visarend",
 	"genus": "Icthyophaga",
 	"species": "vocifer",
 	"ebird": "https://ebird.org/species/affeag1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_fish_eagle",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2018-09-24T11:20:39.000Z_mike",
@@ -172,11 +173,12 @@
 	},
 	"name": "African Fish Eagle",
 	"family_name": "Eagle",
-	"german_name": null,
+	"german_name": "Schreiseeadler",
 	"afrikaans_name": "Visarend",
 	"genus": "Icthyophaga",
 	"species": "vocifer",
 	"ebird": "https://ebird.org/species/affeag1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_fish_eagle",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -329,11 +331,12 @@
 			"bird": {
 	"name": "Common Buzzard",
 	"family_name": "Buzzard",
-	"german_name": null,
+	"german_name": "Mäusebussard",
 	"afrikaans_name": "Bruinjakkalsvoël",
 	"genus": "Buteo",
 	"species": "buteo",
 	"ebird": "https://ebird.org/species/combuz1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Common_buzzard",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2025-02-04T15:58:05.000Z_shaun",
@@ -492,11 +495,12 @@
 			"bird": {
 	"name": "Reed Cormorant",
 	"family_name": "Cormorant",
-	"german_name": null,
+	"german_name": "Riedscharbe",
 	"afrikaans_name": "Rietduiker",
 	"genus": "Microcarbo",
 	"species": "africanus",
 	"ebird": "https://ebird.org/species/lotcor1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Reed_cormorant",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2023-10-12T08_28_00.000Z_tony",
@@ -655,11 +659,12 @@
 			"bird": {
 	"name": "African Black Duck",
 	"family_name": "Duck",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Schwarzente",
+	"afrikaans_name": "Swarteend",
 	"genus": "Anas",
 	"species": "sparsa",
 	"ebird": "https://ebird.org/species/afbduc1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_black_duck",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-11-07T15_53_10.000Z_shaun",
@@ -832,11 +837,12 @@
 			"bird": {
 	"name": "Yellow-billed Duck",
 	"family_name": "Duck",
-	"german_name": null,
+	"german_name": "Gelbschnabelente",
 	"afrikaans_name": "Geelbek-Eend",
 	"genus": "Anas",
 	"species": "undulata",
 	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Yellow-billed_duck",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2022-08-08T09_18_37.000Z_tony",
@@ -1015,11 +1021,12 @@
 	},
 	"name": "Common Buzzard",
 	"family_name": "Buzzard",
-	"german_name": null,
+	"german_name": "Mäusebussard",
 	"afrikaans_name": "Bruinjakkalsvoël",
 	"genus": "Buteo",
 	"species": "buteo",
 	"ebird": "https://ebird.org/species/combuz1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Common_buzzard",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -1179,11 +1186,12 @@
 			"bird": {
 	"name": "Pied Kingfisher",
 	"family_name": "Kingfisher",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Graufischer",
+	"afrikaans_name": "Bontvisvanger",
 	"genus": "Ceryle",
 	"species": "rudis",
 	"ebird": "https://ebird.org/species/piekin1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Pied_kingfisher",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -1657,11 +1665,12 @@
 			"bird": {
 	"name": "Black-headed Heron",
 	"family_name": "Heron",
-	"german_name": null,
+	"german_name": "Schwarzhalsreiher",
 	"afrikaans_name": "Swartkopreier",
 	"genus": "Ardea",
 	"species": "melanocephala",
 	"ebird": "https://ebird.org/species/blhher1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Black-headed_heron",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-11-18T08_16_00.000Z_shaun",
@@ -1813,11 +1822,12 @@
 			"bird": {
 	"name": "Blue Crane",
 	"family_name": "Crane",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Paradieskranich",
+	"afrikaans_name": "Bloukraanvoël",
 	"genus": "Anthropoides",
 	"species": "paradiseus",
 	"ebird": "https://ebird.org/species/blucra2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Blue_crane",
 	"red-list": "vulnerable",
 	"photo": {
 		"id": "2018-02-04T05:43:27.000Z_mike"
@@ -1973,11 +1983,12 @@
 			"bird": {
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
-	"german_name": null,
+	"german_name": "Haubenzwergfischer",
 	"afrikaans_name": "Kuifkopvisvanger",
 	"genus": "Corythornis",
 	"species": "cristatus",
 	"ebird": "https://ebird.org/species/malkin1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Malachite_kingfisher",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-12-05T08_57_12.000Z_tony",
@@ -2142,11 +2153,12 @@
 	},
 	"name": "Yellow-billed Duck",
 	"family_name": "Duck",
-	"german_name": null,
+	"german_name": "Gelbschnabelente",
 	"afrikaans_name": "Geelbek-Eend",
 	"genus": "Anas",
 	"species": "undulata",
 	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Yellow-billed_duck",
 	"red-list": "least-concern"
 },
 			"quantity": 7,
@@ -2299,11 +2311,12 @@
 			"bird": {
 	"name": "Fork-tailed Drongo",
 	"family_name": "Drongo",
-	"german_name": null,
+	"german_name": "Trauerdrongo",
 	"afrikaans_name": "Mikstertbyvanger",
 	"genus": "Dicrurus",
 	"species": "adsimilis",
 	"ebird": "https://ebird.org/species/fotdro5/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Fork-tailed_drongo",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-08-29T20_33_00.000Z_shaun",
@@ -2468,11 +2481,12 @@
 	},
 	"name": "Yellow-billed Duck",
 	"family_name": "Duck",
-	"german_name": null,
+	"german_name": "Gelbschnabelente",
 	"afrikaans_name": "Geelbek-Eend",
 	"genus": "Anas",
 	"species": "undulata",
 	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Yellow-billed_duck",
 	"red-list": "least-concern"
 },
 			"quantity": 4,
@@ -2625,11 +2639,12 @@
 			"bird": {
 	"name": "African Darter",
 	"family_name": "Darter",
-	"german_name": null,
+	"german_name": "Afrika-Schlangenhalsvogel",
 	"afrikaans_name": "Slanghalsvoël",
 	"genus": "Anhinga",
 	"species": "rufa",
 	"ebird": "https://ebird.org/species/darter3/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_darter",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-12-15T15:32:52.000Z_shaun",
@@ -2788,25 +2803,18 @@
 			"bird": {
 	"name": "Pied Crow",
 	"family_name": "Crow",
-	"german_name": null,
+	"german_name": "Schildrabe",
 	"afrikaans_name": "Witborskraai",
 	"genus": "Corvus",
 	"species": "Albus",
 	"ebird": "https://ebird.org/species/piecro1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Pied_crow",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-11-28T17_21_57.000Z_shaun",
 		"tx": "-40%",
 		"ty": "-10%",
 		"scale": 3.5
-	},
-	"size": {
-		"min": 460,
-		"max": 500
-	},
-	"weight": {
-		"min": 410,
-		"max": 610
 	}
 },
 			"quantity": 5,
@@ -3591,11 +3599,12 @@
 			"bird": {
 	"name": "Giant Kingfisher",
 	"family_name": "Kingfisher",
-	"german_name": null,
+	"german_name": "Riesenfischer",
 	"afrikaans_name": "Reuse Visvanger",
 	"genus": "Megaceryle",
 	"species": "maxima",
 	"ebird": "https://ebird.org/species/giakin3/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Giant_kingfisher",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-07-13T11_50_20.000Z_tony",
@@ -3753,11 +3762,12 @@
 	},
 	"name": "Yellow-billed Duck",
 	"family_name": "Duck",
-	"german_name": null,
+	"german_name": "Gelbschnabelente",
 	"afrikaans_name": "Geelbek-Eend",
 	"genus": "Anas",
 	"species": "undulata",
 	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Yellow-billed_duck",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -3909,11 +3919,12 @@
 	},
 	"name": "Reed Cormorant",
 	"family_name": "Cormorant",
-	"german_name": null,
+	"german_name": "Riedscharbe",
 	"afrikaans_name": "Rietduiker",
 	"genus": "Microcarbo",
 	"species": "africanus",
 	"ebird": "https://ebird.org/species/lotcor1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Reed_cormorant",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -4221,11 +4232,12 @@
 	},
 	"name": "Malachite Kingfisher",
 	"family_name": "Kingfisher",
-	"german_name": null,
+	"german_name": "Haubenzwergfischer",
 	"afrikaans_name": "Kuifkopvisvanger",
 	"genus": "Corythornis",
 	"species": "cristatus",
 	"ebird": "https://ebird.org/species/malkin1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Malachite_kingfisher",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -5149,11 +5161,12 @@
 			"bird": {
 	"name": "Klaas's Cuckoo",
 	"family_name": "Cuckoo",
-	"german_name": null,
+	"german_name": "Klaaskuckuck",
 	"afrikaans_name": "Meitjie",
 	"genus": "Chrysococcyx",
 	"species": "klaas",
 	"ebird": "https://ebird.org/species/klacuc1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Klaas%27s_cuckoo",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2018-11-27T14:30:20.000Z_mike",
@@ -5309,11 +5322,12 @@
 	},
 	"name": "Yellow-billed Duck",
 	"family_name": "Duck",
-	"german_name": null,
+	"german_name": "Gelbschnabelente",
 	"afrikaans_name": "Geelbek-Eend",
 	"genus": "Anas",
 	"species": "undulata",
 	"ebird": "https://ebird.org/species/yebduc1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Yellow-billed_duck",
 	"red-list": "least-concern"
 },
 			"quantity": 2,
@@ -5469,11 +5483,12 @@
 	},
 	"name": "Blue Crane",
 	"family_name": "Crane",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Paradieskranich",
+	"afrikaans_name": "Bloukraanvoël",
 	"genus": "Anthropoides",
 	"species": "paradiseus",
 	"ebird": "https://ebird.org/species/blucra2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Blue_crane",
 	"red-list": "vulnerable"
 },
 			"quantity": 2,
@@ -5782,11 +5797,12 @@
 			"bird": {
 	"name": "Black-winged Kite",
 	"family_name": "Kite",
-	"german_name": null,
+	"german_name": "Gleitaar",
 	"afrikaans_name": "Blouvalk",
 	"genus": "Elanus",
 	"species": "caeruleus",
 	"ebird": "https://ebird.org/species/bkskit1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Black-winged_kite",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-12-15T16_30_29.000Z_shaun",

@@ -6,11 +6,12 @@
 	"bird": {
 	"name": "Black-crowned Night Heron",
 	"family_name": "Heron",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Nachtreiher",
+	"afrikaans_name": "Gewone Nagreier",
 	"genus": "Nycticorax",
 	"species": "nycticorax",
 	"ebird": "https://ebird.org/species/bcnher/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Black-crowned_night_heron",
 	"red-list": "least-concern"
 },
 	"quantity": 1,

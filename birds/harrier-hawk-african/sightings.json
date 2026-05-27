@@ -10,25 +10,18 @@
 			"bird": {
 	"name": "African Harrier-hawk",
 	"family_name": "Harrier-hawk",
-	"german_name": null,
+	"german_name": "Höhlenweihe",
 	"afrikaans_name": "Kaalwangvalk",
 	"genus": "Polyboroides",
 	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_harrier-hawk",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2018-11-02T06:09:07.000Z_mike",
 		"tx": "20%",
 		"ty": "30%",
 		"scale": 2
-	},
-	"size": {
-		"min": 600,
-		"max": 660
-	},
-	"weight": {
-		"min": 630,
-		"max": 950
 	}
 },
 			"quantity": 1,
@@ -171,21 +164,14 @@
 		"ty": "30%",
 		"scale": 2
 	},
-	"size": {
-		"min": 600,
-		"max": 660
-	},
-	"weight": {
-		"min": 630,
-		"max": 950
-	},
 	"name": "African Harrier-hawk",
 	"family_name": "Harrier-hawk",
-	"german_name": null,
+	"german_name": "Höhlenweihe",
 	"afrikaans_name": "Kaalwangvalk",
 	"genus": "Polyboroides",
 	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_harrier-hawk",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -328,21 +314,14 @@
 		"ty": "30%",
 		"scale": 2
 	},
-	"size": {
-		"min": 600,
-		"max": 660
-	},
-	"weight": {
-		"min": 630,
-		"max": 950
-	},
 	"name": "African Harrier-hawk",
 	"family_name": "Harrier-hawk",
-	"german_name": null,
+	"german_name": "Höhlenweihe",
 	"afrikaans_name": "Kaalwangvalk",
 	"genus": "Polyboroides",
 	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_harrier-hawk",
 	"red-list": "least-concern"
 },
 			"quantity": 2,
@@ -478,21 +457,14 @@
 		"ty": "30%",
 		"scale": 2
 	},
-	"size": {
-		"min": 600,
-		"max": 660
-	},
-	"weight": {
-		"min": 630,
-		"max": 950
-	},
 	"name": "African Harrier-hawk",
 	"family_name": "Harrier-hawk",
-	"german_name": null,
+	"german_name": "Höhlenweihe",
 	"afrikaans_name": "Kaalwangvalk",
 	"genus": "Polyboroides",
 	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_harrier-hawk",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -635,21 +607,14 @@
 		"ty": "30%",
 		"scale": 2
 	},
-	"size": {
-		"min": 600,
-		"max": 660
-	},
-	"weight": {
-		"min": 630,
-		"max": 950
-	},
 	"name": "African Harrier-hawk",
 	"family_name": "Harrier-hawk",
-	"german_name": null,
+	"german_name": "Höhlenweihe",
 	"afrikaans_name": "Kaalwangvalk",
 	"genus": "Polyboroides",
 	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_harrier-hawk",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -778,21 +743,14 @@
 		"ty": "30%",
 		"scale": 2
 	},
-	"size": {
-		"min": 600,
-		"max": 660
-	},
-	"weight": {
-		"min": 630,
-		"max": 950
-	},
 	"name": "African Harrier-hawk",
 	"family_name": "Harrier-hawk",
-	"german_name": null,
+	"german_name": "Höhlenweihe",
 	"afrikaans_name": "Kaalwangvalk",
 	"genus": "Polyboroides",
 	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_harrier-hawk",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -918,21 +876,14 @@
 		"ty": "30%",
 		"scale": 2
 	},
-	"size": {
-		"min": 600,
-		"max": 660
-	},
-	"weight": {
-		"min": 630,
-		"max": 950
-	},
 	"name": "African Harrier-hawk",
 	"family_name": "Harrier-hawk",
-	"german_name": null,
+	"german_name": "Höhlenweihe",
 	"afrikaans_name": "Kaalwangvalk",
 	"genus": "Polyboroides",
 	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_harrier-hawk",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -1061,21 +1012,14 @@
 		"ty": "30%",
 		"scale": 2
 	},
-	"size": {
-		"min": 600,
-		"max": 660
-	},
-	"weight": {
-		"min": 630,
-		"max": 950
-	},
 	"name": "African Harrier-hawk",
 	"family_name": "Harrier-hawk",
-	"german_name": null,
+	"german_name": "Höhlenweihe",
 	"afrikaans_name": "Kaalwangvalk",
 	"genus": "Polyboroides",
 	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_harrier-hawk",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -1204,21 +1148,14 @@
 		"ty": "30%",
 		"scale": 2
 	},
-	"size": {
-		"min": 600,
-		"max": 660
-	},
-	"weight": {
-		"min": 630,
-		"max": 950
-	},
 	"name": "African Harrier-hawk",
 	"family_name": "Harrier-hawk",
-	"german_name": null,
+	"german_name": "Höhlenweihe",
 	"afrikaans_name": "Kaalwangvalk",
 	"genus": "Polyboroides",
 	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_harrier-hawk",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -1347,21 +1284,14 @@
 		"ty": "30%",
 		"scale": 2
 	},
-	"size": {
-		"min": 600,
-		"max": 660
-	},
-	"weight": {
-		"min": 630,
-		"max": 950
-	},
 	"name": "African Harrier-hawk",
 	"family_name": "Harrier-hawk",
-	"german_name": null,
+	"german_name": "Höhlenweihe",
 	"afrikaans_name": "Kaalwangvalk",
 	"genus": "Polyboroides",
 	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_harrier-hawk",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -1490,21 +1420,14 @@
 		"ty": "30%",
 		"scale": 2
 	},
-	"size": {
-		"min": 600,
-		"max": 660
-	},
-	"weight": {
-		"min": 630,
-		"max": 950
-	},
 	"name": "African Harrier-hawk",
 	"family_name": "Harrier-hawk",
-	"german_name": null,
+	"german_name": "Höhlenweihe",
 	"afrikaans_name": "Kaalwangvalk",
 	"genus": "Polyboroides",
 	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_harrier-hawk",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -1606,21 +1529,14 @@
 		"ty": "30%",
 		"scale": 2
 	},
-	"size": {
-		"min": 600,
-		"max": 660
-	},
-	"weight": {
-		"min": 630,
-		"max": 950
-	},
 	"name": "African Harrier-hawk",
 	"family_name": "Harrier-hawk",
-	"german_name": null,
+	"german_name": "Höhlenweihe",
 	"afrikaans_name": "Kaalwangvalk",
 	"genus": "Polyboroides",
 	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_harrier-hawk",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -1722,21 +1638,14 @@
 		"ty": "30%",
 		"scale": 2
 	},
-	"size": {
-		"min": 600,
-		"max": 660
-	},
-	"weight": {
-		"min": 630,
-		"max": 950
-	},
 	"name": "African Harrier-hawk",
 	"family_name": "Harrier-hawk",
-	"german_name": null,
+	"german_name": "Höhlenweihe",
 	"afrikaans_name": "Kaalwangvalk",
 	"genus": "Polyboroides",
 	"species": "typus",
 	"ebird": "https://ebird.org/species/afhhaw1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_harrier-hawk",
 	"red-list": "least-concern"
 },
 			"quantity": 1,

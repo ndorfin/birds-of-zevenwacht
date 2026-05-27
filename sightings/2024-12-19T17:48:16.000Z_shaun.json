@@ -4,13 +4,14 @@
 {
 	"datetime": "2024-12-19T17:48:16.000Z",
 	"bird": {
-	"name": "Helmeted Guineafowl",
-	"family_name": "Guineafowl",
-	"german_name": null,
+	"name": "Helmeted Guinea fowl",
+	"family_name": "Guinea fowl",
+	"german_name": "Helmperlhuhn",
 	"afrikaans_name": "Gewone Tarentaal",
 	"genus": "Numida",
 	"species": "meleagris",
 	"ebird": "https://ebird.org/species/helgui/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Helmeted_guinea_fowl",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-12-19T17:48:16.000Z_shaun",

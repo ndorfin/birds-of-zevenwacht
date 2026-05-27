@@ -10,11 +10,12 @@
 			"bird": {
 	"name": "Pied Kingfisher",
 	"family_name": "Kingfisher",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Graufischer",
+	"afrikaans_name": "Bontvisvanger",
 	"genus": "Ceryle",
 	"species": "rudis",
 	"ebird": "https://ebird.org/species/piekin1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Pied_kingfisher",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -160,11 +161,12 @@
 			"bird": {
 	"name": "Pied Kingfisher",
 	"family_name": "Kingfisher",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Graufischer",
+	"afrikaans_name": "Bontvisvanger",
 	"genus": "Ceryle",
 	"species": "rudis",
 	"ebird": "https://ebird.org/species/piekin1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Pied_kingfisher",
 	"red-list": "least-concern"
 },
 			"quantity": 1,

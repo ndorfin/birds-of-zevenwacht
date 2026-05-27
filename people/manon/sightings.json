@@ -198,11 +198,12 @@
 			"bird": {
 	"name": "Southern Red Bishop",
 	"family_name": "Bishop",
-	"german_name": null,
+	"german_name": "Oryxweber",
 	"afrikaans_name": "Rooivink",
 	"genus": "Euplectes",
 	"species": "orix",
 	"ebird": "https://ebird.org/species/redbis/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Southern_red_bishop",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2019-11-28T05:29:34.000Z_mike",
@@ -573,11 +574,12 @@
 			"bird": {
 	"name": "Yellow Bishop",
 	"family_name": "Bishop",
-	"german_name": null,
+	"german_name": "Samtweber",
 	"afrikaans_name": "Kaapse Flap",
 	"genus": "Euplectes",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/yelbis1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Yellow_bishop",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-09-04T00_25_28.000Z_shaun",
@@ -760,11 +762,12 @@
 			"bird": {
 	"name": "Yellow-billed Kite",
 	"family_name": "Kite",
-	"german_name": null,
+	"german_name": "Gelbschnabelmilan",
 	"afrikaans_name": "Geelbekwou",
 	"genus": "Milvus",
 	"species": "aegyptius",
-	"ebird": null,
+	"ebird": "https://ebird.org/species/blkkit3/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Yellow-billed_kite",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-09-24T01_56_06.000Z_shaun",
@@ -947,11 +950,12 @@
 			"bird": {
 	"name": "African Dusky Flycatcher",
 	"family_name": "Flycatcher",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Dunkelschnäpper",
+	"afrikaans_name": "Donkervlieëvanger",
 	"genus": "Muscicapa",
 	"species": "adusta",
 	"ebird": "https://ebird.org/species/afdfly1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_dusky_flycatcher",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-09-04T01_28_53.000Z_shaun",
@@ -1503,11 +1507,12 @@
 			"bird": {
 	"name": "Blue Crane",
 	"family_name": "Crane",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Paradieskranich",
+	"afrikaans_name": "Bloukraanvoël",
 	"genus": "Anthropoides",
 	"species": "paradiseus",
 	"ebird": "https://ebird.org/species/blucra2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Blue_crane",
 	"red-list": "vulnerable",
 	"photo": {
 		"id": "2018-02-04T05:43:27.000Z_mike"
@@ -1687,11 +1692,12 @@
 			"bird": {
 	"name": "African Fish Eagle",
 	"family_name": "Eagle",
-	"german_name": null,
+	"german_name": "Schreiseeadler",
 	"afrikaans_name": "Visarend",
 	"genus": "Icthyophaga",
 	"species": "vocifer",
 	"ebird": "https://ebird.org/species/affeag1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_fish_eagle",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2018-09-24T11:20:39.000Z_mike",
@@ -1856,11 +1862,12 @@
 	},
 	"name": "African Dusky Flycatcher",
 	"family_name": "Flycatcher",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Dunkelschnäpper",
+	"afrikaans_name": "Donkervlieëvanger",
 	"genus": "Muscicapa",
 	"species": "adusta",
 	"ebird": "https://ebird.org/species/afdfly1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/African_dusky_flycatcher",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -2037,11 +2044,12 @@
 			"bird": {
 	"name": "Common Buzzard",
 	"family_name": "Buzzard",
-	"german_name": null,
+	"german_name": "Mäusebussard",
 	"afrikaans_name": "Bruinjakkalsvoël",
 	"genus": "Buteo",
 	"species": "buteo",
 	"ebird": "https://ebird.org/species/combuz1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Common_buzzard",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2025-02-04T15:58:05.000Z_shaun",
