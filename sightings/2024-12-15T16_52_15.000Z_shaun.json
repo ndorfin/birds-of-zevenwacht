@@ -6,11 +6,12 @@
 	"bird": {
 	"name": "Barn Swallow",
 	"family_name": "Swallow",
-	"german_name": null,
+	"german_name": "Rauchschwalbe",
 	"afrikaans_name": "Europese Swael",
 	"genus": "Hirundo",
 	"species": "rustica",
 	"ebird": "https://ebird.org/species/barswa/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Barn_swallow",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-12-15T16_52_15.000Z_shaun",

@@ -10,11 +10,12 @@
 			"bird": {
 	"name": "Cardinal Woodpecker",
 	"family_name": "Woodpecker",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Kardinalspecht",
+	"afrikaans_name": "Kardinaalspeg",
 	"genus": "Dendropicos",
 	"species": "fuscescens",
 	"ebird": "https://ebird.org/species/carwoo1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cardinal_woodpecker",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -136,11 +137,12 @@
 			"bird": {
 	"name": "Cardinal Woodpecker",
 	"family_name": "Woodpecker",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Kardinalspecht",
+	"afrikaans_name": "Kardinaalspeg",
 	"genus": "Dendropicos",
 	"species": "fuscescens",
 	"ebird": "https://ebird.org/species/carwoo1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cardinal_woodpecker",
 	"red-list": "least-concern"
 },
 			"quantity": 1,

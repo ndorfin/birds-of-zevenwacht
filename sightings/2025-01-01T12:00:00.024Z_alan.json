@@ -7,10 +7,11 @@
 	"name": "Karoo Scrub-Robin",
 	"family_name": "Robin",
 	"afrikaans_name": "Slangverklikker",
-	"german_name": null,
+	"german_name": "Karroheckensänger",
 	"genus": "Tychaedon",
 	"species": "coryphoeus",
 	"ebird": "https://ebird.org/species/kasrob2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Karoo_scrub_robin",
 	"red-list": "least-concern"
 },
 	"quantity": 1,

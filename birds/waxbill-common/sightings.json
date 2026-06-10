@@ -20,16 +20,7 @@
 	"photo": {
 		"id": "2025-10-21T16:07:46.000Z_shaun",
 		"tx": "20%",
-		"ty": 0,
 		"scale": 3
-	},
-	"size": {
-		"min": 110,
-		"max": 110
-	},
-	"weight": {
-		"min": 7,
-		"max": 10
 	}
 },
 			"quantity": 5,
@@ -166,16 +157,7 @@
 	"photo": {
 		"id": "2025-10-21T16:07:46.000Z_shaun",
 		"tx": "20%",
-		"ty": 0,
 		"scale": 3
-	},
-	"size": {
-		"min": 110,
-		"max": 110
-	},
-	"weight": {
-		"min": 7,
-		"max": 10
 	},
 	"name": "Common Waxbill",
 	"family_name": "Waxbill",
@@ -331,16 +313,7 @@
 	"photo": {
 		"id": "2025-10-21T16:07:46.000Z_shaun",
 		"tx": "20%",
-		"ty": 0,
 		"scale": 3
-	},
-	"size": {
-		"min": 110,
-		"max": 110
-	},
-	"weight": {
-		"min": 7,
-		"max": 10
 	},
 	"name": "Common Waxbill",
 	"family_name": "Waxbill",
@@ -475,16 +448,7 @@
 	"photo": {
 		"id": "2025-10-21T16:07:46.000Z_shaun",
 		"tx": "20%",
-		"ty": 0,
 		"scale": 3
-	},
-	"size": {
-		"min": 110,
-		"max": 110
-	},
-	"weight": {
-		"min": 7,
-		"max": 10
 	},
 	"name": "Common Waxbill",
 	"family_name": "Waxbill",
@@ -626,16 +590,7 @@
 	"photo": {
 		"id": "2025-10-21T16:07:46.000Z_shaun",
 		"tx": "20%",
-		"ty": 0,
 		"scale": 3
-	},
-	"size": {
-		"min": 110,
-		"max": 110
-	},
-	"weight": {
-		"min": 7,
-		"max": 10
 	},
 	"name": "Common Waxbill",
 	"family_name": "Waxbill",
@@ -770,16 +725,7 @@
 	"photo": {
 		"id": "2025-10-21T16:07:46.000Z_shaun",
 		"tx": "20%",
-		"ty": 0,
 		"scale": 3
-	},
-	"size": {
-		"min": 110,
-		"max": 110
-	},
-	"weight": {
-		"min": 7,
-		"max": 10
 	},
 	"name": "Common Waxbill",
 	"family_name": "Waxbill",
@@ -911,16 +857,7 @@
 	"photo": {
 		"id": "2025-10-21T16:07:46.000Z_shaun",
 		"tx": "20%",
-		"ty": 0,
 		"scale": 3
-	},
-	"size": {
-		"min": 110,
-		"max": 110
-	},
-	"weight": {
-		"min": 7,
-		"max": 10
 	},
 	"name": "Common Waxbill",
 	"family_name": "Waxbill",
@@ -1035,16 +972,7 @@
 	"photo": {
 		"id": "2025-10-21T16:07:46.000Z_shaun",
 		"tx": "20%",
-		"ty": 0,
 		"scale": 3
-	},
-	"size": {
-		"min": 110,
-		"max": 110
-	},
-	"weight": {
-		"min": 7,
-		"max": 10
 	},
 	"name": "Common Waxbill",
 	"family_name": "Waxbill",

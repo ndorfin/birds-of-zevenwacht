@@ -6,11 +6,12 @@
 	"bird": {
 	"name": "Speckled Mousebird",
 	"family_name": "Mousebird",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Braunflügel-Mausvogel",
+	"afrikaans_name": "Gevlekte Muisvoël",
 	"genus": "Colius",
 	"species": "striatus",
 	"ebird": "https://ebird.org/species/spemou2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Speckled_mousebird",
 	"red-list": "least-concern"
 },
 	"quantity": 1,

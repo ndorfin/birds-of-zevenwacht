@@ -6,11 +6,12 @@
 	"bird": {
 	"name": "Southern Masked Weaver",
 	"family_name": "Weaver",
-	"german_name": null,
+	"german_name": "Maskenweber",
 	"afrikaans_name": "Swartkeelgeelvink",
 	"genus": "Ploceus",
 	"species": "velatus",
 	"ebird": "https://ebird.org/species/afmwea/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Southern_masked_weaver",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-10-18T19_50_21.000Z_shaun",

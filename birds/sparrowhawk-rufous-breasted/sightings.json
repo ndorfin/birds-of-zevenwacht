@@ -10,20 +10,13 @@
 			"bird": {
 	"name": "Rufous-breasted Sparrowhawk",
 	"family_name": "Sparrowhawk",
-	"german_name": null,
+	"german_name": "Rotbauchsperber",
 	"afrikaans_name": "Rooiborssperwer",
 	"genus": "Accipiter",
 	"species": "rufiventris",
 	"ebird": "https://ebird.org/species/rucspa2/ZA",
-	"red-list": "least-concern",
-	"size": {
-		"min": 300,
-		"max": 380
-	},
-	"weight": {
-		"min": 105,
-		"max": 210
-	}
+	"wikipedia": "https://en.wikipedia.org/wiki/Rufous-breasted_sparrowhawk",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {

@@ -6,11 +6,12 @@
 	"bird": {
 	"name": "Cape Wagtail",
 	"family_name": "Wagtail",
-	"german_name": null,
+	"german_name": "Kapstelze",
 	"afrikaans_name": "Gewone Kwikkie",
 	"genus": "Motacilla",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capwag1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_wagtail",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2017-09-16T12:16:10.000Z_ingunn"

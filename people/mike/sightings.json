@@ -610,11 +610,12 @@
 			"bird": {
 	"name": "Cape Spurfowl",
 	"family_name": "Spurfowl",
-	"german_name": null,
+	"german_name": "Kapfrankolin",
 	"afrikaans_name": "Kaapse Fisant",
 	"genus": "Pternistis",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capfra2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_spurfowl",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-12-13T14_14_59.000Z_shaun",
@@ -1090,11 +1091,12 @@
 			"bird": {
 	"name": "Spotted Thick-knee",
 	"family_name": "Thick-knee",
-	"german_name": null,
+	"german_name": "Kaptriel",
 	"afrikaans_name": "Gewone Dikkop",
 	"genus": "Burhinus",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/sptkne1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Spotted_thick-knee",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-09-14T00_50_22.000Z_shaun",
@@ -1539,11 +1541,12 @@
 			"bird": {
 	"name": "Pin-tailed Whydah",
 	"family_name": "Whydah",
-	"german_name": null,
+	"german_name": "Dominikanerwitwe",
 	"afrikaans_name": "Koningrooibekkie",
 	"genus": "Vidua",
 	"species": "macroura",
 	"ebird": "https://ebird.org/species/pitwhy/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Pin-tailed_whydah",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-12-24T10:58:21.000Z_shaun",
@@ -1810,11 +1813,12 @@
 			"bird": {
 	"name": "Amethyst Sunbird",
 	"family_name": "Sunbird",
-	"german_name": null,
+	"german_name": "Amethystglanzköpfchen",
 	"afrikaans_name": "Swart Suikerbekkie",
 	"genus": "Chalcomitra",
 	"species": "amethystina",
 	"ebird": "https://ebird.org/species/amesun2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Amethyst_sunbird",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-11-15T15_38_36.000Z_shaun",
@@ -2251,11 +2255,12 @@
 	},
 	"name": "Cape Spurfowl",
 	"family_name": "Spurfowl",
-	"german_name": null,
+	"german_name": "Kapfrankolin",
 	"afrikaans_name": "Kaapse Fisant",
 	"genus": "Pternistis",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capfra2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_spurfowl",
 	"red-list": "least-concern"
 },
 			"quantity": 3,
@@ -2829,11 +2834,12 @@
 	},
 	"name": "Amethyst Sunbird",
 	"family_name": "Sunbird",
-	"german_name": null,
+	"german_name": "Amethystglanzköpfchen",
 	"afrikaans_name": "Swart Suikerbekkie",
 	"genus": "Chalcomitra",
 	"species": "amethystina",
 	"ebird": "https://ebird.org/species/amesun2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Amethyst_sunbird",
 	"red-list": "least-concern"
 },
 			"quantity": 2,
@@ -3271,11 +3277,12 @@
 			"bird": {
 	"name": "Southern Masked Weaver",
 	"family_name": "Weaver",
-	"german_name": null,
+	"german_name": "Maskenweber",
 	"afrikaans_name": "Swartkeelgeelvink",
 	"genus": "Ploceus",
 	"species": "velatus",
 	"ebird": "https://ebird.org/species/afmwea/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Southern_masked_weaver",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-10-18T19_50_21.000Z_shaun",
@@ -3420,11 +3427,12 @@
 			"bird": {
 	"name": "Cape White-eye",
 	"family_name": "White-eye",
-	"german_name": null,
+	"german_name": "Kapbrillenvogel",
 	"afrikaans_name": "Kaapse Glasogie",
 	"genus": "Zosterops",
 	"species": "virens",
 	"ebird": "https://ebird.org/species/capwhe2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_white-eye",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2021-07-18T08_34_44.000Z_tony",
@@ -3725,11 +3733,12 @@
 	},
 	"name": "Spotted Thick-knee",
 	"family_name": "Thick-knee",
-	"german_name": null,
+	"german_name": "Kaptriel",
 	"afrikaans_name": "Gewone Dikkop",
 	"genus": "Burhinus",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/sptkne1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Spotted_thick-knee",
 	"red-list": "least-concern"
 },
 			"quantity": 3,
@@ -4859,11 +4868,12 @@
 			"bird": {
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
-	"german_name": null,
+	"german_name": "Fleckenuhu",
 	"afrikaans_name": "Gevlekte Ooruil",
 	"genus": "Bubo",
 	"species": "africanus",
 	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Spotted_eagle-owl",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2021-03-02T16_59_00.000Z_tony",
@@ -5001,11 +5011,12 @@
 			"bird": {
 	"name": "Karoo Prinia",
 	"family_name": "Prinia",
-	"german_name": null,
+	"german_name": "Fleckenprinie",
 	"afrikaans_name": "Karoolangstertjie",
 	"genus": "Prinia",
 	"species": "maculosa",
 	"ebird": "https://ebird.org/species/karpri1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Karoo_prinia",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-11-05T15_54_52.000Z_shaun",
@@ -5878,11 +5889,12 @@
 	},
 	"name": "Cape Spurfowl",
 	"family_name": "Spurfowl",
-	"german_name": null,
+	"german_name": "Kapfrankolin",
 	"afrikaans_name": "Kaapse Fisant",
 	"genus": "Pternistis",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capfra2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_spurfowl",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -5980,11 +5992,12 @@
 			"bird": {
 	"name": "Great White Pelican",
 	"family_name": "Pelican",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Rosapelikan",
+	"afrikaans_name": "Witpelikaan",
 	"genus": "Pelecanus",
 	"species": "onocrotalus",
 	"ebird": "https://ebird.org/species/grwpel1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Great_white_pelican",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2019-07-13T11:07:14.000Z_mike",
@@ -7201,11 +7214,12 @@
 			"bird": {
 	"name": "Cape Wagtail",
 	"family_name": "Wagtail",
-	"german_name": null,
+	"german_name": "Kapstelze",
 	"afrikaans_name": "Gewone Kwikkie",
 	"genus": "Motacilla",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capwag1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_wagtail",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2017-09-16T12:16:10.000Z_ingunn"

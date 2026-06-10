@@ -10,11 +10,12 @@
 			"bird": {
 	"name": "Olive Woodpecker",
 	"family_name": "Woodpecker",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Goldrückenspecht",
+	"afrikaans_name": "Gryskopspeg",
 	"genus": "Dendropicos",
 	"species": "griseocephalus",
 	"ebird": "https://ebird.org/species/oliwoo2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Olive_woodpecker",
 	"red-list": "least-concern"
 },
 			"quantity": 1,

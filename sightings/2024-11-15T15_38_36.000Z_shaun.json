@@ -6,11 +6,12 @@
 	"bird": {
 	"name": "Amethyst Sunbird",
 	"family_name": "Sunbird",
-	"german_name": null,
+	"german_name": "Amethystglanzköpfchen",
 	"afrikaans_name": "Swart Suikerbekkie",
 	"genus": "Chalcomitra",
 	"species": "amethystina",
 	"ebird": "https://ebird.org/species/amesun2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Amethyst_sunbird",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-11-15T15_38_36.000Z_shaun",

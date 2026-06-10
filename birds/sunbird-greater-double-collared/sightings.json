@@ -10,11 +10,12 @@
 			"bird": {
 	"name": "Greater Double-collared Sunbird",
 	"family_name": "Sunbird",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Großer Halsband-Nektarvogel",
+	"afrikaans_name": "Groot-rooibandsuikerbekkie",
 	"genus": "Cinnyris",
 	"species": "afer",
 	"ebird": "https://ebird.org/species/gdcsun2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Greater_double-collared_sunbird",
 	"red-list": "least-concern"
 },
 			"quantity": 1,

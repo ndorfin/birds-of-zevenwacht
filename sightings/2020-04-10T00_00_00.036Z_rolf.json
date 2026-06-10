@@ -6,11 +6,12 @@
 	"bird": {
 	"name": "Crowned Lapwing",
 	"family_name": "Lapwing",
-	"german_name": null,
+	"german_name": "Kronenkiebitz",
 	"afrikaans_name": "Kroonkiewiet",
 	"genus": "Vanellus",
 	"species": "coronatus",
 	"ebird": "https://ebird.org/species/crolap1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Crowned_lapwing",
 	"red-list": "least-concern"
 },
 	"quantity": 1,

@@ -845,11 +845,12 @@
 			"bird": {
 	"name": "Greater Striped Swallow",
 	"family_name": "Swallow",
-	"german_name": null,
+	"german_name": "Große Streifenschwalbe",
 	"afrikaans_name": "Grootstreepswael",
 	"genus": "Cecropis",
 	"species": "cucullata",
 	"ebird": "https://ebird.org/species/grests1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Greater_striped_swallow",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-11-25T14_58_28.000Z_shaun",
@@ -1518,11 +1519,12 @@
 			"bird": {
 	"name": "Spotted Thick-knee",
 	"family_name": "Thick-knee",
-	"german_name": null,
+	"german_name": "Kaptriel",
 	"afrikaans_name": "Gewone Dikkop",
 	"genus": "Burhinus",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/sptkne1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Spotted_thick-knee",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-09-14T00_50_22.000Z_shaun",
@@ -1783,11 +1785,12 @@
 			"bird": {
 	"name": "Speckled Mousebird",
 	"family_name": "Mousebird",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Braunflügel-Mausvogel",
+	"afrikaans_name": "Gevlekte Muisvoël",
 	"genus": "Colius",
 	"species": "striatus",
 	"ebird": "https://ebird.org/species/spemou2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Speckled_mousebird",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -2995,11 +2998,12 @@
 			"bird": {
 	"name": "Cape Wagtail",
 	"family_name": "Wagtail",
-	"german_name": null,
+	"german_name": "Kapstelze",
 	"afrikaans_name": "Gewone Kwikkie",
 	"genus": "Motacilla",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capwag1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_wagtail",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2017-09-16T12:16:10.000Z_ingunn"
@@ -3260,11 +3264,12 @@
 			"bird": {
 	"name": "Greater Double-collared Sunbird",
 	"family_name": "Sunbird",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Großer Halsband-Nektarvogel",
+	"afrikaans_name": "Groot-rooibandsuikerbekkie",
 	"genus": "Cinnyris",
 	"species": "afer",
 	"ebird": "https://ebird.org/species/gdcsun2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Greater_double-collared_sunbird",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -3523,11 +3528,12 @@
 			"bird": {
 	"name": "Olive Woodpecker",
 	"family_name": "Woodpecker",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Goldrückenspecht",
+	"afrikaans_name": "Gryskopspeg",
 	"genus": "Dendropicos",
 	"species": "griseocephalus",
 	"ebird": "https://ebird.org/species/oliwoo2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Olive_woodpecker",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -4060,20 +4066,13 @@
 			"bird": {
 	"name": "Rufous-breasted Sparrowhawk",
 	"family_name": "Sparrowhawk",
-	"german_name": null,
+	"german_name": "Rotbauchsperber",
 	"afrikaans_name": "Rooiborssperwer",
 	"genus": "Accipiter",
 	"species": "rufiventris",
 	"ebird": "https://ebird.org/species/rucspa2/ZA",
-	"red-list": "least-concern",
-	"size": {
-		"min": 300,
-		"max": 380
-	},
-	"weight": {
-		"min": 105,
-		"max": 210
-	}
+	"wikipedia": "https://en.wikipedia.org/wiki/Rufous-breasted_sparrowhawk",
+	"red-list": "least-concern"
 },
 			"quantity": 1,
 			"location": {
@@ -4327,11 +4326,12 @@
 			"bird": {
 	"name": "Cardinal Woodpecker",
 	"family_name": "Woodpecker",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Kardinalspecht",
+	"afrikaans_name": "Kardinaalspeg",
 	"genus": "Dendropicos",
 	"species": "fuscescens",
 	"ebird": "https://ebird.org/species/carwoo1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cardinal_woodpecker",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -5542,11 +5542,12 @@
 			"bird": {
 	"name": "Southern Grey-headed Sparrow",
 	"family_name": "Sparrow",
-	"german_name": null,
+	"german_name": "Graukopfsperling",
 	"afrikaans_name": "Gryskopmossie",
 	"genus": "Passer",
 	"species": "diffusus",
 	"ebird": "https://ebird.org/species/sghspa2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Southern_grey-headed_sparrow",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-12-19T11:30:26.000Z_shaun",
@@ -6221,11 +6222,12 @@
 			"bird": {
 	"name": "Little Sparrowhawk",
 	"family_name": "Sparrowhawk",
-	"german_name": null,
-	"afrikaans_name": null,
+	"german_name": "Zwergsperber",
+	"afrikaans_name": "Kleinsperwer",
 	"genus": "Tachyspiza",
 	"species": "minulla",
 	"ebird": "https://ebird.org/species/litspa1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Little_sparrowhawk",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -6350,11 +6352,12 @@
 			"bird": {
 	"name": "Fiery-necked Nightjar",
 	"family_name": "Nightjar",
-	"german_name": null,
+	"german_name": "Pfeifnachtschwalbe",
 	"afrikaans_name": "Afrikaanse Naguil",
 	"genus": "Caprimulgus",
 	"species": "pectoralis",
 	"ebird": "https://ebird.org/species/finnig1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Fiery-necked_nightjar",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -6612,11 +6615,12 @@
 			"bird": {
 	"name": "Blacksmith Lapwing",
 	"family_name": "Lapwing",
-	"german_name": null,
+	"german_name": "Schmiedekiebitz",
 	"afrikaans_name": "Bontkiewiet",
 	"genus": "Vanellus",
 	"species": "armatus",
 	"ebird": "https://ebird.org/species/blaplo1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Blacksmith_lapwing",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-09-24T01_57_28.000Z_shaun",
@@ -6747,11 +6751,12 @@
 			"bird": {
 	"name": "Crowned Lapwing",
 	"family_name": "Lapwing",
-	"german_name": null,
+	"german_name": "Kronenkiebitz",
 	"afrikaans_name": "Kroonkiewiet",
 	"genus": "Vanellus",
 	"species": "coronatus",
 	"ebird": "https://ebird.org/species/crolap1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Crowned_lapwing",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -7012,11 +7017,12 @@
 			"bird": {
 	"name": "Karoo Prinia",
 	"family_name": "Prinia",
-	"german_name": null,
+	"german_name": "Fleckenprinie",
 	"afrikaans_name": "Karoolangstertjie",
 	"genus": "Prinia",
 	"species": "maculosa",
 	"ebird": "https://ebird.org/species/karpri1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Karoo_prinia",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-11-05T15_54_52.000Z_shaun",
@@ -7827,11 +7833,12 @@
 			"bird": {
 	"name": "Amethyst Sunbird",
 	"family_name": "Sunbird",
-	"german_name": null,
+	"german_name": "Amethystglanzköpfchen",
 	"afrikaans_name": "Swart Suikerbekkie",
 	"genus": "Chalcomitra",
 	"species": "amethystina",
 	"ebird": "https://ebird.org/species/amesun2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Amethyst_sunbird",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-11-15T15_38_36.000Z_shaun",
@@ -8234,11 +8241,12 @@
 			"bird": {
 	"name": "Spotted Eagle-Owl",
 	"family_name": "Owl",
-	"german_name": null,
+	"german_name": "Fleckenuhu",
 	"afrikaans_name": "Gevlekte Ooruil",
 	"genus": "Bubo",
 	"species": "africanus",
 	"ebird": "https://ebird.org/species/spoeao2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Spotted_eagle-owl",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2021-03-02T16_59_00.000Z_tony",
@@ -8502,11 +8510,12 @@
 			"bird": {
 	"name": "Cape Robin-Chat",
 	"family_name": "Robin-Chat",
-	"german_name": null,
+	"german_name": "Kaprötel",
 	"afrikaans_name": "Gewone Janfrederik",
 	"genus": "Dessonornis",
 	"species": "caffer",
 	"ebird": "https://ebird.org/species/carcha1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_robin-chat",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2022-04-03T11_10_54.000Z_tony",
@@ -8647,16 +8656,7 @@
 	"photo": {
 		"id": "2025-10-21T16:07:46.000Z_shaun",
 		"tx": "20%",
-		"ty": 0,
 		"scale": 3
-	},
-	"size": {
-		"min": 110,
-		"max": 110
-	},
-	"weight": {
-		"min": 7,
-		"max": 10
 	}
 },
 			"quantity": 1,
@@ -8781,11 +8781,12 @@
 			"bird": {
 	"name": "Pin-tailed Whydah",
 	"family_name": "Whydah",
-	"german_name": null,
+	"german_name": "Dominikanerwitwe",
 	"afrikaans_name": "Koningrooibekkie",
 	"genus": "Vidua",
 	"species": "macroura",
 	"ebird": "https://ebird.org/species/pitwhy/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Pin-tailed_whydah",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-12-24T10:58:21.000Z_shaun",
@@ -8916,11 +8917,12 @@
 			"bird": {
 	"name": "Southern Masked Weaver",
 	"family_name": "Weaver",
-	"german_name": null,
+	"german_name": "Maskenweber",
 	"afrikaans_name": "Swartkeelgeelvink",
 	"genus": "Ploceus",
 	"species": "velatus",
 	"ebird": "https://ebird.org/species/afmwea/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Southern_masked_weaver",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-10-18T19_50_21.000Z_shaun",
@@ -9187,11 +9189,12 @@
 			"bird": {
 	"name": "Cape Sparrow",
 	"family_name": "Sparrow",
-	"german_name": null,
+	"german_name": "Kapsperling",
 	"afrikaans_name": "Gewone Mossie",
 	"genus": "Passer",
 	"species": "melanurus",
 	"ebird": "https://ebird.org/species/capspa1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_sparrow",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-08-29T20_19_50.000Z_shaun",
@@ -9322,11 +9325,12 @@
 			"bird": {
 	"name": "Southern Double-collared Sunbird",
 	"family_name": "Sunbird",
-	"german_name": null,
+	"german_name": "Halsbandnektarvogel",
 	"afrikaans_name": "Klein-rooibandsuikerbekkie",
 	"genus": "Cinnyris",
 	"species": "chalybeus",
 	"ebird": "https://ebird.org/species/sdcsun3/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Southern_double-collared_sunbird",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-09-03T19_29_47.000Z_shaun",
@@ -9593,11 +9597,12 @@
 			"bird": {
 	"name": "Common Starling",
 	"family_name": "Starling",
-	"german_name": null,
+	"german_name": "Europäischer Star",
 	"afrikaans_name": "Europese Spreeu",
 	"genus": "Sturnus",
 	"species": "Vulgaris",
 	"ebird": "https://ebird.org/species/eursta/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Common_starling",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-11-05T16_19_40.000Z_shaun",
@@ -9864,11 +9869,12 @@
 			"bird": {
 	"name": "Cape White-eye",
 	"family_name": "White-eye",
-	"german_name": null,
+	"german_name": "Kapbrillenvogel",
 	"afrikaans_name": "Kaapse Glasogie",
 	"genus": "Zosterops",
 	"species": "virens",
 	"ebird": "https://ebird.org/species/capwhe2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_white-eye",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2021-07-18T08_34_44.000Z_tony",
@@ -10950,11 +10956,12 @@
 			"bird": {
 	"name": "White-backed Mousebird",
 	"family_name": "Mousebird",
-	"german_name": null,
+	"german_name": "Weißrücken-Mausvogel",
 	"afrikaans_name": "Witkruismuisvoël",
 	"genus": "Colius",
 	"species": "colius",
 	"ebird": "https://ebird.org/species/whbmou1/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/White-backed_mousebird",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2020-08-21T11_43_13.000Z_tony",
@@ -11493,11 +11500,12 @@
 			"bird": {
 	"name": "Cape Spurfowl",
 	"family_name": "Spurfowl",
-	"german_name": null,
+	"german_name": "Kapfrankolin",
 	"afrikaans_name": "Kaapse Fisant",
 	"genus": "Pternistis",
 	"species": "capensis",
 	"ebird": "https://ebird.org/species/capfra2/ZA",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_spurfowl",
 	"red-list": "least-concern",
 	"photo": {
 		"id": "2024-12-13T14_14_59.000Z_shaun",
