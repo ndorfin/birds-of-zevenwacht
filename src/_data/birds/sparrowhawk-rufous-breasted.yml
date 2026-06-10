@@ -1,16 +1,11 @@
 name: Rufous-breasted Sparrowhawk
 family_name: Sparrowhawk
-german_name: 
+german_name: Rotbauchsperber
 afrikaans_name: Rooiborssperwer
 genus: Accipiter
 species: rufiventris
 ebird: https://ebird.org/species/rucspa2/ZA
+wikipedia: https://en.wikipedia.org/wiki/Rufous-breasted_sparrowhawk
 red-list: least-concern
 # photo:
 #   id: 
-size:
-  min: 300
-  max: 380
-weight:
-  min: 105
-  max: 210

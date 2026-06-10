@@ -1,9 +1,10 @@
 name: Common Quail
 family_name: Quail
-afrikaans_name: 
-german_name: 
+afrikaans_name: Afrikaanse kwartel
+german_name: Wachtel
 genus: Coturnix
 species: coturnix
 ebird: https://ebird.org/species/comqua1/ZA
+wikipedia: https://en.wikipedia.org/wiki/Common_quail
 red-list: least-concern
 hidden: true
