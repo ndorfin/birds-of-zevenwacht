@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 756A1371-CDB8-49AC-AD90-ECF48627F0B6_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-07-24T15:48:06.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A Cape Wagtail perched on the roof of one of the Country Estate houses, calling
+# List each of the bird IDs present in this photo
+birds:
+  - wagtail-cape
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-country-estate
+  latitude: -33.93588727
+  longitude: 18.71590229

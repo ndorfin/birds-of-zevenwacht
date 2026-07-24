@@ -1,0 +1,16 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: D95A36E4-94A4-4C1E-A35D-9FCD05F3200D_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-07-24T15:35:13.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: A male Red Bishop all puffed up and looking for a mate
+# List each of the bird IDs present in this photo
+birds:
+  - bishop-southern-red
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.935832
+  longitude: 18.715247

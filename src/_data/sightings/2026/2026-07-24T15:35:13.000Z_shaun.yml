@@ -1,0 +1,22 @@
+# Add an ISO8601 date
+# 2024-09-04T14:23:59Z 
+datetime: 2026-07-24T15:35:13.000Z
+# Add a description of this sighting. What was significant about it? Did you observe any interesting behaviour?
+description: |-
+  Some of the male Red Bishops have started switching to their breeding plumage, and there was much activity amongst the reeds on the Eastern bank of the lower Lifestyle Estate dam.
+bird:
+  # Supply a matching Bird ID
+  id: bishop-southern-red
+  # How many individuals did you spot?
+  quantity: 15-20
+# Link this Sighting to a Photo, by its ID
+photos: 
+  - 2026-07-24T15:35:13.000Z_shaun
+# Include all the people that spotted this bird.
+observers:
+  - shaun
+  - ingunn
+location:
+  area: zevenwacht-lifestyle-estate
+  latitude: -33.935832
+  longitude: 18.715247

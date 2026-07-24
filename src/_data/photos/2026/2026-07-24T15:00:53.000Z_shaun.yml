@@ -1,0 +1,14 @@
+# What is the filename of this photo (in the /assets/photos folder)
+file: 0BDBA2D9-9136-41E0-8CC1-ED069B898622_1_201_a.jpeg
+# Link this Photo to a Sighting, by providing the Sighting ID:
+# 2024-09-04T14_23
+sighting: 2026-07-24T15:00:53.000Z_shaun
+# Describe this image, as if you were explaining it over the phone
+description: An adult Yellow-billed Duck keeps watch over its new brood, cowering under an overhanging tree
+# List each of the bird IDs present in this photo
+birds:
+  - duck-yellow-billed
+# Link this photo to a photographer (matching a file in the _data/people folder)
+photographer: shaun
+location:
+  area: zevenwacht-village
