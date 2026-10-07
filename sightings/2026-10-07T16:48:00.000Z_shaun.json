@@ -1,13 +1,9 @@
 
+
 [
-	
-		
-		
-		{
-			"id": "2026-10-07T16:48:00.000Z_shaun",
-			"datetime": "2026-10-07T16:48:00.000Z",
-			"birdId": "duck-white-backed",
-			"bird": {
+{
+	"datetime": "2026-10-07T16:48:00.000Z",
+	"bird": {
 	"name": "White-backed Duck",
 	"family_name": "Duck",
 	"german_name": "Weißrücken-Pfeifgans",
@@ -18,10 +14,10 @@
 	"wikipedia": "https://en.wikipedia.org/wiki/White-backed_duck",
 	"red-list": "least-concern"
 },
-			"quantity": 1,
-			"location": {
-				"areaId": "zevenwacht-wine-estate",
-				"area": {
+	"quantity": 1,
+	"location": {
+		"areaId": "zevenwacht-wine-estate",
+		"area": {
 	"name": "Zevenwacht Wine Estate",
 	"address": {
 		"street": "Langverwacht Road",
@@ -155,32 +151,32 @@
 	],
 	"website": "https://zevenwacht.co.za/"
 },
-				"latitude": 
-				
-					-33.92176,
-				
-				"longitude":
-				
-					18.713424
-				
-			},
-			"observers": [
-				
-					
-					{
+		"latitude": 
+		
+			-33.92176,
+		
+		"longitude":
+		
+			18.713424
+		
+	},
+	
+	"observers": [
+		
+			
+			{
 	"name": "Shaun",
 	"full-name": "Shaun O'Connell",
 	"email": "shaun@tactile.co.za"
 }
-				
-					,
-					{
+		
+			,
+			{
 	"name": "Ingunn",
 	"full-name": "Ingunn O'Connell",
 	"email": "groingunn@gmail.com"
 }
-				
-			]
-		}
-	
+		
+	]
+}
 ]

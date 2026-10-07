@@ -4,18 +4,18 @@
 		
 		
 		{
-			"id": "2026-10-07T16:48:00.000Z_shaun",
-			"datetime": "2026-10-07T16:48:00.000Z",
-			"birdId": "duck-white-backed",
+			"id": "2026-10-07T16:13:00.000Z_shaun",
+			"datetime": "2026-10-07T16:13:00.000Z",
+			"birdId": "lark-cape-clapper",
 			"bird": {
-	"name": "White-backed Duck",
-	"family_name": "Duck",
-	"german_name": "Weißrücken-Pfeifgans",
-	"afrikaans_name": "Witrugeend",
-	"genus": "Thalassornis",
-	"species": "leuconotus",
-	"ebird": "https://ebird.org/species/whbduc1/ZA",
-	"wikipedia": "https://en.wikipedia.org/wiki/White-backed_duck",
+	"name": "Cape Clapper Lark",
+	"family_name": "Lark",
+	"afrikaans_name": "Kaapse klappertjie",
+	"german_name": "Kap-Grasklapperlerche",
+	"genus": "Corypha",
+	"species": "apiata",
+	"ebird": "https://ebird.org/species/caclar1/ZA-WC",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cape_clapper_lark",
 	"red-list": "least-concern"
 },
 			"quantity": 1,
@@ -157,11 +157,11 @@
 },
 				"latitude": 
 				
-					-33.92176,
+					-33.921574,
 				
 				"longitude":
 				
-					18.713424
+					18.717921
 				
 			},
 			"observers": [
